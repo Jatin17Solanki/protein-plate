@@ -1,0 +1,207 @@
+{
+  "id": "healthy-nachos",
+  "title": "Healthy Nachos with Cheesy Paneer Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcbDhOqz_Hi/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#73"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "tortilla_whole_wheat"
+  ],
+  "tags": [
+    "global",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 513,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 513
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "wholewheat tortilla (or 1 big chapati)",
+      "ingredient_id": "tortilla_whole_wheat",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 tortilla (wholewheat)"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Spray oil"
+    },
+    {
+      "item": "salt and pepper (nachos)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt and pepper"
+    },
+    {
+      "item": "pepper (nachos)",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt and pepper"
+    },
+    {
+      "item": "avocado (guacamole, optional)",
+      "ingredient_id": "avocado",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "optional": true,
+      "as_written": "1/2 an avocado"
+    },
+    {
+      "item": "tomato (guacamole)",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "tomato"
+    },
+    {
+      "item": "onion (guacamole)",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "onion"
+    },
+    {
+      "item": "coriander (guacamole)",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "coriander"
+    },
+    {
+      "item": "lemon juice (guacamole)",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "lemon juice"
+    },
+    {
+      "item": "mixed herbs (guacamole)",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "optional": true,
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "onion, chopped (salsa)",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 chopped onion"
+    },
+    {
+      "item": "tomato (salsa)",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tomato"
+    },
+    {
+      "item": "ketchup (salsa)",
+      "ingredient_id": "ketchup",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "ketchup"
+    },
+    {
+      "item": "low-fat paneer (cheesy dip)",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "Greek yogurt (cheesy dip)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 60,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "60g greek yogurt"
+    },
+    {
+      "item": "dried red chillies, soaked (cheesy dip)",
+      "ingredient_id": "dried_red_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "soaked dried red chillies"
+    }
+  ],
+  "steps": [
+    "Nachos: take 1 tortilla (wholewheat) / 1 big chapati. Cut it into triangles.",
+    "Spray oil, add salt and pepper.",
+    "Airfry at 160 degrees for 8-10 mins (keep checking and flipping midway) or bake at 180 for 8-10 mins (make sure to preheat oven).",
+    "Let it sit for 5 mins and enjoy your crispy nachos!",
+    "Guacamole (optional): mash 1/2 an avocado with tomato, onion and coriander.",
+    "Add lemon juice, salt, pepper and mixed herbs.",
+    "Salsa: add 1/2 chopped onion, 1 tomato, and lemon juice to a handchopper.",
+    "Also add ketchup, salt and pepper and then grind it all well.",
+    "Cheesy dip: blend 100g low fat paneer, 60g greek yogurt, soaked dried red chillies and salt until creamy (Refrigerate for 10 mins).",
+    "Assemble and enjoy."
+  ],
+  "assumptions": [
+    "Tortilla or chapati is listed as tortilla.",
+    "Title from the caption's keywords (the post has no title).",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

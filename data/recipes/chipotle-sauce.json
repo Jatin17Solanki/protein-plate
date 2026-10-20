@@ -1,0 +1,59 @@
+{
+  "id": "chipotle-sauce",
+  "title": "Chipotle Sauce",
+  "source": {
+    "url": "https://www.instagram.com/p/C8bV56bo7yT/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#80"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [],
+  "tags": [
+    "sauce_dip",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Title from the batch file."
+  ],
+  "missing": [
+    "Ingredients and quantities (no caption saved)",
+    "Method"
+  ],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Ingredients and quantities (no caption saved); Method"
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

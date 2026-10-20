@@ -1,0 +1,180 @@
+{
+  "id": "rajasthani-malai-pyaaz",
+  "title": "Rajasthani Malai Pyaaz",
+  "source": {
+    "url": "https://www.instagram.com/p/Ddqyzz4zBzS/",
+    "platform": "instagram",
+    "creator": "cookwithpoonamofficial",
+    "creator_url": "https://www.instagram.com/cookwithpoonamofficial/",
+    "ref": "batches/2026-10-16-batch1.txt#29"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 600,
+    "carbs_g": 23,
+    "fat_g": 40,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "entire dish (servings not stated)",
+    "protein_g": 40,
+    "kcal": 600,
+    "carbs_g": 23,
+    "fat_g": 40
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp mustard oil"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "onion, cubed",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 whole onion, chopped into cubes"
+    },
+    {
+      "item": "green chillies, slit",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 slit green chillies"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger garlic paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "low-fat paneer (blended with the water)",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 180,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "180g low-fat paneer blended with 150ml water"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "180g low-fat paneer blended with 150ml water"
+    },
+    {
+      "item": "amchur powder",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp amchur powder"
+    },
+    {
+      "item": "kasuri methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1 handful fresh coriander"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat, add 2 tbsp mustard oil, 1 tsp cumin seeds, 1 whole onion, chopped into cubes, 2 slit green chillies, 1 tbsp ginger garlic paste.",
+    "Let it cook for around 3 minutes, or until the onions start to brown.",
+    "Now add: 1 tsp salt, ½ tsp turmeric, 1 tbsp Kashmiri red chilli powder, 1 tsp coriander powder.",
+    "Mix everything well.",
+    "Next, add 180g low-fat paneer blended with 150ml water.",
+    "Add 1 tsp amchur powder, 1 tsp kasuri methi, 1 handful fresh coriander.",
+    "Give it a final mix and let it cook for another 2 minutes.",
+    "And it’s ready to serve!"
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"entire dish (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

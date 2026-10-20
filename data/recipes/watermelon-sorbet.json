@@ -1,0 +1,80 @@
+{
+  "id": "watermelon-sorbet",
+  "title": "Watermelon Coconut Sorbet",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbNsFc3MFXv/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#70"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "coconut_milk"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "watermelon",
+      "ingredient_id": "watermelon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Watermelon"
+    },
+    {
+      "item": "coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp Coconut Milk"
+    }
+  ],
+  "steps": [
+    "Cut the watermelon in half and scoop a hole in the center.",
+    "Freeze for 24 hours or until completely frozen.",
+    "Pour chilled coconut milk into the center.",
+    "Scrape the frozen fruit with a spoon until it turns creamy.",
+    "Mix well, scoop, and enjoy!"
+  ],
+  "assumptions": [
+    "The creator says it also works with mango, muskmelon, dragon fruit and pineapple.",
+    "Not a protein recipe; kept because it is in the dessert section (the creator calls it a fruit ice cream).",
+    "Meal type is our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

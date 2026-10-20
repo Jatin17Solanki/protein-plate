@@ -1,0 +1,189 @@
+{
+  "id": "palak-papdi-chaat",
+  "title": "Palak Papdi Chaat",
+  "source": {
+    "url": "https://www.instagram.com/reel/DW1FHEbDLkg/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#52"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "chaat",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 18,
+    "kcal": 298,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 18,
+    "kcal": 298
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "spinach leaves",
+      "ingredient_id": "spinach",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8-10 spinach leaves"
+    },
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/4 cup besan"
+    },
+    {
+      "item": "haldi",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp haldi"
+    },
+    {
+      "item": "chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp garam masala"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water (to make batter)"
+    },
+    {
+      "item": "Greek yogurt or skyr (topping)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 90,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "90g Greek Yogurt/skyr"
+    },
+    {
+      "item": "moong sprouts (topping)",
+      "ingredient_id": "sprouts",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "¼ cup sprouts (moong)"
+    },
+    {
+      "item": "onions, chopped (topping)",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped onions"
+    },
+    {
+      "item": "pomegranate seeds (topping)",
+      "ingredient_id": "pomegranate",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp pomegranate seeds"
+    },
+    {
+      "item": "green chutney (topping)",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp green chutney"
+    },
+    {
+      "item": "imli chutney (topping)",
+      "ingredient_id": "imli_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp imli chutney"
+    }
+  ],
+  "steps": [
+    "Prep the palak: wash the spinach leaves thoroughly and pat them completely dry.",
+    "Make the batter: mix besan, haldi, chilli powder, coriander powder, garam masala, cumin powder, salt and water to form a smooth, slightly thick batter.",
+    "Coat the leaves: dip and coat each spinach leaf evenly in the batter.",
+    "Air fry: air fry at 180°C for 8–10 minutes until crispy.",
+    "Assemble: break the crispy palak leaves into bite-sized pieces in a bowl.",
+    "Add toppings: top with Greek yoghurt, sprouts, onions, pomegranate, green chutney and mithi chutney.",
+    "Serve: serve immediately while the palak is still crisp."
+  ],
+  "assumptions": [
+    "Greek yogurt or skyr is listed as Greek yogurt."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

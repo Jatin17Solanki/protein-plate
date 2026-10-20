@@ -1,0 +1,147 @@
+{
+  "id": "tempeh-avocado-toast",
+  "title": "Tempeh Avocado Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaP7Ox8s-5m/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#45"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [
+    "bread_protein"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "global",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 28,
+    "kcal": 435,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 1)",
+    "protein_g": 28,
+    "kcal": 435
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "avocado",
+      "ingredient_id": "avocado",
+      "qty": 70,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "70g avocado"
+    },
+    {
+      "item": "double protein bread",
+      "ingredient_id": "bread_protein",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices Double Protein Bread (am using Health Factory)"
+    },
+    {
+      "item": "tempeh crumbles",
+      "ingredient_id": "tempeh",
+      "qty": 65,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "65g Tempeh Crumbles (using hello tempayy)"
+    },
+    {
+      "item": "onion (small), finely chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small onion, finely chopped"
+    },
+    {
+      "item": "tomato (small), finely chopped",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small tomato, finely chopped"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper, chilli flakes & oregano to taste"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper, chilli flakes & oregano to taste"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper, chilli flakes & oregano to taste"
+    },
+    {
+      "item": "sunflower or pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "(Optional) 1 tsp sunflower or pumpkin seeds"
+    }
+  ],
+  "steps": [
+    "Toast the protein bread until golden and crisp.",
+    "Cook the Hello Tempayy Crumbles in a non-stick pan for 2–3 minutes.",
+    "Mash the avocado with salt, black pepper, chilli flakes and oregano.",
+    "Spread the avocado mixture evenly over the toasted bread.",
+    "Top with the cooked Tempayy Crumbles, chopped onion and tomato.",
+    "Sprinkle more chilli flakes & oregano. Add sunflower or pumpkin seeds for extra crunch if using.",
+    "Enjoy your High-Protein Tempeh Avocado Toast!"
+  ],
+  "assumptions": [
+    "Creator also states 20 g fibre.",
+    "Quick: about 10 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

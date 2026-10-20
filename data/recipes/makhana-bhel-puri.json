@@ -1,0 +1,173 @@
+{
+  "id": "makhana-bhel-puri",
+  "title": "Makhana Bhel Puri",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZUuq_FTJoI/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#48"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "makhana"
+  ],
+  "tags": [
+    "chaat"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 16.5,
+    "kcal": 270,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 16.5,
+    "kcal": 270
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "makhana",
+      "ingredient_id": "makhana",
+      "qty": 15,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "15g makhana"
+    },
+    {
+      "item": "boiled kala chana",
+      "ingredient_id": "kala_chana",
+      "qty": 60,
+      "unit": "g",
+      "grams": 24,
+      "type": "protein",
+      "as_written": "60g boiled kala chana"
+    },
+    {
+      "item": "onion, finely chopped",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ onion, finely chopped"
+    },
+    {
+      "item": "tomato, finely chopped",
+      "ingredient_id": "tomato",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ tomato, finely chopped"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp green chutney"
+    },
+    {
+      "item": "imli chutney",
+      "ingredient_id": "imli_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "½ tbsp imli chutney (made with 0 cal sweetner)"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g skyr ( high protein greek yogurt)"
+    },
+    {
+      "item": "crushed peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp crushed peanuts"
+    },
+    {
+      "item": "baked sev",
+      "ingredient_id": "sev",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp baked sev"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Chaat masala, roasted jeera powder & salt to taste"
+    },
+    {
+      "item": "roasted jeera powder",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Chaat masala, roasted jeera powder & salt to taste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Chaat masala, roasted jeera powder & salt to taste"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon juice"
+    }
+  ],
+  "steps": [
+    "Dry roast the makhana for 2-3 minutes and lightly crush them with your hands.",
+    "In a bowl, add boiled kala chana, onion, tomato and the roasted makhana.",
+    "Add green chutney mixed with skyr, imli chutney, chaat masala, roasted jeera powder, salt and a squeeze of lemon.",
+    "Mix everything really well until coated.",
+    "Top it with crushed peanuts and baked sev.",
+    "Finish with a little extra chaat masala and enjoy immediately!"
+  ],
+  "assumptions": [
+    "Skyr ('high protein greek yogurt') is listed as skyr."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

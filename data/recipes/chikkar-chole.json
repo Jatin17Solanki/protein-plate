@@ -1,0 +1,252 @@
+{
+  "id": "chikkar-chole",
+  "title": "Chikkar Chole",
+  "source": {
+    "url": "https://www.instagram.com/p/DcyEpdRzHtu/",
+    "platform": "instagram",
+    "creator": "aathirasethumadhavan",
+    "creator_url": "https://www.instagram.com/aathirasethumadhavan/",
+    "ref": "batches/2026-10-16-batch1.txt#31"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 496,
+    "carbs_g": 68,
+    "fat_g": 17,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 3)",
+    "protein_g": 21,
+    "kcal": 496,
+    "carbs_g": 68,
+    "fat_g": 17
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "dried chickpeas (kabuli chana)",
+      "ingredient_id": "chickpeas",
+      "qty": 250,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "250g dried chickpeas (kabuli chana)"
+    },
+    {
+      "item": "potato (medium)",
+      "ingredient_id": "potato",
+      "qty": 1,
+      "unit": "piece",
+      "grams": 150,
+      "type": "produce",
+      "as_written": "1 medium potato (150g), cut in half"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Enough water to cover"
+    },
+    {
+      "item": "high-protein Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g high-protein Greek yogurt"
+    },
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1½ tbsp mustard oil"
+    },
+    {
+      "item": "onions, finely chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "grams": 200,
+      "type": "produce",
+      "as_written": "2 finely chopped onions (200g)"
+    },
+    {
+      "item": "ginger, finely chopped",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "grams": 15,
+      "type": "produce",
+      "as_written": "1 inch finely chopped ginger (15g)"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 chopped green chillies"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp coriander powder"
+    },
+    {
+      "item": "chana masala",
+      "ingredient_id": "chana_masala",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp chana masala"
+    },
+    {
+      "item": "brown sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp brown sugar"
+    },
+    {
+      "item": "salt (gravy)",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "ghee (tadka)",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "green chillies, slit (tadka)",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 slit green chillies"
+    },
+    {
+      "item": "ginger juliennes (tadka)",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "grams": 8,
+      "type": "produce",
+      "as_written": "Ginger juliennes (8g)"
+    },
+    {
+      "item": "kasuri methi (tadka)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    },
+    {
+      "item": "hing (tadka)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of hing"
+    },
+    {
+      "item": "fresh coriander (garnish)",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "fresh coriander"
+    }
+  ],
+  "steps": [
+    "Soak 250g dried chickpeas (kabuli chana) overnight (8 hours). Drain and rinse well.",
+    "To a pressure cooker add: the soaked chickpeas, 1 medium potato (150g), cut in half, 1 bay leaf, 1 tsp salt, enough water to cover.",
+    "Pressure cook for 4-5 whistles on high heat, then bring the flame to low and cook for another 5 minutes. If you have an electric pressure cooker, 20 minutes will do (even if you’re using canned chickpeas).",
+    "Now to a blender add: the cooked potato, 1 tbsp cooked chickpeas, 80g high-protein Greek yogurt, a splash of the cooker water.",
+    "Blend until smooth and set it aside.",
+    "To a pan on medium heat add: 1½ tbsp mustard oil, 2 finely chopped onions (200g), 1 inch finely chopped ginger (15g), 2 chopped green chillies.",
+    "Cook until the onions turn golden brown (took me like 3 minutes).",
+    "Now add: ½ tsp turmeric, 1 tsp red chilli powder, 2 tsp coriander powder, 1 tbsp chana masala. Mix well.",
+    "Pour in the yogurt and potato mixture and cook for 3 minutes.",
+    "Now add the cooked chickpeas along with some of the cooking liquid.",
+    "Add: 1 tsp brown sugar, ½ tsp salt.",
+    "Mix well and let it simmer for a few minutes until the gravy becomes thick and slightly mushy. (It took me about 15 minutes.)",
+    "For the tadka, heat: 1 tbsp ghee. Add 2 slit green chillies, ginger juliennes (8g), 1 tsp kasuri methi, pinch of hing.",
+    "Let it sizzle, then pour the tadka over the chole.",
+    "Garnish with fresh coriander and your Chikkar Chole is ready!"
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

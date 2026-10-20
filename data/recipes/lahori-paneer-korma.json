@@ -1,0 +1,204 @@
+{
+  "id": "lahori-paneer-korma",
+  "title": "Lahori Paneer Korma",
+  "source": {
+    "url": "https://www.instagram.com/p/DbXKnKGztvQ/",
+    "platform": "instagram",
+    "creator": "poojashomestylecooking",
+    "creator_url": "https://www.instagram.com/poojashomestylecooking/",
+    "ref": "batches/2026-10-16-batch1.txt#33"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "cashews"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 19,
+    "kcal": 383,
+    "carbs_g": 21,
+    "fat_g": 27,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 3)",
+    "protein_g": 19,
+    "kcal": 383,
+    "carbs_g": 21,
+    "fat_g": 27
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "low-fat paneer, sliced",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat paneer"
+    },
+    {
+      "item": "ghee (to fry the paneer)",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1/2 tbsp ghee"
+    },
+    {
+      "item": "fried onions",
+      "ingredient_id": "onion",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g fried onions"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 50,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "50g cashews"
+    },
+    {
+      "item": "yogurt (curd)",
+      "ingredient_id": "curd",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g yogurt"
+    },
+    {
+      "item": "ghee (gravy)",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "tomato purée",
+      "ingredient_id": "tomato",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g tomato purée"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger-garlic paste"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp turmeric powder"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 250,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "250ml water"
+    },
+    {
+      "item": "kasuri methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of coriander leaves"
+    }
+  ],
+  "steps": [
+    "Start by cutting 200g low fat paneer into long slices.",
+    "Heat a 1/2 tbsp ghee in a pan and pan-fry the slices until they’re golden brown on both sides.",
+    "For the gravy, to a blender add 50g fried onions, 50g cashews, 50g yogurt and blend everything into a smooth paste.",
+    "Now heat 1 tbsp ghee in a pan.",
+    "Add 1 tsp cumin seeds, let it splutter.",
+    "Add 200g tomato purée, 1 tsp ginger-garlic paste and cook for 2 minutes.",
+    "Then add the prepared paste (from the blender), 1/2 tsp turmeric powder, 1 tsp red chilli powder, 1 tsp coriander powder, 1 tsp garam masala, 1 tsp salt.",
+    "Mix everything well.",
+    "Pour in 250ml water, let the gravy cook for 5 min.",
+    "Now, add the paneer, 1 tsp kasuri methi, handful of coriander leaves and let everything cook for 2 mins. (If it’s too thick add more water)",
+    "That’s it! it’s ready to serve."
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

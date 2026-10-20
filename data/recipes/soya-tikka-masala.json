@@ -1,0 +1,311 @@
+{
+  "id": "soya-tikka-masala",
+  "title": "Soya Tikka Masala",
+  "source": {
+    "url": "https://www.instagram.com/p/DeQcyfDzpZ7/",
+    "platform": "instagram",
+    "creator": "cookwithpoonamofficial",
+    "creator_url": "https://www.instagram.com/cookwithpoonamofficial/",
+    "ref": "batches/2026-10-16-batch1.txt#28"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 41,
+    "kcal": 652,
+    "carbs_g": 58,
+    "fat_g": 32,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "entire dish (servings not stated)",
+    "protein_g": 41,
+    "kcal": 652,
+    "carbs_g": 58,
+    "fat_g": 32
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "raw soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60g raw soya chunks"
+    },
+    {
+      "item": "salt (for boiling)",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "green bell pepper, roughly chopped",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green bell pepper, roughly chopped"
+    },
+    {
+      "item": "onion, roughly chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion, roughly chopped"
+    },
+    {
+      "item": "tomato, roughly chopped",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tomato, roughly chopped"
+    },
+    {
+      "item": "yogurt (curd)",
+      "ingredient_id": "curd",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "4 tbsp yogurt"
+    },
+    {
+      "item": "chickpea flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp chickpea flour (besan)"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger garlic paste"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp black pepper"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chaat masala"
+    },
+    {
+      "item": "salt (marinade)",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "hot mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp hot mustard oil"
+    },
+    {
+      "item": "dried fenugreek leaves",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp dried fenugreek leaves"
+    },
+    {
+      "item": "lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "half a lime"
+    },
+    {
+      "item": "oil (to roast the soya)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "oil (gravy)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "cumin seeds (gravy)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "onion, finely chopped (gravy)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 finely chopped onion"
+    },
+    {
+      "item": "Kashmiri red chilli powder (gravy)",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "turmeric powder (gravy)",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "coriander powder (gravy)",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "salt (gravy)",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "tomato puree",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup tomato puree"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml water"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "a handful of fresh coriander"
+    }
+  ],
+  "steps": [
+    "To a pot of boiling water add 60g raw soya chunks, 1 tsp salt.",
+    "Once softened, drain and squeeze out all the excess water.",
+    "Now to a bowl add the boiled soya chunks, 1 green bell pepper, roughly chopped, 1 onion, roughly chopped, 1 tomato, roughly chopped, 4 tbsp yogurt, 2 tbsp chickpea flour (besan), 1 tbsp ginger garlic paste, 1 tsp Kashmiri red chilli powder, ½ tsp turmeric powder, 1 tsp coriander powder, ½ tsp cumin powder, 1 tsp garam masala, ½ tsp black pepper, 1 tsp chaat masala, 1 tsp salt.",
+    "Now add 1 tbsp hot mustard oil, 1 tsp dried fenugreek leaves and squeeze in half a lime.",
+    "Mix everything really well until nicely coated and set aside.",
+    "To a pan on medium heat add 1 tsp oil, toss in the marinated soya mixture and cook for 5 minutes until nicely roasted. Remove and set aside.",
+    "To the same pan add: 1 tsp oil, 1 tsp cumin seeds, 1 finely chopped onion, 1 tsp Kashmiri red chilli powder, ½ tsp turmeric powder, 1 tsp coriander powder, ½ tsp salt, 1 cup tomato puree.",
+    "Mix well and cook for 3 minutes or until the oil starts to separate.",
+    "Now toss in the cooked soya mixture, add 150ml water and a handful of fresh coriander.",
+    "Give everything a final mix, cook for another minute and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "Creator also states 15 g fibre for the entire dish.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"entire dish (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "tofu-chinese-bhel",
+  "title": "Tofu Chinese Bhel",
+  "source": {
+    "url": "https://www.instagram.com/reel/DX1fScaMzuj/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#49"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "soy_noodles"
+  ],
+  "tags": [
+    "chaat",
+    "global",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 14,
+    "kcal": 249,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (the whole thing is 28 g protein, 500 kcal)",
+    "protein_g": 14,
+    "kcal": 249
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "high-protein soy noodles",
+      "ingredient_id": "soy_noodles",
+      "qty": 60,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "High-protein Soy noodles – 60 g"
+    },
+    {
+      "item": "tofu (firm)",
+      "ingredient_id": "tofu_firm",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Tofu – 120 g"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Oil spray"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Black pepper"
+    },
+    {
+      "item": "cornflour",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "Cornflour – 1 tsp"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Sesame seeds – 1 tsp"
+    },
+    {
+      "item": "purple cabbage, shredded",
+      "ingredient_id": "cabbage",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup purple cabbage (shredded)"
+    },
+    {
+      "item": "carrots, thinly sliced",
+      "ingredient_id": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup carrots thinly slices"
+    },
+    {
+      "item": "capsicum",
+      "ingredient_id": "capsicum",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup capsicum"
+    },
+    {
+      "item": "red bell pepper",
+      "ingredient_id": "capsicum",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup red bell pepper"
+    },
+    {
+      "item": "Schezwan chutney (sauce)",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Schezwan chutney"
+    },
+    {
+      "item": "soy sauce (sauce)",
+      "ingredient_id": "soy_sauce",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1.5 tbsp soy sauce"
+    },
+    {
+      "item": "ketchup (sauce)",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1-2 tbsp ketchup"
+    }
+  ],
+  "steps": [
+    "Cook the noodles: boil noodles in salted water until cooked. Drain completely and pat dry.",
+    "Crisp the noodles: spread noodles, spray lightly with oil, toss and air fry at 180°C for 8–10 minutes until crisp.",
+    "Prepare tofu: crumble tofu, add salt, pepper and cornflour. Toss well, spray lightly with oil and air fry at 180°C for 10–12 minutes until crisp.",
+    "Sauté vegetables: in a pan, add sesame seeds and all chopped veggies. Sauté on high flame for 2–3 minutes (keep crunchy).",
+    "Prepare sauce: mix Schezwan chutney, soy sauce and ketchup.",
+    "Combine: add crispy tofu, crushed noodles and veggies into the pan. Pour the sauce and toss well.",
+    "Serve: serve immediately while crunchy."
+  ],
+  "assumptions": [
+    "2 servings: the creator gives 14 g per serve and 28 g for the whole thing."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

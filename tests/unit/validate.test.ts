@@ -51,13 +51,11 @@ describe('schema', () => {
     expect(errors).toMatch(/\/added_at: must match format "date"/);
   });
 
-  it('requires a main protein, ingredients and steps on complete recipes', () => {
+  it('requires ingredients and steps on complete recipes', () => {
     const r = byId('besan-chilla');
-    r.main_proteins = [];
     r.ingredients = [];
     r.steps = [];
     const errors = checkSchema(r).join('\n');
-    expect(errors).toMatch(/main_proteins: must NOT have fewer than 1 items/);
     expect(errors).toMatch(/ingredients: must NOT have fewer than 1 items/);
     expect(errors).toMatch(/steps: must NOT have fewer than 1 items/);
   });

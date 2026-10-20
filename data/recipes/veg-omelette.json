@@ -1,0 +1,156 @@
+{
+  "id": "veg-omelette",
+  "title": "Veg Omelette (Besan)",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbvU-jDsBco/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#38"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "besan"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 390,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 390
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30 g besan"
+    },
+    {
+      "item": "high-protein paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100 g High Protein Paneer"
+    },
+    {
+      "item": "spinach, roughly chopped",
+      "ingredient_id": "spinach",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¾ cup spinach, roughly chopped"
+    },
+    {
+      "item": "mushrooms, chopped",
+      "ingredient_id": "mushroom",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "6–7 mushrooms, chopped"
+    },
+    {
+      "item": "cherry tomatoes",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 cherry tomatoes"
+    },
+    {
+      "item": "cheese slice",
+      "ingredient_id": "cheese",
+      "qty": 0.5,
+      "unit": "slice",
+      "type": "dairy",
+      "as_written": "½ cheese slice"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "red chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli flakes"
+    },
+    {
+      "item": "mixed herbs",
+      "ingredient_id": "oregano",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp mixed herbs"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp black pepper"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "2-3 Oil sprays"
+    }
+  ],
+  "steps": [
+    "In a bowl, whisk together the besan, salt, black pepper, red chilli flakes, mixed herbs, and enough water to make a smooth, pourable batter (slightly thinner than dosa batter).",
+    "Heat a non-stick pan and add the chopped mushrooms without any oil. Cook for 2–3 minutes until they release their moisture and turn lightly golden.",
+    "Add the spinach and cherry tomatoes. Season with a pinch of salt and pepper, then sauté for another 1–2 minutes. Remove the veggies from the pan and set aside.",
+    "Lightly spray the pan with oil and pour in the besan batter and spread it into a large omlette (not too thin or it will become crispy).",
+    "Once the omlette is about halfway cooked evenly grate the High Protein Paneer over the top and gently press it down with a spatula.",
+    "When the omlette is cooked, place the sautéed vegetables over one half and top them with the cheese slice.",
+    "Cover with a lid and cook on low heat for 2 minutes, until the cheese has melted.",
+    "Fold the omlette, drizzle with your favourite hot sauce, and enjoy!"
+  ],
+  "assumptions": [
+    "Creator also states 9 g fibre.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

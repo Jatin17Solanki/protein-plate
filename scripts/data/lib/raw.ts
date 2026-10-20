@@ -28,6 +28,8 @@ const HEADING = /^([A-Z][A-Za-z /&]+?):?\s*$/;
  * quantities, no sentence (method lines also list many things, but end with a full stop or use "…, and x"). */
 export function isKeywordLine(line: string): boolean {
   const t = line.trim().replace(/^\(|\)$/g, '');
+  if (/^\d+\s?[wdhm]$/.test(t)) return true; // Instagram post age ("7w") pasted with the caption
+  if (/^(#\w+\s*)+$/.test(t)) return true; // hashtag-only line
   const parts = t.split(',').map((p) => p.trim()).filter(Boolean);
   return (
     parts.length >= 5 &&

@@ -1,0 +1,170 @@
+{
+  "id": "peri-peri-chickpea-wrap",
+  "title": "Peri Peri Chickpea Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcnMsyMMZhK/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#37"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "tortilla_whole_wheat"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "boiled chickpeas",
+      "ingredient_id": "chickpeas",
+      "qty": 110,
+      "unit": "g",
+      "grams": 44,
+      "type": "protein",
+      "as_written": "110g @freshconindia boiled chickpeas"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g Skyr (high protein yogurt)"
+    },
+    {
+      "item": "avocado",
+      "ingredient_id": "avocado",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp avocado"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped onion"
+    },
+    {
+      "item": "cucumber ribbons",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ cucumber ribbons"
+    },
+    {
+      "item": "tomato slices",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "2 tomato slices"
+    },
+    {
+      "item": "peri peri masala",
+      "ingredient_id": "peri_peri",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp peri peri masala"
+    },
+    {
+      "item": "Sriracha sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Sriracha sauce"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "1–2 oil sprays"
+    },
+    {
+      "item": "whole-wheat tortilla",
+      "ingredient_id": "tortilla_whole_wheat",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 whole-wheat tortilla"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt & black pepper, to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt & black pepper, to taste"
+    },
+    {
+      "item": "lettuce",
+      "ingredient_id": "lettuce",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lettuce"
+    }
+  ],
+  "steps": [
+    "Lightly spray a non-stick pan with oil and add the half boiled chickpeas.",
+    "Add 1 tsp peri peri masala and roast the chickpeas for around 5–6 minutes until they are properly coated and crunchy.",
+    "Take the remaining boiled chickpeas and add them to a bowl along with Skyr, avocado and onion.",
+    "Add around 1 tbsp Sriracha, a little salt and black pepper, and mash everything together until you get a creamy dressing.",
+    "Warm the whole-wheat tortilla lightly on the pan.",
+    "Add lettuce, spread the creamy chickpea dressing over the tortilla, then add the cucumber ribbons and tomato slices.",
+    "Add the crunchy peri peri chickpeas on top and fold or roll the tortilla."
+  ],
+  "assumptions": [
+    "Title from the caption's keywords (the post has no title).",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "chickpea-pea-taco",
+  "title": "Chickpea Pea Taco",
+  "source": {
+    "url": "https://www.instagram.com/reel/DVyHKU1E5Ys/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#53"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "skyr",
+    "chickpeas",
+    "roti"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 495,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 495
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "small whole-wheat rotis",
+      "ingredient_id": "roti",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 small whole-wheat rotis"
+    },
+    {
+      "item": "lettuce, shredded",
+      "ingredient_id": "lettuce",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful lettuce, shredded"
+    },
+    {
+      "item": "boiled chickpeas (filling)",
+      "ingredient_id": "chickpeas",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 40,
+      "type": "protein",
+      "as_written": "1/2 cup boiled chickpeas"
+    },
+    {
+      "item": "green peas (filling)",
+      "ingredient_id": "green_peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup green peas"
+    },
+    {
+      "item": "green chillies (filling)",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillis"
+    },
+    {
+      "item": "white sesame seeds (filling)",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp white sesame seeds"
+    },
+    {
+      "item": "jeera (filling)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp jeera"
+    },
+    {
+      "item": "chilli powder (filling)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli powder"
+    },
+    {
+      "item": "coriander powder (filling)",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "haldi powder (filling)",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp haldi powder"
+    },
+    {
+      "item": "black pepper (filling)",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp black pepper"
+    },
+    {
+      "item": "lemon (filling)",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Squeeze of half a lemon"
+    },
+    {
+      "item": "salt (filling)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "skyr or Greek yogurt (sauce)",
+      "ingredient_id": "skyr",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "120g skyr / Greek yogurt"
+    },
+    {
+      "item": "onion (sauce, caramelised)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion"
+    },
+    {
+      "item": "olive oil (sauce)",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "chilli powder (sauce)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli powder"
+    },
+    {
+      "item": "garlic powder (sauce)",
+      "ingredient_id": "garlic_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garlic powder"
+    },
+    {
+      "item": "pepper (sauce)",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp pepper"
+    },
+    {
+      "item": "mixed herbs (sauce)",
+      "ingredient_id": "oregano",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp mixed herbs"
+    },
+    {
+      "item": "chilli achaar, finely mashed (sauce)",
+      "ingredient_id": "chilli_achaar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli achaar (finely mashed)"
+    },
+    {
+      "item": "salt (sauce)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "Prepare the filling: blend chickpeas, peas, green chilli, lemon juice, sesame seeds and spices into a thick mash.",
+    "Spread the filling generously on both the rotis.",
+    "Heat a pan, spray a little oil and lightly sear the rotis from both sides.",
+    "Prepare the taco sauce: mix skyr, caramelised onion, chilli powder, garlic powder, pepper, mixed herbs and chilli achaar until smooth.",
+    "Assemble the tacos: add lettuce and generously spread the sauce over the chickpea-pea filling.",
+    "Fold the rotis into tacos and serve immediately."
+  ],
+  "assumptions": [
+    "Skyr or Greek yogurt is listed as skyr.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

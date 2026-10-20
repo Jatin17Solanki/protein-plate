@@ -4,7 +4,7 @@
 //  - per_portion holds the creator's own numbers (stated_macros), never our estimate (Jatin, 2026-10-20)
 //  - main_proteins / supporting_proteins follow the 35 % / 10 % rule (CONTEXT §4), using the dictionary
 //    estimate behind the scenes — the only place the estimate is used
-//  - flags[] lists what Jatin must look at: no_macros, macros_basis_unclear and missing_details are set
+//  - flags[] lists what Jatin must look at: no_macros, macros_basis_unclear, missing_details and no_main_protein are set
 //    automatically; source_conflict / other are added by hand and kept
 // Usage: tsx scripts/data/check.ts [--write]   (--write fills those computed fields in place)
 import { writeFileSync } from 'node:fs';
@@ -23,7 +23,7 @@ const warn = (file: string, msg: string) => console.warn(`! ${file}: ${msg}`);
 for (const e of checkDictionary(dict)) err('data/ingredients.json', e);
 
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
-const AUTO = new Set<Flag['code']>(['no_macros', 'macros_basis_unclear', 'missing_details']);
+const AUTO = new Set<Flag['code']>(['no_macros', 'macros_basis_unclear', 'missing_details', 'no_main_protein']);
 /** Old missing[] lines that are now flags instead. */
 const NOW_FLAGS = [/^Macros: the creator gives none/, /^Servings: the caption doesn't say/, /^Servings$/, /^Servings and macros$/];
 const flagged = new Map<string, string[]>();
@@ -34,6 +34,7 @@ function autoFlags(r: Recipe): Flag[] {
   if (s === null) flags.push({ code: 'no_macros', note: 'The creator gives no macros.' });
   else if (r.servings === null) flags.push({ code: 'macros_basis_unclear', note: `The creator's numbers are "${s.basis}", and the caption doesn't say how many portions that is.` });
   if (r.missing.length) flags.push({ code: 'missing_details', note: r.missing.join('; ') });
+  if (r.main_proteins.length === 0) flags.push({ code: 'no_main_protein', note: 'No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein.' });
   return flags;
 }
 
@@ -60,7 +61,6 @@ for (const { file, recipe: r } of loadRecipes()) {
   next.protein_working = [];
   if (r.status === 'complete' && r.ingredients.length) {
     const est = estimate(r, byId);
-    if (est.main_proteins.length === 0) warn(file, 'no main protein — flag for Jatin (CONTEXT §4)');
     next.main_proteins = est.main_proteins;
     const ingredientIds = new Set(r.ingredients.map((g) => g.ingredient_id));
     // Computed supporting proteins first; keep hand-added ones (e.g. an unweighed yogurt dip) after them.

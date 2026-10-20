@@ -1,0 +1,60 @@
+{
+  "id": "soya-chana-dal-tikki",
+  "title": "Soya Chana Dal Tikki",
+  "source": {
+    "url": "https://www.instagram.com/p/C9jM7TaSnrq/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#63"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya",
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": "soya-kebab",
+  "variant_label": "with chana dal",
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Title from the batch file; main protein, tags and meal types from the title.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Ingredients and quantities (no caption saved)",
+    "Method"
+  ],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Ingredients and quantities (no caption saved); Method"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "protein-upma",
+  "title": "Protein Upma",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dau3h4tM41B/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#42"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "skyr",
+    "sooji",
+    "tofu_silken"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 24.8,
+    "kcal": 435,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 1)",
+    "protein_g": 24.8,
+    "kcal": 435
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "suji (semolina)",
+      "ingredient_id": "sooji",
+      "qty": 50,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "50g Suji"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Skyr"
+    },
+    {
+      "item": "silken tofu",
+      "ingredient_id": "tofu_silken",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Silken Tofu"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Oil"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 Peanuts"
+    },
+    {
+      "item": "mustard seeds (rai)",
+      "ingredient_id": "mustard_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Mustard Seeds (Rai)"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Cumin Seeds (Jeera)"
+    },
+    {
+      "item": "hing",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of Hing"
+    },
+    {
+      "item": "urad dal",
+      "ingredient_id": "urad_dal",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "protein",
+      "as_written": "1 tsp Urad Dal"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "optional": true,
+      "as_written": "3–4 Raisins (optional)"
+    },
+    {
+      "item": "onion (small), finely chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Small Onion, finely chopped"
+    },
+    {
+      "item": "green chilli, finely chopped",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Green Chilli, finely chopped"
+    },
+    {
+      "item": "carrot, finely chopped",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ Carrot, finely chopped"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ Cup Green Peas"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Curry Leaves"
+    },
+    {
+      "item": "garlic, finely chopped",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Garlic, finely chopped"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "turmeric (haldi)",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Turmeric (Haldi)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Sweetener of choice (optional)"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml Water"
+    }
+  ],
+  "steps": [
+    "Blend the skyr and silken tofu until smooth and keep aside.",
+    "Heat the oil and add mustard seeds, cumin seeds, hing, urad dal, peanuts, and curry leaves. Once fragrant, add the garlic, green chilli, and onion, then sauté until the onion softens.",
+    "Add the suji and roast it for 2–3 minutes until lightly golden.",
+    "Bring 200ml water to a boil with the carrot, green peas, and raisins.",
+    "Add the boiling water to the roasted suji and mix well.",
+    "Stir in the skyr and tofu blend along with turmeric, red chilli powder, salt, and a little sweetener.",
+    "Cook on low heat for 4–6 minutes, stirring continuously until the upma reaches a soft and creamy consistency."
+  ],
+  "assumptions": [
+    "Creator also states 7 g fibre.",
+    "Upma has no format tag of its own."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    },
+    {
+      "code": "source_conflict",
+      "note": "Water: 150 ml in the ingredient list, 200 ml in the method."
+    }
+  ]
+}

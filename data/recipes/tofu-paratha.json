@@ -1,0 +1,217 @@
+{
+  "id": "tofu-paratha",
+  "title": "Tofu Cabbage Paratha",
+  "source": {
+    "url": "https://www.instagram.com/p/C_5VfELSx9R/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#26"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "wheat_flour"
+  ],
+  "tags": [
+    "paratha"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 378,
+    "carbs_g": 50,
+    "fat_g": 10.5,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (2 parathas per person; makes 4)",
+    "protein_g": 21,
+    "kcal": 378,
+    "carbs_g": 50,
+    "fat_g": 10.5
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "whole wheat flour (dough)",
+      "ingredient_id": "wheat_flour",
+      "qty": 120,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "120g whole wheat flour"
+    },
+    {
+      "item": "carom seeds (dough)",
+      "ingredient_id": "ajwain",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp ajwain (carom seeds)"
+    },
+    {
+      "item": "yogurt (curd, dough)",
+      "ingredient_id": "curd",
+      "qty": 30,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "30g yogurt"
+    },
+    {
+      "item": "oil (dough)",
+      "ingredient_id": "oil",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "¼ tsp oil"
+    },
+    {
+      "item": "cabbage",
+      "ingredient_id": "cabbage",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g cabbage"
+    },
+    {
+      "item": "tofu (firm)",
+      "ingredient_id": "tofu_firm",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g tofu (using Health on Plants)"
+    },
+    {
+      "item": "oil (filling)",
+      "ingredient_id": "oil",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "¼ tsp oil (used ½ tsp in the video as I made extra filling for dinner, also made sandwiches with the leftovers)"
+    },
+    {
+      "item": "hing",
+      "ingredient_id": "hing",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp hing"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin seeds"
+    },
+    {
+      "item": "coriander seeds, crushed",
+      "ingredient_id": "coriander_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp crushed coriander seeds"
+    },
+    {
+      "item": "ginger paste",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger paste"
+    },
+    {
+      "item": "green chilli, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chili"
+    },
+    {
+      "item": "onion (medium)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium-sized onion"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chili powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chaat masala"
+    },
+    {
+      "item": "kasuri methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Kasuri methi"
+    },
+    {
+      "item": "oil, ghee or butter (per paratha)",
+      "ingredient_id": "oil",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Approx ¼ tsp oil/ghee/butter per paratha"
+    }
+  ],
+  "steps": [],
+  "assumptions": [
+    "The creator says paneer can replace tofu only if it is low-fat paneer.",
+    "Oil, ghee or butter for cooking is listed as oil.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Method (the caption lists ingredients only)"
+  ],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "missing_details",
+      "note": "Method (the caption lists ingredients only)"
+    }
+  ]
+}

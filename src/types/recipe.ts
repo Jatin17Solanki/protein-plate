@@ -16,7 +16,7 @@ export type Recipe = {
   status: 'complete' | 'incomplete';
   meal_types: MealTypes;
   /**
-   * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour.
+   * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).
    *
    * @maxItems 6
    */
@@ -191,6 +191,6 @@ export interface Ingredient {
   as_written: string;
 }
 export interface Flag {
-  code: 'no_macros' | 'macros_basis_unclear' | 'missing_details' | 'source_conflict' | 'other';
+  code: 'no_macros' | 'macros_basis_unclear' | 'missing_details' | 'no_main_protein' | 'source_conflict' | 'other';
   note: string;
 }

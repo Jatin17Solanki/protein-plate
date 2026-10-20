@@ -53,7 +53,7 @@
       "$ref": "#/definitions/MealTypes"
     },
     "main_proteins": {
-      "description": "Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour.",
+      "description": "Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).",
       "type": "array",
       "items": {
         "$ref": "#/definitions/MainProtein"
@@ -191,10 +191,6 @@
       },
       "then": {
         "properties": {
-          "main_proteins": {
-            "type": "array",
-            "minItems": 1
-          },
           "ingredients": {
             "type": "array",
             "minItems": 1
@@ -585,6 +581,7 @@
             "no_macros",
             "macros_basis_unclear",
             "missing_details",
+            "no_main_protein",
             "source_conflict",
             "other"
           ]

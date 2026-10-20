@@ -1,0 +1,109 @@
+{
+  "id": "tofu-chocolate-mousse",
+  "title": "Tofu Chocolate Mousse",
+  "source": {
+    "url": "https://www.instagram.com/p/DdaXV5GTvj8/",
+    "platform": "instagram",
+    "creator": "glowdiaries___",
+    "creator_url": "https://www.instagram.com/glowdiaries___/",
+    "ref": "batches/2026-10-16-batch1.txt#69"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "dark_chocolate",
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 10,
+    "kcal": 320,
+    "carbs_g": 29,
+    "fat_g": 18,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 3)",
+    "protein_g": 10,
+    "kcal": 320,
+    "carbs_g": 29,
+    "fat_g": 18
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "silken tofu",
+      "ingredient_id": "tofu_silken",
+      "qty": 300,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "300g silken tofu"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 40,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "40g honey"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g peanut butter"
+    },
+    {
+      "item": "70% dark chocolate, melted",
+      "ingredient_id": "dark_chocolate",
+      "qty": 100,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "100g melted 70% dark chocolate"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla extract"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    }
+  ],
+  "steps": [
+    "To a blender add: 300g silken tofu, 40g honey, 20g peanut butter, 100g melted 70% dark chocolate, 1 tsp vanilla extract, a pinch of salt.",
+    "Blend until smooth and creamy.",
+    "Pour it into containers and refrigerate for at least 2 hours to set.",
+    "And it’s ready!"
+  ],
+  "assumptions": [
+    "Tagged dessert from the batch's dessert section; meal type is our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}
