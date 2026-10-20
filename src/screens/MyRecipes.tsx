@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from 'preact/hooks';
 import { recipes } from '../lib/catalog';
-import { PROTEINS } from '../lib/home';
+import { PROTEINS, shownProtein } from '../lib/home';
 import { goBack, href } from '../lib/router';
 import { getMyList, getReactions, setOnMyList, setReaction, useStorage } from '../lib/storage';
 import { FilledIcon, UiIcon } from '../components/Icon';
@@ -62,8 +62,8 @@ export function MyRecipes() {
             <li key={r.id} class="my-row">
               <a class="my-link" href={href.recipe(r.id)}>
                 <span class="my-block" data-tint={r.main_proteins[0] ?? 'soya'}>
-                  <span class="num">{r.per_portion.protein_g === null ? '—' : Math.round(r.per_portion.protein_g)}</span>
-                  <span class="my-block-unit">g protein</span>
+                  <span class="num">{shownProtein(r).value === null ? '—' : Math.round(shownProtein(r).value!)}</span>
+                  <span class="my-block-unit">{shownProtein(r).whole ? 'g total' : 'g protein'}</span>
                 </span>
                 <span class="my-text">
                   <span class="my-name">{r.title}</span>

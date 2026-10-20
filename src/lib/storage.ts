@@ -9,6 +9,7 @@ export const KEYS = {
   notes: 'pp.notes',
   ticks: 'pp.ticks',
   hintDismissed: 'pp.hintDismissed',
+  editHelpSeen: 'pp.editHelpSeen',
 } as const;
 
 export type Reaction = 'like' | 'dislike';
@@ -59,6 +60,63 @@ export function useStorage(): void {
 function obj<T>(key: string): Record<string, T> {
   const v = readJSON<unknown>(key, {});
   return v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, T>) : {};
+}
+
+// ---- Theme: 'light' | 'dark' | absent (Auto, follows the OS); applied as <html data-theme> ----
+export type Theme = 'light' | 'dark' | 'auto';
+
+export function getTheme(): Theme {
+  try {
+    const t = localStorage.getItem(KEYS.theme);
+    return t === 'light' || t === 'dark' ? t : 'auto';
+  } catch {
+    return 'auto';
+  }
+}
+
+export function setTheme(t: Theme): void {
+  try {
+    if (t === 'auto') localStorage.removeItem(KEYS.theme);
+    else localStorage.setItem(KEYS.theme, t);
+  } catch {}
+  if (t === 'auto') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme', t);
+  listeners.forEach((fn) => fn());
+}
+
+// ---- Add-to-Home-Screen hint ----
+export function isHintDismissed(): boolean {
+  try {
+    return localStorage.getItem(KEYS.hintDismissed) === '1';
+  } catch {
+    return true;
+  }
+}
+
+export function dismissHint(): void {
+  try {
+    localStorage.setItem(KEYS.hintDismissed, '1');
+  } catch {}
+  listeners.forEach((fn) => fn());
+}
+
+/** Replaces all personal data at once (Restore). */
+export function writeAll(d: {
+  mylist: string[];
+  reactions: Record<string, Reaction>;
+  notes: Record<string, string>;
+  ticks: Record<string, number[]>;
+  theme: 'light' | 'dark' | null;
+  hintDismissed: boolean;
+}): void {
+  try {
+    localStorage.setItem(KEYS.myList, JSON.stringify(d.mylist));
+    localStorage.setItem(KEYS.reactions, JSON.stringify(d.reactions));
+    localStorage.setItem(KEYS.notes, JSON.stringify(d.notes));
+    localStorage.setItem(KEYS.ticks, JSON.stringify(d.ticks));
+    if (d.hintDismissed) localStorage.setItem(KEYS.hintDismissed, '1');
+  } catch {}
+  setTheme(d.theme ?? 'auto');
 }
 
 // ---- My list: string[] of recipe ids, most recent first ----

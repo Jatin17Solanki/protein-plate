@@ -6,14 +6,17 @@ import {
   clearTicks, getMyList, getNote, getReaction, getTicks, setNote, setOnMyList, setReaction, setTick, useStorage,
   type Reaction,
 } from '../lib/storage';
-import { PROTEINS } from '../lib/home';
+import { PROTEINS, shownProtein } from '../lib/home';
 import { FilledIcon, UiIcon } from '../components/Icon';
+import { EditSheet } from '../components/EditSheet';
+import { ShareSheet } from '../components/ShareSheet';
 import type { Recipe as RecipeData } from '../types/recipe';
 
 const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? k;
 
 export function Recipe({ id }: { id: string | null }) {
   useStorage();
+  const [sheet, setSheet] = useState<'share' | 'edit' | null>(null);
   const r = id === null ? undefined : recipes.find((x) => x.id === id);
 
   useLayoutEffect(() => scrollTo(0, 0), [id]);
@@ -50,8 +53,7 @@ export function Recipe({ id }: { id: string | null }) {
           {line && <span class="version-line top">{line}</span>}
           <span class="spacer" />
           {!incomplete && (
-            // Edit sheet arrives in A5.
-            <button type="button" class="icon-btn outline edit-btn" aria-label="Edit">
+            <button type="button" class="icon-btn outline edit-btn" aria-label="Edit" aria-haspopup="dialog" onClick={() => setSheet('edit')}>
               <UiIcon name="pencil" size={18} /><span class="desk-label">Edit</span>
             </button>
           )}
@@ -87,8 +89,7 @@ export function Recipe({ id }: { id: string | null }) {
                 <FilledIcon name="play" size={16} />Watch video
               </a>
             )}
-            {/* Share and Add details (Edit sheet) arrive in A5. */}
-            <button type="button" class="btn secondary">
+            <button type="button" class="btn secondary" aria-haspopup="dialog" onClick={() => setSheet(incomplete ? 'edit' : 'share')}>
               {incomplete ? 'Add details' : <><UiIcon name="share" size={18} />Share</>}
             </button>
           </div>
@@ -142,6 +143,8 @@ export function Recipe({ id }: { id: string | null }) {
           )}
         </div>
       </main>
+      {sheet === 'share' && <ShareSheet recipe={r} onClose={() => setSheet(null)} />}
+      {sheet === 'edit' && <EditSheet recipe={r} onClose={() => setSheet(null)} />}
     </div>
   );
 }
@@ -157,6 +160,7 @@ function BackButton() {
 
 function MacroCard({ r }: { r: RecipeData }) {
   const p = r.per_portion;
+  const shown = shownProtein(r);
   const est = p.is_estimate;
   const cell = (v: number | null, label: string) => (
     <div class="macro-cell">
@@ -165,11 +169,11 @@ function MacroCard({ r }: { r: RecipeData }) {
     </div>
   );
   return (
-    <section class="card macro" aria-label="Nutrition per portion">
+    <section class="card macro" aria-label={shown.whole ? 'Nutrition, whole recipe' : 'Nutrition per portion'}>
       <div class="macro-band">
         <div>
-          <div class="num macro-protein">{p.protein_g === null ? '—' : `${formatNumber(Math.round(p.protein_g))} g`}</div>
-          <div class="macro-caption">protein per portion</div>
+          <div class="num macro-protein">{shown.value === null ? '—' : `${formatNumber(Math.round(shown.value))} g`}</div>
+          <div class="macro-caption">{shown.whole ? 'protein, whole recipe' : 'protein per portion'}</div>
         </div>
         <div class="macro-kcal">
           <div class="num">{p.kcal === null ? '—' : Math.round(p.kcal)}</div>

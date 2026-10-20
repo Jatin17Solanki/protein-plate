@@ -12,6 +12,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | D4 | [J] Previews before merge | v1: no preview hosting; every UI PR carries screenshots; Jatin checks the live site on his phone after merge (rollback = revert). Revisit if this hurts. | A2 | **Agreed 2026-10-20.** |
 | D5 | [J] Recipe text on a public site | Steps rewritten in our own words, always crediting the creator with a link; ingredient lists as facts. (Not legal advice.) | B1 | **Revised 2026-10-20 (B1 review):** steps keep the creator's exact wording, formatting only; creator credited with a link. Jatin accepts the risk; rewording can't be verified at 180+ recipes. |
 | D6 | [J] Licence for the code | MIT | A1 | **Agreed 2026-10-20.** |
+| D7 | [J] **Flag recipes for Jatin's review + admin view.** Recipes with open questions (no portion count, creator vs estimate disagreement, no main protein, possible duplicate…) need to be marked, and Jatin needs one place to see them and decide. Who builds what is undecided. | Split by lane: **Track A** adds an optional `review` field to the schema (`{ flags: [code], note }`, codes like `no_servings`, `macro_mismatch`, `no_main_protein`, `possible_duplicate`) and a hidden page `/review/` listing flagged recipes with reasons, source link and "Edit on GitHub"; **Track B** sets the flags while normalising and back-fills the 30 existing recipes. Same session can also add a structured whole-recipe total (`whole_recipe.protein_g/kcal`) so the app stops reading it from `protein_working` text. Build after A5, before B2b continues. | B2b | |
 
 ## Track A — App
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
@@ -20,7 +21,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | A2 | App shell + Home grid | A1 | done | `claude/compassionate-clarke-bxgv06` / [PR 2](https://github.com/Jatin17Solanki/protein-plate/pull/2) | Opus | Search, filter button, menu, add, My recipes are visual only (A3/A5/A7). Desktop shows chips instead of the sidebar until A3. |
 | A3 | Filters + search + empty state | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 4](https://github.com/Jatin17Solanki/protein-plate/pull/4) | Opus | Search uses a built-in synonym stub until Track B ships `data/ingredients.json`. |
 | A4 | Recipe page + personal data + My recipes | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 5](https://github.com/Jatin17Solanki/protein-plate/pull/5), fix [PR 6](https://github.com/Jatin17Solanki/protein-plate/pull/6) | Opus | Main went red after merge (notes test race); fix PR saves notes on page hide too. |
-| A5 | Share, Edit, Menu, theme, backup, hint | A4 | todo | | Sonnet | |
+| A5 | Share, Edit, Menu, theme, backup, hint | A4 | review | `claude/compassionate-clarke-bxgv06` / [PR 9](https://github.com/Jatin17Solanki/protein-plate/pull/9) | Opus | Also whole-recipe protein when portions aren't stated (Jatin). Flagging/admin view → D7. |
 | A6 | Offline, share previews, polish | A5 | todo | | Sonnet | |
 | A7 | Add recipes + Export | A3, B1 | todo | | Sonnet | |
 | A8 | QA pass | A1–A7 | todo | | Opus | |
