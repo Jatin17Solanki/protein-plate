@@ -1,17 +1,10 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (BL1 session)_
+_Last updated: 2026-10-20 (BL2 session)_
 
-**Done (BL1, PR open):** app side of Track B's PR 18 (schema: `MainProtein: other`, `video_only`, `accepted_flags`, `estimated_macros`).
-- `PROTEINS` gains `{ key: 'other', label: 'Others' }` (last). `NEUTRAL_TINTS` = none + other (CSS `[data-tint="other"]`, OG `ogTint`). Fixed My recipes crashing on `other` (`find(...)!.label`).
-- Video-only: `Tile.videoOnly` → "▶ Video only" badge + "video only" meta; recipe page `VideoOnlyCard` + wide Watch video; OG card "Video only"; exports "video only (no written recipe)".
-- `reviewItems` skips `video_only` and drops flags in `accepted_flags` (also the synthetic missing_details).
-- `EstimateNote` on the recipe page only (amber, role=note). Nothing else reads `estimated_macros`; unit test guards tiles/sort/OG/exports.
-- Steps: a lone "No written method…" step renders as a hint.
-- Add recipes prompt: the appended chat note is now a pointer to §10 of `prompts/add-recipes.md` + today's date.
-- Tests: `tests/unit/bl1.test.ts`; e2e estimate + Others chip (fixture `besan-chilla` has `estimated_macros`). Real data checked with axe + screenshots (pudding, video-only, estimate, step hint, review: 32 of 79).
+**Done (BL2, PR open):** whole-dish creator numbers only on the recipe page. New `portionProtein(r)` (= `per_portion.protein_g`) drives tiles, sorting, My recipes, version cards, share, exports, `catalog.txt`, OG cards and the Add-recipes ready line; `Tile.whole` and the "whole recipe" tier are gone. `shownProtein`/`shownNumbers`/`macroFootnote` (recipe page macro card) and the admin `/review/` meta still show whole-dish totals.
 
-**Done before:** A1–A8 merged (A8 QA report: `docs/QA.md`; manual plan: `docs/MANUAL-TEST.md`).
+**Done before:** A1–A8 and BL1 merged (BL1: Others protein, video-only, accepted flags, estimate box) (A8 QA report: `docs/QA.md`; manual plan: `docs/MANUAL-TEST.md`).
 
 **Not done / needs Jatin:** the manual test itself (TRACKER "Jatin's tasks"). The first real Add-recipes commit is still untested (the 8,000-char GitHub link cap, `MAX_URL` in `src/lib/addRecipes.ts`).
 
@@ -24,6 +17,6 @@ _Last updated: 2026-10-20 (BL1 session)_
 - Lighthouse locally: `BASE_PATH=/ npx vite preview` (without it the preview serves `/protein-plate/`); `CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx lighthouse@12.8.2 …`. SEO "robots.txt invalid" is a local-preview artefact.
 - Don't `pkill -f` a pattern that matches your own Bash command line (kills the shell; same for Playwright).
 - `src/` imports `scripts/data/lib/{dedupe,raw}.ts`: keep those pure.
-- Display code uses `shownProtein`/`shownNumbers`/`tintOf`, not `per_portion` directly. `estimated_macros` is read only by `EstimateNote` (recipe page); keep it out of everything else (`tests/unit/bl1.test.ts` guards it).
+- Lists, cards, share, exports and OG use `portionProtein`; only the recipe page macro card uses `shownProtein`/`shownNumbers`. Colour via `tintOf`. `estimated_macros` is read only by `EstimateNote` (recipe page); keep it out of everything else (`tests/unit/bl1.test.ts` guards it).
 
 **Open questions:** none.

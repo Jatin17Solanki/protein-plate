@@ -2,7 +2,7 @@
 // (/catalog.txt, written at build time) and as one JSON file. Pure — used by the Export screen and vite.config.ts.
 import type { Recipe } from '../types/recipe';
 import type { BackupData } from './backup';
-import { DISH_LABELS, DISH_TYPES, MEALS, PROTEINS, shownNumbers, shownProtein } from './home';
+import { DISH_LABELS, DISH_TYPES, MEALS, portionProtein, PROTEINS } from './home';
 import { formatQty } from './recipe';
 
 const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? k;
@@ -10,14 +10,14 @@ const meals = (r: Recipe) => MEALS.filter((m) => m.key !== 'all' && r.meal_types
 const dishes = (r: Recipe) => DISH_TYPES.filter((d) => r.tags.includes(d)).map((d) => DISH_LABELS[d].long).join(', ');
 const site = (siteUrl: string) => siteUrl.replace(/\/?$/, '/');
 
-/** "32 g protein, 450 kcal per portion" — the creator's numbers only, same as the app. */
+/** "32 g protein, 450 kcal per portion": the creator's per-portion numbers only, same as the tiles. */
 export function macroText(r: Recipe): string {
   if (r.video_only) return 'video only (no written recipe)';
   if (r.status === 'incomplete') return 'details pending';
-  const { value, whole } = shownProtein(r);
+  const value = portionProtein(r);
   if (value === null) return 'macros not given';
-  const kcal = shownNumbers(r).kcal;
-  return `${Math.round(value)} g protein${kcal !== null ? `, ${Math.round(kcal)} kcal` : ''} ${whole ? 'for the whole recipe' : 'per portion'}`;
+  const kcal = r.per_portion.kcal;
+  return `${Math.round(value)} g protein${kcal !== null ? `, ${Math.round(kcal)} kcal` : ''} per portion`;
 }
 
 function extras(r: Recipe): string[] {

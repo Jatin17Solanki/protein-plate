@@ -27,7 +27,7 @@ Before you start: on each device, open the site once, then use Menu → **Back u
 4. [ ] Light/dark follows the phone's setting (switch the phone to dark mode and back).
 
 ## 2. Home grid and filters ★ D
-1. [ ] Each tile shows the protein number in the protein's colour, a dish icon, the name (max 2 lines) and "Protein · kcal". Tiles with no numbers say **Macros not given**; tiles for the whole recipe say so.
+1. [ ] Each tile shows the protein number in the protein's colour, a dish icon, the name (max 2 lines) and "Protein · kcal". Tiles with no per-portion numbers say **Macros not given**, also when the creator only gives a whole-dish total (e.g. Mint Cheese Spread, Tempeh Pav Bhaji); those sort with the no-number tiles.
 2. [ ] Grouped dishes show one tile with an "N versions" badge.
 3. [ ] Tap **Dinner**: only dinner dishes. Tap **All**: everything back.
 4. [ ] Tap **Paneer** then **Soya**: dishes with paneer **or** soya. Add **Quick**: only the quick ones among them. The summary line reads like "Paneer or Soya · Quick — N dishes" with **Clear**.
@@ -46,7 +46,7 @@ Before you start: on each device, open the site once, then use Menu → **Back u
 
 ## 4. Recipe page ★ D
 1. [ ] Open a complete recipe: back · version line (if grouped) · Edit (pencil) · My list (bookmark). Title, chips (protein, dish, meals, air fryer, quick, global), macro card, **Watch video** + **Share**, "Recipe by ‹creator›" (link), Other versions, ingredients, steps, Tried it?, My notes.
-2. [ ] Macro card: big protein number, kcal; carbs · fat · fibre show "—" when unknown; the footnote says where the numbers come from (creator per portion / whole recipe / none).
+2. [ ] Macro card: big protein number, kcal; carbs · fat · fibre show "—" when unknown; the footnote says where the numbers come from (creator per portion / whole recipe / none). Mint Cheese Spread shows its whole-dish total here ("protein, whole recipe"), and only here.
 3. [ ] **Watch video** opens the Instagram/YouTube post (in the app if installed).
 4. [ ] Tick 2 ingredients, leave the page, come back: still ticked. **Clear** unticks them all.
 5. [ ] Other versions: tap one; it opens that version and the version line updates ("version 2 of 3").
@@ -68,6 +68,7 @@ Before you start: on each device, open the site once, then use Menu → **Back u
 
 ## 6. Share ★
 1. [ ] Share sheet preview: title, protein line, ingredients (on), steps (off), my note (on, only if I wrote one), then **Full recipe** link, then **Video**. Toggles change the preview.
+   - [ ] Share a whole-dish recipe (e.g. Tempeh Pav Bhaji): the protein line says "Macros not given", not the whole-dish total.
 2. [ ] **Share…** opens the phone's share menu; send to yourself on WhatsApp. The message looks like the preview; the link preview card shows our recipe card (big protein number, title), not the Instagram thumbnail. (WhatsApp caches previews per link: test with a recipe you haven't shared before.)
 3. [ ] **Copy text** copies exactly the preview.
 4. [ ] Open the shared link on another phone (or private tab): the recipe opens directly.

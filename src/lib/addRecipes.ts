@@ -5,7 +5,7 @@ import site from '../../site.config.json';
 import { findPairs, type Layer } from '../../scripts/data/lib/dedupe';
 import { canonicalUrl } from '../../scripts/data/lib/raw';
 import type { Recipe } from '../types/recipe';
-import { MEALS, PROTEINS, shownProtein } from './home';
+import { MEALS, portionProtein, PROTEINS } from './home';
 import { checkRules, checkSchema } from './validate';
 
 /** One line per recipe, so the AI can spot repeats and reuse dish groups. */
@@ -191,8 +191,8 @@ export function matchReason(m: Match): string {
 
 /** "Ready · Paneer · 32 g protein · Breakfast, Lunch" */
 export function readyLine(r: Recipe): string {
-  const { value, whole } = shownProtein(r);
-  const protein = r.video_only ? 'video only' : r.status === 'incomplete' ? 'details pending' : value === null ? 'macros not given' : `${Math.round(value)} g protein${whole ? ' (whole recipe)' : ''}`;
+  const value = portionProtein(r);
+  const protein = r.video_only ? 'video only' : r.status === 'incomplete' ? 'details pending' : value === null ? 'macros not given' : `${Math.round(value)} g protein`;
   return [
     'Ready',
     r.main_proteins.map((p) => PROTEINS.find((x) => x.key === p)?.label ?? p).join(' + '),

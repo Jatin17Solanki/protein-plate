@@ -19,13 +19,13 @@ const personal: BackupData = {
 };
 
 describe('macroText (creator numbers only, like the app)', () => {
-  it('per portion, whole recipe, none, incomplete', () => {
+  it('per portion, none, incomplete; whole-recipe totals are left out (recipe page only)', () => {
     expect(macroText(get('paneer-tikka-wrap'))).toMatch(/^\d+ g protein(, \d+ kcal)? per portion$/);
     expect(macroText(get('tempeh-chilli-noodles'))).toBe('31 g protein, 610 kcal per portion');
     const none = { ...get('besan-chilla'), per_portion: { ...get('besan-chilla').per_portion, protein_g: null }, stated_macros: null, servings: null };
     expect(macroText(none)).toBe('macros not given');
     const whole = { ...none, stated_macros: { basis: 'whole recipe', protein_g: 60, kcal: 900, carbs_g: null, fat_g: null } };
-    expect(macroText(whole as Recipe)).toBe('60 g protein, 900 kcal for the whole recipe');
+    expect(macroText(whole as Recipe)).toBe('macros not given');
     expect(macroText(get('lasooni-dhaniya-paneer'))).toBe('details pending');
   });
 });
