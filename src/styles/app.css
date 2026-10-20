@@ -1201,3 +1201,44 @@ body.has-hint .home { padding-bottom: 140px; }
   /* .chip-row becomes display: contents on Home from 600 px; the review filters stay one wrapping row. */
   .review-chips { display: flex; flex-wrap: wrap; overflow: visible; }
 }
+
+/* ======================= A6: update prompt ======================= */
+.update-bar {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  top: calc(12px + env(safe-area-inset-top));
+  z-index: 15;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 8px 8px 8px 16px;
+  border-radius: 14px;
+  background: var(--inv);
+  color: var(--on-inv);
+  box-shadow: var(--shadow-float);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.update-bar span { flex: 1; min-width: 0; }
+.update-btn {
+  height: 36px;
+  padding: 0 14px;
+  border: none;
+  border-radius: 10px;
+  background: var(--brand);
+  color: var(--on-brand);
+  font-size: 14px;
+  font-weight: 700;
+}
+.update-close {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 18px;
+  background: transparent;
+  color: inherit;
+  font-size: 14px;
+}

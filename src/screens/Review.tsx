@@ -24,7 +24,8 @@ export function Review() {
   useLayoutEffect(() => scrollTo(0, 0), []);
   useEffect(() => {
     document.title = 'Review · Protein Plate';
-    // Keep the admin page out of search results.
+    // Keep the admin page out of search results (the static review/ page already has the tag; in-app visits don't).
+    if (document.querySelector('meta[name="robots"]')) return;
     const meta = document.createElement('meta');
     meta.name = 'robots';
     meta.content = 'noindex';
