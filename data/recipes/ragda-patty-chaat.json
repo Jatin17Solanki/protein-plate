@@ -28,8 +28,8 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 25,
+    "kcal": 349,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
@@ -278,10 +278,5 @@
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"per serving (1 portion of ragda + 2 patties + toppings)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

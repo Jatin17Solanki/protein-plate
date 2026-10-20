@@ -28,7 +28,7 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
+    "protein_g": 30,
     "kcal": null,
     "carbs_g": null,
     "fat_g": null,
@@ -214,10 +214,6 @@
   ],
   "added_at": "2026-10-20",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"per sandwich, 'nearly 30 grams' (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "missing_details",
       "note": "Method (the caption lists ingredients only)"

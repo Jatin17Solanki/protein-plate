@@ -29,11 +29,16 @@ const AUTO = new Set<Flag['code']>(['no_macros', 'macros_basis_unclear', 'missin
 const NOW_FLAGS = [/^Macros: the creator gives none/, /^Servings: the caption doesn't say/, /^Servings$/, /^Servings and macros$/];
 const flagged = new Map<string, string[]>();
 
+/** The creator's numbers are for one serving/piece ("per serving", "per sandwich"), even with no serving count. */
+function perPortionBasis(r: Recipe): boolean {
+  return /^per\b/i.test(r.stated_macros?.basis ?? '');
+}
+
 function autoFlags(r: Recipe): Flag[] {
   const flags: Flag[] = [];
   const s = r.stated_macros;
   if (s === null) flags.push({ code: 'no_macros', note: 'The creator gives no macros.' });
-  else if (r.servings === null) flags.push({ code: 'macros_basis_unclear', note: `The creator's numbers are "${s.basis}", and the caption doesn't say how many portions that is.` });
+  else if (r.servings === null && !perPortionBasis(r)) flags.push({ code: 'macros_basis_unclear', note: `The creator's numbers are "${s.basis}", and the caption doesn't say how many portions that is.` });
   if (r.missing.length) flags.push({ code: 'missing_details', note: r.missing.join('; ') });
   if (r.main_proteins.length === 0) flags.push({ code: 'no_main_protein', note: 'No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein.' });
   return flags;
@@ -51,7 +56,7 @@ for (const { file, recipe: r } of loadRecipes()) {
   next.missing = r.missing.filter((m) => !NOW_FLAGS.some((re) => re.test(m)));
   // Creator's numbers, as stated; nothing of ours. Without a portion count they stay in stated_macros only
   // (the app shows them as "whole recipe").
-  const s = r.servings === null ? null : r.stated_macros;
+  const s = r.servings !== null || perPortionBasis(r) ? r.stated_macros : null;
   next.per_portion = {
     protein_g: s?.protein_g ?? null,
     kcal: s?.kcal ?? null,
