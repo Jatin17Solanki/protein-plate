@@ -156,7 +156,8 @@ h1 { margin: 0; }
     grid-template-columns: auto minmax(0, 1fr);
     grid-template-areas: "back search";
   }
-  .home.searching .logo,
+  /* The logo is the page's h1: hide it visually only, so search results keep a heading. */
+  .home.searching .logo { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .home.searching .menu-btn,
   .home.searching .add-btn,
   .home.searching .filter-btn,
@@ -681,19 +682,9 @@ h1 { margin: 0; }
   max-width: 640px;
   margin: 0 auto;
 }
-.col-a, .col-b { display: contents; }
-
-/* phone/tablet order interleaves the two desktop columns (F2) */
-.recipe-title { order: 1; }
-.tag-chips { order: 2; }
-.macro, .missing-card { order: 3; }
-.action-row { order: 4; }
-.credit { order: 5; }
-.versions { order: 6; }
-.ingredient-cards { order: 7; }
-.steps { order: 8; }
-.tried { order: 9; }
-.notes { order: 10; }
+/* Page order = phone order (F2): col-a, col-b (versions, ingredients, steps), col-c (Tried it, notes).
+   On desktop col-a and col-c share the left column (F12). */
+.col-a, .col-b, .col-c { display: contents; }
 
 .recipe-title { margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.7px; line-height: 1.1; overflow-wrap: anywhere; }
 .recipe-title + .tag-chips { margin-top: -8px; }
@@ -908,10 +899,15 @@ h1 { margin: 0; }
     padding: 40px;
     display: grid;
     grid-template-columns: 420px minmax(0, 1fr);
-    gap: 40px;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "a b" "c b";
+    gap: 16px 40px;
     align-items: start;
   }
-  .col-a, .col-b { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+  .col-a, .col-b, .col-c { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+  .col-a { grid-area: a; }
+  .col-b { grid-area: b; }
+  .col-c { grid-area: c; }
   .col-a .version-line.side { margin-bottom: -4px; }
   .recipe-title { font-size: 34px; }
   .macro-protein { font-size: 52px; }
