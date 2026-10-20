@@ -57,7 +57,7 @@ export function checkRules(r: Recipe): { errors: string[]; warnings: string[] } 
   if (r.tags.includes('sauce_dip') && r.meal_types.values.length > 0) {
     warnings.push('sauces/dips/marinades normally have no meal type');
   }
-  if (r.status === 'complete' && r.per_portion.is_estimate && r.protein_working.length === 0) {
+  if (r.status === 'complete' && r.per_portion.is_estimate && r.per_portion.protein_g !== null && r.protein_working.length === 0) {
     warnings.push('protein is an estimate but protein_working is empty');
   }
   return { errors, warnings };
