@@ -14,6 +14,7 @@ h1 { margin: 0; }
 [data-tint="tofu"] { --tint: var(--tofu); --tint-bg: var(--tofu-bg); }
 [data-tint="tempeh"] { --tint: var(--tempeh); --tint-bg: var(--tempeh-bg); }
 [data-tint="whey"] { --tint: var(--whey); --tint-bg: var(--whey-bg); }
+[data-tint="none"] { --tint: var(--text2); --tint-bg: var(--muted); } /* no main protein (flagged) */
 
 /* ---------- shared controls ---------- */
 .icon-btn {
@@ -1175,3 +1176,28 @@ h1 { margin: 0; }
   justify-content: center;
 }
 body.has-hint .home { padding-bottom: 140px; }
+
+/* ======================= Review page (/review/, D7) ======================= */
+.review-sub { margin: 2px 0 0; font-size: 13px; color: var(--text2); }
+.review-chips { padding-bottom: 2px; }
+.review-chips .count { margin-left: 2px; }
+.review-chips .quick-chip[aria-pressed="true"] .count { color: var(--on-inv); opacity: 0.75; }
+.review-decide { margin: -6px 0 0; font-size: 13px; line-height: 1.45; color: var(--text2); }
+.review-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.review-card { display: flex; flex-direction: column; gap: 8px; border-left: 4px solid var(--tint); }
+.review-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.review-title { font-size: 16px; font-weight: 800; color: var(--text); text-decoration: none; overflow-wrap: anywhere; min-height: 32px; display: flex; align-items: center; }
+.review-title:hover { text-decoration: underline; }
+.review-meta { margin: -6px 0 0; font-size: 12px; color: var(--text2); overflow-wrap: anywhere; }
+.review-flags { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.review-flags li { display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
+.flag-pill { padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; background: var(--warn-bg); color: var(--warn); }
+.flag-source_conflict, .flag-missing_details { background: var(--err-bg); color: var(--err); }
+.flag-note { font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.review-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.review-links .chip-btn { text-decoration: none; }
+@media (min-width: 1024px) { .review-page { max-width: 800px; } }
+@media (min-width: 600px) {
+  /* .chip-row becomes display: contents on Home from 600 px; the review filters stay one wrapping row. */
+  .review-chips { display: flex; flex-wrap: wrap; overflow: visible; }
+}

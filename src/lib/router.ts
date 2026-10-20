@@ -4,7 +4,12 @@ import { useEffect, useState } from 'preact/hooks';
 
 const BASE = import.meta.env.BASE_URL;
 
-export type Route = { name: 'home' } | { name: 'recipe'; id: string } | { name: 'myRecipes' } | { name: 'notFound' };
+export type Route =
+  | { name: 'home' }
+  | { name: 'recipe'; id: string }
+  | { name: 'myRecipes' }
+  | { name: 'review' }
+  | { name: 'notFound' };
 
 export function parse(pathname: string, base = BASE): Route {
   if (`${pathname}/` === base) return { name: 'home' };
@@ -12,6 +17,7 @@ export function parse(pathname: string, base = BASE): Route {
   const clean = path.replace(/\/+$/, '');
   if (clean === '' || clean === 'index.html') return { name: 'home' };
   if (clean === 'my') return { name: 'myRecipes' };
+  if (clean === 'review') return { name: 'review' };
   const m = clean.match(/^r\/([a-z0-9-]+)$/);
   return m ? { name: 'recipe', id: m[1] } : { name: 'notFound' };
 }
@@ -20,6 +26,8 @@ export const href = {
   home: () => BASE,
   recipe: (id: string) => `${BASE}r/${id}/`,
   myRecipes: () => `${BASE}my/`,
+  /** Hidden admin page (not linked in the menu). */
+  review: () => `${BASE}review/`,
 };
 
 export function navigate(url: string) {

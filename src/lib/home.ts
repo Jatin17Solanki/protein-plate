@@ -77,11 +77,17 @@ export interface Hit {
   uses: string | null;
 }
 
+/** Tile/page colour: the first main protein, or neutral when no source reaches 35 % (flagged no_main_protein). */
+export type Tint = MainProtein | 'none';
+export const tintOf = (r: Recipe): Tint => r.main_proteins[0] ?? 'none';
+
+export const NO_MACROS = 'Macros not given';
+
 export interface Tile {
   /** Recipe the tile opens: the recipe itself, or the highest-protein version of a group. */
   id: string;
   title: string;
-  tint: MainProtein;
+  tint: Tint;
   /** "49", "35+" (lowest of several versions), or "—" when unknown. */
   protein: string;
   meta: string;
@@ -204,11 +210,15 @@ function firstDishType(r: Recipe): DishType | null {
 function singleTile(r: Recipe, hit?: Hit): Tile {
   const { value: p, whole } = shownProtein(r);
   const k = r.per_portion.kcal;
-  const kcal = r.status === 'incomplete' ? 'details pending' : whole ? 'whole recipe' : k !== null ? `${Math.round(k)} kcal` : '';
+  const kcal =
+    r.status === 'incomplete' ? 'details pending'
+    : p === null ? NO_MACROS
+    : whole ? 'whole recipe'
+    : k !== null ? `${Math.round(k)} kcal` : '';
   return {
     id: r.id,
     title: r.title,
-    tint: r.main_proteins[0] ?? 'soya',
+    tint: tintOf(r),
     protein: p === null ? '—' : String(Math.round(p)),
     meta: [proteinNames(r.main_proteins), kcal].filter(Boolean).join(' · '),
     versions: 1,
@@ -236,9 +246,9 @@ function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): 
   return {
     id: lead.id,
     title: groupTitle(group),
-    tint: lead.main_proteins[0] ?? 'soya',
+    tint: tintOf(lead),
     protein: low === null ? '—' : `${low}+`,
-    meta: [proteinNames(lead.main_proteins.slice(0, 1)), whole ? 'whole recipe' : avgKcal === null ? '' : `~${avgKcal} kcal`].filter(Boolean).join(' · '),
+    meta: [proteinNames(lead.main_proteins.slice(0, 1)), low === null ? NO_MACROS : whole ? 'whole recipe' : avgKcal === null ? '' : `~${avgKcal} kcal`].filter(Boolean).join(' · '),
     versions: versions.length,
     dishType: firstDishType(lead),
     uses: nameMatch ? null : (groupHits.find((h) => h.uses)?.uses ?? null),
