@@ -207,20 +207,15 @@
     "Serve hot with toasted pav, bread, or enjoy it as a protein-rich bhaji bowl."
   ],
   "assumptions": [
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The onion amount isn't given (the method adds onions, the ingredient list doesn't have them); watch the video for anything unclear."
   ],
-  "missing": [
-    "Onion amount: the method adds onions but the ingredient list doesn't include them."
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
       "code": "no_macros",
       "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Onion amount: the method adds onions but the ingredient list doesn't include them."
     }
   ]
 }

@@ -8,7 +8,7 @@
     "creator_url": null,
     "ref": "batches/2026-10-16-batch1.txt#27"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [
       "breakfast",
@@ -20,7 +20,10 @@
     "paneer"
   ],
   "supporting_proteins": [
-    "besan"
+    "besan",
+    "bread",
+    "paneer",
+    "cheese"
   ],
   "tags": [
     "sandwich_toast"
@@ -204,19 +207,15 @@
       "as_written": "Chutney & chilli garlic sauce"
     }
   ],
-  "steps": [],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
   "assumptions": [
     "Creator's tips: weigh the ingredients if you're on a diet; homemade sauces are best; cook the bread with enough batter and veggies for the most protein.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The caption gives ingredients only; watch the video for the steps."
   ],
-  "missing": [
-    "Method (the caption lists ingredients only)"
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "missing_details",
-      "note": "Method (the caption lists ingredients only)"
-    }
-  ]
+  "flags": []
 }

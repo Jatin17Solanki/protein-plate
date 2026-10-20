@@ -8,7 +8,7 @@
     "creator_url": null,
     "ref": "batches/2026-10-16-batch1.txt#12"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [
       "snack"
@@ -110,25 +110,20 @@
       "as_written": "green chiili, Ginger & 3-4 Garlic cloves"
     }
   ],
-  "steps": [],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
   "assumptions": [
     "Roasted besan / sattu is listed as sattu.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The caption gives no method, spice amounts ('as per your taste') or spinach amount; watch the video for these."
   ],
-  "missing": [
-    "Method (the caption says it is in the video)",
-    "Spices: 'as per your taste'",
-    "Spinach amount"
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
       "code": "macros_basis_unclear",
       "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
-    {
-      "code": "missing_details",
-      "note": "Method (the caption says it is in the video); Spices: 'as per your taste'; Spinach amount"
     }
   ]
 }

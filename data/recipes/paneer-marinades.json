@@ -1,14 +1,14 @@
 {
   "id": "paneer-marinades",
-  "title": "Paneer Marinades",
+  "title": "Paneer Marinades (3 ways)",
   "source": {
     "url": "https://www.instagram.com/p/Dadwbwhy_L4/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
-    "ref": "batches/2026-10-16-batch1.txt#64"
+    "creator": "steveraphael7",
+    "creator_url": "https://www.instagram.com/steveraphael7/",
+    "ref": "batches/2026-10-20-jatin-captions-2.txt#1"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [],
     "stated_by_user": []
@@ -16,7 +16,9 @@
   "main_proteins": [
     "paneer"
   ],
-  "supporting_proteins": [],
+  "supporting_proteins": [
+    "cheese"
+  ],
   "tags": [
     "sauce_dip"
   ],
@@ -33,24 +35,167 @@
   "stated_macros": null,
   "protein_working": [],
   "servings": null,
-  "ingredients": [],
-  "steps": [],
+  "ingredients": [
+    {
+      "item": "low-fat paneer (per serving)",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat paneer"
+    },
+    {
+      "item": "salt (malai)",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt pepper 1tsp"
+    },
+    {
+      "item": "pepper (malai)",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt pepper 1tsp"
+    },
+    {
+      "item": "ginger-garlic paste (malai)",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger garlic paste 1tsp"
+    },
+    {
+      "item": "yoghurt (curd, malai)",
+      "ingredient_id": "curd",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Yoghurt 80g"
+    },
+    {
+      "item": "cheese (malai)",
+      "ingredient_id": "cheese",
+      "qty": 30,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Cheese 30g"
+    },
+    {
+      "item": "coriander, chopped (malai)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Coriander chopped handful"
+    },
+    {
+      "item": "yoghurt (curd, tikka)",
+      "ingredient_id": "curd",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Yoghurt 80g"
+    },
+    {
+      "item": "olive oil (tikka)",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Olive oil 1tsp"
+    },
+    {
+      "item": "garlic powder (tikka)",
+      "ingredient_id": "garlic_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garlic powder onion powder 1tsp"
+    },
+    {
+      "item": "onion powder (tikka)",
+      "ingredient_id": "onion_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garlic powder onion powder 1tsp"
+    },
+    {
+      "item": "chilli powder (tikka)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chilli powder paprika, garam masala 1tsp"
+    },
+    {
+      "item": "paprika (tikka)",
+      "ingredient_id": "paprika",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chilli powder paprika, garam masala 1tsp"
+    },
+    {
+      "item": "garam masala (tikka)",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chilli powder paprika, garam masala 1tsp"
+    },
+    {
+      "item": "salt (tikka)",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt pepper 1tsp"
+    },
+    {
+      "item": "pepper (tikka)",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt pepper 1tsp"
+    },
+    {
+      "item": "tandoori masala (instant)",
+      "ingredient_id": "tandoori_masala",
+      "qty": 1,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Killr marinade or Suhana tandoori chicken masala one packet w water"
+    },
+    {
+      "item": "water (instant)",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Killr marinade or Suhana tandoori chicken masala one packet w water"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
   "assumptions": [
-    "Title from the batch file; main protein, tags and meal types from the title."
+    "Three marinades: malai style, paneer tikka, and an instant one (a packet of Killr marinade or Suhana tandoori masala with water).",
+    "Each serving uses 200 g low-fat paneer, per the caption.",
+    "Recipe from the post's comments by steveraphael7 (text supplied by Jatin).",
+    "A marinade, so no meal type."
   ],
-  "missing": [
-    "Ingredients and quantities (no caption saved)",
-    "Method"
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
       "code": "no_macros",
       "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Ingredients and quantities (no caption saved); Method"
     }
   ]
 }

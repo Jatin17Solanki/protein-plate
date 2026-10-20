@@ -234,20 +234,15 @@
     "Serve with greek yogurt for more protein. Top the yogurt with red chilli powder, chaat masala and pomegranate (my star ingredient which goes so well with these)."
   ],
   "assumptions": [
-    "'Chillies' read as green chillies."
+    "'Chillies' read as green chillies.",
+    "The amount of Greek yogurt for the dip isn't given; watch the video for anything unclear."
   ],
-  "missing": [
-    "Amount of Greek yogurt for the dip."
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
       "code": "macros_basis_unclear",
       "note": "The creator's numbers are \"whole recipe, kebabs + dip (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
-    {
-      "code": "missing_details",
-      "note": "Amount of Greek yogurt for the dip."
     }
   ]
 }

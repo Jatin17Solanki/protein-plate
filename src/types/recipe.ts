@@ -14,6 +14,10 @@ export type Recipe = {
    * incomplete = kept under its title with a missing[] list; never dropped.
    */
   status: 'complete' | 'incomplete';
+  /**
+   * The post has no written recipe; the video is the recipe (Jatin, 2026-10-20). Kept out of the review list; the app may list these separately.
+   */
+  video_only?: boolean;
   meal_types: MealTypes;
   /**
    * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).
@@ -52,7 +56,7 @@ export type Recipe = {
   servings: number | null;
   ingredients: Ingredient[];
   /**
-   * The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20).
+   * The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20). When the caption has no method, the single step is the standard "No written method — watch the video for the steps."
    */
   steps: string[];
   /**

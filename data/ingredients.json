@@ -165,5 +165,7 @@
 {"id":"sambhar_powder","name":"sambhar powder","aliases":["sambhar powder","sambar powder"],"type":"spice","protein_per_100g":12,"kcal_per_100g":350,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2}},
 {"id":"star_anise","name":"star anise","aliases":["star anise","stir anise","chakri phool"],"type":"spice","protein_per_100g":18,"kcal_per_100g":337,"basis":"as_sold","main_protein":null},
 {"id":"saffron_milk","name":"saffron milk","aliases":["saffron milk","kesar milk"],"type":"dairy","protein_per_100g":3.3,"kcal_per_100g":60,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":15}},
-{"id":"kewra_water","name":"kewra water","aliases":["kewra water"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null}
+{"id":"kewra_water","name":"kewra water","aliases":["kewra water"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
+{"id":"onion_powder","name":"onion powder","aliases":["onion powder"],"type":"spice","protein_per_100g":10,"kcal_per_100g":341,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2.5}},
+{"id":"tandoori_masala","name":"tandoori masala","aliases":["tandoori masala","tandoori chicken masala","killr marinade"],"type":"spice","protein_per_100g":12,"kcal_per_100g":300,"basis":"as_sold","main_protein":null}
 ]

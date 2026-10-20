@@ -14,7 +14,10 @@
       "lunch",
       "dinner"
     ],
-    "stated_by_user": []
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
   },
   "main_proteins": [
     "paneer"
@@ -39,21 +42,12 @@
   "ingredients": [],
   "steps": [],
   "assumptions": [
-    "Main protein and dish type from the title; meal types are our guess."
+    "Main protein set by Jatin."
   ],
   "missing": [
-    "Ingredients and quantities (the post has no caption)",
-    "Method"
+    "Written recipe (no caption; the video is the recipe)"
   ],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Ingredients and quantities (the post has no caption); Method"
-    }
-  ]
+  "flags": [],
+  "video_only": true
 }

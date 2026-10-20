@@ -8,7 +8,7 @@
     "creator_url": null,
     "ref": "batches/2026-10-16-batch1.txt#26"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [
       "breakfast",
@@ -198,20 +198,16 @@
       "as_written": "Approx ¼ tsp oil/ghee/butter per paratha"
     }
   ],
-  "steps": [],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
   "assumptions": [
     "The creator says paneer can replace tofu only if it is low-fat paneer.",
     "Oil, ghee or butter for cooking is listed as oil.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The caption gives ingredients and macros only; watch the video for the steps."
   ],
-  "missing": [
-    "Method (the caption lists ingredients only)"
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "missing_details",
-      "note": "Method (the caption lists ingredients only)"
-    }
-  ]
+  "flags": []
 }

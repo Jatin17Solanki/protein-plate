@@ -49,6 +49,10 @@
         "incomplete"
       ]
     },
+    "video_only": {
+      "description": "The post has no written recipe; the video is the recipe (Jatin, 2026-10-20). Kept out of the review list; the app may list these separately.",
+      "type": "boolean"
+    },
     "meal_types": {
       "$ref": "#/definitions/MealTypes"
     },
@@ -145,7 +149,7 @@
       }
     },
     "steps": {
-      "description": "The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20).",
+      "description": "The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20). When the caption has no method, the single step is the standard \"No written method — watch the video for the steps.\"",
       "type": "array",
       "items": {
         "type": "string",

@@ -8,7 +8,7 @@
     "creator_url": null,
     "ref": "batches/2026-10-16-batch1.txt#19"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [
       "lunch"
@@ -18,7 +18,10 @@
   "main_proteins": [
     "paneer"
   ],
-  "supporting_proteins": [],
+  "supporting_proteins": [
+    "avocado",
+    "curd"
+  ],
   "tags": [
     "sandwich_toast",
     "global"
@@ -166,24 +169,20 @@
       "as_written": "chips"
     }
   ],
-  "steps": [],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
   "assumptions": [
     "Paneer is marinated in the chipotle marinade, from the caption's story; the creator gives no steps.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The caption gives no method and no amounts for the paneer, bread, sundried tomatoes and chips; watch the video for these."
   ],
-  "missing": [
-    "Quantities for paneer, bread, sundried tomatoes and chips",
-    "Method"
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
       "code": "no_macros",
       "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Quantities for paneer, bread, sundried tomatoes and chips; Method"
     }
   ]
 }

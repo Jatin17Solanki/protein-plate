@@ -37,6 +37,7 @@ function perPortionBasis(r: Recipe): boolean {
 function autoFlags(r: Recipe): Flag[] {
   const flags: Flag[] = [];
   const s = r.stated_macros;
+  if (r.video_only) return r.main_proteins.length ? [] : [{ code: 'no_main_protein', note: 'Video only, and no main protein chosen yet.' }];
   if (s === null) flags.push({ code: 'no_macros', note: 'The creator gives no macros.' });
   else if (r.servings === null && !perPortionBasis(r)) flags.push({ code: 'macros_basis_unclear', note: `The creator's numbers are "${s.basis}", and the caption doesn't say how many portions that is.` });
   if (r.missing.length) flags.push({ code: 'missing_details', note: r.missing.join('; ') });

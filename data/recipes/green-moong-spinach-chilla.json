@@ -125,16 +125,10 @@
     "Serve with paneer for an extra protein boost, or enjoy with yogurt and your favorite chutney."
   ],
   "assumptions": [
-    "Creator also states 3 g fibre per chilla."
+    "Creator also states 3 g fibre per chilla.",
+    "Spinach and sooji weights in grams aren't given (the caption shows '(g)'); the cup amounts are fine. Watch the video for anything unclear."
   ],
-  "missing": [
-    "Spinach and sooji weights in grams: the caption shows '(g)' with no number."
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "missing_details",
-      "note": "Spinach and sooji weights in grams: the caption shows '(g)' with no number."
-    }
-  ]
+  "flags": []
 }

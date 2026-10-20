@@ -8,7 +8,7 @@
     "creator_url": null,
     "ref": "batches/2026-10-16-batch1.txt#20"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [
       "snack"
@@ -86,24 +86,21 @@
       "as_written": "60g paneer"
     }
   ],
-  "steps": [],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
   "assumptions": [
     "Creator states ~33–34 g protein in total.",
     "Creator's tips: more paneer and besan if you dislike soya (makes more tikkis); skip ghee with a non-stick pan if in a calorie deficit; add Maggi Magic Masala to mask the soya taste.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The caption gives no method or spices; watch the video for these."
   ],
-  "missing": [
-    "Method and spices; the tips mention frying in ghee"
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
       "code": "macros_basis_unclear",
       "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
-    {
-      "code": "missing_details",
-      "note": "Method and spices; the tips mention frying in ghee"
     }
   ]
 }

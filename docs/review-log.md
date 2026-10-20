@@ -9,6 +9,9 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · rule · new main protein value `other` for recipes that aren't really high-protein / have no significant protein source (Jatin) · schema enum + data; the filter chip and tile colour are Track A's
 - 2026-10-20 · rule · when the 35 % rule finds no main protein, Jatin's choice is kept (check.ts) · `no_main_protein` clears once one is set
 
+- 2026-10-20 · rule · posts with no written recipe are `video_only: true` (no transcribing, off the review list); the app may list them separately (Track A)
+- 2026-10-20 · rule · a caption with ingredients but no method gets the single step "No written method — watch the video for the steps."; missing amounts are kept as is with a "watch the video" note
+
 ## Per recipe
 
 - 2026-10-20 · bread-pakoda-sandwich, paneer-chole-salad-bowl, ragda-patty-chaat, soya-pulav · creator's numbers are "per serving"/"per sandwich", so they are per-portion figures even without a serving count (fix by Claude, not a Jatin decision) · `per_portion` filled; `macros_basis_unclear` cleared
@@ -26,3 +29,18 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · idli-shakshuka · no_main_protein → Jatin: other · main_proteins set; flag removed
 - 2026-10-20 · avocado-burrata-toast · removed from the catalog (Jatin: the post only links to a website) · file deleted
 - 2026-10-20 · batch-1 #79/#80 (sauces section) · the batch file had only links; titles were swapped. Jatin supplied both captions (private repo `batches/2026-10-20-jatin-captions.txt`) · `C8bV56bo7yT` → new **chipotle-paneer-dip-sandwich**; `DIk-CWWtQI1` → **chipotle-sauce** (was the `sauce` placeholder, now removed); both complete, flagged `no_macros`
+- 2026-10-20 · chana-soya-galouti-kebab · missing_details (link only) → Jatin: video only; main protein soya · `video_only: true`; flags cleared
+- 2026-10-20 · chickpea-salad · missing_details (link only) → Jatin: video only; main protein pulses; salad_bowl · `video_only: true`; flags cleared
+- 2026-10-20 · lasooni-dhaniya-paneer · missing_details (link only) → Jatin: video only; main protein paneer; curry_sabzi; meals lunch, dinner · `video_only: true`; flags cleared
+- 2026-10-20 · five-paneer-marinations · missing_details (link only) → Jatin: video only; main protein paneer · `video_only: true`; flags cleared
+- 2026-10-20 · protein-kebab-air-fryer · missing_details (link only) → Jatin: video only · `video_only: true`; flags cleared
+- 2026-10-20 · soya-chana-dal-tikki · missing_details (link only) → Jatin: video only; main protein soya · `video_only: true`; flags cleared
+- 2026-10-20 · bread-pakoda-sandwich · missing_details (no method) → Jatin: method says 'watch the video' · steps = standard video step; status complete; missing cleared
+- 2026-10-20 · tofu-paratha · missing_details (no method) → Jatin: method says 'watch the video' · steps = standard video step; status complete; missing cleared
+- 2026-10-20 · hara-bhara-kebab · missing_details (no method) → Jatin: method says 'watch the video' · steps = standard video step; status complete; missing cleared
+- 2026-10-20 · soya-tikki · missing_details (no method) → Jatin: method says 'watch the video' · steps = standard video step; status complete; missing cleared
+- 2026-10-20 · chipotle-paneer-sandwich · missing_details (no method) → Jatin: method says 'watch the video' · steps = standard video step; status complete; missing cleared
+- 2026-10-20 · green-moong-spinach-chilla · missing_details (one amount) → Jatin: fine as is · note added; missing cleared
+- 2026-10-20 · soya-pea-kebab · missing_details (one amount) → Jatin: fine as is · note added; missing cleared
+- 2026-10-20 · tempeh-pav-bhaji · missing_details (one amount) → Jatin: fine as is · note added; missing cleared
+- 2026-10-20 · paneer-marinades · link only → Jatin supplied the recipe from the post's comments (private repo `batches/2026-10-20-jatin-captions-2.txt`) · now complete: 3 marinades, method = 'watch the video'; flagged no_macros
