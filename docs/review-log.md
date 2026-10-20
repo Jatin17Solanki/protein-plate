@@ -6,6 +6,9 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 
 ## Bulk rules
 
+- 2026-10-20 · rule · new main protein value `other` for recipes that aren't really high-protein / have no significant protein source (Jatin) · schema enum + data; the filter chip and tile colour are Track A's
+- 2026-10-20 · rule · when the 35 % rule finds no main protein, Jatin's choice is kept (check.ts) · `no_main_protein` clears once one is set
+
 ## Per recipe
 
 - 2026-10-20 · bread-pakoda-sandwich, paneer-chole-salad-bowl, ragda-patty-chaat, soya-pulav · creator's numbers are "per serving"/"per sandwich", so they are per-portion figures even without a serving count (fix by Claude, not a Jatin decision) · `per_portion` filled; `macros_basis_unclear` cleared
@@ -14,3 +17,12 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · moong-bhajiya · source_conflict (Soaking time: 3 hours in the ingredient list, 1 hour in the method.) → Jatin: soak 1 to 3 hours · note added to assumptions; flag removed
 - 2026-10-20 · protein-upma · source_conflict (Water: 150 ml in the ingredient list, 200 ml in the method.) → Jatin: use 150 ml water · note added to assumptions; flag removed
 - 2026-10-20 · soya-poha · source_conflict (Soya granules: 30 g in the ingredient list, 25 g in the method.) → Jatin: use 25 g soya granules · note added to assumptions; flag removed
+- 2026-10-20 · chickpea-pea-taco · no_main_protein → Jatin: pulses · main_proteins set; flag removed
+- 2026-10-20 · cucumber-sushi-boats · no_main_protein → Jatin: pulses · main_proteins set; flag removed
+- 2026-10-20 · protein-upma · no_main_protein → Jatin: tofu · main_proteins set; flag removed
+- 2026-10-20 · besan-toast-breakfast-sandwich · no_main_protein → Jatin: paneer · main_proteins set; flag removed
+- 2026-10-20 · chocolate-pudding · no_main_protein → Jatin: other · main_proteins set; flag removed
+- 2026-10-20 · watermelon-sorbet · no_main_protein → Jatin: other · main_proteins set; flag removed
+- 2026-10-20 · idli-shakshuka · no_main_protein → Jatin: other · main_proteins set; flag removed
+- 2026-10-20 · avocado-burrata-toast · removed from the catalog (Jatin: the post only links to a website) · file deleted
+- 2026-10-20 · batch-1 #79/#80 (sauces section) · the batch file had only links; titles were swapped. Jatin supplied both captions (private repo `batches/2026-10-20-jatin-captions.txt`) · `C8bV56bo7yT` → new **chipotle-paneer-dip-sandwich**; `DIk-CWWtQI1` → **chipotle-sauce** (was the `sauce` placeholder, now removed); both complete, flagged `no_macros`

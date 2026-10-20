@@ -68,7 +68,8 @@ for (const { file, recipe: r } of loadRecipes()) {
   next.protein_working = [];
   if (r.status === 'complete' && r.ingredients.length) {
     const est = estimate(r, byId);
-    next.main_proteins = est.main_proteins;
+    // Jatin's choice wins when the 35 % rule finds nothing (review log); otherwise the rule decides.
+    next.main_proteins = est.main_proteins.length ? est.main_proteins : r.main_proteins;
     const ingredientIds = new Set(r.ingredients.map((g) => g.ingredient_id));
     // Computed supporting proteins first; keep hand-added ones (e.g. an unweighed yogurt dip) after them.
     next.supporting_proteins = [...new Set([...est.supporting_proteins, ...r.supporting_proteins.filter((x) => ingredientIds.has(x))])];

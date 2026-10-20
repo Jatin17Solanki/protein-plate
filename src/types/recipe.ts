@@ -70,7 +70,7 @@ export type Recipe = {
   added_at: string;
 };
 export type MealType = 'breakfast' | 'lunch' | 'snack' | 'dinner';
-export type MainProtein = 'paneer' | 'soya' | 'tofu' | 'tempeh' | 'pulses' | 'whey';
+export type MainProtein = 'paneer' | 'soya' | 'tofu' | 'tempeh' | 'pulses' | 'whey' | 'other';
 export type Slug = string;
 export type Tag =
   | 'sandwich_toast'

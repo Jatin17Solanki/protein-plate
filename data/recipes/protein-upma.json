@@ -17,7 +17,9 @@
       "breakfast"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "tofu"
+  ],
   "supporting_proteins": [
     "skyr",
     "sooji",
@@ -229,10 +231,5 @@
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

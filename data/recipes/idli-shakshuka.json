@@ -15,7 +15,9 @@
     ],
     "stated_by_user": []
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "idli_mix",
     "curd"
@@ -209,10 +211,6 @@
     {
       "code": "no_macros",
       "note": "The creator gives no macros."
-    },
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
   ]
 }
