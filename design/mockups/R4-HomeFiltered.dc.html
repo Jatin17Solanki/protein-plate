@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home with filters applied</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17734A}a:hover{color:#0F5535}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; background: #FFFFFF; color: #14201A; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; gap: 12px; padding: 20px 16px 0">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.6px">protein<span style="color: #17734A">/</span>plate</div>
+<button aria-label="Add recipe" style="width: 44px; height: 44px; border-radius: 14px; border: none; background: #17734A; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+</div>
+<div style="display: flex; gap: 8px">
+<label style="flex: 1; display: flex; align-items: center; gap: 10px; height: 46px; padding: 0 14px; border-radius: 14px; background: #F2F5F3; color: #5B6B62; font-size: 15px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+<input placeholder="Search a dish or ingredient" style="border: none; background: transparent; font: inherit; color: #14201A; flex: 1; min-width: 0; outline: none">
+</label>
+<a href="R4-Filters.dc.html" aria-label="Open filters, 3 active" style="position: relative; width: 46px; height: 46px; flex: none; border-radius: 14px; background: #17734A; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span style="position: absolute; top: -5px; right: -5px; min-width: 20px; height: 20px; border-radius: 10px; background: #14201A; color: #FFFFFF; font-size: 11px; font-weight: 800; display: flex; align-items: center; justify-content: center; border: 2px solid #FFFFFF">3</span></a>
+</div>
+<div style="display: flex; gap: 18px; border-bottom: 1px solid #E1E8E4">
+<sc-for list="{{meals}}" as="m" hint-placeholder-count="5"><button style="{{m.style}}">{{m.label}}</button></sc-for>
+</div>
+<div style="display: flex; gap: 8px; overflow-x: auto">
+<sc-for list="{{proteins}}" as="p" hint-placeholder-count="6">
+<button style="flex: none; height: 34px; padding: 0 12px 0 8px; border-radius: 17px; border: 1.5px solid {{p.border}}; background: {{p.bg}}; color: #14201A; font: inherit; font-size: 13px; font-weight: {{p.weight}}; display: flex; align-items: center; gap: 7px"><span style="width: 14px; height: 14px; border-radius: 7px; background: {{p.fg}}"></span>{{p.label}}</button>
+</sc-for>
+</div>
+<div style="display: flex; gap: 8px; overflow-x: auto">
+<sc-for list="{{chips}}" as="ch" hint-placeholder-count="4"><button style="{{ch.style}}">{{ch.label}}</button></sc-for>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; color: #5B6B62"><span>Dinner · Paneer or Soya · Quick — <span style="color: #14201A; font-weight: 800">7 dishes</span></span><a href="R4-Home.dc.html" style="font-weight: 700; text-decoration: none">Clear</a></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+<sc-for list="{{recipes}}" as="r" hint-placeholder-count="6">
+<a href="R3-Recipe.dc.html" style="text-decoration: none; color: #14201A; height: 156px; border-radius: 18px; background: {{r.bg}}; padding: 12px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; color: {{r.fg}}">
+<div style="display: flex; align-items: baseline; gap: 3px"><span style="font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 700; line-height: 1; letter-spacing: -1px">{{r.p}}</span><span style="font-size: 12px; font-weight: 700">g</span></div>
+<svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="{{r.icon}}"/></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 3px">
+<div style="font-size: 14px; font-weight: 800; line-height: 1.2">{{r.name}}</div>
+<div style="font-size: 11px; font-weight: 600; color: {{r.fg}}">{{r.meta}}</div>
+<sc-if value="{{r.versions}}" hint-placeholder-val="{{ false }}"><span style="align-self: flex-start; margin-top: 2px; font-size: 10px; font-weight: 700; background: {{r.fg}}; color: #FFFFFF; border-radius: 6px; padding: 2px 7px">{{r.versions}}</span></sc-if>
+</div>
+</a>
+</sc-for>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const on = 'height:42px;padding:0;border:none;border-bottom:2.5px solid #17734A;background:transparent;color:#14201A;font:inherit;font-size:14px;font-weight:700;margin-bottom:-1px';
+    const off = 'height:42px;padding:0;border:none;background:transparent;color:#5B6B62;font:inherit;font-size:14px;font-weight:500';
+    const qOn = 'flex:none;height:32px;padding:0 11px;border-radius:8px;border:none;background:#14201A;color:#FFFFFF;font:inherit;font-size:12px;font-weight:700';
+    const qOff = 'flex:none;height:32px;padding:0 11px;border-radius:8px;border:none;background:#F2F5F3;color:#14201A;font:inherit;font-size:12px;font-weight:600';
+    const P = { soya: ['#E3F1E9', '#17734A'], paneer: ['#FDF1DC', '#8A5208'], pulses: ['#FDE7DF', '#A63D1A'], tofu: ['#E6EEF8', '#24508F'], tempeh: ['#EFE8F8', '#5E3592'], whey: ['#DFF3F1', '#0D6B64'] };
+    const sel = ['paneer', 'soya'];
+    const I = { salad: 'M4 12h16a8 8 0 0 1-16 0zM9 12c0-3 1-5 3-6M15 12c0-2-1-4-3-6', pot: 'M5 10h14v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM3 10h18M9 6c0-1 1-1 1-2M14 6c0-1 1-1 1-2', noodle: 'M4 12h16a8 8 0 0 1-16 0zM9 12V4M13 12V3', wrap: 'M5 17L17 5l2 2L7 19zM9 9l6 6', bowl: 'M4 12h16a8 8 0 0 1-16 0zM8 8c0-2 2-2 2-4M13 8c0-2 2-2 2-4' };
+    const r = (name, key, p, meta, icon, versions) => ({ name, p, meta, icon, versions, bg: P[key][0], fg: P[key][1] });
+    return {
+      meals: ['All','Breakfast','Lunch','Snack','Dinner'].map((l, i) => ({ label: l, style: i === 4 ? on : off })),
+      proteins: [['Paneer','paneer'],['Soya','soya'],['Pulses','pulses'],['Tofu','tofu'],['Tempeh','tempeh'],['Whey','whey']].map(([label, k]) => {
+        const s = sel.includes(k);
+        return { label, fg: P[k][1], bg: s ? P[k][0] : '#FFFFFF', border: s ? P[k][1] : '#DCE4DF', weight: s ? 700 : 500 };
+      }),
+      chips: [['Quick', true], ['Self cook', false], ['Global', false], ['Air fryer', false]].map(([label, o]) => ({ label, style: o ? qOn : qOff })),
+      recipes: [
+        r('Soya Tikka Salad', 'soya', '45', 'Soya · 420 kcal', I.salad),
+        r('Soya Tikka Masala', 'soya', '41', 'Soya · ~330 kcal', I.pot),
+        r('Soya Chukauni', 'soya', '40', 'Soya · 494 kcal', I.pot),
+        r('Protein pasta', 'paneer', '35+', 'Paneer · ~570 kcal', I.noodle, '2 versions'),
+        r('Rajasthani Malai Pyaaz', 'paneer', '20', 'Paneer · ~300 kcal', I.pot),
+        r('Paneer Kati Roll', 'paneer', '17', 'Paneer · 217 kcal', I.wrap)
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

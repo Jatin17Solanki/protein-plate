@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tablet home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:inherit}
+.pp{--bg:#FFFFFF;--surface:#F6F8F7;--card:#FFFFFF;--muted:#F2F5F3;--line:#E1E8E4;--line2:#CFD8D3;--text:#14201A;--text2:#5B6B62;--brand:#17734A;--on-brand:#FFFFFF;--inv:#14201A;--on-inv:#FFFFFF;--scrim:rgba(20,32,26,0.55);--soya-bg:#E3F1E9;--soya:#17734A;--paneer-bg:#FDF1DC;--paneer:#8A5208;--pulses-bg:#FDE7DF;--pulses:#A63D1A;--tofu-bg:#E6EEF8;--tofu:#24508F;--tempeh-bg:#EFE8F8;--tempeh:#5E3592;--whey-bg:#DFF3F1;--whey:#0D6B64;--warn-bg:#FDF1DC;--warn:#8A5208;--err-bg:#FDE7DF;--err:#A63D1A;background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif}
+.pp.dark{--bg:#111614;--surface:#0C100E;--card:#18201C;--muted:#1F2824;--line:#26312C;--line2:#3A4741;--text:#EEF3F0;--text2:#A3B2AA;--brand:#4CC487;--on-brand:#0C100E;--inv:#EEF3F0;--on-inv:#111614;--scrim:rgba(0,0,0,0.6);--soya-bg:#17301F;--soya:#7BD3A0;--paneer-bg:#33270F;--paneer:#F2C26B;--pulses-bg:#3A1E14;--pulses:#F29A78;--tofu-bg:#172438;--tofu:#8DB4EA;--tempeh-bg:#271C38;--tempeh:#C3A3EE;--whey-bg:#10302D;--whey:#6FD3C8;--warn-bg:#33270F;--warn:#F2C26B;--err-bg:#3A1E14;--err:#F29A78}
+.num{font-family:'Space Grotesk',sans-serif}
+</style>
+</helmet>
+<div class="pp {{themeClass}}" style="width: 834px; height: 1112px; box-sizing: border-box; overflow: hidden; display: flex; flex-direction: column; gap: 14px; padding: 24px 24px 0">
+<div style="display: flex; align-items: center; gap: 10px">
+<div class="num" style="font-size: 26px; font-weight: 700; letter-spacing: -0.6px; margin-right: 12px">protein<span style="color: var(--brand)">/</span>plate</div>
+<label style="flex: 1; display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 14px; border-radius: 14px; background: var(--muted); color: var(--text2); font-size: 15px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+<input placeholder="Search a dish or ingredient" style="border: none; background: transparent; font: inherit; color: var(--text); flex: 1; min-width: 0; outline: none">
+</label>
+<a href="F4-Filters.dc.html" aria-label="Open filters" style="width: 48px; height: 48px; border-radius: 14px; background: var(--muted); color: var(--text); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></a>
+<a href="R5-Menu.dc.html" aria-label="Menu" style="width: 48px; height: 48px; border-radius: 14px; background: var(--muted); color: var(--text); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></a>
+<a href="R5-Add.dc.html" aria-label="Add recipes" style="width: 48px; height: 48px; border-radius: 14px; background: var(--brand); color: var(--on-brand); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></a>
+</div>
+<div style="display: flex; gap: 24px; border-bottom: 1px solid var(--line)">
+<sc-for list="{{meals}}" as="m" hint-placeholder-count="5"><button style="height: 46px; padding: 0; border: none; border-bottom: 2.5px solid {{m.bar}}; margin-bottom: -1px; background: transparent; color: {{m.color}}; font: inherit; font-size: 15px; font-weight: {{m.weight}}">{{m.label}}</button></sc-for>
+</div>
+<div style="display: flex; gap: 8px; flex-wrap: wrap">
+<sc-for list="{{proteins}}" as="p" hint-placeholder-count="6">
+<button style="height: 36px; padding: 0 12px 0 8px; border-radius: 18px; border: 1px solid var(--line2); background: var(--card); color: var(--text); font: inherit; font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 7px"><span style="width: 14px; height: 14px; border-radius: 7px; background: var(--{{p.k}})"></span>{{p.label}}</button>
+</sc-for>
+<span style="width: 1px; height: 24px; background: var(--line2); align-self: center; margin: 0 4px"></span>
+<sc-for list="{{quick}}" as="q" hint-placeholder-count="4"><button style="height: 36px; padding: 0 12px; border-radius: 8px; border: none; background: var(--muted); color: var(--text); font: inherit; font-size: 13px; font-weight: 600">{{q}}</button></sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px">
+<sc-for list="{{recipes}}" as="r" hint-placeholder-count="9">
+<a href="F12-DesktopRecipe.dc.html" style="text-decoration: none; color: var(--text); height: 176px; border-radius: 20px; background: var(--{{r.k}}-bg); padding: 14px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; color: var(--{{r.k}})">
+<div style="display: flex; align-items: baseline; gap: 3px"><span class="num" style="font-size: 36px; font-weight: 700; line-height: 1; letter-spacing: -1px">{{r.p}}</span><span style="font-size: 13px; font-weight: 700">g</span></div>
+<svg aria-hidden="true" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="{{r.icon}}"/></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 3px">
+<div style="font-size: 15px; font-weight: 800; line-height: 1.2">{{r.name}}</div>
+<div style="font-size: 12px; font-weight: 600; color: var(--{{r.k}})">{{r.meta}}</div>
+<sc-if value="{{r.versions}}" hint-placeholder-val="{{ false }}"><span style="align-self: flex-start; margin-top: 2px; font-size: 11px; font-weight: 700; background: var(--{{r.k}}); color: var(--{{r.k}}-bg); border-radius: 6px; padding: 2px 7px">{{r.versions}}</span></sc-if>
+</div>
+</a>
+</sc-for>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["light","dark"],"default":"light"},"$preview":{"width":834,"height":1112}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const I = { bowl: 'M4 12h16a8 8 0 0 1-16 0zM8 8c0-2 2-2 2-4M13 8c0-2 2-2 2-4', skew: 'M3 21L21 3M6.5 15a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M12 9.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0', sand: 'M4 18L12 5l8 13zM7 14h10', pizza: 'M12 21L3 6a14 14 0 0 1 18 0zM10 9.5a1 1 0 1 0 0.01 0M14 12.5a1 1 0 1 0 0.01 0', noodle: 'M4 12h16a8 8 0 0 1-16 0zM9 12V4M13 12V3', pancake: 'M4 14c0-3 4-5 8-5s8 2 8 5-4 5-8 5-8-2-8-5zM8 13h8', salad: 'M4 12h16a8 8 0 0 1-16 0zM9 12c0-3 1-5 3-6M15 12c0-2-1-4-3-6', pot: 'M5 10h14v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM3 10h18M9 6c0-1 1-1 1-2M14 6c0-1 1-1 1-2', wrap: 'M5 17L17 5l2 2L7 19zM9 9l6 6' };
+    const r = (name, k, p, meta, icon, versions) => ({ name, k, p, meta, icon, versions });
+    return {
+      themeClass: this.props.theme === 'dark' ? 'dark' : '',
+      meals: ['All','Breakfast','Lunch','Snack','Dinner'].map((l, i) => ({ label: l, bar: i === 0 ? 'var(--brand)' : 'transparent', color: i === 0 ? 'var(--text)' : 'var(--text2)', weight: i === 0 ? 700 : 500 })),
+      proteins: [['Paneer','paneer'],['Soya','soya'],['Pulses','pulses'],['Tofu','tofu'],['Tempeh','tempeh'],['Whey','whey']].map(([label, k]) => ({ label, k })),
+      quick: ['Quick', 'My list', 'Global', 'Air fryer'],
+      recipes: [
+        r('Moong Dal Veg Pizza', 'pulses', '49', 'Pulses + paneer · 710 kcal', I.pizza),
+        r('Soya Tikka Salad', 'soya', '45', 'Soya · 420 kcal', I.salad),
+        r('Paneer Chickpea Herb Rice', 'paneer', '42', 'Paneer + pulses · 703 kcal', I.bowl),
+        r('Veg omelette', 'paneer', '40', 'Paneer · 390 kcal', I.pancake),
+        r('Protein pasta', 'paneer', '35+', 'Paneer · ~570 kcal', I.noodle, '2 versions'),
+        r('Soya kebab', 'soya', '30+', 'Soya · ~470 kcal', I.skew, '6 versions'),
+        r('Tempeh avocado toast', 'tempeh', '28', 'Tempeh · 435 kcal', I.sand),
+        r('Korean tofu wrap', 'tofu', '26', 'Tofu · Global · 420 kcal', I.wrap),
+        r('Protein oats', 'whey', '25+', 'Whey · details pending', I.bowl)
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

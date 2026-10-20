@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Share sheet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:inherit}
+.pp{--bg:#FFFFFF;--surface:#F6F8F7;--card:#FFFFFF;--muted:#F2F5F3;--line:#E1E8E4;--line2:#CFD8D3;--text:#14201A;--text2:#5B6B62;--brand:#17734A;--on-brand:#FFFFFF;--inv:#14201A;--on-inv:#FFFFFF;--scrim:rgba(20,32,26,0.55);--soya-bg:#E3F1E9;--soya:#17734A;--paneer-bg:#FDF1DC;--paneer:#8A5208;--pulses-bg:#FDE7DF;--pulses:#A63D1A;--tofu-bg:#E6EEF8;--tofu:#24508F;--tempeh-bg:#EFE8F8;--tempeh:#5E3592;--whey-bg:#DFF3F1;--whey:#0D6B64;--warn-bg:#FDF1DC;--warn:#8A5208;--err-bg:#FDE7DF;--err:#A63D1A;background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif}
+.pp.dark{--bg:#111614;--surface:#0C100E;--card:#18201C;--muted:#1F2824;--line:#26312C;--line2:#3A4741;--text:#EEF3F0;--text2:#A3B2AA;--brand:#4CC487;--on-brand:#0C100E;--inv:#EEF3F0;--on-inv:#111614;--scrim:rgba(0,0,0,0.6);--soya-bg:#17301F;--soya:#7BD3A0;--paneer-bg:#33270F;--paneer:#F2C26B;--pulses-bg:#3A1E14;--pulses:#F29A78;--tofu-bg:#172438;--tofu:#8DB4EA;--tempeh-bg:#271C38;--tempeh:#C3A3EE;--whey-bg:#10302D;--whey:#6FD3C8;--warn-bg:#33270F;--warn:#F2C26B;--err-bg:#3A1E14;--err:#F29A78}
+.num{font-family:'Space Grotesk',sans-serif}
+</style>
+</helmet>
+<div class="pp {{themeClass}}" style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; background: var(--scrim); display: flex; flex-direction: column; justify-content: flex-end">
+<div style="background: var(--card); border-radius: 24px 24px 0 0; padding: 10px 16px 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="align-self: center; width: 40px; height: 5px; border-radius: 3px; background: var(--line2)"></div>
+<div style="font-size: 20px; font-weight: 800">Share recipe</div>
+<div style="font-size: 12px; font-weight: 700; color: var(--text2); letter-spacing: 0.4px">MESSAGE PREVIEW</div>
+<div style="background: var(--soya-bg); border-radius: 4px 16px 16px 16px; padding: 12px 14px; font-size: 13px; line-height: 1.5; white-space: pre-line; color: var(--text)">{{message}}</div>
+<div style="display: flex; flex-direction: column">
+<sc-for list="{{toggles}}" as="t" hint-placeholder-count="3">
+<label style="display: flex; align-items: center; justify-content: space-between; min-height: 46px; font-size: 14px; border-bottom: 1px solid var(--line)"><span>{{t.label}}</span><input type="checkbox" checked="{{t.on}}" style="width: 20px; height: 20px; accent-color: var(--brand)"></label>
+</sc-for>
+</div>
+<button style="height: 52px; border-radius: 14px; border: none; background: var(--brand); color: var(--on-brand); font: inherit; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 8px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>Share…</button>
+<button style="height: 46px; border-radius: 14px; border: 1px solid var(--line2); background: var(--card); color: var(--text); font: inherit; font-size: 14px; font-weight: 700">Copy text</button>
+<div style="font-size: 12px; color: var(--text2); text-align: center">"Share…" opens your phone's share menu: WhatsApp, Telegram, SMS and more.</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["light","dark"],"default":"light"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      themeClass: this.props.theme === 'dark' ? 'dark' : '',
+      message: '*Corn & cheese soya kebab*\n31 g protein · 470 kcal per portion\n\n*Ingredients*\nSoya chunks (dry) 40 g · Sweet corn ½ cup · Onion ½ · Rice flour 1.5 tbsp · Cheese cube 1 · Bread 1 slice · Ghee 1 tsp · Spices\n\n*Note:* Half the chilli. Skip cheese for one portion.\n\nVideo: instagram.com/reel/DbqLxfZs5HG\nFull recipe: yourname.github.io/protein-plate/r/corn-cheese-soya-kebab',
+      toggles: [{ label: 'Include ingredients', on: true }, { label: 'Include steps', on: false }, { label: 'Include my note', on: true }]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>No results</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17734A}a:hover{color:#0F5535}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; background: #FFFFFF; color: #14201A; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; gap: 12px; padding: 20px 16px 0">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.6px">protein<span style="color: #17734A">/</span>plate</div>
+<button aria-label="Add recipe" style="width: 44px; height: 44px; border-radius: 14px; border: none; background: #17734A; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+</div>
+<div style="display: flex; gap: 8px">
+<label style="flex: 1; display: flex; align-items: center; gap: 10px; height: 46px; padding: 0 14px; border-radius: 14px; background: #F2F5F3; color: #5B6B62; font-size: 15px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+<input placeholder="Search a dish or ingredient" style="border: none; background: transparent; font: inherit; color: #14201A; flex: 1; min-width: 0; outline: none">
+</label>
+<a href="R4-Filters.dc.html" aria-label="Open filters, 3 active" style="position: relative; width: 46px; height: 46px; flex: none; border-radius: 14px; background: #17734A; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span style="position: absolute; top: -5px; right: -5px; min-width: 20px; height: 20px; border-radius: 10px; background: #14201A; color: #FFFFFF; font-size: 11px; font-weight: 800; display: flex; align-items: center; justify-content: center; border: 2px solid #FFFFFF">3</span></a>
+</div>
+<div style="display: flex; gap: 18px; border-bottom: 1px solid #E1E8E4">
+<sc-for list="{{meals}}" as="m" hint-placeholder-count="5"><button style="{{m.style}}">{{m.label}}</button></sc-for>
+</div>
+<div style="font-size: 13px; font-weight: 600; color: #5B6B62">Breakfast · Tempeh · Air fryer — <span style="color: #14201A; font-weight: 800">0 dishes</span></div>
+<div style="margin-top: 60px; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; padding: 0 16px">
+<span style="width: 96px; height: 96px; border-radius: 28px; background: #EFE8F8; color: #5E3592; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16a8 8 0 0 1-16 0zM8 8c0-2 2-2 2-4M13 8c0-2 2-2 2-4"/></svg></span>
+<div style="font-size: 18px; font-weight: 800">Nothing matches all three</div>
+<div style="font-size: 14px; color: #5B6B62; line-height: 1.5">You have 2 tempeh breakfasts, but neither uses an air fryer.</div>
+<div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-top: 6px">
+<button style="height: 48px; border-radius: 14px; border: none; background: #17734A; color: #FFFFFF; font: inherit; font-size: 15px; font-weight: 700">Remove "Air fryer" · 2 dishes</button>
+<a href="R4-Home.dc.html" style="height: 48px; border-radius: 14px; border: 1px solid #CFD8D3; color: #14201A; text-decoration: none; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center">Clear all filters</a>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const on = 'height:42px;padding:0;border:none;border-bottom:2.5px solid #17734A;background:transparent;color:#14201A;font:inherit;font-size:14px;font-weight:700;margin-bottom:-1px';
+    const off = 'height:42px;padding:0;border:none;background:transparent;color:#5B6B62;font:inherit;font-size:14px;font-weight:500';
+    return { meals: ['All','Breakfast','Lunch','Snack','Dinner'].map((l, i) => ({ label: l, style: i === 1 ? on : off })) };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Export catalog</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17734A}a:hover{color:#0F5535}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; background: #F6F8F7; color: #14201A; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; gap: 14px; padding: 20px 16px 28px">
+<div style="display: flex; align-items: center; gap: 12px">
+<a href="R5-Menu.dc.html" aria-label="Back" style="width: 44px; height: 44px; flex: none; border-radius: 22px; background: #FFFFFF; border: 1px solid #DCE4DF; color: #14201A; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></a>
+<div style="font-size: 22px; font-weight: 800">Export catalog</div>
+</div>
+<div style="font-size: 13px; color: #5B6B62; line-height: 1.5">84 recipes. Use these to ask an AI things like "I have bread and veggies left, what can I make?"</div>
+<sc-for list="{{options}}" as="o" hint-placeholder-count="3">
+<div style="background: #FFFFFF; border: 1px solid #E5ECE8; border-radius: 18px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px"><span style="font-size: 15px; font-weight: 800">{{o.title}}</span><span style="font-size: 11px; font-weight: 700; color: #5B6B62">{{o.size}}</span></div>
+<div style="font-size: 13px; color: #5B6B62; line-height: 1.5">{{o.desc}}</div>
+<button style="{{o.style}}">{{o.cta}}</button>
+</div>
+</sc-for>
+<label style="display: flex; align-items: center; justify-content: space-between; min-height: 44px; font-size: 14px; padding: 0 4px">Include my notes and Keep / Not for me<input type="checkbox" style="width: 20px; height: 20px; accent-color: #17734A"></label>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const pri = 'height:44px;border-radius:12px;border:none;background:#17734A;color:#FFFFFF;font:inherit;font-size:14px;font-weight:700';
+    const sec = 'height:44px;border-radius:12px;border:1px solid #CFD8D3;background:#FFFFFF;color:#14201A;font:inherit;font-size:14px;font-weight:700';
+    return {
+      options: [
+        { title: 'Ask an AI about my catalog', size: 'compact', desc: 'Copies a starter prompt plus a compact catalog (names, proteins, macros, ingredients). Paste into ChatGPT or Claude, then ask.', cta: 'Copy prompt + catalog', style: pri },
+        { title: 'Link for AI tools', size: 'plain text', desc: 'A public page with every recipe as plain text, for tools that can read a link.', cta: 'Copy link', style: sec },
+        { title: 'Full catalog file', size: 'JSON', desc: 'Everything, for backups or for someone to import into their own copy.', cta: 'Download JSON', style: sec }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

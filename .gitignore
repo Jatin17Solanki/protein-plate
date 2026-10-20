@@ -1,0 +1,5 @@
+node_modules/
+dist/
+test-results/
+# Raw recipe dumps stay out of the public repo (TRACKER D1)
+data/raw/

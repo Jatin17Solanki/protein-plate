@@ -1,0 +1,77 @@
+/* Protein Plate — design tokens. Single source of truth for colour, type, space, radius.
+   Use only these variables in components. Never hard-code a hex value elsewhere.
+   Theme: light by default; dark follows the OS unless the user picks Light/Dark in the menu
+   (stored as <html data-theme="light|dark">; absent = Auto). */
+
+:root {
+  /* surfaces */
+  --bg: #FFFFFF;          /* page background (home, lists) */
+  --surface: #F6F8F7;     /* page background behind cards (recipe page) */
+  --card: #FFFFFF;        /* cards, sheets */
+  --muted: #F2F5F3;       /* search field, quiet buttons, segmented control track */
+  --line: #E1E8E4;        /* dividers, card borders */
+  --line2: #CFD8D3;       /* control borders */
+  /* text */
+  --text: #14201A;
+  --text2: #5B6B62;       /* secondary text; passes 4.5:1 on --bg and --surface */
+  /* brand + inverse */
+  --brand: #17734A;
+  --on-brand: #FFFFFF;
+  --inv: #14201A;         /* Watch video button, active quick chip, toasts */
+  --on-inv: #FFFFFF;
+  --scrim: rgba(20, 32, 26, 0.55);
+  /* protein tints: -bg = tile background, plain = text/icon/dot colour on that tile */
+  --soya-bg: #E3F1E9;    --soya: #17734A;
+  --paneer-bg: #FDF1DC;  --paneer: #8A5208;
+  --pulses-bg: #FDE7DF;  --pulses: #A63D1A;
+  --tofu-bg: #E6EEF8;    --tofu: #24508F;
+  --tempeh-bg: #EFE8F8;  --tempeh: #5E3592;
+  --whey-bg: #DFF3F1;    --whey: #0D6B64;
+  /* status */
+  --warn-bg: #FDF1DC;    --warn: #8A5208;
+  --err-bg: #FDE7DF;     --err: #A63D1A;
+
+  /* type */
+  --font-text: 'Plus Jakarta Sans', system-ui, sans-serif;  /* all UI text */
+  --font-num: 'Space Grotesk', system-ui, sans-serif;        /* protein numbers, kcal, logo, step numbers */
+
+  /* radius */
+  --r-chip-sm: 8px;   /* quick chips, small badges' 6px */
+  --r-ctl: 14px;      /* search field, icon buttons, primary buttons */
+  --r-card: 18px;     /* recipe tiles (phone), content cards */
+  --r-card-lg: 20px;  /* macro card, tiles at >=600px */
+  --r-sheet: 24px;    /* bottom sheets (top corners only) */
+  --r-pill: 999px;    /* protein chips */
+
+  /* spacing scale (px): 4 6 8 10 12 14 16 20 24 28 32 40 */
+  --gutter: 16px;     /* phone side padding */
+  --tap: 44px;        /* minimum touch target */
+  --shadow-float: 0 8px 24px rgba(0, 0, 0, 0.25); /* only on the floating hint/toast */
+}
+
+:root[data-theme="dark"] { color-scheme: dark; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; } }
+
+/* dark values — applied by data-theme="dark", or by the OS when no choice is stored (Auto).
+   The two blocks below must stay identical. */
+:root[data-theme="dark"] {
+  --bg: #111614; --surface: #0C100E; --card: #18201C; --muted: #1F2824; --line: #26312C; --line2: #3A4741;
+  --text: #EEF3F0; --text2: #A3B2AA; --brand: #4CC487; --on-brand: #0C100E; --inv: #EEF3F0; --on-inv: #111614;
+  --scrim: rgba(0, 0, 0, 0.6);
+  --soya-bg: #17301F; --soya: #7BD3A0; --paneer-bg: #33270F; --paneer: #F2C26B; --pulses-bg: #3A1E14; --pulses: #F29A78;
+  --tofu-bg: #172438; --tofu: #8DB4EA; --tempeh-bg: #271C38; --tempeh: #C3A3EE; --whey-bg: #10302D; --whey: #6FD3C8;
+  --warn-bg: #33270F; --warn: #F2C26B; --err-bg: #3A1E14; --err: #F29A78;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111614; --surface: #0C100E; --card: #18201C; --muted: #1F2824; --line: #26312C; --line2: #3A4741;
+    --text: #EEF3F0; --text2: #A3B2AA; --brand: #4CC487; --on-brand: #0C100E; --inv: #EEF3F0; --on-inv: #111614;
+    --scrim: rgba(0, 0, 0, 0.6);
+    --soya-bg: #17301F; --soya: #7BD3A0; --paneer-bg: #33270F; --paneer: #F2C26B; --pulses-bg: #3A1E14; --pulses: #F29A78;
+    --tofu-bg: #172438; --tofu: #8DB4EA; --tempeh-bg: #271C38; --tempeh: #C3A3EE; --whey-bg: #10302D; --whey: #6FD3C8;
+    --warn-bg: #33270F; --warn: #F2C26B; --err-bg: #3A1E14; --err: #F29A78;
+  }
+}
+
+html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-text); }
+.num { font-family: var(--font-num); }

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Edit sheet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:inherit}
+.pp{--bg:#FFFFFF;--surface:#F6F8F7;--card:#FFFFFF;--muted:#F2F5F3;--line:#E1E8E4;--line2:#CFD8D3;--text:#14201A;--text2:#5B6B62;--brand:#17734A;--on-brand:#FFFFFF;--inv:#14201A;--on-inv:#FFFFFF;--scrim:rgba(20,32,26,0.55);--soya-bg:#E3F1E9;--soya:#17734A;--paneer-bg:#FDF1DC;--paneer:#8A5208;--pulses-bg:#FDE7DF;--pulses:#A63D1A;--tofu-bg:#E6EEF8;--tofu:#24508F;--tempeh-bg:#EFE8F8;--tempeh:#5E3592;--whey-bg:#DFF3F1;--whey:#0D6B64;--warn-bg:#FDF1DC;--warn:#8A5208;--err-bg:#FDE7DF;--err:#A63D1A;background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif}
+.pp.dark{--bg:#111614;--surface:#0C100E;--card:#18201C;--muted:#1F2824;--line:#26312C;--line2:#3A4741;--text:#EEF3F0;--text2:#A3B2AA;--brand:#4CC487;--on-brand:#0C100E;--inv:#EEF3F0;--on-inv:#111614;--scrim:rgba(0,0,0,0.6);--soya-bg:#17301F;--soya:#7BD3A0;--paneer-bg:#33270F;--paneer:#F2C26B;--pulses-bg:#3A1E14;--pulses:#F29A78;--tofu-bg:#172438;--tofu:#8DB4EA;--tempeh-bg:#271C38;--tempeh:#C3A3EE;--whey-bg:#10302D;--whey:#6FD3C8;--warn-bg:#33270F;--warn:#F2C26B;--err-bg:#3A1E14;--err:#F29A78}
+.num{font-family:'Space Grotesk',sans-serif}
+</style>
+</helmet>
+<div class="pp {{themeClass}}" style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; background: var(--scrim); display: flex; flex-direction: column; justify-content: flex-end">
+<div style="background: var(--card); border-radius: 24px 24px 0 0; padding: 10px 16px 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="align-self: center; width: 40px; height: 5px; border-radius: 3px; background: var(--line2)"></div>
+<div style="display: flex; align-items: center; gap: 8px">
+<div style="flex: 1; font-size: 20px; font-weight: 800">Edit this recipe</div>
+<button aria-label="How editing works" aria-expanded="true" style="width: 36px; height: 36px; border-radius: 18px; border: none; background: var(--soya-bg); color: var(--brand); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
+</div>
+<div style="border-radius: 16px; background: var(--soya-bg); padding: 14px; display: flex; flex-direction: column; gap: 8px; font-size: 13px; line-height: 1.55; color: var(--text)">
+<div style="font-weight: 800; color: var(--soya)">How this works</div>
+<div>Recipes live in a GitHub repository, not in this app.</div>
+<div><b>If it's your repository:</b> GitHub opens this recipe's file. Change it and tap Commit. A check runs and the site updates in about 2 minutes. A broken edit never goes live.</div>
+<div><b>If it's someone else's:</b> GitHub makes you a copy and sends them your change as a suggestion. They decide whether to accept it.</div>
+<div>You need a free GitHub account.</div>
+</div>
+<a href="https://github.com/" style="height: 52px; border-radius: 14px; background: var(--brand); color: var(--on-brand); text-decoration: none; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center">Edit on GitHub</a>
+<button style="height: 46px; border-radius: 14px; border: 1px solid var(--line2); background: var(--card); color: var(--text); font: inherit; font-size: 14px; font-weight: 700">Copy recipe data</button>
+<div style="font-size: 12px; color: var(--text2); text-align: center; line-height: 1.5">Copy recipe data gives you this recipe as text, to change with an AI or add to your own copy of the catalog.</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["light","dark"],"default":"light"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return { themeClass: this.props.theme === 'dark' ? 'dark' : '' }; }
+}
+</script>
+</body>
+</html>

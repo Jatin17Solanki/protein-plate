@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Filters dark</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:inherit}
+.pp{--bg:#FFFFFF;--surface:#F6F8F7;--card:#FFFFFF;--muted:#F2F5F3;--line:#E1E8E4;--line2:#CFD8D3;--text:#14201A;--text2:#5B6B62;--brand:#17734A;--on-brand:#FFFFFF;--inv:#14201A;--on-inv:#FFFFFF;--scrim:rgba(20,32,26,0.55);--soya-bg:#E3F1E9;--soya:#17734A;--paneer-bg:#FDF1DC;--paneer:#8A5208;--pulses-bg:#FDE7DF;--pulses:#A63D1A;--tofu-bg:#E6EEF8;--tofu:#24508F;--tempeh-bg:#EFE8F8;--tempeh:#5E3592;--whey-bg:#DFF3F1;--whey:#0D6B64;--warn-bg:#FDF1DC;--warn:#8A5208;--err-bg:#FDE7DF;--err:#A63D1A;background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif}
+.pp.dark{--bg:#111614;--surface:#0C100E;--card:#18201C;--muted:#1F2824;--line:#26312C;--line2:#3A4741;--text:#EEF3F0;--text2:#A3B2AA;--brand:#4CC487;--on-brand:#0C100E;--inv:#EEF3F0;--on-inv:#111614;--scrim:rgba(0,0,0,0.6);--soya-bg:#17301F;--soya:#7BD3A0;--paneer-bg:#33270F;--paneer:#F2C26B;--pulses-bg:#3A1E14;--pulses:#F29A78;--tofu-bg:#172438;--tofu:#8DB4EA;--tempeh-bg:#271C38;--tempeh:#C3A3EE;--whey-bg:#10302D;--whey:#6FD3C8;--warn-bg:#33270F;--warn:#F2C26B;--err-bg:#3A1E14;--err:#F29A78}
+.num{font-family:'Space Grotesk',sans-serif}
+</style>
+</helmet>
+<div class="pp {{themeClass}}" style="width: 390px; height: 844px; box-sizing: border-box; overflow: hidden; background: var(--scrim); display: flex; flex-direction: column; justify-content: flex-end">
+<div style="background: var(--card); border-radius: 24px 24px 0 0; height: 790px; box-sizing: border-box; display: flex; flex-direction: column">
+<div style="align-self: center; width: 40px; height: 5px; border-radius: 3px; background: var(--line2); margin-top: 10px"></div>
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 16px 12px; border-bottom: 1px solid var(--line)">
+<div style="font-size: 20px; font-weight: 800">Filters</div>
+<button style="height: 40px; padding: 0 6px; border: none; background: transparent; color: var(--brand); font: inherit; font-size: 14px; font-weight: 700">Clear all</button>
+</div>
+<div style="flex: 1; overflow: hidden; padding: 14px 16px; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; align-items: baseline"><div style="font-size: 15px; font-weight: 800">Main protein</div><div style="font-size: 12px; color: var(--text2)">any of these</div></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{proteins}}" as="p" hint-placeholder-count="6">
+<button aria-pressed="{{p.on}}" disabled="{{p.off}}" style="height: 38px; padding: 0 12px 0 8px; border-radius: 19px; border: 1.5px solid {{p.border}}; background: {{p.bg}}; color: var(--text); opacity: {{p.op}}; font: inherit; font-size: 14px; font-weight: {{p.w}}; display: flex; align-items: center; gap: 7px"><span style="width: 16px; height: 16px; border-radius: 8px; background: var(--{{p.k}})"></span>{{p.label}}<span style="font-size: 12px; font-weight: 600; color: var(--text2)">{{p.n}}</span></button>
+</sc-for>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; align-items: baseline"><div style="font-size: 15px; font-weight: 800">Dish type</div><div style="font-size: 12px; color: var(--text2)">any of these</div></div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+<sc-for list="{{types}}" as="t" hint-placeholder-count="8">
+<button disabled="{{t.off}}" style="height: 74px; border-radius: 14px; border: 1px solid var(--line2); background: var(--card); color: var(--text); opacity: {{t.op}}; font: inherit; font-size: 11px; font-weight: 600; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; padding: 0 2px"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="{{t.icon}}"/></svg>{{t.label}}<span style="font-size: 10px; color: var(--text2)">{{t.n}}</span></button>
+</sc-for>
+</div>
+<button style="align-self: flex-start; height: 32px; padding: 0; border: none; background: transparent; color: var(--brand); font: inherit; font-size: 13px; font-weight: 700">Show all 13 types</button>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; align-items: baseline"><div style="font-size: 15px; font-weight: 800">Quick picks</div><div style="font-size: 12px; color: var(--text2)">must match all</div></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{quick}}" as="q" hint-placeholder-count="4"><button aria-pressed="{{q.on}}" style="height: 36px; padding: 0 14px; border-radius: 18px; border: 1px solid {{q.border}}; background: {{q.bg}}; color: {{q.fg}}; font: inherit; font-size: 14px; font-weight: 700">{{q.label}} <span style="font-weight: 500; opacity: 0.75">{{q.n}}</span></button></sc-for>
+</div>
+</div>
+<label style="display: flex; align-items: center; justify-content: space-between; min-height: 40px; font-size: 14px">Show disliked recipes<input type="checkbox" style="width: 20px; height: 20px; accent-color: var(--brand)"></label>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-size: 15px; font-weight: 800; margin-bottom: 4px">Sort by</div>
+<label style="display: flex; align-items: center; gap: 10px; min-height: 36px; font-size: 14px"><input type="radio" name="sort" checked="{{ true }}" style="width: 18px; height: 18px; accent-color: var(--brand)">Protein per portion, high to low</label>
+<label style="display: flex; align-items: center; gap: 10px; min-height: 36px; font-size: 14px"><input type="radio" name="sort" style="width: 18px; height: 18px; accent-color: var(--brand)">Calories, low to high</label>
+</div>
+</div>
+<div style="padding: 12px 16px 20px; border-top: 1px solid var(--line); display: flex; gap: 10px">
+<a href="F7-HomeDark.dc.html" style="flex: 1; height: 50px; border-radius: 14px; border: 1px solid var(--line2); color: var(--text); text-decoration: none; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center">Close</a>
+<a href="F7-HomeDark.dc.html" style="flex: 2; height: 50px; border-radius: 14px; background: var(--brand); color: var(--on-brand); text-decoration: none; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center">Show 7 dishes</a>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"theme":{"editor":"enum","options":["light","dark"],"default":"dark"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const sel = ['paneer', 'soya'];
+    const pc = { paneer: 4, soya: 3, pulses: 2, tofu: 1, tempeh: 0, whey: 0 };
+    const I = { sand: 'M4 18L12 5l8 13zM7 14h10', salad: 'M4 12h16a8 8 0 0 1-16 0zM9 12c0-3 1-5 3-6M15 12c0-2-1-4-3-6', wrap: 'M5 17L17 5l2 2L7 19zM9 9l6 6', skew: 'M3 21L21 3M6.5 15a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M12 9.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0', pancake: 'M4 14c0-3 4-5 8-5s8 2 8 5-4 5-8 5-8-2-8-5zM8 13h8', pot: 'M5 10h14v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM3 10h18M9 6c0-1 1-1 1-2M14 6c0-1 1-1 1-2', rice: 'M4 12h16a8 8 0 0 1-16 0zM8 10l1-2M12 10V7M16 10l-1-2', noodle: 'M4 12h16a8 8 0 0 1-16 0zM9 12V4M13 12V3' };
+    const tc = [2, 2, 1, 1, 0, 3, 1, 1];
+    return {
+      themeClass: (this.props.theme ?? 'dark') === 'dark' ? 'dark' : '',
+      proteins: [['Paneer','paneer'],['Soya','soya'],['Pulses','pulses'],['Tofu','tofu'],['Tempeh','tempeh'],['Whey','whey']].map(([label, k]) => {
+        const on = sel.includes(k), n = pc[k];
+        return { label, k, n, on, off: n === 0, op: n === 0 ? 0.4 : 1, bg: on ? 'var(--' + k + '-bg)' : 'var(--card)', border: on ? 'var(--' + k + ')' : 'var(--line2)', w: on ? 700 : 500 };
+      }),
+      types: [['Sandwich', I.sand], ['Salad', I.salad], ['Wrap', I.wrap], ['Kebab', I.skew], ['Chilla', I.pancake], ['Curry', I.pot], ['Rice', I.rice], ['Pasta', I.noodle]].map(([label, icon], i) => ({ label, icon, n: tc[i], off: tc[i] === 0, op: tc[i] === 0 ? 0.4 : 1 })),
+      quick: [['Quick', true, 7], ['My list', false, 3], ['Global', false, 2], ['Air fryer', false, 2]].map(([label, on, n]) => ({ label, on, n, bg: on ? 'var(--inv)' : 'var(--card)', fg: on ? 'var(--on-inv)' : 'var(--text)', border: on ? 'var(--inv)' : 'var(--line2)' }))
+    };
+  }
+}
+</script>
+</body>
+</html>
