@@ -1,7 +1,9 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { filterRecipes, groupTitle, NO_FILTERS, toTiles } from '../../src/lib/home';
+import {
+  bestRelaxation, dishCount, filterRecipes, groupTitle, NO_FILTERS, NO_PERSONAL, optionCounts, summaryParts, toTiles,
+} from '../../src/lib/home';
 import { parse } from '../../src/lib/router';
 import type { Recipe } from '../../src/types/recipe';
 
@@ -28,12 +30,62 @@ describe('filterRecipes', () => {
   it('quick chips are AND, and combine with meal and protein', () => {
     expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['quick'] }))).toEqual(['besan-chilla', 'protein-oats', 'tofu-bhurji-toast']);
     expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['quick', 'global'] }))).toEqual([]);
-    expect(ids(filterRecipes(recipes, { meal: 'snack', proteins: ['soya'], quick: ['airFryer'] }))).toEqual(['soya-paneer-tikki', 'soya-pea-kebab']);
+    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, meal: 'snack', proteins: ['soya'], quick: ['airFryer'] }))).toEqual(['soya-paneer-tikki', 'soya-pea-kebab']);
   });
 
   it('My list uses the ids passed in', () => {
-    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['myList'] }, new Set(['besan-chilla'])))).toEqual(['besan-chilla']);
+    const p = { ...NO_PERSONAL, myList: new Set(['besan-chilla']) };
+    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['myList'] }, p))).toEqual(['besan-chilla']);
     expect(filterRecipes(recipes, { ...NO_FILTERS, quick: ['myList'] })).toEqual([]);
+  });
+
+  it('dish types are OR and match any tag of the recipe', () => {
+    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, dishTypes: ['salad_bowl', 'pasta_noodles'] }))).toEqual([
+      'rajma-rice-bowl', 'soya-tikka-salad', 'tempeh-chilli-noodles',
+    ]);
+  });
+
+  it('disliked recipes are hidden unless "Show disliked" is on', () => {
+    const p = { ...NO_PERSONAL, disliked: new Set(['besan-chilla']) };
+    expect(ids(filterRecipes(recipes, NO_FILTERS, p))).not.toContain('besan-chilla');
+    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, showDisliked: true }, p))).toContain('besan-chilla');
+  });
+});
+
+describe('dishCount + optionCounts', () => {
+  it('counts a dish group once', () => {
+    expect(dishCount(recipes)).toBe(9);
+  });
+
+  it('OR groups: count = that option with the other groups as is; AND picks: count with the pick added', () => {
+    const f = { ...NO_FILTERS, meal: 'snack' as const, proteins: ['soya' as const] };
+    const c = optionCounts(recipes, f);
+    expect(c.proteins).toEqual({ paneer: 1, soya: 1, pulses: 1, tofu: 0, tempeh: 0, whey: 0 });
+    expect(c.dishTypes.kebab_tikki_cutlet).toBe(1);
+    expect(c.dishTypes.salad_bowl).toBe(0);
+    expect(c.quick).toEqual({ quick: 0, myList: 0, global: 0, airFryer: 1 });
+  });
+});
+
+describe('summaryParts + bestRelaxation', () => {
+  it('one part per active choice', () => {
+    expect(summaryParts({ ...NO_FILTERS, meal: 'dinner', proteins: ['soya', 'paneer'], quick: ['quick'] })).toEqual([
+      'Dinner', 'Paneer or Soya', 'Quick',
+    ]);
+    expect(summaryParts({ ...NO_FILTERS, dishTypes: ['wrap_roll_taco', 'sandwich_toast'], showDisliked: true })).toEqual([
+      'Sandwich or Wrap', 'incl. disliked',
+    ]);
+  });
+
+  it('suggests the removal that brings back the most dishes', () => {
+    const f = { ...NO_FILTERS, meal: 'breakfast' as const, proteins: ['tofu' as const], quick: ['airFryer' as const] };
+    expect(dishCount(filterRecipes(recipes, f))).toBe(0);
+    expect(bestRelaxation(recipes, f)).toMatchObject({ label: 'Air fryer', dishes: 1, filters: { ...f, quick: [] } });
+  });
+
+  it('returns null when no single removal helps', () => {
+    const f = { ...NO_FILTERS, meal: 'breakfast' as const, proteins: ['tempeh' as const], quick: ['airFryer' as const] };
+    expect(bestRelaxation(recipes, f)).toBeNull();
   });
 });
 

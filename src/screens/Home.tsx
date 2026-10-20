@@ -1,34 +1,94 @@
-import { useMemo, useState } from 'preact/hooks';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { recipes } from '../lib/catalog';
-import { filterRecipes, MEALS, NO_FILTERS, PROTEINS, QUICK, toTiles, type HomeFilters, type QuickKey } from '../lib/home';
-import { readMyList } from '../lib/storage';
+import {
+  bestRelaxation, filterRecipes, MEALS, NO_FILTERS, PROTEINS, QUICK, summaryParts, toTiles, type Filters, type Personal,
+} from '../lib/home';
+import { Searcher } from '../lib/search';
+import { synonymGroups } from '../lib/synonyms';
+import { readDisliked, readMyList } from '../lib/storage';
 import { MenuIcon, UiIcon } from '../components/Icon';
 import { Tile } from '../components/Tile';
-import type { MainProtein } from '../types/recipe';
+import { FilterSheet } from '../components/FilterSheet';
+import { Sidebar } from '../components/Sidebar';
+import { EmptyState } from '../components/EmptyState';
+import { toggle } from '../components/filterParts';
 
-function toggle<T>(list: T[], item: T): T[] {
-  return list.includes(item) ? list.filter((x) => x !== item) : [...list, item];
-}
+let searcher: Searcher | null = null;
+const getSearcher = () => (searcher ??= new Searcher(recipes, synonymGroups));
+
+const readPersonal = (): Personal => ({ myList: readMyList(), disliked: readDisliked() });
+const dishes = (n: number) => `${n} ${n === 1 ? 'dish' : 'dishes'}`;
 
 export function Home() {
-  const [filters, setFilters] = useState<HomeFilters>(NO_FILTERS);
-  const myList = useMemo(readMyList, []);
-  const tiles = useMemo(() => toTiles(filterRecipes(recipes, filters, myList)), [filters, myList]);
+  const [filters, setFilters] = useState<Filters>(NO_FILTERS);
+  const [query, setQuery] = useState('');
+  const [sheetOpen, setSheetOpen] = useState(false);
+  const [personal, setPersonal] = useState(readPersonal);
+  const searchInput = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const onStorage = () => setPersonal(readPersonal());
+    addEventListener('storage', onStorage);
+    return () => removeEventListener('storage', onStorage);
+  }, []);
+
+  const q = query.trim();
+  const hits = useMemo(() => (q ? getSearcher().search(q) : undefined), [q]);
+  const candidates = useMemo(() => (hits ? recipes.filter((r) => hits.has(r.id)) : recipes), [hits]);
+  const tiles = useMemo(
+    () => toTiles(filterRecipes(candidates, filters, personal), filters.sort, hits),
+    [candidates, filters, personal, hits],
+  );
+  const parts = summaryParts(filters);
+  const active = parts.length > 0 || q !== '';
+  const relax = useMemo(
+    () => (tiles.length === 0 && parts.length ? bestRelaxation(candidates, filters, personal) : null),
+    [tiles.length, candidates, filters, personal],
+  );
+  const nameMatches = tiles.filter((t) => t.nameMatch).length;
+
+  const clearAll = () => {
+    setFilters({ ...NO_FILTERS, sort: filters.sort });
+    setQuery('');
+  };
 
   return (
-    <div class="home">
+    <div class={`home${q ? ' searching' : ''}`}>
       <div class="topbar">
         <header class="home-header">
           <h1 class="logo num">protein<span>/</span>plate</h1>
-          {/* Search, filters, menu, add and My recipes come alive in A3, A5 and A7. */}
+          <button class="icon-btn search-back" type="button" aria-label="Back" onClick={() => setQuery('')}>
+            <UiIcon name="back" />
+          </button>
           <label class="search">
             <UiIcon name="search" size={18} />
-            <input type="search" placeholder="Search a dish or ingredient" aria-label="Search a dish or ingredient" />
+            <input
+              ref={searchInput}
+              type="search"
+              enterKeyHint="search"
+              placeholder="Search a dish or ingredient"
+              aria-label="Search a dish or ingredient"
+              value={query}
+              onInput={(e) => setQuery(e.currentTarget.value)}
+            />
+            {query && (
+              <button type="button" class="search-clear" aria-label="Clear search" onClick={() => { setQuery(''); searchInput.current?.focus(); }}>
+                <UiIcon name="x" size={16} />
+              </button>
+            )}
           </label>
-          <button class="icon-btn filter-btn" type="button" aria-label="Open filters">
+          <button
+            class={`icon-btn filter-btn${parts.length ? ' on' : ''}`}
+            type="button"
+            aria-label={parts.length ? `Filters, ${parts.length} active` : 'Open filters'}
+            aria-haspopup="dialog"
+            onClick={() => setSheetOpen(true)}
+          >
             <UiIcon name="filters" />
+            {parts.length > 0 && <span class="badge" aria-hidden="true">{parts.length}</span>}
           </button>
           <span class="header-spacer" />
+          {/* Menu, Add and My recipes come alive in A4, A5 and A7. */}
           <button class="text-btn my-recipes-btn" type="button">
             <UiIcon name="bookmark" size={16} />My recipes
           </button>
@@ -43,64 +103,86 @@ export function Home() {
       </div>
 
       <main class="home-main">
-        <nav class="meal-tabs" aria-label="Meal">
-          {MEALS.map((m) => (
-            <button
-              key={m.key}
-              type="button"
-              class="meal-tab"
-              aria-pressed={filters.meal === m.key}
-              onClick={() => setFilters({ ...filters, meal: m.key })}
-            >
-              {m.label}
-            </button>
-          ))}
-        </nav>
+        <Sidebar recipes={candidates} personal={personal} filters={filters} onChange={setFilters} />
 
-        <div class="chips">
-          <div class="chip-row" role="group" aria-label="Main protein">
-            {PROTEINS.map((p) => (
-              <button
-                key={p.key}
-                type="button"
-                class="protein-chip"
-                data-tint={p.key}
-                aria-pressed={filters.proteins.includes(p.key)}
-                onClick={() => setFilters({ ...filters, proteins: toggle<MainProtein>(filters.proteins, p.key) })}
-              >
-                <span class="dot" />
-                {p.label}
+        <div class="results">
+          <nav class="meal-tabs" aria-label="Meal">
+            {MEALS.map((m) => (
+              <button key={m.key} type="button" class="meal-tab" aria-pressed={filters.meal === m.key}
+                onClick={() => setFilters({ ...filters, meal: m.key })}>
+                {m.label}
               </button>
             ))}
+          </nav>
+
+          <div class="toolbar">
+            <div class="chips">
+              <div class="chip-row protein-row" role="group" aria-label="Main protein">
+                {PROTEINS.map((p) => (
+                  <button key={p.key} type="button" class="protein-chip" data-tint={p.key} aria-pressed={filters.proteins.includes(p.key)}
+                    onClick={() => setFilters({ ...filters, proteins: toggle(filters.proteins, p.key) })}>
+                    <span class="dot" />{p.label}
+                  </button>
+                ))}
+              </div>
+              <span class="chip-divider" aria-hidden="true" />
+              <div class="chip-row" role="group" aria-label="Quick picks">
+                {QUICK.map((qk) => (
+                  <button key={qk.key} type="button" class="quick-chip" aria-pressed={filters.quick.includes(qk.key)}
+                    onClick={() => setFilters({ ...filters, quick: toggle(filters.quick, qk.key) })}>
+                    {qk.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {active && (
+              <div class="summary" aria-live="polite">
+                <span class="summary-text">
+                  {q ? (
+                    <>
+                      <b>{dishes(tiles.length)}</b> match “{q}”{nameMatches > 0 && ` · ${nameMatches} by name`}
+                      {parts.length > 0 && ` · ${parts.join(' · ')}`}
+                    </>
+                  ) : (
+                    <>{parts.join(' · ')} — <b>{dishes(tiles.length)}</b></>
+                  )}
+                </span>
+                <button type="button" class="link-btn" onClick={clearAll}>Clear</button>
+              </div>
+            )}
           </div>
-          <span class="chip-divider" aria-hidden="true" />
-          <div class="chip-row" role="group" aria-label="Quick picks">
-            {QUICK.map((q) => (
-              <button
-                key={q.key}
-                type="button"
-                class="quick-chip"
-                aria-pressed={filters.quick.includes(q.key)}
-                onClick={() => setFilters({ ...filters, quick: toggle<QuickKey>(filters.quick, q.key) })}
-              >
-                {q.label}
-              </button>
-            ))}
-          </div>
+
+          {tiles.length > 0 ? (
+            <ul class="grid" aria-label={dishes(tiles.length)}>
+              {tiles.map((t) => (
+                <li key={t.id}><Tile tile={t} /></li>
+              ))}
+            </ul>
+          ) : recipes.length === 0 ? (
+            <p class="no-results">No recipes yet.</p>
+          ) : (
+            <EmptyState
+              parts={parts}
+              query={q}
+              relax={relax}
+              tint={filters.proteins[0] ?? 'soya'}
+              onRelax={(r) => setFilters(r.filters)}
+              onClearAll={clearAll}
+            />
+          )}
         </div>
-
-        {tiles.length > 0 ? (
-          <ul class="grid" aria-label={`${tiles.length} dishes`}>
-            {tiles.map((t) => (
-              <li key={t.id}>
-                <Tile tile={t} />
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p class="no-results">{recipes.length === 0 ? 'No recipes yet.' : 'No dishes match these choices.'}</p>
-        )}
       </main>
+
+      {sheetOpen && (
+        <FilterSheet
+          recipes={candidates}
+          personal={personal}
+          filters={filters}
+          onApply={(f) => { setFilters(f); setSheetOpen(false); }}
+          onClose={() => setSheetOpen(false)}
+        />
+      )}
     </div>
   );
 }

@@ -17,8 +17,8 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
 | A1 | Scaffold, schema, CI, deploy | Phase 0 | done | `claude/compassionate-clarke-bxgv06` / [PR 1](https://github.com/Jatin17Solanki/protein-plate/pull/1) | Opus | Schema approved (D3). Site goes live on first push to main. |
-| A2 | App shell + Home grid | A1 | review | `claude/compassionate-clarke-bxgv06` / [PR 2](https://github.com/Jatin17Solanki/protein-plate/pull/2) | Opus | Search, filter button, menu, add, My recipes are visual only (A3/A5/A7). Desktop shows chips instead of the sidebar until A3. |
-| A3 | Filters + search + empty state | A2 | todo | | Sonnet | |
+| A2 | App shell + Home grid | A1 | done | `claude/compassionate-clarke-bxgv06` / [PR 2](https://github.com/Jatin17Solanki/protein-plate/pull/2) | Opus | Search, filter button, menu, add, My recipes are visual only (A3/A5/A7). Desktop shows chips instead of the sidebar until A3. |
+| A3 | Filters + search + empty state | A2 | review | `claude/compassionate-clarke-bxgv06` / PR_LINK | Opus | Search uses a built-in synonym stub until Track B ships `data/ingredients.json`. |
 | A4 | Recipe page + personal data + My recipes | A2 | todo | | Sonnet | |
 | A5 | Share, Edit, Menu, theme, backup, hint | A4 | todo | | Sonnet | |
 | A6 | Offline, share previews, polish | A5 | todo | | Sonnet | |

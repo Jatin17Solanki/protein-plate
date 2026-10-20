@@ -7,6 +7,7 @@ const UI = {
   plus: <path d="M12 5v14M5 12h14" />,
   bookmark: <path d="M6 3h12v18l-6-4-6 4z" />,
   back: <path d="M15 5l-7 7 7 7" />,
+  x: <path d="M6 6l12 12M18 6L6 18" />,
 };
 
 export function UiIcon({ name, size = 20, strokeWidth = 2 }: { name: keyof typeof UI; size?: number; strokeWidth?: number }) {

@@ -1,27 +1,12 @@
-import { expect, test, type Page } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 
-// DESIGN §8: every width, light + dark; no horizontal overflow; nothing sticks out except inside chip rows.
 // Screenshots: test-results/screens/home-<width>-<theme>.png. Runs on the fixtures build (VITE_FIXTURES=1).
-const WIDTHS = [320, 360, 390, 430, 768, 834, 1024, 1280, 1440];
-
-async function overflowOffenders(page: Page) {
-  return page.evaluate(() => {
-    const w = window.innerWidth;
-    const bad: string[] = [];
-    if (document.documentElement.scrollWidth > w) bad.push(`scrollWidth ${document.documentElement.scrollWidth} > ${w}`);
-    for (const el of document.querySelectorAll('body *')) {
-      if (el.closest('.chip-row, .meal-tabs')) continue; // allowed to scroll sideways in their own box
-      const r = el.getBoundingClientRect();
-      if (r.width > 0 && r.right > w + 0.5) bad.push(`${el.tagName.toLowerCase()}.${el.className} right=${Math.round(r.right)}`);
-    }
-    return bad;
-  });
-}
+import { heightFor, overflowOffenders, WIDTHS } from './helpers';
 
 for (const theme of ['light', 'dark'] as const) {
   for (const width of WIDTHS) {
     test(`home ${width}px ${theme}`, async ({ page }) => {
-      await page.setViewportSize({ width, height: width >= 1024 ? 900 : width >= 600 ? 1112 : 844 });
+      await page.setViewportSize({ width, height: heightFor(width) });
       await page.addInitScript((t) => localStorage.setItem('pp.theme', t), theme);
       await page.goto('/');
       await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
