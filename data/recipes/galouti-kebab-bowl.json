@@ -29,8 +29,8 @@
   "dish_group": "soya-kebab",
   "variant_label": "galouti bowl",
   "per_portion": {
-    "protein_g": 35,
-    "kcal": 489,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,

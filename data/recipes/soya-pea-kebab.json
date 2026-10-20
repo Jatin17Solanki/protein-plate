@@ -29,7 +29,7 @@
   "dish_group": "soya-kebab",
   "variant_label": "with peas",
   "per_portion": {
-    "protein_g": 30,
+    "protein_g": null,
     "kcal": null,
     "carbs_g": null,
     "fat_g": null,

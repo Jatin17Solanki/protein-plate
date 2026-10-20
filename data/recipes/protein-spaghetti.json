@@ -30,8 +30,8 @@
   "dish_group": "protein-pasta",
   "variant_label": "lentil spaghetti",
   "per_portion": {
-    "protein_g": 35,
-    "kcal": 570,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,

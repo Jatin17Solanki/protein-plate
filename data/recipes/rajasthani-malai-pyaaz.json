@@ -26,10 +26,10 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 40,
-    "kcal": 600,
-    "carbs_g": 23,
-    "fat_g": 40,
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },

@@ -1,6 +1,6 @@
 // Recipe page logic (pure): quantities, versions, ingredient sections, tag chips, macro footnote.
 import type { Ingredient, Recipe } from '../types/recipe';
-import { DISH_LABELS, DISH_TYPES, groupTitle, MEALS, type DishType } from './home';
+import { DISH_LABELS, DISH_TYPES, groupTitle, MEALS, shownNumbers, wholeRecipeProtein, type DishType } from './home';
 
 const FRACTIONS: [number, string][] = [[0.25, '¼'], [1 / 3, '⅓'], [0.5, '½'], [2 / 3, '⅔'], [0.75, '¾']];
 
@@ -81,12 +81,15 @@ export function macroFootnote(r: Recipe): string {
   const p = r.per_portion;
   const s = r.stated_macros;
   const parts: string[] = [];
-  if (!p.is_estimate) {
+  const whole = wholeRecipeProtein(r) !== null;
+  if (whole && s) parts.push(`The creator doesn't say how many portions this makes, so these are their numbers for ${s.basis.replace(/\s*\(servings not stated\)$/, '')}.`);
+  else if (!p.is_estimate) {
     if (!s || (p.protein_g === null && p.kcal === null)) return 'The creator gives no macros.';
     parts.push(`As stated by the creator (${s.basis}).`);
   } else if (s && s.protein_g !== null) parts.push(`Our estimate; the creator says ${formatNumber(s.protein_g)} g protein${s.kcal !== null ? ` and ${formatNumber(s.kcal)} kcal` : ''} (${s.basis}).`);
   else parts.push('Protein and kcal are our estimate.');
-  const unknown = (['carbs_g', 'fat_g', 'fibre_g'] as const).filter((k) => p[k] === null).map((k) => k.replace('_g', ''));
+  const shownMacros = shownNumbers(r);
+  const unknown = (['carbs_g', 'fat_g', 'fibre_g'] as const).filter((k) => shownMacros[k] === null).map((k) => k.replace('_g', ''));
   if (unknown.length === 3) parts.push('Carbs, fat and fibre not known.');
   else if (unknown.length) parts.push(`${unknown.join(' and ').replace(/^./, (c) => c.toUpperCase())} not known.`);
   return parts.join(' ');

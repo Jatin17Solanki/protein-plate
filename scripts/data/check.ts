@@ -1,7 +1,8 @@
 // Data checks that need no raw files (safe for public CI):
 //  - data/ingredients.json is well formed
 //  - every ingredient_id / supporting protein exists in the dictionary
-//  - per_portion holds the creator's own numbers (stated_macros), never our estimate (Jatin, 2026-10-20)
+//  - per_portion holds the creator's own numbers (stated_macros) when servings are stated, never our estimate
+//    (Jatin, 2026-10-20); otherwise it is empty and the app shows stated_macros as "whole recipe"
 //  - main_proteins / supporting_proteins follow the 35 % / 10 % rule (CONTEXT §4), using the dictionary
 //    estimate behind the scenes — the only place the estimate is used
 //  - flags[] lists what Jatin must look at: no_macros, macros_basis_unclear, missing_details and no_main_protein are set
@@ -48,8 +49,9 @@ for (const { file, recipe: r } of loadRecipes()) {
 
   const next: Recipe = structuredClone(r);
   next.missing = r.missing.filter((m) => !NOW_FLAGS.some((re) => re.test(m)));
-  // Creator's numbers, as stated; nothing of ours.
-  const s = r.stated_macros;
+  // Creator's numbers, as stated; nothing of ours. Without a portion count they stay in stated_macros only
+  // (the app shows them as "whole recipe").
+  const s = r.servings === null ? null : r.stated_macros;
   next.per_portion = {
     protein_g: s?.protein_g ?? null,
     kcal: s?.kcal ?? null,

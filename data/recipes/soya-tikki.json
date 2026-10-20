@@ -28,10 +28,10 @@
   "dish_group": "soya-kebab",
   "variant_label": "with paneer & besan",
   "per_portion": {
-    "protein_g": 33,
-    "kcal": 450,
-    "carbs_g": 32,
-    "fat_g": 17,
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },

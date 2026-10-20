@@ -28,8 +28,8 @@
   "dish_group": "soya-kebab",
   "variant_label": "with corn & cheese",
   "per_portion": {
-    "protein_g": 30,
-    "kcal": 470,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
