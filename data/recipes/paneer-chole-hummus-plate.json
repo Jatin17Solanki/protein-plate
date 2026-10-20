@@ -1,0 +1,164 @@
+{
+  "id": "paneer-chole-hummus-plate",
+  "title": "Paneer Chole Hummus Plate",
+  "source": {
+    "url": "https://www.instagram.com/p/DRencTQgUxz/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#17"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "chickpeas",
+    "curd"
+  ],
+  "tags": [
+    "salad_bowl",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 17,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 2; 700 kcal in total)",
+    "protein_g": 16,
+    "kcal": 350,
+    "carbs_g": 18,
+    "fat_g": 24
+  },
+  "protein_working": [
+    "100 g paneer × 18/100 g = 18 g",
+    "\"Boiled chole – 100 g\" ≈ 40 g dry chickpeas (chole) × 19/100 g = 7.6 g",
+    "\"Curd\" ≈ 122.5 g curd (dahi) × 3.5/100 g = 4.3 g",
+    "\"Sesame seeds – 2 tbsp\" ≈ 18 g sesame seeds × 18/100 g = 3.2 g",
+    "Total ≈ 33.8 g ÷ 2 portions = 16.9 g per portion"
+  ],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "boiled chole",
+      "ingredient_id": "chickpeas",
+      "qty": 100,
+      "unit": "g",
+      "grams": 40,
+      "type": "protein",
+      "as_written": "Boiled chole – 100 g"
+    },
+    {
+      "item": "paneer, cubed",
+      "ingredient_id": "paneer",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Paneer – 100 g (cubed)"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Sesame seeds – 2 tbsp"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Olive oil – 1 tbsp"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "Garlic – 2–3 cloves"
+    },
+    {
+      "item": "curd (dahi)",
+      "ingredient_id": "curd",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Curd (dahi) – ½ cup"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon juice – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper – to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red chilli powder – ½ tsp"
+    },
+    {
+      "item": "ghee (for sautéing)",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Ghee – ½ tsp (for sautéing)"
+    }
+  ],
+  "steps": [
+    "In a jar, add sesame seeds, olive oil, garlic, boiled chole, curd, salt, black pepper and lemon juice.",
+    "Blend until completely smooth and creamy to form your hummus.",
+    "Heat a pan and add a little ghee.",
+    "Add paneer, a handful of boiled chole, salt, black pepper and red chilli powder.",
+    "Sauté for a few minutes until slightly golden and coated well.",
+    "On a plate, spread a thick layer of hummus.",
+    "Top it with the cooked paneer and chole.",
+    "Pair with your favourite bread or roti for a complete high-protein lunch."
+  ],
+  "assumptions": [
+    "Boiled chole: 100 g cooked ≈ 40 g dry for the protein estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

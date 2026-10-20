@@ -1,0 +1,226 @@
+{
+  "id": "hariyali-soya-rice",
+  "title": "Hariyali Soya Rice",
+  "source": {
+    "url": "https://www.instagram.com/p/Dc7uZfKTk1s/",
+    "platform": "instagram",
+    "creator": "joee_cooks",
+    "creator_url": "https://www.instagram.com/joee_cooks/",
+    "ref": "batches/2026-10-16-batch1.txt#9"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "dinner"
+    ],
+    "stated_by_user": [
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "rice"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 530,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 3)",
+    "protein_g": 25,
+    "kcal": 505,
+    "carbs_g": 79,
+    "fat_g": 10
+  },
+  "protein_working": [
+    "100 g dry soya chunks × 52/100 g = 52 g",
+    "250 g dry rice × 7/100 g = 17.5 g",
+    "\"6 cloves garlic\" ≈ 24 g garlic × 6.4/100 g = 1.5 g",
+    "Total ≈ 74.9 g ÷ 3 portions = 25 g per portion"
+  ],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "A handful of coriander"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "A handful of mint"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "grams": 10,
+      "type": "produce",
+      "as_written": "1 inch ginger (10g)"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 6,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "6 cloves garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli"
+    },
+    {
+      "item": "cloves (laung)",
+      "ingredient_id": "cloves",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3 cloves"
+    },
+    {
+      "item": "cinnamon stick (small)",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 small cinnamon stick"
+    },
+    {
+      "item": "cardamom pods",
+      "ingredient_id": "green_cardamom",
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "4 cardamom pods"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp cumin seeds"
+    },
+    {
+      "item": "fennel seeds",
+      "ingredient_id": "fennel_seeds",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp fennel seeds"
+    },
+    {
+      "item": "water (for the paste)",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml water"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp oil"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "grams": 90,
+      "type": "produce",
+      "as_written": "1 chopped onion (90g)"
+    },
+    {
+      "item": "soya chunks (raw weight, soaked)",
+      "ingredient_id": "soya_chunks",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g soya chunks (raw weight, soaked)"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "water (for the rice)",
+      "ingredient_id": "water",
+      "qty": 500,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "500ml water"
+    },
+    {
+      "item": "basmati rice, washed",
+      "ingredient_id": "rice",
+      "qty": 250,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "250g washed basmati rice"
+    },
+    {
+      "item": "coriander leaves (to finish)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "a handful of coriander"
+    }
+  ],
+  "steps": [
+    "To a blender add: a handful of coriander, a handful of mint, 1 inch ginger (10g), 6 cloves garlic, 1 green chilli, 3 cloves, 1 small cinnamon stick, 4 cardamom pods, 2 tsp cumin seeds, 2 tsp fennel seeds, 150ml water.",
+    "Blend everything into a nice smooth green paste and set it aside.",
+    "Now to a pan on medium heat add: 2 tbsp oil, 1 chopped onion (90g), 100g soya chunks (raw weight, soaked).",
+    "Sauté until the onions turn a nice golden/dark brown. It took me about 10 minutes.",
+    "Now add the prepared green paste and cook until the raw smell goes away.",
+    "Add: 1 tsp garam masala, 1 tsp salt.",
+    "Mix well.",
+    "Now add: 500ml water, 250g washed basmati rice.",
+    "Give everything a good mix and bring it to a boil.",
+    "Once the water is consistently boiling, add a handful of coriander.",
+    "Cover and bring the flame to low.",
+    "25 minutes later, it’s all ready to serve."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

@@ -1,0 +1,252 @@
+{
+  "id": "soya-pulav",
+  "title": "Soya Pulav",
+  "source": {
+    "url": "https://www.instagram.com/p/C9zjzQgSHI2/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#24"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "rice"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serving (servings not stated)",
+    "protein_g": 23,
+    "kcal": 408,
+    "carbs_g": 78,
+    "fat_g": 7
+  },
+  "protein_working": [
+    "40 g dry soya chunks × 52/100 g = 20.8 g",
+    "80 g dry rice × 7/100 g = 5.6 g",
+    "100 g mixed vegetables × 2.5/100 g = 2.5 g",
+    "\"Onion: 1 medium\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 32.6 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Soya Chunks: 40g"
+    },
+    {
+      "item": "rice",
+      "ingredient_id": "rice",
+      "qty": 80,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Rice: 80g"
+    },
+    {
+      "item": "mixed vegetables (carrot, beans, cauliflower, peas)",
+      "ingredient_id": "mixed_vegetables",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Mixed Vegetables: 100g (carrot, beans, cauliflower, peas)"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Ghee: 1 tsp"
+    },
+    {
+      "item": "bay leaf (tejpatta)",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Tejpatta (Bay Leaf): 1"
+    },
+    {
+      "item": "cinnamon (small stick)",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Cinnamon: 1 small stick"
+    },
+    {
+      "item": "cloves (laung)",
+      "ingredient_id": "cloves",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Cloves: 2-3"
+    },
+    {
+      "item": "black peppercorns",
+      "ingredient_id": "black_pepper",
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Black Peppercorns: 4-5"
+    },
+    {
+      "item": "black cardamom",
+      "ingredient_id": "black_cardamom",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Black Cardamom: 1"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Green Cardamom: 2"
+    },
+    {
+      "item": "kasuri methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kasuri Methi (Dried Fenugreek Leaves): 1 tsp"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cumin Seeds: 1 tsp"
+    },
+    {
+      "item": "onion, finely sliced",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Onion: 1 medium, finely sliced"
+    },
+    {
+      "item": "tomato, finely chopped",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Tomato: 1 medium, finely chopped"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Turmeric Powder: 1/2 tsp"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Coriander Powder: 1/2 tsp"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Jeera (Cumin) Powder: 1/2 tsp"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red Chilli Powder: 1 tsp"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garam Masala: 1/2 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt: to taste"
+    },
+    {
+      "item": "yogurt (dahi)",
+      "ingredient_id": "curd",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Yogurt (Dahi): 2 tsp"
+    },
+    {
+      "item": "coriander (garnish)",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander: for garnish"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks, drain, and set aside.",
+    "Cook the rice and keep it aside.",
+    "Heat ghee in a pan.",
+    "Add tejpatta, cinnamon, cloves, black peppercorns, black cardamom, green cardamom, kasuri methi, and cumin seeds. Sauté for a few seconds until aromatic.",
+    "Add finely sliced onion and sauté until golden brown.",
+    "Add the mixed vegetables (carrot, green beans, peas, cauliflower) and sauté for about 5 minutes until they start to soften.",
+    "Add the finely chopped tomato and cook until it becomes mushy.",
+    "Add turmeric powder, coriander powder, jeera powder, red chilli powder, garam masala, and salt. Mix well.",
+    "Add yogurt and mix thoroughly. Cook for another 2 minutes.",
+    "Add the boiled soya chunks and cook for 3 minutes.",
+    "Finally, add the cooked rice and mix everything gently. Cook for another 3 minutes, ensuring the rice is well coated with the spices and vegetables.",
+    "Garnish with coriander and serve hot."
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "creamy-paneer-sandwich",
+  "title": "Creamy Paneer Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/p/Dd71wH4zVYr/",
+    "platform": "instagram",
+    "creator": "foodiesroof",
+    "creator_url": "https://www.instagram.com/foodiesroof/",
+    "ref": "batches/2026-10-16-batch1.txt#2"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 320,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per sandwich (makes 2)",
+    "protein_g": 16,
+    "kcal": 260,
+    "carbs_g": 34,
+    "fat_g": 8
+  },
+  "protein_working": [
+    "100 g low-fat paneer × 25/100 g = 25 g",
+    "\"2 slices of multigrain bread\" ≈ 120 g whole-wheat bread × 9/100 g = 10.8 g",
+    "\"3 tbsp Greek yogurt\" ≈ 45 g Greek yogurt × 9/100 g = 4.1 g",
+    "Total ≈ 41.3 g ÷ 2 portions = 20.6 g per portion"
+  ],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low-fat paneer"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 cloves garlic"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp Greek yogurt"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chilli flakes"
+    },
+    {
+      "item": "dried red chillies",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dried red chillies"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": 10,
+      "unit": "ml",
+      "type": "produce",
+      "as_written": "10ml lemon juice (juice of half a lime)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped onions"
+    },
+    {
+      "item": "carrot, grated",
+      "ingredient_id": "carrot",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp grated carrots"
+    },
+    {
+      "item": "cucumber, grated",
+      "ingredient_id": "cucumber",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp grated cucumber"
+    },
+    {
+      "item": "coriander leaves, chopped",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped coriander leaves"
+    },
+    {
+      "item": "multigrain bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "grams": 120,
+      "type": "grain",
+      "as_written": "2 slices of multigrain bread"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "grams": 10,
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    }
+  ],
+  "steps": [
+    "To a blender add 100g low-fat paneer, 2 cloves garlic, 3 tbsp Greek yogurt, 1 tsp chilli flakes, 2 dried red chillies, 10ml lemon juice (juice of half a lime), 1 tsp salt.",
+    "Blend until smooth and creamy, then set it aside.",
+    "Now to a bowl add: 1 tbsp chopped onions, 1 tbsp grated carrots, 1 tbsp grated cucumber, 1 tbsp chopped coriander leaves.",
+    "Pour in the paneer sauce and mix everything together. Your creamy paneer filling is ready!",
+    "Now take 2 slices of multigrain bread.",
+    "Spread half the filling onto the bread and close the sandwich.",
+    "Toast it with 1 tsp butter until golden and crispy on both sides."
+  ],
+  "assumptions": [
+    "Bread and butter are per sandwich, so the estimate counts 4 slices and 2 tsp butter for the 2 sandwiches.",
+    "Our estimate is above the creator's 16 g per sandwich; low-fat paneer brands vary (we use 25 g protein per 100 g).",
+    "Quick: about 15 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

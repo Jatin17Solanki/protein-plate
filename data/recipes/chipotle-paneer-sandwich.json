@@ -1,0 +1,180 @@
+{
+  "id": "chipotle-paneer-sandwich",
+  "title": "Chipotle Paneer Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/p/DKZzE7Bxzze/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#19"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "avocado (guac)",
+      "ingredient_id": "avocado",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 avocado"
+    },
+    {
+      "item": "lime (guac)",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 lime"
+    },
+    {
+      "item": "salt (guac)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt, coriander"
+    },
+    {
+      "item": "coriander (guac)",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "salt, coriander"
+    },
+    {
+      "item": "onion (guac)",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/4 onion"
+    },
+    {
+      "item": "green chilli (guac)",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilly"
+    },
+    {
+      "item": "yogurt (curd, marinade)",
+      "ingredient_id": "curd",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1.5 tbsp yogurt"
+    },
+    {
+      "item": "chipotle peppers (marinade)",
+      "ingredient_id": "chipotle",
+      "qty": 2,
+      "unit": "piece",
+      "type": "sauce",
+      "as_written": "2 chipotle peppers"
+    },
+    {
+      "item": "salt (marinade)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt, paprika, black pepper"
+    },
+    {
+      "item": "paprika (marinade)",
+      "ingredient_id": "paprika",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt, paprika, black pepper"
+    },
+    {
+      "item": "black pepper (marinade)",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt, paprika, black pepper"
+    },
+    {
+      "item": "ginger-garlic paste (marinade)",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1tsp ginger garlic paste"
+    },
+    {
+      "item": "toasted bread",
+      "ingredient_id": "bread",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "toasted bread"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "paneer"
+    },
+    {
+      "item": "sundried tomatoes",
+      "ingredient_id": "sundried_tomatoes",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "sundried tomatoes"
+    },
+    {
+      "item": "tortilla chips",
+      "ingredient_id": "tortilla_chips",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "chips"
+    }
+  ],
+  "steps": [],
+  "assumptions": [
+    "Paneer is marinated in the chipotle marinade, from the caption's story; the creator gives no steps.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Quantities for paneer, bread, sundried tomatoes and chips",
+    "Method",
+    "Servings and macros"
+  ],
+  "added_at": "2026-10-20"
+}

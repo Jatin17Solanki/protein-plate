@@ -1,0 +1,100 @@
+{
+  "id": "soya-tikki",
+  "title": "Soya Tikki",
+  "source": {
+    "url": "https://www.instagram.com/p/DI61-s4TC2H/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#20"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "paneer",
+    "besan"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": "soya-kebab",
+  "variant_label": "with paneer & besan",
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 33,
+    "kcal": 450,
+    "carbs_g": 32,
+    "fat_g": 17
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g besan"
+    },
+    {
+      "item": "curd",
+      "ingredient_id": "curd",
+      "qty": 30,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "30g curd"
+    },
+    {
+      "item": "corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 30,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "30g corn"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g soya chunks"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60g paneer"
+    }
+  ],
+  "steps": [],
+  "assumptions": [
+    "Creator states ~33–34 g protein in total.",
+    "Creator's tips: more paneer and besan if you dislike soya (makes more tikkis); skip ghee with a non-stick pan if in a calorie deficit; add Maggi Magic Masala to mask the soya taste.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Method and spices; the tips mention frying in ghee",
+    "Servings"
+  ],
+  "added_at": "2026-10-20"
+}

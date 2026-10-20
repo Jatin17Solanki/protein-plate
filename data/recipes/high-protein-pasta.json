@@ -1,0 +1,236 @@
+{
+  "id": "high-protein-pasta",
+  "title": "High Protein Pasta",
+  "source": {
+    "url": "https://www.instagram.com/p/DJwO3O9y43k/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#18"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "pasta_whole_wheat",
+    "mozzarella"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": "protein-pasta",
+  "variant_label": "whole-wheat pasta",
+  "per_portion": {
+    "protein_g": 49,
+    "kcal": 680,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 1)",
+    "protein_g": 46.2,
+    "kcal": 630
+  },
+  "protein_working": [
+    "100 g low-fat paneer × 25/100 g = 25 g",
+    "60 g dry whole-wheat pasta × 13/100 g = 7.8 g",
+    "35 g mozzarella × 22/100 g = 7.7 g",
+    "150 g mixed vegetables × 2.5/100 g = 3.8 g",
+    "\"100ml skim milk\" ≈ 100 g skimmed milk × 3.4/100 g = 3.4 g",
+    "Total ≈ 49.2 g per portion"
+  ],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "whole wheat pasta",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 60,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "60g whole wheat pasta"
+    },
+    {
+      "item": "high-protein paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g high-protein paneer"
+    },
+    {
+      "item": "skim milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100ml skim milk"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1/2 tsp butter"
+    },
+    {
+      "item": "whole wheat flour",
+      "ingredient_id": "wheat_flour",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1/2 tbsp whole wheat flour"
+    },
+    {
+      "item": "reserved pasta water",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup reserved pasta water"
+    },
+    {
+      "item": "mixed chopped veggies",
+      "ingredient_id": "mixed_vegetables",
+      "qty": 150,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "150g mixed chopped veggies"
+    },
+    {
+      "item": "coloured capsicum (in the veggies)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "colored capsicum"
+    },
+    {
+      "item": "mushroom (in the veggies)",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mushroom"
+    },
+    {
+      "item": "broccoli (in the veggies)",
+      "ingredient_id": "broccoli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "broccoli"
+    },
+    {
+      "item": "cherry tomatoes (in the veggies)",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "cherry tomatoes"
+    },
+    {
+      "item": "garlic, finely chopped",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp finely chopped garlic"
+    },
+    {
+      "item": "fresh basil leaves",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh basil leaves (a few)"
+    },
+    {
+      "item": "grated mozzarella cheese",
+      "ingredient_id": "mozzarella",
+      "qty": 35,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "35g grated mozzarella cheese"
+    },
+    {
+      "item": "crushed black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Crushed black pepper (generous amount)"
+    },
+    {
+      "item": "red chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli flakes"
+    },
+    {
+      "item": "crunchy garlic",
+      "ingredient_id": "crunchy_garlic",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp crunchy garlic"
+    },
+    {
+      "item": "peri peri powder",
+      "ingredient_id": "peri_peri",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp peri peri powder"
+    },
+    {
+      "item": "oregano mix",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp oregano mix"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "Boil the pasta: cook 60g whole wheat pasta as per package instructions.",
+    "Reserve 1 cup of the starchy pasta water before draining.",
+    "Prepare the sauce base: blend 100g high-protein paneer with 100ml skim milk until smooth and creamy.",
+    "Cook the sauce: in a pan, melt 1/2 tsp butter and add 1 tsp whole wheat flour.",
+    "Stir continuously for 1-2 minutes until the flour is lightly toasted.",
+    "Add the pasta water and the paneer-milk blend. Stir until well combined and smooth.",
+    "Add veggies and flavor: toss in the chopped vegetables, basil, and garlic.",
+    "Add all seasonings: black pepper, red chilli flakes, crunchy garlic, peri peri powder, oregano, and salt.",
+    "Cook on medium heat until veggies are just tender.",
+    "Finish with cheese: add 35g grated mozzarella cheese and stir until it fully melts into the sauce.",
+    "Combine and serve: add the cooked pasta to the pan, toss to coat evenly in the sauce.",
+    "Serve hot, garnished with extra herbs or chilli flakes if desired."
+  ],
+  "assumptions": [
+    "Whole wheat flour: ½ tbsp in the list, 1 tsp in the method; the estimate uses ½ tbsp.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

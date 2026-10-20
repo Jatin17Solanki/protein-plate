@@ -1,0 +1,209 @@
+{
+  "id": "vegetable-moonglet",
+  "title": "Vegetable Moonglet",
+  "source": {
+    "url": "https://www.instagram.com/p/DATGAnKPAoC/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#23"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": null,
+  "protein_working": [
+    "\"3/4 cup moong dal\" ≈ 150 g dry yellow moong dal × 23/100 g = 34.5 g",
+    "\"1 onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 38.5 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "3/4 cup moong dal"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 5,
+      "type": "produce",
+      "as_written": "1/2 inch ginger"
+    },
+    {
+      "item": "green chillies",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 cup water"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "turmeric (haldi)",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "a pinch of haldi"
+    },
+    {
+      "item": "carrot, finely chopped",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 carrot finely chopped"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion"
+    },
+    {
+      "item": "capsicum, finely chopped",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 capsicum finely chopped"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "handful of coriander"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp rice flour"
+    },
+    {
+      "item": "eno (fruit salt)",
+      "ingredient_id": "baking_soda",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp eno"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "oil"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "some butter"
+    },
+    {
+      "item": "bhujiya (to serve)",
+      "ingredient_id": "sev",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "some bhujiya"
+    },
+    {
+      "item": "green chutney (to serve)",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "green chutney"
+    }
+  ],
+  "steps": [
+    "Soak 3/4 cup moong dal for atleast 1-2 hours (or overnight).",
+    "Then drain the water, add to a blender, add 1/2 inch ginger, 2 green chillies & 1/4 cup water & blend smooth.",
+    "Then add this to a bowl add 1 tsp cumin seeds, 1 tsp salt, 1 tsp red chilli powder & a pinch of haldi.",
+    "Also add 1/2 carrot finely chopped, 1 onion, 1/2 capsicum finely chopped, handful of coriander & mix it well.",
+    "Finally add 1 tbsp rice flour, mix & right at the end when your pan is ready add 1/2 tsp eno & mix (not too much).",
+    "Heat oil in a pan, grease it well. Pour the batter over this & spread it evenly.",
+    "Cover with a lid, let it steam for 3-4 mins until it hardens.",
+    "Now let it cook once done, flip it over & cook on the other side too.",
+    "Now make a slit in the middle add some butter let it cook for another minute or so.",
+    "Now slice it up & enjoy with some bhujiya, coriander & green chutney!"
+  ],
+  "assumptions": [],
+  "missing": [
+    "Macros (none in the caption)",
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

@@ -32,7 +32,7 @@ for (const { file, recipe: r } of loadRecipes()) {
 
   const est = estimate(r, byId);
   for (const u of est.unweighed) warn(file, `"${u}" has no weight, so it is left out of the estimate`);
-  if (r.main_proteins.length === 0 || est.main_proteins.length === 0) warn(file, 'no main protein — flag for Jatin (CONTEXT §4)');
+  if (est.main_proteins.length === 0) warn(file, 'no main protein — flag for Jatin (CONTEXT §4)');
 
   const next: Recipe = structuredClone(r);
   next.main_proteins = est.main_proteins;
