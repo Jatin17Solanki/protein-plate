@@ -15,6 +15,7 @@ _Last updated: 2026-10-20 (BL2 session)_
 **Gotchas:**
 - Recipe page: put new sections in the right wrapper. `col-a` = top (title, macros, actions, credit), `col-b` = right column, `col-c` = Tried it + notes. Phone order = markup order.
 - Lighthouse locally: `BASE_PATH=/ npx vite preview` (without it the preview serves `/protein-plate/`); `CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx lighthouse@12.8.2 …`. SEO "robots.txt invalid" is a local-preview artefact.
+- Preact 11 runs `useEffect` cleanups **after paint** on unmount. Anything that must happen before the next screen shows (saving a pending note) belongs in `useLayoutEffect`. This made `main` CI red after PR 19/21 (fixed in PR 22).
 - Don't `pkill -f` a pattern that matches your own Bash command line (kills the shell; same for Playwright).
 - `src/` imports `scripts/data/lib/{dedupe,raw}.ts`: keep those pure.
 - Lists, cards, share, exports and OG use `portionProtein`; only the recipe page macro card uses `shownProtein`/`shownNumbers`. Colour via `tintOf`. `estimated_macros` is read only by `EstimateNote` (recipe page); keep it out of everything else (`tests/unit/bl1.test.ts` guards it).
