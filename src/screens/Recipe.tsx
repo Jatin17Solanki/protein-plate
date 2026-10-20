@@ -311,7 +311,9 @@ function Notes({ id, incomplete }: { id: string; incomplete: boolean }) {
   const timer = useRef<number | undefined>(undefined);
   const latest = useRef(text);
 
-  useEffect(() => {
+  // Layout effect: Preact 11 runs useEffect cleanups after paint, so a pending note would be saved only after the
+  // next screen appeared. Layout cleanups run while the old screen is removed.
+  useLayoutEffect(() => {
     setText(getNote(id));
     latest.current = getNote(id);
     // Save anything still pending when leaving the recipe, hiding the tab or closing the page.

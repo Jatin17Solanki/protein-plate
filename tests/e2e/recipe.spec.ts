@@ -94,6 +94,29 @@ test.describe('phone', () => {
     expect(await page.evaluate(() => localStorage.getItem('pp.notes'))).toBe('{}');
   });
 
+  test('a note cleared just before leaving is already saved when Home appears', async ({ page }) => {
+    await page.goto('/r/tofu-bhurji-toast/');
+    await page.getByRole('textbox', { name: 'My notes' }).fill('Add extra pepper');
+    await page.waitForTimeout(600);
+    await page.getByRole('textbox', { name: 'My notes' }).fill('');
+    // Read storage in the same moment Home's tiles enter the DOM (Preact 11 runs useEffect cleanups after paint,
+    // so a save there landed after Home appeared and main CI failed now and then, 2026-10-20).
+    const saved = await page.evaluate(
+      () =>
+        new Promise<string | null>((resolve) => {
+          const obs = new MutationObserver(() => {
+            if (document.querySelector('.grid .tile')) {
+              obs.disconnect();
+              resolve(localStorage.getItem('pp.notes'));
+            }
+          });
+          obs.observe(document.body, { childList: true, subtree: true });
+          (document.querySelector('button[aria-label="Back to all recipes"]') as HTMLButtonElement).click();
+        }),
+    );
+    expect(saved).toBe('{}');
+  });
+
   test('a note typed just before reloading is not lost', async ({ page }) => {
     await page.goto('/r/tofu-bhurji-toast/');
     await page.getByRole('textbox', { name: 'My notes' }).fill('Typed fast');
