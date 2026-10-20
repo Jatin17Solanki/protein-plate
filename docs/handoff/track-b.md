@@ -14,7 +14,7 @@ _Last updated: 2026-10-20 (B2 complete)_
 **Next:**
 - B3 when Jatin sends the new compilation: dedupe against the catalog (`dedupe.ts --batch <file>`), correct creator credits where it names them, add new recipes the same way.
 - B6: resolve flags with Jatin. When he gives a fix, edit the recipe and remove the flag (hand-added) or fix the cause (auto flags disappear once the data is complete, e.g. add `servings`).
-- B4 (oats breakfast, My list seed) still open.
+- B4: My list seed done (13 ids: Jatin's 12 'self cook' notes + moong-dal-veg-pizza; he dropped the other 'try/experiment' ones). Sent as a restore file in chat, never committed. Still waiting on Jatin for the protein oats recipe and the 15 incomplete entries; he'll send them together.
 
 **Gotchas:**
 - "Recipe by @x" = original creator; the post is by a reviewer account. Credited as is for now.
