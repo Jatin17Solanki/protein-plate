@@ -38,7 +38,7 @@ export function MyRecipes() {
   const rows = lists[tab];
 
   return (
-    <div class="my-page">
+    <main class="my-page">
       <header class="my-head">
         <button type="button" class="icon-btn round" aria-label="Back" onClick={() => goBack()}>
           <UiIcon name="back" />
@@ -102,6 +102,6 @@ export function MyRecipes() {
         <UiIcon name="info" size={18} />
         <span>Likes, dislikes, My list and notes are saved on this device only. Other people using this site have their own. To move yours, use <b>Back up</b> in the menu.</span>
       </p>
-    </div>
+    </main>
   );
 }

@@ -11,6 +11,7 @@ A free, mobile-first, static recipe catalog (GitHub Pages) that helps a vegetari
 | `docs/CONTEXT.md` | Full decision record: problem, journeys, data rules, rejected ideas, backlog | Only the sections your phase lists |
 | `docs/DESIGN.md` + `design/` | Design system, screen spec, references | Track A: the sections your phase lists |
 | `docs/DECISIONS.md` | Dated log of decisions | Append only |
+| `docs/MANUAL-TEST.md` | Jatin's real-device test plan, one section per feature | Update when your phase adds or changes something visible |
 
 ## Session protocol
 1. **Start:** read TRACKER → your track's handoff → your phase in PLAN → the listed sections. Don't ask Jatin to re-explain anything written in these files. If something is genuinely undecided, ask a short question instead of assuming.
@@ -21,6 +22,7 @@ A free, mobile-first, static recipe catalog (GitHub Pages) that helps a vegetari
 6. **End of session (always, even if unfinished):**
    - TRACKER: your row → `review` with the PR link (or `blocked` + why).
    - `docs/DECISIONS.md`: append any decision made (date · decision · why · who).
+   - `docs/MANUAL-TEST.md`: add or update the checks for anything you added or changed that a person can see.
    - Overwrite your track's handoff file: done / not done / next step / gotchas / open questions (≤ 40 lines).
    - Commit, push, open the PR with a summary and the verification evidence. Then stop.
 

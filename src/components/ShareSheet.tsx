@@ -30,7 +30,7 @@ export function ShareSheet({ recipe, onClose }: { recipe: Recipe; onClose: () =>
   return (
     <Sheet title="Share recipe" onClose={onClose} class="share-sheet">
       <p class="eyebrow">Message preview</p>
-      <pre class="share-preview">{text}</pre>
+      <pre class="share-preview" tabIndex={0} aria-label="Message preview">{text}</pre>
       <div class="toggle-list">
         {recipe.ingredients.length > 0 && (
           <label class="toggle-row">

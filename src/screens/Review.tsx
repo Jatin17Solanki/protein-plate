@@ -41,7 +41,7 @@ export function Review() {
   const info = FLAG_INFO.find((f) => f.code === flag);
 
   return (
-    <div class="my-page review-page">
+    <main class="my-page review-page">
       <header class="my-head">
         <button type="button" class="icon-btn round" aria-label="Back" onClick={() => goBack()}>
           <UiIcon name="back" />
@@ -120,6 +120,6 @@ export function Review() {
           })}
         </ul>
       )}
-    </div>
+    </main>
   );
 }

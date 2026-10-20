@@ -1,30 +1,37 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (A7 session)_
+_Last updated: 2026-10-20 (A8 session)_
 
-**Done (A7, PR open):**
-- **Add recipes** `/add/` (`src/screens/AddRecipes.tsx`, lazy-loaded; logic in `src/lib/addRecipes.ts`). Home "+", desktop "Add recipes" and the menu open it.
-  1 Copy prompt = `prompts/add-recipes.md` (from its first `---`) + chat note + schema + ingredient ids/names + catalog index. 2 Paste (fences/chat text tolerated). 3 Verdicts: ✓ ready · ! possible duplicate (Add as version / Add anyway / Skip) · × error (Copy fix-it prompt). Submit → 4 "Send to GitHub": one pre-filled new-file link per recipe; "Update <title>" (copy + GitHub editor) when Add as version groups an ungrouped recipe.
-  Checks = `checkSchema`/`checkRules` (same as CI) + Track B's `findPairs` imported from `scripts/data/lib/dedupe.ts` (not copied) + id clash + label clash. Unknown dictionary ids → note only.
-- **Export** `/export/` (`src/screens/Export.tsx`, `src/lib/export.ts`): Copy prompt + compact catalog · Copy link to `/catalog.txt` (built in `vite.config.ts`, every recipe in full, no personal data) · Download JSON. "Include my notes, My list and Like / Dislike" (off) adds personal data to the prompt and file only.
-- `downloadJson` moved to `src/lib/download.ts` (menu backup uses it). SW `navigateFallbackDenylist` keeps `/catalog.txt` out of the app shell. Static `add/` + `export/` pages (noindex).
-- Tests: `tests/unit/addRecipes.test.ts`, `tests/unit/export.test.ts`, `tests/e2e/add.spec.ts` (flows + §8 screenshots/overflow for add + export at 9 widths × 2 themes).
+**Done (A8, PR open):** QA pass, report in `docs/QA.md`.
+- Lighthouse (mobile, real data): accessibility 100 on home/recipe/my/add/export/review; performance 94–99; best practices 100.
+- axe-core over 14 screens/sheets × light/dark × 390/1280: found 9 kinds of issue, now 0. Now a CI test: `tests/e2e/a11y.spec.ts` (`axe-core` dev dependency).
+- Keyboard pass: `tests/e2e/keyboard.spec.ts` checks focus rings, sheet focus trap and return, phone recipe tab order, and the desktop two-column layout.
+- Fixes:
+  - share preview can be scrolled by keyboard
+  - recipe markup is in phone order (`col-a` / `col-b` / `col-c`; desktop uses grid areas `"a b" "c b"`, no more CSS `order`)
+  - `<main>` on My recipes / Add / Export / Review / Not found; recipe top bar is a `<header>`
+  - logo (h1) only visually hidden while searching on phone
+  - credit no longer says "Steps in our own words"
+  - sheet focus trap skips `tabindex="-1"`
+- `docs/MANUAL-TEST.md`: Jatin's full real-device test plan (14 sections, device matrix, results log). CLAUDE.md now has every phase update it.
+- TRACKER: A7 → done.
 
-**Not done / needs Jatin:** a real end-to-end add from his phone (Commit on GitHub, CI, deploy). The 8,000-character pre-fill cap couldn't be checked against GitHub from the session; if GitHub rejects a long link, lower `MAX_URL` in `src/lib/addRecipes.ts`. Lighthouse is left for A8.
+**Not done / needs Jatin:** the manual test itself (TRACKER "Jatin's tasks"). The first real Add-recipes commit is still untested (the 8,000-char GitHub link cap, `MAX_URL` in `src/lib/addRecipes.ts`).
 
-**Requests for Track B (I didn't touch `prompts/` or `scripts/data/`):**
-1. `prompts/add-recipes.md`: fold in the chat note that `buildAddPrompt` appends (no file access → `ingredient_id: null` + "New dictionary entry needed: …" in assumptions, `source.ref: null`, fill `per_portion`/`flags[]` yourself, JSON only). Keep the intro → `---` layout: the app drops everything before the first `---`.
-2. Recipes added from the app may be **one-line JSON** (that's what fits in a GitHub link). Re-format them (2-space) when you next run `check.ts --write`, or add a formatter step.
-3. App-added recipes have `source.ref: null` and may have `ingredient_id: null` / new ids: add dictionary entries, and run `check.ts` (flags, 35 % rule) on them.
-4. Optional: a `findPairsAgainst(newOnes, catalog)` in `lib/dedupe.ts` would replace the id-prefix trick in `checkPaste`.
-5. B5: when the export prompt exists (e.g. `prompts/ask-catalog.md`), tell Track A; the starter text now lives in `askPrompt()` in `src/lib/export.ts`.
+**Next:** no Track A phase left in PLAN. Next Track A work comes from Jatin's results log in `docs/MANUAL-TEST.md` (fix list → new TRACKER rows, e.g. `A9 fixes from manual test`), plus the requests for Track B below.
 
-**Next:** A8 (QA pass). Start in a fresh session.
+**Still open for Track B (from A7):**
+1. Fold the chat note from `buildAddPrompt` into `prompts/add-recipes.md` (keep the intro → `---` layout).
+2. Re-format one-line recipe files added from the app.
+3. Add dictionary entries for `ingredient_id: null` / new ids from app-added recipes.
+4. Optional: `findPairsAgainst` in `lib/dedupe.ts`.
+5. B5 export prompt → swap into `askPrompt()`.
 
 **Gotchas:**
-- `src/` imports `scripts/data/lib/{dedupe,raw}.ts`: keep those modules pure (no `node:` imports) or the app build breaks.
-- `?raw` import of the prompt and the JSON imports of schema + dictionary live only in the lazy Add chunk (~53 KB gzip); keep them out of the main bundle.
-- Since PR 10, display code must use `shownProtein`/`shownNumbers`/`tintOf`, not `per_portion` directly.
-- Don't `pkill -f "playwright test"` from the same Bash call that runs Playwright.
+- Recipe page: put new sections in the right wrapper. `col-a` = top (title, macros, actions, credit), `col-b` = right column, `col-c` = Tried it + notes. Phone order = markup order.
+- Lighthouse locally: `BASE_PATH=/ npx vite preview` (without it the preview serves `/protein-plate/`); `CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx lighthouse@12.8.2 …`. SEO "robots.txt invalid" is a local-preview artefact.
+- Don't `pkill -f` a pattern that matches your own Bash command line (kills the shell; same for Playwright).
+- `src/` imports `scripts/data/lib/{dedupe,raw}.ts`: keep those pure.
+- Display code uses `shownProtein`/`shownNumbers`/`tintOf`, not `per_portion` directly.
 
 **Open questions:** none.
