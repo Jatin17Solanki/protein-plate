@@ -40,11 +40,7 @@
     "is_estimate": true
   },
   "stated_macros": null,
-  "protein_working": [
-    "160 g silken tofu × 5/100 g = 8 g",
-    "35 g dry rice flour × 6/100 g = 2.1 g",
-    "Total ≈ 12.2 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -177,7 +173,8 @@
     "Low in protein for the catalog (about 12 g for the whole batch)."
   ],
   "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
+    "Servings: the caption doesn't say how many portions this makes.",
+    "Macros: the creator gives none — Jatin to add."
   ],
   "added_at": "2026-10-20"
 }

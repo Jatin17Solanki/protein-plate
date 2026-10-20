@@ -14,6 +14,7 @@ _Last updated: 2026-10-20 (B2a session)_
 - Steps = creator's exact words, formatting only; `fidelity.ts` fails anything else. Typos stay.
 - Servings only from an explicit count; otherwise null, no per-portion figure, "Servings…" in `missing[]`.
 - No field-by-field review: Jatin reads recipes in the app and sends notes by title; trace via `source.ref`.
+- No creator macros → no figures from us; `check.ts --write` empties them and adds the "Macros: the creator gives none — Jatin to add." flag. Flagged now: rajma-tacos, silken-tofu-veggie-pancakes, tempeh-pav-bhaji, vegetable-moonglet (+ incomplete lasooni-dhaniya-paneer, chipotle-paneer-sandwich).
 
 **Gotchas:**
 - "Recipe by @x" = original creator; the post is by a reviewer account. Kept as `source.creator`. Jatin may send a new compilation with creator names.
@@ -22,6 +23,6 @@ _Last updated: 2026-10-20 (B2a session)_
 - Boiled/soaked pulses: keep `qty`, put dry estimate in `grams` (cooked ≈ 2.5× dry; soaked moong ≈ 2× dry).
 - Scratch generator pattern: a Python file with `I()`/`R()` helpers writing `data/recipes/*.json`, then `check.ts --write`.
 
-**For Track A:** show whole-recipe protein when `per_portion.protein_g` is null (last `protein_working` line); show ingredients by `as_written`; search synonym expansion is broad (multi-word aliases); possible tags: fritter/pakora (moong bhajiya), poha.
+**For Track A:** complete recipes can now have no protein at all (creator gave no macros) — show "Macros not given" rather than "—"; their `missing[]` flag is only shown on incomplete recipes today. Also: show whole-recipe protein when `per_portion.protein_g` is null (last `protein_working` line); show ingredients by `as_written`; search synonym expansion is broad (multi-word aliases); possible tags: fritter/pakora (moong bhajiya), poha.
 
 **Open questions for Jatin:** wait for the new compilation before B2b? (see PR)

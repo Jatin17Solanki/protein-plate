@@ -3,6 +3,7 @@
 //  - every ingredient_id / supporting protein exists in the dictionary
 //  - per_portion (when is_estimate), protein_working, main_proteins and supporting_proteins
 //    agree with the estimate computed from the ingredients (CONTEXT §4: 35 % rule, show the working)
+//  - a recipe whose creator gives no macros has no protein/kcal figures at all, and is flagged in missing[]
 // Usage: tsx scripts/data/check.ts [--write]   (--write fills those computed fields in place)
 import { writeFileSync } from 'node:fs';
 import type { Recipe } from '../../src/types/recipe';
@@ -20,6 +21,8 @@ const warn = (file: string, msg: string) => console.warn(`! ${file}: ${msg}`);
 for (const e of checkDictionary(dict)) err('data/ingredients.json', e);
 
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
+const NO_MACROS = "Macros: the creator gives none — Jatin to add.";
+const flagged: string[] = [];
 
 for (const { file, recipe: r } of loadRecipes()) {
   r.ingredients.forEach((g, i) => {
@@ -39,8 +42,16 @@ for (const { file, recipe: r } of loadRecipes()) {
   const ingredientIds = new Set(r.ingredients.map((g) => g.ingredient_id));
   // Computed supporting proteins first; keep hand-added ones (e.g. an unweighed yogurt dip) after them.
   next.supporting_proteins = [...new Set([...est.supporting_proteins, ...r.supporting_proteins.filter((s) => ingredientIds.has(s))])];
-  next.protein_working = est.working;
-  if (r.per_portion.is_estimate) {
+  // No creator macros → no numbers of ours either (Jatin, 2026-10-20): leave them empty and flag the
+  // recipe for him. The estimate is still used above, only to classify main/supporting proteins.
+  const noMacros = r.stated_macros === null;
+  next.protein_working = noMacros ? [] : est.working;
+  if (noMacros) {
+    next.per_portion.protein_g = null;
+    next.per_portion.kcal = null;
+    if (!r.missing.includes(NO_MACROS)) next.missing = [...r.missing, NO_MACROS];
+    flagged.push(r.id);
+  } else if (r.per_portion.is_estimate) {
     next.per_portion.protein_g = est.protein_g;
     next.per_portion.kcal = est.kcal;
   }
@@ -52,6 +63,7 @@ for (const { file, recipe: r } of loadRecipes()) {
   if (!same(next.supporting_proteins, r.supporting_proteins)) err(file, `supporting_proteins should be ${JSON.stringify(next.supporting_proteins)}`);
   if (!same(next.protein_working, r.protein_working)) err(file, 'protein_working is out of date (run with --write)');
   if (!same(next.per_portion, r.per_portion)) err(file, `per_portion should be protein ${next.per_portion.protein_g} g, ${next.per_portion.kcal} kcal`);
+  if (!same(next.missing, r.missing)) err(file, `missing[] must include "${NO_MACROS}"`);
   const stated = r.stated_macros;
   if (stated?.protein_g && r.per_portion.protein_g && r.servings !== null) {
     const diff = Math.abs(r.per_portion.protein_g - stated.protein_g) / stated.protein_g;
@@ -59,5 +71,6 @@ for (const { file, recipe: r } of loadRecipes()) {
   }
 }
 
+if (flagged.length) console.log(`needs macros from Jatin (creator gives none): ${flagged.join(', ')}`);
 console.log(`data check: ${errors} errors${write ? ' (computed fields written)' : ''}`);
 process.exit(errors ? 1 : 0);
