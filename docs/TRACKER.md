@@ -21,7 +21,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | A2 | App shell + Home grid | A1 | done | `claude/compassionate-clarke-bxgv06` / [PR 2](https://github.com/Jatin17Solanki/protein-plate/pull/2) | Opus | Search, filter button, menu, add, My recipes are visual only (A3/A5/A7). Desktop shows chips instead of the sidebar until A3. |
 | A3 | Filters + search + empty state | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 4](https://github.com/Jatin17Solanki/protein-plate/pull/4) | Opus | Search uses a built-in synonym stub until Track B ships `data/ingredients.json`. |
 | A4 | Recipe page + personal data + My recipes | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 5](https://github.com/Jatin17Solanki/protein-plate/pull/5), fix [PR 6](https://github.com/Jatin17Solanki/protein-plate/pull/6) | Opus | Main went red after merge (notes test race); fix PR saves notes on page hide too. |
-| A5 | Share, Edit, Menu, theme, backup, hint | A4 | review | `claude/compassionate-clarke-bxgv06` / PR_LINK | Opus | Also whole-recipe protein when portions aren't stated (Jatin). Flagging/admin view → D7. |
+| A5 | Share, Edit, Menu, theme, backup, hint | A4 | review | `claude/compassionate-clarke-bxgv06` / [PR 9](https://github.com/Jatin17Solanki/protein-plate/pull/9) | Opus | Also whole-recipe protein when portions aren't stated (Jatin). Flagging/admin view → D7. |
 | A6 | Offline, share previews, polish | A5 | todo | | Sonnet | |
 | A7 | Add recipes + Export | A3, B1 | todo | | Sonnet | |
 | A8 | QA pass | A1–A7 | todo | | Opus | |
