@@ -14,7 +14,7 @@ h1 { margin: 0; }
 [data-tint="tofu"] { --tint: var(--tofu); --tint-bg: var(--tofu-bg); }
 [data-tint="tempeh"] { --tint: var(--tempeh); --tint-bg: var(--tempeh-bg); }
 [data-tint="whey"] { --tint: var(--whey); --tint-bg: var(--whey-bg); }
-[data-tint="none"] { --tint: var(--text2); --tint-bg: var(--muted); } /* no main protein (flagged) */
+[data-tint="none"], [data-tint="other"] { --tint: var(--text2); --tint-bg: var(--muted); } /* no main protein (flagged) / Others */
 
 /* ---------- shared controls ---------- */
 .icon-btn {
@@ -1337,3 +1337,36 @@ body.has-hint .home { padding-bottom: 140px; }
 @media (min-width: 600px) {
   .paste-box { font-size: 14px; }
 }
+
+/* ======================= BL1: Others, video-only, estimates ======================= */
+.video-badge { display: inline-flex; align-items: center; gap: 4px; }
+.action-row.video-first .btn.inv { flex: 2; }
+.video-only-card { border-style: solid; }
+.estimate-note {
+  margin: 0 16px 14px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--warn-bg);
+  color: var(--warn);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.estimate-note p { margin: 0; }
+.estimate-title { display: flex; align-items: center; gap: 8px; font-weight: 800; margin-bottom: 2px !important; }
+.estimate-mark {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  border-radius: 9px;
+  background: var(--warn);
+  color: var(--warn-bg);
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.estimate-why { font-size: 12px; }
+.steps-hint { margin: 10px 0 0; display: flex; align-items: center; gap: 8px; color: var(--text2); font-size: 14px; line-height: 1.45; }
+.steps-hint svg { flex: none; color: var(--brand); }
+.video-only-card .missing-mark { background: var(--soya-bg); color: var(--brand); }

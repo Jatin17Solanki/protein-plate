@@ -30,7 +30,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 ## Backlog (not scheduled; becomes a phase when its dependency is done)
 | ID | Item | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
-| BL1 | "Others" protein + video-only recipes (app side): `other` in PROTEINS with neutral tint (chips, sidebar, counts, share, preview cards, review); `video_only` badge on tile + recipe page, prominent Watch video, kept off `/review/`; optional hint style for "No written method — watch the video" step | A7, **Track B's schema + data PR merged** (`MainProtein: other`, `video_only`, recipe data; branch `claude/busy-noether-s5qjwo`, PR not opened yet) | backlog | | Opus | Backlog: don't start until that Track B PR is merged (code can't compile before). Requested by Jatin via the A1–A6 session, 2026-10-20. |
+| BL1 | "Others" protein + video-only recipes (app side), plus accepted flags and estimated macros from the same Track B PR | [PR 18](https://github.com/Jatin17Solanki/protein-plate/pull/18) (merged) | review | `claude/phase-a7-recipes-export-co5avf` / [PR 19](https://github.com/Jatin17Solanki/protein-plate/pull/19) | Opus | Others chip + neutral tint; ▶ Video only badge/card; /review/ skips video-only + accepted flags; estimate shown on the recipe page only, with a warning. Fixed a My recipes crash on `other`. |
 
 ## Track B — Data
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |

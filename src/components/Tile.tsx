@@ -1,6 +1,6 @@
 import type { Tile as TileData } from '../lib/home';
 import { href } from '../lib/router';
-import { DishIcon } from './Icon';
+import { DishIcon, FilledIcon } from './Icon';
 
 export function Tile({ tile }: { tile: TileData }) {
   const label = `${tile.title}, ${tile.protein === '—' ? 'protein unknown' : `${tile.protein} g protein`}, ${tile.meta}${tile.versions > 1 ? `, ${tile.versions} versions` : ''}${tile.uses ? `, uses ${tile.uses}` : ''}`;
@@ -17,6 +17,7 @@ export function Tile({ tile }: { tile: TileData }) {
         <div class="tile-name">{tile.title}</div>
         {tile.meta && <div class="tile-meta">{tile.meta}</div>}
         {tile.versions > 1 && <span class="tile-badge">{tile.versions} versions</span>}
+        {tile.videoOnly && <span class="uses-badge video-badge"><FilledIcon name="play" size={9} />Video only</span>}
         {tile.uses && <span class="uses-badge">uses {tile.uses}</span>}
       </div>
     </a>

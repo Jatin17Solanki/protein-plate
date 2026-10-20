@@ -10,6 +10,12 @@
   "dish_group": null,
   "variant_label": null,
   "stated_macros": null,
+  "estimated_macros": {
+    "basis": "whole recipe (batter for 6)",
+    "protein_g": 42,
+    "kcal": 610,
+    "note": "Rough estimate from the ingredients, not the creator's numbers."
+  },
   "protein_working": [
     "80 g besan × 22 = 17.6 g",
     "50 g curd × 3.5 = 1.8 g"
