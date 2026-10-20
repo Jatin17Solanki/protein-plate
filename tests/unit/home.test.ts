@@ -171,3 +171,12 @@ describe('whole-recipe protein (no portion count)', () => {
     expect(toTiles([a, real])[0]).toMatchObject({ protein: '29+', whole: false });
   });
 });
+
+describe('empty values (Track B request)', () => {
+  it('no main protein → neutral tint; no numbers → "Macros not given"', () => {
+    const r = structuredClone(recipes.find((x) => x.id === 'tempeh-chilli-noodles')!);
+    r.main_proteins = [];
+    r.per_portion = { ...r.per_portion, protein_g: null, kcal: null };
+    expect(toTiles([r])[0]).toMatchObject({ tint: 'none', protein: '—', meta: 'Macros not given' });
+  });
+});

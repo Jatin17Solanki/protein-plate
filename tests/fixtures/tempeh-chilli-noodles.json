@@ -15,6 +15,12 @@
   "servings": 1,
   "assumptions": [],
   "missing": [],
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ],
   "added_at": "2026-10-20",
   "id": "tempeh-chilli-noodles",
   "title": "Tempeh Chilli Noodles",

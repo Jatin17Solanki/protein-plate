@@ -1,26 +1,21 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (A5 session)_
+_Last updated: 2026-10-20 (A6b session; this session also did A1–A5)_
 
-**Done (A5, PR open):**
-- `Sheet` component (bottom sheet / centred modal, focus trap, Escape, scroll lock, focus return); FilterSheet now uses it.
-- **Share** (`ShareSheet`, `lib/share.ts`): DESIGN §6 message, toggles (ingredients on, steps off, note on if any), `navigator.share` → fallback Copy text; `recipeUrl`, `editUrl` from `site.config.json`.
-- **Edit / Add details** (`EditSheet`): GitHub web-editor link, Copy recipe data (JSON), explainer open first time (`pp.editHelpSeen`).
-- **Menu** (`MenuSheet`, from Home ⋯): My recipes, Add/Export (disabled until A7), Back up (download), Restore (file → `lib/backup.ts` parse/merge; asks once if notes/reactions differ), Appearance Light/Dark/Auto (`setTheme`).
-- **Toast** (`lib/toast.ts` + `<Toast>` in app.tsx) and `copyText` with execCommand fallback. **Info** ⓘ button/box.
-- **Install hint** (`InstallHint`, `lib/install.ts`; `captureInstallPrompt()` in main.tsx). `body.has-hint` pads Home.
-- **Whole-recipe protein**: `wholeRecipeProtein` / `shownProtein` in `lib/home.ts`; tiles, recipe page, My recipes and share use it; tier sort (portion → whole → unknown).
-- Tests: unit share/backup/whole-recipe; e2e `tests/e2e/sheets.spec.ts` (sheets at 9 widths × 2 themes + behaviour + hint).
+**Done (A6b, PR open):**
+- `/review/` (hidden, `noindex`, not in the menu): `src/screens/Review.tsx` + `src/lib/review.ts` (`FLAG_INFO` labels/order, `reviewItems`, `flagCounts`, `withFlag`). Incomplete recipes without flags show as "Missing details". Filter chips with counts, filter in the URL (`?flag=no_macros`), Copy title, links to recipe / video / Edit on GitHub. Real data: 62 of 80.
+- `tintOf(r)` → `'none'` when `main_proteins` is empty; `[data-tint="none"]` uses `--muted`/`--text2`. `NO_MACROS` ("Macros not given") on tiles, groups, recipe macro band, version cards, My recipes.
+- Fixtures `besan-chilla` and `tempeh-chilli-noodles` now carry `flags` (no other change); e2e `tests/e2e/review.spec.ts`.
 
-**Not done:** Add recipes / Export catalog (A7). Android install button only appears once A6 adds a manifest + service worker.
+**Agreed with Track B (D7):** Track B owns `flags[]` (set/clear, code list); Track A only reads. Creator's numbers only. When `servings` is null, whole-recipe figures come from `stated_macros` (`wholeRecipeProtein`, `shownNumbers` in `lib/home.ts`, written by Track B in PR 10). Keep those functions. If Track B adds a flag code, add it to `FLAG_INFO`. An unknown code still renders, showing the raw code.
 
-**Next:** A6 (offline, static per-recipe pages with OG previews, 404, favicon). Then D7 (flags + admin view) if Jatin assigns it to Track A.
+**Next:** A6 (offline/PWA, static `/r/<id>/` pages with OG previews, 404, favicon), then A7, A8.
 
 **Gotchas:**
-- Whole-recipe total is parsed from text (`Total ≈ N g … whole recipe`). If Track B changes that wording, totals disappear (tiles fall back to "—"). D7 proposes a real field.
-- Restore writes localStorage directly then calls `setTheme`, which notifies `subscribe` listeners; Home re-reads personal data via `subscribe`.
-- Desktop Chromium has no `navigator.share`, so screenshots show Copy text as primary; phones show Share….
-- e2e uses `permissions: ['clipboard-read','clipboard-write']` for copy tests.
-- Don't run vitest with `--root /` (scans the disk).
+- Since PR 10, `main_proteins` may be empty and `per_portion.protein_g` may be null on complete recipes. Always use `shownProtein`/`tintOf`, never `per_portion` directly, for display.
+- `.chip-row` turns into `display: contents` from 600 px (Home chip rows merge). Any other chip row needs its own flex rule (see `.review-chips`).
+- Tiles: 73 from 80 recipes (versions collapse). Fixture e2e counts still assume 9 tiles.
+- Don't `pkill -f "playwright test"` from the same Bash call that runs Playwright. Kill a stale `vite preview` on :4173 before e2e.
+- Context: this session ran A1–A6b and is ~60 % full. Start A6 in a fresh session (`Start phase A6`).
 
-**Open questions:** D7 — who builds flagging/admin view, and how.
+**Open questions:** none for Track A. B6 (resolving the 62 flags) is Jatin ↔ Track B.

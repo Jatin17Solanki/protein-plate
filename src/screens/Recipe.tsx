@@ -6,7 +6,7 @@ import {
   clearTicks, getMyList, getNote, getReaction, getTicks, setNote, setOnMyList, setReaction, setTick, useStorage,
   type Reaction,
 } from '../lib/storage';
-import { PROTEINS, shownNumbers, shownProtein } from '../lib/home';
+import { PROTEINS, shownNumbers, shownProtein, tintOf } from '../lib/home';
 import { FilledIcon, UiIcon } from '../components/Icon';
 import { EditSheet } from '../components/EditSheet';
 import { ShareSheet } from '../components/ShareSheet';
@@ -41,7 +41,7 @@ export function Recipe({ id }: { id: string | null }) {
   const others = versions.filter((v) => v.id !== r.id);
   const onList = getMyList().includes(r.id);
   const incomplete = r.status === 'incomplete';
-  const tint = r.main_proteins[0] ?? 'soya';
+  const tint = tintOf(r);
   const line = versionLine(r, versions);
 
   return (
@@ -114,13 +114,16 @@ export function Recipe({ id }: { id: string | null }) {
               <ul class="versions-row">
                 {others.map((v) => (
                   <li key={v.id}>
-                    <a class="version-card" href={href.recipe(v.id)} data-tint={v.main_proteins[0] ?? 'soya'}>
+                    <a class="version-card" href={href.recipe(v.id)} data-tint={tintOf(v)}>
                       <span class="num version-protein">
-                        {v.per_portion.protein_g === null ? '—' : `${Math.round(v.per_portion.protein_g)} g`}
+                        {shownProtein(v).value === null ? '—' : `${Math.round(shownProtein(v).value!)} g`}
                       </span>
                       <span class="version-label">{v.variant_label}</span>
                       <span class="version-meta">
-                        {v.status === 'incomplete' ? 'Need details' : v.per_portion.kcal !== null ? `${Math.round(v.per_portion.kcal)} kcal` : v.title}
+                        {v.status === 'incomplete' ? 'Need details'
+                          : shownProtein(v).value === null ? 'Macros not given'
+                          : shownProtein(v).whole ? 'whole recipe'
+                          : v.per_portion.kcal !== null ? `${Math.round(v.per_portion.kcal)} kcal` : v.title}
                       </span>
                     </a>
                   </li>
@@ -174,7 +177,7 @@ function MacroCard({ r }: { r: RecipeData }) {
       <div class="macro-band">
         <div>
           <div class="num macro-protein">{shown.value === null ? '—' : `${formatNumber(Math.round(shown.value))} g`}</div>
-          <div class="macro-caption">{shown.whole ? 'protein, whole recipe' : 'protein per portion'}</div>
+          <div class="macro-caption">{shown.value === null ? 'macros not given' : shown.whole ? 'protein, whole recipe' : 'protein per portion'}</div>
         </div>
         <div class="macro-kcal">
           <div class="num">{m.kcal === null ? '—' : Math.round(m.kcal)}</div>

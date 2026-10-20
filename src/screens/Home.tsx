@@ -181,7 +181,7 @@ export function Home() {
               parts={parts}
               query={q}
               relax={relax}
-              tint={filters.proteins[0] ?? 'soya'}
+              tint={filters.proteins[0] ?? 'none'}
               onRelax={(r) => setFilters(r.filters)}
               onClearAll={clearAll}
             />

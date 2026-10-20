@@ -17,6 +17,16 @@
   "servings": 1,
   "assumptions": [],
   "missing": [],
+  "flags": [
+    {
+      "code": "source_conflict",
+      "note": "Soaking time: 3 hours in the ingredient list, 1 hour in the method."
+    },
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
+    }
+  ],
   "added_at": "2026-10-20",
   "id": "besan-chilla",
   "title": "Besan Chilla",
