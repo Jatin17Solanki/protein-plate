@@ -14,7 +14,7 @@ describe('shareMessage (DESIGN §6 format)', () => {
         '*Soya Tikka Salad*\n45 g protein · 420 kcal per portion',
         '*Ingredients*\nsoya chunks 40 g · Greek yogurt 200 g · besan 2 tbsp · cucumber 1 · salt to taste',
         '*Note:* Half the chilli.',
-        'Video: https://www.instagram.com/reel/FIXTURE02/\nFull recipe: https://example.github.io/protein-plate/r/soya-tikka-salad/',
+        'Full recipe: https://example.github.io/protein-plate/r/soya-tikka-salad/\nVideo: https://www.instagram.com/reel/FIXTURE02/',
       ].join('\n\n'),
     );
   });
@@ -35,6 +35,15 @@ describe('shareMessage (DESIGN §6 format)', () => {
     expect(msg).toBe('*Protein Oats*\n37 g protein for the whole recipe\n\nFull recipe: https://example.github.io/protein-plate/r/protein-oats/');
     expect(shareMessage(load('rajma-rice-bowl'), { ingredients: false, steps: false, note: null }, SITE)).toContain('21 g protein per portion');
     expect(shareMessage(load('lasooni-dhaniya-paneer'), { ingredients: true, steps: true, note: null }, SITE)).toContain('Protein not worked out yet');
+  });
+});
+
+describe('link order', () => {
+  it('our recipe link is the first URL, so WhatsApp previews our card, not the reel', () => {
+    for (const steps of [false, true]) {
+      const msg = shareMessage(load('soya-tikka-salad'), { ingredients: true, steps, note: 'x' }, SITE);
+      expect(msg.match(/https?:\/\/\S+/)![0]).toBe('https://example.github.io/protein-plate/r/soya-tikka-salad/');
+    }
   });
 });
 

@@ -36,6 +36,8 @@ export function shareMessage(r: Recipe, o: ShareOptions, siteUrl = site.site_url
     blocks.push(`*Steps*\n${r.steps.map((s, i) => `${i + 1}. ${s}`).join('\n')}`);
   }
   if (o.note && o.note.trim()) blocks.push(`*Note:* ${o.note.trim()}`);
-  blocks.push([r.source.url ? `Video: ${r.source.url}` : '', `Full recipe: ${recipeUrl(r.id, siteUrl)}`].filter(Boolean).join('\n'));
+  // Our link goes first: WhatsApp previews the first URL and sizes the bubble to it. Our 1200×630 card gives a
+  // full-width bubble; the Instagram reel's portrait thumbnail squeezed the whole message narrow (Jatin, 2026-10-20).
+  blocks.push([`Full recipe: ${recipeUrl(r.id, siteUrl)}`, r.source.url ? `Video: ${r.source.url}` : ''].filter(Boolean).join('\n'));
   return blocks.join('\n\n');
 }
