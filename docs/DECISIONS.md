@@ -21,4 +21,4 @@ Append-only. Format: `YYYY-MM-DD · decision · why · who`. Full reasoning for 
 - 2026-10-20 · D4: no preview hosting; screenshots in every UI PR; phone check after merge · no extra infra · Jatin
 - 2026-10-20 · D6: MIT licence · lets others copy the repo · Jatin
 - 2026-10-20 · D5: steps rewritten in our own words, creator credited and video linked; strict fidelity rules + automated check so the recipe itself never changes · respect creators' wording; Jatin's concern about accuracy · Jatin
-- 2026-10-20 · Build runs as Claude Code **cloud** sessions (claude.ai/code or the Claude app's Code tab), not local · phone-first, parallel tracks, nothing to install, keeps running when the laptop is closed · Jatin
+- 2026-10-20 · Build runs as Claude Code **cloud** sessions (claude.ai/code or the Claude app's Code tab), not local · phone-first, parallel tracks, nothing to install, keeps running when the laptop is closed · proposed by Claude, awaiting Jatin
