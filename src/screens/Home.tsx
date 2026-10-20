@@ -103,17 +103,16 @@ export function Home() {
             {parts.length > 0 && <span class="badge" aria-hidden="true">{parts.length}</span>}
           </button>
           <span class="header-spacer" />
-          {/* Add comes alive in A7. */}
           <a class="text-btn my-recipes-btn" href={href.myRecipes()}>
             <UiIcon name="bookmark" size={16} />My recipes
           </a>
           <button class="icon-btn menu-btn" type="button" aria-label="Menu" aria-haspopup="dialog" onClick={() => setMenuOpen(true)}>
             <MenuIcon />
           </button>
-          <button class="icon-btn add-btn" type="button" aria-label="Add recipes">
+          <a class="icon-btn add-btn" href={href.add()} aria-label="Add recipes">
             <UiIcon name="plus" strokeWidth={2.4} />
             <span class="add-label">Add recipes</span>
-          </button>
+          </a>
         </header>
       </div>
 

@@ -144,11 +144,17 @@ test.describe('phone', () => {
     await expect(page.getByRole('alert')).toHaveText("This file isn't a Protein Plate backup.");
   });
 
-  test('Add recipes and Export catalog are marked as coming soon', async ({ page }) => {
+  test('Add recipes and Export catalog open their pages', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: 'Menu' }).click();
-    await expect(page.getByRole('button', { name: /Add recipes.*Coming soon/ })).toBeDisabled();
-    await expect(page.getByRole('button', { name: /Export catalog.*Coming soon/ })).toBeDisabled();
+    await page.getByRole('button', { name: /^Add recipes/ }).click();
+    await expect(page).toHaveURL(/\/add\/$/);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Add recipes');
+    await page.getByRole('button', { name: 'Back' }).click();
+    await page.getByRole('button', { name: 'Menu' }).click();
+    await page.getByRole('button', { name: /^Export catalog/ }).click();
+    await expect(page).toHaveURL(/\/export\/$/);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Export catalog');
   });
 });
 

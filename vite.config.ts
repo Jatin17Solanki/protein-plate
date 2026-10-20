@@ -7,6 +7,7 @@ import site from './site.config.json' with { type: 'json' };
 import { readTokens } from './scripts/build/tokens';
 import { ogImage } from './scripts/build/og';
 import { readRecipes, recipeCard, withMeta, writePage } from './scripts/build/pages';
+import { catalogText } from './src/lib/export';
 
 // Everything that differs between forks comes from site.config.json.
 // BASE_PATH overrides base_path (e.g. "/" for a custom domain).
@@ -62,8 +63,10 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,woff2,png}'],
-        globIgnores: ['og/**', 'r/**', 'my/**', 'review/**', '404.html'],
+        globIgnores: ['og/**', 'r/**', 'my/**', 'review/**', 'add/**', 'export/**', '404.html'],
         navigateFallback: `${base}index.html`,
+        // Opening /catalog.txt must reach the real file, not the app shell.
+        navigateFallbackDenylist: [/\/catalog\.txt$/],
         cleanupOutdatedCaches: true,
       },
     }),
@@ -77,7 +80,8 @@ export default defineConfig({
       },
     },
     {
-      // Static pages with link previews: r/<id>/ for every recipe, plus my/ and review/ (PLAN A6).
+      // Static pages with link previews: r/<id>/ for every recipe, plus my/, review/, add/ and export/ (PLAN A6, A7),
+      // and catalog.txt: every recipe as plain text for AI tools that can read a link (PLAN A7).
       name: 'static-pages',
       apply: 'build',
       async closeBundle() {
@@ -106,6 +110,9 @@ export default defineConfig({
           }));
         }
         writePage(dist, 'my', withMeta(index, { ...homeMeta(recipes.length), title: `My recipes · ${site.title}`, url: `${siteUrl}my/`, noindex: true }));
+        writePage(dist, 'add', withMeta(index, { ...homeMeta(recipes.length), title: `Add recipes · ${site.title}`, url: `${siteUrl}add/`, noindex: true }));
+        writePage(dist, 'export', withMeta(index, { ...homeMeta(recipes.length), title: `Export catalog · ${site.title}`, url: `${siteUrl}export/`, noindex: true }));
+        writeFileSync(join(dist, 'catalog.txt'), catalogText(recipes, siteUrl, site.title));
         writePage(dist, 'review', withMeta(index, { ...homeMeta(recipes.length), title: `Review · ${site.title}`, url: `${siteUrl}review/`, noindex: true }));
         console.log(`static-pages: ${recipes.length} recipe pages + previews`);
       },
