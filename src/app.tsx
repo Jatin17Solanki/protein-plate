@@ -1,7 +1,8 @@
 import { useEffect } from 'preact/hooks';
 import { onLinkClick, useRoute } from './lib/router';
 import { Home } from './screens/Home';
-import { RecipeStub } from './screens/RecipeStub';
+import { Recipe } from './screens/Recipe';
+import { MyRecipes } from './screens/MyRecipes';
 import site from '../site.config.json';
 
 export function App() {
@@ -11,10 +12,11 @@ export function App() {
     return () => removeEventListener('click', onLinkClick);
   }, []);
   useEffect(() => {
-    document.title = site.title;
+    if (route.name === 'home') document.title = site.title;
   }, [route]);
 
-  if (route.name === 'recipe') return <RecipeStub id={route.id} />;
-  if (route.name === 'notFound') return <RecipeStub id={null} />;
+  if (route.name === 'recipe') return <Recipe key={route.id} id={route.id} />;
+  if (route.name === 'myRecipes') return <MyRecipes />;
+  if (route.name === 'notFound') return <Recipe id={null} />;
   return <Home />;
 }

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { recipes } from '../lib/catalog';
 import {
   bestRelaxation, filterRecipes, MEALS, NO_FILTERS, PROTEINS, QUICK, summaryParts, toTiles, type Filters, type Personal,
@@ -6,6 +6,7 @@ import {
 import { Searcher } from '../lib/search';
 import { synonymGroups } from '../lib/synonyms';
 import { readDisliked, readMyList } from '../lib/storage';
+import { href } from '../lib/router';
 import { MenuIcon, UiIcon } from '../components/Icon';
 import { Tile } from '../components/Tile';
 import { FilterSheet } from '../components/FilterSheet';
@@ -17,14 +18,26 @@ let searcher: Searcher | null = null;
 const getSearcher = () => (searcher ??= new Searcher(recipes, synonymGroups));
 
 const readPersonal = (): Personal => ({ myList: readMyList(), disliked: readDisliked() });
+
+// Kept for this visit only, so coming back from a recipe restores filters, search and scroll.
+const memory = { filters: NO_FILTERS, query: '', scrollY: 0 };
 const dishes = (n: number) => `${n} ${n === 1 ? 'dish' : 'dishes'}`;
 
 export function Home() {
-  const [filters, setFilters] = useState<Filters>(NO_FILTERS);
-  const [query, setQuery] = useState('');
+  const [filters, setFilters] = useState<Filters>(memory.filters);
+  const [query, setQuery] = useState(memory.query);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [personal, setPersonal] = useState(readPersonal);
   const searchInput = useRef<HTMLInputElement>(null);
+
+  memory.filters = filters;
+  memory.query = query;
+  useLayoutEffect(() => {
+    scrollTo(0, memory.scrollY);
+    const onScroll = () => { memory.scrollY = scrollY; };
+    addEventListener('scroll', onScroll, { passive: true });
+    return () => removeEventListener('scroll', onScroll);
+  }, []);
 
   useEffect(() => {
     const onStorage = () => setPersonal(readPersonal());
@@ -88,10 +101,10 @@ export function Home() {
             {parts.length > 0 && <span class="badge" aria-hidden="true">{parts.length}</span>}
           </button>
           <span class="header-spacer" />
-          {/* Menu, Add and My recipes come alive in A4, A5 and A7. */}
-          <button class="text-btn my-recipes-btn" type="button">
+          {/* Menu and Add come alive in A5 and A7. */}
+          <a class="text-btn my-recipes-btn" href={href.myRecipes()}>
             <UiIcon name="bookmark" size={16} />My recipes
-          </button>
+          </a>
           <button class="icon-btn menu-btn" type="button" aria-label="Menu">
             <MenuIcon />
           </button>

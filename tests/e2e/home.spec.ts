@@ -39,8 +39,8 @@ test('chips filter the grid; versions collapse; tile opens the recipe and Back r
   await page.locator('.tile', { hasText: 'Soya Tikka Salad' }).click();
   await expect(page).toHaveURL(/\/r\/soya-tikka-salad\/$/);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Soya Tikka Salad');
-  await page.getByRole('link', { name: 'Back to all recipes' }).click();
-  await expect(page.locator('.tile').first()).toBeVisible();
+  await page.getByRole('button', { name: 'Back to all recipes' }).click();
+  await expect(page.locator('.tile')).toHaveCount(3); // Air fryer filter kept
 });
 
 test('deep link to a recipe works', async ({ page }) => {

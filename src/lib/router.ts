@@ -4,13 +4,14 @@ import { useEffect, useState } from 'preact/hooks';
 
 const BASE = import.meta.env.BASE_URL;
 
-export type Route = { name: 'home' } | { name: 'recipe'; id: string } | { name: 'notFound' };
+export type Route = { name: 'home' } | { name: 'recipe'; id: string } | { name: 'myRecipes' } | { name: 'notFound' };
 
 export function parse(pathname: string, base = BASE): Route {
   if (`${pathname}/` === base) return { name: 'home' };
   const path = pathname.startsWith(base) ? pathname.slice(base.length) : pathname.replace(/^\//, '');
   const clean = path.replace(/\/+$/, '');
   if (clean === '' || clean === 'index.html') return { name: 'home' };
+  if (clean === 'my') return { name: 'myRecipes' };
   const m = clean.match(/^r\/([a-z0-9-]+)$/);
   return m ? { name: 'recipe', id: m[1] } : { name: 'notFound' };
 }
@@ -18,12 +19,18 @@ export function parse(pathname: string, base = BASE): Route {
 export const href = {
   home: () => BASE,
   recipe: (id: string) => `${BASE}r/${id}/`,
+  myRecipes: () => `${BASE}my/`,
 };
 
 export function navigate(url: string) {
-  history.pushState(null, '', url);
+  history.pushState({ inApp: true }, '', url);
   dispatchEvent(new PopStateEvent('popstate'));
-  scrollTo(0, 0);
+}
+
+/** Back arrow: return to the previous in-app screen (keeps its state), or go home when opened from a link. */
+export function goBack(fallback = href.home()) {
+  if ((history.state as { inApp?: boolean } | null)?.inApp) history.back();
+  else navigate(fallback);
 }
 
 /** Intercepts same-origin <a> clicks inside the app so navigation doesn't reload the page. */
