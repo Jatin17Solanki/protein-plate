@@ -27,12 +27,12 @@ export function Recipe({ id }: { id: string | null }) {
   if (!r) {
     return (
       <div class="recipe-page">
-        <div class="recipe-topbar"><BackButton /></div>
-        <div class="recipe-missing">
+        <header class="recipe-topbar"><BackButton /></header>
+        <main class="recipe-missing">
           <h1 class="recipe-title">{id === null ? 'Page not found' : 'Recipe not found'}</h1>
           <p>It may have been renamed or removed.</p>
           <a class="btn primary" href={href.home()}>All recipes</a>
-        </div>
+        </main>
       </div>
     );
   }
@@ -46,7 +46,7 @@ export function Recipe({ id }: { id: string | null }) {
 
   return (
     <div class="recipe-page" data-tint={tint}>
-      <div class="recipe-topbar">
+      <header class="recipe-topbar">
         <div class="recipe-topbar-inner">
           <BackButton />
           <a class="desk-logo logo num" href={href.home()}>protein<span>/</span>plate</a>
@@ -68,7 +68,7 @@ export function Recipe({ id }: { id: string | null }) {
             <span class="desk-label">{onList ? 'In My list' : 'Add to My list'}</span>
           </button>
         </div>
-      </div>
+      </header>
 
       <main class="recipe-body">
         <div class="col-a">
@@ -99,12 +99,9 @@ export function Recipe({ id }: { id: string | null }) {
               {r.source.creator_url
                 ? <a href={r.source.creator_url} target="_blank" rel="noopener">{r.source.creator}</a>
                 : r.source.creator}
-              {r.steps.length > 0 && '. Steps in our own words.'}
+              .
             </p>
           )}
-
-          {!incomplete && <TriedIt id={r.id} />}
-          <Notes id={r.id} incomplete={incomplete} />
         </div>
 
         <div class="col-b">
@@ -144,6 +141,12 @@ export function Recipe({ id }: { id: string | null }) {
               </ol>
             </section>
           )}
+        </div>
+
+        {/* After the recipe itself in the page order, so keyboard and screen readers follow the phone layout. */}
+        <div class="col-c">
+          {!incomplete && <TriedIt id={r.id} />}
+          <Notes id={r.id} incomplete={incomplete} />
         </div>
       </main>
       {sheet === 'share' && <ShareSheet recipe={r} onClose={() => setSheet(null)} />}

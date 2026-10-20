@@ -32,7 +32,7 @@ export function Sheet({ title, label, action, footer, onClose, children, class: 
       if (e.key === 'Escape') close.current();
       if (e.key === 'Tab' && sheet.current) {
         const els = sheet.current.querySelectorAll<HTMLElement>(
-          'a[href], button:not(:disabled), input:not(:disabled), textarea, [tabindex="0"]',
+          'a[href], button:not(:disabled), input:not(:disabled):not([tabindex="-1"]), textarea, [tabindex="0"]',
         );
         if (!els.length) return;
         const first = els[0];

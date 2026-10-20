@@ -198,7 +198,7 @@ export function AddRecipes() {
 
   return (
     <div class="step-page">
-      <div class="my-page add-page">
+      <main class="my-page add-page">
         <header class="my-head">
           <button type="button" class="icon-btn round" aria-label="Back" onClick={() => goBack()}>
             <UiIcon name="back" />
@@ -287,7 +287,7 @@ export function AddRecipes() {
             </ul>
           </section>
         )}
-      </div>
+      </main>
     </div>
   );
 }
