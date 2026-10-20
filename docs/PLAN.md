@@ -71,6 +71,16 @@ Full DESIGN §8 matrix; Lighthouse; keyboard pass; fix list; real-phone checklis
 Use **Opus** for every Track B phase — the work is judgment (nutrition maths, what counts as a duplicate vs a version).
 
 ### B1 — Rules, dictionary, prompt v1, first 10 recipes (needs A1 schema)
+**Raw data:** private repo `Jatin17Solanki/protein-plate-raw`, folder `batches/`. Attach it to the session (add the repo) and read from there; never copy raw files into this public repo.
+
+**Fidelity rules (non-negotiable — normalisation must never change the recipe):**
+- Ingredients and quantities are copied exactly. Allowed: unit conversion (keep `as_written`), translating names to English (keep the original as an alias). Not allowed: adding, removing, substituting or "improving" ingredients, or changing amounts.
+- Steps keep the same order, actions, times, temperatures and equipment. Allowed: splitting into one action per step, fixing grammar, plain wording. Not allowed: new techniques, merged or dropped steps.
+- Anything unclear or missing goes into `missing[]` / `assumptions[]` — never guessed silently.
+- Every recipe stores `source_ref` (batch file + entry number) and the source URL, so it can always be compared with the original.
+- `scripts/data/fidelity.ts`: for each recipe, check that every ingredient and every number (quantity, minutes, °C) in the raw entry appears in the normalised recipe, and nothing extra was added; fail the PR on any mismatch unless it's listed in `assumptions[]`.
+- The PR shows raw vs normalised side by side for every recipe, so Jatin can review quickly.
+
 **Read:** CONTEXT §1, §4–6 · `data/raw/*` (or the raw text Jatin provides — see "Decisions needed") · schema.
 **Do:**
 - `data/ingredients.json`: canonical ingredient dictionary (id, English name, aliases incl. Hindi/Hinglish, type: protein|dairy|grain|produce|spice|pantry|sauce, protein g per 100 g, kcal per 100 g, dry/cooked basis).
