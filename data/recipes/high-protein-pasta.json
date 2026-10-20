@@ -221,14 +221,10 @@
     "Serve hot, garnished with extra herbs or chilli flakes if desired."
   ],
   "assumptions": [
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "Use 1 tsp whole wheat flour (the ingredient list says ½ tbsp)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "source_conflict",
-      "note": "Whole wheat flour: ½ tbsp in the ingredient list, 1 tsp in the method."
-    }
-  ]
+  "flags": []
 }

@@ -203,8 +203,8 @@
   ],
   "assumptions": [
     "Greek yogurt or skyr is listed as Greek yogurt.",
-    "The method says soya granules; the ingredient list says dry soya chunks.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "Use dry soya chunks (the method says soya granules)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
@@ -212,10 +212,6 @@
     {
       "code": "macros_basis_unclear",
       "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
-    {
-      "code": "source_conflict",
-      "note": "Soya: 'dry soya chunks' in the ingredient list, 'soya granules' in the method."
     }
   ]
 }

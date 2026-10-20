@@ -217,14 +217,10 @@
   "assumptions": [
     "Creator also states ~10 g fibre.",
     "Poha has no format tag of its own.",
-    "Quick: about 20 minutes hands-on (our estimate)."
+    "Quick: about 20 minutes hands-on (our estimate).",
+    "Use 25 g soya granules (the ingredient list says 30 g)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "source_conflict",
-      "note": "Soya granules: 30 g in the ingredient list, 25 g in the method."
-    }
-  ]
+  "flags": []
 }
