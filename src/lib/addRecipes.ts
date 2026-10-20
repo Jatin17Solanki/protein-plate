@@ -28,7 +28,7 @@ export function dictionaryIndex(dict: { id: string; name: string; aliases?: stri
 
 /**
  * The text "Copy prompt" puts on the clipboard: Track B's prompts/add-recipes.md (without its intro for repo
- * sessions), a short note for chats that can't open the repo, then the schema, dictionary and catalog index.
+ * sessions; its §10 holds the rules for chats), today's date, then the schema, dictionary and catalog index.
  */
 export function buildAddPrompt(o: { prompt: string; schema: unknown; dictionary: string; catalog: Recipe[]; today: string }): string {
   const body = o.prompt.includes('\n---\n') ? o.prompt.slice(o.prompt.indexOf('\n---\n') + 5).trim() : o.prompt.trim();
@@ -36,12 +36,7 @@ export function buildAddPrompt(o: { prompt: string; schema: unknown; dictionary:
     body,
     '---',
     '## You are in a chat, not in the repository',
-    "- You can't open files or run the scripts in §8–9. Everything you need is below: the schema, the ingredient dictionary and the catalog index.",
-    "- Use `ingredient_id` values from the dictionary. If an ingredient isn't in it, use `null` and add `New dictionary entry needed: <name>` to `assumptions[]`.",
-    '- Fill `per_portion`, `protein_working` and `flags[]` yourself, following §4.',
-    `- \`source.ref\`: \`null\`. \`added_at\`: \`${o.today}\`.`,
-    "- If an entry's link is already in the catalog index, say so and leave it out. If it's a version of a catalog dish, reuse that `dish_group`.",
-    '- Reply with the JSON array only, in one ```json code block.',
+    `Follow §10 above. Today's date (for \`added_at\`) is ${o.today}. The schema, the ingredient dictionary and the catalog index follow.`,
     '',
     '## Schema (schema/recipe.schema.json)',
     '```json',
@@ -197,7 +192,7 @@ export function matchReason(m: Match): string {
 /** "Ready · Paneer · 32 g protein · Breakfast, Lunch" */
 export function readyLine(r: Recipe): string {
   const { value, whole } = shownProtein(r);
-  const protein = r.status === 'incomplete' ? 'details pending' : value === null ? 'macros not given' : `${Math.round(value)} g protein${whole ? ' (whole recipe)' : ''}`;
+  const protein = r.video_only ? 'video only' : r.status === 'incomplete' ? 'details pending' : value === null ? 'macros not given' : `${Math.round(value)} g protein${whole ? ' (whole recipe)' : ''}`;
   return [
     'Ready',
     r.main_proteins.map((p) => PROTEINS.find((x) => x.key === p)?.label ?? p).join(' + '),

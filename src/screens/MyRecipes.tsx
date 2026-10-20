@@ -70,7 +70,8 @@ export function MyRecipes() {
                   <span class="my-meta">
                     {[
                       r.main_proteins.map((p) => PROTEINS.find((x) => x.key === p)!.label).join(' + '),
-                      r.status === 'incomplete' ? 'details pending'
+                      r.video_only ? 'video only'
+                        : r.status === 'incomplete' ? 'details pending'
                         : shownProtein(r).value === null ? NO_MACROS
                         : shownProtein(r).whole ? 'whole recipe'
                         : r.per_portion.kcal !== null ? `${Math.round(r.per_portion.kcal)} kcal` : '',

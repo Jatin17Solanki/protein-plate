@@ -61,7 +61,7 @@ describe('dishCount + optionCounts', () => {
   it('OR groups: count = that option with the other groups as is; AND picks: count with the pick added', () => {
     const f = { ...NO_FILTERS, meal: 'snack' as const, proteins: ['soya' as const] };
     const c = optionCounts(recipes, f);
-    expect(c.proteins).toEqual({ paneer: 1, soya: 1, pulses: 1, tofu: 0, tempeh: 0, whey: 0 });
+    expect(c.proteins).toEqual({ other: 0, paneer: 1, soya: 1, pulses: 1, tofu: 0, tempeh: 0, whey: 0 });
     expect(c.dishTypes.kebab_tikki_cutlet).toBe(1);
     expect(c.dishTypes.salad_bowl).toBe(0);
     expect(c.quick).toEqual({ quick: 0, myList: 0, global: 0, airFryer: 1 });

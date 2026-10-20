@@ -3,7 +3,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Recipe } from '../../src/types/recipe';
-import { DISH_LABELS, DISH_TYPES, NO_MACROS, PROTEINS, shownNumbers, shownProtein, tintOf } from '../../src/lib/home';
+import { DISH_LABELS, DISH_TYPES, NEUTRAL_TINTS, NO_MACROS, PROTEINS, shownNumbers, shownProtein, tintOf } from '../../src/lib/home';
 import type { OgCard } from './og';
 
 export interface PageMeta {
@@ -41,6 +41,8 @@ export function withMeta(html: string, m: PageMeta): string {
     .replace(/(\s*)<\/head>/, `\n    ${tags}$1</head>`);
 }
 
+/** Card colour; neutral (null) for no main protein and for Others. */
+const ogTint = (r: Recipe) => (NEUTRAL_TINTS.includes(tintOf(r)) ? null : tintOf(r));
 const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? k;
 
 /** Preview card + description for one recipe. Same numbers as the app: creator's figures only. */
@@ -49,11 +51,14 @@ export function recipeCard(r: Recipe): OgCard & { description: string } {
   const kcal = shownNumbers(r).kcal;
   const dish = DISH_TYPES.find((d) => r.tags.includes(d));
   const meta = [r.main_proteins.map(proteinLabel).join(' + '), dish ? DISH_LABELS[dish].long : ''].filter(Boolean).join(' · ');
+  if (r.video_only) {
+    return { title: r.title, big: 'Video only', caption: 'the recipe is in the video', meta, tint: ogTint(r), description: `${r.title}: the recipe is in the video.` };
+  }
   if (r.status === 'incomplete') {
-    return { title: r.title, big: 'Details pending', caption: 'watch the video for the recipe', meta, tint: tintOf(r) === 'none' ? null : tintOf(r), description: `${r.title}: details pending. Watch the video.` };
+    return { title: r.title, big: 'Details pending', caption: 'watch the video for the recipe', meta, tint: ogTint(r), description: `${r.title}: details pending. Watch the video.` };
   }
   if (value === null) {
-    return { title: r.title, big: NO_MACROS, caption: 'the creator gives no numbers', meta, tint: tintOf(r) === 'none' ? null : tintOf(r), description: `${r.title}. ${meta}.` };
+    return { title: r.title, big: NO_MACROS, caption: 'the creator gives no numbers', meta, tint: ogTint(r), description: `${r.title}. ${meta}.` };
   }
   const g = `${Math.round(value)} g`;
   const caption = whole
@@ -64,7 +69,7 @@ export function recipeCard(r: Recipe): OgCard & { description: string } {
     big: g,
     caption,
     meta,
-    tint: tintOf(r) === 'none' ? null : tintOf(r),
+    tint: ogTint(r),
     description: `${g} ${caption}${meta ? ` · ${meta}` : ''}.`,
   };
 }
