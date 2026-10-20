@@ -40,7 +40,11 @@
     "fibre_g": null,
     "is_estimate": false
   },
-  "stated_macros": null,
+  "stated_macros": {
+    "basis": "from the video, for the recipe (makes 2 toasties; servings not stated)",
+    "protein_g": 40,
+    "kcal": 447
+  },
   "protein_working": [],
   "servings": null,
   "ingredients": [
@@ -142,14 +146,15 @@
     "Air fry at 180 for another 4-5 mins until cheese gets golden brown."
   ],
   "assumptions": [
-    "Makes 2 toasties; the caption doesn't say how many make a portion."
+    "Makes 2 toasties; the caption doesn't say how many make a portion.",
+    "Macros from the video (supplied by Jatin)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"from the video, for the recipe (makes 2 toasties; servings not stated)\", and the caption doesn't say how many portions that is."
     }
   ]
 }

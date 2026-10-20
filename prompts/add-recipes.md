@@ -76,6 +76,20 @@ npx tsx scripts/data/review.ts --out ../protein-plate-raw/reviews/<date>-<phase>
 ```
 The review sheet quotes raw captions, so it goes in the **private** raw repo; link it from the PR.
 
+## 10. If you're in a chat, not in the repository
+The site's "Add recipes" screen copies this prompt plus the schema, dictionary and catalog index into an AI chat.
+- You can't open files or run the §8–9 scripts; everything you need is pasted after this prompt.
+- `ingredient_id`: use the dictionary ids. If an ingredient isn't there, use `null` and add "New dictionary entry needed: <name>" to `assumptions[]`.
+- `source.ref`: `null`. `added_at`: today's date.
+- `per_portion`: copy the creator's numbers from `stated_macros` only when they are per portion (servings stated, or "per serving/piece"); otherwise leave it all `null`. `protein_working`: `[]`. Never estimate.
+- `flags[]`: add the automatic ones yourself (§4: `no_macros` unless it's a sauce/dip, `macros_basis_unclear`, `missing_details`, `no_main_protein`) and `source_conflict` where the caption contradicts itself. Never set `accepted_flags` or `estimated_macros` (those record Jatin's own decisions).
+- A post with no written recipe: `status: "incomplete"`, `video_only: true`, empty ingredients/steps, `missing: ["Written recipe (no caption; the video is the recipe)"]`.
+- Ingredients but no method: `steps: ["No written method — watch the video for the steps."]`.
+- If a link is already in the catalog index, say so and leave it out; if it's a version of a catalog dish, reuse its `dish_group`.
+- Reply with the JSON array only, in one ```json code block.
+
+When these recipes reach the repo (often as one-line JSON with `source.ref: null`), a Track B session adds any missing dictionary entries and runs `npx tsx scripts/data/check.ts --write`, which re-formats the files and sets flags and main proteins.
+
 ## Output
 A JSON array of records (or one file per record in `data/recipes/`), each matching the schema exactly — no extra fields. Example of one ingredient and a flag:
 

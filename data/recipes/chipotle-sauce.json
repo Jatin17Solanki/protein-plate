@@ -139,10 +139,5 @@
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    }
-  ]
+  "flags": []
 }

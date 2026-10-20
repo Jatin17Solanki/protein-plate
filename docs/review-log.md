@@ -12,6 +12,10 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · rule · posts with no written recipe are `video_only: true` (no transcribing, off the review list). They **stay in the main catalog** with a "video only" icon so they aren't lost; notes still work; no macros is accepted (Jatin). App badge = Track A
 - 2026-10-20 · rule · a caption with ingredients but no method gets the single step "No written method — watch the video for the steps."; missing amounts are kept as is with a "watch the video" note
 
+- 2026-10-20 · rule · sauces, dips and marinades need no macros (Jatin)
+- 2026-10-20 · rule · estimates only where Jatin asks, in `estimated_macros`; shown only on the recipe page with a warning, never on home cards or in sorting — portion and whole-recipe numbers can mislead meal planning (Jatin). Display = Track A
+- 2026-10-20 · rule · "keep blank" = `accepted_flags: ["no_macros"]` (off the review list)
+
 ## Per recipe
 
 - 2026-10-20 · bread-pakoda-sandwich, paneer-chole-salad-bowl, ragda-patty-chaat, soya-pulav · creator's numbers are "per serving"/"per sandwich", so they are per-portion figures even without a serving count (fix by Claude, not a Jatin decision) · `per_portion` filled; `macros_basis_unclear` cleared
@@ -45,3 +49,18 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · tempeh-pav-bhaji · missing_details (one amount) → Jatin: fine as is · note added; missing cleared
 - 2026-10-20 · paneer-marinades · link only → Jatin supplied the recipe from the post's comments (private repo `batches/2026-10-20-jatin-captions-2.txt`) · now complete: 3 marinades, method = 'watch the video'; flagged no_macros
 - 2026-10-20 · protein-kebab-air-fryer · Jatin confirms: video only · main protein still open
+- 2026-10-20 · protein-kebab-air-fryer · no_main_protein (video only) → Jatin: soya · main_proteins = soya; flag cleared
+- 2026-10-20 · breakfast-pizza-toast · no_macros → Jatin, from the video: 40 g protein, 447 kcal for 2 toasties · stated_macros set
+- 2026-10-20 · peri-peri-chickpea-wrap · no_macros → Jatin, from the video: 24 g protein, 480 kcal per serve · stated_macros set
+- 2026-10-20 · silken-tofu-veggie-pancakes · no_macros → Jatin, from the video: 23 g protein, 470 kcal · stated_macros set
+- 2026-10-20 · tempeh-pav-bhaji · no_macros → Jatin, from the video: 45 g protein for the entire dish · stated_macros set
+- 2026-10-20 · chipotle-paneer-dip-sandwich · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · chipotle-paneer-sandwich · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · idli-shakshuka · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · paneer-dumpling-sticks · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · shaam-savera · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · vegetable-moonglet · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · watermelon-sorbet · no_macros → Jatin: keep blank · accepted_flags = no_macros
+- 2026-10-20 · chipotle-sauce, paneer-marinades · no_macros → Jatin: sauces/marinades need no macros · rule in check.ts (sauce_dip recipes never get no_macros)
+- 2026-10-20 · hidden-veggie-paneer-steak · no_macros → Jatin: rough estimate from the ingredients · estimated_macros = 32 g protein, 340 kcal (per portion (makes 1)); recipe page only, with a warning
+- 2026-10-20 · rajma-tacos · no_macros → Jatin: rough estimate from the ingredients · estimated_macros = 53 g protein, 1260 kcal (whole recipe (4 tacos)); recipe page only, with a warning

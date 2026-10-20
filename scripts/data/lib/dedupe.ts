@@ -107,3 +107,10 @@ export function findPairs(recipes: Recipe[]): Pair[] {
   }
   return pairs.sort((x, y) => y.score - x.score);
 }
+
+/** Pairs between new recipes and the catalog, or among the new ones (Add recipes screen, B3 batches). */
+export function findPairsAgainst(newOnes: Recipe[], catalog: Recipe[]): Pair[] {
+  const fresh = new Set(newOnes.map((r) => r.id));
+  const all = [...newOnes, ...catalog.filter((r) => !fresh.has(r.id))];
+  return findPairs(all).filter((p) => fresh.has(p.a) || fresh.has(p.b));
+}

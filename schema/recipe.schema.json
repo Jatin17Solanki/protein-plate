@@ -121,6 +121,17 @@
         }
       ]
     },
+    "estimated_macros": {
+      "description": "A rough estimate from the ingredients when the creator gives no numbers (Jatin asked for it on specific recipes). Shown only on the recipe page with a warning — never on cards, in sorting or as per_portion.",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/EstimatedMacros"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "protein_working": {
       "description": "Show the working: one line per protein source, e.g. '40 g dry soya × 52 = 20.8 g'.",
       "type": "array",
@@ -178,6 +189,20 @@
       "items": {
         "$ref": "#/definitions/Flag"
       }
+    },
+    "accepted_flags": {
+      "description": "Automatic flag codes Jatin has reviewed and accepted for this recipe (e.g. no_macros = blank is fine); check.ts no longer raises them.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "no_macros",
+          "macros_basis_unclear",
+          "missing_details",
+          "no_main_protein"
+        ]
+      },
+      "uniqueItems": true
     },
     "added_at": {
       "type": "string",
@@ -592,6 +617,34 @@
           ]
         },
         "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "EstimatedMacros": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "basis",
+        "protein_g",
+        "kcal",
+        "note"
+      ],
+      "properties": {
+        "basis": {
+          "description": "What the estimate covers, e.g. 'per portion (makes 1)', 'whole recipe (4 tacos)'.",
+          "type": "string",
+          "minLength": 1
+        },
+        "protein_g": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "kcal": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "note": {
+          "description": "Where it comes from, shown with the warning.",
           "type": "string",
           "minLength": 1
         }

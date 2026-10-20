@@ -29,14 +29,18 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 24,
+    "kcal": 480,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
-  "stated_macros": null,
+  "stated_macros": {
+    "basis": "per serve (from the video)",
+    "protein_g": 24,
+    "kcal": 480
+  },
   "protein_working": [],
   "servings": null,
   "ingredients": [
@@ -157,14 +161,10 @@
   ],
   "assumptions": [
     "Title from the caption's keywords (the post has no title).",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "Macros from the video (supplied by Jatin)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    }
-  ]
+  "flags": []
 }

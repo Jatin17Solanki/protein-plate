@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import dictJson from '../../data/ingredients.json';
 import type { Recipe } from '../../src/types/recipe';
 import { checkDictionary, makeMatcher, type DictEntry } from './lib/dictionary';
-import { findPairs } from './lib/dedupe';
+import { findPairs, findPairsAgainst } from './lib/dedupe';
 import { estimate } from './lib/estimate';
 import { checkFidelity, numbersIn } from './lib/fidelity';
 import { canonicalUrl, linkKey, parseBatch } from './lib/raw';
@@ -212,5 +212,12 @@ describe('findPairs', () => {
     const a = tikki();
     const b: Recipe = { ...tikki(), id: 'b', title: 'Paneer curry', main_proteins: ['paneer'], source: { ...a.source, creator: 'x', url: 'https://www.instagram.com/p/XXX/' } };
     expect(findPairs([a, b])).toEqual([]);
+  });
+  it('findPairsAgainst only reports pairs that involve a new recipe', () => {
+    const a = tikki();
+    const copy = { ...tikki(), id: 'copy', source: { ...a.source, url: 'https://www.instagram.com/reel/AAA111/' } };
+    const other = { ...tikki(), id: 'other', source: { ...a.source, url: 'https://www.instagram.com/p/OTHER/' } };
+    expect(findPairsAgainst([copy], [a]).map((p) => p.layer)).toEqual(['same_link']);
+    expect(findPairsAgainst([], [a, other])).toEqual([]);
   });
 });

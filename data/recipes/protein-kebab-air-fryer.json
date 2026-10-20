@@ -15,7 +15,9 @@
     ],
     "stated_by_user": []
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "soya"
+  ],
   "supporting_proteins": [],
   "tags": [
     "kebab_tikki_cutlet",
@@ -38,17 +40,13 @@
   "steps": [],
   "assumptions": [
     "Title from the batch file.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "Main protein set by Jatin."
   ],
   "missing": [
     "Written recipe (no caption; the video is the recipe)"
   ],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "Video only, and no main protein chosen yet."
-    }
-  ],
+  "flags": [],
   "video_only": true
 }
