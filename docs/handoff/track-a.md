@@ -1,24 +1,23 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (A2 session)_
+_Last updated: 2026-10-20 (A3 session)_
 
-**Done (A2, PR open):** Home screen to F1/F7/F10/F11.
-- `src/lib/home.ts` (pure): `filterRecipes` (meal tab; proteins OR; quick chips AND; My list via `pp.myList`), `toTiles` (collapses dish groups, sorts protein desc, unknown last). Unit-tested in `tests/unit/home.test.ts`.
-- `src/lib/router.ts`: History API router, `/` and `/r/<id>/` under `import.meta.env.BASE_URL`; global click handler intercepts in-app `<a>`s. Build copies `index.html` → `404.html` (vite plugin `spa-404`) for deep links on Pages.
-- Components: `Icon.tsx` (UI icons + 13 dish icons; chaat/paratha/dessert/sauce drawn new), `Tile.tsx`. Screens: `Home.tsx`, `RecipeStub.tsx` (title, macros, Watch video — replace in A4).
-- CSS in `src/styles/app.css`, tokens only; `[data-tint]` sets `--tint`/`--tint-bg`. Breakpoints 360 / 600 / 1024 / 1200.
-- e2e `tests/e2e/home.spec.ts`: DESIGN §8 overflow check at 9 widths × light/dark + screenshots, chip filtering, navigation, deep link, Auto theme.
+**Done (A3, PR open):** filters, search, summary line, empty state, desktop sidebar.
+- `src/lib/home.ts` (pure): `Filters` {meal, proteins, dishTypes, quick, showDisliked, sort}, `Personal` {myList, disliked}; `matches/filterRecipes`, `dishCount` (versions once), `optionCounts` (live counts), `toTiles(recipes, sort, hits)`, `summaryParts`, `bestRelaxation` (empty state), `clearSheet`.
+- `src/lib/search.ts`: `Searcher` (MiniSearch) → `Map<id, Hit{nameMatch, uses}>`. `src/lib/synonyms.ts`: groups from `data/ingredients.json` (optional, via `import.meta.glob`) + built-in stub.
+- `src/lib/storage.ts`: keys `pp.theme`, `pp.mylist`, `pp.reactions`; `readMyList`, `readDisliked`. Home re-reads on mount and on the `storage` event.
+- Components: `FilterSheet` (draft; bottom sheet <600, centred modal 600–1023; focus trap, Escape, body scroll lock), `Sidebar` (≥1024, live), `EmptyState`, `filterParts` (`toggle`, `SortOptions`). Tile shows "uses …".
+- e2e: `tests/e2e/filters.spec.ts` (sheet/sidebar at 9 widths × 2 themes + behaviour), shared `helpers.ts`.
 
-**Not done (by design, later phases):** search input, filter button, menu, Add, My recipes are visual only. Desktop has no sidebar yet — chips sit above the grid (A3 adds the sidebar and hides protein chips there). No summary line / smart empty state (A3). Add-to-Home-Screen hint (A5). Dislike hiding (A4).
+**Not done:** nothing in A3's scope. Filters/search are not kept in the URL or storage (reload resets) — fine for v1, revisit if Jatin wants it.
 
-**Next:** A3 (filters + search) or A4 (recipe page) — both depend only on A2.
+**Next:** A4 (recipe page + personal data + My recipes). A4 must write `pp.mylist` (array of ids) and `pp.reactions` (`{id: 'like'|'dislike'}`) — Home already reads them.
 
 **Gotchas:**
-- Header is one CSS grid; layout per breakpoint is just `grid-template-areas` (phone 2 rows, tablet 1 row, desktop adds My recipes + labelled Add).
-- On tablet the two chip rows merge via `.chip-row { display: contents }` with a divider.
-- Overflow check skips `.chip-row` and `.meal-tabs` (allowed to scroll sideways). Add any new sideways scroller (Other versions) to that selector.
-- `VITE_FIXTURES=1` for dev until real data lands; e2e counts assume the 10 fixtures (9 tiles).
-- Playwright pinned 1.56.1 (matches `/opt/pw-browsers`).
-- Fonts come from Google Fonts; self-host in A6 for offline.
+- Counts are in *dishes* (a dish group counts once); keep that if you add counts elsewhere.
+- `.check-row:has(input:disabled)` dims sidebar rows — `:has` needs Safari 15.4+/Chrome 105+ (fine for target phones).
+- Phone search mode is pure CSS on `.home.searching` (<600 only).
+- Don't `pkill -f "playwright test"` from a Bash call that also runs Playwright: it kills its own shell. A stale `vite preview` on :4173 makes e2e test an old build (`reuseExistingServer` locally) — kill it first.
+- e2e counts assume the 10 fixtures (9 dishes).
 
 **Open questions:** none.
