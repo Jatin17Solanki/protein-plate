@@ -1,25 +1,24 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (A1 session)_
+_Last updated: 2026-10-20 (A4 session)_
 
-**Done (A1, PR open):**
-- Vite 8 + TypeScript 7 + Preact 11 scaffold; `design/tokens.css` imported directly; theme script in `index.html` head (`pp.theme`).
-- `schema/recipe.schema.json` (strict) → `src/types/recipe.ts` via `npm run gen:types` (CI fails if stale).
-- `src/lib/validate.ts`: schema + rules + cross-file checks, reusable in the browser for A7. `scripts/validate.ts` wraps it for CI.
-- 10 fixtures in `tests/fixtures/` (all 6 proteins, multi-protein, `soya-kebab` group of 2, 1 incomplete, 1 without kcal). 16 unit tests.
-- Placeholder page shows the recipe count. Playwright smoke test: overflow check at 9 widths × light/dark, screenshots to `test-results/screens/`.
-- `.github/workflows/ci.yml`: check on PRs; on main also deploy to Pages.
+**Done (A4, PR open):** recipe page, incomplete state, personal data, My recipes.
+- Schema: optional `ingredients[].section` (Jatin approved). **Track B: use it for sub-recipes like chutney.**
+- `src/lib/storage.ts`: `pp.mylist`, `pp.reactions`, `pp.notes`, `pp.ticks` getters/setters, `subscribe` + `useStorage()` hook (re-render on any change, incl. other tabs), `persist()` on first save. Unit tests (happy-dom).
+- `src/lib/recipe.ts` (pure): `formatQty`, `groupIngredients`, `versionsOf`, `versionLine`, `tagChips`, `macroFootnote`. Unit tests.
+- `src/screens/Recipe.tsx`: F2 phone / F12 desktop (two columns via `.col-a/.col-b`, `display: contents` + `order` on phone). Macro card, missing card, action row, credit, Other versions, ingredient cards with ticks + Clear, steps, Tried it?, notes (400 ms debounce, flush on leave).
+- `src/screens/MyRecipes.tsx` at `/my/`: segmented Liked · My list · Disliked with counts; unbookmark / unlike / Undo.
+- Router: `myRecipes` route, `goBack()` (history.back when in-app, else home). Home remembers filters, search and scroll for the visit (module `memory`); `history.scrollRestoration = 'manual'`.
+- e2e `tests/e2e/recipe.spec.ts`: recipe / incomplete / My recipes at 9 widths × 2 themes + behaviour.
 
-**Not done:** site isn't live until the PR merges (deploy runs on push to main). vite-plugin-pwa not installed yet (add in A6).
+**Not done (A5):** Edit, Share, Add details buttons and the ⋯ menu do nothing yet; phone has no way to reach My recipes until the menu exists (desktop has the header link; Tried it? hint links to it).
 
-**Next:** schema approved (D3) → merge → check the live URL (`site.config.json` → site_url). Then A2.
+**Next:** A5 — Share sheet, Edit sheet, menu (My recipes first), theme switch, backup/restore of all `pp.*`, home-screen hint.
 
 **Gotchas:**
-- `VITE_FIXTURES=1` builds from fixtures instead of `data/recipes/` (dead-code-eliminated in normal builds). Use it for A2–A6 until B2 lands.
-- e2e builds with `BASE_PATH=/`; the real build uses `base_path` from `site.config.json` (`/protein-plate/`). Use `import.meta.env.BASE_URL` for links.
-- Playwright is pinned to 1.56.1 to match `/opt/pw-browsers` in cloud sessions — don't bump it without checking.
-- Ajv runs in strict mode: conditional (`if/then`) sub-schemas need an explicit `type`.
-- Cloud sessions are assigned a `claude/...` branch name, not `a2-home-grid` style; that's fine.
-- If deploy fails with "Pages not enabled": Settings → Pages → Source: GitHub Actions (Phase 0 step 2).
+- Ticks are stored by ingredient *index*; editing a recipe's ingredient order shifts ticks (acceptable; Clear fixes).
+- Recipe page tint comes from `data-tint` on `.recipe-page`; nested `data-tint` (protein chips, version cards) override it.
+- `Recipe` is keyed by id in `app.tsx` so notes state resets between versions.
+- Don't `pkill -f "playwright test"` in the same Bash call that runs Playwright. Kill a stale `vite preview` on :4173 before e2e.
 
 **Open questions:** none.

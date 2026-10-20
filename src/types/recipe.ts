@@ -143,6 +143,10 @@ export interface Ingredient {
    */
   item: string;
   /**
+   * Optional group heading, e.g. 'chutney'. Ingredients without one go in the main card. Keep a section's ingredients together.
+   */
+  section?: string;
+  /**
    * Canonical id in data/ingredients.json (jeera -> cumin_seeds). null until the dictionary has it.
    */
   ingredient_id: Slug | null;

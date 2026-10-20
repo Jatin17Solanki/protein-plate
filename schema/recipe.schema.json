@@ -520,6 +520,12 @@
           "type": "string",
           "minLength": 1
         },
+        "section": {
+          "description": "Optional group heading, e.g. 'chutney'. Ingredients without one go in the main card. Keep a section's ingredients together.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 30
+        },
         "ingredient_id": {
           "description": "Canonical id in data/ingredients.json (jeera -> cumin_seeds). null until the dictionary has it.",
           "anyOf": [

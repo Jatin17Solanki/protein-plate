@@ -29,5 +29,6 @@ _Last updated: 2026-10-20 (B1 session, after Jatin's review)_
 - Schema requests: `stated_macros.fibre_g` (creators often state fibre; now parked in assumptions); maybe a `fritter_pakora` tag (bhajiya is filed under kebab_tikki_cutlet).
 - Done here with Jatin's OK (crossed lanes): schema no longer requires `per_portion.protein_g` when `servings` is null. A2/A4 tiles and recipe page must handle null protein per portion — show the whole-recipe total from the last `protein_working` line, labelled "portions not stated".
 - Recipe page: show ingredients by `as_written` and steps as stored (creator's wording).
+- Search (`src/lib/search.ts`) expands a query to a whole synonym group if any word of any alias starts with it, so a multi-word alias like "low fat yogurt" under curd linked dahi ↔ Greek yogurt. Curd's aliases are trimmed to curd/dahi for now; tightening the expansion is Track A's call.
 
 **Open questions for Jatin:** bhajiya tag; new compilation timing (see PR 3).
