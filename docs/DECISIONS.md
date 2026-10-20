@@ -27,3 +27,7 @@ Append-only. Format: `YYYY-MM-DD · decision · why · who`. Full reasoning for 
 - 2026-10-20 · One CI workflow: PR = validate + types + unit + build + e2e overflow check; push to main = same, then deploy to Pages · a broken recipe can never deploy · Claude
 - 2026-10-20 · Playwright pinned to 1.56.1 (matches the Chromium preinstalled in cloud sessions); `VITE_FIXTURES=1` builds the site from `tests/fixtures/` · screenshots work in-session without downloads; UI work can start before real data · Claude
 - 2026-10-20 · D3: schema approved as proposed in PR 1 · unblocks Track B (B1) · Jatin
+- 2026-10-20 · Routing: History API with paths `/` and `/r/<id>/`; the build copies `index.html` to `404.html` so deep links work on GitHub Pages until A6 writes static pages at the same paths · clean shareable URLs; no hash to migrate away from later · Claude
+- 2026-10-20 · Versions tile: title = `dish_group` id in sentence case ("soya-kebab" → "Soya kebab"), protein = lowest version + "+", kcal = "~" average, tint/icon/link = highest-protein version; collapses only versions that pass the current filters · matches F1 ("35+", "~570 kcal"); no new schema field needed · Claude
+- 2026-10-20 · Recipes with unknown protein show "—" on the tile and sort last; incomplete ones say "details pending" · never invent a number · Claude
+- 2026-10-20 · My list ids live in `localStorage` key `pp.myList` (JSON array of recipe ids); A4 owns writing it · the Home "My list" chip already reads it · Claude
