@@ -1,0 +1,88 @@
+{
+  "status": "complete",
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": null,
+  "protein_working": [
+    "200 g firm tofu × 10 = 20 g",
+    "2 slices bread ≈ 4 g"
+  ],
+  "servings": 1,
+  "assumptions": [
+    "Meal type inferred (breakfast).",
+    "Quick: ~15 min hands-on (estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "tofu-bhurji-toast",
+  "title": "Tofu Bhurji Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE03/",
+    "platform": "instagram",
+    "creator": "Another Creator",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#3"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "per_portion": {
+    "protein_g": 24,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g firm tofu"
+    },
+    {
+      "item": "bread",
+      "ingredient_id": "bread",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 bread slices"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp haldi"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tomato"
+    }
+  ],
+  "steps": [
+    "Crumble the tofu.",
+    "Cook the tomato and turmeric for 2 minutes.",
+    "Add the tofu and cook 4 minutes.",
+    "Serve on toasted bread."
+  ]
+}

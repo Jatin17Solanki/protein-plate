@@ -1,0 +1,39 @@
+{
+  "name": "protein-plate",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Free, mobile-first catalog of high-protein vegetarian recipes.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "gen:types": "tsx scripts/gen-types.ts",
+    "check:types": "tsx scripts/gen-types.ts --check",
+    "validate": "tsx scripts/validate.ts",
+    "validate:fixtures": "tsx scripts/validate.ts tests/fixtures",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "minisearch": "^7.2.0",
+    "preact": "^11.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.5",
+    "json-schema-to-typescript": "^16.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}

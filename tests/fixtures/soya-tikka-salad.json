@@ -1,0 +1,104 @@
+{
+  "status": "complete",
+  "supporting_proteins": [
+    "greek_yogurt",
+    "besan"
+  ],
+  "tags": [
+    "salad_bowl",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": {
+    "basis": "per serving",
+    "protein_g": 45,
+    "kcal": 420
+  },
+  "protein_working": [
+    "40 g dry soya × 52 = 20.8 g",
+    "200 g Greek yogurt × 9 = 18 g",
+    "2 tbsp besan ≈ 15 g × 22 = 3.3 g"
+  ],
+  "servings": 1,
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "soya-tikka-salad",
+  "title": "Soya Tikka Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE02/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#2"
+  },
+  "meal_types": {
+    "values": [
+      "dinner"
+    ],
+    "stated_by_user": [
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "per_portion": {
+    "protein_g": 45,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "40g soya chunks (dry)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 200,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "200g greek yogurt"
+    },
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "grams": 15,
+      "type": "protein",
+      "as_written": "2 tbsp besan"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 cucumber"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "salt to taste"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks for 5–6 minutes, then squeeze them dry.",
+    "Coat with yogurt, besan and spices.",
+    "Air fry at 180 °C for 10 minutes.",
+    "Serve over sliced cucumber."
+  ]
+}

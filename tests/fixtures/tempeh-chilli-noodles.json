@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "supporting_proteins": [],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": null,
+  "protein_working": [
+    "120 g tempeh × 19 = 22.8 g",
+    "60 g dry noodles × 12 = 7.2 g"
+  ],
+  "servings": 1,
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "tempeh-chilli-noodles",
+  "title": "Tempeh Chilli Noodles",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE04/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#4"
+  },
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "per_portion": {
+    "protein_g": 31,
+    "kcal": 610,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "tempeh",
+      "ingredient_id": "tempeh",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120 g tempeh"
+    },
+    {
+      "item": "noodles",
+      "ingredient_id": "noodles",
+      "qty": 60,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "60g noodles"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp chilli sauce"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    }
+  ],
+  "steps": [
+    "Boil the noodles.",
+    "Pan-fry the tempeh until golden.",
+    "Toss everything with the sauces."
+  ]
+}

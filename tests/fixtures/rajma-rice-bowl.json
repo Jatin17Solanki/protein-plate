@@ -1,0 +1,84 @@
+{
+  "status": "complete",
+  "supporting_proteins": [],
+  "tags": [
+    "rice_pulao_biryani",
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": null,
+  "protein_working": [
+    "70 g dry rajma × 22 = 15.4 g",
+    "50 g dry rice × 7 = 3.5 g",
+    "¼ cup curd ≈ 2 g"
+  ],
+  "servings": 1,
+  "assumptions": [
+    "Rajma weight is dry; source says 1 bowl cooked."
+  ],
+  "missing": [
+    "kcal and other macros (not stated, not estimated)"
+  ],
+  "added_at": "2026-10-20",
+  "id": "rajma-rice-bowl",
+  "title": "Rajma Rice Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE10/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#10"
+  },
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "rajma",
+      "ingredient_id": "rajma",
+      "qty": 70,
+      "unit": "g",
+      "grams": 70,
+      "type": "protein",
+      "as_written": "1 bowl cooked rajma"
+    },
+    {
+      "item": "rice",
+      "ingredient_id": "rice",
+      "qty": 50,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "50 g rice"
+    },
+    {
+      "item": "curd",
+      "ingredient_id": "curd",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1/4 cup curd"
+    }
+  ],
+  "steps": [
+    "Pressure cook the soaked rajma.",
+    "Cook the rice.",
+    "Serve the rajma over rice with curd."
+  ]
+}

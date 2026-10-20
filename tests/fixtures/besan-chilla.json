@@ -1,0 +1,90 @@
+{
+  "status": "complete",
+  "supporting_proteins": [
+    "curd"
+  ],
+  "tags": [
+    "chilla_pancake_omelette",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": null,
+  "protein_working": [
+    "80 g besan × 22 = 17.6 g",
+    "50 g curd × 3.5 = 1.8 g"
+  ],
+  "servings": 1,
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "besan-chilla",
+  "title": "Besan Chilla",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE05/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#5"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "per_portion": {
+    "protein_g": 20,
+    "kcal": 330,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g besan"
+    },
+    {
+      "item": "curd",
+      "ingredient_id": "curd",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50 g dahi"
+    },
+    {
+      "item": "ajwain",
+      "ingredient_id": "carom_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp ajwain"
+    },
+    {
+      "item": "coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "optional": true,
+      "type": "produce",
+      "as_written": "handful dhaniya"
+    }
+  ],
+  "steps": [
+    "Whisk the besan, curd, ajwain and water into a batter.",
+    "Spread on a hot tawa.",
+    "Cook 2 minutes per side."
+  ]
+}
