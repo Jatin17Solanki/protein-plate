@@ -8,7 +8,22 @@ const UI = {
   bookmark: <path d="M6 3h12v18l-6-4-6 4z" />,
   back: <path d="M15 5l-7 7 7 7" />,
   x: <path d="M6 6l12 12M18 6L6 18" />,
+  pencil: <path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16zM13.5 6.5l4 4" />,
+  share: <path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" />,
+  thumbsUp: <path d="M7 10v11H4V10zM7 10l4-7a2.5 2.5 0 0 1 3 3l-1 4h5.5a2 2 0 0 1 2 2.4l-1.4 7A2 2 0 0 1 17.1 21H7" />,
+  thumbsDown: <path d="M17 14V3h3v11zM17 14l-4 7a2.5 2.5 0 0 1-3-3l1-4H5.5a2 2 0 0 1-2-2.4l1.4-7A2 2 0 0 1 6.9 3H17" />,
+  reset: <><path d="M3 12a9 9 0 1 0 3-6.7L3 8" /><path d="M3 3v5h5" /></>,
+  info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" /></>,
 };
+
+/** Filled variants: bookmark when on My list, play for Watch video. */
+export function FilledIcon({ name, size = 20 }: { name: 'bookmark' | 'play'; size?: number }) {
+  return (
+    <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+      <path d={name === 'bookmark' ? 'M6 3h12v18l-6-4-6 4z' : 'M7 4.5v15l13-7.5z'} />
+    </svg>
+  );
+}
 
 export function UiIcon({ name, size = 20, strokeWidth = 2 }: { name: keyof typeof UI; size?: number; strokeWidth?: number }) {
   return (
