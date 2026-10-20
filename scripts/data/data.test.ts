@@ -62,7 +62,7 @@ function tikki(): Recipe {
       { item: 'cumin seeds', ingredient_id: 'cumin_seeds', qty: 2, unit: 'tsp', type: 'spice', as_written: '2 tsp jeera' },
       { item: 'salt', ingredient_id: 'salt', qty: null, unit: 'to_taste', type: 'spice', as_written: 'Salt, to taste' },
     ],
-    steps: ['Boil the soya for 5 minutes.', 'Mash with the peas and jeera.', 'Shape into tikkis.', 'Pan fry on medium heat for 8–10 minutes.'],
+    steps: ['Boil the soya for 5 minutes, then mash with the peas and jeera.', 'Shape and pan fry at medium heat for 8–10 minutes.'],
     assumptions: [],
     missing: [],
     added_at: '2026-10-20',
@@ -78,6 +78,10 @@ describe('parseBatch', () => {
     expect(entries[0].section).toBeNull();
     expect(entries[1].section).toBe('AIR FRYER');
     expect(entries[2].label).toBe('Link only');
+  });
+  it('keeps long comma-heavy method lines but drops keyword lists', () => {
+    const text = 'https://www.instagram.com/p/X1/\nDish\nAdd the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.\nquick dinner, high protein, veg recipes, easy meals, desi food\n';
+    expect(parseBatch(text)[0].content).toEqual(['Dish', 'Add the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.']);
   });
   it('normalises links', () => {
     expect(linkKey(entries[1].url)).toBe('ig:BBB222');
@@ -112,7 +116,7 @@ describe('checkFidelity', () => {
   it('catches a dropped ingredient', () => {
     const r = tikki();
     r.ingredients = r.ingredients.filter((g) => g.ingredient_id !== 'green_peas');
-    r.steps[1] = 'Mash with the jeera.';
+    r.steps[0] = 'Boil the soya for 5 minutes, then mash with the peas and jeera.';
     expect(run(r).join('\n')).toMatch(/green peas|1\/2|0\.5/);
   });
   it('catches a changed amount', () => {
@@ -122,8 +126,23 @@ describe('checkFidelity', () => {
   });
   it('catches a number added to a step', () => {
     const r = tikki();
-    r.steps[0] = 'Boil the soya for 7 minutes.';
+    r.steps[0] = 'Boil the soya for 7 minutes, then mash with the peas and jeera.';
     expect(run(r).join('\n')).toMatch(/steps\[0\].*7/);
+  });
+  it('catches a reworded step, but allows formatting', () => {
+    const r = tikki();
+    r.steps[0] = 'Cook the soya for 5 minutes, then mash it with the peas and jeera.';
+    expect(run(r).join('\n')).toMatch(/steps\[0\] is not the source's wording/);
+    r.steps = ['Boil the soya for 5 minutes', 'then mash with the peas and jeera!', 'Shape and pan fry at medium heat for 8–10 minutes'];
+    expect(run(r)).toEqual([]);
+  });
+  it('warns about a source line left out of the steps', () => {
+    const r = tikki();
+    r.steps = r.steps.slice(0, 1);
+    r.assumptions.push('Frying time 8–10 minutes.');
+    const res = checkFidelity(r, entries[0], matcher);
+    expect(res.errors).toEqual([]);
+    expect(res.warnings.join('\n')).toMatch(/not in any step.*pan fry/);
   });
   it('catches reworded as_written', () => {
     const r = tikki();
@@ -159,6 +178,12 @@ describe('estimate', () => {
     expect(e.main_proteins).toEqual(['paneer', 'soya']);
     expect(e.protein_g).toBe(Math.round((26 + 27 + 72.5 * 0.054 + 4 * 0.18) / 2));
     expect(e.working.at(-1)).toMatch(/÷ 2 portions/);
+  });
+  it('gives no per-portion figure when servings are not stated', () => {
+    const e = estimate({ ...tikki(), servings: null }, byId);
+    expect(e.protein_g).toBeNull();
+    expect(e.total_protein_g).toBe(Math.round(26 + 72.5 * 0.054 + 4 * 0.18));
+    expect(e.working.at(-1)).toMatch(/whole recipe \(portions not stated\)/);
   });
   it('lists supporting proteins at ≥ 10 %', () => {
     const r = tikki();

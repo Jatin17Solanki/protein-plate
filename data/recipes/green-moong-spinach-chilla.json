@@ -29,8 +29,8 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 24,
-    "kcal": 470,
+    "protein_g": 5,
+    "kcal": 90,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
@@ -47,9 +47,9 @@
     "90 g dry green moong × 23/100 g = 20.7 g",
     "90 g dry black chickpeas (kala chana) × 19/100 g = 17.1 g",
     "\"1/2 cup sooji\" ≈ 82.5 g dry semolina (sooji) × 10.4/100 g = 8.6 g",
-    "Total ≈ 48.1 g ÷ 2 portions = 24 g per portion"
+    "Total ≈ 48.1 g ÷ 10 portions = 4.8 g per portion"
   ],
-  "servings": 2,
+  "servings": 10,
   "ingredients": [
     {
       "item": "black chana, soaked overnight",
@@ -125,15 +125,12 @@
     }
   ],
   "steps": [
-    "Soak the black chana and green moong dal overnight.",
-    "Blend the soaked chana and moong dal with the green chillies, garlic, ginger, spinach, sooji, water and salt into a batter.",
-    "Spread the batter on a lightly greased pan to make chillas.",
-    "Cook until golden on both sides (covering with a lid helps them cook evenly).",
-    "Serve with paneer for extra protein, or with yogurt and your favourite chutney."
+    "To a blender add 90g black chana - soaked overnight, 90g green moong dal - soaked overnight, 3-4 green chilies (1 used just 1), 2 garlic cloves, small piece of ginger, 1 cup spinach (g), 1/2 cup sooji (semolina g), water (300ml), 1 tsp salt.",
+    "Make chillas on a lightly greased pan until cooked and golden on both sides. (I covered with a lid for even cooking)",
+    "Serve with paneer for an extra protein boost, or enjoy with yogurt and your favorite chutney."
   ],
   "assumptions": [
     "90 g black chana and 90 g moong dal read as dry weights (weighed before soaking).",
-    "One portion = 5 chillas, so the batter makes 2 portions (our guess).",
     "Creator also states 3 g fibre per chilla."
   ],
   "missing": [

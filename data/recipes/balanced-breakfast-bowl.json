@@ -29,15 +29,15 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 47,
-    "kcal": 660,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": true
   },
   "stated_macros": {
-    "basis": "whole bowl",
+    "basis": "whole recipe (servings not stated)",
     "protein_g": 48,
     "kcal": 650
   },
@@ -47,9 +47,9 @@
     "\"100g Boiled black Channa\" ≈ 40 g dry black chickpeas (kala chana) × 19/100 g = 7.6 g",
     "100 g potato × 2/100 g = 2 g",
     "\"One onion sliced\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 47.2 g per portion"
+    "Total ≈ 47.2 g for the whole recipe (portions not stated)"
   ],
-  "servings": 1,
+  "servings": null,
   "ingredients": [
     {
       "item": "low-fat paneer",
@@ -182,20 +182,21 @@
     }
   ],
   "steps": [
-    "Heat the oil in a pan.",
-    "Add the paneer, black chana, potato, all the spice powders and a little salt.",
-    "Sauté on low heat for two minutes.",
-    "Turn the heat to high and sauté for three more minutes.",
-    "Transfer to a bowl.",
-    "Top with the onion, yoghurt, grated garlic, green chilli, coriander leaves, salt, lemon juice and honey.",
-    "Cover, shake to mix, and serve."
+    "Heat oil in the pan.",
+    "Add paneer, black channa, potato, all masala along with some salt.",
+    "Keep the flame low and saute for two minutes.",
+    "Now keep the fame high and sauté for three minutes.",
+    "Now transfer into a bowl.",
+    "On top of this add onion, yoghurt, grated garlic, green chilli, coriander leaf, salt, lemon juice, honey.",
+    "Close it and shake it and enjoy it!!!"
   ],
   "assumptions": [
     "'2 garlic' read as 2 cloves.",
     "Boiled black chana: 100 g cooked ≈ 40 g dry for the protein estimate.",
-    "One bowl = one portion.",
     "Meal types are our guess (breakfast from the creator's title)."
   ],
-  "missing": [],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
   "added_at": "2026-10-20"
 }

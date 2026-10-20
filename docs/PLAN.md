@@ -75,7 +75,8 @@ Use **Opus** for every Track B phase — the work is judgment (nutrition maths, 
 
 **Fidelity rules (non-negotiable — normalisation must never change the recipe):**
 - Ingredients and quantities are copied exactly. Allowed: unit conversion (keep `as_written`), translating names to English (keep the original as an alias). Not allowed: adding, removing, substituting or "improving" ingredients, or changing amounts.
-- Steps keep the same order, actions, times, temperatures and equipment. Allowed: splitting into one action per step, fixing grammar, plain wording. Not allowed: new techniques, merged or dropped steps.
+- Steps are the creator's own words (D5 revised 2026-10-20). Allowed: formatting only — splitting at line breaks/sentences, dropping emoji/bullets/step numbers, capitals and punctuation. Not allowed: any rewording, summarising or spelling fixes. `fidelity.ts` fails any step that isn't word-for-word in the caption.
+- Servings only as the creator states them; otherwise `servings: null` and no per-portion figure (whole-recipe total in the working).
 - Anything unclear or missing goes into `missing[]` / `assumptions[]` — never guessed silently.
 - Every recipe stores `source_ref` (batch file + entry number) and the source URL, so it can always be compared with the original.
 - `scripts/data/fidelity.ts`: for each recipe, check that every ingredient and every number (quantity, minutes, °C) in the raw entry appears in the normalised recipe, and nothing extra was added; fail the PR on any mismatch unless it's listed in `assumptions[]`.
@@ -84,7 +85,7 @@ Use **Opus** for every Track B phase — the work is judgment (nutrition maths, 
 **Read:** CONTEXT §1, §4–6 · `data/raw/*` (or the raw text Jatin provides — see "Decisions needed") · schema.
 **Do:**
 - `data/ingredients.json`: canonical ingredient dictionary (id, English name, aliases incl. Hindi/Hinglish, type: protein|dairy|grain|produce|spice|pantry|sauce, protein g per 100 g, kcal per 100 g, dry/cooked basis).
-- `prompts/add-recipes.md`: the single normalisation + categorisation + duplicate prompt (rules from CONTEXT §4: per-portion basis, 35 % main-protein rule, multi-select meals, flat tag set, dish groups, dry weights, "show your working", steps rewritten in plain words with credit + link to the creator, output = JSON array matching the schema).
+- `prompts/add-recipes.md`: the single normalisation + categorisation + duplicate prompt (rules from CONTEXT §4: per-portion basis, 35 % main-protein rule, multi-select meals, flat tag set, dish groups, dry weights, "show your working", steps in the creator's own words (formatting only, D5 revised) with credit + link, output = JSON array matching the schema).
 - `scripts/data/dedupe.ts`: deterministic duplicate/variant detection (normalised URL/reel id → same creator + title similarity → ingredient-set overlap + main protein). Outputs a report; never deletes.
 - Normalise **10 recipes** spanning all proteins → PR for Jatin to review field by field.
 

@@ -2,6 +2,8 @@
 // Compares one normalised recipe with its raw entry. Pure, so A7 can reuse it.
 //
 // Errors:
+//  - a step is not the creator's wording (only formatting may change: line breaks, emoji, bullets,
+//    step numbers, punctuation, capitals — D5 revised 2026-10-20)
 //  - a number in the raw entry (quantity, minutes, °C, macros, servings) is absent from the recipe
 //  - a number in the recipe's steps / as_written / title is absent from the raw entry
 //  - an `as_written` is not the source's exact wording
@@ -9,6 +11,7 @@
 //  - a dictionary ingredient named in the raw entry is neither an ingredient nor mentioned in steps
 //  - an `ingredient_id` doesn't match its `as_written` / `item`
 // Anything deliberately different is waived by saying so in `assumptions[]` (numbers and names there count).
+// Warnings: a source line (other than title, headings, nutrition) that appears in no step or ingredient.
 import type { Recipe } from '../../../src/types/recipe';
 import { normalizeText, type Matcher } from './dictionary';
 import type { RawEntry } from './raw';
@@ -24,6 +27,15 @@ const WORDS: Record<string, number> = {
 };
 
 const key = (n: number) => String(Math.round(n * 1000) / 1000);
+
+/** Words and numbers only: what may not change between the caption and a step. */
+export function wordsOnly(s: string): string {
+  return normalizeText(s).replace(/[^\p{L}\p{N}½¼¾⅓⅔⅛]+/gu, ' ').trim();
+}
+
+/** Headings: "Ingredients (Makes 1)", "Preparation of this recipe", "For the dressing:", "Kebabs -". */
+const HEADER = /^(ingredients?|method|how to make|preparation|recipe|directions|instructions)\b|[:–-]\s*$/i;
+const NUTRITION = /\b(cals?|calories|kcal|protein|protien|carbs?|fats?|fib(re|er)|serves?|servings?|nutrition|macros)\b|^[pfc]\s*:\s*\d/i;
 
 /** Text with links, @handles and leading list numbers ("3. ") removed, so they don't count as quantities. */
 export function stripNoise(line: string): string {
@@ -79,6 +91,23 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
     if (placeholder && content.length > 1) errors.push('raw entry has recipe text but the recipe has no ingredients or steps');
     return { errors, warnings };
   }
+
+  // 0. Steps are the creator's own words; a step may span consecutive caption lines.
+  const rawWords = ` ${wordsOnly(content.map(stripNoise).join(' \n '))} `;
+  r.steps.forEach((step, i) => {
+    if (!rawWords.includes(` ${wordsOnly(step)} `)) errors.push(`steps[${i}] is not the source's wording — "${step.slice(0, 90)}"`);
+  });
+
+  // 0b. Nothing dropped: every recipe line of the caption shows up in a step or an ingredient.
+  const stepWords = ` ${wordsOnly(r.steps.join(' \n '))} `;
+  const ingWords = r.ingredients.map((g) => ` ${wordsOnly(g.as_written)} `);
+  content.forEach((line, i) => {
+    const w = wordsOnly(stripNoise(line));
+    const t = normalizeText(line).replace(/^[^\p{L}\p{N}]+/u, '');
+    if (i === 0 || !w || HEADER.test(t) || NUTRITION.test(t)) return;
+    if (stepWords.includes(` ${w} `) || ingWords.some((g) => g.includes(` ${w} `) || ` ${w} `.includes(g))) return;
+    warnings.push(`source line not in any step or ingredient — "${line.slice(0, 90)}"`);
+  });
 
   // 1. Every raw number is kept somewhere in the recipe.
   const rawNums = numbersOfLines(content);

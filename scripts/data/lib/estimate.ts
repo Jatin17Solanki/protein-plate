@@ -12,9 +12,12 @@ export interface Contribution {
 }
 
 export interface Estimate {
-  /** Whole recipe ÷ servings (servings null → 1). */
-  protein_g: number;
-  kcal: number;
+  /** Whole recipe ÷ servings; null when the creator doesn't say how many portions it makes (no guessing). */
+  protein_g: number | null;
+  kcal: number | null;
+  /** Whole recipe, always available. */
+  total_protein_g: number;
+  total_kcal: number;
   contributions: Contribution[];
   working: string[];
   main_proteins: MainProtein[];
@@ -47,7 +50,7 @@ export function gramsOf(ing: Ingredient, entry: DictEntry | undefined): number |
 }
 
 export function estimate(recipe: Recipe, byId: Map<string, DictEntry>): Estimate {
-  const servings = recipe.servings ?? 1;
+  const servings = recipe.servings;
   const contributions: Contribution[] = [];
   const unweighed: string[] = [];
   for (const ing of recipe.ingredients) {
@@ -96,12 +99,15 @@ export function estimate(recipe: Recipe, byId: Map<string, DictEntry>): Estimate
     });
   if (working.length) {
     const total = `Total ≈ ${fmt(totalProtein)} g`;
-    working.push(servings > 1 ? `${total} ÷ ${servings} portions = ${fmt(totalProtein / servings)} g per portion` : `${total} per portion`);
+    if (servings === null) working.push(`${total} for the whole recipe (portions not stated)`);
+    else working.push(servings > 1 ? `${total} ÷ ${servings} portions = ${fmt(totalProtein / servings)} g per portion` : `${total} per portion`);
   }
 
   return {
-    protein_g: Math.round(totalProtein / servings),
-    kcal: Math.round(totalKcal / servings / 10) * 10,
+    protein_g: servings === null ? null : Math.round(totalProtein / servings),
+    kcal: servings === null ? null : Math.round(totalKcal / servings / 10) * 10,
+    total_protein_g: Math.round(totalProtein),
+    total_kcal: Math.round(totalKcal / 10) * 10,
     contributions,
     working,
     main_proteins,

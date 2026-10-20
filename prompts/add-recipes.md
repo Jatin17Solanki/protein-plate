@@ -12,11 +12,13 @@ You are adding recipes to **Protein Plate**, a catalog that helps a vegetarian e
 - If something is unclear, write it down in `assumptions[]` or `missing[]`. Never guess silently.
 
 ## 1. Fidelity — the recipe must not change
-- **Ingredients:** copy every ingredient and amount exactly. `as_written` is the source's exact wording, copied character for character from the caption (a substring of it; emoji can be dropped). Allowed: an English `item` name, a unit from the schema's list. Not allowed: adding, removing, swapping or "improving" an ingredient, or changing an amount.
+- **Ingredients:** copy every ingredient and amount exactly; the ingredient list is extracted from the caption for search, filters and protein maths. `as_written` is the source's exact wording, copied character for character from the caption (a substring of it; emoji can be dropped). Allowed: an English `item` name, a unit from the schema's list. Not allowed: adding, removing, swapping or "improving" an ingredient, or changing an amount.
 - Ingredients named only inside the method count too (e.g. "add the onions" when the list has none): add them with `qty: null` and say what's missing in `missing[]`.
 - `qty` is a number taken from `as_written`. For a range ("2–3 cloves") use the lower number and keep the range in `as_written`. "a tbsp" / "pinch of" → `qty: 1`. No amount → `qty: null`. "to taste" → `unit: "to_taste"`.
-- **Steps:** same order, same actions, times, temperatures and equipment as the source. Write them in your own plain words (we don't copy captions), one action per step. Allowed: splitting a step, fixing grammar, plain wording. Not allowed: new techniques, merged or dropped steps, new numbers.
-- Serving suggestions and creator tips in the caption ("serve with paneer", "if using frozen peas…") stay in the steps.
+- **Steps are the creator's own words.** Copy the method from the caption; only change the formatting: split it into steps at the creator's line breaks or sentences, drop emoji, bullets and step numbers, and fix capitals and punctuation. Never reword, shorten, summarise or fix spelling ("fame high", "toguet" stay as written). Keep the quantities that are written in the method ("To a bowl, add 250g low-fat paneer, 1 tbsp ginger-garlic paste…").
+- A step may join consecutive caption lines (an "add:" line followed by its ingredient lines becomes one step). Instructions that sit inside the ingredient list ("For bread crumbs - Grind 1 slice whole wheat bread") are steps too.
+- Leave out only lines that aren't recipe content: the title, headings, nutrition lines, hashtag/keyword lists, Jatin's notes, and promo lines ("comment 'fudge' and I'll DM you").
+- Serving suggestions and creator tips ("serve with paneer", "if using frozen peas…") stay in the steps.
 - Every number in the caption (amounts, minutes, °C, servings, macros) must appear somewhere in the record. A stated number with no field (e.g. fibre) goes in `assumptions[]`: "Creator also states 11 g fibre."
 - If the caption contradicts itself (3 h soak in the list, 1 h in the method), keep both in the steps/`as_written` and note it in `assumptions[]`.
 
@@ -33,9 +35,9 @@ Lines like `Notes: breakfast, self cook` and section headings like `AIR FRYER:` 
 - `title`: the dish name in plain Title Case, no emoji or "Recipe ⬇️" (e.g. "Tempeh Pav Bhaji"). `id`: kebab-case of the title; never change it later.
 
 ## 4. Portions and nutrition (per one person's portion)
-- `servings` = portions the ingredient list makes. If the caption doesn't say, pick a sensible number and say so in `assumptions[]` (e.g. "One portion = 5 of the creator's 10 chillas (our guess)").
+- `servings` = portions the ingredient list makes, **only as the creator states it** ("serves 3", "makes 2", "batter makes 10" with per-chilla macros → 10). If the caption doesn't say, `servings: null`, `per_portion` protein/kcal `null`, and add "Servings: the caption doesn't say how many portions this makes." to `missing[]`. Never guess a portion; the working then gives the whole-recipe total.
 - `stated_macros`: the creator's numbers exactly, with `basis` in their terms ("per serving (serves 3)", "per chilla (batter makes 10)", "whole recipe"). `null` if none.
-- `per_portion`: **our** estimate (`is_estimate: true`) — protein and kcal from the ingredients ÷ servings. Leave carbs/fat/fibre `null` unless you computed them.
+- `per_portion`: **our** estimate (`is_estimate: true`) — protein and kcal from the ingredients ÷ servings (`null` when servings aren't stated). Leave carbs/fat/fibre `null` unless you computed them.
 - Weights: dal, soya and pulses use **dry weight**. When the source says boiled/soaked/cooked, keep its `qty` and put the dry-weight estimate in `grams`, with an assumption (100 g boiled chana ≈ 40 g dry). Use `grams` for anything whose unit can't be weighed from the dictionary's `unit_grams` (1 scoop whey ≈ 30 g).
 - `protein_working`: one line per protein source, e.g. `35 g dry soya chunks × 52/100 g = 18.2 g`, then the total ÷ servings.
 - In the repo, don't do the maths by hand: fill `ingredients[]` (with `grams` where needed), then run `npx tsx scripts/data/check.ts --write`. It computes `per_portion` protein/kcal, `protein_working`, `main_proteins` and `supporting_proteins` from the dictionary.

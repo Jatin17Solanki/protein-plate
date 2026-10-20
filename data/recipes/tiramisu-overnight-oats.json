@@ -29,15 +29,15 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 46,
-    "kcal": 480,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": true
   },
   "stated_macros": {
-    "basis": "whole recipe (1 jar)",
+    "basis": "whole recipe (servings not stated)",
     "protein_g": 42,
     "kcal": 447,
     "carbs_g": 47,
@@ -50,9 +50,9 @@
     "10 g chia seeds × 17/100 g = 1.7 g",
     "\"50-60ml skimmed milk\" ≈ 50 g skimmed milk × 3.4/100 g = 1.7 g",
     "6 g cocoa powder × 20/100 g = 1.2 g",
-    "Total ≈ 46.1 g per portion"
+    "Total ≈ 46.1 g for the whole recipe (portions not stated)"
   ],
-  "servings": 1,
+  "servings": null,
   "ingredients": [
     {
       "item": "oats",
@@ -122,12 +122,9 @@
     }
   ],
   "steps": [
-    "Make the coffee shot by mixing 1 tsp instant coffee with water.",
-    "Mix the oats, chia seeds, cocoa, honey (or stevia/monkfruit extract), skimmed milk and coffee shot well.",
-    "Refrigerate the oat mix overnight.",
-    "Mix the Greek yogurt and vanilla protein until well combined.",
-    "Refrigerate the yogurt base overnight.",
-    "In the morning, layer the oat mix and yogurt base in a jar and serve."
+    "For the coffee chocolate mix: 40g oats, 10g chia seeds, 6g cocoa, 1 tsp honey (can replace with stevia/monkfruit extract), 50-60ml skimmed milk, 50-60 ml coffee shot (1 tsp instant coffee mixed in water). Mix well and set in the fridge overnight.",
+    "For the yogurt base: 140g Greek yogurt, 1 scoop vanilla protein (I am using Salted Caramel Isolate). Mix well until well combined and refrigerate overnight.",
+    "In the morning, layer up the oat mix and yogurt base in a jar and enjoy."
   ],
   "assumptions": [
     "1 scoop of protein ≈ 30 g whey (pack value unknown).",
@@ -136,6 +133,8 @@
     "Creator also states 11 g fibre.",
     "Meal types are our guess; tagged dessert from the batch's dessert section."
   ],
-  "missing": [],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
   "added_at": "2026-10-20"
 }

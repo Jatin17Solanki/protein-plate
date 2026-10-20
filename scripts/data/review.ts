@@ -53,7 +53,7 @@ for (const r of recipes) {
     }
     s.push('');
   }
-  if (r.steps.length) s.push('### Steps (our words)', '', ...r.steps.map((x, i) => `${i + 1}. ${x}`), '');
+  if (r.steps.length) s.push('### Steps (source wording, formatted)', '', ...r.steps.map((x, i) => `${i + 1}. ${x}`), '');
   s.push('### Classification', '');
   s.push(`- Meal types: ${r.meal_types.values.join(', ') || '—'}${r.meal_types.stated_by_user.length ? ` (stated by Jatin: ${r.meal_types.stated_by_user.join(', ')})` : ' (all inferred)'}`);
   s.push(`- Main proteins: ${r.main_proteins.join(', ') || '—'} · supporting: ${r.supporting_proteins.join(', ') || '—'}`);

@@ -4,6 +4,8 @@
  * One recipe = one file data/recipes/<id>.json. All protein/kcal figures are per one person's portion (CONTEXT §4).
  */
 export type Recipe = {
+  [k: string]: unknown;
+} & {
   /**
    * Kebab-case, unique, equals the file name without .json. Never changes once published (links depend on it).
    */
@@ -47,12 +49,12 @@ export type Recipe = {
    */
   protein_working: string[];
   /**
-   * Portions the ingredient list makes; null if unknown.
+   * Portions the ingredient list makes, as the creator states it; null if not stated (then per_portion stays null and protein_working gives the whole-recipe total).
    */
   servings: number | null;
   ingredients: Ingredient[];
   /**
-   * One action per step, in the creator's order, in our own words (D5).
+   * The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20).
    */
   steps: string[];
   /**

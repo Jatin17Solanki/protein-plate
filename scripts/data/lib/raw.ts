@@ -24,10 +24,12 @@ const LINK = /https?:\/\/(?:www\.)?(?:instagram\.com|youtube\.com|youtu\.be)\/\S
 const SEPARATOR = /^-{20,}\s*$/;
 const HEADING = /^([A-Z][A-Za-z /&]+?):?\s*$/;
 
-/** Keyword/hashtag lists creators paste under a caption: many commas, no quantities. */
+/** Keyword/hashtag lists creators paste under a caption: many short comma-separated phrases, no
+ * quantities, no sentences (a long method line also has many commas, but longer phrases or a full stop). */
 export function isKeywordLine(line: string): boolean {
   const t = line.trim().replace(/^\(|\)$/g, '');
-  return (t.match(/,/g)?.length ?? 0) >= 4 && !/\d/.test(t);
+  const parts = t.split(',').map((p) => p.trim()).filter(Boolean);
+  return parts.length >= 5 && !/\d/.test(t) && !/[.!?]\s/.test(t) && parts.every((p) => p.split(/\s+/).length <= 5);
 }
 
 export function isNoteLine(line: string): boolean {

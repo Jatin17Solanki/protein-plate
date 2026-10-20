@@ -26,8 +26,8 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 17,
-    "kcal": 280,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
@@ -41,9 +41,9 @@
     "\"2 carrots\" ≈ 160 g carrot × 0.9/100 g = 1.4 g",
     "\"1–2 cups pumpkin\" ≈ 120 g pumpkin × 1/100 g = 1.2 g",
     "\"1 capsicum\" ≈ 120 g capsicum (bell pepper) × 1/100 g = 1.2 g",
-    "Total ≈ 50.8 g ÷ 3 portions = 16.9 g per portion"
+    "Total ≈ 50.8 g for the whole recipe (portions not stated)"
   ],
-  "servings": 3,
+  "servings": null,
   "ingredients": [
     {
       "item": "butter",
@@ -207,24 +207,20 @@
     }
   ],
   "steps": [
-    "Heat the butter in a pan, add the cumin seeds, bay leaf, ginger and garlic, and sauté until fragrant.",
-    "Add the crumbled tempeh and cook for a couple of minutes.",
-    "Add the onions and cook until nicely browned.",
-    "Add the tomato puree with the turmeric, Kashmiri red chilli powder, pav bhaji masala, cumin powder, coriander powder, garam masala and salt.",
-    "Cook until the masala is rich and well reduced.",
-    "Add the pumpkin, capsicum, carrots and beetroot with enough water.",
-    "Cover and cook until the vegetables are completely soft.",
-    "Mash everything well to a pav bhaji texture.",
-    "Simmer for a few more minutes so the flavours come together.",
-    "Serve hot with toasted pav or bread, or on its own as a bhaji bowl."
+    "Heat butter in a pan and add cumin seeds, bay leaf, ginger, and garlic. Sauté until fragrant.",
+    "Add the crumbled tempeh and cook for a couple of minutes, then add the onions and cook until they turn nicely brown.",
+    "Add the tomato puree along with turmeric, Kashmiri red chilli powder, pav bhaji masala, cumin powder, coriander powder, garam masala, and salt. Cook until the masala is rich and well reduced.",
+    "Add the pumpkin, capsicum, carrots, and beetroot. Add enough water, cover, and cook until the vegetables become completely soft.",
+    "Mash everything well until you get that classic pav bhaji texture. Let it simmer for a few more minutes so all those flavours come together.",
+    "Serve hot with toasted pav, bread, or enjoy it as a protein-rich bhaji bowl."
   ],
   "assumptions": [
-    "Servings not stated: about 3 portions from the vegetable quantities (our guess).",
     "Ranges (4–5 tomatoes, 1–2 cups pumpkin): the lower amount is used in the estimate.",
     "Meal types are our guess."
   ],
   "missing": [
-    "Onion amount: the method adds onions but the ingredient list doesn't include them."
+    "Onion amount: the method adds onions but the ingredient list doesn't include them.",
+    "Servings: the caption doesn't say how many portions this makes."
   ],
   "added_at": "2026-10-20"
 }

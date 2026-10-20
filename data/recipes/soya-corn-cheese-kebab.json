@@ -28,15 +28,15 @@
   "dish_group": "soya-kebab",
   "variant_label": "with corn & cheese",
   "per_portion": {
-    "protein_g": 36,
-    "kcal": 540,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": true
   },
   "stated_macros": {
-    "basis": "whole recipe",
+    "basis": "whole recipe (servings not stated)",
     "protein_g": 30,
     "kcal": 470
   },
@@ -46,9 +46,9 @@
     "\"1 slice whole wheat bread\" ≈ 30 g whole-wheat bread × 9/100 g = 2.7 g",
     "\"1/2 Cup Corn\" ≈ 75 g sweet corn × 3.3/100 g = 2.5 g",
     "\"1 tbsp greek yogurt\" ≈ 15 g Greek yogurt × 9/100 g = 1.4 g",
-    "Total ≈ 35.6 g per portion"
+    "Total ≈ 35.6 g for the whole recipe (portions not stated)"
   ],
-  "servings": 1,
+  "servings": null,
   "ingredients": [
     {
       "item": "soya chunks",
@@ -244,23 +244,22 @@
     }
   ],
   "steps": [
-    "Grind the slice of whole wheat bread into bread crumbs.",
-    "Boil the soya chunks and squeeze out all the water.",
-    "In a pan, heat the ghee and sauté the garlic, green chilli and jeera.",
-    "Add the onion and corn and sauté until golden brown.",
-    "Add the masalas and mix well.",
-    "Blend this with the rice flour and soya chunks.",
-    "Cut the cheese cube into 4 pieces.",
-    "Grease your hands with ghee and shape the mixture into cutlets, stuffing a small piece of cheese into each.",
-    "Roll the cutlets in the bread crumbs.",
-    "Pan-fry on each side until crispy (this can take 15 minutes on medium-low heat).",
-    "For the chutney, blend the dhaniya, Greek yogurt, walnuts, green chilli, garlic, lemon juice, salt and pepper until smooth."
+    "For bread crumbs - grind 1 slice whole wheat bread.",
+    "Boil soya chunks and squeeze them well until all water is drained out.",
+    "In a pan, add ghee and sauté garlic, chilli and jeera.",
+    "Add onion, corn and sauté until golden brown.",
+    "Add masalas and mix well.",
+    "Blend this along with rice flour and soya chunks.",
+    "Apply ghee on your hands and roll into cutlets while stuffing small cubes of cheese in each cutlet.",
+    "Roll into bread crumbs and pan fry on each side until crispy. (May take 15 mins on med-low flame)",
+    "For chutney - handful dhaniya, 1 tbsp greek yogurt, 1-2 walnuts, 1/2 green chilli, 1 garlic clove, 1/2 lemon juice, salt and pepper - blend everything together and its ready!!"
   ],
   "assumptions": [
     "'1/2 ts' read as ½ tsp.",
-    "Servings not stated: one portion (40 g soya; the creator gives 470 kcal and 30 g protein for the recipe).",
     "1 cheese cube ≈ 20 g; for 1–2 walnuts the lower amount is used in the estimate."
   ],
-  "missing": [],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
   "added_at": "2026-10-20"
 }

@@ -29,15 +29,15 @@
   "dish_group": "soya-kebab",
   "variant_label": "with peas",
   "per_portion": {
-    "protein_g": 31,
-    "kcal": 450,
+    "protein_g": null,
+    "kcal": null,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": true
   },
   "stated_macros": {
-    "basis": "whole recipe, kebabs + dip",
+    "basis": "whole recipe, kebabs + dip (servings not stated)",
     "protein_g": 30,
     "kcal": null
   },
@@ -46,9 +46,9 @@
     "\"1 cup fresh peas\" ≈ 145 g green peas × 5.4/100 g = 7.8 g",
     "\"1 small chopped onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
     "\"1/2 slice of bread\" ≈ 14 g bread × 8/100 g = 1.1 g",
-    "Total ≈ 31 g per portion"
+    "Total ≈ 31 g for the whole recipe (portions not stated)"
   ],
-  "servings": 1,
+  "servings": null,
   "ingredients": [
     {
       "item": "soya chunks",
@@ -228,26 +228,24 @@
     }
   ],
   "steps": [
-    "Boil the soya chunks, then squeeze out all the water.",
-    "In a kadhai, heat the ghee and add the jeera, chopped garlic and chillies.",
-    "Add the onion and cook for 2 minutes.",
-    "Add the peas and cook for 5 minutes. If using frozen peas, soak them in lukewarm water for a while first.",
-    "Add salt, red chilli powder, aamchur, garam masala, coriander powder, a pinch of haldi and some rock salt, and mix well.",
-    "Add the rice flour and mix again.",
-    "Transfer to a grinder jar with the half slice of bread and the coriander, and grind to a fine paste.",
-    "Add the soya chunks and grind again.",
-    "Keep the paste in the fridge for 10 minutes.",
-    "Oil your hands and shape the paste into small balls.",
-    "Brush a non-stick pan with ghee and cook the kebabs on low-medium heat for a few minutes, until nicely browned.",
-    "Serve with Greek yogurt; top the yogurt with red chilli powder, chaat masala and pomegranate."
+    "Boil 35g of soya chunks and properly squeeze them to drain out all the water.",
+    "In a kadhai, add 1 tsp ghee, 1 tsp jeera, 2-3 cloves chopped garlic and 2 chopped chillies.",
+    "Then add 1 small chopped onion. Let it cook for 2 mins and add 1 cup fresh peas (incase you use frozen peas, soak in lukewarm water for a while).",
+    "Let the peas cook for 5 minutes and then add salt, 1 tsp red chilli powder, 1 tsp aamchur, 1 tsp garam masala, 1/2 tsp coriander powder, pinch of haldi and some rock salt.",
+    "Mix well and then add a tbsp of rice flour. Mix again and transfer this to a grinder jar.",
+    "Add 1/2 slice of bread and handful of coriander and grind this mixture into a fine paste.",
+    "To this, add the soya chunks and grind again.",
+    "Now keep this paste in the fridge for 10 minutes and apply oil on your hands and start making small balls.",
+    "On a non stick pan, brush some ghee and cook this kebabs on low-medium flame for a few minutes and until they have this beautiful brown color.",
+    "Serve with greek yogurt for more protein. Top the yogurt with red chilli powder, chaat masala and pomegranate (my star ingredient which goes so well with these)."
   ],
   "assumptions": [
-    "Servings not stated: one portion, from the 35 g of soya and the creator's 30 g protein (our guess).",
     "'Chillies' read as green chillies.",
     "Greek yogurt for the dip is not in the protein estimate (amount not given)."
   ],
   "missing": [
-    "Amount of Greek yogurt for the dip."
+    "Amount of Greek yogurt for the dip.",
+    "Servings: the caption doesn't say how many portions this makes."
   ],
   "added_at": "2026-10-20"
 }
