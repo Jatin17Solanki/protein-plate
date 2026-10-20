@@ -16,7 +16,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 ## Track A — App
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
-| A1 | Scaffold, schema, CI, deploy | Phase 0 | review | `claude/compassionate-clarke-bxgv06` / PR_LINK | Opus | Needs Jatin's yes on the schema (D3) before merge. Site goes live on first push to main. |
+| A1 | Scaffold, schema, CI, deploy | Phase 0 | review | `claude/compassionate-clarke-bxgv06` / [PR 1](https://github.com/Jatin17Solanki/protein-plate/pull/1) | Opus | Needs Jatin's yes on the schema (D3) before merge. Site goes live on first push to main. |
 | A2 | App shell + Home grid | A1 | todo | | Sonnet | |
 | A3 | Filters + search + empty state | A2 | todo | | Sonnet | |
 | A4 | Recipe page + personal data + My recipes | A2 | todo | | Sonnet | |
