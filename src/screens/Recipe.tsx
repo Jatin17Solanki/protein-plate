@@ -10,7 +10,7 @@ import { PROTEINS, shownNumbers, shownProtein, tintOf } from '../lib/home';
 import { FilledIcon, UiIcon } from '../components/Icon';
 import { EditSheet } from '../components/EditSheet';
 import { ShareSheet } from '../components/ShareSheet';
-import type { Recipe as RecipeData } from '../types/recipe';
+import type { EstimatedMacros, Recipe as RecipeData } from '../types/recipe';
 
 const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? k;
 
@@ -81,9 +81,9 @@ export function Recipe({ id }: { id: string | null }) {
             {tagChips(r).map((t) => <li key={t} class="tag-chip">{t}</li>)}
           </ul>
 
-          {incomplete ? <MissingCard r={r} /> : <MacroCard r={r} />}
+          {r.video_only ? <VideoOnlyCard /> : incomplete ? <MissingCard r={r} /> : <MacroCard r={r} />}
 
-          <div class="action-row">
+          <div class={`action-row${r.video_only ? ' video-first' : ''}`}>
             {r.source.url && (
               <a class="btn inv" href={r.source.url} target="_blank" rel="noopener">
                 <FilledIcon name="play" size={16} />Watch video
@@ -134,11 +134,15 @@ export function Recipe({ id }: { id: string | null }) {
           {r.steps.length > 0 && (
             <section class="card steps" aria-labelledby="steps-h">
               <h2 id="steps-h" class="card-title">Steps</h2>
-              <ol>
-                {r.steps.map((s, i) => (
-                  <li key={i}><span class="num step-no">{i + 1}</span><span>{s}</span></li>
-                ))}
-              </ol>
+              {isVideoStepHint(r.steps) ? (
+                <p class="steps-hint"><FilledIcon name="play" size={12} />{r.steps[0]}</p>
+              ) : (
+                <ol>
+                  {r.steps.map((s, i) => (
+                    <li key={i}><span class="num step-no">{i + 1}</span><span>{s}</span></li>
+                  ))}
+                </ol>
+              )}
             </section>
           )}
         </div>
@@ -193,6 +197,7 @@ function MacroCard({ r }: { r: RecipeData }) {
         {cell(m.fibre_g, 'fibre')}
       </div>
       <p class="macro-note">{macroFootnote(r)}</p>
+      {r.estimated_macros && <EstimateNote e={r.estimated_macros} />}
       {r.protein_working.length > 0 && (
         <details class="working">
           <summary>How the protein adds up</summary>
@@ -202,6 +207,39 @@ function MacroCard({ r }: { r: RecipeData }) {
     </section>
   );
 }
+
+/**
+ * Jatin's rough estimate (`estimated_macros`): only here, always with a warning. Never on tiles, in sorting, share
+ * text, exports or preview cards, and never treated as a per-portion figure.
+ */
+function EstimateNote({ e }: { e: EstimatedMacros }) {
+  const parts = [e.protein_g !== null ? `about ${formatNumber(Math.round(e.protein_g))} g protein` : '', e.kcal !== null ? `${Math.round(e.kcal)} kcal` : ''].filter(Boolean);
+  if (!parts.length) return null;
+  return (
+    <div class="estimate-note" role="note">
+      <p class="estimate-title"><span class="estimate-mark" aria-hidden="true">!</span>Rough estimate, not the creator's numbers</p>
+      <p>{parts.join(' · ')}, {e.basis}.</p>
+      {e.note && <p class="estimate-why">{e.note}</p>}
+    </div>
+  );
+}
+
+/** A post with no written recipe: the video is the recipe (`video_only`). */
+function VideoOnlyCard() {
+  return (
+    <section class="missing-card video-only-card" aria-labelledby="video-only-h">
+      <div class="missing-head">
+        <span class="missing-mark" aria-hidden="true"><FilledIcon name="play" size={12} /></span>
+        <h2 id="video-only-h">Video only</h2>
+      </div>
+      <p>The creator shows this recipe in the video; there's no written ingredient list or method. Watch it, and keep your own notes below.</p>
+    </section>
+  );
+}
+
+const VIDEO_STEP = /^No written method\b/i;
+/** The standard single step for recipes whose method is only in the video. */
+const isVideoStepHint = (steps: string[]) => steps.length === 1 && VIDEO_STEP.test(steps[0]);
 
 function MissingCard({ r }: { r: RecipeData }) {
   return (

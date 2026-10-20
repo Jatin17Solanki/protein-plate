@@ -12,6 +12,7 @@ const site = (siteUrl: string) => siteUrl.replace(/\/?$/, '/');
 
 /** "32 g protein, 450 kcal per portion" — the creator's numbers only, same as the app. */
 export function macroText(r: Recipe): string {
+  if (r.video_only) return 'video only (no written recipe)';
   if (r.status === 'incomplete') return 'details pending';
   const { value, whole } = shownProtein(r);
   if (value === null) return 'macros not given';

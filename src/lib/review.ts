@@ -20,13 +20,18 @@ export interface ReviewItem {
   flags: Flag[];
 }
 
-/** Flagged recipes, plus incomplete ones the data forgot to flag (shown as missing details). */
+/**
+ * Flagged recipes, plus incomplete ones the data forgot to flag (shown as missing details). Video-only recipes are
+ * complete as far as Jatin is concerned, and flags he accepted (`accepted_flags`) are decided: neither is listed.
+ */
 export function reviewItems(recipes: Recipe[]): ReviewItem[] {
   const order = (c: FlagCode) => FLAG_INFO.findIndex((f) => f.code === c);
   return recipes
+    .filter((recipe) => !recipe.video_only)
     .map((recipe) => {
-      const flags = [...(recipe.flags ?? [])];
-      if (recipe.status === 'incomplete' && !flags.some((f) => f.code === 'missing_details')) {
+      const accepted = new Set<FlagCode>(recipe.accepted_flags ?? []);
+      const flags = (recipe.flags ?? []).filter((f) => !accepted.has(f.code));
+      if (recipe.status === 'incomplete' && !accepted.has('missing_details') && !flags.some((f) => f.code === 'missing_details')) {
         flags.push({ code: 'missing_details', note: recipe.missing.join('; ') || 'Marked incomplete.' });
       }
       return { recipe, flags: flags.sort((a, b) => order(a.code) - order(b.code)) };

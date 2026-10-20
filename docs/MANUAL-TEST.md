@@ -34,7 +34,9 @@ Before you start: on each device, open the site once, then use Menu → **Back u
 5. [ ] Open the filter sheet (sliders button). Every option shows a live count; options with 0 are dimmed and can't be tapped. "Show all 13 types" reveals the rest. **Show N dishes** applies; the filter button turns green with a count badge.
 6. [ ] Sort: Protein high→low (default) vs Calories low→high changes the order.
 7. [ ] Filter down to nothing (e.g. Tempeh + Dessert): the empty state offers "Remove ‹narrowest filter› · N dishes" and **Clear all filters**; both work.
-8. [ ] D: at full width the filters are a left sidebar with checkboxes and counts; at ~800 px the grid has 3 columns and the header is one row.
+8. [ ] **Others** is the last protein chip (grey). It shows only the not-really-high-protein recipes (chocolate pudding, watermelon sorbet, idli shakshuka), with grey tiles saying "Others".
+9. [ ] Video-only recipes (e.g. 5 Paneer Marinations) are in the grid with a small **▶ Video only** badge and "video only" instead of a number; they sort after the recipes with numbers.
+10. [ ] D: at full width the filters are a left sidebar with checkboxes and counts; at ~800 px the grid has 3 columns and the header is one row.
 
 ## 3. Search ★ D
 1. [ ] Type **paneer**: matching dishes; title matches first.
@@ -50,9 +52,12 @@ Before you start: on each device, open the site once, then use Menu → **Back u
 5. [ ] Other versions: tap one; it opens that version and the version line updates ("version 2 of 3").
 6. [ ] Steps are the creator's words, numbered.
 7. [ ] Open a recipe whose creator gave no numbers: tile and page say **Macros not given**, neutral colour if it has no main protein.
-8. [ ] Open an incomplete recipe (e.g. Avocado Burrata Toast): dashed "Details missing" card listing what's missing; **Add details** instead of Share; notes still work.
+8. [ ] Incomplete recipes that are *not* video-only (none in the catalog on 2026-10-20; skip if there are none): dashed "Details missing" card listing what's missing; **Add details** instead of Share; notes still work.
 9. [ ] Back arrow returns to Home with the same filters and scroll position.
 10. [ ] D: at full width the page is two columns (left: title, macros, buttons, Tried it, notes; right: versions, ingredients, steps).
+11. [ ] Open a video-only recipe: a "Video only" card instead of macros, **Watch video** is the big button, notes work.
+12. [ ] Open Rajma Tacos or Hidden Veggie Paneer Steak: the macro card still shows "—", and below it an amber box "Rough estimate, not the creator's numbers" with the estimate and where it comes from. The tile on Home shows no estimate.
+13. [ ] A recipe whose steps are only "No written method — watch the video for the steps." (e.g. Paneer Marinades) shows that line with a ▶ icon instead of a numbered step.
 
 ## 5. My list, Like / Dislike, notes ★
 1. [ ] Bookmark a recipe: icon fills. Home → **My list** quick chip shows it.
@@ -106,6 +111,7 @@ Before you start: on each device, open the site once, then use Menu → **Back u
 1. [ ] Open `/protein-plate/review/` (bookmark it; it isn't in the menu). "N of M recipes need a look".
 2. [ ] Flag chips filter the list; the URL keeps the filter (reload keeps it).
 3. [ ] Copy title, Video and Edit on GitHub work on a card.
+4. [ ] Video-only recipes and flags you already accepted (e.g. "no macros" on Shaam Savera) are **not** listed.
 
 ## 13. Accessibility spot checks ★ D
 1. [ ] iPhone: Settings → Accessibility → Display & Text Size → Larger Text to the max: Home and a recipe still readable, nothing cut off or overlapping badly.

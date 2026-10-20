@@ -155,7 +155,7 @@ describe('prompts', () => {
     const text = buildAddPrompt({ prompt: 'Intro for repo sessions.\n\n---\n\nYou are adding recipes.', schema: { a: 1 }, dictionary: 'tempeh: tempeh', catalog, today: '2026-10-20' });
     expect(text.startsWith('You are adding recipes.')).toBe(true);
     expect(text).not.toContain('Intro for repo sessions');
-    expect(text).toContain('`added_at`: `2026-10-20`');
+    expect(text).toContain('(for `added_at`) is 2026-10-20');
     expect(text).toContain('{"a":1}');
     expect(text).toContain('tempeh: tempeh');
     expect(text).toContain(`## Catalog index (${catalog.length} recipes`);

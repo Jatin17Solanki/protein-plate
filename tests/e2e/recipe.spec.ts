@@ -131,6 +131,21 @@ test.describe('phone', () => {
     await expect(page.getByRole('textbox', { name: 'My notes' })).toHaveAttribute('placeholder', /until the details are added/);
   });
 
+  test('estimated macros: warning on the recipe page only, never on the tile (BL1)', async ({ page }) => {
+    await page.goto('/r/besan-chilla/');
+    const note = page.getByRole('note');
+    await expect(note).toContainText("Rough estimate, not the creator's numbers");
+    await expect(note).toContainText('about 42 g protein · 610 kcal, whole recipe (batter for 6).');
+    await expect(page.locator('.macro-protein')).not.toContainText('42');
+    await page.goto('/');
+    await expect(page.getByRole('link', { name: /^Besan Chilla/ })).not.toContainText('42');
+  });
+
+  test('"Others" protein is offered last (BL1)', async ({ page }) => {
+    await page.goto('/');
+    await expect(page.getByRole('group', { name: 'Main protein' }).getByRole('button').last()).toContainText('Others');
+  });
+
   test('Back returns to Home with filters and scroll kept', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: 'Global' }).click();

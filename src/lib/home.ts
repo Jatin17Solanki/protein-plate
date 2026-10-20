@@ -9,6 +9,8 @@ export const PROTEINS: { key: MainProtein; label: string }[] = [
   { key: 'tofu', label: 'Tofu' },
   { key: 'tempeh', label: 'Tempeh' },
   { key: 'whey', label: 'Whey' },
+  // Not really high-protein (puddings, sorbets…): neutral colour, listed last (Jatin, 2026-10-20).
+  { key: 'other', label: 'Others' },
 ];
 
 export const MEALS: { key: MealType | 'all'; label: string }[] = [
@@ -77,8 +79,12 @@ export interface Hit {
   uses: string | null;
 }
 
-/** Tile/page colour: the first main protein, or neutral when no source reaches 35 % (flagged no_main_protein). */
+/**
+ * Tile/page colour: the first main protein, or neutral when no source reaches 35 % (flagged no_main_protein).
+ * `other` (not really high-protein) is neutral too; see NEUTRAL_TINTS.
+ */
 export type Tint = MainProtein | 'none';
+export const NEUTRAL_TINTS: readonly Tint[] = ['none', 'other'];
 export const tintOf = (r: Recipe): Tint => r.main_proteins[0] ?? 'none';
 
 export const NO_MACROS = 'Macros not given';
@@ -98,6 +104,8 @@ export interface Tile {
   nameMatch: boolean;
   /** true when the number is for the whole recipe (creator gave no portion count). */
   whole: boolean;
+  /** No written recipe: the video is the recipe (shows a "Video only" badge). */
+  videoOnly: boolean;
   sortProtein: number | null;
   sortKcal: number | null;
 }
@@ -190,7 +198,7 @@ export function groupTitle(group: string): string {
 }
 
 function proteinNames(ps: MainProtein[]): string {
-  return ps.length ? cap(ps.join(' + ')) : '';
+  return ps.length ? cap(ps.map((p) => (p === 'other' ? 'others' : p)).join(' + ')) : '';
 }
 
 const recipeKey = (r: Recipe) => {
@@ -211,7 +219,8 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
   const { value: p, whole } = shownProtein(r);
   const k = r.per_portion.kcal;
   const kcal =
-    r.status === 'incomplete' ? 'details pending'
+    r.video_only ? 'video only'
+    : r.status === 'incomplete' ? 'details pending'
     : p === null ? NO_MACROS
     : whole ? 'whole recipe'
     : k !== null ? `${Math.round(k)} kcal` : '';
@@ -226,6 +235,7 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
     uses: hit && !hit.nameMatch ? hit.uses : null,
     nameMatch: hit?.nameMatch ?? false,
     whole,
+    videoOnly: !!r.video_only,
     sortProtein: p,
     sortKcal: r.status === 'incomplete' ? null : k,
   };
@@ -254,6 +264,7 @@ function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): 
     uses: nameMatch ? null : (groupHits.find((h) => h.uses)?.uses ?? null),
     nameMatch,
     whole,
+    videoOnly: false,
     sortProtein: low,
     sortKcal: avgKcal,
   };
