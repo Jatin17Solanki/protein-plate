@@ -33,20 +33,20 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 40,
+    "kcal": 447,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "from the video, for the recipe (makes 2 toasties; servings not stated)",
+    "basis": "from the video, for the recipe (makes 2 toasties) — one portion (Jatin)",
     "protein_g": 40,
     "kcal": 447
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "high-protein paneer",
@@ -147,14 +147,10 @@
   ],
   "assumptions": [
     "Makes 2 toasties; the caption doesn't say how many make a portion.",
-    "Macros from the video (supplied by Jatin)."
+    "Macros from the video (supplied by Jatin).",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"from the video, for the recipe (makes 2 toasties; servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

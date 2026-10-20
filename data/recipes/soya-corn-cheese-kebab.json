@@ -28,20 +28,20 @@
   "dish_group": "soya-kebab",
   "variant_label": "with corn & cheese",
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 30,
+    "kcal": 470,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion (Jatin)",
     "protein_g": 30,
     "kcal": 470
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "soya chunks",
@@ -248,14 +248,10 @@
     "For chutney - handful dhaniya, 1 tbsp greek yogurt, 1-2 walnuts, 1/2 green chilli, 1 garlic clove, 1/2 lemon juice, salt and pepper - blend everything together and its ready!!"
   ],
   "assumptions": [
-    "'1/2 ts' read as ½ tsp."
+    "'1/2 ts' read as ½ tsp.",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

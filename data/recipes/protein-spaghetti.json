@@ -154,14 +154,13 @@
   ],
   "assumptions": [
     "'Low fat/toned milk paneer' is listed as low-fat paneer.",
-    "Creator also states 9 g fibre."
+    "Creator also states 9 g fibre.",
+    "Jatin: the creator's numbers are for the whole dish, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe; the creator says it can be divided into 2 servings\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

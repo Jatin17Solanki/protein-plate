@@ -32,20 +32,20 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 23,
+    "kcal": 470,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "from the video (the batch makes 4–5 pancakes; servings not stated)",
+    "basis": "from the video (the batch makes 4–5 pancakes) — one portion (Jatin)",
     "protein_g": 23,
     "kcal": 470
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "silken tofu",
@@ -174,14 +174,10 @@
   ],
   "assumptions": [
     "Makes 4–5 pancakes; the caption doesn't say how many make a portion.",
-    "Macros from the video (supplied by Jatin)."
+    "Macros from the video (supplied by Jatin).",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"from the video (the batch makes 4–5 pancakes; servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

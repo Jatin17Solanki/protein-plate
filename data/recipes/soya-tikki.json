@@ -28,22 +28,22 @@
   "dish_group": "soya-kebab",
   "variant_label": "with paneer & besan",
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 33,
+    "kcal": 450,
+    "carbs_g": 32,
+    "fat_g": 17,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion (Jatin)",
     "protein_g": 33,
     "kcal": 450,
     "carbs_g": 32,
     "fat_g": 17
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "besan",
@@ -93,14 +93,10 @@
     "Creator states ~33–34 g protein in total.",
     "Creator's tips: more paneer and besan if you dislike soya (makes more tikkis); skip ghee with a non-stick pan if in a calorie deficit; add Maggi Magic Masala to mask the soya taste.",
     "Meal types are our guess.",
-    "The caption gives no method or spices; watch the video for these."
+    "The caption gives no method or spices; watch the video for these.",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

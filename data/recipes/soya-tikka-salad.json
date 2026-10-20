@@ -30,20 +30,20 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 45,
+    "kcal": 420,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion (Jatin)",
     "protein_g": 45,
     "kcal": 420
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "soya chunks (dry)",
@@ -176,14 +176,10 @@
     "Serve: serve fresh as a high-protein, fiber-rich salad."
   ],
   "assumptions": [
-    "'tbsp kasoori methi' read as 1 tbsp."
+    "'tbsp kasoori methi' read as 1 tbsp.",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

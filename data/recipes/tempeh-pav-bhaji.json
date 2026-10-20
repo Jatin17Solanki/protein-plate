@@ -213,14 +213,13 @@
   "assumptions": [
     "Meal types are our guess.",
     "The onion amount isn't given (the method adds onions, the ingredient list doesn't have them); watch the video for anything unclear.",
-    "Macros from the video (supplied by Jatin)."
+    "Macros from the video (supplied by Jatin).",
+    "Jatin: the creator's numbers are for the whole dish, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"entire dish (from the video; servings not stated)\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }
