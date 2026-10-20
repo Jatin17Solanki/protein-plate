@@ -1,0 +1,140 @@
+{
+  "id": "tiramisu-overnight-oats",
+  "title": "Tiramisu Overnight Oats",
+  "source": {
+    "url": "https://www.instagram.com/p/C9hpdWNJeSV/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#67"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 42,
+    "kcal": 447,
+    "carbs_g": 47,
+    "fat_g": 10
+  },
+  "protein_working": [
+    "\"1 Scoop Vanilla Protein\" ≈ 30 g whey protein × 78/100 g = 23.4 g",
+    "140 g Greek yogurt × 9/100 g = 12.6 g",
+    "40 g dry oats × 13/100 g = 5.2 g",
+    "10 g chia seeds × 17/100 g = 1.7 g",
+    "\"50-60ml skimmed milk\" ≈ 50 g skimmed milk × 3.4/100 g = 1.7 g",
+    "6 g cocoa powder × 20/100 g = 1.2 g",
+    "Total ≈ 46.1 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "40g Oats"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g Chia seeds"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 6,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "6g Cocoa"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey (can replace with stevia/monkfruit extract)"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 50,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "50-60ml skimmed milk"
+    },
+    {
+      "item": "coffee shot (instant coffee in water)",
+      "ingredient_id": "instant_coffee",
+      "qty": 50,
+      "unit": "ml",
+      "grams": 2,
+      "type": "pantry",
+      "as_written": "50-60 ml coffee shot (1 tsp instant coffee mixed in water)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 140,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "140g Greek Yogurt"
+    },
+    {
+      "item": "vanilla protein (whey)",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 Scoop Vanilla Protein (I am using Salted Caramel Isolate)"
+    }
+  ],
+  "steps": [
+    "For the coffee chocolate mix: 40g oats, 10g chia seeds, 6g cocoa, 1 tsp honey (can replace with stevia/monkfruit extract), 50-60ml skimmed milk, 50-60 ml coffee shot (1 tsp instant coffee mixed in water). Mix well and set in the fridge overnight.",
+    "For the yogurt base: 140g Greek yogurt, 1 scoop vanilla protein (I am using Salted Caramel Isolate). Mix well until well combined and refrigerate overnight.",
+    "In the morning, layer up the oat mix and yogurt base in a jar and enjoy."
+  ],
+  "assumptions": [
+    "1 scoop of protein ≈ 30 g whey (pack value unknown).",
+    "Coffee shot counted as 1 tsp ≈ 2 g instant coffee.",
+    "50–60 ml: the lower amount is used in the estimate.",
+    "Creator also states 11 g fibre.",
+    "Meal types are our guess; tagged dessert from the batch's dessert section."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

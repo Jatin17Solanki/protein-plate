@@ -1,0 +1,226 @@
+{
+  "id": "tempeh-pav-bhaji",
+  "title": "Tempeh Pav Bhaji",
+  "source": {
+    "url": "https://www.instagram.com/p/DdVjXw3hz0E/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#5"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": null,
+  "protein_working": [
+    "200 g tempeh × 19/100 g = 38 g",
+    "\"4–5 tomatoes\" ≈ 400 g tomato × 0.9/100 g = 3.6 g",
+    "\"1 beetroot\" ≈ 100 g beetroot × 1.6/100 g = 1.6 g",
+    "\"2 carrots\" ≈ 160 g carrot × 0.9/100 g = 1.4 g",
+    "\"1–2 cups pumpkin\" ≈ 120 g pumpkin × 1/100 g = 1.2 g",
+    "\"1 capsicum\" ≈ 120 g capsicum (bell pepper) × 1/100 g = 1.2 g",
+    "Total ≈ 50.8 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp butter"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf"
+    },
+    {
+      "item": "ginger, minced",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp minced ginger"
+    },
+    {
+      "item": "garlic, minced",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp minced garlic"
+    },
+    {
+      "item": "tempeh, crumbled",
+      "ingredient_id": "tempeh",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g tempeh, crumbled (19g protein/100g)"
+    },
+    {
+      "item": "onions",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "add the onions"
+    },
+    {
+      "item": "tomatoes, pureed",
+      "ingredient_id": "tomato",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4–5 tomatoes, pureed"
+    },
+    {
+      "item": "pumpkin, finely chopped",
+      "ingredient_id": "pumpkin",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1–2 cups pumpkin, finely chopped"
+    },
+    {
+      "item": "capsicum, finely chopped",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 capsicum, finely chopped"
+    },
+    {
+      "item": "carrots, finely chopped",
+      "ingredient_id": "carrot",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 carrots, finely chopped"
+    },
+    {
+      "item": "beetroot, finely chopped",
+      "ingredient_id": "beetroot",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 beetroot, finely chopped"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "pav bhaji masala",
+      "ingredient_id": "pav_bhaji_masala",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp pav bhaji masala"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water, as needed"
+    }
+  ],
+  "steps": [
+    "Heat butter in a pan and add cumin seeds, bay leaf, ginger, and garlic. Sauté until fragrant.",
+    "Add the crumbled tempeh and cook for a couple of minutes, then add the onions and cook until they turn nicely brown.",
+    "Add the tomato puree along with turmeric, Kashmiri red chilli powder, pav bhaji masala, cumin powder, coriander powder, garam masala, and salt. Cook until the masala is rich and well reduced.",
+    "Add the pumpkin, capsicum, carrots, and beetroot. Add enough water, cover, and cook until the vegetables become completely soft.",
+    "Mash everything well until you get that classic pav bhaji texture. Let it simmer for a few more minutes so all those flavours come together.",
+    "Serve hot with toasted pav, bread, or enjoy it as a protein-rich bhaji bowl."
+  ],
+  "assumptions": [
+    "Ranges (4–5 tomatoes, 1–2 cups pumpkin): the lower amount is used in the estimate.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Onion amount: the method adds onions but the ingredient list doesn't include them.",
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

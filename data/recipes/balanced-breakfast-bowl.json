@@ -1,0 +1,202 @@
+{
+  "id": "balanced-breakfast-bowl",
+  "title": "Balanced Breakfast Bowl",
+  "source": {
+    "url": "https://www.instagram.com/p/DbS3qAeveTb/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#4"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "kala_chana"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 48,
+    "kcal": 650
+  },
+  "protein_working": [
+    "100 g low-fat paneer × 25/100 g = 25 g",
+    "100 g skyr × 10/100 g = 10 g",
+    "\"100g Boiled black Channa\" ≈ 40 g dry black chickpeas (kala chana) × 19/100 g = 7.6 g",
+    "100 g potato × 2/100 g = 2 g",
+    "\"One onion sliced\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 47.2 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "boiled potato",
+      "ingredient_id": "potato",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g boiled potato"
+    },
+    {
+      "item": "boiled black chana",
+      "ingredient_id": "kala_chana",
+      "qty": 100,
+      "unit": "g",
+      "grams": 40,
+      "type": "protein",
+      "as_written": "100g Boiled black Channa"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g skyr Yoghurt"
+    },
+    {
+      "item": "onion, sliced",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "One onion sliced"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 5,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "5ml oil"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp Honey"
+    },
+    {
+      "item": "garlic, grated",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic"
+    },
+    {
+      "item": "green chilli, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli Chopped"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Turmeric powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri Red chilli Powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp jeera Powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaf"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon squeeze"
+    }
+  ],
+  "steps": [
+    "Heat oil in the pan.",
+    "Add paneer, black channa, potato, all masala along with some salt.",
+    "Keep the flame low and saute for two minutes.",
+    "Now keep the fame high and sauté for three minutes.",
+    "Now transfer into a bowl.",
+    "On top of this add onion, yoghurt, grated garlic, green chilli, coriander leaf, salt, lemon juice, honey.",
+    "Close it and shake it and enjoy it!!!"
+  ],
+  "assumptions": [
+    "'2 garlic' read as 2 cloves.",
+    "Boiled black chana: 100 g cooked ≈ 40 g dry for the protein estimate.",
+    "Meal types are our guess (breakfast from the creator's title)."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

@@ -125,7 +125,7 @@
       }
     },
     "servings": {
-      "description": "Portions the ingredient list makes; null if unknown.",
+      "description": "Portions the ingredient list makes, as the creator states it; null if not stated (then per_portion stays null and protein_working gives the whole-recipe total).",
       "anyOf": [
         {
           "type": "integer",
@@ -144,7 +144,7 @@
       }
     },
     "steps": {
-      "description": "One action per step, in the creator's order, in our own words (D5).",
+      "description": "The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20).",
       "type": "array",
       "items": {
         "type": "string",
@@ -187,14 +187,6 @@
             "type": "array",
             "minItems": 1
           },
-          "per_portion": {
-            "type": "object",
-            "properties": {
-              "protein_g": {
-                "type": "number"
-              }
-            }
-          },
           "ingredients": {
             "type": "array",
             "minItems": 1
@@ -202,6 +194,36 @@
           "steps": {
             "type": "array",
             "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "description": "Protein per portion is required only when the creator states the servings; otherwise we don't guess a portion.",
+      "if": {
+        "type": "object",
+        "required": [
+          "status",
+          "servings"
+        ],
+        "properties": {
+          "status": {
+            "const": "complete"
+          },
+          "servings": {
+            "type": "integer"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "per_portion": {
+            "type": "object",
+            "properties": {
+              "protein_g": {
+                "type": "number"
+              }
+            }
           }
         }
       }

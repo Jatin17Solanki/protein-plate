@@ -10,7 +10,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | D2 | [J] Tech stack | Vite + TypeScript + Preact + vite-plugin-pwa + MiniSearch + Ajv + Playwright + Vitest | A1 | **Agreed 2026-10-20.** |
 | D3 | [J] Schema field names | Claude proposes in A1's PR | A1 merge | **Agreed 2026-10-20** (schema as proposed in the A1 PR). |
 | D4 | [J] Previews before merge | v1: no preview hosting; every UI PR carries screenshots; Jatin checks the live site on his phone after merge (rollback = revert). Revisit if this hurts. | A2 | **Agreed 2026-10-20.** |
-| D5 | [J] Recipe text on a public site | Steps rewritten in our own words, always crediting the creator with a link; ingredient lists as facts. (Not legal advice.) | B1 | **Agreed 2026-10-20**, with the fidelity rules in PLAN B1 (normalisation must never change the recipe). |
+| D5 | [J] Recipe text on a public site | Steps rewritten in our own words, always crediting the creator with a link; ingredient lists as facts. (Not legal advice.) | B1 | **Revised 2026-10-20 (B1 review):** steps keep the creator's exact wording, formatting only; creator credited with a link. Jatin accepts the risk; rewording can't be verified at 180+ recipes. |
 | D6 | [J] Licence for the code | MIT | A1 | **Agreed 2026-10-20.** |
 
 ## Track A — App
@@ -28,7 +28,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 ## Track B — Data
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
-| B1 | Rules, dictionary, prompt v1, first 10 | A1 schema, D1, D5 | todo | | Opus | |
+| B1 | Rules, dictionary, prompt v1, first 10 | A1 schema, D1, D5 | review | `claude/busy-noether-s5qjwo` / [PR 3](https://github.com/Jatin17Solanki/protein-plate/pull/3) | Opus | Review sheet in private repo `reviews/2026-10-20-B1-first-10.md` |
 | B2 | Rest of batch 1 (split B2a, B2b… ~20 each) | B1 approved | todo | | Opus | |
 | B3 | Batch 2 (new scrape) | B2 | todo | | Opus | Jatin supplies the file |
 | B4 | Incomplete entries, oats, My list seed | Jatin's details | todo | | Opus | |

@@ -1,0 +1,211 @@
+{
+  "id": "moong-bhajiya",
+  "title": "Moong Bhajiya",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcLgffas8Ud/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#71"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "skyr"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 360,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serve (makes 2)",
+    "protein_g": 19,
+    "kcal": 360
+  },
+  "protein_working": [
+    "150 g dry yellow moong dal × 23/100 g = 34.5 g",
+    "50 g skyr × 10/100 g = 5 g",
+    "20 g dry rice flour × 6/100 g = 1.2 g",
+    "Total ≈ 42.3 g ÷ 2 portions = 21.2 g per portion"
+  ],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g yellow moong dal (soaked for 3 hour)"
+    },
+    {
+      "item": "green chillies",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic cloves"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 20,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "20g rice flour"
+    },
+    {
+      "item": "onion, finely chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp finely chopped onion"
+    },
+    {
+      "item": "coriander leaves, chopped",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped coriander"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin seeds"
+    },
+    {
+      "item": "carom seeds (ajwain)",
+      "ingredient_id": "ajwain",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp ajwain"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chaat masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "¼ tsp baking soda"
+    },
+    {
+      "item": "hot oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp hot oil"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": null,
+      "grams": 1,
+      "type": "pantry",
+      "as_written": "Oil spray, 2–3 sprays"
+    },
+    {
+      "item": "skyr (dressing)",
+      "ingredient_id": "skyr",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g Skyr"
+    },
+    {
+      "item": "green chutney (dressing)",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp green chutney"
+    }
+  ],
+  "steps": [
+    "Soak 150g yellow moong dal for 1 hour. Drain it well.",
+    "Take 100g of the soaked dal along with the green chillies and garlic. Add 2–3 tbsp water little by little and grind into a coarse, thick paste.",
+    "Transfer the ground mixture to a bowl and whip it well for 1–2 minutes to incorporate air.",
+    "Add the remaining 50g soaked whole dal, rice flour, coriander, cumin seeds, ajwain, red chilli powder, turmeric, and chaat masala. Mix everything well.",
+    "Don’t add the salt, baking soda, or onion yet. Keep the batter thick.",
+    "Preheat your air fryer to 200°C for 5 minutes.",
+    "Once the air fryer is hot, add the chopped onion, salt, ¼ tsp baking soda, and 1 tsp hot oil to the batter. Mix well.",
+    "Make small dollops of around 20–25g each.",
+    "Lightly oil spray the dollops and air fry at 190°C for around 8 minutes.",
+    "Flip them and spray with oil again a d air fry at 200°C for another 6–8 minutes, until deep golden and crispy. It’s completely okay if it sticks to the bottom, just scrape, flip and air fry. Mine stuck too but came out beautiful❤️",
+    "For the dressing, mix 50g Skyr with 1 tbsp green chutney until smooth and creamy."
+  ],
+  "assumptions": [
+    "Soaking time differs in the caption: 3 hours in the ingredient list, 1 hour in the method.",
+    "150 g moong dal read as the dry weight.",
+    "Oil spray (2–3 sprays) counted as about 1 g of oil.",
+    "Creator also states 11 g fibre per serve.",
+    "Bhajiya has no format tag of its own; filed under kebab/tikki/cutlet for now."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

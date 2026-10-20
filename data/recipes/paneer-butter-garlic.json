@@ -1,0 +1,221 @@
+{
+  "id": "paneer-butter-garlic",
+  "title": "Paneer Butter Garlic",
+  "source": {
+    "url": "https://www.instagram.com/p/DeMKqRyT1O6/",
+    "platform": "instagram",
+    "creator": "sagarskitchenofficial",
+    "creator_url": "https://www.instagram.com/sagarskitchenofficial/",
+    "ref": "batches/2026-10-16-batch1.txt#1"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 3)",
+    "protein_g": 24,
+    "kcal": 393,
+    "carbs_g": 19,
+    "fat_g": 25
+  },
+  "protein_working": [
+    "250 g low-fat paneer × 25/100 g = 62.5 g",
+    "\"150ml milk\" ≈ 150 g milk × 3.3/100 g = 5 g",
+    "\"2 tbsp soy sauce\" ≈ 32 g soy sauce × 8/100 g = 2.6 g",
+    "\"2 tbsp chopped garlic\" ≈ 20 g garlic × 6.4/100 g = 1.3 g",
+    "\"1 tbsp soy sauce\" ≈ 16 g soy sauce × 8/100 g = 1.3 g",
+    "\"3 tbsp fresh cream\" ≈ 45 g fresh cream × 2.5/100 g = 1.1 g",
+    "Total ≈ 76.3 g ÷ 3 portions = 25.4 g per portion"
+  ],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 250,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "250g low-fat paneer"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger-garlic paste"
+    },
+    {
+      "item": "corn flour",
+      "ingredient_id": "corn_flour",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 tbsp corn flour"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp black pepper powder"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chilli flakes"
+    },
+    {
+      "item": "soy sauce (for the paneer)",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp soy sauce"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp butter"
+    },
+    {
+      "item": "garlic, chopped",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped garlic"
+    },
+    {
+      "item": "green garlic shoots, chopped",
+      "ingredient_id": "green_garlic",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped green garlic shoots"
+    },
+    {
+      "item": "soy sauce (for the sauce)",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp black pepper"
+    },
+    {
+      "item": "fresh cream",
+      "ingredient_id": "cream",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp fresh cream"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 150,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "150ml milk"
+    },
+    {
+      "item": "coriander leaves, chopped",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "a bunch of chopped coriander"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    }
+  ],
+  "steps": [
+    "To a bowl, add 250g low-fat paneer, 1 tbsp ginger-garlic paste, 2 tbsp corn flour, 1 tbsp black pepper powder, 1 tsp chilli flakes, 2 tbsp soy sauce, 1 tsp salt.",
+    "Mix well until the paneer is evenly coated.",
+    "To a pan on medium heat, add 1 tbsp ghee.",
+    "Add the marinated paneer, making sure the pieces are nicely spaced out.",
+    "Cook for about 5 minutes, until the paneer is golden and crispy. Set it aside.",
+    "To the same pan, add: 1 tbsp butter, 2 tbsp chopped garlic, 2 tbsp chopped green garlic shoots.",
+    "Sauté well, then add: 1 tbsp soy sauce, 1 tbsp black pepper, 3 tbsp fresh cream.",
+    "Mix well.",
+    "Pour in 150ml milk and let the sauce cook for about 2 minutes, until it becomes creamy.",
+    "Now throw the crispy paneer back in.",
+    "Chuck in a bunch of chopped coriander and add 1 tsp honey.",
+    "Mix everything together and let it cook for another 2 minutes.",
+    "Switch off the flame, drizzle over 1 tsp chilli oil, give it one final mix, and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "Meal types are our guess.",
+    "Quick: about 20 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

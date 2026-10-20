@@ -1,0 +1,221 @@
+{
+  "id": "korean-tofu-wrap",
+  "title": "Korean Tofu Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/Da17e6NsaK1/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#41"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "global",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 390,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per wrap (makes 1)",
+    "protein_g": 24.8,
+    "kcal": 390
+  },
+  "protein_working": [
+    "120 g firm tofu × 10/100 g = 12 g",
+    "50 g Greek yogurt × 9/100 g = 4.5 g",
+    "\"3 Urban Platter Rice Papers\" ≈ 27 g dry rice paper × 6/100 g = 1.6 g",
+    "\"1 tbsp Soy Sauce\" ≈ 16 g soy sauce × 8/100 g = 1.3 g",
+    "Total ≈ 20.8 g per portion"
+  ],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g Firm Tofu"
+    },
+    {
+      "item": "corn flour",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "1 tsp Corn Flour"
+    },
+    {
+      "item": "rice papers (22 cm)",
+      "ingredient_id": "rice_paper",
+      "qty": 3,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "3 Urban Platter Rice Papers (22cm)"
+    },
+    {
+      "item": "lettuce",
+      "ingredient_id": "lettuce",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lettuce"
+    },
+    {
+      "item": "carrot, julienned",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Julienned Carrot"
+    },
+    {
+      "item": "cabbage, shredded",
+      "ingredient_id": "cabbage",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Shredded Cabbage"
+    },
+    {
+      "item": "cucumber, julienned",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Julienned Cucumber"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Soy Sauce"
+    },
+    {
+      "item": "gochujang",
+      "ingredient_id": "gochujang",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Gochujang"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Honey"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of ½ Lemon"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Olive Oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt & Black Pepper"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt & Black Pepper"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Sesame Seeds"
+    },
+    {
+      "item": "Greek yogurt (dressing)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g Greek Yogurt"
+    },
+    {
+      "item": "chilli sauce (dressing)",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp Chilli Sauce"
+    },
+    {
+      "item": "water (dressing)",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water (to thin)"
+    },
+    {
+      "item": "salt (dressing)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "Season the tofu with salt, black pepper, and corn flour. Pan-fry it in olive oil until crispy.",
+    "Add soy sauce, gochujang, honey, and lemon juice to the pan. Toss until the tofu is well coated, then sprinkle over the sesame seeds.",
+    "In a bowl, mix together the toguet, chilli sauce, water, and salt to make a smooth yogurt dressing.",
+    "Dip each rice paper in water for a few seconds until soft.",
+    "Layer the lettuce, cabbage, carrot, cucumber, crispy tofu, and yogurt dressing on the rice papers.",
+    "Roll tightly and serve with the remaining yogurt dressing on the side."
+  ],
+  "assumptions": [
+    "Meal types are our guess.",
+    "Quick: about 20 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}
