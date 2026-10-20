@@ -69,3 +69,4 @@ Append-only. Format: `YYYY-MM-DD · decision · why · who`. Full reasoning for 
 - 2026-10-20 · Remaining 50 batch-1 entries done in one batch, not ~20 per session · checks are automated and Jatin no longer reviews field by field · Jatin
 - 2026-10-20 · Credits: the "Recipe by @x" handle is credited now; corrected later if Jatin's new compilation gives a better match · Jatin
 - 2026-10-20 · Dish groups added: `soya-kebab` now has 6 versions (pea, corn & cheese, tikki, galouti bowl, chana soya galouti, chana dal tikki); `rajma-taco` and `protein-pasta` have 2 each. Similar-looking pairs found by dedupe (e.g. several paneer sandwiches) kept separate · Claude
+- 2026-10-20 · My list seed = the 12 recipes Jatin's notes mark "self cook" + Moong Dal Veg Pizza; other "try/experiment" notes left out. Delivered as a personal backup file (Menu → Restore), not committed · personal data stays in the browser · Jatin

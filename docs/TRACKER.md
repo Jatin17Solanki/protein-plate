@@ -35,7 +35,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | B2b | Batch 1 entries #26–80 (the last 50) + creator-numbers-only + flags | B2a | review | `claude/busy-noether-s5qjwo` / [PR 10](https://github.com/Jatin17Solanki/protein-plate/pull/10) | Opus | Review sheet `reviews/2026-10-20-B2b-rest.md` (private repo) |
 | B6 | Resolve flagged recipes with Jatin (62 flagged) | B2, admin list (Track A) | todo | | any | Jatin reviews in the app; remove each flag once resolved |
 | B3 | Batch 2 (new scrape) | B2 | todo | | Opus | Jatin supplies the file |
-| B4 | Incomplete entries, oats, My list seed | Jatin's details | todo | | Opus | |
+| B4 | Incomplete entries, oats, My list seed | Jatin's details | todo | | Opus | My list seed delivered 2026-10-20 (13 recipes, backup file sent in chat, not committed). Waiting on Jatin: protein oats recipe + details for the 15 incomplete entries. |
 | B5 | Export prompt + agent questions | B2 | todo | | any | can be done in claude.ai |
 
 ## Jatin's tasks
