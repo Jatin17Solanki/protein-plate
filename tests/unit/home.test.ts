@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import {
   bestRelaxation, dishCount, filterRecipes, groupTitle, NO_FILTERS, NO_PERSONAL, optionCounts, shownProtein, summaryParts, toTiles,
-  wholeRecipeProtein,
+  portionProtein, wholeRecipeProtein,
 } from '../../src/lib/home';
 import { parse } from '../../src/lib/router';
 import type { Recipe } from '../../src/types/recipe';
@@ -155,20 +155,22 @@ describe('whole-recipe protein (no portion count)', () => {
     expect(shownProtein(noPortions('besan-chilla', 47.2))).toEqual({ value: 47.2, whole: true });
   });
 
-  it('tile shows the total, says "whole recipe", and sorts after every per-portion tile', () => {
+  // Jatin, 2026-10-20: whole-dish totals stay on the recipe page; tiles and sorting use per-portion figures only.
+  it('tile shows no number and sorts with the unknowns', () => {
     const rs = recipes.map((r) => (r.id === 'besan-chilla' ? noPortions('besan-chilla', 90) : r));
     const tiles = toTiles(rs);
     const t = tiles.find((x) => x.id === 'besan-chilla')!;
-    expect(t).toMatchObject({ protein: '90', whole: true, meta: 'Pulses · whole recipe' });
-    expect(tiles.map((x) => x.protein)).toEqual(['45', '38', '36', '31', '24', '22+', '21', '90', '—']);
+    expect(t).toMatchObject({ protein: '—', meta: 'Pulses · Macros not given', sortProtein: null });
+    expect(tiles.map((x) => x.protein)).toEqual(['45', '38', '36', '31', '24', '22+', '21', '—', '—']);
+    expect(portionProtein(noPortions('besan-chilla', 90))).toBeNull();
   });
 
-  it('group of whole-recipe versions: lowest total with "+"; any per-portion version wins', () => {
+  it('group: only per-portion versions count', () => {
     const a = noPortions('soya-pea-kebab', 31);
     const b = noPortions('soya-paneer-tikki', 50);
-    expect(toTiles([a, b])[0]).toMatchObject({ protein: '31+', whole: true, meta: 'Soya · whole recipe' });
+    expect(toTiles([a, b])[0]).toMatchObject({ protein: '—', meta: 'Soya · Macros not given' });
     const real = recipes.find((x) => x.id === 'soya-paneer-tikki')!;
-    expect(toTiles([a, real])[0]).toMatchObject({ protein: '29+', whole: false });
+    expect(toTiles([a, real])[0]).toMatchObject({ protein: '29+' });
   });
 });
 

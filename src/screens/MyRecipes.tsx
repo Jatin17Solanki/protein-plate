@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from 'preact/hooks';
 import { recipes } from '../lib/catalog';
-import { NO_MACROS, PROTEINS, shownProtein, tintOf } from '../lib/home';
+import { NO_MACROS, portionProtein, PROTEINS, tintOf } from '../lib/home';
 import { goBack, href } from '../lib/router';
 import { getMyList, getReactions, setOnMyList, setReaction, useStorage } from '../lib/storage';
 import { FilledIcon, UiIcon } from '../components/Icon';
@@ -62,8 +62,8 @@ export function MyRecipes() {
             <li key={r.id} class="my-row">
               <a class="my-link" href={href.recipe(r.id)}>
                 <span class="my-block" data-tint={tintOf(r)}>
-                  <span class="num">{shownProtein(r).value === null ? '—' : Math.round(shownProtein(r).value!)}</span>
-                  <span class="my-block-unit">{shownProtein(r).whole ? 'g total' : 'g protein'}</span>
+                  <span class="num">{portionProtein(r) === null ? '—' : Math.round(portionProtein(r)!)}</span>
+                  <span class="my-block-unit">g protein</span>
                 </span>
                 <span class="my-text">
                   <span class="my-name">{r.title}</span>
@@ -72,8 +72,7 @@ export function MyRecipes() {
                       r.main_proteins.map((p) => PROTEINS.find((x) => x.key === p)!.label).join(' + '),
                       r.video_only ? 'video only'
                         : r.status === 'incomplete' ? 'details pending'
-                        : shownProtein(r).value === null ? NO_MACROS
-                        : shownProtein(r).whole ? 'whole recipe'
+                        : portionProtein(r) === null ? NO_MACROS
                         : r.per_portion.kcal !== null ? `${Math.round(r.per_portion.kcal)} kcal` : '',
                     ].filter(Boolean).join(' · ')}
                   </span>

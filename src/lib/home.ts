@@ -102,8 +102,6 @@ export interface Tile {
   /** "uses whole-wheat bread" when search matched an ingredient, not the name. */
   uses: string | null;
   nameMatch: boolean;
-  /** true when the number is for the whole recipe (creator gave no portion count). */
-  whole: boolean;
   /** No written recipe: the video is the recipe (shows a "Video only" badge). */
   videoOnly: boolean;
   sortProtein: number | null;
@@ -125,15 +123,21 @@ export function shownNumbers(r: Recipe): { kcal: number | null; carbs_g: number 
     : { kcal: p.kcal, carbs_g: p.carbs_g, fat_g: p.fat_g, fibre_g: p.fibre_g };
 }
 
-/** Protein to show: per portion when known, else the whole-recipe total, else null. */
+/**
+ * Protein on cards, in sorting, share text, exports and preview cards: the creator's per-portion figure only.
+ * Whole-dish totals (servings not stated) appear on the recipe page only, via shownProtein (Jatin, 2026-10-20).
+ */
+export const portionProtein = (r: Recipe): number | null => r.per_portion.protein_g;
+
+/** Recipe page macro card: per portion when known, else the whole-recipe total, else null. */
 export function shownProtein(r: Recipe): { value: number | null; whole: boolean } {
   if (r.per_portion.protein_g !== null) return { value: r.per_portion.protein_g, whole: false };
   const total = wholeRecipeProtein(r);
   return { value: total, whole: total !== null };
 }
 
-/** Sort tiers: real portions first, then whole-recipe totals (never outrank a portion), then unknown. */
-const tier = (t: { sortProtein: number | null; whole: boolean }) => (t.sortProtein === null ? 2 : t.whole ? 1 : 0);
+/** Sort tiers: recipes with a per-portion figure first, then the rest. */
+const tier = (t: { sortProtein: number | null }) => (t.sortProtein === null ? 1 : 0);
 
 function matchesQuick(r: Recipe, q: QuickKey, p: Personal): boolean {
   switch (q) {
@@ -201,10 +205,7 @@ function proteinNames(ps: MainProtein[]): string {
   return ps.length ? cap(ps.map((p) => (p === 'other' ? 'others' : p)).join(' + ')) : '';
 }
 
-const recipeKey = (r: Recipe) => {
-  const s = shownProtein(r);
-  return { sortProtein: s.value, whole: s.whole };
-};
+const recipeKey = (r: Recipe) => ({ sortProtein: portionProtein(r) });
 const byProteinDesc = (a: Recipe, b: Recipe) => {
   const ka = recipeKey(a);
   const kb = recipeKey(b);
@@ -216,13 +217,12 @@ function firstDishType(r: Recipe): DishType | null {
 }
 
 function singleTile(r: Recipe, hit?: Hit): Tile {
-  const { value: p, whole } = shownProtein(r);
+  const p = portionProtein(r);
   const k = r.per_portion.kcal;
   const kcal =
     r.video_only ? 'video only'
     : r.status === 'incomplete' ? 'details pending'
     : p === null ? NO_MACROS
-    : whole ? 'whole recipe'
     : k !== null ? `${Math.round(k)} kcal` : '';
   return {
     id: r.id,
@@ -234,7 +234,6 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
     dishType: firstDishType(r),
     uses: hit && !hit.nameMatch ? hit.uses : null,
     nameMatch: hit?.nameMatch ?? false,
-    whole,
     videoOnly: !!r.video_only,
     sortProtein: p,
     sortKcal: r.status === 'incomplete' ? null : k,
@@ -244,10 +243,8 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
 function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): Tile {
   const sorted = [...versions].sort(byProteinDesc);
   const lead = sorted[0];
-  // Lowest of the best-known kind: portions if any version has one, else whole-recipe totals.
-  const keys = sorted.map(recipeKey).filter((k) => k.sortProtein !== null);
-  const whole = keys.length > 0 && keys.every((k) => k.whole);
-  const proteins = keys.filter((k) => k.whole === whole).map((k) => k.sortProtein!);
+  // Lowest per-portion figure among the versions.
+  const proteins = sorted.map(portionProtein).filter((x): x is number => x !== null);
   const kcals = sorted.map((r) => r.per_portion.kcal).filter((x): x is number => x !== null);
   const low = proteins.length ? Math.round(Math.min(...proteins)) : null;
   const avgKcal = kcals.length ? Math.round(kcals.reduce((a, b) => a + b, 0) / kcals.length) : null;
@@ -258,12 +255,11 @@ function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): 
     title: groupTitle(group),
     tint: tintOf(lead),
     protein: low === null ? '—' : `${low}+`,
-    meta: [proteinNames(lead.main_proteins.slice(0, 1)), low === null ? NO_MACROS : whole ? 'whole recipe' : avgKcal === null ? '' : `~${avgKcal} kcal`].filter(Boolean).join(' · '),
+    meta: [proteinNames(lead.main_proteins.slice(0, 1)), low === null ? NO_MACROS : avgKcal === null ? '' : `~${avgKcal} kcal`].filter(Boolean).join(' · '),
     versions: versions.length,
     dishType: firstDishType(lead),
     uses: nameMatch ? null : (groupHits.find((h) => h.uses)?.uses ?? null),
     nameMatch,
-    whole,
     videoOnly: false,
     sortProtein: low,
     sortKcal: avgKcal,

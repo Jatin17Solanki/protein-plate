@@ -6,7 +6,7 @@ import {
   clearTicks, getMyList, getNote, getReaction, getTicks, setNote, setOnMyList, setReaction, setTick, useStorage,
   type Reaction,
 } from '../lib/storage';
-import { PROTEINS, shownNumbers, shownProtein, tintOf } from '../lib/home';
+import { portionProtein, PROTEINS, shownNumbers, shownProtein, tintOf } from '../lib/home';
 import { FilledIcon, UiIcon } from '../components/Icon';
 import { EditSheet } from '../components/EditSheet';
 import { ShareSheet } from '../components/ShareSheet';
@@ -113,13 +113,12 @@ export function Recipe({ id }: { id: string | null }) {
                   <li key={v.id}>
                     <a class="version-card" href={href.recipe(v.id)} data-tint={tintOf(v)}>
                       <span class="num version-protein">
-                        {shownProtein(v).value === null ? '—' : `${Math.round(shownProtein(v).value!)} g`}
+                        {portionProtein(v) === null ? '—' : `${Math.round(portionProtein(v)!)} g`}
                       </span>
                       <span class="version-label">{v.variant_label}</span>
                       <span class="version-meta">
                         {v.status === 'incomplete' ? 'Need details'
-                          : shownProtein(v).value === null ? 'Macros not given'
-                          : shownProtein(v).whole ? 'whole recipe'
+                          : portionProtein(v) === null ? 'Macros not given'
                           : v.per_portion.kcal !== null ? `${Math.round(v.per_portion.kcal)} kcal` : v.title}
                       </span>
                     </a>

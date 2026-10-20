@@ -1,7 +1,7 @@
 // Share message (DESIGN §6, fixed format) and GitHub links built from site.config.json.
 import site from '../../site.config.json';
 import type { Recipe } from '../types/recipe';
-import { shownProtein } from './home';
+import { NO_MACROS, portionProtein } from './home';
 import { formatNumber, formatQty } from './recipe';
 
 export interface ShareOptions {
@@ -20,10 +20,9 @@ export function editUrl(id: string): string {
 }
 
 function macroLine(r: Recipe): string {
-  const { value, whole } = shownProtein(r);
-  if (value === null) return 'Protein not worked out yet';
+  const value = portionProtein(r);
+  if (value === null) return NO_MACROS;
   const p = `${formatNumber(Math.round(value))} g protein`;
-  if (whole) return `${p} for the whole recipe`;
   return r.per_portion.kcal !== null ? `${p} · ${Math.round(r.per_portion.kcal)} kcal per portion` : `${p} per portion`;
 }
 

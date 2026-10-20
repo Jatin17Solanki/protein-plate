@@ -3,7 +3,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Recipe } from '../../src/types/recipe';
-import { DISH_LABELS, DISH_TYPES, NEUTRAL_TINTS, NO_MACROS, PROTEINS, shownNumbers, shownProtein, tintOf } from '../../src/lib/home';
+import { DISH_LABELS, DISH_TYPES, NEUTRAL_TINTS, NO_MACROS, portionProtein, PROTEINS, tintOf } from '../../src/lib/home';
 import type { OgCard } from './og';
 
 export interface PageMeta {
@@ -45,10 +45,10 @@ export function withMeta(html: string, m: PageMeta): string {
 const ogTint = (r: Recipe) => (NEUTRAL_TINTS.includes(tintOf(r)) ? null : tintOf(r));
 const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? k;
 
-/** Preview card + description for one recipe. Same numbers as the app: creator's figures only. */
+/** Preview card + description for one recipe. Same numbers as the tiles: the creator's per-portion figures only. */
 export function recipeCard(r: Recipe): OgCard & { description: string } {
-  const { value, whole } = shownProtein(r);
-  const kcal = shownNumbers(r).kcal;
+  const value = portionProtein(r);
+  const kcal = r.per_portion.kcal;
   const dish = DISH_TYPES.find((d) => r.tags.includes(d));
   const meta = [r.main_proteins.map(proteinLabel).join(' + '), dish ? DISH_LABELS[dish].long : ''].filter(Boolean).join(' · ');
   if (r.video_only) {
@@ -61,9 +61,7 @@ export function recipeCard(r: Recipe): OgCard & { description: string } {
     return { title: r.title, big: NO_MACROS, caption: 'the creator gives no numbers', meta, tint: ogTint(r), description: `${r.title}. ${meta}.` };
   }
   const g = `${Math.round(value)} g`;
-  const caption = whole
-    ? `protein, whole recipe${kcal !== null ? ` · ${Math.round(kcal)} kcal` : ''}`
-    : `protein per portion${kcal !== null ? ` · ${Math.round(kcal)} kcal` : ''}`;
+  const caption = `protein per portion${kcal !== null ? ` · ${Math.round(kcal)} kcal` : ''}`;
   return {
     title: r.title,
     big: g,

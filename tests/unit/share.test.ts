@@ -26,15 +26,15 @@ describe('shareMessage (DESIGN §6 format)', () => {
     expect(msg).not.toContain('*Note:*');
   });
 
-  it('whole-recipe total and missing kcal are said plainly; no video line without a URL', () => {
+  it('whole-recipe totals are not shared (recipe page only); missing kcal said plainly; no video line without a URL', () => {
     const r = load('protein-oats');
     r.servings = null;
     r.per_portion = { ...r.per_portion, protein_g: null, kcal: null };
     r.stated_macros = { basis: 'whole recipe (servings not stated)', protein_g: 36.9, kcal: null };
     const msg = shareMessage(r, { ingredients: false, steps: false, note: null }, SITE);
-    expect(msg).toBe('*Protein Oats*\n37 g protein for the whole recipe\n\nFull recipe: https://example.github.io/protein-plate/r/protein-oats/');
+    expect(msg).toBe('*Protein Oats*\nMacros not given\n\nFull recipe: https://example.github.io/protein-plate/r/protein-oats/');
     expect(shareMessage(load('rajma-rice-bowl'), { ingredients: false, steps: false, note: null }, SITE)).toContain('21 g protein per portion');
-    expect(shareMessage(load('lasooni-dhaniya-paneer'), { ingredients: true, steps: true, note: null }, SITE)).toContain('Protein not worked out yet');
+    expect(shareMessage(load('lasooni-dhaniya-paneer'), { ingredients: true, steps: true, note: null }, SITE)).toContain('Macros not given');
   });
 });
 
