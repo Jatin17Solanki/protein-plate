@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 42,
+    "kcal": 447,
+    "carbs_g": 47,
+    "fat_g": 10,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion (Jatin)",
     "protein_g": 42,
     "kcal": 447,
     "carbs_g": 47,
     "fat_g": 10
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "oats",
@@ -120,14 +120,10 @@
   ],
   "assumptions": [
     "Creator also states 11 g fibre.",
-    "Meal types are our guess; tagged dessert from the batch's dessert section."
+    "Meal types are our guess; tagged dessert from the batch's dessert section.",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

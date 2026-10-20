@@ -120,14 +120,13 @@
     "And you’ve made yourself a creamy, thick and high protein mint cheese spread!"
   ],
   "assumptions": [
-    "A spread, so no meal type."
+    "A spread, so no meal type.",
+    "Jatin: the creator's numbers are for the whole spread, not a portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole spread (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

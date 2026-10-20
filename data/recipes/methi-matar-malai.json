@@ -28,20 +28,20 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 30,
+    "kcal": 435,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "as stated; the creator also says 'divide into 2 servings'",
+    "basis": "per serving (the creator says 'divide into 2 servings')",
     "protein_g": 30,
     "kcal": 435
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 2,
   "ingredients": [
     {
       "item": "methi leaves (fresh)",
@@ -185,14 +185,10 @@
   "assumptions": [
     "The low-fat paneer is homemade from double toned milk (recipe on the creator's page).",
     "Step 4 boils the creamy-base ingredients (onion, paneer aside, garlic, cashews, cinnamon, elaichi).",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "Jatin: the macros are per serving; the ingredients make 2 servings."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"as stated; the creator also says 'divide into 2 servings'\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

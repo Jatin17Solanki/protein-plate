@@ -29,7 +29,7 @@
   "dish_group": "soya-kebab",
   "variant_label": "with peas",
   "per_portion": {
-    "protein_g": null,
+    "protein_g": 30,
     "kcal": null,
     "carbs_g": null,
     "fat_g": null,
@@ -37,12 +37,12 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe, kebabs + dip (servings not stated)",
+    "basis": "whole recipe, kebabs + dip — one portion (Jatin)",
     "protein_g": 30,
     "kcal": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "soya chunks",
@@ -235,14 +235,10 @@
   ],
   "assumptions": [
     "'Chillies' read as green chillies.",
-    "The amount of Greek yogurt for the dip isn't given; watch the video for anything unclear."
+    "The amount of Greek yogurt for the dip isn't given; watch the video for anything unclear.",
+    "Jatin: the recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe, kebabs + dip (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }
