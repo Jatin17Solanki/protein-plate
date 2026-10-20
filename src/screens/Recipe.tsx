@@ -266,12 +266,21 @@ function Notes({ id, incomplete }: { id: string; incomplete: boolean }) {
   useEffect(() => {
     setText(getNote(id));
     latest.current = getNote(id);
-    // Save anything still pending when leaving the recipe.
-    return () => {
+    // Save anything still pending when leaving the recipe, hiding the tab or closing the page.
+    const flush = () => {
       if (timer.current !== undefined) {
         clearTimeout(timer.current);
+        timer.current = undefined;
         setNote(id, latest.current);
       }
+    };
+    const onHide = () => document.visibilityState === 'hidden' && flush();
+    addEventListener('pagehide', flush);
+    document.addEventListener('visibilitychange', onHide);
+    return () => {
+      removeEventListener('pagehide', flush);
+      document.removeEventListener('visibilitychange', onHide);
+      flush();
     };
   }, [id]);
 

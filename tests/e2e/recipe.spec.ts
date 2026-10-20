@@ -87,10 +87,18 @@ test.describe('phone', () => {
     await page.waitForTimeout(600);
     await page.reload();
     await expect(page.getByRole('textbox', { name: 'My notes' })).toHaveValue('Add extra pepper');
+    // Leaving before the 400 ms debounce still saves (back navigation is async: wait for Home).
     await page.getByRole('textbox', { name: 'My notes' }).fill('');
-    // leaving before the debounce still saves
     await page.getByRole('button', { name: 'Back to all recipes' }).click();
+    await expect(page.locator('.grid .tile').first()).toBeVisible();
     expect(await page.evaluate(() => localStorage.getItem('pp.notes'))).toBe('{}');
+  });
+
+  test('a note typed just before reloading is not lost', async ({ page }) => {
+    await page.goto('/r/tofu-bhurji-toast/');
+    await page.getByRole('textbox', { name: 'My notes' }).fill('Typed fast');
+    await page.reload();
+    await expect(page.getByRole('textbox', { name: 'My notes' })).toHaveValue('Typed fast');
   });
 
   test('ingredient ticks persist; Clear resets them', async ({ page }) => {

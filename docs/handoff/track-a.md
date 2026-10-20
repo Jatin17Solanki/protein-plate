@@ -18,6 +18,7 @@ _Last updated: 2026-10-20 (A4 session)_
 **Gotchas:**
 - Ticks are stored by ingredient *index*; editing a recipe's ingredient order shifts ticks (acceptable; Clear fixes).
 - Recipe page tint comes from `data-tint` on `.recipe-page`; nested `data-tint` (protein chips, version cards) override it.
+- Notes save on a 400 ms debounce and are flushed on unmount, `pagehide` and tab hide; in e2e wait for the next screen before reading storage (back is async).
 - `Recipe` is keyed by id in `app.tsx` so notes state resets between versions.
 - Don't `pkill -f "playwright test"` in the same Bash call that runs Playwright. Kill a stale `vite preview` on :4173 before e2e.
 
