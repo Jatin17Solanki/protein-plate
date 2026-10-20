@@ -23,6 +23,8 @@ _Last updated: 2026-10-20 (B2 complete)_
 - Ingredients only named in the method get added with no amount; sub-recipes keep the part in brackets ("(dressing)").
 - Scratch generator pattern: Python `I()`/`R()` helpers write `data/recipes/*.json`, then `check.ts --write`.
 
+**Coordination:** send app-side requests to the active Track A session (as of 2026-10-20: "Dev 2 - phase A", branch `claude/phase-a7-recipes-export-co5avf`) and record anything agreed in DECISIONS/TRACKER. It already has: `other` protein (chip + neutral tint), `video_only` (stay in main grid, badge, prominent Watch video, no-protein sort tier, off /review/).
+
 **For Track A:**
 - Admin list of flagged recipes (Jatin's request): list recipes with `flags[]` (code + note) and incomplete ones, link to each recipe; flags are removed in data commits (no server).
 - Recipe page: when `per_portion` is null show "Macros not given"; when `macros_basis_unclear`, show the creator's basis (the footnote already does).
