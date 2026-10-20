@@ -18,7 +18,7 @@ _Last updated: 2026-10-20 (A8 session)_
 
 **Not done / needs Jatin:** the manual test itself (TRACKER "Jatin's tasks"). The first real Add-recipes commit is still untested (the 8,000-char GitHub link cap, `MAX_URL` in `src/lib/addRecipes.ts`).
 
-**Next:** no Track A phase left in PLAN. Next Track A work comes from Jatin's results log in `docs/MANUAL-TEST.md` (fix list → new TRACKER rows, e.g. `A9 fixes from manual test`), plus the requests for Track B below.
+**Next:** no Track A phase left in PLAN. Backlog item **BL1** (Others protein + video-only, TRACKER "Backlog") starts once Track B's schema + data PR (not opened yet; PR 11 was only a tracker note) is merged; Track B messages this track when it is. Next Track A work comes from Jatin's results log in `docs/MANUAL-TEST.md` (fix list → new TRACKER rows, e.g. `A9 fixes from manual test`), plus the requests for Track B below.
 
 **Still open for Track B (from A7):**
 1. Fold the chat note from `buildAddPrompt` into `prompts/add-recipes.md` (keep the intro → `---` layout).
