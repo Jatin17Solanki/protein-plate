@@ -30,7 +30,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 ## Backlog (not scheduled; becomes a phase when its dependency is done)
 | ID | Item | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
-| BL1 | "Others" protein + video-only recipes (app side): `other` in PROTEINS with neutral tint (chips, sidebar, counts, share, preview cards, review); `video_only` badge on tile + recipe page, prominent Watch video, kept off `/review/`; optional hint style for "No written method — watch the video" step | A7, **Track B PR 11 merged** (schema `MainProtein: other` + `video_only` + data) | backlog | | Opus | Backlog: don't start until PR 11 is merged (code can't compile before). Requested by Jatin via the A1–A6 session, 2026-10-20. |
+| BL1 | "Others" protein + video-only recipes (app side): `other` in PROTEINS with neutral tint (chips, sidebar, counts, share, preview cards, review); `video_only` badge on tile + recipe page, prominent Watch video, kept off `/review/`; optional hint style for "No written method — watch the video" step | A7, **Track B's schema + data PR merged** (`MainProtein: other`, `video_only`, recipe data; branch `claude/busy-noether-s5qjwo`, PR not opened yet) | backlog | | Opus | Backlog: don't start until that Track B PR is merged (code can't compile before). Requested by Jatin via the A1–A6 session, 2026-10-20. |
 
 ## Track B — Data
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
