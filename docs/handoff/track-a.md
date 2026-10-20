@@ -1,25 +1,26 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (A4 session)_
+_Last updated: 2026-10-20 (A5 session)_
 
-**Done (A4, PR open):** recipe page, incomplete state, personal data, My recipes.
-- Schema: optional `ingredients[].section` (Jatin approved). **Track B: use it for sub-recipes like chutney.**
-- `src/lib/storage.ts`: `pp.mylist`, `pp.reactions`, `pp.notes`, `pp.ticks` getters/setters, `subscribe` + `useStorage()` hook (re-render on any change, incl. other tabs), `persist()` on first save. Unit tests (happy-dom).
-- `src/lib/recipe.ts` (pure): `formatQty`, `groupIngredients`, `versionsOf`, `versionLine`, `tagChips`, `macroFootnote`. Unit tests.
-- `src/screens/Recipe.tsx`: F2 phone / F12 desktop (two columns via `.col-a/.col-b`, `display: contents` + `order` on phone). Macro card, missing card, action row, credit, Other versions, ingredient cards with ticks + Clear, steps, Tried it?, notes (400 ms debounce, flush on leave).
-- `src/screens/MyRecipes.tsx` at `/my/`: segmented Liked · My list · Disliked with counts; unbookmark / unlike / Undo.
-- Router: `myRecipes` route, `goBack()` (history.back when in-app, else home). Home remembers filters, search and scroll for the visit (module `memory`); `history.scrollRestoration = 'manual'`.
-- e2e `tests/e2e/recipe.spec.ts`: recipe / incomplete / My recipes at 9 widths × 2 themes + behaviour.
+**Done (A5, PR open):**
+- `Sheet` component (bottom sheet / centred modal, focus trap, Escape, scroll lock, focus return); FilterSheet now uses it.
+- **Share** (`ShareSheet`, `lib/share.ts`): DESIGN §6 message, toggles (ingredients on, steps off, note on if any), `navigator.share` → fallback Copy text; `recipeUrl`, `editUrl` from `site.config.json`.
+- **Edit / Add details** (`EditSheet`): GitHub web-editor link, Copy recipe data (JSON), explainer open first time (`pp.editHelpSeen`).
+- **Menu** (`MenuSheet`, from Home ⋯): My recipes, Add/Export (disabled until A7), Back up (download), Restore (file → `lib/backup.ts` parse/merge; asks once if notes/reactions differ), Appearance Light/Dark/Auto (`setTheme`).
+- **Toast** (`lib/toast.ts` + `<Toast>` in app.tsx) and `copyText` with execCommand fallback. **Info** ⓘ button/box.
+- **Install hint** (`InstallHint`, `lib/install.ts`; `captureInstallPrompt()` in main.tsx). `body.has-hint` pads Home.
+- **Whole-recipe protein**: `wholeRecipeProtein` / `shownProtein` in `lib/home.ts`; tiles, recipe page, My recipes and share use it; tier sort (portion → whole → unknown).
+- Tests: unit share/backup/whole-recipe; e2e `tests/e2e/sheets.spec.ts` (sheets at 9 widths × 2 themes + behaviour + hint).
 
-**Not done (A5):** Edit, Share, Add details buttons and the ⋯ menu do nothing yet; phone has no way to reach My recipes until the menu exists (desktop has the header link; Tried it? hint links to it).
+**Not done:** Add recipes / Export catalog (A7). Android install button only appears once A6 adds a manifest + service worker.
 
-**Next:** A5 — Share sheet, Edit sheet, menu (My recipes first), theme switch, backup/restore of all `pp.*`, home-screen hint.
+**Next:** A6 (offline, static per-recipe pages with OG previews, 404, favicon). Then D7 (flags + admin view) if Jatin assigns it to Track A.
 
 **Gotchas:**
-- Ticks are stored by ingredient *index*; editing a recipe's ingredient order shifts ticks (acceptable; Clear fixes).
-- Recipe page tint comes from `data-tint` on `.recipe-page`; nested `data-tint` (protein chips, version cards) override it.
-- Notes save on a 400 ms debounce and are flushed on unmount, `pagehide` and tab hide; in e2e wait for the next screen before reading storage (back is async).
-- `Recipe` is keyed by id in `app.tsx` so notes state resets between versions.
-- Don't `pkill -f "playwright test"` in the same Bash call that runs Playwright. Kill a stale `vite preview` on :4173 before e2e.
+- Whole-recipe total is parsed from text (`Total ≈ N g … whole recipe`). If Track B changes that wording, totals disappear (tiles fall back to "—"). D7 proposes a real field.
+- Restore writes localStorage directly then calls `setTheme`, which notifies `subscribe` listeners; Home re-reads personal data via `subscribe`.
+- Desktop Chromium has no `navigator.share`, so screenshots show Copy text as primary; phones show Share….
+- e2e uses `permissions: ['clipboard-read','clipboard-write']` for copy tests.
+- Don't run vitest with `--root /` (scans the disk).
 
-**Open questions:** none.
+**Open questions:** D7 — who builds flagging/admin view, and how.

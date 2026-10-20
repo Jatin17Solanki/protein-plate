@@ -90,9 +90,29 @@ export interface Tile {
   /** "uses whole-wheat bread" when search matched an ingredient, not the name. */
   uses: string | null;
   nameMatch: boolean;
+  /** true when the number is for the whole recipe (creator gave no portion count). */
+  whole: boolean;
   sortProtein: number | null;
   sortKcal: number | null;
 }
+
+/** Whole-recipe total from the working's last line ("Total ≈ 47.2 g for the whole recipe…"). See TRACKER D7. */
+export function wholeRecipeProtein(r: Recipe): number | null {
+  if (r.status !== 'complete' || r.per_portion.protein_g !== null) return null;
+  const last = r.protein_working[r.protein_working.length - 1] ?? '';
+  const m = last.match(/total[^\d]{0,6}(\d+(?:\.\d+)?)\s*g\b[^]*whole recipe/i);
+  return m ? Number(m[1]) : null;
+}
+
+/** Protein to show: per portion when known, else the whole-recipe total, else null. */
+export function shownProtein(r: Recipe): { value: number | null; whole: boolean } {
+  if (r.per_portion.protein_g !== null) return { value: r.per_portion.protein_g, whole: false };
+  const total = wholeRecipeProtein(r);
+  return { value: total, whole: total !== null };
+}
+
+/** Sort tiers: real portions first, then whole-recipe totals (never outrank a portion), then unknown. */
+const tier = (t: { sortProtein: number | null; whole: boolean }) => (t.sortProtein === null ? 2 : t.whole ? 1 : 0);
 
 function matchesQuick(r: Recipe, q: QuickKey, p: Personal): boolean {
   switch (q) {
@@ -160,17 +180,24 @@ function proteinNames(ps: MainProtein[]): string {
   return ps.length ? cap(ps.join(' + ')) : '';
 }
 
-const byProteinDesc = (a: Recipe, b: Recipe) =>
-  (b.per_portion.protein_g ?? -1) - (a.per_portion.protein_g ?? -1) || a.title.localeCompare(b.title);
+const recipeKey = (r: Recipe) => {
+  const s = shownProtein(r);
+  return { sortProtein: s.value, whole: s.whole };
+};
+const byProteinDesc = (a: Recipe, b: Recipe) => {
+  const ka = recipeKey(a);
+  const kb = recipeKey(b);
+  return tier(ka) - tier(kb) || (kb.sortProtein ?? -1) - (ka.sortProtein ?? -1) || a.title.localeCompare(b.title);
+};
 
 function firstDishType(r: Recipe): DishType | null {
   return (r.tags.find((t) => (DISH_TYPES as readonly string[]).includes(t)) as DishType | undefined) ?? null;
 }
 
 function singleTile(r: Recipe, hit?: Hit): Tile {
-  const p = r.per_portion.protein_g;
+  const { value: p, whole } = shownProtein(r);
   const k = r.per_portion.kcal;
-  const kcal = r.status === 'incomplete' ? 'details pending' : k !== null ? `${Math.round(k)} kcal` : '';
+  const kcal = r.status === 'incomplete' ? 'details pending' : whole ? 'whole recipe' : k !== null ? `${Math.round(k)} kcal` : '';
   return {
     id: r.id,
     title: r.title,
@@ -181,6 +208,7 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
     dishType: firstDishType(r),
     uses: hit && !hit.nameMatch ? hit.uses : null,
     nameMatch: hit?.nameMatch ?? false,
+    whole,
     sortProtein: p,
     sortKcal: r.status === 'incomplete' ? null : k,
   };
@@ -189,7 +217,10 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
 function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): Tile {
   const sorted = [...versions].sort(byProteinDesc);
   const lead = sorted[0];
-  const proteins = sorted.map((r) => r.per_portion.protein_g).filter((x): x is number => x !== null);
+  // Lowest of the best-known kind: portions if any version has one, else whole-recipe totals.
+  const keys = sorted.map(recipeKey).filter((k) => k.sortProtein !== null);
+  const whole = keys.length > 0 && keys.every((k) => k.whole);
+  const proteins = keys.filter((k) => k.whole === whole).map((k) => k.sortProtein!);
   const kcals = sorted.map((r) => r.per_portion.kcal).filter((x): x is number => x !== null);
   const low = proteins.length ? Math.round(Math.min(...proteins)) : null;
   const avgKcal = kcals.length ? Math.round(kcals.reduce((a, b) => a + b, 0) / kcals.length) : null;
@@ -200,11 +231,12 @@ function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): 
     title: groupTitle(group),
     tint: lead.main_proteins[0] ?? 'soya',
     protein: low === null ? '—' : `${low}+`,
-    meta: [proteinNames(lead.main_proteins.slice(0, 1)), avgKcal === null ? '' : `~${avgKcal} kcal`].filter(Boolean).join(' · '),
+    meta: [proteinNames(lead.main_proteins.slice(0, 1)), whole ? 'whole recipe' : avgKcal === null ? '' : `~${avgKcal} kcal`].filter(Boolean).join(' · '),
     versions: versions.length,
     dishType: firstDishType(lead),
     uses: nameMatch ? null : (groupHits.find((h) => h.uses)?.uses ?? null),
     nameMatch,
+    whole,
     sortProtein: low,
     sortKcal: avgKcal,
   };
@@ -226,7 +258,7 @@ export function toTiles(recipes: Recipe[], sort: SortKey = 'protein', hits?: Map
   }
   const bySort = (a: Tile, b: Tile) =>
     sort === 'protein'
-      ? (b.sortProtein ?? -1) - (a.sortProtein ?? -1)
+      ? tier(a) - tier(b) || (b.sortProtein ?? -1) - (a.sortProtein ?? -1)
       : (a.sortKcal ?? Infinity) - (b.sortKcal ?? Infinity);
   return tiles.sort(
     (a, b) => (hits ? Number(b.nameMatch) - Number(a.nameMatch) : 0) || bySort(a, b) || a.title.localeCompare(b.title),

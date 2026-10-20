@@ -5,7 +5,7 @@ import {
 } from '../lib/home';
 import { Searcher } from '../lib/search';
 import { synonymGroups } from '../lib/synonyms';
-import { readDisliked, readMyList } from '../lib/storage';
+import { readDisliked, readMyList, subscribe } from '../lib/storage';
 import { href } from '../lib/router';
 import { MenuIcon, UiIcon } from '../components/Icon';
 import { Tile } from '../components/Tile';
@@ -13,6 +13,8 @@ import { FilterSheet } from '../components/FilterSheet';
 import { Sidebar } from '../components/Sidebar';
 import { EmptyState } from '../components/EmptyState';
 import { toggle } from '../components/filterParts';
+import { MenuSheet } from '../components/MenuSheet';
+import { InstallHint } from '../components/InstallHint';
 
 let searcher: Searcher | null = null;
 const getSearcher = () => (searcher ??= new Searcher(recipes, synonymGroups));
@@ -27,6 +29,7 @@ export function Home() {
   const [filters, setFilters] = useState<Filters>(memory.filters);
   const [query, setQuery] = useState(memory.query);
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [personal, setPersonal] = useState(readPersonal);
   const searchInput = useRef<HTMLInputElement>(null);
 
@@ -40,9 +43,8 @@ export function Home() {
   }, []);
 
   useEffect(() => {
-    const onStorage = () => setPersonal(readPersonal());
-    addEventListener('storage', onStorage);
-    return () => removeEventListener('storage', onStorage);
+    // Re-read after Restore, a change in another tab, or anything else that writes personal data.
+    return subscribe(() => setPersonal(readPersonal()));
   }, []);
 
   const q = query.trim();
@@ -101,11 +103,11 @@ export function Home() {
             {parts.length > 0 && <span class="badge" aria-hidden="true">{parts.length}</span>}
           </button>
           <span class="header-spacer" />
-          {/* Menu and Add come alive in A5 and A7. */}
+          {/* Add comes alive in A7. */}
           <a class="text-btn my-recipes-btn" href={href.myRecipes()}>
             <UiIcon name="bookmark" size={16} />My recipes
           </a>
-          <button class="icon-btn menu-btn" type="button" aria-label="Menu">
+          <button class="icon-btn menu-btn" type="button" aria-label="Menu" aria-haspopup="dialog" onClick={() => setMenuOpen(true)}>
             <MenuIcon />
           </button>
           <button class="icon-btn add-btn" type="button" aria-label="Add recipes">
@@ -196,6 +198,8 @@ export function Home() {
           onClose={() => setSheetOpen(false)}
         />
       )}
+      {menuOpen && <MenuSheet onClose={() => setMenuOpen(false)} />}
+      <InstallHint />
     </div>
   );
 }

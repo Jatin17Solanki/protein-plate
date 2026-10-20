@@ -3,6 +3,7 @@ import { onLinkClick, useRoute } from './lib/router';
 import { Home } from './screens/Home';
 import { Recipe } from './screens/Recipe';
 import { MyRecipes } from './screens/MyRecipes';
+import { Toast } from './components/Toast';
 import site from '../site.config.json';
 
 export function App() {
@@ -15,8 +16,15 @@ export function App() {
     if (route.name === 'home') document.title = site.title;
   }, [route]);
 
-  if (route.name === 'recipe') return <Recipe key={route.id} id={route.id} />;
-  if (route.name === 'myRecipes') return <MyRecipes />;
-  if (route.name === 'notFound') return <Recipe id={null} />;
-  return <Home />;
+  const screen =
+    route.name === 'recipe' ? <Recipe key={route.id} id={route.id} />
+    : route.name === 'myRecipes' ? <MyRecipes />
+    : route.name === 'notFound' ? <Recipe id={null} />
+    : <Home />;
+  return (
+    <>
+      {screen}
+      <Toast />
+    </>
+  );
 }

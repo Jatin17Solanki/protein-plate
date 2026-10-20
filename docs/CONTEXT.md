@@ -264,3 +264,4 @@ See `docs/PLAN.md` (phases) and `docs/TRACKER.md` (status).
 | **In-app AI** | Replace copy-paste prompts; needs a paid API, so not until cost is acceptable. |
 | **Catalog merge between copies (D)** | Rare; ad-hoc via Claude Code if ever needed. |
 | **Desktop-specific layout polish** | Beyond the responsive v1. |
+| **Flagged recipes + admin review view** | Jatin, 2026-10-20: mark recipes that need his decision (no portion count, macro mismatch, no main protein, possible duplicate…) and show them together in an admin view so he can go through each one. Owner and approach open — TRACKER D7. |

@@ -2,7 +2,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import {
-  bestRelaxation, dishCount, filterRecipes, groupTitle, NO_FILTERS, NO_PERSONAL, optionCounts, summaryParts, toTiles,
+  bestRelaxation, dishCount, filterRecipes, groupTitle, NO_FILTERS, NO_PERSONAL, optionCounts, shownProtein, summaryParts, toTiles,
+  wholeRecipeProtein,
 } from '../../src/lib/home';
 import { parse } from '../../src/lib/router';
 import type { Recipe } from '../../src/types/recipe';
@@ -136,4 +137,37 @@ describe('router.parse', () => {
     ['/protein-plate/r/Bad_Id/', { name: 'notFound' }],
     ['/protein-plate/other', { name: 'notFound' }],
   ])('%s', (path, route) => expect(parse(path, base)).toEqual(route));
+});
+
+describe('whole-recipe protein (no portion count)', () => {
+  const noPortions = (id: string, total: number) => {
+    const r = structuredClone(recipes.find((x) => x.id === id)!);
+    r.servings = null;
+    r.per_portion = { ...r.per_portion, protein_g: null, kcal: null };
+    r.protein_working = [...r.protein_working, `Total ≈ ${total} g for the whole recipe (portions not stated)`];
+    return r;
+  };
+
+  it('reads the total from the last working line; null for incomplete or per-portion recipes', () => {
+    expect(wholeRecipeProtein(noPortions('besan-chilla', 47.2))).toBe(47.2);
+    expect(wholeRecipeProtein(recipes.find((x) => x.id === 'besan-chilla')!)).toBeNull();
+    expect(wholeRecipeProtein(recipes.find((x) => x.id === 'lasooni-dhaniya-paneer')!)).toBeNull();
+    expect(shownProtein(noPortions('besan-chilla', 47.2))).toEqual({ value: 47.2, whole: true });
+  });
+
+  it('tile shows the total, says "whole recipe", and sorts after every per-portion tile', () => {
+    const rs = recipes.map((r) => (r.id === 'besan-chilla' ? noPortions('besan-chilla', 90) : r));
+    const tiles = toTiles(rs);
+    const t = tiles.find((x) => x.id === 'besan-chilla')!;
+    expect(t).toMatchObject({ protein: '90', whole: true, meta: 'Pulses · whole recipe' });
+    expect(tiles.map((x) => x.protein)).toEqual(['45', '38', '36', '31', '24', '22+', '21', '90', '—']);
+  });
+
+  it('group of whole-recipe versions: lowest total with "+"; any per-portion version wins', () => {
+    const a = noPortions('soya-pea-kebab', 31);
+    const b = noPortions('soya-paneer-tikki', 50);
+    expect(toTiles([a, b])[0]).toMatchObject({ protein: '31+', whole: true, meta: 'Soya · whole recipe' });
+    const real = recipes.find((x) => x.id === 'soya-paneer-tikki')!;
+    expect(toTiles([a, real])[0]).toMatchObject({ protein: '29+', whole: false });
+  });
 });
