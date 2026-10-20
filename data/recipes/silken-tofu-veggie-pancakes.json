@@ -39,7 +39,11 @@
     "fibre_g": null,
     "is_estimate": false
   },
-  "stated_macros": null,
+  "stated_macros": {
+    "basis": "from the video (the batch makes 4–5 pancakes; servings not stated)",
+    "protein_g": 23,
+    "kcal": 470
+  },
   "protein_working": [],
   "servings": null,
   "ingredients": [
@@ -169,14 +173,15 @@
     "Serve immediately with soy sauce dressing (soua sauce + lemon juice + water + honey + salt + 1/2 chopped green chili)."
   ],
   "assumptions": [
-    "Makes 4–5 pancakes; the caption doesn't say how many make a portion."
+    "Makes 4–5 pancakes; the caption doesn't say how many make a portion.",
+    "Macros from the video (supplied by Jatin)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"from the video (the batch makes 4–5 pancakes; servings not stated)\", and the caption doesn't say how many portions that is."
     }
   ]
 }

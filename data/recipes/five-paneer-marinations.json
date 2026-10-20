@@ -36,21 +36,13 @@
   "ingredients": [],
   "steps": [],
   "assumptions": [
-    "Title from the batch file; main protein, tags and meal types from the title."
+    "Title from the batch file.",
+    "Main protein set by Jatin."
   ],
   "missing": [
-    "Ingredients and quantities (no caption saved)",
-    "Method"
+    "Written recipe (no caption; the video is the recipe)"
   ],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Ingredients and quantities (no caption saved); Method"
-    }
-  ]
+  "flags": [],
+  "video_only": true
 }

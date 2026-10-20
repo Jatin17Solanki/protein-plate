@@ -104,7 +104,7 @@ export interface Tile {
 
 /** Creator's protein when they don't say how many portions it covers (servings null) — shown as "whole recipe". */
 export function wholeRecipeProtein(r: Recipe): number | null {
-  if (r.per_portion.protein_g !== null || r.servings !== null) return null;
+  if (r.per_portion.protein_g !== null || r.servings !== null) return null; // per-serving figures fill per_portion
   return r.stated_macros?.protein_g ?? null;
 }
 

@@ -16,6 +16,9 @@ import type { Recipe } from '../../../src/types/recipe';
 import { normalizeText, type Matcher } from './dictionary';
 import type { RawEntry } from './raw';
 
+/** The one step allowed without source wording: the caption has no method (Jatin, 2026-10-20). */
+export const VIDEO_STEP = 'No written method — watch the video for the steps.';
+
 export interface FidelityResult {
   errors: string[];
   warnings: string[];
@@ -86,7 +89,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   const content = raw.content.filter((l) => !/^recipe by\s+@/i.test(l));
 
   // Link-only or title-only entries: kept as incomplete placeholders, nothing to compare yet.
-  const placeholder = r.ingredients.length === 0 && r.steps.length === 0;
+  const placeholder = r.ingredients.length === 0 && (r.steps.length === 0 || (r.steps.length === 1 && r.steps[0] === VIDEO_STEP));
   if (content.length <= 1 || placeholder) {
     if (r.status !== 'incomplete') errors.push('raw entry has no recipe text, so the recipe must be status "incomplete"');
     if (!placeholder) errors.push('raw entry has no recipe text but the recipe has ingredients or steps');
@@ -100,6 +103,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   // 0. Steps are the creator's own words; a step may span consecutive caption lines.
   const rawWords = ` ${wordsOnly(content.map(stripNoise).join(' \n '))} `;
   r.steps.forEach((step, i) => {
+    if (step === VIDEO_STEP) return;
     if (!rawWords.includes(` ${wordsOnly(step)} `)) errors.push(`steps[${i}] is not the source's wording — "${step.slice(0, 90)}"`);
   });
 

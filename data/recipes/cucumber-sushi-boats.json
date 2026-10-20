@@ -16,7 +16,9 @@
     ],
     "stated_by_user": []
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "pulses"
+  ],
   "supporting_proteins": [
     "skyr",
     "chickpeas",
@@ -177,10 +179,6 @@
     {
       "code": "macros_basis_unclear",
       "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
   ]
 }

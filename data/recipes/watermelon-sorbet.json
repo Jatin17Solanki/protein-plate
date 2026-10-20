@@ -15,7 +15,9 @@
     ],
     "stated_by_user": []
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "coconut_milk"
   ],
@@ -67,14 +69,8 @@
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    },
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
   ]
 }

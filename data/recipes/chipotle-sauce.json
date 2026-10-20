@@ -2,19 +2,23 @@
   "id": "chipotle-sauce",
   "title": "Chipotle Sauce",
   "source": {
-    "url": "https://www.instagram.com/p/C8bV56bo7yT/",
+    "url": "https://www.instagram.com/p/DIk-CWWtQI1/",
     "platform": "instagram",
     "creator": null,
     "creator_url": null,
-    "ref": "batches/2026-10-16-batch1.txt#80"
+    "ref": "batches/2026-10-20-jatin-captions.txt#2"
   },
-  "status": "incomplete",
+  "status": "complete",
   "meal_types": {
     "values": [],
     "stated_by_user": []
   },
-  "main_proteins": [],
-  "supporting_proteins": [],
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
   "tags": [
     "sauce_dip",
     "global"
@@ -32,28 +36,108 @@
   "stated_macros": null,
   "protein_working": [],
   "servings": null,
-  "ingredients": [],
-  "steps": [],
-  "assumptions": [
-    "Title from the batch file."
-  ],
-  "missing": [
-    "Ingredients and quantities (no caption saved)",
-    "Method"
-  ],
-  "added_at": "2026-10-20",
-  "flags": [
+  "ingredients": [
     {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
+      "item": "red bell pepper, charred",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Red Bell Pepper"
     },
     {
-      "code": "missing_details",
-      "note": "Ingredients and quantities (no caption saved); Method"
+      "item": "Kashmiri red chillies, soaked",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 Soaked Kashmiri Red Chillies"
     },
     {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+      "item": "cashew nuts, soaked",
+      "ingredient_id": "cashews",
+      "qty": 10,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "10-12 Soaked Cashew Nuts"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100gms Paneer"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4 Garlic Cloves"
+    },
+    {
+      "item": "hung curd",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100gms Hung Curd (strain all the water from normal curd)"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 Tsp Black Pepper Powder"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 Tsp Oregano"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "oregano (garnish)",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "oregano and chilli flakes"
+    },
+    {
+      "item": "chilli flakes (garnish)",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "oregano and chilli flakes"
     }
-  ]
+  ],
+  "steps": [
+    "Take 1 red bell pepper, char it directly on the flame as shown in the video. Once done, remove from flame and remove the burnt part using a knife. Then cut into pieces.",
+    "Blend this along with- 2 soaked Kashmiri red chillies, 10-12 soaked cashew nuts, 100gms paneer, 4 garlic cloves, 100gms hung curd (strain all the water from normal curd), 1/4 tsp black pepper powder, 1/4 tsp oregano, salt.",
+    "Garnish with oregano and chilli flakes and it’s ready!",
+    "Pro tip- keep this in the fridge for 30 minutes before if you want a more thicker consistency!"
+  ],
+  "assumptions": [
+    "Caption supplied by Jatin (it wasn't in the batch file).",
+    "The creator says this chipotle sauce (no chipotle peppers in it) goes with burgers, fries, wraps and tacos.",
+    "A sauce, so no meal type."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
 }

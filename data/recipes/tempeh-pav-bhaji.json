@@ -33,7 +33,11 @@
     "fibre_g": null,
     "is_estimate": false
   },
-  "stated_macros": null,
+  "stated_macros": {
+    "basis": "entire dish (from the video; servings not stated)",
+    "protein_g": 45,
+    "kcal": null
+  },
   "protein_working": [],
   "servings": null,
   "ingredients": [
@@ -207,20 +211,16 @@
     "Serve hot with toasted pav, bread, or enjoy it as a protein-rich bhaji bowl."
   ],
   "assumptions": [
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The onion amount isn't given (the method adds onions, the ingredient list doesn't have them); watch the video for anything unclear.",
+    "Macros from the video (supplied by Jatin)."
   ],
-  "missing": [
-    "Onion amount: the method adds onions but the ingredient list doesn't include them."
-  ],
+  "missing": [],
   "added_at": "2026-10-20",
   "flags": [
     {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Onion amount: the method adds onions but the ingredient list doesn't include them."
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"entire dish (from the video; servings not stated)\", and the caption doesn't say how many portions that is."
     }
   ]
 }

@@ -87,7 +87,7 @@
 {"id":"sev","name":"sev","aliases":["sev","bhujia","bhujiya"],"type":"pantry","protein_per_100g":13,"kcal_per_100g":550,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":8}},
 {"id":"oil","name":"cooking oil","aliases":["oil","cooking oil","refined oil","hot oil","oil spray"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":884,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":4.5,"tbsp":14}},
 {"id":"olive_oil","name":"olive oil","aliases":["olive oil","extra virgin olive oil"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":884,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":4.5,"tbsp":14}},
-{"id":"water","name":"water","aliases":["water","pani"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
+{"id":"water","name":"water","aliases":["water","pani","ice cubes"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
 {"id":"soy_sauce","name":"soy sauce","aliases":["soy sauce","soya sauce"],"type":"sauce","protein_per_100g":8,"kcal_per_100g":53,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":16}},
 {"id":"gochujang","name":"gochujang","aliases":["gochujang"],"type":"sauce","protein_per_100g":4,"kcal_per_100g":210,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":18}},
 {"id":"chilli_sauce","name":"chilli sauce","aliases":["chilli sauce","chili sauce","red chilli sauce","sriracha","sriracha sauce","chilli garlic sauce","chilli garlic dip"],"type":"sauce","protein_per_100g":1,"kcal_per_100g":100,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":17}},
@@ -99,8 +99,8 @@
 {"id":"black_pepper","name":"black pepper","aliases":["black pepper","black pepper powder","pepper","kali mirch","black peppercorns","peppercorns"],"type":"spice","protein_per_100g":10,"kcal_per_100g":250,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2.5,"tbsp":7}},
 {"id":"chilli_flakes","name":"chilli flakes","aliases":["chilli flakes","chili flakes","red chilli flakes"],"type":"spice","protein_per_100g":12,"kcal_per_100g":300,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2}},
 {"id":"red_chilli_powder","name":"red chilli powder","aliases":["red chilli powder","red chili powder","chilli powder","lal mirch","red chilli","chili powder"],"type":"spice","protein_per_100g":12,"kcal_per_100g":280,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2.5}},
-{"id":"kashmiri_chilli_powder","name":"Kashmiri red chilli powder","aliases":["kashmiri red chilli powder","kashmiri chilli powder","kashmiri mirch"],"type":"spice","protein_per_100g":12,"kcal_per_100g":280,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2.5}},
-{"id":"dried_red_chilli","name":"dried red chilli","aliases":["dried red chillies","dried red chilli","dry red chilli","whole red chilli","sookhi lal mirch"],"type":"spice","protein_per_100g":12,"kcal_per_100g":300,"basis":"as_sold","main_protein":null,"unit_grams":{"piece":1}},
+{"id":"kashmiri_chilli_powder","name":"Kashmiri red chilli powder","aliases":["kashmiri red chilli powder","kashmiri chilli powder","kashmiri mirch","kashmiri red chili powder"],"type":"spice","protein_per_100g":12,"kcal_per_100g":280,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2.5}},
+{"id":"dried_red_chilli","name":"dried red chilli","aliases":["dried red chillies","dried red chilli","dry red chilli","whole red chilli","sookhi lal mirch","kashmiri red chillies","dry red chilies","dry red chillies"],"type":"spice","protein_per_100g":12,"kcal_per_100g":300,"basis":"as_sold","main_protein":null,"unit_grams":{"piece":1}},
 {"id":"turmeric","name":"turmeric","aliases":["turmeric","turmeric powder","haldi"],"type":"spice","protein_per_100g":8,"kcal_per_100g":310,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":3,"pinch":0.3}},
 {"id":"cumin_seeds","name":"cumin seeds","aliases":["cumin seeds","jeera","zeera","jeera seeds"],"type":"spice","protein_per_100g":18,"kcal_per_100g":375,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2}},
 {"id":"cumin_powder","name":"cumin powder","aliases":["cumin powder","jeera powder","roasted cumin powder","bhuna jeera"],"type":"spice","protein_per_100g":18,"kcal_per_100g":375,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2}},
@@ -165,5 +165,7 @@
 {"id":"sambhar_powder","name":"sambhar powder","aliases":["sambhar powder","sambar powder"],"type":"spice","protein_per_100g":12,"kcal_per_100g":350,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2}},
 {"id":"star_anise","name":"star anise","aliases":["star anise","stir anise","chakri phool"],"type":"spice","protein_per_100g":18,"kcal_per_100g":337,"basis":"as_sold","main_protein":null},
 {"id":"saffron_milk","name":"saffron milk","aliases":["saffron milk","kesar milk"],"type":"dairy","protein_per_100g":3.3,"kcal_per_100g":60,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":15}},
-{"id":"kewra_water","name":"kewra water","aliases":["kewra water"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null}
+{"id":"kewra_water","name":"kewra water","aliases":["kewra water"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
+{"id":"onion_powder","name":"onion powder","aliases":["onion powder"],"type":"spice","protein_per_100g":10,"kcal_per_100g":341,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":2.5}},
+{"id":"tandoori_masala","name":"tandoori masala","aliases":["tandoori masala","tandoori chicken masala","killr marinade"],"type":"spice","protein_per_100g":12,"kcal_per_100g":300,"basis":"as_sold","main_protein":null}
 ]

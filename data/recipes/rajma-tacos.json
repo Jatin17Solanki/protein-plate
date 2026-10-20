@@ -317,10 +317,11 @@
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    }
-  ]
+  "flags": [],
+  "estimated_macros": {
+    "basis": "whole recipe (4 tacos)",
+    "protein_g": 53,
+    "kcal": 1260,
+    "note": "Rough estimate from the ingredients, not the creator's numbers."
+  }
 }

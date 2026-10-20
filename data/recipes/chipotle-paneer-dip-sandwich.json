@@ -1,0 +1,198 @@
+{
+  "id": "chipotle-paneer-dip-sandwich",
+  "title": "Chipotle Paneer Dip Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/p/C8bV56bo7yT/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-20-jatin-captions.txt#1"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "fresh low-fat paneer (dip)",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g fresh low fat paneer"
+    },
+    {
+      "item": "cashews, soaked (dip)",
+      "ingredient_id": "cashews",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "8-10 soaked cashews (soak in hot water for at least 1 hour)"
+    },
+    {
+      "item": "dry red chillies, soaked (dip)",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 spicy dry red chilies"
+    },
+    {
+      "item": "cheese cube (dip)",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 cheese cube (optional)"
+    },
+    {
+      "item": "salt (dip)",
+      "ingredient_id": "salt",
+      "qty": 0.667,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2/3 tsp salt"
+    },
+    {
+      "item": "oregano (dip)",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp oregano"
+    },
+    {
+      "item": "Kashmiri red chilli powder (dip)",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.667,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2/3 tsp kashmiri red chili powder"
+    },
+    {
+      "item": "extra virgin olive oil (dip)",
+      "ingredient_id": "olive_oil",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp extra virgin olive oil"
+    },
+    {
+      "item": "ice cubes (dip)",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 ice cubes"
+    },
+    {
+      "item": "water (dip)",
+      "ingredient_id": "water",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/3 cup water (add as per requirement to adjust the consistency)"
+    },
+    {
+      "item": "bread slices",
+      "ingredient_id": "bread",
+      "qty": null,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "Bread slices"
+    },
+    {
+      "item": "onions",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onions, capsicum"
+    },
+    {
+      "item": "capsicum",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onions, capsicum"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "& tomato"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "a little chaat masala"
+    },
+    {
+      "item": "ghee or olive oil (to toast)",
+      "ingredient_id": "ghee",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "some ghee/olive oil"
+    },
+    {
+      "item": "tomato ketchup (to serve)",
+      "ingredient_id": "ketchup",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "tomato ketchup"
+    }
+  ],
+  "steps": [
+    "For the chipotle dip - 150g fresh low fat paneer, 8-10 soaked cashews (soak in hot water for at least 1 hour), 2-3 spicy dry red chilies (soak in hot water for at least 1 hour), 1 cheese cube (optional), 2/3 tsp salt, 1 tsp oregano, 2/3 tsp kashmiri red chili powder, 1.5 tsp extra virgin olive oil, 2-3 ice cubes, 1/3 cup water (add as per requirement to adjust the consistency).",
+    "Blend everything well until you get a smooth creamy texture as shown in the video!",
+    "The dip is now ready, you can store this in an air tight container & refrigerate for upto 3 days.",
+    "For the sandwich - bread slices. Apply a generous layer of the chipotle dip on both breads, top with veggies of choice (I have used onions, capsicum & tomato).",
+    "Sprinkle a little chaat masala on the veggies, toast the sandwich in some ghee/olive oil until crispy & golden brown on both sides.",
+    "Serve this with some more dip or tomato ketchup!"
+  ],
+  "assumptions": [
+    "Caption supplied by Jatin (it wasn't in the batch file).",
+    "Ghee or olive oil for toasting is listed as ghee.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

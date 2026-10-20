@@ -196,14 +196,10 @@
   ],
   "assumptions": [
     "Creator also states 11 g fibre per serve.",
-    "Bhajiya has no format tag of its own; filed under kebab/tikki/cutlet for now."
+    "Bhajiya has no format tag of its own; filed under kebab/tikki/cutlet for now.",
+    "Soak the moong dal for 1 to 3 hours (the ingredient list says 3 hours, the method 1 hour)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "source_conflict",
-      "note": "Soaking time: 3 hours in the ingredient list, 1 hour in the method."
-    }
-  ]
+  "flags": []
 }

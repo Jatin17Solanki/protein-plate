@@ -15,7 +15,9 @@
     ],
     "stated_by_user": []
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "soya"
+  ],
   "supporting_proteins": [],
   "tags": [
     "kebab_tikki_cutlet",
@@ -37,26 +39,14 @@
   "ingredients": [],
   "steps": [],
   "assumptions": [
-    "Title from the batch file; main protein, tags and meal types from the title.",
-    "Meal types are our guess."
+    "Title from the batch file.",
+    "Meal types are our guess.",
+    "Main protein set by Jatin."
   ],
   "missing": [
-    "Ingredients and quantities (no caption saved)",
-    "Method"
+    "Written recipe (no caption; the video is the recipe)"
   ],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    },
-    {
-      "code": "missing_details",
-      "note": "Ingredients and quantities (no caption saved); Method"
-    },
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": [],
+  "video_only": true
 }

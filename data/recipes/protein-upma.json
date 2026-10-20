@@ -17,7 +17,9 @@
       "breakfast"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "tofu"
+  ],
   "supporting_proteins": [
     "skyr",
     "sooji",
@@ -224,18 +226,10 @@
   ],
   "assumptions": [
     "Creator also states 7 g fibre.",
-    "Upma has no format tag of its own."
+    "Upma has no format tag of its own.",
+    "Use 150 ml water (the method says 200 ml)."
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    },
-    {
-      "code": "source_conflict",
-      "note": "Water: 150 ml in the ingredient list, 200 ml in the method."
-    }
-  ]
+  "flags": []
 }

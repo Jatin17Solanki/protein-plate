@@ -13,7 +13,7 @@ _Last updated: 2026-10-20 (B2 complete)_
 
 **Next:**
 - B3 when Jatin sends the new compilation: dedupe against the catalog (`dedupe.ts --batch <file>`), correct creator credits where it names them, add new recipes the same way.
-- B6: resolve flags with Jatin. When he gives a fix, edit the recipe and remove the flag (hand-added) or fix the cause (auto flags disappear once the data is complete, e.g. add `servings`).
+- B6: resolving flags with Jatin, decisions in `docs/review-log.md`. Round 1 done; 32 `macros_basis_unclear` left (whole-recipe numbers, no portion count). Also open: should whole-recipe creator numbers show on home cards at all (Jatin worried they mislead meal planning)? When he gives a fix, edit the recipe and remove the flag (hand-added) or fix the cause (auto flags disappear once the data is complete, e.g. add `servings`).
 - B4: My list seed done (13 ids: Jatin's 12 'self cook' notes + moong-dal-veg-pizza; he dropped the other 'try/experiment' ones). Sent as a restore file in chat, never committed. Still waiting on Jatin for the protein oats recipe and the 15 incomplete entries; he'll send them together.
 
 **Gotchas:**
@@ -22,6 +22,8 @@ _Last updated: 2026-10-20 (B2 complete)_
 - Aliases: avoid bare generic words ("moong", "methi", "yogurt", "cloves"); search treats aliases as synonyms. Plurals like leaf→leaves need their own alias.
 - Ingredients only named in the method get added with no amount; sub-recipes keep the part in brackets ("(dressing)").
 - Scratch generator pattern: Python `I()`/`R()` helpers write `data/recipes/*.json`, then `check.ts --write`.
+
+**Coordination:** send app-side requests to the active Track A session (as of 2026-10-20: "Dev 2 - phase A", branch `claude/phase-a7-recipes-export-co5avf`) and record anything agreed in DECISIONS/TRACKER. It already has: `other` protein (chip + neutral tint), `video_only` (stay in main grid, badge, prominent Watch video, no-protein sort tier, off /review/).
 
 **For Track A:**
 - Admin list of flagged recipes (Jatin's request): list recipes with `flags[]` (code + note) and incomplete ones, link to each recipe; flags are removed in data commits (no server).

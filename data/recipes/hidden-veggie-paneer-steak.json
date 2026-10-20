@@ -198,10 +198,11 @@
   ],
   "missing": [],
   "added_at": "2026-10-20",
-  "flags": [
-    {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    }
-  ]
+  "flags": [],
+  "estimated_macros": {
+    "basis": "per portion (makes 1)",
+    "protein_g": 32,
+    "kcal": 340,
+    "note": "Rough estimate from the ingredients, not the creator's numbers (Jatin's guess: about 25 g protein, mostly from the low-fat paneer)."
+  }
 }

@@ -14,6 +14,10 @@ export type Recipe = {
    * incomplete = kept under its title with a missing[] list; never dropped.
    */
   status: 'complete' | 'incomplete';
+  /**
+   * The post has no written recipe; the video is the recipe (Jatin, 2026-10-20). Kept out of the review list; the app may list these separately.
+   */
+  video_only?: boolean;
   meal_types: MealTypes;
   /**
    * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).
@@ -43,6 +47,10 @@ export type Recipe = {
    */
   stated_macros: StatedMacros | null;
   /**
+   * A rough estimate from the ingredients when the creator gives no numbers (Jatin asked for it on specific recipes). Shown only on the recipe page with a warning — never on cards, in sorting or as per_portion.
+   */
+  estimated_macros?: EstimatedMacros | null;
+  /**
    * Show the working: one line per protein source, e.g. '40 g dry soya × 52 = 20.8 g'.
    */
   protein_working: string[];
@@ -52,7 +60,7 @@ export type Recipe = {
   servings: number | null;
   ingredients: Ingredient[];
   /**
-   * The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20).
+   * The creator's own words, in their order; only formatting changes (D5, revised 2026-10-20). When the caption has no method, the single step is the standard "No written method — watch the video for the steps."
    */
   steps: string[];
   /**
@@ -67,10 +75,14 @@ export type Recipe = {
    * Things Jatin must look at (shown in the admin list). Set by scripts/data/check.ts (no_macros, macros_basis_unclear, missing_details) or by hand (source_conflict, other). Removed once he resolves them.
    */
   flags?: Flag[];
+  /**
+   * Automatic flag codes Jatin has reviewed and accepted for this recipe (e.g. no_macros = blank is fine); check.ts no longer raises them.
+   */
+  accepted_flags?: ('no_macros' | 'macros_basis_unclear' | 'missing_details' | 'no_main_protein')[];
   added_at: string;
 };
 export type MealType = 'breakfast' | 'lunch' | 'snack' | 'dinner';
-export type MainProtein = 'paneer' | 'soya' | 'tofu' | 'tempeh' | 'pulses' | 'whey';
+export type MainProtein = 'paneer' | 'soya' | 'tofu' | 'tempeh' | 'pulses' | 'whey' | 'other';
 export type Slug = string;
 export type Tag =
   | 'sandwich_toast'
@@ -141,6 +153,18 @@ export interface StatedMacros {
   kcal: NullableAmount;
   carbs_g?: NullableAmount;
   fat_g?: NullableAmount;
+}
+export interface EstimatedMacros {
+  /**
+   * What the estimate covers, e.g. 'per portion (makes 1)', 'whole recipe (4 tacos)'.
+   */
+  basis: string;
+  protein_g: NullableAmount;
+  kcal: NullableAmount;
+  /**
+   * Where it comes from, shown with the warning.
+   */
+  note: string;
 }
 export interface Ingredient {
   /**

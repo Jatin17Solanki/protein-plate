@@ -8,7 +8,7 @@
 //  - flags[] lists what Jatin must look at: no_macros, macros_basis_unclear, missing_details and no_main_protein are set
 //    automatically; source_conflict / other are added by hand and kept
 // Usage: tsx scripts/data/check.ts [--write]   (--write fills those computed fields in place)
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import type { Flag, Recipe } from '../../src/types/recipe';
 import { checkDictionary } from './lib/dictionary';
 import { estimate } from './lib/estimate';
@@ -29,11 +29,24 @@ const AUTO = new Set<Flag['code']>(['no_macros', 'macros_basis_unclear', 'missin
 const NOW_FLAGS = [/^Macros: the creator gives none/, /^Servings: the caption doesn't say/, /^Servings$/, /^Servings and macros$/];
 const flagged = new Map<string, string[]>();
 
+/** The creator's numbers are for one serving/piece ("per serving", "per sandwich"), even with no serving count. */
+function perPortionBasis(r: Recipe): boolean {
+  return /^per\b/i.test(r.stated_macros?.basis ?? '');
+}
+
 function autoFlags(r: Recipe): Flag[] {
+  const accepted = new Set(r.accepted_flags ?? []);
+  return rawAutoFlags(r).filter((f) => !accepted.has(f.code as NonNullable<Recipe['accepted_flags']>[number]));
+}
+
+function rawAutoFlags(r: Recipe): Flag[] {
   const flags: Flag[] = [];
   const s = r.stated_macros;
-  if (s === null) flags.push({ code: 'no_macros', note: 'The creator gives no macros.' });
-  else if (r.servings === null) flags.push({ code: 'macros_basis_unclear', note: `The creator's numbers are "${s.basis}", and the caption doesn't say how many portions that is.` });
+  if (r.video_only) return r.main_proteins.length ? [] : [{ code: 'no_main_protein', note: 'Video only, and no main protein chosen yet.' }];
+  // Sauces, dips and marinades don't need macros; an estimate Jatin asked for also answers the flag.
+  if (s === null) {
+    if (!r.tags.includes('sauce_dip') && !r.estimated_macros) flags.push({ code: 'no_macros', note: 'The creator gives no macros.' });
+  } else if (r.servings === null && !perPortionBasis(r)) flags.push({ code: 'macros_basis_unclear', note: `The creator's numbers are "${s.basis}", and the caption doesn't say how many portions that is.` });
   if (r.missing.length) flags.push({ code: 'missing_details', note: r.missing.join('; ') });
   if (r.main_proteins.length === 0) flags.push({ code: 'no_main_protein', note: 'No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein.' });
   return flags;
@@ -51,7 +64,7 @@ for (const { file, recipe: r } of loadRecipes()) {
   next.missing = r.missing.filter((m) => !NOW_FLAGS.some((re) => re.test(m)));
   // Creator's numbers, as stated; nothing of ours. Without a portion count they stay in stated_macros only
   // (the app shows them as "whole recipe").
-  const s = r.servings === null ? null : r.stated_macros;
+  const s = r.servings !== null || perPortionBasis(r) ? r.stated_macros : null;
   next.per_portion = {
     protein_g: s?.protein_g ?? null,
     kcal: s?.kcal ?? null,
@@ -63,7 +76,8 @@ for (const { file, recipe: r } of loadRecipes()) {
   next.protein_working = [];
   if (r.status === 'complete' && r.ingredients.length) {
     const est = estimate(r, byId);
-    next.main_proteins = est.main_proteins;
+    // Jatin's choice wins when the 35 % rule finds nothing (review log); otherwise the rule decides.
+    next.main_proteins = est.main_proteins.length ? est.main_proteins : r.main_proteins;
     const ingredientIds = new Set(r.ingredients.map((g) => g.ingredient_id));
     // Computed supporting proteins first; keep hand-added ones (e.g. an unweighed yogurt dip) after them.
     next.supporting_proteins = [...new Set([...est.supporting_proteins, ...r.supporting_proteins.filter((x) => ingredientIds.has(x))])];
@@ -72,10 +86,13 @@ for (const { file, recipe: r } of loadRecipes()) {
   next.flags = [...autoFlags(next), ...manual];
   if (next.flags.length) flagged.set(r.id, next.flags.map((f) => f.code));
 
+  const pretty = JSON.stringify(next, null, 2) + '\n';
   if (write) {
-    if (!same(next, r)) writeFileSync(file, JSON.stringify(next, null, 2) + '\n');
+    // Also re-formats one-line JSON (recipes added from the app arrive that way).
+    if (readFileSync(file, 'utf8') !== pretty) writeFileSync(file, pretty);
     continue;
   }
+  if (same(next, r) && readFileSync(file, 'utf8') !== pretty) warn(file, 'not in the standard 2-space format (run with --write)');
   if (!same(next.main_proteins, r.main_proteins)) err(file, `main_proteins should be ${JSON.stringify(next.main_proteins)} by the 35 % rule`);
   if (!same(next.supporting_proteins, r.supporting_proteins)) err(file, `supporting_proteins should be ${JSON.stringify(next.supporting_proteins)}`);
   if (!same(next.per_portion, r.per_portion)) err(file, 'per_portion must be the creator\'s stated numbers (run with --write)');
