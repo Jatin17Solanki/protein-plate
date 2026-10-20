@@ -1,0 +1,143 @@
+{
+  "id": "green-moong-spinach-chilla",
+  "title": "Green Moong Dal and Spinach Chilla",
+  "source": {
+    "url": "https://www.instagram.com/p/DdIWKajzGHz/",
+    "platform": "instagram",
+    "creator": "living.with.niharika",
+    "creator_url": "https://www.instagram.com/living.with.niharika/",
+    "ref": "batches/2026-10-16-batch1.txt#6"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "sooji"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 24,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per chilla (batter makes 10)",
+    "protein_g": 5,
+    "kcal": 90,
+    "carbs_g": 16,
+    "fat_g": 1
+  },
+  "protein_working": [
+    "90 g dry green moong × 23/100 g = 20.7 g",
+    "90 g dry black chickpeas (kala chana) × 19/100 g = 17.1 g",
+    "\"1/2 cup sooji\" ≈ 82.5 g dry semolina (sooji) × 10.4/100 g = 8.6 g",
+    "Total ≈ 48.1 g ÷ 2 portions = 24 g per portion"
+  ],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "black chana, soaked overnight",
+      "ingredient_id": "kala_chana",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g black chana - soaked overnight"
+    },
+    {
+      "item": "green moong dal, soaked overnight",
+      "ingredient_id": "moong_green",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g green moong dal - soaked overnight"
+    },
+    {
+      "item": "green chillies",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 green chilies (1 used just 1)"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic cloves"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Small piece of ginger"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup spinach (g)"
+    },
+    {
+      "item": "sooji (semolina)",
+      "ingredient_id": "sooji",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1/2 cup sooji (semolina g)"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 300,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Water (300ml)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    }
+  ],
+  "steps": [
+    "Soak the black chana and green moong dal overnight.",
+    "Blend the soaked chana and moong dal with the green chillies, garlic, ginger, spinach, sooji, water and salt into a batter.",
+    "Spread the batter on a lightly greased pan to make chillas.",
+    "Cook until golden on both sides (covering with a lid helps them cook evenly).",
+    "Serve with paneer for extra protein, or with yogurt and your favourite chutney."
+  ],
+  "assumptions": [
+    "90 g black chana and 90 g moong dal read as dry weights (weighed before soaking).",
+    "One portion = 5 chillas, so the batter makes 2 portions (our guess).",
+    "Creator also states 3 g fibre per chilla."
+  ],
+  "missing": [
+    "Spinach and sooji weights in grams: the caption shows '(g)' with no number."
+  ],
+  "added_at": "2026-10-20"
+}

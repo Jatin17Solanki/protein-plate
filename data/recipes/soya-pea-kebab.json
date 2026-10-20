@@ -1,0 +1,253 @@
+{
+  "id": "soya-pea-kebab",
+  "title": "Soya Pea Kebabs with Greek Yogurt Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3Kle_zymu4/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#35"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "green_peas",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": "soya-kebab",
+  "variant_label": "with peas",
+  "per_portion": {
+    "protein_g": 31,
+    "kcal": 450,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe, kebabs + dip",
+    "protein_g": 30,
+    "kcal": null
+  },
+  "protein_working": [
+    "35 g dry soya chunks × 52/100 g = 18.2 g",
+    "\"1 cup fresh peas\" ≈ 145 g green peas × 5.4/100 g = 7.8 g",
+    "\"1 small chopped onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "\"1/2 slice of bread\" ≈ 14 g bread × 8/100 g = 1.1 g",
+    "Total ≈ 31 g per portion"
+  ],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g of Soya Chunks"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "garlic, chopped",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves chopped garlic"
+    },
+    {
+      "item": "chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 chopped chillies"
+    },
+    {
+      "item": "onion, chopped (small)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small chopped onion"
+    },
+    {
+      "item": "fresh peas",
+      "ingredient_id": "green_peas",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup fresh peas"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "dry mango powder (aamchur)",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp aamchur"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp coriander powder"
+    },
+    {
+      "item": "turmeric (haldi)",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of haldi"
+    },
+    {
+      "item": "rock salt",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "some rock salt"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "a tbsp of rice flour"
+    },
+    {
+      "item": "bread",
+      "ingredient_id": "bread",
+      "qty": 0.5,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "1/2 slice of bread"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "handful of coriander"
+    },
+    {
+      "item": "ghee (for the pan)",
+      "ingredient_id": "ghee",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "some ghee"
+    },
+    {
+      "item": "Greek yogurt (dip)",
+      "ingredient_id": "greek_yogurt",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "greek yogurt"
+    },
+    {
+      "item": "red chilli powder (dip topping)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "chaat masala (dip topping)",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chaat masala"
+    },
+    {
+      "item": "pomegranate (dip topping)",
+      "ingredient_id": "pomegranate",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "pomegranate"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks, then squeeze out all the water.",
+    "In a kadhai, heat the ghee and add the jeera, chopped garlic and chillies.",
+    "Add the onion and cook for 2 minutes.",
+    "Add the peas and cook for 5 minutes. If using frozen peas, soak them in lukewarm water for a while first.",
+    "Add salt, red chilli powder, aamchur, garam masala, coriander powder, a pinch of haldi and some rock salt, and mix well.",
+    "Add the rice flour and mix again.",
+    "Transfer to a grinder jar with the half slice of bread and the coriander, and grind to a fine paste.",
+    "Add the soya chunks and grind again.",
+    "Keep the paste in the fridge for 10 minutes.",
+    "Oil your hands and shape the paste into small balls.",
+    "Brush a non-stick pan with ghee and cook the kebabs on low-medium heat for a few minutes, until nicely browned.",
+    "Serve with Greek yogurt; top the yogurt with red chilli powder, chaat masala and pomegranate."
+  ],
+  "assumptions": [
+    "Servings not stated: one portion, from the 35 g of soya and the creator's 30 g protein (our guess).",
+    "'Chillies' read as green chillies.",
+    "Greek yogurt for the dip is not in the protein estimate (amount not given)."
+  ],
+  "missing": [
+    "Amount of Greek yogurt for the dip."
+  ],
+  "added_at": "2026-10-20"
+}

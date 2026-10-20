@@ -1,0 +1,266 @@
+{
+  "id": "soya-corn-cheese-kebab",
+  "title": "Soya Corn Cheese Kebab",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbqLxfZs5HG/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#39"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": "soya-kebab",
+  "variant_label": "with corn & cheese",
+  "per_portion": {
+    "protein_g": 36,
+    "kcal": 540,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 30,
+    "kcal": 470
+  },
+  "protein_working": [
+    "40 g dry soya chunks × 52/100 g = 20.8 g",
+    "\"1 cube cheese - cut into 4\" ≈ 20 g cheese × 22/100 g = 4.4 g",
+    "\"1 slice whole wheat bread\" ≈ 30 g whole-wheat bread × 9/100 g = 2.7 g",
+    "\"1/2 Cup Corn\" ≈ 75 g sweet corn × 3.3/100 g = 2.5 g",
+    "\"1 tbsp greek yogurt\" ≈ 15 g Greek yogurt × 9/100 g = 1.4 g",
+    "Total ≈ 35.6 g per portion"
+  ],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "40g Soya Chunks"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Onion"
+    },
+    {
+      "item": "corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup Corn"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1.5 tbsp Rice flour"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder (dhaniya powder)",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 ts dhaniya powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4tsp garam masala"
+    },
+    {
+      "item": "turmeric (haldi)",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4tsp haldi"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp jeera"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 garlic cloves"
+    },
+    {
+      "item": "cheese cube, cut into 4",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1 cube cheese - cut into 4"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1tsp ghee"
+    },
+    {
+      "item": "whole wheat bread (for crumbs)",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 1,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "1 slice whole wheat bread"
+    },
+    {
+      "item": "coriander leaves (chutney)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful dhaniya"
+    },
+    {
+      "item": "Greek yogurt (chutney)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp greek yogurt"
+    },
+    {
+      "item": "walnuts (chutney)",
+      "ingredient_id": "walnuts",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1-2 walnuts"
+    },
+    {
+      "item": "green chilli (chutney)",
+      "ingredient_id": "green_chilli",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 green chilli"
+    },
+    {
+      "item": "garlic (chutney)",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "1 garlic clove"
+    },
+    {
+      "item": "lemon juice (chutney)",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 lemon juice"
+    },
+    {
+      "item": "salt (chutney)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and pepper"
+    },
+    {
+      "item": "pepper (chutney)",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and pepper"
+    }
+  ],
+  "steps": [
+    "Grind the slice of whole wheat bread into bread crumbs.",
+    "Boil the soya chunks and squeeze out all the water.",
+    "In a pan, heat the ghee and sauté the garlic, green chilli and jeera.",
+    "Add the onion and corn and sauté until golden brown.",
+    "Add the masalas and mix well.",
+    "Blend this with the rice flour and soya chunks.",
+    "Cut the cheese cube into 4 pieces.",
+    "Grease your hands with ghee and shape the mixture into cutlets, stuffing a small piece of cheese into each.",
+    "Roll the cutlets in the bread crumbs.",
+    "Pan-fry on each side until crispy (this can take 15 minutes on medium-low heat).",
+    "For the chutney, blend the dhaniya, Greek yogurt, walnuts, green chilli, garlic, lemon juice, salt and pepper until smooth."
+  ],
+  "assumptions": [
+    "'1/2 ts' read as ½ tsp.",
+    "Servings not stated: one portion (40 g soya; the creator gives 470 kcal and 30 g protein for the recipe).",
+    "1 cheese cube ≈ 20 g; for 1–2 walnuts the lower amount is used in the estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

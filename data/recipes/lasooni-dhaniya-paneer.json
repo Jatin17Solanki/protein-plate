@@ -1,0 +1,50 @@
+{
+  "id": "lasooni-dhaniya-paneer",
+  "title": "Lasooni Dhaniya Paneer",
+  "source": {
+    "url": "https://www.instagram.com/p/DDw3BeKv9-K/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#22"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein and dish type from the title; meal types are our guess."
+  ],
+  "missing": [
+    "Ingredients and quantities (the post has no caption)",
+    "Method",
+    "Servings and macros"
+  ],
+  "added_at": "2026-10-20"
+}
