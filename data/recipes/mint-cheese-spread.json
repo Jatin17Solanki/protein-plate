@@ -1,0 +1,133 @@
+{
+  "id": "mint-cheese-spread",
+  "title": "Mint Cheese Spread",
+  "source": {
+    "url": "https://www.instagram.com/p/Ddks0wiTqgz/",
+    "platform": "instagram",
+    "creator": "homechefalison",
+    "creator_url": "https://www.instagram.com/homechefalison/",
+    "ref": "batches/2026-10-16-batch1.txt#30"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole spread (servings not stated)",
+    "protein_g": 45,
+    "kcal": 440,
+    "carbs_g": 10,
+    "fat_g": 25
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat paneer"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "½ handful fresh coriander"
+    },
+    {
+      "item": "fresh mint",
+      "ingredient_id": "mint",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "½ handful fresh mint"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli"
+    },
+    {
+      "item": "garlic, roasted in the oil",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 garlic cloves, roasted in 1 tbsp oil"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 garlic cloves, roasted in 1 tbsp oil"
+    },
+    {
+      "item": "lime juice",
+      "ingredient_id": "lemon",
+      "qty": 10,
+      "unit": "ml",
+      "type": "produce",
+      "as_written": "10ml lime juice (around ½ lime)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50ml water"
+    }
+  ],
+  "steps": [
+    "To a blender, add 200g low fat paneer, ½ handful fresh coriander, ½ handful fresh mint, 1 green chilli, 3 garlic cloves, roasted in 1 tbsp oil, 10ml lime juice (around ½ lime), 1 tsp salt, 50ml water.",
+    "Blend everything until smooth and creamy.",
+    "Transfer the mixture to a container and refrigerate for at least 1 hour.",
+    "And you’ve made yourself a creamy, thick and high protein mint cheese spread!"
+  ],
+  "assumptions": [
+    "A spread, so no meal type."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole spread (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -4,8 +4,6 @@
  * One recipe = one file data/recipes/<id>.json. All protein/kcal figures are per one person's portion (CONTEXT §4).
  */
 export type Recipe = {
-  [k: string]: unknown;
-} & {
   /**
    * Kebab-case, unique, equals the file name without .json. Never changes once published (links depend on it).
    */
@@ -18,7 +16,7 @@ export type Recipe = {
   status: 'complete' | 'incomplete';
   meal_types: MealTypes;
   /**
-   * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour.
+   * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).
    *
    * @maxItems 6
    */
@@ -65,6 +63,10 @@ export type Recipe = {
    * What the source does not give us. Must be non-empty when status is incomplete.
    */
   missing: string[];
+  /**
+   * Things Jatin must look at (shown in the admin list). Set by scripts/data/check.ts (no_macros, macros_basis_unclear, missing_details) or by hand (source_conflict, other). Removed once he resolves them.
+   */
+  flags?: Flag[];
   added_at: string;
 };
 export type MealType = 'breakfast' | 'lunch' | 'snack' | 'dinner';
@@ -116,6 +118,9 @@ export interface MealTypes {
    */
   stated_by_user: MealType[];
 }
+/**
+ * The creator's own numbers for one portion as they state it (is_estimate false). Null when the creator gives none — never our estimate (Jatin, 2026-10-20).
+ */
 export interface PerPortion {
   protein_g: number | null;
   kcal: number | null;
@@ -184,4 +189,8 @@ export interface Ingredient {
    * The source's exact wording — the fidelity anchor.
    */
   as_written: string;
+}
+export interface Flag {
+  code: 'no_macros' | 'macros_basis_unclear' | 'missing_details' | 'no_main_protein' | 'source_conflict' | 'other';
+  note: string;
 }

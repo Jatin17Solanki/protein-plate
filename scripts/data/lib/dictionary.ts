@@ -70,6 +70,7 @@ export function normalizeText(s: string): string {
     .replace(/[“”]/g, '"')
     .replace(/[–—−]/g, '-')
     .replace(/[\p{Extended_Pictographic}\u{1F3FB}-\u{1F3FF}\u{FE0F}\u{200D}\u{20E3}]/gu, ' ')
+    .replace(/[\u200B\u200C\u2060\uFEFF]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }

@@ -96,12 +96,19 @@ export interface Tile {
   sortKcal: number | null;
 }
 
-/** Whole-recipe total from the working's last line ("Total ≈ 47.2 g for the whole recipe…"). See TRACKER D7. */
+/** Creator's protein when they don't say how many portions it covers (servings null) — shown as "whole recipe". */
 export function wholeRecipeProtein(r: Recipe): number | null {
-  if (r.status !== 'complete' || r.per_portion.protein_g !== null) return null;
-  const last = r.protein_working[r.protein_working.length - 1] ?? '';
-  const m = last.match(/total[^\d]{0,6}(\d+(?:\.\d+)?)\s*g\b[^]*whole recipe/i);
-  return m ? Number(m[1]) : null;
+  if (r.per_portion.protein_g !== null || r.servings !== null) return null;
+  return r.stated_macros?.protein_g ?? null;
+}
+
+/** The numbers the macro card shows: per portion, or the creator's whole-recipe figures when no portion count. */
+export function shownNumbers(r: Recipe): { kcal: number | null; carbs_g: number | null; fat_g: number | null; fibre_g: number | null } {
+  const p = r.per_portion;
+  const s = wholeRecipeProtein(r) !== null ? r.stated_macros : null;
+  return s
+    ? { kcal: s.kcal ?? null, carbs_g: s.carbs_g ?? null, fat_g: s.fat_g ?? null, fibre_g: null }
+    : { kcal: p.kcal, carbs_g: p.carbs_g, fat_g: p.fat_g, fibre_g: p.fibre_g };
 }
 
 /** Protein to show: per portion when known, else the whole-recipe total, else null. */

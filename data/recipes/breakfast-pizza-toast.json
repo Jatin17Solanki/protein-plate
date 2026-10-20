@@ -1,0 +1,155 @@
+{
+  "id": "breakfast-pizza-toast",
+  "title": "Breakfast Pizza Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZ4vPpTM_Za/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#47"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_protein",
+    "mozzarella"
+  ],
+  "tags": [
+    "pizza",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "high-protein paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g High Protein Paneer (used ID)"
+    },
+    {
+      "item": "double protein bread",
+      "ingredient_id": "bread_protein",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 Slices Double Protein Bread (Used Protein Chef)"
+    },
+    {
+      "item": "pizza sauce",
+      "ingredient_id": "pizza_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2-3 tbsp Pizza Pasta Sauce"
+    },
+    {
+      "item": "sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Sweet Corn 1 tbsp"
+    },
+    {
+      "item": "mushrooms",
+      "ingredient_id": "mushroom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Mushrooms 2-3"
+    },
+    {
+      "item": "capsicum",
+      "ingredient_id": "capsicum",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Capsicum 3 tbsp"
+    },
+    {
+      "item": "onion slices",
+      "ingredient_id": "onion",
+      "qty": 5,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "Onion 5-6 slices"
+    },
+    {
+      "item": "mozzarella cheese",
+      "ingredient_id": "mozzarella",
+      "qty": 20,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "20-30g Mozzarella Cheese"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp olive oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt and pepper"
+    },
+    {
+      "item": "pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt and pepper"
+    }
+  ],
+  "steps": [
+    "Airfry the bread slices at 180 for 3-4 mins until you are chopping veggies.",
+    "Spread 1-1.5 tbsp Pizza Sauce on each slice.",
+    "Coat the paneer in 1/2 tsp olive oil, salt and pepper and add to the toasties.",
+    "Top with corn, mushrooms, capsicum and onion.",
+    "Add the mozzarella cheese on top.",
+    "Air fry at 180 for another 4-5 mins until cheese gets golden brown."
+  ],
+  "assumptions": [
+    "Makes 2 toasties; the caption doesn't say how many make a portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

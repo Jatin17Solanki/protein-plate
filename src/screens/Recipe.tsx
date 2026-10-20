@@ -6,7 +6,7 @@ import {
   clearTicks, getMyList, getNote, getReaction, getTicks, setNote, setOnMyList, setReaction, setTick, useStorage,
   type Reaction,
 } from '../lib/storage';
-import { PROTEINS, shownProtein } from '../lib/home';
+import { PROTEINS, shownNumbers, shownProtein } from '../lib/home';
 import { FilledIcon, UiIcon } from '../components/Icon';
 import { EditSheet } from '../components/EditSheet';
 import { ShareSheet } from '../components/ShareSheet';
@@ -161,6 +161,7 @@ function BackButton() {
 function MacroCard({ r }: { r: RecipeData }) {
   const p = r.per_portion;
   const shown = shownProtein(r);
+  const m = shownNumbers(r);
   const est = p.is_estimate;
   const cell = (v: number | null, label: string) => (
     <div class="macro-cell">
@@ -176,14 +177,14 @@ function MacroCard({ r }: { r: RecipeData }) {
           <div class="macro-caption">{shown.whole ? 'protein, whole recipe' : 'protein per portion'}</div>
         </div>
         <div class="macro-kcal">
-          <div class="num">{p.kcal === null ? '—' : Math.round(p.kcal)}</div>
+          <div class="num">{m.kcal === null ? '—' : Math.round(m.kcal)}</div>
           <div class="macro-caption">kcal</div>
         </div>
       </div>
       <div class="macro-row">
-        {cell(p.carbs_g, 'carbs')}
-        {cell(p.fat_g, 'fat')}
-        {cell(p.fibre_g, 'fibre')}
+        {cell(m.carbs_g, 'carbs')}
+        {cell(m.fat_g, 'fat')}
+        {cell(m.fibre_g, 'fibre')}
       </div>
       <p class="macro-note">{macroFootnote(r)}</p>
       {r.protein_working.length > 0 && (

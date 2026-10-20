@@ -1,0 +1,187 @@
+{
+  "id": "tofu-coconut-ramen",
+  "title": "Tofu Coconut Ramen",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeRaX6gTSPR/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#78"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "coconut_milk"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 20,
+    "kcal": 365,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "serves 1",
+    "protein_g": 20,
+    "kcal": 365
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "shirataki noodles",
+      "ingredient_id": "shirataki",
+      "qty": 0.5,
+      "unit": null,
+      "type": "grain",
+      "as_written": "½ packet shirataki noodles"
+    },
+    {
+      "item": "lite coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 120,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "120ml Real Thai Lite coconut milk"
+    },
+    {
+      "item": "Thai red curry paste",
+      "ingredient_id": "thai_curry_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Thai red curry paste"
+    },
+    {
+      "item": "garlic, chopped",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic cloves, chopped"
+    },
+    {
+      "item": "olive oil (curry)",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil for the curry"
+    },
+    {
+      "item": "zero calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp zero calorie sweetener"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100ml water, plus as required"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt as per taste"
+    },
+    {
+      "item": "boiled corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup boiled corn"
+    },
+    {
+      "item": "bok choy leaves",
+      "ingredient_id": "bok_choy",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Bok choy leaves"
+    },
+    {
+      "item": "tofu (firm)",
+      "ingredient_id": "tofu_firm",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100-120g tofu"
+    },
+    {
+      "item": "olive oil (tofu)",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil for cooking tofu"
+    },
+    {
+      "item": "gochujang sauce",
+      "ingredient_id": "gochujang",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp gochujang sauce"
+    },
+    {
+      "item": "mushrooms",
+      "ingredient_id": "mushroom",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 mushrooms"
+    },
+    {
+      "item": "broccoli florets, steamed",
+      "ingredient_id": "broccoli",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 brocolli florets steamed"
+    }
+  ],
+  "steps": [
+    "Heat 1 tsp olive oil in a pan and add the chopped garlic. Sauté until fragrant.",
+    "Add the Thai red curry paste and cook briefly.",
+    "Pour in the coconut milk and around 100ml water. Mix well and bring to a boil.",
+    "Add salt and the zero calorie sweetener. Stir well.",
+    "Add the boiled corn and shirataki noodles. Cover and cook for 7 to 8 minutes until the sauce reduces.",
+    "Add the bok choy leaves, cover and cook for another 2 minutes.",
+    "Meanwhile, grate the tofu.",
+    "Heat 1 tsp olive oil in a separate pan. Add the grated tofu and pan fry on both sides until golden brown.",
+    "Add the gochujang sauce and cook for another 4 to 5 minutes, stirring to coat the tofu.",
+    "Stirfry brocolli and mushroom with pepper and salt in a spray of oil.",
+    "Assemble the bowl and dig in."
+  ],
+  "assumptions": [
+    "Creator also states ~7 g fibre.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

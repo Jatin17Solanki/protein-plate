@@ -1,0 +1,186 @@
+{
+  "id": "cucumber-sushi-boats",
+  "title": "Cucumber Sushi Boats",
+  "source": {
+    "url": "https://www.instagram.com/reel/Db5oiioMm3r/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#72"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "skyr",
+    "chickpeas",
+    "cucumber"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 440
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cucumbers",
+      "ingredient_id": "cucumber",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 cucumbers"
+    },
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 80,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "80g cooked rice"
+    },
+    {
+      "item": "boiled chickpeas",
+      "ingredient_id": "chickpeas",
+      "qty": 80,
+      "unit": "g",
+      "grams": 32,
+      "type": "protein",
+      "as_written": "80g boiled chickpeas"
+    },
+    {
+      "item": "avocado",
+      "ingredient_id": "avocado",
+      "qty": 30,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "30g avocado"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "120g Skyr"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "jalapeño, finely chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 jalapeño (finely chopped)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "A pinch of sesame seeds"
+    },
+    {
+      "item": "Sriracha sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Sriracha sauce, as required"
+    },
+    {
+      "item": "soy sauce (dip)",
+      "ingredient_id": "soy_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Soy sauce"
+    },
+    {
+      "item": "water (dip)",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "A little water"
+    },
+    {
+      "item": "lemon juice (dip)",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon juice"
+    },
+    {
+      "item": "honey (dip)",
+      "ingredient_id": "honey",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "A little honey"
+    }
+  ],
+  "steps": [
+    "Cut the cucumbers in half lengthwise. Using a small spoon, scoop out the entire inner portion and clean them well to create cucumber boats.",
+    "Lightly mash the cooked rice until it becomes slightly sticky. Press and spread the rice evenly inside the cucumber boats.",
+    "In a bowl, add the boiled chickpeas, avocado, Skyr, chilli oil, chopped jalapeño, and salt. Mash everything together until you get a creamy mixture.",
+    "Spread the chickpea mixture evenly over the rice layer in each cucumber boat.",
+    "Sprinkle sesame seeds on top and drizzle with Sriracha.",
+    "Cut each cucumber half into 2–3 pieces to make bite-sized boats.",
+    "For the dipping sauce, mix soy sauce with a little water, lemon juice, and honey.",
+    "Serve the cucumber boats with the dipping sauce on the side, dip, and enjoy!"
+  ],
+  "assumptions": [
+    "Title from the caption's keywords (the post has no title).",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

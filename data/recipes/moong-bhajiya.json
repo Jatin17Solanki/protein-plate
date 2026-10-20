@@ -28,24 +28,19 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 21,
+    "protein_g": 19,
     "kcal": 360,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per serve (makes 2)",
     "protein_g": 19,
     "kcal": 360
   },
-  "protein_working": [
-    "150 g dry yellow moong dal × 23/100 g = 34.5 g",
-    "50 g skyr × 10/100 g = 5 g",
-    "20 g dry rice flour × 6/100 g = 1.2 g",
-    "Total ≈ 42.3 g ÷ 2 portions = 21.2 g per portion"
-  ],
+  "protein_working": [],
   "servings": 2,
   "ingredients": [
     {
@@ -200,12 +195,15 @@
     "For the dressing, mix 50g Skyr with 1 tbsp green chutney until smooth and creamy."
   ],
   "assumptions": [
-    "Soaking time differs in the caption: 3 hours in the ingredient list, 1 hour in the method.",
-    "150 g moong dal read as the dry weight.",
-    "Oil spray (2–3 sprays) counted as about 1 g of oil.",
     "Creator also states 11 g fibre per serve.",
     "Bhajiya has no format tag of its own; filed under kebab/tikki/cutlet for now."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "source_conflict",
+      "note": "Soaking time: 3 hours in the ingredient list, 1 hour in the method."
+    }
+  ]
 }

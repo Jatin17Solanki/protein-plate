@@ -1,0 +1,183 @@
+{
+  "id": "soyabean-toast",
+  "title": "Soyabean Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUYALrwjNUw/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#57"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat",
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 465
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "garlic, finely chopped",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic cloves, finely chopped"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies, chopped"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion, chopped"
+    },
+    {
+      "item": "bell peppers",
+      "ingredient_id": "capsicum",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp bell peppers"
+    },
+    {
+      "item": "boiled soyabean",
+      "ingredient_id": "soybeans",
+      "qty": 80,
+      "unit": "g",
+      "grams": 32,
+      "type": "protein",
+      "as_written": "80 g boiled soyabean"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt & black pepper to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt & black pepper to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "mixed herbs",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "½ tbsp Schezwan chutney"
+    },
+    {
+      "item": "cheese slice",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 slice cheese (optional)"
+    },
+    {
+      "item": "wholewheat bread, toasted",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices wholewheat bread, toasted"
+    }
+  ],
+  "steps": [
+    "Heat 1 tsp oil in a pan. Add chopped garlic and green chillies — sauté till fragrant.",
+    "Add onion and bell peppers. Cook for 1–2 minutes till slightly soft but still crunchy.",
+    "Add the boiled soyabean along with a splash of water.",
+    "Season with salt, pepper, red chilli powder and mixed herbs. Mix well.",
+    "Stir in ketchup + Schezwan chutney. Let it simmer for 2–3 minutes till everything comes together and looks glossy.",
+    "Add cheese on top (optional), cover the pan and let it melt for 3–4 minutes.",
+    "Spoon this spicy, saucy beans over toasted wholewheat bread."
+  ],
+  "assumptions": [
+    "Creator also states 9 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

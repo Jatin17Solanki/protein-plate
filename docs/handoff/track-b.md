@@ -1,28 +1,31 @@
 # Track B handoff — Data
 
-_Last updated: 2026-10-20 (B2a session)_
+_Last updated: 2026-10-20 (B2 complete)_
 
-**Done:**
-- B1 merged (PR 3): dictionary, prompt, data scripts, 10 recipes.
-- B2a (PR open): 20 more batch-1 entries (#2, 3, 7–21, 23–25) → 30 recipes. 3 incomplete (hara-bhara-kebab, chipotle-paneer-sandwich, soya-tikki — ingredients kept, no method). Dish groups: soya-tikki joins `soya-kebab`; `rajma-taco` (partner #46) and `protein-pasta` (partner #40) have one member each until B2b/B2c.
-- Dictionary 116 → 141 entries. Checker fixes: keycap step numbers (1️⃣), more headings skipped, hashtag-list filter no longer eats method sentences, title line excluded from the ingredient-mention check.
-- Review sheet: private repo `reviews/2026-10-20-B2a.md` (branch `claude/busy-noether-s5qjwo`).
+**Done:** all 80 entries of batch 1 are in `data/recipes/` (65 complete, 15 incomplete). Dictionary: 167 ingredients. Review sheets in the private repo (`reviews/`, branch `claude/busy-noether-s5qjwo`).
 
-**Next:** B2b — entries #26–34, 36–38, 40, 42–48. Give #40 `dish_group: "protein-pasta"` (label e.g. "lentil spaghetti") and #46 `"rajma-taco"`. Per chunk: write records (steps verbatim) → `check.ts --write` → `check.ts` → `fidelity.ts` → `dedupe.ts --batch …` → `review.ts --out ../protein-plate-raw/reviews/…`.
-
-**Rules now in force (Jatin, 2026-10-20):**
-- Steps = creator's exact words, formatting only; `fidelity.ts` fails anything else. Typos stay.
-- Servings only from an explicit count; otherwise null, no per-portion figure, "Servings…" in `missing[]`.
+**Rules in force (Jatin, 2026-10-20):**
+- Steps = the creator's exact words, formatting only (`fidelity.ts` enforces it).
+- Servings only from an explicit count.
+- Numbers = the creator's only. `per_portion` copies `stated_macros`; no estimate is ever shown. The dictionary estimate only picks main/supporting proteins.
+- `flags[]` marks what Jatin must look at; `check.ts --write` sets `no_macros`, `macros_basis_unclear`, `missing_details`, `no_main_protein` and keeps hand-added `source_conflict` / `other`. 62 of 80 recipes are flagged; `check.ts` prints the list.
 - No field-by-field review: Jatin reads recipes in the app and sends notes by title; trace via `source.ref`.
-- No creator macros → no figures from us; `check.ts --write` empties them and adds the "Macros: the creator gives none — Jatin to add." flag. Flagged now: rajma-tacos, silken-tofu-veggie-pancakes, tempeh-pav-bhaji, vegetable-moonglet (+ incomplete lasooni-dhaniya-paneer, chipotle-paneer-sandwich).
+
+**Next:**
+- B3 when Jatin sends the new compilation: dedupe against the catalog (`dedupe.ts --batch <file>`), correct creator credits where it names them, add new recipes the same way.
+- B6: resolve flags with Jatin. When he gives a fix, edit the recipe and remove the flag (hand-added) or fix the cause (auto flags disappear once the data is complete, e.g. add `servings`).
+- B4 (oats breakfast, My list seed) still open.
 
 **Gotchas:**
-- "Recipe by @x" = original creator; the post is by a reviewer account. Kept as `source.creator`. Jatin may send a new compilation with creator names.
-- Allowed fidelity warnings: promo lines, sub-recipe headings ("- guac"), creator tips on incomplete recipes. Anything else is a mistake.
-- Bare words map loosely: don't add aliases like "moong", "yogurt" or "cloves" (garlic cloves!) — use specific ones ("laung", "plain yogurt" was also dropped because search treats aliases as synonyms).
-- Boiled/soaked pulses: keep `qty`, put dry estimate in `grams` (cooked ≈ 2.5× dry; soaked moong ≈ 2× dry).
-- Scratch generator pattern: a Python file with `I()`/`R()` helpers writing `data/recipes/*.json`, then `check.ts --write`.
+- "Recipe by @x" = original creator; the post is by a reviewer account. Credited as is for now.
+- Allowed fidelity warnings: promo lines ("Should I do more…?"), headings, creator tips on incomplete recipes, "also works with" lists. Anything else is a mistake.
+- Aliases: avoid bare generic words ("moong", "methi", "yogurt", "cloves"); search treats aliases as synonyms. Plurals like leaf→leaves need their own alias.
+- Ingredients only named in the method get added with no amount; sub-recipes keep the part in brackets ("(dressing)").
+- Scratch generator pattern: Python `I()`/`R()` helpers write `data/recipes/*.json`, then `check.ts --write`.
 
-**For Track A:** complete recipes can now have no protein at all (creator gave no macros) — show "Macros not given" rather than "—"; their `missing[]` flag is only shown on incomplete recipes today. Also: show whole-recipe protein when `per_portion.protein_g` is null (last `protein_working` line); show ingredients by `as_written`; search synonym expansion is broad (multi-word aliases); possible tags: fritter/pakora (moong bhajiya), poha.
-
-**Open questions for Jatin:** wait for the new compilation before B2b? (see PR)
+**For Track A:**
+- Admin list of flagged recipes (Jatin's request): list recipes with `flags[]` (code + note) and incomplete ones, link to each recipe; flags are removed in data commits (no server).
+- Recipe page: when `per_portion` is null show "Macros not given"; when `macros_basis_unclear`, show the creator's basis (the footnote already does).
+- `main_proteins` can be empty → tile colour fallback.
+- Theme switch (A5) — Jatin asked how to switch to light mode.
+- Optional: `stated_macros.fibre_g`; tags for fritter/pakora, poha, upma.

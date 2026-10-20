@@ -1,0 +1,251 @@
+{
+  "id": "dahi-tadka-sandwich",
+  "title": "Dahi Tadka Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DU26_t_jBOX/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#55"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "bread_whole_wheat",
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 560
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "wholewheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 Slices Wholewheat Bread"
+    },
+    {
+      "item": "high-protein paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g High Protein Paneer (I used Milky Mist)"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp green chutney"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp Schezwan chutney"
+    },
+    {
+      "item": "cucumber slices",
+      "ingredient_id": "cucumber",
+      "qty": 5,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "5-6 Cucumber and Tomato Slices"
+    },
+    {
+      "item": "tomato slices",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "5-6 Cucumber and Tomato Slices"
+    },
+    {
+      "item": "cheese slice",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 slice cheese (optional)"
+    },
+    {
+      "item": "roasted besan",
+      "ingredient_id": "besan",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1.5 Tbsp Roasted Besan"
+    },
+    {
+      "item": "Greek yogurt or skyr",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Greek Yogurt/Skyr"
+    },
+    {
+      "item": "onion, thinly sliced",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Thinly Sliced Onion"
+    },
+    {
+      "item": "dhaniya",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Dhaniya"
+    },
+    {
+      "item": "green chilli, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Spices (Salt, Red Chilli Powder, Aamchur, Pepper, Pinch of Haldi)"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Spices (Salt, Red Chilli Powder, Aamchur, Pepper, Pinch of Haldi)"
+    },
+    {
+      "item": "aamchur",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Spices (Salt, Red Chilli Powder, Aamchur, Pepper, Pinch of Haldi)"
+    },
+    {
+      "item": "pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Spices (Salt, Red Chilli Powder, Aamchur, Pepper, Pinch of Haldi)"
+    },
+    {
+      "item": "haldi",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Spices (Salt, Red Chilli Powder, Aamchur, Pepper, Pinch of Haldi)"
+    },
+    {
+      "item": "ghee (tadka)",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 Tsp Ghee"
+    },
+    {
+      "item": "jeera (tadka)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Jeera"
+    },
+    {
+      "item": "mustard seeds (tadka)",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Mustard"
+    },
+    {
+      "item": "curry leaves (tadka)",
+      "ingredient_id": "curry_leaves",
+      "qty": 7,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "7-8 Curry Leaves"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/2 cup water"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "some oil"
+    }
+  ],
+  "steps": [
+    "Mix the Besan, Onion, Greek Yogurt, Dhaniya, Spices, 1/2 cup water and add ths sizzling tadka.",
+    "Mix well and dunk your bread into the batter.",
+    "Add some oil on the pan, and pan fry the bread until golden brown on all sides.",
+    "Once the bread slices are toasted, layer with the chutneys, cheese, paneer and veggies!"
+  ],
+  "assumptions": [
+    "Greek yogurt or skyr is listed as Greek yogurt.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

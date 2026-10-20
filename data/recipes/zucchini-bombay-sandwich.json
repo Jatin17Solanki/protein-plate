@@ -1,0 +1,208 @@
+{
+  "id": "zucchini-bombay-sandwich",
+  "title": "Zucchini Bombay Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaXtH-IsYUK/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#44"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "mozzarella"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 35,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per sandwich (makes 1)",
+    "protein_g": 35,
+    "kcal": 470
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "yellow zucchini, thin slices",
+      "ingredient_id": "zucchini",
+      "qty": 9,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "9 thin slices of yellow zucchini"
+    },
+    {
+      "item": "green zucchini, thin slices",
+      "ingredient_id": "zucchini",
+      "qty": 9,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "9 thin slices of green zucchini"
+    },
+    {
+      "item": "low-fat paneer, grated",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60-70g low-fat paneer, grated"
+    },
+    {
+      "item": "mozzarella cheese, grated",
+      "ingredient_id": "mozzarella",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50–60g mozzarella cheese, grated"
+    },
+    {
+      "item": "potato (medium, aloo masala)",
+      "ingredient_id": "potato",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "optional": true,
+      "as_written": "½ potato medium size"
+    },
+    {
+      "item": "cumin seeds (aloo masala)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "1 tsp jeera (cumin seeds)"
+    },
+    {
+      "item": "mustard seeds (aloo masala)",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "1 tsp rai (mustard seeds)"
+    },
+    {
+      "item": "curry leaves (aloo masala)",
+      "ingredient_id": "curry_leaves",
+      "qty": 8,
+      "unit": "piece",
+      "type": "spice",
+      "optional": true,
+      "as_written": "8–10 curry leaves"
+    },
+    {
+      "item": "red chilli powder (aloo masala)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder (aloo masala)",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "salt (aloo masala)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "optional": true,
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "cucumber slices",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Cucumber slices"
+    },
+    {
+      "item": "onion slices",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Onion slices"
+    },
+    {
+      "item": "tomato slices",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Tomato slices"
+    },
+    {
+      "item": "beetroot slices",
+      "ingredient_id": "beetroot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Beetroot slices"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "½ tbsp green chutney"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp schezwan chutney"
+    }
+  ],
+  "steps": [
+    "Heat a non-stick pan. Sprinkle grated mozzarella and low-fat paneer in a square shape.",
+    "Arrange the zucchini slices on top of it, slightly overlapping.",
+    "Then add another thin layer of cheese and paneer on top.",
+    "Cook until the bottom is golden brown and crispy, then carefully flip and cook the other side.",
+    "Let both zucchini slices cool for a few minutes so they become firm before assembling.",
+    "Spread ½ tbsp green chutney on one slice, then layer the aloo masala, cucumber, onion, tomato, and beetroot.",
+    "Place the second zucchini slice on top.",
+    "Please wrap it up and then cut the sandwich into slices or the fillings will explode.",
+    "Top with sev if feeling fancy."
+  ],
+  "assumptions": [
+    "The aloo masala filling is optional."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

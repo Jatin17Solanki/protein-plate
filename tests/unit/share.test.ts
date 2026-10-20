@@ -28,8 +28,9 @@ describe('shareMessage (DESIGN §6 format)', () => {
 
   it('whole-recipe total and missing kcal are said plainly; no video line without a URL', () => {
     const r = load('protein-oats');
+    r.servings = null;
     r.per_portion = { ...r.per_portion, protein_g: null, kcal: null };
-    r.protein_working.push('Total ≈ 36.9 g for the whole recipe (portions not stated)');
+    r.stated_macros = { basis: 'whole recipe (servings not stated)', protein_g: 36.9, kcal: null };
     const msg = shareMessage(r, { ingredients: false, steps: false, note: null }, SITE);
     expect(msg).toBe('*Protein Oats*\n37 g protein for the whole recipe\n\nFull recipe: https://example.github.io/protein-plate/r/protein-oats/');
     expect(shareMessage(load('rajma-rice-bowl'), { ingredients: false, steps: false, note: null }, SITE)).toContain('21 g protein per portion');

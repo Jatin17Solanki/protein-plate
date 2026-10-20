@@ -1,0 +1,167 @@
+{
+  "id": "protein-spaghetti",
+  "title": "Protein Spaghetti",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbdLdvKTBOI/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#40"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "dinner"
+    ],
+    "stated_by_user": [
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "lentil_pasta"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": "protein-pasta",
+  "variant_label": "lentil spaghetti",
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe; the creator says it can be divided into 2 servings",
+    "protein_g": 35,
+    "kcal": 570
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "lentil spaghetti",
+      "ingredient_id": "lentil_pasta",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g Lentil Spaghetti"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g low fat/toned milk paneer"
+    },
+    {
+      "item": "onions, thinly sliced",
+      "ingredient_id": "onion",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1½ medium onions, thinly sliced"
+    },
+    {
+      "item": "mushrooms, sliced",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mushrooms, sliced"
+    },
+    {
+      "item": "garlic, minced",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Garlic, minced"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "sauce",
+      "as_written": "Chilli oil, to taste"
+    },
+    {
+      "item": "cheese, grated",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Cheese grated 1 tbsp"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener, to taste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper, to taste"
+    },
+    {
+      "item": "fresh basil leaves",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh basil leaves"
+    }
+  ],
+  "steps": [
+    "Boil the spaghetti according to the package instructions. Reserve the pasta water and drain the spaghetti.",
+    "Heat the olive oil in a pan over medium heat. Add the sliced onions and cook until lightly browned.",
+    "Add a splash of water and continue cooking. Repeat this process 2–3 times until the onions become deeply caramelized.",
+    "Add the garlic and mushrooms. Cook for 1–2 minutes, then pour in a splash of the reserved pasta water and let the mushrooms cook until tender.",
+    "Season with chilli oil, salt, black pepper, and zero-calorie sweetener.",
+    "Blend the low-fat paneer with water until completely smooth. Pour the paneer sauce into the pan with the flame at lowest and mix well.",
+    "Add the cooked spaghetti and toss until everything is evenly coated. Add more reserved pasta water if needed to adjust the consistency.",
+    "Finish with cheese, garnish with fresh basil leaves, and serve hot."
+  ],
+  "assumptions": [
+    "'Low fat/toned milk paneer' is listed as low-fat paneer.",
+    "Creator also states 9 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe; the creator says it can be divided into 2 servings\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -34,20 +34,14 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe, kebabs + dip (servings not stated)",
     "protein_g": 30,
     "kcal": null
   },
-  "protein_working": [
-    "35 g dry soya chunks × 52/100 g = 18.2 g",
-    "\"1 cup fresh peas\" ≈ 145 g green peas × 5.4/100 g = 7.8 g",
-    "\"1 small chopped onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "\"1/2 slice of bread\" ≈ 14 g bread × 8/100 g = 1.1 g",
-    "Total ≈ 31 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -240,12 +234,20 @@
     "Serve with greek yogurt for more protein. Top the yogurt with red chilli powder, chaat masala and pomegranate (my star ingredient which goes so well with these)."
   ],
   "assumptions": [
-    "'Chillies' read as green chillies.",
-    "Greek yogurt for the dip is not in the protein estimate (amount not given)."
+    "'Chillies' read as green chillies."
   ],
   "missing": [
-    "Amount of Greek yogurt for the dip.",
-    "Servings: the caption doesn't say how many portions this makes."
+    "Amount of Greek yogurt for the dip."
   ],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe, kebabs + dip (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amount of Greek yogurt for the dip."
+    }
+  ]
 }

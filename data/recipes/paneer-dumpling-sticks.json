@@ -1,0 +1,164 @@
+{
+  "id": "paneer-dumpling-sticks",
+  "title": "Paneer Dumpling Sticks",
+  "source": {
+    "url": "https://www.instagram.com/p/DG51QJsPrcP/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#76"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "rice_paper"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 carrot"
+    },
+    {
+      "item": "cabbage",
+      "ingredient_id": "cabbage",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup cabbage"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves garlic"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "type": "produce",
+      "as_written": "1 inch ginger"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/2 cup paneer"
+    },
+    {
+      "item": "rice papers",
+      "ingredient_id": "rice_paper",
+      "qty": 5,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "5-6 rice papers @realthaiindia"
+    },
+    {
+      "item": "mozzarella cheese",
+      "ingredient_id": "mozzarella",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "Mozzarella cheese"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp black pepper"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "2 tsp soy sauce"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "some oil"
+    },
+    {
+      "item": "chilli oil (garnish)",
+      "ingredient_id": "chilli_oil",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "chilli oil"
+    },
+    {
+      "item": "spring onion or coriander (garnish)",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "spring onion or coriander"
+    }
+  ],
+  "steps": [
+    "Finely chop carrots, cabbage, onion, garlic, ginger and paneer. Add in mozzarella cheese, pepper and soy sauce and mix well. Set aside.",
+    "Pour water in a plate. Dip the rice paper on both sides until well hydrated.",
+    "Place it on a plate. Add the filling. Roll it up. Cook on a pan with some oil.",
+    "Garnish with chilli oil and spring onion or coriander. Serve hot with any chilli garlic dip. Enjoi!"
+  ],
+  "assumptions": [
+    "Spring onion or coriander is listed as spring onion.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

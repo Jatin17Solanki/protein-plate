@@ -27,27 +27,19 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 26,
-    "kcal": 400,
+    "protein_g": 25,
+    "kcal": 430,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "serves 1",
     "protein_g": 25,
     "kcal": 430
   },
-  "protein_working": [
-    "30 g dry soya granules × 52/100 g = 15.6 g",
-    "7 g pumpkin seeds × 30/100 g = 2.1 g",
-    "\"¼ cup green peas\" ≈ 36.3 g green peas × 5.4/100 g = 2 g",
-    "25 g dry poha (flattened rice) × 7/100 g = 1.8 g",
-    "\"1/4-1/2 cup sprouts\" ≈ 25 g moong sprouts × 7/100 g = 1.8 g",
-    "5 g peanuts × 25/100 g = 1.3 g",
-    "Total ≈ 25.9 g per portion"
-  ],
+  "protein_working": [],
   "servings": 1,
   "ingredients": [
     {
@@ -223,12 +215,16 @@
     "Garnish with onion and sev."
   ],
   "assumptions": [
-    "Soya granules: 30 g in the list, 25 g in the method; the estimate uses 30 g.",
-    "Ranges (25–30 g poha, ¼–½ cup sprouts): the lower amount is used in the estimate.",
     "Creator also states ~10 g fibre.",
     "Poha has no format tag of its own.",
     "Quick: about 20 minutes hands-on (our estimate)."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "source_conflict",
+      "note": "Soya granules: 30 g in the ingredient list, 25 g in the method."
+    }
+  ]
 }

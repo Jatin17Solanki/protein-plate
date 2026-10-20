@@ -1,0 +1,205 @@
+{
+  "id": "soya-chukauni",
+  "title": "Soya Chukauni",
+  "source": {
+    "url": "https://www.instagram.com/p/DchutARzEP5/",
+    "platform": "instagram",
+    "creator": "myflavourfuljourney",
+    "creator_url": "https://www.instagram.com/myflavourfuljourney/",
+    "ref": "batches/2026-10-16-batch1.txt#32"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 494,
+    "carbs_g": 30,
+    "fat_g": 25,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 2)",
+    "protein_g": 40,
+    "kcal": 494,
+    "carbs_g": 30,
+    "fat_g": 25
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "raw soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g raw soya chunks"
+    },
+    {
+      "item": "salt (for boiling)",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric"
+    },
+    {
+      "item": "chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger-garlic paste"
+    },
+    {
+      "item": "onion, sliced",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 sliced onion"
+    },
+    {
+      "item": "green chilli, sliced",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 sliced green chilli"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "A handful of freshly chopped coriander"
+    },
+    {
+      "item": "high-protein Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 250,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "250g high-protein Greek yogurt"
+    },
+    {
+      "item": "salt (yogurt)",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "garlic, finely chopped",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 finely chopped garlic cloves"
+    },
+    {
+      "item": "mustard oil (tadka)",
+      "ingredient_id": "mustard_oil",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp mustard oil"
+    },
+    {
+      "item": "turmeric (tadka)",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric"
+    },
+    {
+      "item": "red chilli powder (tadka)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "kasuri methi (tadka)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    }
+  ],
+  "steps": [
+    "Boil 100g raw soya chunks with 1 tsp salt for 5 minutes. Drain, let them cool slightly, then squeeze out the water.",
+    "To a pan on medium heat, add: 1 tbsp ghee, ¼ tsp turmeric, 1 tsp chilli powder, 1 tsp coriander powder, 1 tsp ginger-garlic paste.",
+    "Mix well, then add the boiled soya chunks and sauté for about 3 minutes.",
+    "Now add 1 sliced onion, 1 sliced green chilli, a handful of freshly chopped coriander.",
+    "Mix everything well and set aside.",
+    "In a separate bowl, add 250g high-protein Greek yogurt, ½ tsp salt, 3 finely chopped garlic cloves.",
+    "Mix until well combined.",
+    "For the tadka heat 3 tbsp mustard oil in a small pan until it just starts to smoke, then switch off the heat.",
+    "Add ¼ tsp turmeric, 1 tsp red chilli powder, 1 tsp kasuri methi.",
+    "Pour the hot tadka into the yogurt and mix well.",
+    "Finally, pour the yogurt mixture over the soya chunks, mix everything together, and your Soya Chukani is ready to serve!"
+  ],
+  "assumptions": [
+    "Creator also states 9 g fibre per serve.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

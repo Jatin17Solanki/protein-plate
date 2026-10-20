@@ -1,0 +1,226 @@
+{
+  "id": "bread-pakoda-sandwich",
+  "title": "Bread Pakoda Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/p/DMM5fCLSZzj/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#27"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "besan"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per sandwich, 'nearly 30 grams' (servings not stated)",
+    "protein_g": 30,
+    "kcal": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/2 cup besan"
+    },
+    {
+      "item": "yoghurt (curd)",
+      "ingredient_id": "curd",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 to 3 tbsp yoghurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/2 cup water & a little salt"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "1/2 cup water & a little salt"
+    },
+    {
+      "item": "mixed veggies",
+      "ingredient_id": "mixed_vegetables",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mixed veggies - carrots, onion, tomato, chillies & coriander"
+    },
+    {
+      "item": "carrots",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mixed veggies - carrots, onion, tomato, chillies & coriander"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mixed veggies - carrots, onion, tomato, chillies & coriander"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mixed veggies - carrots, onion, tomato, chillies & coriander"
+    },
+    {
+      "item": "chillies",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mixed veggies - carrots, onion, tomato, chillies & coriander"
+    },
+    {
+      "item": "coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mixed veggies - carrots, onion, tomato, chillies & coriander"
+    },
+    {
+      "item": "paneer (per sandwich)",
+      "ingredient_id": "paneer",
+      "qty": 45,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "45 g Paneer for every Sandwich"
+    },
+    {
+      "item": "cheese cube",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1 cube of cheese"
+    },
+    {
+      "item": "blanched spinach",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Some blanched spinach"
+    },
+    {
+      "item": "corn",
+      "ingredient_id": "sweet_corn",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Some corn"
+    },
+    {
+      "item": "salt (filling)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt, pepper & chilli flakes"
+    },
+    {
+      "item": "pepper (filling)",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt, pepper & chilli flakes"
+    },
+    {
+      "item": "chilli flakes (filling)",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt, pepper & chilli flakes"
+    },
+    {
+      "item": "bread",
+      "ingredient_id": "bread",
+      "qty": 4,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "4 Slices of Bread"
+    },
+    {
+      "item": "chutney (green chutney)",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Chutney & chilli garlic sauce"
+    },
+    {
+      "item": "chilli garlic sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Chutney & chilli garlic sauce"
+    }
+  ],
+  "steps": [],
+  "assumptions": [
+    "Creator's tips: weigh the ingredients if you're on a diet; homemade sauces are best; cook the bread with enough batter and veggies for the most protein.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Method (the caption lists ingredients only)"
+  ],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"per sandwich, 'nearly 30 grams' (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Method (the caption lists ingredients only)"
+    }
+  ]
+}

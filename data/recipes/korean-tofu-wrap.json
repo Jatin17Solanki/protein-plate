@@ -30,25 +30,19 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 21,
+    "protein_g": 24.8,
     "kcal": 390,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per wrap (makes 1)",
     "protein_g": 24.8,
     "kcal": 390
   },
-  "protein_working": [
-    "120 g firm tofu × 10/100 g = 12 g",
-    "50 g Greek yogurt × 9/100 g = 4.5 g",
-    "\"3 Urban Platter Rice Papers\" ≈ 27 g dry rice paper × 6/100 g = 1.6 g",
-    "\"1 tbsp Soy Sauce\" ≈ 16 g soy sauce × 8/100 g = 1.3 g",
-    "Total ≈ 20.8 g per portion"
-  ],
+  "protein_working": [],
   "servings": 1,
   "ingredients": [
     {
@@ -217,5 +211,6 @@
     "Quick: about 20 minutes hands-on (our estimate)."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": []
 }

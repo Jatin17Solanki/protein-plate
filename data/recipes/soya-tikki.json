@@ -33,7 +33,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe (servings not stated)",
@@ -93,8 +93,17 @@
     "Meal types are our guess."
   ],
   "missing": [
-    "Method and spices; the tips mention frying in ghee",
-    "Servings"
+    "Method and spices; the tips mention frying in ghee"
   ],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Method and spices; the tips mention frying in ghee"
+    }
+  ]
 }

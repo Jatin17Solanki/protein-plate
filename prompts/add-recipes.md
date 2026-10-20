@@ -34,17 +34,19 @@ Lines like `Notes: breakfast, self cook` and section headings like `AIR FRYER:` 
 - `source.ref`: `<batch file>#<entry number>`, e.g. `batches/2026-10-16-batch1.txt#12`. Entry N = the Nth line in the batch file that holds a link.
 - `title`: the dish name in plain Title Case, no emoji or "Recipe ⬇️" (e.g. "Tempeh Pav Bhaji"). `id`: kebab-case of the title; never change it later.
 
-## 4. Portions and nutrition (per one person's portion)
-- `servings` = portions the ingredient list makes, **only as the creator states it** ("serves 3", "makes 2", "batter makes 10" with per-chilla macros → 10). If the caption doesn't say, `servings: null`, `per_portion` protein/kcal `null`, and add "Servings: the caption doesn't say how many portions this makes." to `missing[]`. Never guess a portion; the working then gives the whole-recipe total.
-- `stated_macros`: the creator's numbers exactly, with `basis` in their terms ("per serving (serves 3)", "per chilla (batter makes 10)", "whole recipe"). `null` if none.
-- `per_portion`: **our** estimate (`is_estimate: true`) — protein and kcal from the ingredients ÷ servings (`null` when servings aren't stated). Leave carbs/fat/fibre `null` unless you computed them.
-- **If the creator gives no macros, we give no numbers either**: `stated_macros: null`, `per_portion` protein/kcal `null`, `protein_working: []`, and `missing[]` gets "Macros: the creator gives none — Jatin to add." Jatin fills these in himself. `check.ts --write` does this and lists the flagged recipes.
-- Weights: dal, soya and pulses use **dry weight**. When the source says boiled/soaked/cooked, keep its `qty` and put the dry-weight estimate in `grams`, with an assumption (100 g boiled chana ≈ 40 g dry). Use `grams` for anything whose unit can't be weighed from the dictionary's `unit_grams` (1 scoop whey ≈ 30 g).
-- `protein_working`: one line per protein source, e.g. `35 g dry soya chunks × 52/100 g = 18.2 g`, then the total ÷ servings.
-- In the repo, don't do the maths by hand: fill `ingredients[]` (with `grams` where needed), then run `npx tsx scripts/data/check.ts --write`. It computes `per_portion` protein/kcal, `protein_working`, `main_proteins` and `supporting_proteins` from the dictionary.
-- If our estimate and the creator's differ by more than 20 % for the same portion, say why in `assumptions[]`.
+## 4. Portions and nutrition — the creator's numbers only (Jatin, 2026-10-20)
+- **We never show our own estimate.** Portions differ (3 chapatis or 4?), so a calculated figure would look like real data.
+- `servings` = portions the ingredient list makes, **only as the creator states it** ("serves 3", "makes 2", "makes 1 serving", "batter makes 10" with per-chilla macros → 10). Otherwise `null`.
+- `stated_macros`: the creator's numbers exactly, with `basis` in their terms ("per serving (serves 3)", "per chilla (batter makes 10)", "whole recipe (servings not stated)"). `null` if none. A stated fibre figure goes in `assumptions[]` ("Creator also states 11 g fibre.").
+- `per_portion` = the creator's numbers copied from `stated_macros` (`is_estimate: false`); all `null` when the creator gives none. `protein_working: []`. `check.ts --write` fills both.
+- **Flags** (`flags[]`) tell Jatin what to look at; he resolves them one by one later. `check.ts --write` sets these automatically:
+  - `no_macros`: the creator gives no macros.
+  - `macros_basis_unclear`: the creator gives numbers, but the caption doesn't say how many portions they cover.
+  - `missing_details`: anything listed in `missing[]` (no amount for an ingredient, no method…).
+  Add by hand, with a short note: `source_conflict` when the caption contradicts itself (3 h soak in the list, 1 h in the method), `other` for anything else that needs Jatin. Hand-added flags are kept.
+- Weights (`grams`, dry weights for dal/soya/pulses) are only used behind the scenes to pick main/supporting proteins. Don't explain them in `assumptions[]`; assumptions are for the reader (e.g. "'2 garlic' read as 2 cloves").
 
-Protein per 100 g (approx.): dry soya 52 · paneer 18 · low-fat paneer 25 · firm tofu 10 · silken tofu 5 · tempeh 19 · dry dals 23 · besan 22 · dry chole/kala chana 19 · dry rajma 22 · curd 3.5 · Greek yogurt 9 · skyr 10 · milk 3.3 · cheese 22 · peanuts 25 · oats 13 · sattu 20 · whey 78. Use the pack value when a brand is named; protein bread without a pack value = 15 and flag it.
+Protein per 100 g (approx.): dry soya 52 · paneer 18 · low-fat paneer 25 · firm tofu 10 · silken tofu 5 · tempeh 19 · dry dals 23 · besan 22 · dry chole/kala chana 19 · dry rajma 22 · curd 3.5 · Greek yogurt 9 · skyr 10 · milk 3.3 · cheese 22 · peanuts 25 · oats 13 · sattu 20 · whey 78. Used only to classify main proteins (the dictionary holds these values).
 
 ## 5. Categorise
 - **Main proteins** (`paneer, soya, tofu, tempeh, pulses, whey`): every group supplying **≥ 35 %** of the recipe's protein, larger first. Pulses = chana, rajma, moong, masoor, toor, kala chana, chickpeas, besan, sattu, sprouts, lentil pasta. Soya = chunks, granules, soybeans. If nothing reaches 35 %, leave it empty and flag it for Jatin.
@@ -75,11 +77,11 @@ npx tsx scripts/data/review.ts --out ../protein-plate-raw/reviews/<date>-<phase>
 The review sheet quotes raw captions, so it goes in the **private** raw repo; link it from the PR.
 
 ## Output
-A JSON array of records (or one file per record in `data/recipes/`), each matching the schema exactly — no extra fields. Example of one ingredient and the working:
+A JSON array of records (or one file per record in `data/recipes/`), each matching the schema exactly — no extra fields. Example of one ingredient and a flag:
 
 ```json
 { "item": "boiled black chana", "ingredient_id": "kala_chana", "qty": 100, "unit": "g", "grams": 40, "type": "protein", "as_written": "100g Boiled black Channa" }
 ```
 ```json
-"protein_working": ["100 g low-fat paneer × 25/100 g = 25 g", "\"100g Boiled black Channa\" ≈ 40 g dry black chickpeas (kala chana) × 19/100 g = 7.6 g", "Total ≈ 46.9 g per portion"]
+"flags": [{ "code": "source_conflict", "note": "Soaking time: 3 hours in the ingredient list, 1 hour in the method." }]
 ```

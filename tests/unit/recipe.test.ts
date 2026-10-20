@@ -64,7 +64,13 @@ describe('tagChips', () => {
 
 describe('macroFootnote', () => {
   it('creator numbers used as is', () => {
-    expect(macroFootnote(byId('soya-pea-kebab'))).toBe('Protein and kcal as stated by the creator. Carbs, fat and fibre not known.');
+    expect(macroFootnote(byId('soya-pea-kebab'))).toBe('As stated by the creator (per portion). Carbs, fat and fibre not known.');
+  });
+  it('creator gives no macros', () => {
+    const r = byId('soya-pea-kebab');
+    r.stated_macros = null;
+    r.per_portion = { ...r.per_portion, protein_g: null, kcal: null };
+    expect(macroFootnote(r)).toBe('The creator gives no macros.');
   });
   it('estimate with the creator figure alongside', () => {
     expect(macroFootnote(byId('paneer-tikka-wrap'))).toBe('Our estimate; the creator says 40 g protein and 500 kcal (per wrap). Fibre not known.');

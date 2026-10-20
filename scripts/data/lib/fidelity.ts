@@ -90,7 +90,10 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   if (content.length <= 1 || placeholder) {
     if (r.status !== 'incomplete') errors.push('raw entry has no recipe text, so the recipe must be status "incomplete"');
     if (!placeholder) errors.push('raw entry has no recipe text but the recipe has ingredients or steps');
-    if (placeholder && content.length > 1) errors.push('raw entry has recipe text but the recipe has no ingredients or steps');
+    // Text without a recipe ("full recipe on my website") is fine if the gap is listed in missing[].
+    if (placeholder && content.length > 1 && !(r.status === 'incomplete' && r.missing.length)) {
+      errors.push('raw entry has recipe text but the recipe has no ingredients or steps');
+    }
     return { errors, warnings };
   }
 
@@ -102,7 +105,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
 
   // 0b. Nothing dropped: every recipe line of the caption shows up in a step or an ingredient.
   const stepWords = ` ${wordsOnly(r.steps.join(' \n '))} `;
-  const ingWords = r.ingredients.map((g) => ` ${wordsOnly(g.as_written)} `);
+  const ingWords = r.ingredients.map((g) => ` ${wordsOnly(stripNoise(g.as_written))} `);
   content.forEach((line, i) => {
     const w = wordsOnly(stripNoise(line));
     const t = normalizeText(stripNoise(line)).replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}:–-]+$/gu, '');

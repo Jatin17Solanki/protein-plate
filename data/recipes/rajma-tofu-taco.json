@@ -1,0 +1,200 @@
+{
+  "id": "rajma-tofu-taco",
+  "title": "Rajma Tofu Taco",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaAkBa1MZ5j/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#46"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "tofu_firm",
+    "tortilla_whole_wheat",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "global"
+  ],
+  "dish_group": "rajma-taco",
+  "variant_label": "with tofu & salsa",
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 422
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "boiled rajma",
+      "ingredient_id": "rajma",
+      "qty": 100,
+      "unit": "g",
+      "grams": 40,
+      "type": "protein",
+      "as_written": "Boiled rajma – 100g"
+    },
+    {
+      "item": "tofu (firm)",
+      "ingredient_id": "tofu_firm",
+      "qty": 70,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Tofu - 70-80g"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red chilli powder – ½ tsp"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – ¼ tsp"
+    },
+    {
+      "item": "jeera (cumin) powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Jeera powder – ½ tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Schezwan chutney – 1 tsp"
+    },
+    {
+      "item": "whole wheat tortilla or chapati",
+      "ingredient_id": "tortilla_whole_wheat",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "Whole wheat tortilla or chapati – 1"
+    },
+    {
+      "item": "oil (for cooking)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Oil – 1 tsp (for cooking)"
+    },
+    {
+      "item": "Greek yogurt (sauce)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Greek yogurt – 2–3 tbsp"
+    },
+    {
+      "item": "chilli sauce (sauce)",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Chilli sauce – 1 tbsp"
+    },
+    {
+      "item": "tomato, finely chopped (salsa)",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Tomato – 2-3 tbsp finely chopped"
+    },
+    {
+      "item": "fresh coriander (salsa)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Fresh coriander – a handful"
+    },
+    {
+      "item": "lemon juice (salsa)",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Lemon juice – 1 tbsp"
+    },
+    {
+      "item": "ketchup (salsa)",
+      "ingredient_id": "ketchup",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "optional": true,
+      "as_written": "Ketchup – ½ tbsp (optional)"
+    },
+    {
+      "item": "salt (salsa)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "Mash the boiled rajma and tofu together with chilli powder, pepper, jeera powder, salt, and schezwan chutney until well combined.",
+    "Slightly cook the tortilla on one side. Flip, spread the rajma–tofu mixture evenly on the cooked side, drizzle a little oil, and cook until golden and slightly crispy on both sides.",
+    "Mix Greek yogurt and chilli sauce to make a quick creamy sauce.",
+    "In another bowl, mix tomato, coriander, lemon juice, ketchup, and salt to make the salsa.",
+    "Layer the sauce and salsa over the tortilla, fold into half, cut, and serve hot."
+  ],
+  "assumptions": [
+    "Tortilla or chapati is listed as tortilla.",
+    "Creator also states 11 g fibre.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

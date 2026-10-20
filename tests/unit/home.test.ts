@@ -144,11 +144,11 @@ describe('whole-recipe protein (no portion count)', () => {
     const r = structuredClone(recipes.find((x) => x.id === id)!);
     r.servings = null;
     r.per_portion = { ...r.per_portion, protein_g: null, kcal: null };
-    r.protein_working = [...r.protein_working, `Total ≈ ${total} g for the whole recipe (portions not stated)`];
+    r.stated_macros = { basis: 'whole recipe (servings not stated)', protein_g: total, kcal: null };
     return r;
   };
 
-  it('reads the total from the last working line; null for incomplete or per-portion recipes', () => {
+  it("uses the creator's figure when no portion count is given; null when there is one or no figure", () => {
     expect(wholeRecipeProtein(noPortions('besan-chilla', 47.2))).toBe(47.2);
     expect(wholeRecipeProtein(recipes.find((x) => x.id === 'besan-chilla')!)).toBeNull();
     expect(wholeRecipeProtein(recipes.find((x) => x.id === 'lasooni-dhaniya-paneer')!)).toBeNull();

@@ -21,6 +21,8 @@ export interface Pair {
 export const TITLE_THRESHOLD = 0.5;
 export const OVERLAP_THRESHOLD = 0.6;
 export const VARIANT_THRESHOLD = 0.5;
+/** A variant shares at least this many key ingredients (one shared paneer is not a variant). */
+export const MIN_SHARED = 3;
 
 /** Ingredient types that define a dish; spices and pantry staples are shared by everything. */
 const DEFINING = new Set(['protein', 'dairy', 'grain', 'produce', 'sauce']);
@@ -97,7 +99,7 @@ export function findPairs(recipes: Recipe[]): Pair[] {
         }
         const sharedDish = a.tags.filter((t) => DISH_TAGS.has(t) && b.tags.includes(t));
         const oc = overlapCoefficient(ia, ib);
-        if (sharedDish.length && oc >= VARIANT_THRESHOLD) {
+        if (sharedDish.length && oc >= VARIANT_THRESHOLD && common.length >= MIN_SHARED) {
           pairs.push({ ...base, layer: 'possible_variant', score: oc, detail: `${sharedDish.join('+')}, ${detail}` });
         }
       }

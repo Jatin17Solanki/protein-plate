@@ -32,7 +32,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe (servings not stated)",
@@ -41,13 +41,7 @@
     "carbs_g": 56,
     "fat_g": 4
   },
-  "protein_working": [
-    "\"150g Boiled Rajma\" ≈ 60 g dry kidney beans (rajma) × 22/100 g = 13.2 g",
-    "50 g low-fat paneer × 25/100 g = 12.5 g",
-    "50 g paneer × 18/100 g = 9 g",
-    "\"1 Small Onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 38.2 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -154,13 +148,16 @@
     "Mix and serve: spread the sauce over the salad, mix everything, and enjoy daily for a gut-friendly, high-protein meal!"
   ],
   "assumptions": [
-    "Boiled rajma: 150 g cooked ≈ 60 g dry for the protein estimate.",
     "The creator notes the powder in the video is black pepper, not coriander powder.",
     "Creator also states 16 g fibre.",
     "Meal types are our guess."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

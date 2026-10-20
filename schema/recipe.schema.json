@@ -53,7 +53,7 @@
       "$ref": "#/definitions/MealTypes"
     },
     "main_proteins": {
-      "description": "Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour.",
+      "description": "Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).",
       "type": "array",
       "items": {
         "$ref": "#/definitions/MainProtein"
@@ -103,7 +103,8 @@
       ]
     },
     "per_portion": {
-      "$ref": "#/definitions/PerPortion"
+      "$ref": "#/definitions/PerPortion",
+      "description": "The creator's own numbers for one portion as they state it (is_estimate false). Null when the creator gives none — never our estimate (Jatin, 2026-10-20)."
     },
     "stated_macros": {
       "description": "Macros as the creator stated them, kept alongside our estimate; null if the creator gave none.",
@@ -167,6 +168,13 @@
         "minLength": 1
       }
     },
+    "flags": {
+      "description": "Things Jatin must look at (shown in the admin list). Set by scripts/data/check.ts (no_macros, macros_basis_unclear, missing_details) or by hand (source_conflict, other). Removed once he resolves them.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Flag"
+      }
+    },
     "added_at": {
       "type": "string",
       "format": "date"
@@ -183,10 +191,6 @@
       },
       "then": {
         "properties": {
-          "main_proteins": {
-            "type": "array",
-            "minItems": 1
-          },
           "ingredients": {
             "type": "array",
             "minItems": 1
@@ -194,36 +198,6 @@
           "steps": {
             "type": "array",
             "minItems": 1
-          }
-        }
-      }
-    },
-    {
-      "description": "Protein per portion is required only when the creator states the servings; otherwise we don't guess a portion.",
-      "if": {
-        "type": "object",
-        "required": [
-          "status",
-          "servings"
-        ],
-        "properties": {
-          "status": {
-            "const": "complete"
-          },
-          "servings": {
-            "type": "integer"
-          }
-        }
-      },
-      "then": {
-        "properties": {
-          "per_portion": {
-            "type": "object",
-            "properties": {
-              "protein_g": {
-                "type": "number"
-              }
-            }
           }
         }
       }
@@ -588,6 +562,31 @@
         },
         "as_written": {
           "description": "The source's exact wording — the fidelity anchor.",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "Flag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "note"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "no_macros",
+            "macros_basis_unclear",
+            "missing_details",
+            "no_main_protein",
+            "source_conflict",
+            "other"
+          ]
+        },
+        "note": {
           "type": "string",
           "minLength": 1
         }

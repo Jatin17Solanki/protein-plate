@@ -1,0 +1,375 @@
+{
+  "id": "shaam-savera",
+  "title": "Shaam Savera",
+  "source": {
+    "url": "https://www.instagram.com/p/DIQ_GpbyQMv/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#77"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "cashews"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "spinach bundles",
+      "ingredient_id": "spinach",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Spinach bundles"
+    },
+    {
+      "item": "oil (palak mixture)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp Oil"
+    },
+    {
+      "item": "jeera (palak mixture)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Jeera"
+    },
+    {
+      "item": "garlic, chopped (palak mixture)",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp Garlic, chopped"
+    },
+    {
+      "item": "ginger, chopped (palak mixture)",
+      "ingredient_id": "ginger",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 5,
+      "type": "produce",
+      "as_written": "1/2 inch Ginger, chopped"
+    },
+    {
+      "item": "green chilli, chopped (palak mixture)",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Green chili, chopped"
+    },
+    {
+      "item": "salt (palak mixture)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "coriander powder (palak mixture)",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Coriander powder"
+    },
+    {
+      "item": "garam masala powder (palak mixture)",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Garam masala powder"
+    },
+    {
+      "item": "roasted besan (palak mixture)",
+      "ingredient_id": "besan",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/4 cup Roasted besan"
+    },
+    {
+      "item": "cashew powder (palak mixture)",
+      "ingredient_id": "cashews",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 cup cashew powder"
+    },
+    {
+      "item": "oil (gravy)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp Oil"
+    },
+    {
+      "item": "jeera (gravy)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Jeera"
+    },
+    {
+      "item": "cinnamon stick (gravy)",
+      "ingredient_id": "cinnamon",
+      "qty": 0.5,
+      "unit": null,
+      "type": "spice",
+      "as_written": "1/2 inch Cinnamon stick"
+    },
+    {
+      "item": "bay leaf (gravy)",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Bay leaf"
+    },
+    {
+      "item": "black peppercorns (gravy)",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "A few black peppercorns"
+    },
+    {
+      "item": "green cardamom (gravy)",
+      "ingredient_id": "green_cardamom",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3 Green cardamom"
+    },
+    {
+      "item": "black cardamom (gravy)",
+      "ingredient_id": "black_cardamom",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Black cardamom"
+    },
+    {
+      "item": "garlic, chopped (gravy)",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp Garlic, chopped"
+    },
+    {
+      "item": "ginger, chopped (gravy)",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "grams": 10,
+      "type": "produce",
+      "as_written": "1 inch Ginger, chopped"
+    },
+    {
+      "item": "green chilli, chopped (gravy)",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Green chili, chopped"
+    },
+    {
+      "item": "onions, diced (gravy)",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Onions, diced"
+    },
+    {
+      "item": "tomatoes, diced (gravy)",
+      "ingredient_id": "tomato",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5 Tomatoes, diced"
+    },
+    {
+      "item": "coriander powder (gravy)",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Coriander powder"
+    },
+    {
+      "item": "red chilli powder (gravy)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Red chili powder"
+    },
+    {
+      "item": "haldi powder (gravy)",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp Haldi powder"
+    },
+    {
+      "item": "garam masala powder (gravy)",
+      "ingredient_id": "garam_masala",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp Garam masala powder"
+    },
+    {
+      "item": "salt (gravy)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "cashews (gravy)",
+      "ingredient_id": "cashews",
+      "qty": 1,
+      "unit": "handful",
+      "type": "pantry",
+      "as_written": "A handful of cashews"
+    },
+    {
+      "item": "kasuri methi (gravy)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kasuri methi"
+    },
+    {
+      "item": "water (gravy)",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup Water"
+    },
+    {
+      "item": "butter (gravy)",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp Butter"
+    },
+    {
+      "item": "honey (gravy)",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Honey"
+    },
+    {
+      "item": "fresh cream (gravy)",
+      "ingredient_id": "cream",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp Fresh cream"
+    },
+    {
+      "item": "paneer, crumbled (filling)",
+      "ingredient_id": "paneer",
+      "qty": 250,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "250g Paneer, crumbled"
+    },
+    {
+      "item": "black pepper powder (filling)",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Black pepper powder"
+    },
+    {
+      "item": "fresh coriander, chopped (filling)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1/2 tsp Fresh coriander, chopped"
+    },
+    {
+      "item": "corn flour (coating)",
+      "ingredient_id": "corn_flour",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "corn flour"
+    }
+  ],
+  "steps": [
+    "Blanch 2 spinach bundles & blend them into a thick paste.",
+    "1 tbsp oil, 1 tsp jeera, 1 tsp garlic, chopped, 1/2 inch ginger, chopped, 1 green chili, chopped. Sauté till fragrant.",
+    "Add the palak paste, salt to taste, 1 tsp coriander powder, 1/2 tsp garam masala powder. Mix well.",
+    "1/4 cup roasted besan, 1/4 cup cashew powder. Mix well & cook till thickened.",
+    "For the gravy: 1 tbsp oil, 1 tsp jeera, 1/2 inch cinnamon stick, 1 bay leaf, a few black peppercorns, 3 green cardamom, 1 black cardamom, 1 tsp garlic, chopped, 1 inch ginger, chopped, 1 green chili, chopped, 2 onions, diced, 5 tomatoes, diced, 1 tsp coriander powder, 1 tsp red chili powder, 1/4 tsp haldi powder, 1/4 tsp garam masala powder, salt to taste, a handful of cashews, 1 tsp kasuri methi. Mix well.",
+    "Add 1 cup water & cook for 1/2 hour on slow flame.",
+    "Remove the whole spices & blend into a smooth paste.",
+    "1 tbsp butter, 1 tsp honey. Mix well. 2 tbsp fresh cream. Mix well.",
+    "For the paneer mixture: 250g paneer, crumbled, 1 tsp black pepper powder, 1/2 tsp fresh coriander, chopped. Mix well & shape them into balls.",
+    "Flatten the palak mixture & stuff with the paneer mixture.",
+    "Lightly coat in corn flour & fry till GBC.",
+    "Serve the gravy with the koftas."
+  ],
+  "assumptions": [
+    "Spinach koftas stuffed with paneer, in a tomato-cashew gravy.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

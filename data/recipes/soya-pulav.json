@@ -33,7 +33,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per serving (servings not stated)",
@@ -42,13 +42,7 @@
     "carbs_g": 78,
     "fat_g": 7
   },
-  "protein_working": [
-    "40 g dry soya chunks × 52/100 g = 20.8 g",
-    "80 g dry rice × 7/100 g = 5.6 g",
-    "100 g mixed vegetables × 2.5/100 g = 2.5 g",
-    "\"Onion: 1 medium\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 32.6 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -245,8 +239,12 @@
   "assumptions": [
     "Meal types are our guess."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"per serving (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

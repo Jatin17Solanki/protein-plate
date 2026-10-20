@@ -1,0 +1,234 @@
+{
+  "id": "high-protein-soya-biryani",
+  "title": "High Protein Soya Biryani",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTP6UNJjOO4/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#58"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "rice_pulao_biryani",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 220,
+    "carbs_g": 27,
+    "fat_g": 3,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (the video shows 10 serves; this list is for 2)",
+    "protein_g": 21,
+    "kcal": 220,
+    "carbs_g": 27,
+    "fat_g": 3
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "soya granules",
+      "ingredient_id": "soya_granules",
+      "qty": 45,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Soya granules – 45g"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Green peas – 1/2 cup"
+    },
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Cauliflower – 1/4 cup"
+    },
+    {
+      "item": "French beans",
+      "ingredient_id": "green_beans",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "French beans – 1/4 cup"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Carrot – 1/4 cup"
+    },
+    {
+      "item": "double protein Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Double Protein Greek yogurt (Epigamia Turbo) – 3/4 - 1 Cup"
+    },
+    {
+      "item": "air-fried birista (fried onions)",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Air-fried birista (fried onions) – 1/4 cup"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Ghee – 1 tbsp"
+    },
+    {
+      "item": "shirataki rice (long-grain style)",
+      "ingredient_id": "shirataki",
+      "qty": 0.5,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Shirataki rice (long-grain style) – ½ pack"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger-garlic paste – 2 tsp"
+    },
+    {
+      "item": "coriander-chilli puree",
+      "ingredient_id": "coriander_chilli_puree",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Coriander–chilli puree – 2 tbsp"
+    },
+    {
+      "item": "biryani masala",
+      "ingredient_id": "biryani_masala",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Biryani masala – 2 tsp"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red chilli powder – 1 tsp"
+    },
+    {
+      "item": "haldi",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Haldi – 1/2 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "cinnamon stick",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Cinnamon Stick"
+    },
+    {
+      "item": "star anise",
+      "ingredient_id": "star_anise",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Stir Anise"
+    },
+    {
+      "item": "bay leaves",
+      "ingredient_id": "bay_leaf",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 Bay Leaves"
+    },
+    {
+      "item": "elaichi (green cardamom)",
+      "ingredient_id": "green_cardamom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 Elaichi"
+    },
+    {
+      "item": "saffron milk",
+      "ingredient_id": "saffron_milk",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Saffron milk – 1-2 tbsp"
+    },
+    {
+      "item": "kewra water",
+      "ingredient_id": "kewra_water",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Kewra water – 1-2 tbsp"
+    }
+  ],
+  "steps": [
+    "Marinate soya granules, veggies, some birista carrot with yogurt and spices and rest for 5 mins.",
+    "Heat ghee in a heavy bottom pan. Add khada masalas, ginger-garlic paste and coriander-chilli puree.",
+    "Add the marinated masala. Add water and covered for 10 mins.",
+    "Meanwhile, soak shirataki rice in hot water for - few minutes, drain well. No cooking needed.",
+    "Layer the soaked rice over the cooked masala. Top with birista.",
+    "Sprinkle water, saffron milk and kewra water. Do not mix.",
+    "Cover tightly with foil + lid and cook on low heat for 5–6 minutes. Rest 2 minutes, serve hot."
+  ],
+  "assumptions": [
+    "The birista is air-fried; shop-bought fried onions would work too.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": []
+}

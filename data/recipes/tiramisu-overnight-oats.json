@@ -34,7 +34,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe (servings not stated)",
@@ -43,15 +43,7 @@
     "carbs_g": 47,
     "fat_g": 10
   },
-  "protein_working": [
-    "\"1 Scoop Vanilla Protein\" ≈ 30 g whey protein × 78/100 g = 23.4 g",
-    "140 g Greek yogurt × 9/100 g = 12.6 g",
-    "40 g dry oats × 13/100 g = 5.2 g",
-    "10 g chia seeds × 17/100 g = 1.7 g",
-    "\"50-60ml skimmed milk\" ≈ 50 g skimmed milk × 3.4/100 g = 1.7 g",
-    "6 g cocoa powder × 20/100 g = 1.2 g",
-    "Total ≈ 46.1 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -127,14 +119,15 @@
     "In the morning, layer up the oat mix and yogurt base in a jar and enjoy."
   ],
   "assumptions": [
-    "1 scoop of protein ≈ 30 g whey (pack value unknown).",
-    "Coffee shot counted as 1 tsp ≈ 2 g instant coffee.",
-    "50–60 ml: the lower amount is used in the estimate.",
     "Creator also states 11 g fibre.",
     "Meal types are our guess; tagged dessert from the batch's dessert section."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

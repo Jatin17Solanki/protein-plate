@@ -1,0 +1,287 @@
+{
+  "id": "ragda-patty-chaat",
+  "title": "Ragda Patty Chaat",
+  "source": {
+    "url": "https://www.instagram.com/reel/DXjaCrQDBYu/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#50"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "chickpeas"
+  ],
+  "tags": [
+    "chaat"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (1 portion of ragda + 2 patties + toppings)",
+    "protein_g": 25,
+    "kcal": 349
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soaked white channa (ragda)",
+      "ingredient_id": "chickpeas",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 50,
+      "type": "protein",
+      "as_written": "½ cup soaked white channa"
+    },
+    {
+      "item": "tomato (medium, ragda)",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium tomato"
+    },
+    {
+      "item": "garlic (ragda)",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4 garlic cloves"
+    },
+    {
+      "item": "turmeric powder (ragda)",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "red chilli powder (ragda)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder (ragda)",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "cumin powder (ragda)",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin powder"
+    },
+    {
+      "item": "garam masala (ragda)",
+      "ingredient_id": "garam_masala",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp garam masala"
+    },
+    {
+      "item": "coriander, chopped (ragda)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup chopped coriander and salt to taste"
+    },
+    {
+      "item": "salt (ragda)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "¼ cup chopped coriander and salt to taste"
+    },
+    {
+      "item": "soya chunks (patties)",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "40 g soya chunks"
+    },
+    {
+      "item": "oats (patties)",
+      "ingredient_id": "oats",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 tbsp oats"
+    },
+    {
+      "item": "onion, chopped (patties)",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup chopped onion"
+    },
+    {
+      "item": "white sesame seeds (patties)",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp white sesame seeds"
+    },
+    {
+      "item": "jeera (patties)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp jeera"
+    },
+    {
+      "item": "turmeric powder (patties)",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "red chilli powder (patties)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder (patties)",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "garam masala (patties)",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "whole-wheat bread (for crumbs)",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 1,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "1 slice whole-wheat bread (grind for crumbs)"
+    },
+    {
+      "item": "oil (patties)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "coriander (patties)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful coriander"
+    },
+    {
+      "item": "green chutney (per serving)",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp green chutney"
+    },
+    {
+      "item": "meethi chutney (per serving)",
+      "ingredient_id": "imli_chutney",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp meethi chutney"
+    },
+    {
+      "item": "Greek yoghurt or skyr (per serving)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp Greek yoghurt/skyr"
+    },
+    {
+      "item": "onions, chopped (per serving)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped onions"
+    },
+    {
+      "item": "sev (per serving)",
+      "ingredient_id": "sev",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp sev (optional)"
+    }
+  ],
+  "steps": [
+    "Cook the ragda: in a cooker, add soaked white channa, tomato, garlic and all spices. Cook for 4–5 whistles until soft.",
+    "Finish the ragda: mash lightly, add garam masala and chopped coriander. Keep slightly thick.",
+    "Prepare patties mix: boil soya chunks, squeeze water and blend with oats, onion, coriander, sesame seeds, jeera and spices into a coarse mixture.",
+    "Shape & coat: divide the mixture into 4 patties and coat lightly with breadcrumbs.",
+    "Cook patties: pan-fry the patties using 1 tsp oil until golden and crisp.",
+    "Assemble: add 1 serving ragda in a bowl, place 2 patties, top with yoghurt, chutneys, onions and sev. Serve hot."
+  ],
+  "assumptions": [
+    "The ragda makes 3–4 servings and the patties make 2 (4 patties, 2 per serving); toppings are per serving.",
+    "Greek yoghurt or skyr is listed as Greek yogurt.",
+    "Creator also states ~9 g fibre per serving.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"per serving (1 portion of ragda + 2 patties + toppings)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

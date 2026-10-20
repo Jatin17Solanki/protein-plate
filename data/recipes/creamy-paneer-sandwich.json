@@ -30,12 +30,12 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 21,
-    "kcal": 320,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 16,
+    "kcal": 260,
+    "carbs_g": 34,
+    "fat_g": 8,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per sandwich (makes 2)",
@@ -44,12 +44,7 @@
     "carbs_g": 34,
     "fat_g": 8
   },
-  "protein_working": [
-    "100 g low-fat paneer × 25/100 g = 25 g",
-    "\"2 slices of multigrain bread\" ≈ 120 g whole-wheat bread × 9/100 g = 10.8 g",
-    "\"3 tbsp Greek yogurt\" ≈ 45 g Greek yogurt × 9/100 g = 4.1 g",
-    "Total ≈ 41.3 g ÷ 2 portions = 20.6 g per portion"
-  ],
+  "protein_working": [],
   "servings": 2,
   "ingredients": [
     {
@@ -169,10 +164,9 @@
     "Toast it with 1 tsp butter until golden and crispy on both sides."
   ],
   "assumptions": [
-    "Bread and butter are per sandwich, so the estimate counts 4 slices and 2 tsp butter for the 2 sandwiches.",
-    "Our estimate is above the creator's 16 g per sandwich; low-fat paneer brands vary (we use 25 g protein per 100 g).",
     "Quick: about 15 minutes hands-on (our estimate)."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": []
 }

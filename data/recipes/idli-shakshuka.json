@@ -1,0 +1,218 @@
+{
+  "id": "idli-shakshuka",
+  "title": "Idli Shakshuka",
+  "source": {
+    "url": "https://www.instagram.com/p/DAA_IvcShNf/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#75"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "idli_mix",
+    "curd"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "idli mix",
+      "ingredient_id": "idli_mix",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1cup idli mix"
+    },
+    {
+      "item": "dahi",
+      "ingredient_id": "curd",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1cup dahi"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4cup water"
+    },
+    {
+      "item": "oil (masala)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1tbsp oil"
+    },
+    {
+      "item": "mustard seeds (masala)",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1tsp mustard seeds"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "chopped green chillies"
+    },
+    {
+      "item": "onions, chopped",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "chopped onions"
+    },
+    {
+      "item": "capsicum, chopped",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "chopped capsicum"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "some salt"
+    },
+    {
+      "item": "tomatoes, chopped",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "chopped tomatoes"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2tsp turmeric powder"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2tsp coriander powder"
+    },
+    {
+      "item": "sambhar powder",
+      "ingredient_id": "sambhar_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1tsp sambhar powder"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1tsp tomato ketchup"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "fresh coriander"
+    },
+    {
+      "item": "ghee (tadka)",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1tbsp ghee"
+    },
+    {
+      "item": "mustard seeds (tadka)",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1tsp mustard seeds"
+    },
+    {
+      "item": "curry leaves (tadka)",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "curry leaves"
+    }
+  ],
+  "steps": [
+    "Idli batter: 1cup idli mix, 1cup dahi, 1/4cup water. Whisk well & make a idli batter like consistency.",
+    "Masala: in a pan, take 1tbsp oil, 1tsp mustard seeds, chopped green chillies & chopped onions.",
+    "Add chopped capsicum along with some salt. Sauté for 2-3min.",
+    "Add chopped tomatoes along with dry spices 1/2tsp turmeric powder, 1/2tsp red chilli powder, 1/2tsp coriander powder, 1tsp sambhar powder & 1tsp tomato ketchup.",
+    "Cover & cook till tomatoes are mushy.",
+    "Spread the masala evenly and pour the batter in 4 portions as shown in the video.",
+    "Sprinkle some fresh coriander & cover. Cook for 5min till the batter is cooker.",
+    "Tadka: take 1tbsp ghee, add in 1tsp mustard seeds & curry leaves. Let them crackle then pour on the idlis. Your idli shakshuka is ready."
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

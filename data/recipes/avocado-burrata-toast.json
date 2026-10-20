@@ -1,0 +1,62 @@
+{
+  "id": "avocado-burrata-toast",
+  "title": "Avocado & Burrata Toast",
+  "source": {
+    "url": "https://www.instagram.com/p/C79vsSgPAgW/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#74"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "The post links to the creator's website for the full recipe.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Ingredients and quantities (the full recipe is on the creator's website)",
+    "Method"
+  ],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Ingredients and quantities (the full recipe is on the creator's website); Method"
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "methi-matar-malai",
+  "title": "Methi Matar Malai",
+  "source": {
+    "url": "https://www.instagram.com/reel/DS9J_iCE7PL/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#59"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "green_peas"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "as stated; the creator also says 'divide into 2 servings'",
+    "protein_g": 30,
+    "kcal": 435
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "methi leaves (fresh)",
+      "ingredient_id": "methi_leaves",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1.5 cups of methi"
+    },
+    {
+      "item": "matar (peas), boiled",
+      "ingredient_id": "green_peas",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "3/4th cup Matar (peas) - (Boiled)"
+    },
+    {
+      "item": "jeera",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "a little oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp coriander powder"
+    },
+    {
+      "item": "haldi",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp haldi"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp garam masala"
+    },
+    {
+      "item": "onion, chopped (creamy base)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "low-fat paneer, homemade (creamy base)",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g low fat paneer homemade using double toned milk (recipe on my page)"
+    },
+    {
+      "item": "garlic (creamy base)",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4-5 garlic cloves"
+    },
+    {
+      "item": "cashews (creamy base)",
+      "ingredient_id": "cashews",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 cashews"
+    },
+    {
+      "item": "cinnamon stick (creamy base)",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 cinnamon stick"
+    },
+    {
+      "item": "elaichi (creamy base)",
+      "ingredient_id": "green_cardamom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 elaichi"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sugar"
+    }
+  ],
+  "steps": [
+    "In a pan, add a little oil and saute some jeera.",
+    "Then add Matar and cook for 2-3 mins. Then add methi and let it cook for 5-6 mins on low flame.",
+    "Add the above spices in the cooked methi, matar and saute for 3-4 mins. Turn off the flame.",
+    "Boil the above ingredients for 12-15 mins (water should be just enough to soak all the above well) until everything is soft and the water has turned slightly pink (onion will leave its color).",
+    "Let it cool down and Blend this all along with its water (this is the magical ingredient as it contains all the flavor of the spices post boiling) with low fat paneer.",
+    "Add this creamy mixture to the methi matar mixture and cook for another 7-8 mins on low flame (Add more water while cooking to adjust consistency if needed).",
+    "Add 1 tsp sugar and mix well.",
+    "Let it thicken a little and its ready!"
+  ],
+  "assumptions": [
+    "The low-fat paneer is homemade from double toned milk (recipe on the creator's page).",
+    "Step 4 boils the creamy-base ingredients (onion, paneer aside, garlic, cashews, cinnamon, elaichi).",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"as stated; the creator also says 'divide into 2 servings'\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

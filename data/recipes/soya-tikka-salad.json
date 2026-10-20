@@ -1,0 +1,189 @@
+{
+  "id": "soya-tikka-salad",
+  "title": "Soya Tikka Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DXbwwiyjOsF/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#51"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "dinner"
+    ],
+    "stated_by_user": [
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 45,
+    "kcal": 420
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks (dry)",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "40g soya chunks (dry)"
+    },
+    {
+      "item": "bell peppers, chopped",
+      "ingredient_id": "capsicum",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup bell peppers (chopped)"
+    },
+    {
+      "item": "onions, chopped",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup onions (chopped)"
+    },
+    {
+      "item": "Greek yoghurt (marinade)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Greek yoghurt"
+    },
+    {
+      "item": "besan (marinade)",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp besan"
+    },
+    {
+      "item": "ginger-garlic paste (marinade)",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger garlic paste"
+    },
+    {
+      "item": "kasoori methi (marinade)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "tbsp kasoori methi"
+    },
+    {
+      "item": "salt (marinade)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "garam masala (marinade)",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "haldi (marinade)",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp haldi"
+    },
+    {
+      "item": "chilli powder (marinade)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli powder"
+    },
+    {
+      "item": "coriander powder (marinade)",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "Greek yoghurt (dressing)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Greek yoghurt (you can take more)"
+    },
+    {
+      "item": "green chutney (dressing)",
+      "ingredient_id": "green_chutney",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp green chutney"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "a spray of oil"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks: boil soya chunks for 5–6 minutes, squeeze out excess water and set aside.",
+    "Prepare the marinade: mix Greek yoghurt, besan, ginger garlic paste and all the spices to form a thick marinade.",
+    "Marinate: add soya chunks, bell peppers and onions to the marinade and coat well.",
+    "Air fry: air fry the marinated soya chunks with a spray of oil at 180°C for 10–15 minutes until golden brown.",
+    "Prepare the dressing: mix Greek yoghurt and green chutney until smooth.",
+    "Assemble: add the air-fried soy chunks to a bowl, pour the dressing and toss well.",
+    "Serve: serve fresh as a high-protein, fiber-rich salad."
+  ],
+  "assumptions": [
+    "'tbsp kasoori methi' read as 1 tbsp."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "paneer-burger-salad",
+  "title": "Paneer Burger Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUndZHDExJ8/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#56"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 430
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "mixed herbs",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp black pepper"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger garlic paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "whole-wheat breadcrumbs",
+      "ingredient_id": "bread",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "¼ cup whole-wheat breadcrumbs"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g low-fat paneer"
+    },
+    {
+      "item": "skyr (sauce)",
+      "ingredient_id": "skyr",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g skyr"
+    },
+    {
+      "item": "chilli flakes (sauce)",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp chilli flakes"
+    },
+    {
+      "item": "garlic powder (sauce)",
+      "ingredient_id": "garlic_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp garlic powder"
+    },
+    {
+      "item": "ketchup (sauce)",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of half a lemon"
+    },
+    {
+      "item": "lettuce",
+      "ingredient_id": "lettuce",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ head of lettuce"
+    },
+    {
+      "item": "tomato (small)",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small tomato"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ cucumber"
+    },
+    {
+      "item": "capsicum (small)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small capsicum"
+    }
+  ],
+  "steps": [
+    "Mix oil, all dry spices, ginger-garlic paste and salt to make a marinade.",
+    "Add breadcrumbs and coat the paneer evenly with the mixture.",
+    "Heat a pan with a little oil and grill the paneer cubes on both sides until golden and crispy.",
+    "Mix skyr with chilli flakes, pepper, garlic powder and ketchup to make the sauce.",
+    "Assemble finely chopped lettuce, tomato, cucumber and capsicum with the grilled paneer in a bowl.",
+    "Add the sauce, toss everything evenly and enjoy!"
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

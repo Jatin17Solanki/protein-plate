@@ -1,0 +1,193 @@
+{
+  "id": "besan-toast-breakfast-sandwich",
+  "title": "Besan Toast Breakfast Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dd1HwW3owPM/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#36"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "bread_protein",
+    "paneer_low_fat",
+    "greek_yogurt",
+    "besan"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 465
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "double protein bread",
+      "ingredient_id": "bread_protein",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices double protein bread"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g low-fat paneer (milky mist)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g Greek yogurt (epigamia)"
+    },
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "¼ cup besan"
+    },
+    {
+      "item": "cheese cube, grated",
+      "ingredient_id": "cheese",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "½ cube cheese (grated)"
+    },
+    {
+      "item": "spinach, finely chopped",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful spinach, finely chopped"
+    },
+    {
+      "item": "onion (small), sliced",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "small onion sliced"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp Schezwan chutney"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric powder"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Chilli flakes, to taste"
+    },
+    {
+      "item": "mixed herbs",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Mixed herbs, to taste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt & pepper, to taste"
+    },
+    {
+      "item": "pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt & pepper, to taste"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4th cup water (to adjust batter)"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Oil spray (for cooking)"
+    }
+  ],
+  "steps": [
+    "Prepare the batter: in a bowl mix besan, Greek yogurt, chopped onion, spinach, turmeric, chilli flakes, mixed herbs, salt, pepper and water to form a thick batter.",
+    "Dip the bread: dip both slices of bread into the batter so they are coated well.",
+    "Cook the toast: heat a pan, spray a little oil and cook the coated bread on both sides until golden and slightly crisp.",
+    "Add the protein topping: spread the crumbled paneer over the toast and cook that side until its toasted and then sprinkle the grated cheese on top.",
+    "Melt the cheese: cover the pan and cook for 2 minutes until the cheese melts.",
+    "Final touch: drizzle Schezwan chutney on top, slice and serve hot."
+  ],
+  "assumptions": [
+    "Quick: about 15 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}
