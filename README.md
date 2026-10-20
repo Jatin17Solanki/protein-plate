@@ -18,10 +18,12 @@ npm run validate           # schema-check every data/recipes/*.json (CI blocks d
 npm test                   # unit tests
 npm run test:e2e           # Playwright: overflow check + screenshots at 9 widths, light + dark
 npm run gen:types          # after editing schema/recipe.schema.json
+npm run icons              # after changing the logo or brand colour (writes public/icons/*.png; commit them)
 ```
 
 - One recipe = one file: `data/recipes/<id>.json`, matching `schema/recipe.schema.json`.
 - `site.config.json` holds everything that differs between forks (owner, repo, title, URL, base path). For a custom domain set `base_path` to `/`.
+- `npm run build` also writes a static page per recipe (`r/<id>/`) with link-preview tags and a preview image (`og/<id>.png`), plus the offline service worker.
 - CI (`.github/workflows/ci.yml`): every PR is validated, tested and built; every push to `main` is deployed to GitHub Pages.
 
 Code licence: MIT (see `LICENSE`).

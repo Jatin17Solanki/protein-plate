@@ -22,8 +22,8 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | A3 | Filters + search + empty state | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 4](https://github.com/Jatin17Solanki/protein-plate/pull/4) | Opus | Search uses a built-in synonym stub until Track B ships `data/ingredients.json`. |
 | A4 | Recipe page + personal data + My recipes | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 5](https://github.com/Jatin17Solanki/protein-plate/pull/5), fix [PR 6](https://github.com/Jatin17Solanki/protein-plate/pull/6) | Opus | Main went red after merge (notes test race); fix PR saves notes on page hide too. |
 | A5 | Share, Edit, Menu, theme, backup, hint | A4 | done | `claude/compassionate-clarke-bxgv06` / [PR 9](https://github.com/Jatin17Solanki/protein-plate/pull/9) | Opus | Also whole-recipe protein when portions aren't stated (Jatin). Flagging/admin view → D7. |
-| A6b | Review page `/review/` for flagged recipes; "Macros not given"; neutral tint | A5, B2 flags | review | `claude/compassionate-clarke-bxgv06` / [PR 12](https://github.com/Jatin17Solanki/protein-plate/pull/12) | Opus | Live list: 62 of 80 recipes. Not linked in the menu (bookmark `/review/`). |
-| A6 | Offline, share previews, polish | A5 | todo | | Sonnet | |
+| A6b | Review page `/review/` for flagged recipes; "Macros not given"; neutral tint | A5, B2 flags | done | `claude/compassionate-clarke-bxgv06` / [PR 12](https://github.com/Jatin17Solanki/protein-plate/pull/12) | Opus | Live list: 62 of 80 recipes. Not linked in the menu (bookmark `/review/`). |
+| A6 | Offline, share previews, polish | A5 | review | `claude/compassionate-clarke-bxgv06` / PR_LINK | Opus | Jatin: send one recipe link in WhatsApp to check the preview card; try the site in airplane mode after one visit. |
 | A7 | Add recipes + Export | A3, B1 | todo | | Sonnet | |
 | A8 | QA pass | A1–A7 | todo | | Opus | |
 
@@ -47,4 +47,5 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | Review schema in A1 PR | A1 |
 | Review 10 normalised recipes (B1), confirm duplicate lists (B2, B3) | per PR |
 | Phone check of the live site after each UI merge | A2 onwards |
+| WhatsApp link-preview check + airplane-mode check | after A6 merge |
 | Send new scrape (B3), incomplete details + oats (B4) | when ready |

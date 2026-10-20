@@ -1,11 +1,18 @@
-// One-line confirmations ("Copied", "Backup saved"). The <Toast> in app.tsx shows the latest one.
-const listeners = new Set<(text: string) => void>();
-
-export function showToast(text: string): void {
-  listeners.forEach((fn) => fn(text));
+// One-line confirmations ("Copied", "Backup saved"). The <Toast> in app.tsx shows them.
+// A toast from something the user just did replaces whatever is showing; a `quiet` one (e.g. "Ready to work offline.")
+// only appears when nothing else is on screen, so it never hides the result of a tap.
+export interface ToastEvent {
+  text: string;
+  quiet: boolean;
 }
 
-export function onToast(fn: (text: string) => void): () => void {
+const listeners = new Set<(t: ToastEvent) => void>();
+
+export function showToast(text: string, opts: { quiet?: boolean } = {}): void {
+  listeners.forEach((fn) => fn({ text, quiet: opts.quiet ?? false }));
+}
+
+export function onToast(fn: (t: ToastEvent) => void): () => void {
   listeners.add(fn);
   return () => listeners.delete(fn);
 }

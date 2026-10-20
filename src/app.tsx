@@ -5,6 +5,7 @@ import { Recipe } from './screens/Recipe';
 import { MyRecipes } from './screens/MyRecipes';
 import { Review } from './screens/Review';
 import { Toast } from './components/Toast';
+import { UpdatePrompt } from './components/UpdatePrompt';
 import site from '../site.config.json';
 
 export function App() {
@@ -27,6 +28,7 @@ export function App() {
     <>
       {screen}
       <Toast />
+      <UpdatePrompt />
     </>
   );
 }

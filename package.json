@@ -18,9 +18,12 @@
     "validate": "tsx scripts/validate.ts",
     "validate:fixtures": "tsx scripts/validate.ts tests/fixtures",
     "test": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "icons": "tsx scripts/icons.ts"
   },
   "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
     "minisearch": "^7.2.0",
@@ -29,12 +32,15 @@
   "devDependencies": {
     "@playwright/test": "1.56.1",
     "@preact/preset-vite": "^2.10.6",
+    "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^26.6.5",
     "happy-dom": "^21.0.3",
     "json-schema-to-typescript": "^16.0.0",
+    "satori": "^0.63.2",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0",
     "vitest": "^5.0.5"
   }
 }
