@@ -1,0 +1,103 @@
+{
+  "status": "complete",
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": {
+    "basis": "per wrap",
+    "protein_g": 40,
+    "kcal": 500
+  },
+  "protein_working": [
+    "150 g low-fat paneer × 25 = 37.5 g",
+    "50 g Greek yogurt × 9 = 4.5 g",
+    "1 wheat tortilla ≈ 4 g"
+  ],
+  "servings": 1,
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "paneer-tikka-wrap",
+  "title": "Paneer Tikka Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE01/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#1"
+  },
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "per_portion": {
+    "protein_g": 38,
+    "kcal": 520,
+    "carbs_g": 42,
+    "fat_g": 24,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g greek yogurt"
+    },
+    {
+      "item": "tikka masala",
+      "ingredient_id": "tikka_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp tikka masala"
+    },
+    {
+      "item": "wheat tortilla",
+      "ingredient_id": "wheat_tortilla",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 tortilla"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "half onion sliced"
+    }
+  ],
+  "steps": [
+    "Mix the yogurt and tikka masala.",
+    "Coat the paneer cubes and rest 15 minutes.",
+    "Cook in a pan, or air fry at 200 °C for 8 minutes.",
+    "Fill the tortilla with paneer and onion and roll."
+  ]
+}

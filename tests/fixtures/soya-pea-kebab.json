@@ -1,0 +1,82 @@
+{
+  "status": "complete",
+  "supporting_proteins": [
+    "green_peas"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": "soya-kebab",
+  "variant_label": "with peas",
+  "stated_macros": {
+    "basis": "per portion",
+    "protein_g": 22,
+    "kcal": 260
+  },
+  "protein_working": [],
+  "servings": 2,
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "soya-pea-kebab",
+  "title": "Soya Pea Kebab",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE08/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#8"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "per_portion": {
+    "protein_g": 22,
+    "kcal": 260,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 70,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "70g soya"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100 g matar"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger"
+    }
+  ],
+  "steps": [
+    "Boil the soya and squeeze dry.",
+    "Blend with the peas and ginger.",
+    "Shape into kebabs.",
+    "Air fry at 200 °C for 10 minutes."
+  ]
+}

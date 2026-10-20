@@ -1,0 +1,569 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Jatin17Solanki/protein-plate/schema/recipe.schema.json",
+  "title": "Recipe",
+  "description": "One recipe = one file data/recipes/<id>.json. All protein/kcal figures are per one person's portion (CONTEXT §4).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "source",
+    "status",
+    "meal_types",
+    "main_proteins",
+    "supporting_proteins",
+    "tags",
+    "dish_group",
+    "variant_label",
+    "per_portion",
+    "stated_macros",
+    "protein_working",
+    "servings",
+    "ingredients",
+    "steps",
+    "assumptions",
+    "missing",
+    "added_at"
+  ],
+  "properties": {
+    "id": {
+      "description": "Kebab-case, unique, equals the file name without .json. Never changes once published (links depend on it).",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "source": {
+      "$ref": "#/definitions/Source"
+    },
+    "status": {
+      "description": "incomplete = kept under its title with a missing[] list; never dropped.",
+      "type": "string",
+      "enum": [
+        "complete",
+        "incomplete"
+      ]
+    },
+    "meal_types": {
+      "$ref": "#/definitions/MealTypes"
+    },
+    "main_proteins": {
+      "description": "Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/MainProtein"
+      },
+      "uniqueItems": true,
+      "maxItems": 6
+    },
+    "supporting_proteins": {
+      "description": "Ingredient ids (data/ingredients.json) that add protein but are not main proteins, e.g. greek_yogurt, cheese.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Slug"
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "description": "One flat set. Order matters: the first dish-type tag picks the tile icon.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Tag"
+      },
+      "uniqueItems": true
+    },
+    "dish_group": {
+      "description": "Kebab-case id shared by intentional variants of one dish; null if none.",
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "variant_label": {
+      "description": "Short label that tells this version apart inside its dish group (e.g. 'with peas'). Required when dish_group is set.",
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "per_portion": {
+      "$ref": "#/definitions/PerPortion"
+    },
+    "stated_macros": {
+      "description": "Macros as the creator stated them, kept alongside our estimate; null if the creator gave none.",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/StatedMacros"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "protein_working": {
+      "description": "Show the working: one line per protein source, e.g. '40 g dry soya × 52 = 20.8 g'.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "servings": {
+      "description": "Portions the ingredient list makes; null if unknown.",
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Ingredient"
+      }
+    },
+    "steps": {
+      "description": "One action per step, in the creator's order, in our own words (D5).",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "assumptions": {
+      "description": "Anything we inferred (dry weight, portion count, meal type...). Fidelity check exceptions go here.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "missing": {
+      "description": "What the source does not give us. Must be non-empty when status is incomplete.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "added_at": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "complete"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "main_proteins": {
+            "type": "array",
+            "minItems": 1
+          },
+          "per_portion": {
+            "type": "object",
+            "properties": {
+              "protein_g": {
+                "type": "number"
+              }
+            }
+          },
+          "ingredients": {
+            "type": "array",
+            "minItems": 1
+          },
+          "steps": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "incomplete"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "missing": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "dish_group": {
+            "type": "string"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "variant_label": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "definitions": {
+    "Slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "MainProtein": {
+      "type": "string",
+      "enum": [
+        "paneer",
+        "soya",
+        "tofu",
+        "tempeh",
+        "pulses",
+        "whey"
+      ]
+    },
+    "MealType": {
+      "type": "string",
+      "enum": [
+        "breakfast",
+        "lunch",
+        "snack",
+        "dinner"
+      ]
+    },
+    "Tag": {
+      "type": "string",
+      "enum": [
+        "sandwich_toast",
+        "salad_bowl",
+        "wrap_roll_taco",
+        "kebab_tikki_cutlet",
+        "chilla_pancake_omelette",
+        "curry_sabzi",
+        "rice_pulao_biryani",
+        "pasta_noodles",
+        "chaat",
+        "paratha",
+        "pizza",
+        "dessert",
+        "sauce_dip",
+        "global",
+        "quick",
+        "air_fryer_required",
+        "air_fryer_optional"
+      ]
+    },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "platform",
+        "creator",
+        "creator_url",
+        "ref"
+      ],
+      "properties": {
+        "url": {
+          "description": "Link to the original video/post. null only for the owner's own recipes.",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "platform": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "instagram",
+                "youtube",
+                "website",
+                "other"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "creator": {
+          "description": "Creator's display name or handle, credited on the recipe page.",
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "creator_url": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ref": {
+          "description": "Where the raw entry lives, e.g. 'batches/2026-10-16-batch1.txt#12' (private raw repo). null for recipes added another way.",
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "MealTypes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "values",
+        "stated_by_user"
+      ],
+      "properties": {
+        "values": {
+          "description": "Multi-select. Empty for sauces/dips/marinades.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MealType"
+          },
+          "uniqueItems": true
+        },
+        "stated_by_user": {
+          "description": "The subset of values the owner said; the rest were inferred.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MealType"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "NullableAmount": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "PerPortion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protein_g",
+        "kcal",
+        "carbs_g",
+        "fat_g",
+        "fibre_g",
+        "is_estimate"
+      ],
+      "properties": {
+        "protein_g": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 200
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kcal": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 3000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "carbs_g": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "fat_g": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "fibre_g": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "is_estimate": {
+          "description": "true = our calculation (see protein_working); false = creator's numbers used as is.",
+          "type": "boolean"
+        }
+      }
+    },
+    "StatedMacros": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "basis",
+        "protein_g",
+        "kcal"
+      ],
+      "properties": {
+        "basis": {
+          "description": "As the creator put it, e.g. 'per serving', 'whole recipe'.",
+          "type": "string",
+          "minLength": 1
+        },
+        "protein_g": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "kcal": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "carbs_g": {
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "fat_g": {
+          "$ref": "#/definitions/NullableAmount"
+        }
+      }
+    },
+    "Ingredient": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item",
+        "ingredient_id",
+        "qty",
+        "unit",
+        "type",
+        "as_written"
+      ],
+      "properties": {
+        "item": {
+          "description": "English name as shown on the recipe page.",
+          "type": "string",
+          "minLength": 1
+        },
+        "ingredient_id": {
+          "description": "Canonical id in data/ingredients.json (jeera -> cumin_seeds). null until the dictionary has it.",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Slug"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "qty": {
+          "description": "Amount in `unit`; null for 'to taste' or unstated.",
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "g",
+                "kg",
+                "ml",
+                "l",
+                "tsp",
+                "tbsp",
+                "cup",
+                "piece",
+                "slice",
+                "clove",
+                "pinch",
+                "handful",
+                "to_taste"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "grams": {
+          "description": "Optional gram estimate when unit is not g (dry weight for dal/soya/pulses).",
+          "$ref": "#/definitions/NullableAmount"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "protein",
+            "dairy",
+            "grain",
+            "produce",
+            "spice",
+            "pantry",
+            "sauce"
+          ]
+        },
+        "optional": {
+          "description": "Creator marked it optional.",
+          "type": "boolean"
+        },
+        "as_written": {
+          "description": "The source's exact wording — the fidelity anchor.",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

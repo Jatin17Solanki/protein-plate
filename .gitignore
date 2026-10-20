@@ -1,5 +1,8 @@
 node_modules/
 dist/
 test-results/
+playwright-report/
+*.log
+.DS_Store
 # Raw recipe dumps stay out of the public repo (TRACKER D1)
 data/raw/

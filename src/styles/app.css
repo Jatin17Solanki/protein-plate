@@ -1,0 +1,56 @@
+/* Colours, type and radii come only from design/tokens.css. */
+body {
+  min-height: 100dvh;
+}
+
+.placeholder {
+  box-sizing: border-box;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+
+.logo {
+  margin: 0 0 24px;
+  font-family: var(--font-num);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: var(--brand);
+}
+
+.count {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.count .num {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: var(--brand);
+}
+
+.meta {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text2);
+}
+
+.meta a {
+  color: var(--brand);
+}
+
+@media (min-width: 600px) {
+  .placeholder {
+    padding: 40px 24px;
+  }
+
+  .logo {
+    font-size: 26px;
+  }
+}

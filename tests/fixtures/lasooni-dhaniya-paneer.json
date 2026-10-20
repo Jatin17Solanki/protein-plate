@@ -1,0 +1,48 @@
+{
+  "status": "incomplete",
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "assumptions": [],
+  "missing": [
+    "ingredients",
+    "quantities",
+    "method",
+    "macros"
+  ],
+  "added_at": "2026-10-20",
+  "id": "lasooni-dhaniya-paneer",
+  "title": "Lasooni Dhaniya Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE09/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#9"
+  },
+  "meal_types": {
+    "values": [
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [],
+  "steps": []
+}

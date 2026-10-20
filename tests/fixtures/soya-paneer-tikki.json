@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_optional"
+  ],
+  "dish_group": "soya-kebab",
+  "variant_label": "with paneer",
+  "stated_macros": null,
+  "protein_working": [
+    "60 g dry soya × 52 = 31.2 g",
+    "100 g paneer × 18 = 18 g",
+    "total 49.2 g ÷ 2 portions + binder ≈ 29 g"
+  ],
+  "servings": 2,
+  "assumptions": [
+    "Soya weight is dry; source says 1 cup boiled."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20",
+  "id": "soya-paneer-tikki",
+  "title": "Soya Paneer Tikki",
+  "source": {
+    "url": "https://www.instagram.com/reel/FIXTURE07/",
+    "platform": "instagram",
+    "creator": "Fixture Kitchen",
+    "creator_url": "https://www.instagram.com/fixturekitchen/",
+    "ref": "fixtures#7"
+  },
+  "meal_types": {
+    "values": [
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya",
+    "paneer"
+  ],
+  "per_portion": {
+    "protein_g": 29,
+    "kcal": 300,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "1 cup boiled soya chunks"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g paneer"
+    },
+    {
+      "item": "potato",
+      "ingredient_id": "potato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 boiled aloo"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks and squeeze dry.",
+    "Grind with paneer, potato and masala.",
+    "Shape into tikkis.",
+    "Shallow fry or air fry at 190 °C for 12 minutes."
+  ]
+}
