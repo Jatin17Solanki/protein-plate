@@ -10,7 +10,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | D2 | [J] Tech stack | Vite + TypeScript + Preact + vite-plugin-pwa + MiniSearch + Ajv + Playwright + Vitest | A1 | **Agreed 2026-10-20.** |
 | D3 | [J] Schema field names | Claude proposes in A1's PR | A1 merge | |
 | D4 | [J] Previews before merge | v1: no preview hosting; every UI PR carries screenshots; Jatin checks the live site on his phone after merge (rollback = revert). Revisit if this hurts. | A2 | **Agreed 2026-10-20.** |
-| D5 | [J] Recipe text on a public site | Steps rewritten in our own words, always crediting the creator with a link; ingredient lists as facts. (Not legal advice.) | B1 | Pending yes. Jatin's concern: normalisation must not change the recipe → fidelity rules added to PLAN B1. |
+| D5 | [J] Recipe text on a public site | Steps rewritten in our own words, always crediting the creator with a link; ingredient lists as facts. (Not legal advice.) | B1 | **Agreed 2026-10-20**, with the fidelity rules in PLAN B1 (normalisation must never change the recipe). |
 | D6 | [J] Licence for the code | MIT | A1 | **Agreed 2026-10-20.** |
 
 ## Track A — App
