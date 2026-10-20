@@ -31,7 +31,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": null,
   "protein_working": [],
@@ -173,8 +173,17 @@
   ],
   "missing": [
     "Quantities for paneer, bread, sundried tomatoes and chips",
-    "Method",
-    "Servings and macros"
+    "Method"
   ],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Quantities for paneer, bread, sundried tomatoes and chips; Method"
+    }
+  ]
 }

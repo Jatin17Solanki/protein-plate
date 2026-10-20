@@ -29,26 +29,19 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 48,
+    "kcal": 650,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe (servings not stated)",
     "protein_g": 48,
     "kcal": 650
   },
-  "protein_working": [
-    "100 g low-fat paneer × 25/100 g = 25 g",
-    "100 g skyr × 10/100 g = 10 g",
-    "\"100g Boiled black Channa\" ≈ 40 g dry black chickpeas (kala chana) × 19/100 g = 7.6 g",
-    "100 g potato × 2/100 g = 2 g",
-    "\"One onion sliced\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 47.2 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -192,11 +185,14 @@
   ],
   "assumptions": [
     "'2 garlic' read as 2 cloves.",
-    "Boiled black chana: 100 g cooked ≈ 40 g dry for the protein estimate.",
     "Meal types are our guess (breakfast from the creator's title)."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

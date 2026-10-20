@@ -30,11 +30,11 @@
   "variant_label": null,
   "per_portion": {
     "protein_g": 25,
-    "kcal": 530,
-    "carbs_g": null,
-    "fat_g": null,
+    "kcal": 505,
+    "carbs_g": 79,
+    "fat_g": 10,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per serving (serves 3)",
@@ -43,12 +43,7 @@
     "carbs_g": 79,
     "fat_g": 10
   },
-  "protein_working": [
-    "100 g dry soya chunks × 52/100 g = 52 g",
-    "250 g dry rice × 7/100 g = 17.5 g",
-    "\"6 cloves garlic\" ≈ 24 g garlic × 6.4/100 g = 1.5 g",
-    "Total ≈ 74.9 g ÷ 3 portions = 25 g per portion"
-  ],
+  "protein_working": [],
   "servings": 3,
   "ingredients": [
     {
@@ -222,5 +217,6 @@
   ],
   "assumptions": [],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": []
 }

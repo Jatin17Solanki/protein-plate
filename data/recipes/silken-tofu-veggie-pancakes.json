@@ -37,7 +37,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": null,
   "protein_working": [],
@@ -169,12 +169,14 @@
     "Serve immediately with soy sauce dressing (soua sauce + lemon juice + water + honey + salt + 1/2 chopped green chili)."
   ],
   "assumptions": [
-    "Makes 4–5 pancakes; the caption doesn't say how many make a portion.",
-    "Low in protein for the catalog (about 12 g for the whole batch)."
+    "Makes 4–5 pancakes; the caption doesn't say how many make a portion."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes.",
-    "Macros: the creator gives none — Jatin to add."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
 }

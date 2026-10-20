@@ -31,10 +31,10 @@
   "per_portion": {
     "protein_g": 5,
     "kcal": 90,
-    "carbs_g": null,
-    "fat_g": null,
+    "carbs_g": 16,
+    "fat_g": 1,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per chilla (batter makes 10)",
@@ -43,12 +43,7 @@
     "carbs_g": 16,
     "fat_g": 1
   },
-  "protein_working": [
-    "90 g dry green moong × 23/100 g = 20.7 g",
-    "90 g dry black chickpeas (kala chana) × 19/100 g = 17.1 g",
-    "\"1/2 cup sooji\" ≈ 82.5 g dry semolina (sooji) × 10.4/100 g = 8.6 g",
-    "Total ≈ 48.1 g ÷ 10 portions = 4.8 g per portion"
-  ],
+  "protein_working": [],
   "servings": 10,
   "ingredients": [
     {
@@ -130,11 +125,16 @@
     "Serve with paneer for an extra protein boost, or enjoy with yogurt and your favorite chutney."
   ],
   "assumptions": [
-    "90 g black chana and 90 g moong dal read as dry weights (weighed before soaking).",
     "Creator also states 3 g fibre per chilla."
   ],
   "missing": [
     "Spinach and sooji weights in grams: the caption shows '(g)' with no number."
   ],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "missing_details",
+      "note": "Spinach and sooji weights in grams: the caption shows '(g)' with no number."
+    }
+  ]
 }

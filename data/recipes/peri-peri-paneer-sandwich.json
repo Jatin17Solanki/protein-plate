@@ -31,25 +31,19 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 40,
+    "kcal": 450,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe (servings not stated)",
     "protein_g": 40,
     "kcal": 450
   },
-  "protein_working": [
-    "80 g low-fat paneer × 25/100 g = 20 g",
-    "\"2 slices Double Protein Bread\" ≈ 60 g protein bread × 15/100 g = 9 g",
-    "\"1 cheese slice\" ≈ 20 g cheese × 22/100 g = 4.4 g",
-    "\"1 tbsp Greek yogurt\" ≈ 15 g Greek yogurt × 9/100 g = 1.4 g",
-    "Total ≈ 36.3 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -159,12 +153,14 @@
     "Serve hot."
   ],
   "assumptions": [
-    "Double Protein Bread: pack value unknown, counted as 15 g protein per 100 g.",
-    "Oil spray (2–3 sprays) counted as about 1 g of oil; ranges use the lower amount.",
     "Quick: about 15 minutes hands-on (our estimate)."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

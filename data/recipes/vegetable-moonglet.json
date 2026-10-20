@@ -32,7 +32,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": null,
   "protein_working": [],
@@ -197,9 +197,12 @@
     "Now slice it up & enjoy with some bhujiya, coriander & green chutney!"
   ],
   "assumptions": [],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes.",
-    "Macros: the creator gives none — Jatin to add."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
 }

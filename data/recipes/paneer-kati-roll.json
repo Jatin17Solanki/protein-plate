@@ -31,12 +31,12 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 19,
-    "kcal": 270,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 17,
+    "kcal": 217,
+    "carbs_g": 28,
+    "fat_g": 3.8,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per serve, including 1 roti/wrap (serves 4)",
@@ -45,13 +45,7 @@
     "carbs_g": 28,
     "fat_g": 3.8
   },
-  "protein_working": [
-    "200 g low-fat paneer × 25/100 g = 50 g",
-    "\"frozen chapati\" ≈ 160 g roti / chapati × 9/100 g = 14.4 g",
-    "60 g Greek yogurt × 9/100 g = 5.4 g",
-    "\"1 sliced onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 74.9 g ÷ 4 portions = 18.7 g per portion"
-  ],
+  "protein_working": [],
   "servings": 4,
   "ingredients": [
     {
@@ -259,9 +253,10 @@
     "Topping it with a layer of our mint chutney, the cooked paneer, top with freshly chopped cilantro, squeeze of lime, wrap it nice and tight and it’s ready to eat."
   ],
   "assumptions": [
-    "One chapati per serve, so 4 in all (from the creator's nutrition note); about 40 g each.",
+    "One chapati per serve, so 4 in all (from the creator's nutrition note).",
     "Creator also states 4.3 g fibre per serve."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": []
 }

@@ -30,12 +30,12 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 44,
-    "kcal": 440,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 40,
+    "kcal": 370,
+    "carbs_g": 28,
+    "fat_g": 10,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per jar",
@@ -44,12 +44,7 @@
     "carbs_g": 28,
     "fat_g": 10
   },
-  "protein_working": [
-    "60 g dry soya chunks × 52/100 g = 31.2 g",
-    "100 g Greek yogurt × 9/100 g = 9 g",
-    "10 g peanuts × 25/100 g = 2.5 g",
-    "Total ≈ 44.4 g per portion"
-  ],
+  "protein_working": [],
   "servings": 1,
   "ingredients": [
     {
@@ -198,5 +193,6 @@
     "Quick: about 15 minutes hands-on (our estimate)."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": []
 }

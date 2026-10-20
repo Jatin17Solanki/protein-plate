@@ -27,12 +27,12 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": 25,
-    "kcal": 380,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 24,
+    "kcal": 393,
+    "carbs_g": 19,
+    "fat_g": 25,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per serving (serves 3)",
@@ -41,15 +41,7 @@
     "carbs_g": 19,
     "fat_g": 25
   },
-  "protein_working": [
-    "250 g low-fat paneer × 25/100 g = 62.5 g",
-    "\"150ml milk\" ≈ 150 g milk × 3.3/100 g = 5 g",
-    "\"2 tbsp soy sauce\" ≈ 32 g soy sauce × 8/100 g = 2.6 g",
-    "\"2 tbsp chopped garlic\" ≈ 20 g garlic × 6.4/100 g = 1.3 g",
-    "\"1 tbsp soy sauce\" ≈ 16 g soy sauce × 8/100 g = 1.3 g",
-    "\"3 tbsp fresh cream\" ≈ 45 g fresh cream × 2.5/100 g = 1.1 g",
-    "Total ≈ 76.3 g ÷ 3 portions = 25.4 g per portion"
-  ],
+  "protein_working": [],
   "servings": 3,
   "ingredients": [
     {
@@ -217,5 +209,6 @@
     "Quick: about 20 minutes hands-on (our estimate)."
   ],
   "missing": [],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": []
 }

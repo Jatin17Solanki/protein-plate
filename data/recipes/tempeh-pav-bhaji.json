@@ -31,7 +31,7 @@
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": null,
   "protein_working": [],
@@ -207,13 +207,20 @@
     "Serve hot with toasted pav, bread, or enjoy it as a protein-rich bhaji bowl."
   ],
   "assumptions": [
-    "Ranges (4–5 tomatoes, 1–2 cups pumpkin): the lower amount is used in the estimate.",
     "Meal types are our guess."
   ],
   "missing": [
-    "Onion amount: the method adds onions but the ingredient list doesn't include them.",
-    "Servings: the caption doesn't say how many portions this makes.",
-    "Macros: the creator gives none — Jatin to add."
+    "Onion amount: the method adds onions but the ingredient list doesn't include them."
   ],
-  "added_at": "2026-10-20"
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Onion amount: the method adds onions but the ingredient list doesn't include them."
+    }
+  ]
 }

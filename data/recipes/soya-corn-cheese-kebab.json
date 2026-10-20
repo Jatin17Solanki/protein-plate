@@ -28,26 +28,19 @@
   "dish_group": "soya-kebab",
   "variant_label": "with corn & cheese",
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 30,
+    "kcal": 470,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "whole recipe (servings not stated)",
     "protein_g": 30,
     "kcal": 470
   },
-  "protein_working": [
-    "40 g dry soya chunks × 52/100 g = 20.8 g",
-    "\"1 cube cheese - cut into 4\" ≈ 20 g cheese × 22/100 g = 4.4 g",
-    "\"1 slice whole wheat bread\" ≈ 30 g whole-wheat bread × 9/100 g = 2.7 g",
-    "\"1/2 Cup Corn\" ≈ 75 g sweet corn × 3.3/100 g = 2.5 g",
-    "\"1 tbsp greek yogurt\" ≈ 15 g Greek yogurt × 9/100 g = 1.4 g",
-    "Total ≈ 35.6 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -255,11 +248,14 @@
     "For chutney - handful dhaniya, 1 tbsp greek yogurt, 1-2 walnuts, 1/2 green chilli, 1 garlic clove, 1/2 lemon juice, salt and pepper - blend everything together and its ready!!"
   ],
   "assumptions": [
-    "'1/2 ts' read as ½ tsp.",
-    "1 cheese cube ≈ 20 g; for 1–2 walnuts the lower amount is used in the estimate."
+    "'1/2 ts' read as ½ tsp."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

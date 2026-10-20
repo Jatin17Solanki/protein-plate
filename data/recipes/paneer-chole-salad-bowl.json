@@ -29,12 +29,12 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 33,
+    "kcal": 440,
+    "carbs_g": 47,
+    "fat_g": 15,
     "fibre_g": null,
-    "is_estimate": true
+    "is_estimate": false
   },
   "stated_macros": {
     "basis": "per serving (servings not stated)",
@@ -43,13 +43,7 @@
     "carbs_g": 47,
     "fat_g": 15
   },
-  "protein_working": [
-    "100 g low-fat paneer × 25/100 g = 25 g",
-    "\"Boiled chole\" ≈ 40 g dry chickpeas (chole) × 19/100 g = 7.6 g",
-    "75 g curd (dahi) × 3.5/100 g = 2.6 g",
-    "\"Onion - 1\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 38.6 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -173,11 +167,14 @@
     "Drizzle the dressing over the salad bowl, mix, and enjoy."
   ],
   "assumptions": [
-    "Boiled chole: 100 g cooked ≈ 40 g dry for the protein estimate.",
     "Salt, chilli powder, pepper, methi, chilli sauce and water appear only in the method, so they have no amounts."
   ],
-  "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
-  ],
-  "added_at": "2026-10-20"
+  "missing": [],
+  "added_at": "2026-10-20",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"per serving (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
 }

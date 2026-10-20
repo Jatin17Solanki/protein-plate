@@ -81,8 +81,10 @@ export function macroFootnote(r: Recipe): string {
   const p = r.per_portion;
   const s = r.stated_macros;
   const parts: string[] = [];
-  if (!p.is_estimate) parts.push('Protein and kcal as stated by the creator.');
-  else if (s && s.protein_g !== null) parts.push(`Our estimate; the creator says ${formatNumber(s.protein_g)} g protein${s.kcal !== null ? ` and ${formatNumber(s.kcal)} kcal` : ''} (${s.basis}).`);
+  if (!p.is_estimate) {
+    if (!s || (p.protein_g === null && p.kcal === null)) return 'The creator gives no macros.';
+    parts.push(`As stated by the creator (${s.basis}).`);
+  } else if (s && s.protein_g !== null) parts.push(`Our estimate; the creator says ${formatNumber(s.protein_g)} g protein${s.kcal !== null ? ` and ${formatNumber(s.kcal)} kcal` : ''} (${s.basis}).`);
   else parts.push('Protein and kcal are our estimate.');
   const unknown = (['carbs_g', 'fat_g', 'fibre_g'] as const).filter((k) => p[k] === null).map((k) => k.replace('_g', ''));
   if (unknown.length === 3) parts.push('Carbs, fat and fibre not known.');
