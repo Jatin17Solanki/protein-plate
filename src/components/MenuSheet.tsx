@@ -2,6 +2,7 @@ import { useRef, useState } from 'preact/hooks';
 import {
   backupFileName, conflicts, currentData, makeBackup, merge, parseBackup, summarize, type BackupData,
 } from '../lib/backup';
+import { downloadJson } from '../lib/download';
 import { href, navigate } from '../lib/router';
 import { getTheme, setTheme, writeAll, type Theme } from '../lib/storage';
 import { showToast } from '../lib/toast';
@@ -14,18 +15,6 @@ const THEMES: { key: Theme; label: string }[] = [
   { key: 'dark', label: 'Dark' },
   { key: 'auto', label: 'Auto' },
 ];
-
-function download(data: BackupData) {
-  const blob = new Blob([`${JSON.stringify(makeBackup(data), null, 2)}\n`], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = backupFileName();
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-}
 
 /** R5-Menu (+ My recipes first, Like/Dislike wording). Back up / Restore and Appearance work here. */
 export function MenuSheet({ onClose }: { onClose: () => void }) {
@@ -76,17 +65,16 @@ export function MenuSheet({ onClose }: { onClose: () => void }) {
 
       <p class="eyebrow">Catalog</p>
       <ul class="menu-list">
-        {/* Add recipes and Export catalog arrive in A7. */}
         <li>
-          <button type="button" class="menu-item" disabled>
+          <button type="button" class="menu-item" onClick={() => { onClose(); navigate(href.add()); }}>
             <span class="menu-icon"><UiIcon name="plus" size={18} /></span>
-            <span class="menu-text"><b>Add recipes</b><span>Coming soon</span></span>
+            <span class="menu-text"><b>Add recipes</b><span>From a reel's caption, with any AI chat</span></span>
           </button>
         </li>
         <li>
-          <button type="button" class="menu-item" disabled>
+          <button type="button" class="menu-item" onClick={() => { onClose(); navigate(href.export()); }}>
             <span class="menu-icon"><UiIcon name="download" size={18} /></span>
-            <span class="menu-text"><b>Export catalog</b><span>Coming soon</span></span>
+            <span class="menu-text"><b>Export catalog</b><span>For an AI chat, a link, or a file</span></span>
           </button>
         </li>
       </ul>
@@ -104,7 +92,7 @@ export function MenuSheet({ onClose }: { onClose: () => void }) {
       )}
       <ul class="menu-list">
         <li>
-          <button type="button" class="menu-item" onClick={() => { download(currentData()); showToast('Backup saved to your downloads.'); }}>
+          <button type="button" class="menu-item" onClick={() => { downloadJson(makeBackup(currentData()), backupFileName()); showToast('Backup saved to your downloads.'); }}>
             <span class="menu-icon"><UiIcon name="download" size={18} /></span>
             <span class="menu-text"><b>Back up my data</b><span>Notes, My list, Like / Dislike</span></span>
           </button>

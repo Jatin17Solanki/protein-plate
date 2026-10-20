@@ -1,25 +1,29 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (A6 session; this session also did A1–A6b)_
+_Last updated: 2026-10-20 (A7 session)_
 
-**Done (A6, PR open):**
-- **Offline:** `vite-plugin-pwa` (generateSW, `registerType: 'prompt'`, manual register in `src/components/UpdatePrompt.tsx` via `virtual:pwa-register`). Precache: app shell, CSS/JS, woff2, icons (~520 KB). `navigateFallback` = cached `index.html`. Manifest from `site.config.json` + tokens.
-- **Fonts:** self-hosted via `@fontsource` (`src/fonts.ts`); no Google Fonts.
-- **Link previews:** `vite.config.ts` plugin `static-pages` (closeBundle) → `dist/r/<id>/index.html` (`withMeta`), `dist/og/<id>.png` (`scripts/build/og.ts`, Satori + resvg), `dist/og/home.png`, `dist/my/`, `dist/review/` (noindex). Home OG tags via `transformIndexHtml`. Same data switch as the app (`VITE_FIXTURES`).
-- **Icons:** `public/icons/*` from `npm run icons` (committed). Favicon + apple-touch-icon + theme-color (light/dark) in `index.html`.
-- **Toasts:** `showToast(text, { quiet })`; quiet ones never replace a visible toast.
-- Tests: `tests/unit/pages.test.ts` (meta tags, cards, tokens), `tests/e2e/offline.spec.ts` (offline reload/deep link/navigation, static page tags + PNG, manifest/icons, no external requests, 404).
+**Done (A7, PR open):**
+- **Add recipes** `/add/` (`src/screens/AddRecipes.tsx`, lazy-loaded; logic in `src/lib/addRecipes.ts`). Home "+", desktop "Add recipes" and the menu open it.
+  1 Copy prompt = `prompts/add-recipes.md` (from its first `---`) + chat note + schema + ingredient ids/names + catalog index. 2 Paste (fences/chat text tolerated). 3 Verdicts: ✓ ready · ! possible duplicate (Add as version / Add anyway / Skip) · × error (Copy fix-it prompt). Submit → 4 "Send to GitHub": one pre-filled new-file link per recipe; "Update <title>" (copy + GitHub editor) when Add as version groups an ungrouped recipe.
+  Checks = `checkSchema`/`checkRules` (same as CI) + Track B's `findPairs` imported from `scripts/data/lib/dedupe.ts` (not copied) + id clash + label clash. Unknown dictionary ids → note only.
+- **Export** `/export/` (`src/screens/Export.tsx`, `src/lib/export.ts`): Copy prompt + compact catalog · Copy link to `/catalog.txt` (built in `vite.config.ts`, every recipe in full, no personal data) · Download JSON. "Include my notes, My list and Like / Dislike" (off) adds personal data to the prompt and file only.
+- `downloadJson` moved to `src/lib/download.ts` (menu backup uses it). SW `navigateFallbackDenylist` keeps `/catalog.txt` out of the app shell. Static `add/` + `export/` pages (noindex).
+- Tests: `tests/unit/addRecipes.test.ts`, `tests/unit/export.test.ts`, `tests/e2e/add.spec.ts` (flows + §8 screenshots/overflow for add + export at 9 widths × 2 themes).
 
-**Not done / needs Jatin:** real WhatsApp preview check; airplane-mode check on his phone. The "New recipes available" prompt has no e2e test: it needs two deploys, so check it on the next merge.
+**Not done / needs Jatin:** a real end-to-end add from his phone (Commit on GitHub, CI, deploy). The 8,000-character pre-fill cap couldn't be checked against GitHub from the session; if GitHub rejects a long link, lower `MAX_URL` in `src/lib/addRecipes.ts`. Lighthouse is left for A8.
 
-**Next:** A7 (Add recipes + Export), then A8 (QA). Start in a fresh session: this one is past 60 % context.
+**Requests for Track B (I didn't touch `prompts/` or `scripts/data/`):**
+1. `prompts/add-recipes.md`: fold in the chat note that `buildAddPrompt` appends (no file access → `ingredient_id: null` + "New dictionary entry needed: …" in assumptions, `source.ref: null`, fill `per_portion`/`flags[]` yourself, JSON only). Keep the intro → `---` layout: the app drops everything before the first `---`.
+2. Recipes added from the app may be **one-line JSON** (that's what fits in a GitHub link). Re-format them (2-space) when you next run `check.ts --write`, or add a formatter step.
+3. App-added recipes have `source.ref: null` and may have `ingredient_id: null` / new ids: add dictionary entries, and run `check.ts` (flags, 35 % rule) on them.
+4. Optional: a `findPairsAgainst(newOnes, catalog)` in `lib/dedupe.ts` would replace the id-prefix trick in `checkPaste`.
+5. B5: when the export prompt exists (e.g. `prompts/ask-catalog.md`), tell Track A; the starter text now lives in `askPrompt()` in `src/lib/export.ts`.
+
+**Next:** A8 (QA pass). Start in a fresh session.
 
 **Gotchas:**
-- Satori uses content-box sizing: padding is added outside width/height (see `og.ts`).
-- `tokens.css` has a one-line `:root[data-theme="dark"]` rule before the real block; `readTokens` skips blocks without variables.
-- `withMeta` strips earlier OG/twitter/canonical/robots tags, because the built index.html already has the home set.
-- With the service worker active, navigations get the cached `index.html`, so a page's own `<head>` only matters to crawlers.
-- `npm audit`: moderate fflate advisory via satori (build-time only), accepted (DECISIONS).
+- `src/` imports `scripts/data/lib/{dedupe,raw}.ts`: keep those modules pure (no `node:` imports) or the app build breaks.
+- `?raw` import of the prompt and the JSON imports of schema + dictionary live only in the lazy Add chunk (~53 KB gzip); keep them out of the main bundle.
 - Since PR 10, display code must use `shownProtein`/`shownNumbers`/`tintOf`, not `per_portion` directly.
 - Don't `pkill -f "playwright test"` from the same Bash call that runs Playwright.
 
