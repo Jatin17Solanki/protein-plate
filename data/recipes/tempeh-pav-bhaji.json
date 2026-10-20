@@ -34,15 +34,7 @@
     "is_estimate": true
   },
   "stated_macros": null,
-  "protein_working": [
-    "200 g tempeh × 19/100 g = 38 g",
-    "\"4–5 tomatoes\" ≈ 400 g tomato × 0.9/100 g = 3.6 g",
-    "\"1 beetroot\" ≈ 100 g beetroot × 1.6/100 g = 1.6 g",
-    "\"2 carrots\" ≈ 160 g carrot × 0.9/100 g = 1.4 g",
-    "\"1–2 cups pumpkin\" ≈ 120 g pumpkin × 1/100 g = 1.2 g",
-    "\"1 capsicum\" ≈ 120 g capsicum (bell pepper) × 1/100 g = 1.2 g",
-    "Total ≈ 50.8 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -220,7 +212,8 @@
   ],
   "missing": [
     "Onion amount: the method adds onions but the ingredient list doesn't include them.",
-    "Servings: the caption doesn't say how many portions this makes."
+    "Servings: the caption doesn't say how many portions this makes.",
+    "Macros: the creator gives none — Jatin to add."
   ],
   "added_at": "2026-10-20"
 }

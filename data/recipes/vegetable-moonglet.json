@@ -35,11 +35,7 @@
     "is_estimate": true
   },
   "stated_macros": null,
-  "protein_working": [
-    "\"3/4 cup moong dal\" ≈ 150 g dry yellow moong dal × 23/100 g = 34.5 g",
-    "\"1 onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 38.5 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -202,8 +198,8 @@
   ],
   "assumptions": [],
   "missing": [
-    "Macros (none in the caption)",
-    "Servings: the caption doesn't say how many portions this makes."
+    "Servings: the caption doesn't say how many portions this makes.",
+    "Macros: the creator gives none — Jatin to add."
   ],
   "added_at": "2026-10-20"
 }

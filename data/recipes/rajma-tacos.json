@@ -38,13 +38,7 @@
     "is_estimate": true
   },
   "stated_macros": null,
-  "protein_working": [
-    "\"Boiled Rajma – 1½ cups\" ≈ 105 g dry kidney beans (rajma) × 22/100 g = 23.1 g",
-    "\"Roti/Tortilla – 4\" ≈ 160 g roti / chapati × 9/100 g = 14.4 g",
-    "\"Hung Curd – ½ cup\" ≈ 122.5 g Greek yogurt × 9/100 g = 11 g",
-    "\"Onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
-    "Total ≈ 52.9 g for the whole recipe (portions not stated)"
-  ],
+  "protein_working": [],
   "servings": null,
   "ingredients": [
     {
@@ -323,7 +317,8 @@
     "Meal types are our guess."
   ],
   "missing": [
-    "Servings: the caption doesn't say how many portions this makes."
+    "Servings: the caption doesn't say how many portions this makes.",
+    "Macros: the creator gives none — Jatin to add."
   ],
   "added_at": "2026-10-20"
 }
