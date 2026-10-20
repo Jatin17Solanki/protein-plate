@@ -12,7 +12,7 @@ _Last updated: 2026-10-20 (A1 session)_
 
 **Not done:** site isn't live until the PR merges (deploy runs on push to main). vite-plugin-pwa not installed yet (add in A6).
 
-**Next:** Jatin approves the schema (D3) → merge → check the live URL (`site.config.json` → site_url). Then A2.
+**Next:** schema approved (D3) → merge → check the live URL (`site.config.json` → site_url). Then A2.
 
 **Gotchas:**
 - `VITE_FIXTURES=1` builds from fixtures instead of `data/recipes/` (dead-code-eliminated in normal builds). Use it for A2–A6 until B2 lands.
@@ -22,4 +22,4 @@ _Last updated: 2026-10-20 (A1 session)_
 - Cloud sessions are assigned a `claude/...` branch name, not `a2-home-grid` style; that's fine.
 - If deploy fails with "Pages not enabled": Settings → Pages → Source: GitHub Actions (Phase 0 step 2).
 
-**Open questions:** D3 (schema) — see the A1 PR.
+**Open questions:** none.

@@ -8,7 +8,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 |---|---|---|---|---|
 | D1 | [J] Raw recipe dumps contain personal notes and copied captions. A public repo makes them public. | Don't commit raw dumps. Keep them in a **private** repo `protein-plate-raw` that Track B sessions can read, or paste them into the session. Only normalised recipes go in the public repo. | B1 | **Agreed 2026-10-20.** Done: private repo `Jatin17Solanki/protein-plate-raw` created; batch 1 uploaded to `batches/2026-10-16-batch1.txt`. |
 | D2 | [J] Tech stack | Vite + TypeScript + Preact + vite-plugin-pwa + MiniSearch + Ajv + Playwright + Vitest | A1 | **Agreed 2026-10-20.** |
-| D3 | [J] Schema field names | Claude proposes in A1's PR | A1 merge | Proposed in the A1 PR — awaiting Jatin. |
+| D3 | [J] Schema field names | Claude proposes in A1's PR | A1 merge | **Agreed 2026-10-20** (schema as proposed in the A1 PR). |
 | D4 | [J] Previews before merge | v1: no preview hosting; every UI PR carries screenshots; Jatin checks the live site on his phone after merge (rollback = revert). Revisit if this hurts. | A2 | **Agreed 2026-10-20.** |
 | D5 | [J] Recipe text on a public site | Steps rewritten in our own words, always crediting the creator with a link; ingredient lists as facts. (Not legal advice.) | B1 | **Agreed 2026-10-20**, with the fidelity rules in PLAN B1 (normalisation must never change the recipe). |
 | D6 | [J] Licence for the code | MIT | A1 | **Agreed 2026-10-20.** |
@@ -16,7 +16,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 ## Track A — App
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
-| A1 | Scaffold, schema, CI, deploy | Phase 0 | review | `claude/compassionate-clarke-bxgv06` / [PR 1](https://github.com/Jatin17Solanki/protein-plate/pull/1) | Opus | Needs Jatin's yes on the schema (D3) before merge. Site goes live on first push to main. |
+| A1 | Scaffold, schema, CI, deploy | Phase 0 | review | `claude/compassionate-clarke-bxgv06` / [PR 1](https://github.com/Jatin17Solanki/protein-plate/pull/1) | Opus | Schema approved (D3). Site goes live on first push to main. |
 | A2 | App shell + Home grid | A1 | todo | | Sonnet | |
 | A3 | Filters + search + empty state | A2 | todo | | Sonnet | |
 | A4 | Recipe page + personal data + My recipes | A2 | todo | | Sonnet | |
