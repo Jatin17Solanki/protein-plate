@@ -29,9 +29,9 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | ID | Phase | Depends on | Status | Branch / PR | Model | Notes |
 |---|---|---|---|---|---|---|
 | B1 | Rules, dictionary, prompt v1, first 10 | A1 schema, D1, D5 | done | `claude/busy-noether-s5qjwo` / [PR 3](https://github.com/Jatin17Solanki/protein-plate/pull/3) | Opus | Review sheet in private repo `reviews/2026-10-20-B1-first-10.md` |
-| B2 | Rest of batch 1 | B1 approved | review | `claude/busy-noether-s5qjwo` / PR_LINK | Opus | Done as B2a + one batch for the last 50 (Jatin: no more small batches). All 80 entries in the catalog. |
+| B2 | Rest of batch 1 | B1 approved | review | `claude/busy-noether-s5qjwo` / [PR 10](https://github.com/Jatin17Solanki/protein-plate/pull/10) | Opus | Done as B2a + one batch for the last 50 (Jatin: no more small batches). All 80 entries in the catalog. |
 | B2a | Batch 1 entries #2, 3, 7–21, 23–25 (20) | B1 | done | `claude/busy-noether-s5qjwo` / [PR 7](https://github.com/Jatin17Solanki/protein-plate/pull/7) | Opus | 30 recipes in catalog; review sheet `reviews/2026-10-20-B2a.md` (private repo) |
-| B2b | Batch 1 entries #26–80 (the last 50) + creator-numbers-only + flags | B2a | review | `claude/busy-noether-s5qjwo` / PR_LINK | Opus | Review sheet `reviews/2026-10-20-B2b-rest.md` (private repo) |
+| B2b | Batch 1 entries #26–80 (the last 50) + creator-numbers-only + flags | B2a | review | `claude/busy-noether-s5qjwo` / [PR 10](https://github.com/Jatin17Solanki/protein-plate/pull/10) | Opus | Review sheet `reviews/2026-10-20-B2b-rest.md` (private repo) |
 | B6 | Resolve flagged recipes with Jatin (62 flagged) | B2, admin list (Track A) | todo | | any | Jatin reviews in the app; remove each flag once resolved |
 | B3 | Batch 2 (new scrape) | B2 | todo | | Opus | Jatin supplies the file |
 | B4 | Incomplete entries, oats, My list seed | Jatin's details | todo | | Opus | |
