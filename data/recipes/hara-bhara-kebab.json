@@ -1,0 +1,125 @@
+{
+  "id": "hara-bhara-kebab",
+  "title": "Hara Bhara Kebab",
+  "source": {
+    "url": "https://www.instagram.com/p/DbLb7d1JnbF/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#12"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "moong_green",
+    "green_peas"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 41,
+    "kcal": 455,
+    "carbs_g": 50,
+    "fat_g": 10
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "green moong (raw weight)",
+      "ingredient_id": "moong_green",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50gm raw weight Moong"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100gm Green peas"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100gm Low fat paneer"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "some spinach"
+    },
+    {
+      "item": "roasted besan / sattu",
+      "ingredient_id": "sattu",
+      "qty": 20,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "20gm roasted Besan/ Sattu"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "green chiili, Ginger & 3-4 Garlic cloves"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "green chiili, Ginger & 3-4 Garlic cloves"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "green chiili, Ginger & 3-4 Garlic cloves"
+    }
+  ],
+  "steps": [],
+  "assumptions": [
+    "Roasted besan / sattu counted as sattu.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Method (the caption says it is in the video)",
+    "Spices: 'as per your taste'",
+    "Spinach amount",
+    "Servings"
+  ],
+  "added_at": "2026-10-20"
+}

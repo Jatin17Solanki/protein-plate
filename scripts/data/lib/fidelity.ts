@@ -34,15 +34,17 @@ export function wordsOnly(s: string): string {
 }
 
 /** Headings: "Ingredients (Makes 1)", "Preparation of this recipe", "For the dressing:", "Kebabs -". */
-const HEADER = /^(ingredients?|method|how to make|preparation|recipe|directions|instructions)\b|[:–-]\s*$/i;
-const NUTRITION = /\b(cals?|calories|kcal|protein|protien|carbs?|fats?|fib(re|er)|serves?|servings?|nutrition|macros)\b|^[pfc]\s*:\s*\d/i;
+const HEADER =
+  /^(ingredients?|method|how to make|preparation|cooking|recipe|directions|instructions)\b|^(for\b.*|(whole )?spices|seasoning|assembly|toppings?|garnish|dressing|sauce|marinade)$|[:–-]\s*$/i;
+const NUTRITION = /\b(cals?|calories|kcal|protein|protien|carbs?|carbohydrates|fats?|fib(re|er)|serves?|servings?|nutrition|macros)\b|^[pfc]\s*:\s*\d/i;
 
 /** Text with links, @handles and leading list numbers ("3. ") removed, so they don't count as quantities. */
 export function stripNoise(line: string): string {
   return line
     .replace(/https?:\/\/\S+/g, ' ')
     .replace(/@[\w.]+/g, ' ')
-    .replace(/^\s*\d{1,2}[.)]\s+/, ' ');
+    .replace(/^\s*\d{1,2}[.)]\s+/, ' ')
+    .replace(/^\s*\d{1,2}\uFE0F?\u20E3\s*/, ' ');
 }
 
 /** Every number in a piece of text: 4–5 → 4, 5 · 1/2 → 0.5 · 1½ → 1.5 · "two" → 2. */
@@ -103,7 +105,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   const ingWords = r.ingredients.map((g) => ` ${wordsOnly(g.as_written)} `);
   content.forEach((line, i) => {
     const w = wordsOnly(stripNoise(line));
-    const t = normalizeText(line).replace(/^[^\p{L}\p{N}]+/u, '');
+    const t = normalizeText(stripNoise(line)).replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}:–-]+$/gu, '');
     if (i === 0 || !w || HEADER.test(t) || NUTRITION.test(t)) return;
     if (stepWords.includes(` ${w} `) || ingWords.some((g) => g.includes(` ${w} `) || ` ${w} `.includes(g))) return;
     warnings.push(`source line not in any step or ingredient — "${line.slice(0, 90)}"`);
@@ -146,7 +148,8 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   const ids = new Set(r.ingredients.map((g) => g.ingredient_id).filter(Boolean));
   const mentioned = new Set(matcher.find([...r.steps, ...r.assumptions, ...r.missing].join(' \n ')).map((m) => m.id));
   const reported = new Set<string>();
-  for (const m of matcher.find(content.join(' \n '))) {
+  // The title (first line) names ingredients loosely ("Paneer … Rice"), so it is not checked here.
+  for (const m of matcher.find(content.slice(1).join(' \n '))) {
     if (ids.has(m.id) || mentioned.has(m.id) || reported.has(m.id)) continue;
     reported.add(m.id);
     errors.push(`source mentions "${m.alias}" (${m.id}) but it is not an ingredient, a step or an assumption`);

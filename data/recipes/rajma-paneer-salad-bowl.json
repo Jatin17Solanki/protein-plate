@@ -1,0 +1,166 @@
+{
+  "id": "rajma-paneer-salad-bowl",
+  "title": "Rajma Paneer Salad Bowl",
+  "source": {
+    "url": "https://www.instagram.com/p/C_5ZMt7S6C3/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#25"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "rajma"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 28,
+    "kcal": 360,
+    "carbs_g": 56,
+    "fat_g": 4
+  },
+  "protein_working": [
+    "\"150g Boiled Rajma\" ≈ 60 g dry kidney beans (rajma) × 22/100 g = 13.2 g",
+    "50 g low-fat paneer × 25/100 g = 12.5 g",
+    "50 g paneer × 18/100 g = 9 g",
+    "\"1 Small Onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 38.2 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g Low Fat Paneer"
+    },
+    {
+      "item": "boiled rajma",
+      "ingredient_id": "rajma",
+      "qty": 150,
+      "unit": "g",
+      "grams": 60,
+      "type": "protein",
+      "as_written": "150g Boiled Rajma"
+    },
+    {
+      "item": "tomato (small)",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Small Tomato"
+    },
+    {
+      "item": "carrot (medium)",
+      "ingredient_id": "carrot",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Medium Carrot"
+    },
+    {
+      "item": "onion (small)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Small Onion"
+    },
+    {
+      "item": "cucumber (medium)",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Medium Cucumber"
+    },
+    {
+      "item": "paneer (sauce)",
+      "ingredient_id": "paneer",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g Paneer"
+    },
+    {
+      "item": "garlic (sauce)",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Garlic"
+    },
+    {
+      "item": "green chilli (sauce)",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Green Chilli"
+    },
+    {
+      "item": "salt (sauce)",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper (sauce)",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Black Pepper"
+    },
+    {
+      "item": "lemon (sauce)",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon"
+    }
+  ],
+  "steps": [
+    "Prepare salad: in a bowl, add chopped cucumber, onion, carrot, tomato, and boiled rajma.",
+    "Make the sauce: blend paneer, garlic, green chilli, salt, black pepper*, and lemon juice to make a creamy sauce.",
+    "Mix and serve: spread the sauce over the salad, mix everything, and enjoy daily for a gut-friendly, high-protein meal!"
+  ],
+  "assumptions": [
+    "Boiled rajma: 150 g cooked ≈ 60 g dry for the protein estimate.",
+    "The creator notes the powder in the video is black pepper, not coriander powder.",
+    "Creator also states 16 g fibre.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

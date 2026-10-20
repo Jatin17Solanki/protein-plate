@@ -1,0 +1,329 @@
+{
+  "id": "rajma-tacos",
+  "title": "Rajma Tacos",
+  "source": {
+    "url": "https://www.instagram.com/p/DZXXa_0o0EX/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#14"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "roti",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "global"
+  ],
+  "dish_group": "rajma-taco",
+  "variant_label": "with garlic dip & onion salad",
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": null,
+  "protein_working": [
+    "\"Boiled Rajma – 1½ cups\" ≈ 105 g dry kidney beans (rajma) × 22/100 g = 23.1 g",
+    "\"Roti/Tortilla – 4\" ≈ 160 g roti / chapati × 9/100 g = 14.4 g",
+    "\"Hung Curd – ½ cup\" ≈ 122.5 g Greek yogurt × 9/100 g = 11 g",
+    "\"Onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 52.9 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "boiled rajma",
+      "ingredient_id": "rajma",
+      "qty": 1.5,
+      "unit": "cup",
+      "grams": 105,
+      "type": "protein",
+      "as_written": "Boiled Rajma – 1½ cups"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Ghee – 1 tbsp"
+    },
+    {
+      "item": "ginger, chopped",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger (chopped) – 1 tsp"
+    },
+    {
+      "item": "garlic, chopped",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Garlic (chopped) – 1 tbsp"
+    },
+    {
+      "item": "green chilli, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Green Chilli (chopped) – 1-2"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Coriander Powder – 1 tsp"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cumin Powder – 1 tsp"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kashmiri Red Chilli Powder – 1 tsp"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black Pepper Powder – ¼ tsp"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garam Masala – ½ tsp"
+    },
+    {
+      "item": "kitchen king masala",
+      "ingredient_id": "kitchen_king_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kitchen King Masala – 1 tsp"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Turmeric Powder – ¼ tsp"
+    },
+    {
+      "item": "kasuri methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kasuri Methi – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.75,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt – ¾ tsp"
+    },
+    {
+      "item": "black salt",
+      "ingredient_id": "black_salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black Salt – ½ tsp"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Fresh Coriander – 2 tbsp"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Water – 1/2 cup"
+    },
+    {
+      "item": "hung curd (garlic dip)",
+      "ingredient_id": "greek_yogurt",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Hung Curd – ½ cup"
+    },
+    {
+      "item": "garlic, grated (garlic dip)",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Garlic (grated) – 1 tsp"
+    },
+    {
+      "item": "salt (garlic dip)",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt – ¼ tsp"
+    },
+    {
+      "item": "black pepper powder (garlic dip)",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black Pepper Powder – ¼ tsp"
+    },
+    {
+      "item": "sugar (garlic dip)",
+      "ingredient_id": "sugar",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Sugar – ½ tsp"
+    },
+    {
+      "item": "lemon juice (garlic dip)",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon Juice – 1 tsp"
+    },
+    {
+      "item": "fresh coriander, chopped (garlic dip)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Fresh Coriander (chopped) – 1 tbsp"
+    },
+    {
+      "item": "onion, sliced (onion salad)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Onion (sliced) – 1 medium"
+    },
+    {
+      "item": "green chilli, chopped (onion salad)",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Green Chilli (chopped) – 1"
+    },
+    {
+      "item": "fresh coriander, chopped (onion salad)",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Fresh Coriander (chopped) – 1 tbsp"
+    },
+    {
+      "item": "salt (onion salad)",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt – ¼ tsp"
+    },
+    {
+      "item": "red chilli powder (onion salad)",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red Chilli Powder – ¼ tsp"
+    },
+    {
+      "item": "lemon juice (onion salad)",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon Juice – 1 tsp"
+    },
+    {
+      "item": "roti or tortilla",
+      "ingredient_id": "roti",
+      "qty": 4,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "Roti/Tortilla – 4"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Butter – 1 tbsp"
+    }
+  ],
+  "steps": [
+    "Heat ghee and sauté ginger, garlic, and green chilli.",
+    "Add coriander powder, cumin powder, Kashmiri red chilli powder, black pepper powder, garam masala, Kitchen King masala, turmeric, and kasuri methi.",
+    "Add a splash of water and cook until the masala is well roasted.",
+    "Add boiled rajma, salt, and black salt. Cook well and mash until slightly chunky.",
+    "Mix in fresh coriander, cool completely, and shape into balls.",
+    "Mix all garlic dip ingredients together.",
+    "Soak onion slices in chilled water for 10 minutes. Drain and toss with green chilli, coriander, salt, red chilli powder, and lemon juice.",
+    "Place a rajma ball on a roti, press flat, and cook with butter from both sides until golden and crispy.",
+    "Spread garlic dip, add onion salad, fold, and serve."
+  ],
+  "assumptions": [
+    "Boiled rajma: 1½ cups cooked ≈ 105 g dry for the protein estimate.",
+    "Roti/tortilla counted as roti.",
+    "Makes 4 tacos; the caption doesn't say how many make a portion.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

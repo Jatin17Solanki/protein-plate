@@ -1,0 +1,183 @@
+{
+  "id": "silken-tofu-veggie-pancakes",
+  "title": "Silken Tofu Veggie Pancakes",
+  "source": {
+    "url": "https://www.instagram.com/p/DdA9SLMoNm6/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#11"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "rice_flour"
+  ],
+  "tags": [
+    "chilla_pancake_omelette",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": null,
+  "protein_working": [
+    "160 g silken tofu × 5/100 g = 8 g",
+    "35 g dry rice flour × 6/100 g = 2.1 g",
+    "Total ≈ 12.2 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "silken tofu",
+      "ingredient_id": "tofu_silken",
+      "qty": 160,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "160 g silken tofu"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 35,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "35 g rice flour"
+    },
+    {
+      "item": "cornstarch",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "grams": 8,
+      "type": "grain",
+      "as_written": "1 tbsp cornstarch (~8 g)"
+    },
+    {
+      "item": "zucchini, shredded",
+      "ingredient_id": "zucchini",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup shredded zucchini"
+    },
+    {
+      "item": "carrot, shredded",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ carrot, shredded"
+    },
+    {
+      "item": "onion, finely shredded",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ onion, finely shredded/sliced"
+    },
+    {
+      "item": "cabbage, shredded",
+      "ingredient_id": "cabbage",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup shredded cabbage"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Red chilli powder, to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper, to taste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "black sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp black sesame seeds"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water, only if required"
+    },
+    {
+      "item": "soy sauce (for serving)",
+      "ingredient_id": "soy_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Soy sauce, for serving"
+    }
+  ],
+  "steps": [
+    "Add 160 g silken tofu to a blender with water and blend until completely smooth and creamy.",
+    "Add 35 g rice flour + 1 tbsp cornstarch to a bowl. Add zucchini, carrot, onion and cabbage.",
+    "Season with salt, red chilli powder and black pepper.",
+    "Add the blended tofu and mix everything thoroughly.",
+    "The consistency should be thick but pourable not watery. If it’s genuinely too thick, add little water.",
+    "Heat a non-stick pan and lightly grease it with 1 tsp oil.",
+    "Spoon small portions onto the pan and spread them into small, relatively thin pancakes. Sprinkle black sesame seeds on top.",
+    "Cook over medium-hugh heat until the underside is golden, crisp and completely set before flipping. Flip and cook the other side until crisp.",
+    "Serve immediately with soy sauce dressing (soua sauce + lemon juice + water + honey + salt + 1/2 chopped green chili)."
+  ],
+  "assumptions": [
+    "Makes 4–5 pancakes; the caption doesn't say how many make a portion.",
+    "Low in protein for the catalog (about 12 g for the whole batch)."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

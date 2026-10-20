@@ -1,0 +1,183 @@
+{
+  "id": "paneer-chole-salad-bowl",
+  "title": "Paneer Chole Salad Bowl",
+  "source": {
+    "url": "https://www.instagram.com/p/DCEcGydS4FX/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#21"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "chickpeas"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per serving (servings not stated)",
+    "protein_g": 33,
+    "kcal": 440,
+    "carbs_g": 47,
+    "fat_g": 15
+  },
+  "protein_working": [
+    "100 g low-fat paneer × 25/100 g = 25 g",
+    "\"Boiled chole\" ≈ 40 g dry chickpeas (chole) × 19/100 g = 7.6 g",
+    "75 g curd (dahi) × 3.5/100 g = 2.6 g",
+    "\"Onion - 1\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 38.6 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Ghee - ½ tsp"
+    },
+    {
+      "item": "dahi (yogurt)",
+      "ingredient_id": "curd",
+      "qty": 75,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Dahi (yogurt) - 75g"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low-fat paneer - 100g"
+    },
+    {
+      "item": "boiled chole (chickpeas)",
+      "ingredient_id": "chickpeas",
+      "qty": 100,
+      "unit": "g",
+      "grams": 40,
+      "type": "protein",
+      "as_written": "Boiled chole (chickpeas) - 100g"
+    },
+    {
+      "item": "bell pepper, diced",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Bell pepper - ½, diced"
+    },
+    {
+      "item": "cucumber, diced",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Cucumber - ½, diced"
+    },
+    {
+      "item": "tomato, diced",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Tomato - 1, diced"
+    },
+    {
+      "item": "onion, diced",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Onion - 1, diced"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "black pepper"
+    },
+    {
+      "item": "methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "methi"
+    },
+    {
+      "item": "red chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "red chilli sauce"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "a little water"
+    }
+  ],
+  "steps": [
+    "In a pan, add ghee and toss in the boiled chole. Add salt, red chilli powder, black pepper, and methi, and cook until well coated.",
+    "In a large bowl, add diced onion, tomato, cucumber, and bell pepper. Place the cooked chole in the center.",
+    "For the dressing, blend paneer, dahi, salt, red chilli powder, red chilli sauce, black pepper, and a little water until smooth.",
+    "Drizzle the dressing over the salad bowl, mix, and enjoy."
+  ],
+  "assumptions": [
+    "Boiled chole: 100 g cooked ≈ 40 g dry for the protein estimate.",
+    "Salt, chilli powder, pepper, methi, chilli sauce and water appear only in the method, so they have no amounts."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

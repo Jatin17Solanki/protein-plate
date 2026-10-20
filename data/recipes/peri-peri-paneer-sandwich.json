@@ -1,0 +1,170 @@
+{
+  "id": "peri-peri-paneer-sandwich",
+  "title": "Peri Peri Paneer Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/p/DYj1GAYsar6/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#15"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_protein",
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 450
+  },
+  "protein_working": [
+    "80 g low-fat paneer × 25/100 g = 20 g",
+    "\"2 slices Double Protein Bread\" ≈ 60 g protein bread × 15/100 g = 9 g",
+    "\"1 cheese slice\" ≈ 20 g cheese × 22/100 g = 4.4 g",
+    "\"1 tbsp Greek yogurt\" ≈ 15 g Greek yogurt × 9/100 g = 1.4 g",
+    "Total ≈ 36.3 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "double protein bread",
+      "ingredient_id": "bread_protein",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices Double Protein Bread"
+    },
+    {
+      "item": "high-protein paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80-90 g ID High Protein Paneer"
+    },
+    {
+      "item": "peri peri masala",
+      "ingredient_id": "peri_peri",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp peri peri masala"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame seeds"
+    },
+    {
+      "item": "oil spray",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": null,
+      "grams": 1,
+      "type": "pantry",
+      "as_written": "Oil spray (2–3 sprays)"
+    },
+    {
+      "item": "cucumber slices",
+      "ingredient_id": "cucumber",
+      "qty": 4,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "4-6 cucumber slices"
+    },
+    {
+      "item": "beetroot slices",
+      "ingredient_id": "beetroot",
+      "qty": 2,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "2 beetroot slices"
+    },
+    {
+      "item": "tomato slices",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "3-4 tomato slices"
+    },
+    {
+      "item": "cheese slice",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "as_written": "1 cheese slice"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Schezwan chutney"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp Greek yogurt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper to taste"
+    }
+  ],
+  "steps": [
+    "Coat the paneer evenly with peri peri masala.",
+    "Spray a pan lightly with oil, sprinkle sesame seeds and shallow-fry the paneer on both sides until slightly crisp and golden.",
+    "Mix Schezwan chutney and Greek yogurt until smooth.",
+    "Take one bread slice, spread the sauce, add the peri peri paneer, cheese slice, cucumber, beetroot and tomato slices. Sprinkle black pepper.",
+    "Close the sandwich with the second bread slice and toast until crisp.",
+    "Serve hot."
+  ],
+  "assumptions": [
+    "Double Protein Bread: pack value unknown, counted as 15 g protein per 100 g.",
+    "Oil spray (2–3 sprays) counted as about 1 g of oil; ranges use the lower amount.",
+    "Quick: about 15 minutes hands-on (our estimate)."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

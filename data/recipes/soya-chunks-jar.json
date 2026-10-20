@@ -1,0 +1,202 @@
+{
+  "id": "soya-chunks-jar",
+  "title": "Soya Chunks Jar",
+  "source": {
+    "url": "https://www.instagram.com/p/DPdkjXhCEpy/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#16"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 44,
+    "kcal": 440,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "per jar",
+    "protein_g": 40,
+    "kcal": 370,
+    "carbs_g": 28,
+    "fat_g": 10
+  },
+  "protein_working": [
+    "60 g dry soya chunks × 52/100 g = 31.2 g",
+    "100 g Greek yogurt × 9/100 g = 9 g",
+    "10 g peanuts × 25/100 g = 2.5 g",
+    "Total ≈ 44.4 g per portion"
+  ],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "dried soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60g dried soya chunks soaked & drained"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 5,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "5g ghee"
+    },
+    {
+      "item": "chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chilli powder"
+    },
+    {
+      "item": "pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "turmeric powder"
+    },
+    {
+      "item": "onions",
+      "ingredient_id": "onion",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g onions"
+    },
+    {
+      "item": "tomatoes",
+      "ingredient_id": "tomato",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g tomatoes"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g cucumber"
+    },
+    {
+      "item": "carrots",
+      "ingredient_id": "carrot",
+      "qty": 40,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "40g carrots"
+    },
+    {
+      "item": "0% fat Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g 0% fat Greek yogurt"
+    },
+    {
+      "item": "salt (pinch)",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt, cumin powder, chaat masala, and chilli flakes"
+    },
+    {
+      "item": "cumin powder (pinch)",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt, cumin powder, chaat masala, and chilli flakes"
+    },
+    {
+      "item": "chaat masala (pinch)",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt, cumin powder, chaat masala, and chilli flakes"
+    },
+    {
+      "item": "chilli flakes (pinch)",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt, cumin powder, chaat masala, and chilli flakes"
+    },
+    {
+      "item": "roasted peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g roasted peanuts"
+    },
+    {
+      "item": "lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "a squeeze of lime"
+    }
+  ],
+  "steps": [
+    "60g dried soya chunks soaked & drained, pan-fried with 5g ghee, chilli powder, pepper, salt, and turmeric powder.",
+    "50g onions, 50g tomatoes, 50g cucumber, 40g carrots, 100g 0% fat Greek yogurt, a pinch of salt, cumin powder, chaat masala, and chilli flakes, 10g roasted peanuts, and a squeeze of lime.",
+    "That’s it — you’ve made yourself a high-protein, low-calorie soya chunks jar that tastes insane."
+  ],
+  "assumptions": [
+    "Quick: about 15 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

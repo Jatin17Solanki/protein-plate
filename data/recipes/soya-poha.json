@@ -1,0 +1,234 @@
+{
+  "id": "soya-poha",
+  "title": "Soya Poha",
+  "source": {
+    "url": "https://www.instagram.com/p/DdjDGzPoM_p/",
+    "platform": "instagram",
+    "creator": null,
+    "creator_url": null,
+    "ref": "batches/2026-10-16-batch1.txt#3"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 26,
+    "kcal": 400,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "serves 1",
+    "protein_g": 25,
+    "kcal": 430
+  },
+  "protein_working": [
+    "30 g dry soya granules × 52/100 g = 15.6 g",
+    "7 g pumpkin seeds × 30/100 g = 2.1 g",
+    "\"¼ cup green peas\" ≈ 36.3 g green peas × 5.4/100 g = 2 g",
+    "25 g dry poha (flattened rice) × 7/100 g = 1.8 g",
+    "\"1/4-1/2 cup sprouts\" ≈ 25 g moong sprouts × 7/100 g = 1.8 g",
+    "5 g peanuts × 25/100 g = 1.3 g",
+    "Total ≈ 25.9 g per portion"
+  ],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya granules",
+      "ingredient_id": "soya_granules",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g soya granules"
+    },
+    {
+      "item": "poha",
+      "ingredient_id": "poha",
+      "qty": 25,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "25-30g poha"
+    },
+    {
+      "item": "sprouts",
+      "ingredient_id": "sprouts",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/4-1/2 cup sprouts"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup green peas"
+    },
+    {
+      "item": "carrot (small)",
+      "ingredient_id": "carrot",
+      "qty": 0.25,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/4 small carrot"
+    },
+    {
+      "item": "onion (small)",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 small onion"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 5,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "5g peanuts"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 7,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "7g pumpkin seeds"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Curry leaves"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp mustard seeds"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "produce",
+      "as_written": "Green chilli, as per taste"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Turmeric powder, as per taste"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Red chilli powder, as per taste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "produce",
+      "as_written": "Lemon juice, to taste"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener, a little"
+    },
+    {
+      "item": "oil (for tempering)",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil, for tempering"
+    },
+    {
+      "item": "coriander (garnish)",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander, for garnish"
+    },
+    {
+      "item": "sev (garnish)",
+      "ingredient_id": "sev",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sev, for garnish"
+    }
+  ],
+  "steps": [
+    "Boil 25g soya granules, drain them well and keep them aside.",
+    "Wash poha, drain the water and fluff with a fork.",
+    "Add the sprouts, green peas and chopped carrot to a pan with some water. Boil until the vegetables are cooked.",
+    "Meanwhile, heat 1 tsp oil in a pan and add cumin seeds, mustard seeds, curry leaves and green chilli. Let them sizzle until fragrant.",
+    "Add peanuts, pumpkin seeds and finely chopped onion. Sauté until the onion turns slightly golden and everything is fragrant.",
+    "Add the boiled soya granules, turmeric powder, red chilli powder and salt. Mix well.",
+    "Add the boiled vegetables and poha, then mix everything together. Cook for a few minutes until well combined.",
+    "Finish with fresh lemon juice and a little zero-calorie sweetener to balance the flavours.",
+    "Garnish with onion and sev."
+  ],
+  "assumptions": [
+    "Soya granules: 30 g in the list, 25 g in the method; the estimate uses 30 g.",
+    "Ranges (25–30 g poha, ¼–½ cup sprouts): the lower amount is used in the estimate.",
+    "Creator also states ~10 g fibre.",
+    "Poha has no format tag of its own.",
+    "Quick: about 20 minutes hands-on (our estimate)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-20"
+}

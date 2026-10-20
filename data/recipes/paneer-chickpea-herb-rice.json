@@ -1,0 +1,164 @@
+{
+  "id": "paneer-chickpea-herb-rice",
+  "title": "Paneer Chickpea Herb Rice",
+  "source": {
+    "url": "https://www.instagram.com/p/DZtnhfJzJn7/",
+    "platform": "instagram",
+    "creator": "mrbfit_",
+    "creator_url": "https://www.instagram.com/mrbfit_/",
+    "ref": "batches/2026-10-16-batch1.txt#7"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "chickpeas",
+    "rice_cooked"
+  ],
+  "tags": [
+    "rice_pulao_biryani",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 42,
+    "kcal": 703,
+    "carbs_g": 98,
+    "fat_g": 16
+  },
+  "protein_working": [
+    "100 g low-fat paneer × 25/100 g = 25 g",
+    "\"120g boiled or canned chickpeas\" ≈ 48 g dry chickpeas (chole) × 19/100 g = 9.1 g",
+    "200 g cooked rice × 2.7/100 g = 5.4 g",
+    "\"1 small chopped onion or half a regular size onion\" ≈ 110 g onion × 1.1/100 g = 1.2 g",
+    "Total ≈ 42.9 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "garlic, sliced",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 cloves of slices garlic"
+    },
+    {
+      "item": "onion, chopped (small)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small chopped onion or half a regular size onion"
+    },
+    {
+      "item": "boiled or canned chickpeas",
+      "ingredient_id": "chickpeas",
+      "qty": 120,
+      "unit": "g",
+      "grams": 48,
+      "type": "protein",
+      "as_written": "120g boiled or canned chickpeas"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "spring onion",
+      "ingredient_id": "spring_onion",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Half cup spring onion"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Salt"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Chilli flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Oregano"
+    },
+    {
+      "item": "chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Chilli powder (the original recipe uses peri peri powder instead)"
+    },
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 200,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "200g Cooked rice"
+    },
+    {
+      "item": "lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "half a lime"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 2 cloves of slices garlic, 1 small chopped onion or half a regular size onion.",
+    "Sauté for 2 min or till golden brown.",
+    "120g boiled or canned chickpeas (I used 200g canned chickpeas - it was too much for me), 100g low fat paneer, half cup spring onion. Mix well.",
+    "Add 1 tsp salt, 1 tsp chilli flakes, 1 tsp oregano, 1 tsp chilli powder (the original recipe uses peri peri powder instead). Mix well.",
+    "Add 200g cooked rice. Mix well.",
+    "Squeeze half a lime and that’s it."
+  ],
+  "assumptions": [
+    "Boiled/canned chickpeas: 120 g cooked ≈ 48 g dry for the protein estimate.",
+    "Creator also states 15 g fibre.",
+    "Quick: about 15 minutes hands-on with cooked rice and boiled chickpeas ready (our estimate)."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}

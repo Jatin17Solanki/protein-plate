@@ -25,11 +25,17 @@ const SEPARATOR = /^-{20,}\s*$/;
 const HEADING = /^([A-Z][A-Za-z /&]+?):?\s*$/;
 
 /** Keyword/hashtag lists creators paste under a caption: many short comma-separated phrases, no
- * quantities, no sentences (a long method line also has many commas, but longer phrases or a full stop). */
+ * quantities, no sentence (method lines also list many things, but end with a full stop or use "…, and x"). */
 export function isKeywordLine(line: string): boolean {
   const t = line.trim().replace(/^\(|\)$/g, '');
   const parts = t.split(',').map((p) => p.trim()).filter(Boolean);
-  return parts.length >= 5 && !/\d/.test(t) && !/[.!?]\s/.test(t) && parts.every((p) => p.split(/\s+/).length <= 5);
+  return (
+    parts.length >= 5 &&
+    !/\d/.test(t) &&
+    !/[.!?:]/.test(t) &&
+    !/,\s*(and|&)\s/i.test(t) &&
+    parts.every((p) => p.split(/\s+/).length <= 5)
+  );
 }
 
 export function isNoteLine(line: string): boolean {

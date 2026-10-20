@@ -1,0 +1,154 @@
+{
+  "id": "moong-dal-kosambari",
+  "title": "Moong Dal Kosambari",
+  "source": {
+    "url": "https://www.instagram.com/p/Dc-5JbGzIEG/",
+    "platform": "instagram",
+    "creator": "vishal.chowhan_",
+    "creator_url": "https://www.instagram.com/vishal.chowhan_/",
+    "ref": "batches/2026-10-16-batch1.txt#10"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer",
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": true
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 27,
+    "kcal": 410,
+    "carbs_g": 53,
+    "fat_g": 12
+  },
+  "protein_working": [
+    "50 g low-fat paneer × 25/100 g = 12.5 g",
+    "50 g dry yellow moong dal × 23/100 g = 11.5 g",
+    "10 g peanuts × 25/100 g = 2.5 g",
+    "150 g cucumber × 0.7/100 g = 1.1 g",
+    "Total ≈ 29.4 g for the whole recipe (portions not stated)"
+  ],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 150,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "150g cucumber"
+    },
+    {
+      "item": "moong dal, soaked (raw weight)",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g soaked moong dal (50g raw weight before soaking)"
+    },
+    {
+      "item": "carrot, grated",
+      "ingredient_id": "carrot",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g grated carrot"
+    },
+    {
+      "item": "coconut, grated",
+      "ingredient_id": "coconut",
+      "qty": 10,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "10g grated coconut"
+    },
+    {
+      "item": "pomegranate",
+      "ingredient_id": "pomegranate",
+      "qty": 40,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "40g pomegranate"
+    },
+    {
+      "item": "low-fat paneer, crumbled",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g crumbled low-fat paneer"
+    },
+    {
+      "item": "roasted peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g roasted peanuts"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of fresh coriander"
+    },
+    {
+      "item": "green chilli, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "lime juice",
+      "ingredient_id": "lemon",
+      "qty": 10,
+      "unit": "ml",
+      "type": "produce",
+      "as_written": "Squeeze of half a lime (10ml)"
+    }
+  ],
+  "steps": [
+    "To a bowl add 150g cucumber, 50g soaked moong dal (50g raw weight before soaking), 50g grated carrot, 10g grated coconut, 40g pomegranate, 50g crumbled low-fat paneer, 10g roasted peanuts, handful of fresh coriander, 1 chopped green chilli, 1/2 tsp salt, squeeze of half a lime (10ml).",
+    "Mix everything together really well and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "Creator also states 14 g fibre."
+  ],
+  "missing": [
+    "Servings: the caption doesn't say how many portions this makes."
+  ],
+  "added_at": "2026-10-20"
+}
