@@ -144,8 +144,8 @@ Hard rules:
 
   *Note:* {my note}        ← if toggled and not empty
 
+  Full recipe: {site url}/r/{id}   ← first link: WhatsApp previews it (changed 2026-10-20)
   Video: {source url}
-  Full recipe: {site url}/r/{id}
   ```
 
 ## 7. Accessibility

@@ -23,7 +23,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | A4 | Recipe page + personal data + My recipes | A2 | done | `claude/compassionate-clarke-bxgv06` / [PR 5](https://github.com/Jatin17Solanki/protein-plate/pull/5), fix [PR 6](https://github.com/Jatin17Solanki/protein-plate/pull/6) | Opus | Main went red after merge (notes test race); fix PR saves notes on page hide too. |
 | A5 | Share, Edit, Menu, theme, backup, hint | A4 | done | `claude/compassionate-clarke-bxgv06` / [PR 9](https://github.com/Jatin17Solanki/protein-plate/pull/9) | Opus | Also whole-recipe protein when portions aren't stated (Jatin). Flagging/admin view → D7. |
 | A6b | Review page `/review/` for flagged recipes; "Macros not given"; neutral tint | A5, B2 flags | done | `claude/compassionate-clarke-bxgv06` / [PR 12](https://github.com/Jatin17Solanki/protein-plate/pull/12) | Opus | Live list: 62 of 80 recipes. Not linked in the menu (bookmark `/review/`). |
-| A6 | Offline, share previews, polish | A5 | review | `claude/compassionate-clarke-bxgv06` / [PR 13](https://github.com/Jatin17Solanki/protein-plate/pull/13) | Opus | Jatin: send one recipe link in WhatsApp to check the preview card; try the site in airplane mode after one visit. |
+| A6 | Offline, share previews, polish | A5 | done | `claude/compassionate-clarke-bxgv06` / [PR 13](https://github.com/Jatin17Solanki/protein-plate/pull/13) | Opus | Jatin: send one recipe link in WhatsApp to check the preview card; try the site in airplane mode after one visit. Fix after merge: share link order (WhatsApp preview), [PR 15](https://github.com/Jatin17Solanki/protein-plate/pull/15). |
 | A7 | Add recipes + Export | A3, B1 | todo | | Sonnet | |
 | A8 | QA pass | A1–A7 | todo | | Opus | |
 
