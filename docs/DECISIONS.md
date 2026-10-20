@@ -16,3 +16,7 @@ Append-only. Format: `YYYY-MM-DD · decision · why · who`. Full reasoning for 
 - 2026-10-20 · Offline mode + Add-to-Home-Screen hint in v1 · protects browser storage on iOS, works in kitchen · Jatin
 - 2026-10-20 · Filter sheet shows live counts; filters OR within a group, AND across groups · avoids confusing dead ends · Jatin
 - 2026-10-20 · Two parallel tracks (App, Data) with phase-per-session protocol and tracker files · avoid context compaction · Jatin
+- 2026-10-20 · D1: raw recipe dumps live in a private repo `protein-plate-raw`, never in the public repo · they hold personal notes and copied captions; public repo is required for free Pages · Jatin
+- 2026-10-20 · D2: stack Vite + TypeScript + Preact + vite-plugin-pwa + MiniSearch + Ajv + Playwright + Vitest · free, small, standard · Jatin
+- 2026-10-20 · D4: no preview hosting; screenshots in every UI PR; phone check after merge · no extra infra · Jatin
+- 2026-10-20 · D6: MIT licence · lets others copy the repo · Jatin
