@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks';
 import type { Recipe } from '../types/recipe';
 import {
   clearSheet, DISH_LABELS, DISH_TYPES, dishCount, filterRecipes, optionCounts, PROTEINS, QUICK,
@@ -24,7 +24,8 @@ export function FilterSheet(props: {
   const total = useMemo(() => dishCount(filterRecipes(recipes, draft, personal)), [recipes, draft, personal]);
   const sheet = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  // Layout effect: listeners must be live before the next key press, not after paint.
+  useLayoutEffect(() => {
     const opener = document.activeElement as HTMLElement | null;
     const { overflow } = document.body.style;
     document.body.style.overflow = 'hidden';
