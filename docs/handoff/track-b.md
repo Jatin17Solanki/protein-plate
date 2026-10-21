@@ -2,9 +2,9 @@
 
 _Last updated: 2026-10-21 (B3 batch 2 in review)_
 
-**Done (B3):** batch 2 (`batches/2026-10-21-batch2.txt`, 370 links) is converted: **285 new recipes**, 364 in the catalog. Left out: 48 already in the catalog, 25 older reposts, NOODLES-D (chicken), CHAI-A (promo), 10 multi-recipe posts. 34 existing recipes now credit fit.khurana. Two recipes come from pinned comments Jatin pasted (`batches/2026-10-21-jatin-captions.txt`). Checks: validate 364/364, fidelity 364/364, data + app tests, typecheck, build all pass. Review sheet + dedupe report: private repo `reviews/2026-10-21-B3-batch2*.md`.
+**Done (B3):** batch 2 (`batches/2026-10-21-batch2.txt`, 370 links) is converted: **283 new recipes**, 362 in the catalog (2 later removed by Jatin). Left out: 48 already in the catalog, 25 older reposts, NOODLES-D (chicken), CHAI-A (promo), 10 multi-recipe posts. 34 existing recipes now credit fit.khurana. Two recipes come from pinned comments Jatin pasted (`batches/2026-10-21-jatin-captions.txt`). Checks: validate 362/362, fidelity 362/362, data + app tests, typecheck, build all pass. Review sheet + dedupe report: private repo `reviews/2026-10-21-B3-batch2*.md`.
 
-**Next (B6 round 3):** `macros_basis_unclear` is done (Jatin's rule: one portion unless the caption says otherwise; 17 exceptions accepted). Left, one type at a time, smallest first: `missing_details` (2) → `no_macros` (60) → `no_main_protein` (99). Then the possible variants in the PR (tiramisu oats ×4, apple crumble ×2, mango cheesecake ×2, guacamole tofu toast ×2, quinoa tofu curry ×2, kosambari ×2) → `dish_group` only on his yes.
+**Next (B6 round 3):** `macros_basis_unclear` is done (Jatin's rule: one portion unless the caption says otherwise; 17 exceptions accepted). `missing_details` done (both removed). Left, smallest first: `no_macros` (59) → `no_main_protein` (99). Then the possible variants in the PR (tiramisu oats ×4, apple crumble ×2, mango cheesecake ×2, guacamole tofu toast ×2, quinoa tofu curry ×2, kosambari ×2) → `dish_group` only on his yes.
 
 **Track A requests:**
 - A "fun to try" tag (Jatin's notes mark many posts that way); not in the schema yet.

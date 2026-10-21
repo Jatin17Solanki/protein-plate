@@ -81,3 +81,4 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-21 · batch 2 flags open for B6 round 3: 135 `macros_basis_unclear`, 99 `no_main_protein`, 60 `no_macros`, 2 `missing_details` (229 of the 285 new recipes flagged; batch 1 still 0)
 - 2026-10-21 · rule · fit.khurana / ral.livezy recipes are one portion unless the caption says otherwise (Jatin) · 118 recipes `servings: 1`; 17 kept whole-recipe with `accepted_flags: ["macros_basis_unclear"]` (6 serve several, 11 batch items: see DECISIONS) · `macros_basis_unclear` now 0
 - 2026-10-21 · rule · no names in shown data (Jatin) · bases read "… — one portion"; assumptions say "The recipe makes one portion." / "Main protein set by hand."
+- 2026-10-21 · butter-garlic-veggies-tofu, paneer-tadka-masala · missing_details → Jatin: remove · recipes deleted
