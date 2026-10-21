@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from 'preact/hooks';
 import site from '../../site.config.json';
+import askCatalog from '../../prompts/ask-catalog.md?raw';
 import { currentData } from '../lib/backup';
 import { recipes } from '../lib/catalog';
 import { downloadJson } from '../lib/download';
@@ -54,7 +55,7 @@ export function Export() {
             <span class="export-kind">compact</span>
           </div>
           <p class="step-text">Copies a starter prompt plus a compact catalog (names, proteins, macros, ingredients). Paste into ChatGPT or Claude, then ask.</p>
-          <button type="button" class="btn primary" onClick={() => copy(askPrompt(recipes, SITE, personal()), 'Prompt and catalog copied. Paste into an AI chat, then ask.')}>
+          <button type="button" class="btn primary" onClick={() => copy(askPrompt(askCatalog, recipes, SITE, personal()), 'Prompt and catalog copied. Paste into an AI chat, then ask.')}>
             Copy prompt + catalog
           </button>
         </section>

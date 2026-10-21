@@ -58,19 +58,16 @@ export function compactCatalog(recipes: Recipe[], siteUrl: string, personal: Bac
     .join('\n');
 }
 
-export function askPrompt(recipes: Recipe[], siteUrl: string, personal: BackupData | null = null): string {
-  return [
-    `Below is my recipe catalog from Protein Plate (${site(siteUrl)}): ${recipes.length} vegetarian recipes, one per line, for eating 100–120 g protein a day.`,
-    'Protein and kcal are the creators\' own numbers ("per portion", or "for the whole recipe" when they don\'t say how many portions it makes). "Macros not given" means the creator gives none; don\'t invent them.',
-    ...(personal ? ['My own data is included: what\'s on my list, what I liked or disliked, and my notes. Prefer what I liked and avoid what I disliked.'] : []),
-    'Answer my questions using these recipes, and give each recipe\'s link. If nothing fits, say so instead of inventing a recipe.',
-    '',
-    'Catalog:',
-    compactCatalog(recipes, siteUrl, personal),
-    '',
-    'My question:',
-    '',
-  ].join('\n');
+/**
+ * "Copy prompt + catalog": Track B's prompts/ask-catalog.md (the text after its first `---`), then the catalog and
+ * "My question:". Its "My data" bullet is kept only when personal data is included. The prompt's field guide
+ * describes compactCatalog()'s line format: tell Track B if that format changes.
+ */
+export function askPrompt(prompt: string, recipes: Recipe[], siteUrl: string, personal: BackupData | null = null): string {
+  const cut = prompt.indexOf('\n---\n');
+  const body = (cut >= 0 ? prompt.slice(cut + 5) : prompt).trim();
+  const text = personal ? body : body.split('\n').filter((l) => !l.startsWith('- **My data**')).join('\n');
+  return [text, '', 'Catalog:', compactCatalog(recipes, siteUrl, personal), '', 'My question:', ''].join('\n');
 }
 
 /** The public /catalog.txt page: every recipe in full, as plain text, for AI tools that can read a link. */
