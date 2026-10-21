@@ -183,6 +183,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
    - Also try "plan my day to reach 110 g": for recipes without creator numbers it asks once whether to leave them out ("not counted") or use its "≈ estimate", shown apart from the real numbers.
 3. Tick **Include my notes, My list and Like / Dislike**, copy again. **See:** the pasted text now explains "My data" and each recipe line carries your list / likes / notes. Untick: neither is there.
 4. **Copy link** → open it in a browser. **See:** `catalog.txt`, every recipe as plain text, no personal data. Give the link to an AI tool that can read links and ask a question.
+   - Also open `…/protein-plate/catalog.json`. **See:** the same recipes as structured JSON (no personal data). The README's `curl … | jq` example prints quick breakfasts with ≥ 25 g protein.
 5. **Download JSON**. **See:** `protein-plate-catalog-<date>.json` in Files / Downloads.
 
 **Feedback J8**
@@ -280,7 +281,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | # | Where | Device | Kind | What happened / what you expected | Decision (after the test) |
 |---|---|---|---|---|---|
 | 1 | J3.4 | all | bug | Found while writing this plan (2026-10-21): "curd" finds 14 dishes, "dahi" only 5 (only those with the word "dahi"). Search still uses the A3 built-in synonym list instead of the aliases in `data/ingredients.json`. | |
-| 2 | J1.5 | all | confusing | Found while taking README screenshots (2026-10-21): about 25 recipes' macro footnote reads e.g. "As stated by the creator (whole recipe — one portion (Jatin))": the portion decision and Jatin's name leak into visible text (`stated_macros.basis`, Track B data). | |
+| 2 | J1.5 | all | confusing | Found while taking README screenshots (2026-10-21): about 25 recipes' macro footnote reads e.g. "As stated by the creator (whole recipe — one portion (Jatin))": the portion decision and Jatin's name leak into visible text (`stated_macros.basis`, Track B data). | Fixed by Track B in PR 25 (basis now "whole recipe — one portion"). |
 | 3 | | | | | |
 
 ---

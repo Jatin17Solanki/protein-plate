@@ -21,10 +21,12 @@
 ## Contents
 
 - [Features](#features)
+- [Use the catalog with any AI](#use-the-catalog-with-any-ai)
 - [What it's for](#what-its-for)
 - [Roadmap](#roadmap)
 - [How it works](#how-it-works)
 - [Run your own copy](#run-your-own-copy)
+- [Feedback and ideas](#feedback-and-ideas)
 - [Develop](#develop)
 - [Credits and licence](#credits-and-licence)
 
@@ -59,6 +61,50 @@
 
 ---
 
+## Use the catalog with any AI
+
+Every recipe is stored as **structured data** (JSON), not as a web page: title, protein and calories per portion, main protein, meals, tags, every ingredient with its amount, the steps and the video link. That makes the catalog something an AI, a script or a spreadsheet can filter, add up and plan with, not just read.
+
+There are three ways in:
+
+| | What you get | Good for |
+|---|---|---|
+| **Prompt** | App → Menu → Export → *Copy prompt + catalog* | Any chat (ChatGPT, Claude, Gemini): paste and ask |
+| **Link** | [`catalog.txt`](https://jatin17solanki.github.io/protein-plate/catalog.txt): every recipe as plain text | AI tools that read links; a Claude Project or custom GPT as its "knowledge" |
+| **JSON** | [`catalog.json`](https://jatin17solanki.github.io/protein-plate/catalog.json): every recipe as structured data | Scripts, automations, spreadsheets, your own app |
+
+**Example: ask a chat.** Paste the Export prompt, then:
+
+> *"Cook's away today and I need something quick with at least 30 g protein. Pick one."*
+
+The AI answers only from the catalog, gives the protein per portion and why it fits, and ends with **"Open the recipe:"** and the link. When a question is open-ended, it first asks up to two short questions (which meal? how much time?).
+
+**Example: use the JSON.** Quick breakfasts with at least 25 g protein, straight from the live catalog:
+
+```sh
+curl -s https://jatin17solanki.github.io/protein-plate/catalog.json \
+  | jq -r '.recipes[]
+      | select(.tags | index("quick")) | select(.meal_types.values | index("breakfast"))
+      | select(.per_portion.protein_g >= 25)
+      | "\(.per_portion.protein_g) g  \(.title)"' | sort -rn
+```
+```
+45 g  Chocolate Greek Yogurt Bowl with Strawberries and Muesli
+40 g  Peri Peri Paneer Sandwich
+40 g  Iced Coffee Protein Smoothie
+35 g  Besan Toast Breakfast Sandwich
+…
+```
+
+**Ideas to build on it:**
+- A weekly plan that hits your protein target, with a shopping list. Use a Claude Project or custom GPT with `catalog.txt` as its knowledge.
+- A daily "what's for dinner?" message, from a scheduled script that reads `catalog.json` and asks the AI you already use.
+- A spreadsheet of protein per rupee, or per minute of cooking. Import `catalog.json`.
+
+Your notes, list and likes aren't in these public files. Tick *Include my notes…* in Export to add them to a prompt or file you copy yourself.
+
+---
+
 ## What it's for
 
 | Situation | What helps |
@@ -84,7 +130,7 @@
 | Share, add recipes, ask an AI | Shopping list for the week | |
 | Offline, Home Screen, dark mode | Suggestions for something new to try | |
 
-More in [`docs/CONTEXT.md` § Backlog](docs/CONTEXT.md).
+Full list of later ideas: [backlog](docs/CONTEXT.md#11-backlog-v2-and-later--keep-dont-build-yet).
 
 ---
 
@@ -92,14 +138,14 @@ More in [`docs/CONTEXT.md` § Backlog](docs/CONTEXT.md).
 
 ```mermaid
 flowchart TD
-    A["Reel + caption"] --> B["AI chat writes the recipe"]
-    B --> C["Add recipes screen checks it"]
-    C --> D["Recipe file saved on GitHub"]
-    D --> E{"Automatic checks:<br/>format, tests, build"}
-    E -- pass --> F["Live site on GitHub Pages"]
-    E -- fail --> X["Not published"]
-    F --> G["Your phone, also offline"]
-    G -.-> H[("Notes, My list, likes:<br/>stay on your device")]
+    A["Reel<br/>+ caption"] --> B["AI chat<br/>writes recipe"]
+    B --> C["App<br/>checks it"]
+    C --> D["Saved to<br/>GitHub"]
+    D --> E{"Auto<br/>checks"}
+    E -- pass --> F["Live<br/>site"]
+    E -- fail --> X["Not<br/>published"]
+    F --> G["Your phone<br/>(offline too)"]
+    G -.-> H[("Notes, lists<br/>stay on device")]
 ```
 
 - **No server, no database.** Each recipe is one file in this repository. The site is built from those files and hosted free on GitHub Pages.
@@ -121,6 +167,15 @@ flowchart TD
 
 ## Run your own copy
 
+**This site is my personal catalog.** Anyone can use it, and your notes, list and likes stay private on your device. But you can't add recipes to it; you can only suggest them.
+
+**Your own copy is yours:**
+- **Your recipes:** the reels *you* save, the dishes your family eats, the creators you follow. Add one from your phone in a minute.
+- **Your rules:** rename it in one config file, keep only what you cook, and change anything else in the code (it's MIT licensed).
+- **Your AI workflows** run on your own list (see [Use the catalog with any AI](#use-the-catalog-with-any-ai)).
+- **Your feedback inbox:** "Send feedback" goes to you, not me.
+- **Free and independent:** no server, no account, no bill. If this repo disappears, your copy keeps working.
+
 You need a free GitHub account. It takes about 15 minutes.
 
 1. **Fork** this repository.
@@ -128,6 +183,7 @@ You need a free GitHub account. It takes about 15 minutes.
 3. Edit **`site.config.json`** with your name, repo and address (see below).
 4. Keep the recipes, or replace the files in `data/recipes/` with your own, added through the app's **Add recipes** screen.
 5. Commit. About 2 minutes later your site is live.
+6. *Optional:* protect `main` with the two rulesets in [`.github/rulesets/`](.github/rulesets/) (one-minute import).
 
 <details>
 <summary><code>site.config.json</code></summary>
@@ -150,6 +206,16 @@ You need a free GitHub account. It takes about 15 minutes.
 - `base_path`: use `/` for a custom domain.
 
 </details>
+
+---
+
+## Feedback and ideas
+
+Found something wrong, or have an idea for a feature? I'd love to hear it.
+
+- **In the app:** Menu → **Send feedback**, or the link at the bottom of any recipe. It fills in the page and your device for you.
+- **Email:** [jatin.dev.17@gmail.com](mailto:jatin.dev.17@gmail.com?subject=Protein%20Plate%20feedback)
+- **GitHub:** [open an issue](https://github.com/Jatin17Solanki/protein-plate/issues/new?labels=feedback&title=Protein%20Plate%20feedback) (public; needs a free account)
 
 ---
 
@@ -196,4 +262,3 @@ Recipes come from public posts by their original authors. Every recipe credits i
 - **Code:** MIT, see [`LICENSE`](LICENSE).
 - **Recipes and videos:** belong to their authors. They are not covered by the MIT licence.
 
-**Feedback:** use **Send feedback** in the app menu, or [open an issue](https://github.com/Jatin17Solanki/protein-plate/issues/new).
