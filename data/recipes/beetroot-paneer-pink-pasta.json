@@ -1,0 +1,181 @@
+{
+  "id": "beetroot-paneer-pink-pasta",
+  "title": "Beetroot Paneer Pink Pasta",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3fONGZqknw/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#177"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "pasta_whole_wheat",
+    "beetroot"
+  ],
+  "tags": [
+    "pasta_noodles"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 120,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "120 ml of toned milk"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 110,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "110g low fat paneer"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 chunks of boiled beetroot"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "butter"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onions"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mushroom"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "bell peppers"
+    },
+    {
+      "item": "broccoli",
+      "ingredient_id": "broccoli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "brocolli"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "whole-wheat pasta",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 100,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "100-120g of boiled pasta"
+    },
+    {
+      "item": "whole-wheat flour (atta)",
+      "ingredient_id": "wheat_flour",
+      "qty": 0.75,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "3/4th tbsp of wheat flour"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "cube cheese"
+    }
+  ],
+  "steps": [
+    "For the sauce: Blend 120 ml of toned milk. 110g low fat paneer and 4-5 chunks of boiled beetroot.",
+    "In a pan, add butter and toss some garlic, onions, mushroom, bell peppers, brocolli. Once cooked slightly (let the veggies be crunchy), add salt, 1/2 tsp red chilli powder, pepper and mixed herbs.",
+    "Mix well and add 100-120g of boiled pasta and then add 3/4th tbsp of wheat flour. Then add the pink sauce. Adjust the consistency by adding more toned milk and then add half cube cheese. Cook for 2 mins and its ready."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "soya-corn-kebabs-yogurt-dip",
+  "title": "Soya Corn Kebabs with Yogurt Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/DAYTLUgK9bc/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#55"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "snack",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "sweet_corn",
+    "bread_whole_wheat"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 460,
+    "carbs_g": 59,
+    "fat_g": 9
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g Soya Chunks"
+    },
+    {
+      "item": "sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "3/4 cup sweet corn"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of fresh mint leaves"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup carrot (finely chopped)"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 chopped onion"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chilles"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4 Garlic cloves (paste)"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp rice flour"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 1,
+      "unit": "slice",
+      "type": "grain",
+      "optional": true,
+      "as_written": "1 slice whole wheat bread (optional but makes the tikki crunchy)"
+    }
+  ],
+  "steps": [
+    "Masalas - Salt, 1/2 tsp red chilli powder, 1/2 tsp garam masala, 1 tsp aamchur, 1/4 tsp pepper, 1/2 tsp jeer powder, 1/2 tsp coriander powder.",
+    "Boil Soya Chunks & Wash with cold water. Squeeze out the excess liquid and keep aside.",
+    "In a pan, add a little oil and then add green chilli & garlic paste. Sauté and then add onions.",
+    "Let the onions cook and then add carrots and corn. Let it cook on low flame for 4-5 mins & then add the masalas, rice flour, soya chunks & mint. Mix well and cook for 3-4 mins. Turn off the flame and let the mixture cool down.",
+    "Before you grind, add in the slice of wholewheat bread. Grind the mixture and then roll into tikkis.",
+    "Brush oil on a non-stick pan and let the tikkis cook on low flame on both sides until golden brown. This will take around 10-12 minutes.",
+    "Before you dig in, let the kebabs cool down a little so that it holds onto its texture.",
+    "Serve it with some greek yogurt dip (Yogurt + Pinch of Black Salt & Chilli powder + Pinch of sugar + pomegranate)"
+  ],
+  "assumptions": [
+    "The creator also gives 13 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

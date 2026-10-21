@@ -1,0 +1,212 @@
+{
+  "id": "caramelised-onion-paneer-toast",
+  "title": "Caramelised Onion Paneer Toast with Marinated Cucumber",
+  "source": {
+    "url": "https://www.instagram.com/reel/DKWStSRM5Im/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#63"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 45,
+    "kcal": 458,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "section": "caramelised onion spread",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "caramelised onion spread",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g greek yogurt"
+    },
+    {
+      "item": "onion",
+      "section": "caramelised onion spread",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 sliced onion"
+    },
+    {
+      "item": "garlic",
+      "section": "caramelised onion spread",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "3-4 minced garlic"
+    },
+    {
+      "item": "salt",
+      "section": "caramelised onion spread",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "caramelised onion spread",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "honey",
+      "section": "caramelised onion spread",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "cucumber",
+      "section": "marinated cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Cucumber"
+    },
+    {
+      "item": "soy sauce",
+      "section": "marinated cucumber",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "chilli oil",
+      "section": "marinated cucumber",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "vinegar",
+      "section": "marinated cucumber",
+      "ingredient_id": "vinegar",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp vinegar"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "marinated cucumber",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame seeds"
+    },
+    {
+      "item": "salt",
+      "section": "marinated cucumber",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "marinated cucumber",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "garlic",
+      "section": "marinated cucumber",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Minced Garlic 2-3"
+    },
+    {
+      "item": "sugar",
+      "section": "marinated cucumber",
+      "ingredient_id": "sugar",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp brown sugar"
+    }
+  ],
+  "steps": [
+    "Slice your cucumbers, sprinkle some salt and keep aside for 10 minutes.",
+    "Now dry them using a tissue paper and then add all the ingredients to prep thr marinade.",
+    "Mix well and refrigerate the cucumber slices for 10-15 mins so that they soak up the flavor.",
+    "For the caramelised onions, saute the thin slices along with garlic in some olivr oil until golden brown.",
+    "Blend the onions and garlic with paneer, yogurt, honey, salt and pepper.",
+    "Refrigerate for 10 mins and its set to use.",
+    "Assemble your toasties with the spread and cucumbers and its ready."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

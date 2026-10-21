@@ -1,0 +1,153 @@
+{
+  "id": "caramelised-onion-basil-cream-cheese",
+  "title": "Caramelised Onion Basil Paneer Cream Cheese",
+  "source": {
+    "url": "https://www.instagram.com/reel/DCtlWvhoea-/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#194"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole batch",
+    "protein_g": 38,
+    "kcal": 491,
+    "carbs_g": 31,
+    "fat_g": 23
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 1.5,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "1.5 litres low fat milk"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsp vinegar/lemon juice"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp olive oil"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g Greek Yogurt/Hung Curd"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Big Onions"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful fresh basil"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp Honey"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "garlic powder",
+      "ingredient_id": "garlic_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "1/2 tsp garlic powder (optional)"
+    }
+  ],
+  "steps": [
+    "Heat the milk in a vessel and once it is warm (dip a finger in it and it shouldn’t be too hot), add vinegar/ lemon juice to it slowly while stirring.",
+    "Wait for 2-3 mins and once the whey water has separated, strain it in a muslin cloth and keep this aside to set.",
+    "In a non-stick pan, add olive oil and saute onions on low heat until golden brown and caramelised.",
+    "In a Blender, add paneer and greek yogurt and blend until it is creamy. Yoy may add more curd if needed to make it lighter.",
+    "Now add the seasonings, caramelised onions and freshly chopped basil to this creamt base.",
+    "Spread it on toasted sesame bagels and enjoy."
+  ],
+  "assumptions": [
+    "The 1.5 litres of milk makes about 150 g low-fat paneer. The creator uses Pride of Cows fat-free milk (10 litres for Rs 999)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole batch\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

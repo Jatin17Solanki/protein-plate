@@ -1,0 +1,101 @@
+{
+  "id": "chocolate-protein-strawberries",
+  "title": "Chocolate Protein Strawberries",
+  "source": {
+    "url": "https://www.instagram.com/reel/DFAYrDlohuZ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#195"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "cocoa_powder",
+    "strawberries"
+  ],
+  "tags": [
+    "dessert",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 Strawberries"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tbsp chocolate protein powder"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp unsweetened cocoa powder"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "4 tbsp of hot skimmed milk (or more depending on how thick or flowy you want it)"
+    }
+  ],
+  "steps": [
+    "Mix the cocoa powder, honey, protein powder and milk until smooth.",
+    "Pour this onto your strawberries and dig in."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

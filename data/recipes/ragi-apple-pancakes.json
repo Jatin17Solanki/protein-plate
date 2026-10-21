@@ -1,0 +1,163 @@
+{
+  "id": "ragi-apple-pancakes",
+  "title": "Ragi Apple Pancakes",
+  "source": {
+    "url": "https://www.instagram.com/reel/DHlJRjNz2JC/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#129"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "ragi_flour",
+    "peanut_butter",
+    "milk_skimmed"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "pancakes with toppings",
+    "protein_g": 18,
+    "kcal": 553,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Medium Apple (Steam)"
+    },
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Small Apple (Grate)"
+    },
+    {
+      "item": "ragi flour",
+      "ingredient_id": "ragi_flour",
+      "qty": 45,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "45g ragi"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 60,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "60-70 ml Low fat milk"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80-90g Greek Yogurt"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Zero Cal Sweetner (optional)"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon powder"
+    },
+    {
+      "item": "nutmeg powder",
+      "ingredient_id": "nutmeg",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of nutmeg powder"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/4 tsp Baking soda"
+    },
+    {
+      "item": "strawberry chia jam",
+      "section": "toppings",
+      "ingredient_id": null,
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "strawberry chia jam (2 tbsp)"
+    },
+    {
+      "item": "peanut butter",
+      "section": "toppings",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.75,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "homemade peanut butter (3/4th tbsp)"
+    }
+  ],
+  "steps": [
+    "Steam 1 apple until soft and then add to a grinder along with ragi, greek yogurt, milk, sweetner, warm spices and milk.",
+    "Blend it until smooth and add the grated apple.",
+    "Mix again and make pancakes on a non-stick pan.",
+    "Keep them a little thick. Cook on low flame for 3-4 mins until the top isn’t runny.",
+    "Then flip and cook another side for 3-4 minutes and its ready!",
+    "Top with strawberry chia jam (2 tbsp) and homemade peanut butter (3/4th tbsp)"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"pancakes with toppings\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

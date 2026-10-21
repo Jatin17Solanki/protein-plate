@@ -1,0 +1,207 @@
+{
+  "id": "tofu-green-yogurt-wrap",
+  "title": "Tofu Wrap with Green Yogurt Base",
+  "source": {
+    "url": "https://www.instagram.com/reel/C84SeL_Jhct/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#158"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 475,
+    "carbs_g": 48,
+    "fat_g": 18.5
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Coriander"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Basil"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Garlic Cloves"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Chaat Masala"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp Greek Yogurt/ Hung Curd (50-60g)"
+    },
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Tofu/ 100g Low fat Paneer (I am using Tofu)"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 Tbsp Schezwan Chutney"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 0.75,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "3/4 tbsp Ketchup"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp soya sauce"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp garlic paste"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Half lemon juice"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame seeds"
+    }
+  ],
+  "steps": [
+    "Grind the Coriander, Basil, and garlic and mix it with the yogurt. Season it and its ready. Refrigerate for 15-20 mins so that its thick and not runny.",
+    "Mix everything well and marinate the tofu well. Refrigerate for 5-10 mins and saute on a grilling pan preferably. Sauté until both sides are golden brown. Use less than 1 tsp oil.",
+    "Grab your veggies if choice: Onion, Bell Peppers, Mushrooms etc and saute on medium- high flame for 5 mins and season with salt and pepper.",
+    "Grab a big roti (I am using a beetroot wheat roti).",
+    "Spread the green yogurt base and then add the grilled tofu along with the veggies. Fold both sides of your roti towards the centre and wrap the bottom with a paper. You may show your wrapping skills or just wrap it lazily like me."
+  ],
+  "assumptions": [
+    "The creator also gives 11 g fibre.",
+    "The paneer/tofu marinade works for either; the creator uses tofu, or swap in 100 g low fat paneer."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

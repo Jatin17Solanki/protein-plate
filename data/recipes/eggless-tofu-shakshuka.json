@@ -1,0 +1,186 @@
+{
+  "id": "eggless-tofu-shakshuka",
+  "title": "Eggless Tofu Shakshuka",
+  "source": {
+    "url": "https://www.instagram.com/reel/DG0PpN-oylp/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#136"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "tomato"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 37,
+    "kcal": 440,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4 Tomatoes (1 chopped, 3 pureed)"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Onion Chopped"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 garlic cloves"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 Tsp Olive Oil"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp pepper"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 bell pepper - Charred (I charred it on the stove and removed the black skin)"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "120g Skyr (High-Protein Yogurt/Greek Yogurt) - To make it vegan"
+    },
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g Tofu"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Turmeric"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful basil leaves"
+    }
+  ],
+  "steps": [
+    "In a pan, saute garlic and onion in olive oil until brown.",
+    "Add chopped tomatoes and charred bell pepper and cook for 2 mins.",
+    "Add the tomato puree, and seasonings mentioned above.",
+    "Add a little water to this mixture along with ketchup and let it simmer for 5 mins.",
+    "Blend together tofu and greek yogurt with a pinch of haldi until smooth.",
+    "Make 3 holes into the gravy and pour this batter into those holes.",
+    "Garnish with basil and cover and cook for 6-8 mins until the tofu mixture is fluffy and not runny anymore.",
+    "Optionally, add some chilli oil on top and enjoy with sourdough bread."
+  ],
+  "assumptions": [
+    "To make it vegan, use soy curd instead of skyr."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

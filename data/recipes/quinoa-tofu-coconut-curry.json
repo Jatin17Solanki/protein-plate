@@ -1,0 +1,213 @@
+{
+  "id": "quinoa-tofu-coconut-curry",
+  "title": "Quinoa with Tofu Coconut Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/DLXO5UtI-US/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#101"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "quinoa"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe; the creator ate half the quinoa",
+    "protein_g": 29.6,
+    "kcal": 587,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "quinoa",
+      "section": "quinoa",
+      "ingredient_id": "quinoa",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 small Cup Quinoa (I consumed half)"
+    },
+    {
+      "item": "water",
+      "section": "quinoa",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "2 small Cups water"
+    },
+    {
+      "item": "salt",
+      "section": "quinoa",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "quinoa",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "quinoa",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon Juice"
+    },
+    {
+      "item": "basil",
+      "section": "quinoa",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Basil/Spinach chopped"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "tofu curry",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Bell Pepper Charred"
+    },
+    {
+      "item": "coconut milk",
+      "section": "tofu curry",
+      "ingredient_id": "coconut_milk",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100 ml coconut milk"
+    },
+    {
+      "item": "water",
+      "section": "tofu curry",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50 ml water"
+    },
+    {
+      "item": "firm tofu",
+      "section": "tofu curry",
+      "ingredient_id": "tofu_firm",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g Tofu (I am using Chetran’s)"
+    },
+    {
+      "item": "mushroom",
+      "section": "tofu curry",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "I used Mushrooms"
+    },
+    {
+      "item": "garlic",
+      "section": "tofu curry",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 Garlic Minced"
+    },
+    {
+      "item": "black pepper",
+      "section": "tofu curry",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "tofu curry",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "oregano",
+      "section": "tofu curry",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed Herbs"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "tofu curry",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetner of choice"
+    }
+  ],
+  "steps": [
+    "Add the washed quinoa and water to the cooker with 1 tsp oil and salt. Give it 1-2 whistles and let it sit for 5-7 mins.",
+    "Take a charred bell pepper and blend with coconut milk until smooth.",
+    "Add garlic and mushrooms to some olive oil and toss until golden brown.",
+    "Then add the tofu and toss for 2 mins and add the gravy.",
+    "Add the spices and let it cook for 4-5 mins.",
+    "Now toss the quinoa with some basil leaves/spinach, pepper and lemon for 2 mins and serve hot with the tofu curry."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe; the creator ate half the quinoa\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

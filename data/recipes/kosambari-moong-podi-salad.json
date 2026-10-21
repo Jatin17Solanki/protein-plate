@@ -1,0 +1,214 @@
+{
+  "id": "kosambari-moong-podi-salad",
+  "title": "Kosambari Moong Podi Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRRsFQkk9E3/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#198"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses",
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 34,
+    "kcal": 507,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (makes 1)",
+    "protein_g": 34,
+    "kcal": 507,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 65,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "65g raw yellow moong dal (soaked 4–5 hrs)"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ carrot"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ cucumber"
+    },
+    {
+      "item": "pomegranate",
+      "ingredient_id": "pomegranate",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp pomegranate"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp grated coconut"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "A few mint leaves"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon juice"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g low fat paneer crumbled"
+    },
+    {
+      "item": "ghee",
+      "section": "tadka",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "½ tbsp ghee"
+    },
+    {
+      "item": "mustard seeds",
+      "section": "tadka",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "cumin seeds",
+      "section": "tadka",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "curry leaves",
+      "section": "tadka",
+      "ingredient_id": "curry_leaves",
+      "qty": 7,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "7–8 curry leaves"
+    },
+    {
+      "item": "green chilli",
+      "section": "tadka",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "peanuts",
+      "section": "tadka",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp peanuts"
+    },
+    {
+      "item": "podi masala",
+      "section": "tadka",
+      "ingredient_id": "podi_masala",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 big tbsp podi masala"
+    }
+  ],
+  "steps": [
+    "Soak the 50g raw yellow moong dal for 4–5 hours. Boil for just 5–6 minutes, then strain completely.",
+    "In a bowl, add the moong dal, grated carrot, grated cucumber, pomegranate, coconut, mint leaves, salt, pepper, red chilli, and lemon juice.",
+    "Heat ghee for tadka → add mustard seeds, jeera, curry leaves, green chillies, peanuts, and podi masala.",
+    "Pour this hot tadka over the salad, mix everything gently, and enjoy the illegally tasty kosambari."
+  ],
+  "assumptions": [
+    "Episode 4 of the creator’s Sassy Salads series."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

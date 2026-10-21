@@ -1,0 +1,107 @@
+{
+  "id": "date-pb-chocolate-bark",
+  "title": "Date Peanut Butter Chocolate Bark",
+  "source": {
+    "url": "https://www.instagram.com/reel/DEFIwkyzhYd/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#83"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanut_butter",
+    "peanuts",
+    "dates"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 90,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per square (cuts into up to 9)",
+    "protein_g": null,
+    "kcal": 90,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 9,
+  "ingredients": [
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 20,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "20 Dates"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp peanut butter unsweetened"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp roasted crushed peanuts"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 squares of dark choc (75%+)"
+    },
+    {
+      "item": "rock salt",
+      "ingredient_id": "rock_salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of sea salt"
+    }
+  ],
+  "steps": [
+    "Arrange the dates in 4 rows onto a butter paper. Using a heavy object press them down so that they stick to each other.",
+    "Spread peanut butter onto the date bark and freeze it for 10-15 mins.",
+    "Until then melt your dark chocolate in a microwave or using double boiler method.",
+    "Spread the dark choc onto the peanut butter layer and garnish with peanuts and sprinkle sea salt.",
+    "Keep it in the freezer for 10 mins and its ready to eat.",
+    "You can store it in the fridge for upto two weeks."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

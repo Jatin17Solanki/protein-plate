@@ -1,0 +1,117 @@
+{
+  "id": "nariyal-chutney",
+  "title": "Nariyal Chutney",
+  "source": {
+    "url": "https://www.instagram.com/reel/C06Z98VJRPm/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#181"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "roasted chana",
+      "ingredient_id": "roasted_chana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup roasted gram"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3-4 red chillies dried"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "5-6 cloves of garlic"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp oil"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "3/4 cup chopped coconut"
+    },
+    {
+      "item": "tamarind (imli)",
+      "ingredient_id": "tamarind",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1 small cube of tamarind"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of coriander"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mustard seeds"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Curry Leaves"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

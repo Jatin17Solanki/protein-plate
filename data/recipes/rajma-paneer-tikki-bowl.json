@@ -1,0 +1,249 @@
+{
+  "id": "rajma-paneer-tikki-bowl",
+  "title": "Rajma Paneer Tikki Bowl with Raita",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9HIUT9JXfA/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#157"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "paneer_low_fat"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 650,
+    "carbs_g": 79.5,
+    "fat_g": 19
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "kidney beans (rajma)",
+      "ingredient_id": "rajma",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g Boiled Rajma"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g Homemade Low fat paneer"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 beetroot boiled"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies chopped"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3 tbsp onion"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 grated carrot"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of mint leaves"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp aamchur"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp jeera powder"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chaat masala"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp roasted besan"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 1,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "1 Slice Whole Wheat Bread Crumbs (Just grind the bread)"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": null,
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsbp pumpkin"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tbsp sesame seeds (optional - can cut to reduce 100 cals)"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp oil/ghee to roast the tikkis"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "raita",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g greek yogurt"
+    }
+  ],
+  "steps": [
+    "Blend all the above mentioned ingredients and shape tikkies. Roll the tikkis in the seedmix and roast on slow-medium flame on a non stick pan until lightly brown on both sides. (Takes approximately 15 mins to cook on slow flame)",
+    "Mix 80g greek yogurt, a dash of water and puree of mint. Add chaat masala and salt. Mix well and its ready."
+  ],
+  "assumptions": [
+    "The creator also gives 17 g fibre.",
+    "The caption’s “1 tsbp pumpkin” in the seed mix means 1 tbsp pumpkin seeds, with 1 tbsp sesame seeds.",
+    "The ingredient list also names bread and ghee as alternatives or notes; they aren’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

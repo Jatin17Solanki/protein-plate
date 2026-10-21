@@ -1,0 +1,145 @@
+{
+  "id": "baked-chocolate-protein-oats",
+  "title": "Baked Chocolate Protein Oats",
+  "source": {
+    "url": "https://www.instagram.com/reel/C32Vs9npbjJ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#26"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "oats",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "40g oats"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g chocolate protein powder (I am using @foodstrong.co )"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp unsweetened cocoa powder"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp sweetner of choice (I am using zero calorie Monkfruit extract)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g Greek Yogurt (not curd)"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 35,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "35g mashed overripe banana (sorry I forgot to shoot this part)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1.5 tsp ghee/oil"
+    },
+    {
+      "item": "baking powder",
+      "ingredient_id": "baking_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/4 tsp baking powder"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 50,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "50-60ml toned milk (room temperature)"
+    }
+  ],
+  "steps": [
+    "Blend this all into a smooth mixture (the consistency should be like a normal cake batter and not watery, you can add more milk/oatflour to adjust consistency) and pour into an oven safe dish which is greased properly.",
+    "Add 1 square dark chocolate in the middle.",
+    "Bake in a preheated oven for 18-20 mins at 180C or in the airfryer for 10-12 mins at 170-180C. Please check once in between and you may bake for lesser/more time accordingly.",
+    "Let the oats rest for 5 mins under the fan before you dig in.",
+    "I have drizzled some chocolate peanut butter on top but you can also add mashed strawberries which will taste juicier.",
+    "Foodstrong makes it easy to incorporate high-quality protein in my diet - gives me the protein I need to get strong."
+  ],
+  "assumptions": [
+    "The ingredient list also names curd (dahi) and cooking oil as alternatives or notes; they aren’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

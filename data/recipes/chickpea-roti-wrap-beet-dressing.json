@@ -1,0 +1,224 @@
+{
+  "id": "chickpea-roti-wrap-beet-dressing",
+  "title": "Chickpea Roti Wrap with Beet Yogurt Dressing",
+  "source": {
+    "url": "https://www.instagram.com/reel/DL2EVQuTD6O/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#87"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "roti"
+  ],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 21,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "roti / chapati",
+      "ingredient_id": "roti",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 Whole Wheat Roti"
+    },
+    {
+      "item": "chickpeas (chole)",
+      "ingredient_id": "chickpeas",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g boiled chickpeas"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion chopped"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful coriander"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tbsp besan"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Dhaniya Powder"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Jeera Powder"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3-4 cloves garlic"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Lemon Juice"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Green chillies"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "dressing",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g Greek Yogurt"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "dressing",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp lemon juice"
+    },
+    {
+      "item": "salt",
+      "section": "dressing",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "dressing",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "beetroot",
+      "section": "dressing",
+      "ingredient_id": "beetroot",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp boiled grated beetroot"
+    }
+  ],
+  "steps": [
+    "Grind chickpeas, coriander, spices, besan, garlic, onion and green chillies.",
+    "Now apply this mixture onto a roti and cook the roti on both sides until cripsy.",
+    "Now mix greek yogurt, beetroot, lemon, salt and pepper.",
+    "Assemble the wrap with the beet dressing and chopped tomato, onion and cucumber!",
+    "Carry this to work and just make sure to take the dressing in a separate container and assemble the wrap before eating!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "protein-pav-bhaji",
+  "title": "Protein Pav Bhaji",
+  "source": {
+    "url": "https://www.instagram.com/reel/DXMSTNoDAU2/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#225"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "moong_dal_yellow"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 27,
+    "kcal": 503,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve with 2 double protein pav (serves 3)",
+    "protein_g": 27,
+    "kcal": 503,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1/2 tbsp butter"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¾ cup tomato puree"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup peas"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup chopped carrots"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup chopped capsicum"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 small beetroot"
+    },
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "½ cup cauliflower florets"
+    },
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "¼ cup moong dal soaked"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 45,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "45g soya chunks"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "pav bhaji masala",
+      "ingredient_id": "pav_bhaji_masala",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "2 tbsp pav bhaji masala"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp jeera powder"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of ½ lemon"
+    },
+    {
+      "item": "protein bread",
+      "ingredient_id": "bread_protein",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 Double Protein Pav"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1/2 tsp butter (for toasting the pav optional)"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped coriander leaves"
+    }
+  ],
+  "steps": [
+    "Prepare the soy granules.",
+    "Boil the soya chunks for 5–6 minutes, squeeze out excess water and pulse them in a mixer until they form granules.",
+    "Prepare the base.",
+    "In a pressure cooker, melt butter. Add jeera, garlic and onions. Sauté until fragrant and lightly golden.",
+    "Add the masala.",
+    "Add tomato puree, pav bhaji masala, chilli powder, coriander powder and jeera powder. Cook for 2–3 minutes.",
+    "Add the vegetables & protein.",
+    "Add peas, carrots, capsicum, beetroot, cauliflower, moong dal and soy granules. Mix well.",
+    "Cook.",
+    "Add water until everything is covered, close the cooker and cook for 3 whistles until everything is soft.",
+    "Mash the bhaji.",
+    "Mash the bhaji well until smooth and thick. Finish with coriander leaves and lemon juice.",
+    "Toast the pav.",
+    "Toast the 2 protein pav with 1 tsp butter, a little chopped coriander and chilli powder.",
+    "Serve.",
+    "Serve hot with the pav, extra lemon, onion and coriander."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

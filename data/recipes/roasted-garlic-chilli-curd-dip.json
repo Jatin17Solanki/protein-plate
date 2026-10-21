@@ -1,0 +1,133 @@
+{
+  "id": "roasted-garlic-chilli-curd-dip",
+  "title": "Roasted Garlic Chilli Hung Curd Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8ZbNEtJttY/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#108"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1.25,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Hung Curd (I used 800g of curd and let the whey water strain for 5-6 hrs. You should get 1.25 cup of hung curd approx)"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g Homemade Low fat paneer"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3 Dried Red chillies (soaked in water)"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "8-10 Cashews (soaked in water)"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp mixed herbs/oregano"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 6,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "6-7 cloves roasted garlic"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp stevia (zero calorie sugar replacement- You can issue sugar)"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    }
+  ],
+  "steps": [
+    "Grind this all into a smooth paste and its done."
+  ],
+  "assumptions": [
+    "For the hung curd, the creator strains 800 g curd for 5–6 hours (the whey water drains off) to get about 1.25 cups. The chillies and cashews are soaked in water; stevia can be swapped for sugar."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

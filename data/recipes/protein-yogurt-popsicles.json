@@ -1,0 +1,130 @@
+{
+  "id": "protein-yogurt-popsicles",
+  "title": "Protein Yogurt Popsicles with Dark Chocolate",
+  "source": {
+    "url": "https://www.instagram.com/reel/DT11aENDM_m/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#206"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "peanuts",
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Water – 50–70 ml"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "Unsweetened protein powder – 1-1.5 scoops"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Peanut butter – 1 tbsp"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Roasted salted peanuts – 20g"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "pantry",
+      "as_written": "Zero cal sweetener – to taste"
+    },
+    {
+      "item": "dark chocolate",
+      "section": "chocolate coating",
+      "ingredient_id": "dark_chocolate",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "Bournville 70% dark chocolate (half - melted)"
+    },
+    {
+      "item": "rock salt",
+      "section": "chocolate coating",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "some sea salt!"
+    },
+    {
+      "item": "high-protein yogurt",
+      "ingredient_id": null,
+      "qty": 300,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "High Protein yogurt - 300-350g (12.5g protein/100g)"
+    }
+  ],
+  "steps": [
+    "Whisk the Protein yogurt, protein powder, sweetener, peanut butter, and a little water until smooth and fold in roasted salted peanuts.",
+    "Pour evenly into 4 popsicle moulds. Freeze for 6–8 hours or overnight until fully set.",
+    "Melt Bournville dark chocolate using a double boiler or microwave. Mix in sea salt.",
+    "Demould popsicles and dip each into melted chocolate. Let excess drip off (roughly 1 spoon each side).",
+    "Place on parchment paper and freeze for 5–10 minutes until chocolate sets. Enjoy in moderation."
+  ],
+  "assumptions": [
+    "Makes 4 popsicles."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

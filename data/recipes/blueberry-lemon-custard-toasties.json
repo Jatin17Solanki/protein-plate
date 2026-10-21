@@ -1,0 +1,164 @@
+{
+  "id": "blueberry-lemon-custard-toasties",
+  "title": "Blueberry Lemon Custard Toasties",
+  "source": {
+    "url": "https://www.instagram.com/reel/Da7yrvRTaj3/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#259"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "bread_protein"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (makes 2 toasties)",
+    "protein_g": 35,
+    "kcal": 400,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "protein bread",
+      "ingredient_id": "bread_protein",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices high-protein bread"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tbsp cookable protein powder"
+    },
+    {
+      "item": "custard powder",
+      "ingredient_id": "custard_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp custard powder"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Zest of 1 lemon"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp grated coconut"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of cinnamon"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener"
+    },
+    {
+      "item": "blueberries",
+      "ingredient_id": "blueberries",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "6–7 frozen blueberries per slice (Pluckk)"
+    },
+    {
+      "item": "peanut butter",
+      "section": "optional toppings",
+      "ingredient_id": "peanut_butter",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Peanut Butter"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "optional toppings",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Zero-calorie sweetener"
+    },
+    {
+      "item": "high-protein yogurt",
+      "ingredient_id": null,
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g high-protein yogurt"
+    }
+  ],
+  "steps": [
+    "In a bowl, mix the high-protein yogurt, cookable protein powder, custard powder, lemon zest, grated coconut, cinnamon, and zero-calorie sweetener until smooth.",
+    "Gently press the centre of each bread slice with the back of a spoon to create a shallow dent.",
+    "Spoon the yogurt mixture onto each slice.",
+    "Top with the frozen blueberries.",
+    "Air fry at 180°C for 7–8 minutes until golden and the filling is set.",
+    "Slice and serve. Optionally drizzle with peanut butter and a little extra zero-calorie sweetener."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (makes 2 toasties)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

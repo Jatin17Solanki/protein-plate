@@ -1,0 +1,243 @@
+{
+  "id": "quinoa-moong-masoor-khichdi",
+  "title": "Quinoa Moong Masoor Khichdi with Palak",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYetYyIsnR6/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#238"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "quinoa"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "quinoa",
+      "ingredient_id": "quinoa",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "¼ cup quinoa"
+    },
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "¼ cup yellow moong dal"
+    },
+    {
+      "item": "masoor dal",
+      "ingredient_id": "masoor_dal",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "¼ cup masoor dal"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "2-2.5 cups water"
+    },
+    {
+      "item": "spinach",
+      "section": "tadka",
+      "ingredient_id": "spinach",
+      "qty": 0.5,
+      "unit": null,
+      "type": "produce",
+      "as_written": "~½ bunch saag/palak leaves"
+    },
+    {
+      "item": "ghee",
+      "section": "tadka",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "cumin seeds",
+      "section": "tadka",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "green chilli",
+      "section": "tadka",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "tadka",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger-garlic paste"
+    },
+    {
+      "item": "onion",
+      "section": "tadka",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup chopped onion"
+    },
+    {
+      "item": "tomato",
+      "section": "tadka",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup tomato paste"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "masalas",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "section": "masalas",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp haldi"
+    },
+    {
+      "item": "coriander powder",
+      "section": "masalas",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp dhaniya powder"
+    },
+    {
+      "item": "garam masala",
+      "section": "masalas",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "masalas",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "pinch sweetener (optional)"
+    },
+    {
+      "item": "salt",
+      "section": "masalas",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "masalas",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "pepper to taste"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "section": "masalas",
+      "ingredient_id": "amchur",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp amchur"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "masalas",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "juice of ½ lemon"
+    }
+  ],
+  "steps": [
+    "Wash quinoa + both dals well. Add to pressure cooker with water. Cook for 3 whistles until soft and khichdi-like.",
+    "Heat ghee in a pan.",
+    "Add jeera → green chillies → ginger-garlic paste.",
+    "Add chopped onions + tomato paste.",
+    "Sauté 5-6 minutes.",
+    "Add chopped leaves + khichdi.",
+    "Mix well and simmer 5 mins to thicken.",
+    "Add masalas and cook for another 5 minutes. Adjust consistency with water.",
+    "Finish with lemon juice."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

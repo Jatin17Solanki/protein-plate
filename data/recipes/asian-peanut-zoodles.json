@@ -1,0 +1,175 @@
+{
+  "id": "asian-peanut-zoodles",
+  "title": "Asian Peanut Zucchini Noodles",
+  "source": {
+    "url": "https://www.instagram.com/reel/DILLLdSIxPh/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#117"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "soy_sauce",
+    "peanut_butter"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole bowl",
+    "protein_g": null,
+    "kcal": 195,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "zucchini",
+      "section": "zoodles",
+      "ingredient_id": "zucchini",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Zucchinis (1 green, 1 yellow)"
+    },
+    {
+      "item": "salt",
+      "section": "zoodles",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt (just a sprinkle)"
+    },
+    {
+      "item": "olive oil",
+      "section": "zoodles",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Olive Oil"
+    },
+    {
+      "item": "garlic",
+      "section": "zoodles",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Garlic Cloves"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "zoodles",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "A pinch of Sesame Seeds"
+    },
+    {
+      "item": "peanut butter",
+      "section": "sauce",
+      "ingredient_id": "peanut_butter",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp tsp Peanut Butter"
+    },
+    {
+      "item": "soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp Soy Sauce"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Red Chilli Sauce"
+    },
+    {
+      "item": "Schezwan chutney",
+      "section": "sauce",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp Schezwan Chutney"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "sauce",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Lemon Juice"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp honey"
+    }
+  ],
+  "steps": [
+    "Zoodles Prep.",
+    "Shred zucchini into noodles using a julienne blade.",
+    "Sprinkle salt, let it sit for 10 mins until it releases water.",
+    "Pat dry and squeeze out excess moisture.",
+    "Sauce + Toss.",
+    "Heat olive oil in a pan, add sesame seeds and garlic. Sauté until fragrant.",
+    "Add zoodles to the pan and toss for a minute.",
+    "Add the sauce mix, add spring onions and stir well to coat evenly.",
+    "Cook for just 2–3 mins — done!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole bowl\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "malai-paneer-curry",
+  "title": "Malai Paneer Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/C6vQ-0JqswO/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#41"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole meal, with 100 g cooked rice",
+    "protein_g": 25,
+    "kcal": 430,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g Homemade Low fat paneer"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 small/medium tomatoes (blended together)"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "5-6 cloves of garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 70,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "70-80ml double toned milk"
+    },
+    {
+      "item": "fresh cream",
+      "ingredient_id": "cream",
+      "qty": 1,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "1 spoon Fresh Malai"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp stevia (sugar replacement)"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp haldi"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp dhaniya powder"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of cinnamon powder"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Kasturi methi"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    }
+  ],
+  "steps": [
+    "In a pan, add very little ghee/oil. Then add jeera, chopped garlic and green chillies and saute for a minute. Then add onion tomato paste.",
+    "Cook for 2 mins on medium flame and then add all the masalas mentioned above. Now cover and cook on medium/fast flame for 4-5 minutes until everything is well combined and the mixture dries up a bit.",
+    "Then add 70-80 ml milk (can add more if you want more gravy) along with malai. Mix well and add the paneer cubes with kasturi methi. Let it cook for another 5 minutes and its ready!!!"
+  ],
+  "assumptions": [
+    "The creator’s numbers include 100 g cooked rice, which isn’t in the ingredient list.",
+    "The ingredient list also names sugar as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole meal, with 100 g cooked rice\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

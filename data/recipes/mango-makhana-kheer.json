@@ -1,0 +1,131 @@
+{
+  "id": "mango-makhana-kheer",
+  "title": "Mango Makhana Kheer",
+  "source": {
+    "url": "https://www.instagram.com/reel/C45X72lKJY6/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#169"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk",
+    "makhana"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 1,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "1 litre toned milk"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 75,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "75g makhana"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp elaichi powder"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "8-10 almonds"
+    },
+    {
+      "item": "chironji seeds",
+      "ingredient_id": "chironji",
+      "qty": 5,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "5g Chiraunji seeds"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8-10 soaked raisins"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 40,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "40-50g stevia/zero calorie monkfruit extract"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 150,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "150g Alphanso mango pulp"
+    }
+  ],
+  "steps": [
+    "Do not use sugar for this recipe since the cals will shoot up (can alter the qty of stevia/monkfruit extract based on preference)",
+    "Roast makhana and almonds on low flame for 6-7 mins until makhana is crispy.",
+    "Grind almonds and half the qty of makhana (don’t make a fine powder)",
+    "In a pan, add 1 ltr milk (already boiled) and keep the flame medium-low. Keep stirring every 2 mins so the milk does not stick to the bottom. It will take 15-20 mins or more for the milk to reduce in qty. Once the milk qty reduces a little, add the powdered makhana and almonds. Also add chiraunji seeds, elaichi powder and raisins. Stir for 2 minutes and add the stevia/monkfruit extract.",
+    "Keep stirring and cook for another 5 minutes and then add the whole roasted makhanas we kept aside.",
+    "Let it cook on low flame for 10 minutes while stirring every minute. Feel free to add some boiling milk to adjust consistency.",
+    "Once the kheer is ready, let it cool completely and then add the mango pulp. Mix well and set it in the fridge for an hour.",
+    "Garnish with rose petals and almonds and dig in!"
+  ],
+  "assumptions": [
+    "Cooking time: 45 mins.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

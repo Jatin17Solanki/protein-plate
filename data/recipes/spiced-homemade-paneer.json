@@ -1,0 +1,116 @@
+{
+  "id": "spiced-homemade-paneer",
+  "title": "Spiced Homemade Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/C2rzqdLpvy5/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#17"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 1,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "1 litre toned milk"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsps of vinegar"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    }
+  ],
+  "steps": [
+    "Take 1 litre toned milk (I am using amul). Add salt, 1 tsp red chilli powder, 1/4 tsp pepper and mixed herbs + oregano to the milk before it comes to a boil.",
+    "Once it comes to a boil, turn off the flame and add 2-3 tbsps of vinegar to this. Turn on the flame and stir for 2 mins on low flame until the green water separates.",
+    "Strain the paneer and give it shape with a spoon and let it set in the fridge for 30 mins before use.",
+    "Roast in butter and serve it with dal rice/ sabzi roti.",
+    "Stuff in Moong chillas.",
+    "Stuff in Parathas.",
+    "Make Sandwiches."
+  ],
+  "assumptions": [
+    "Makes 150 g paneer (the creator puts the cost at Rs 54)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

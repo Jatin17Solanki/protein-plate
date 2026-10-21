@@ -1,0 +1,143 @@
+{
+  "id": "moong-dal-paneer-chilla-wrap",
+  "title": "Moong Dal Paneer Chilla Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/Cp7mUT0q3bc/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#188"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "snack",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses",
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "chilla_pancake_omelette",
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 16,
+    "kcal": 200,
+    "carbs_g": 15,
+    "fat_g": 7,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per cheela (70 g) with 70 g low-fat paneer",
+    "protein_g": 16,
+    "kcal": 200,
+    "carbs_g": 15,
+    "fat_g": 7
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup moong dal"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of dhaniya"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "5-6 cloves of garlic"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "type": "produce",
+      "as_written": "1 inch ginger"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp jeera"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1/2 tbsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt as per taste"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 cup water"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low fat paneer 150g (Checkout reel on feed)"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Bell peppers (sauteed with herbs and salt)"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
+  "assumptions": [
+    "The creator also gives 4 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

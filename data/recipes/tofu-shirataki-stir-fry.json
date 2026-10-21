@@ -1,0 +1,222 @@
+{
+  "id": "tofu-shirataki-stir-fry",
+  "title": "Tofu Shirataki Noodle Stir-Fry",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNX7y21zdEL/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#79"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "soy_sauce",
+    "peanut_butter"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 17,
+    "kcal": 322,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp sesame seeds"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "3-4 minced garlic cloves"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 onion sliced"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Bellpeppers"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Carrot"
+    },
+    {
+      "item": "cabbage",
+      "ingredient_id": "cabbage",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Cabbage"
+    },
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Tofu"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp crushed roasted peanuts"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "shirataki noodles / rice",
+      "ingredient_id": "shirataki",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Shirataki Noodles (Moi Soi/ Urban Platter)"
+    },
+    {
+      "item": "tamarind (imli)",
+      "section": "sauce",
+      "ingredient_id": "tamarind",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 cup imli juice (i soaked handful imli in hot water for 30 mins and properly squeezed the pulp to get the juice)"
+    },
+    {
+      "item": "tomato ketchup",
+      "section": "sauce",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp soy sauce"
+    },
+    {
+      "item": "peanut butter",
+      "section": "sauce",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp peanut butter"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp chilli sauce"
+    },
+    {
+      "item": "water",
+      "section": "sauce",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Some water"
+    }
+  ],
+  "steps": [
+    "Add oil, minced garlic, and sesame to a pan.",
+    "Sauté this for two minutes and add onions.",
+    "Add your veggies and cook it on high flame for five minutes.",
+    "Then add chop tofu and toss this until it’s a little golden brown.",
+    "Add the sauce mix to this along with your shritaki noodles.",
+    "Also add salt and pepper along with crushed peanuts.",
+    "Toss the noodles well, cook for five minutes and it’s done."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

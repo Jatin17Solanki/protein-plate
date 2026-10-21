@@ -1,0 +1,135 @@
+{
+  "id": "garlic-chilli-soybean",
+  "title": "Garlic Chilli Soybean",
+  "source": {
+    "url": "https://www.instagram.com/reel/CsdEcSoK9ev/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#161"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 450,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Garlic Cloves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green Chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "optional": true,
+      "as_written": "2 tbsp capsicum (optional)"
+    },
+    {
+      "item": "soybeans",
+      "ingredient_id": "soybeans",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Boiled Soyabean"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp ketchup"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
+  "assumptions": [
+    "The creator’s calorie figure is approximate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "gajar-paneer-halwa",
+  "title": "Low-Cal Gajar Paneer Halwa",
+  "source": {
+    "url": "https://www.instagram.com/reel/DThTeyPDEQC/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#204"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 12,
+    "kcal": 190,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 big red gajar"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 2,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "2 cups low fat milk"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 tsp ghee"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80 g low-fat paneer"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp zero-cal sweetener"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2–3 almonds"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2–3 cashews"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5–6 raisins"
+    },
+    {
+      "item": "saffron (kesar)",
+      "ingredient_id": "saffron",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "saffron / orange food colour"
+    }
+  ],
+  "steps": [
+    "Sauté gajar in 1 tsp ghee, add milk, and pressure cook for 2 whistles.",
+    "Mash well once soft.",
+    "In a kadhai, heat 1 tsp ghee and roast nuts and 1-2 pounded Elaichi.",
+    "Add mashed gajar, paneer, sweetener + little milk and cook on low flame for 10–15 mins! Optionally you can add saffron water/food color to make it bright orange."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

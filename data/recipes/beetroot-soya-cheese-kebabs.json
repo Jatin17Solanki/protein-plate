@@ -1,0 +1,235 @@
+{
+  "id": "beetroot-soya-cheese-kebabs",
+  "title": "Beetroot Soya Cheese-Stuffed Kebabs",
+  "source": {
+    "url": "https://www.instagram.com/reel/C4AxgZcKsxT/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#172"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "paneer_low_fat",
+    "beetroot",
+    "cheese"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1tsp jeera"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4-5 cloves of garlic"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "ginger"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "green chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2-3 tbsp chopped onions"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 chunks of boiled beetroot"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp garam masala"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of haldi"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "black salt",
+      "ingredient_id": "black_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "black salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp coriander powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp aamchur"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp rice flour"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g of soya chunks"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "whole wheat bread"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g low fat paneer"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1 cube of cheese"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "ghee"
+    }
+  ],
+  "steps": [
+    "Add 1tsp jeera, 4-5 cloves of garlic, ginger and green chillies.",
+    "Sauté for a min and add 2-3 tbsp chopped onions. Cook for 2 mins and add 5-6 chunks of boiled beetroot. Add the masalas: 1/2 tsp red chilli powder, 1/2 tsp garam masala, pinch of haldi, salt, black salt, 1/4 tsp pepper, 1/2 tsp coriander powder, 1 tsp aamchur. Mix well and add a dash of water. Cover and cook for 5 minutes. Lastly add 1 tbsp rice flour and mix.",
+    "Boil 30g of soya chunks and squeeze out the excess water very well.",
+    "In a blender, add the beetroot masala, soya chunks, half whole wheat bread, 50g low fat paneer.",
+    "Keep the paste in the fridge for 30 mins.",
+    "Take 1 cube of cheese (amul/britania) and cut 10-12 small squares.",
+    "Apply oil on your palms and roll out kebabs and stuff 1-2 cubes in each kebab.",
+    "Brush a non stick pan with ghee and add the kebabs. Cook on both sides on low flame for 15 minutes until golden brown on both sides."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

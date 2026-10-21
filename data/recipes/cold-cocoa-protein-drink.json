@@ -1,0 +1,116 @@
+{
+  "id": "cold-cocoa-protein-drink",
+  "title": "Cold Cocoa Protein Drink",
+  "source": {
+    "url": "https://www.instagram.com/reel/DXWgL0kjDP_/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#226"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 310,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "yeast protein powder",
+      "ingredient_id": "yeast_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop @millesupergrain dark chocolate protein powder (gives ~24 g protein)"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp pumpkin seeds (10 g)"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp chia seeds (12 g)"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 5,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "5 almonds"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp oats (10 g)"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 250,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "250 ml cold water"
+    }
+  ],
+  "steps": [
+    "You can add a zero calorie sweetner and some additional cocoa powder if you wish!",
+    "Soak the chia seeds, pumpkin seeds and almonds in a little water for 15–20 minutes.",
+    "Add the soaked chia seeds, pumpkin seeds, almonds, sweetner, cocoa powder, oats, a scoop of protein powder and 250 ml water to a blender.",
+    "Blend until completely smooth and creamy.",
+    "Add more cold water if needed for a thinner consistency.",
+    "Pour over ice and serve chilled."
+  ],
+  "assumptions": [
+    "Pour over ice cubes. The creator’s figures are approximate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

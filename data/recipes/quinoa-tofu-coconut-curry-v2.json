@@ -1,0 +1,247 @@
+{
+  "id": "quinoa-tofu-coconut-curry-v2",
+  "title": "Quinoa with Light Tofu Coconut Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTuwhciDMs7/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#205"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "quinoa"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 580,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "quinoa",
+      "section": "quinoa",
+      "ingredient_id": "quinoa",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "40 g raw quinoa (≈½ cup cooked)"
+    },
+    {
+      "item": "water",
+      "section": "quinoa",
+      "ingredient_id": "water",
+      "qty": 80,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "80–100 ml water"
+    },
+    {
+      "item": "salt",
+      "section": "quinoa",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "quinoa",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "quinoa",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon juice"
+    },
+    {
+      "item": "basil",
+      "section": "quinoa",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful basil or spinach"
+    },
+    {
+      "item": "cooking oil",
+      "section": "quinoa",
+      "ingredient_id": "oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp oil"
+    },
+    {
+      "item": "firm tofu",
+      "section": "tofu coconut curry",
+      "ingredient_id": "tofu_firm",
+      "qty": 180,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "180 g Chetran’s Tofu"
+    },
+    {
+      "item": "coconut milk",
+      "section": "tofu coconut curry",
+      "ingredient_id": "coconut_milk",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100 ml light coconut milk"
+    },
+    {
+      "item": "water",
+      "section": "tofu coconut curry",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50 ml water"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "tofu coconut curry",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 bell pepper (charred)"
+    },
+    {
+      "item": "mushroom",
+      "section": "tofu coconut curry",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mushrooms"
+    },
+    {
+      "item": "garlic",
+      "section": "tofu coconut curry",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2–3 garlic cloves"
+    },
+    {
+      "item": "olive oil",
+      "section": "tofu coconut curry",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "salt",
+      "section": "spices",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "section": "spices",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Black pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "spices",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "oregano",
+      "section": "spices",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "spices",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "pinch of zero cal sweetener"
+    }
+  ],
+  "steps": [
+    "Cook the quinoa.",
+    "Add quinoa, water, salt, and ½ tsp oil to a pressure cooker.",
+    "Cook for 1–2 whistles, rest for 5 minutes.",
+    "Fluff and toss with lemon juice, pepper, and basil/spinach.",
+    "Blend the charred bell pepper with light coconut milk + water until smooth.",
+    "Heat olive oil in a pan.",
+    "Add garlic and mushrooms, sauté until lightly golden.",
+    "Add tofu cubes, toss gently for 2 minutes.",
+    "Pour in the blended curry base.",
+    "Add spices and simmer for 4–5 minutes until slightly thick.",
+    "Plate quinoa, top with tofu coconut curry, enjoy hot!"
+  ],
+  "assumptions": [
+    "The creator gives about 560–580 kcal; we use the upper figure."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

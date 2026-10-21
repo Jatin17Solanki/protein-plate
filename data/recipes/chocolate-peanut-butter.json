@@ -1,0 +1,94 @@
+{
+  "id": "chocolate-peanut-butter",
+  "title": "Homemade Chocolate Peanut Butter",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-48J1AJGrf/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#154"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanuts"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 300,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "300g Peanuts"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsp unsweetened cocoa powder (Using Hersheys)"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp of Monkfruit Extract (Can replace with honey)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp Salt"
+    }
+  ],
+  "steps": [
+    "Roast the Peanuts on medium flame until they turn dark brown. Let them cool down.",
+    "Now wrap the peanuts in a cloth and rub the cloth well which will help separate the skin.",
+    "Now use a sieve to collect the skin or just blow some air onto the plate and the skin will fly away (make sure to do this over a sink though).",
+    "Blend the peanuts for 10-15 seconds and then add salt.",
+    "Blend again until you see a creamy consistency.",
+    "Add Cocoa Powder and the sweetner. Blend again for 20-30 seconds and its ready!!",
+    "Store in an airtight jar and pair with jam for the best PBJ Sandwich ever."
+  ],
+  "assumptions": [
+    "The ingredient list also names honey as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

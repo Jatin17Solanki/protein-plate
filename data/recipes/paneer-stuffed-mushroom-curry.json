@@ -1,0 +1,219 @@
+{
+  "id": "paneer-stuffed-mushroom-curry",
+  "title": "Paneer Stuffed Mushrooms in Tomato Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSMQ6dtjB_b/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#6"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 440,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving: quinoa + half the mushrooms (serves 2)",
+    "protein_g": 25,
+    "kcal": 440,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "section": "curry",
+      "ingredient_id": "oil",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Oil: 1.5 tsp"
+    },
+    {
+      "item": "garlic",
+      "section": "curry",
+      "ingredient_id": "garlic",
+      "qty": 7,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "Garlic: 7-8 cloves (minced/ chopped)"
+    },
+    {
+      "item": "onion",
+      "section": "curry",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Onions: 2 (chopped)"
+    },
+    {
+      "item": "cashews",
+      "section": "curry",
+      "ingredient_id": "cashews",
+      "qty": 5,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "Cashews: 5"
+    },
+    {
+      "item": "tomato",
+      "section": "curry",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Tomatoes : 3 (roughly chopped)"
+    },
+    {
+      "item": "salt",
+      "section": "curry",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt: As per taste"
+    },
+    {
+      "item": "water",
+      "section": "curry",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Water: 2 cups"
+    },
+    {
+      "item": "skimmed milk",
+      "section": "curry",
+      "ingredient_id": "milk_skimmed",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Low fat milk: 1 cup"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "stuffed mushroom",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low fat paneer: 100g"
+    },
+    {
+      "item": "spinach",
+      "section": "stuffed mushroom",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Spinach: 1 Cup (chopped)"
+    },
+    {
+      "item": "salt",
+      "section": "stuffed mushroom",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "stuffed mushroom",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chilli flakes"
+    },
+    {
+      "item": "black pepper",
+      "section": "stuffed mushroom",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "black pepper: As per taste"
+    },
+    {
+      "item": "mushroom",
+      "section": "stuffed mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 14,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Mushrooms: 14 pieces"
+    },
+    {
+      "item": "cheese",
+      "section": "garnish",
+      "ingredient_id": "cheese",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Grated cheese: 2 tbsp"
+    },
+    {
+      "item": "oregano",
+      "section": "garnish",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "Oregano: 1 tbsp"
+    },
+    {
+      "item": "cooked quinoa",
+      "section": "garnish",
+      "ingredient_id": "quinoa_cooked",
+      "qty": 100,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Quinoa as base: 100g cooked"
+    }
+  ],
+  "steps": [
+    "Heat oil in a pan. Add garlic, onion, cashews, tomatoes, salt, water. Cook for 10 mins.",
+    "For the filling add crumbled paneer, chopped spinach, salt, chilli flakes, black pepper & mix well.",
+    "Stuff button mushrooms with the filling.",
+    "Cool down the tomato curry, add soy milk, and blend everything together.",
+    "Heat the blended mixture again, add stuffed mushrooms, cheese & oregano.",
+    "Serve hot with boiled quinoa."
+  ],
+  "assumptions": [
+    "The method blends the curry with soy milk; the ingredient list has low-fat milk."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

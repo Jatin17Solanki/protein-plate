@@ -1,0 +1,112 @@
+{
+  "id": "chocolate-whey-yogurt-mousse",
+  "title": "Chocolate Whey Greek Yogurt Mousse",
+  "source": {
+    "url": "https://www.instagram.com/reel/DLhdzc7zmUk/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#92"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 246,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100-110g Greek Yogurt"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 Scoop Whey (Chocolate preferably)"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp peanut butter"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp unsweetened cocoa powder"
+    },
+    {
+      "item": "blueberries",
+      "ingredient_id": "blueberries",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Blueberries"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1 square 70% dark chocolate shavings"
+    }
+  ],
+  "steps": [
+    "Mix everything well until smooth, set in the freezer for 10 mins and its ready!"
+  ],
+  "assumptions": [
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

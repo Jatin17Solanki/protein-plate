@@ -1,0 +1,184 @@
+{
+  "id": "paneer-schezwan-toast",
+  "title": "Paneer Schezwan Toast Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/C5Qgomdqi04/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#42"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g Homemade low fat paneer"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2-3 tbsp chopped onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2-3 tbsp chopped tomatoes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp oregano"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Sprinkle of pepper"
+    },
+    {
+      "item": "black salt",
+      "ingredient_id": "black_salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp black salt"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of chopped bell pepper"
+    },
+    {
+      "item": "cabbage",
+      "ingredient_id": "cabbage",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of chopped cabbage"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 0.75,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "3/4 tbsp schezwan chutney"
+    },
+    {
+      "item": "hot and sweet sauce",
+      "ingredient_id": "hot_sweet_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp of hot and sweet sauce/sriracha"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp green chutney homemade"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices of whole wheat bread"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1/2 cube cheese"
+    }
+  ],
+  "steps": [
+    "Mix the seasonings, paneer, veggies and sauces until well combined.",
+    "Take 2 slices of toasted bread and spread chutney and the prepared mix on the bread.",
+    "Bind the mixture well onto the bread.",
+    "Roast the bread on both sides until the mixture is a little golden brown.",
+    "Add a little bit of cheese and cover and cook for a minute.",
+    "Cut in halves and drizzle with more sriracha or chilli sauce and enjoy."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

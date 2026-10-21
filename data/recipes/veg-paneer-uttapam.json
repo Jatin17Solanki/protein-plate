@@ -1,0 +1,171 @@
+{
+  "id": "veg-paneer-uttapam",
+  "title": "Veg Paneer Uttapam",
+  "source": {
+    "url": "https://www.instagram.com/reel/C736InKJeiW/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#162"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "dosa_batter"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (makes 2 uttapams)",
+    "protein_g": 25,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "dosa batter",
+      "ingredient_id": "dosa_batter",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1.5 Cup Dosa batter"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Grated Boiled Beet"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Carrot Grated"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Capsicum"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Onion"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped Spinach"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped Coriander"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Chopped Green Chillies"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chaat masala"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "paneer"
+    }
+  ],
+  "steps": [
+    "Mix this all well and add water little by litle to form the perfect spreadable uttapam consistency. (Approx 1 small cup water)",
+    "Heat a non-stick pan, brush it with some oil and start making your uttapams. Once its 60% cooked from the top, sprinkle 65g of low fat homemade paneer on the uttapam (use 130g for 2 uttapams) and lightly press it down with a spatula. Let it cook on slow flame for another 3-4 mins and flip.",
+    "Cook until the side with paneer is golden brown.",
+    "Sprinkle with podi masala and serve with green chutney."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (makes 2 uttapams)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

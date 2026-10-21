@@ -1,0 +1,197 @@
+{
+  "id": "paneer-tikka-kathi-roll",
+  "title": "Paneer Tikka Kathi Roll",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYymnSSzFne/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#241"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "lachha_paratha"
+  ],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 395,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 70,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "70g low-fat paneer (i used ID)"
+    },
+    {
+      "item": "whole wheat lachha paratha",
+      "ingredient_id": "lachha_paratha",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 whole wheat lachha paratha"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g skyr (high protein greek yogurt)"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1.5 tbsp green chutney"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "½ tbsp schezwan chutney"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ capsicum"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ onion"
+    },
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp mustard oil"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "masalas",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "section": "masalas",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp haldi"
+    },
+    {
+      "item": "garam masala",
+      "section": "masalas",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "coriander powder",
+      "section": "masalas",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "cumin powder",
+      "section": "masalas",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp jeera powder"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "section": "masalas",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    },
+    {
+      "item": "salt",
+      "section": "masalas",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "Marinate the paneer with skyr, mustard oil, spices, onion, and capsicum.",
+    "Toss everything on a non-stick pan until the paneer turns golden brown and slightly charred.",
+    "Spread schezwan chutney on the paratha.",
+    "Add the paneer filling, onion, green chutney mixed with skyr, roll it tightly, and enjoy!"
+  ],
+  "assumptions": [
+    "The ingredient list also names Greek yogurt as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "tempeh-veg-fried-rice",
+  "title": "Tempeh Veg Fried Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/DAdY9kzqmsb/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#152"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [
+    "rice_cooked",
+    "soy_sauce",
+    "onion"
+  ],
+  "tags": [
+    "rice_pulao_biryani",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves of garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Small Thinly Sliced Onion"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "(Bell Peppers, Spring Onion, Boiled Corn)"
+    },
+    {
+      "item": "tempeh",
+      "ingredient_id": "tempeh",
+      "qty": 0.75,
+      "unit": null,
+      "type": "protein",
+      "as_written": "3/4 th pack of Peri Peri Tempeh Cubes by @hello_tempayy"
+    },
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 100,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "100g Cooked Rice"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp chilli sauce"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp ketchup"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "spring onion",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Spring Onion"
+    },
+    {
+      "item": "sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Boiled Corn"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    }
+  ],
+  "steps": [
+    "In a Pan, add 1 tsp olive oil. Then add garlic. Sauté for a minute and add onions.",
+    "⁠Then finely chop the tempeh cubes and add it to the pan. Cook it for 2-3 mins so that it absorbs the flavors.",
+    "⁠Next add all the veggies. Add a little salt and pepper and saute the veggies for 4-5 minutes.",
+    "⁠Add the sauces and mix well. Then add the rice and top with spring onions.",
+    "⁠Cook for 2 minutes and its ready!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

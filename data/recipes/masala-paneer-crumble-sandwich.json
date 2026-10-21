@@ -1,0 +1,202 @@
+{
+  "id": "masala-paneer-crumble-sandwich",
+  "title": "Masala Paneer Crumble Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZmqdXtTg5N/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#248"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole breakfast plate",
+    "protein_g": 45,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "oil"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "jeera"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "rai"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "halfi"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "jeera powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g crumbled low fat paneer"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "as_written": "1 slice cheese"
+    },
+    {
+      "item": "tomato sauce",
+      "ingredient_id": null,
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp tomato"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "cucumber"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "whole wheat bread"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "high protein greek yogurt"
+    },
+    {
+      "item": "granola",
+      "ingredient_id": "granola",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "granola"
+    }
+  ],
+  "steps": [
+    "On a pan, add oil, jeera, rai and sauté for a min.",
+    "Add crumbled onion and tomato. Let it cook until soft and then add your masalas - chilli powder, halfi, pepper, jeera powder, salt.",
+    "Add 100g crumbled low fat paneer, 1 slice cheese and 1 tbsp tomato sauce.",
+    "Cook for 3-4 mins until it becomes creamy.",
+    "Assemble cucumber slices on whole wheat bread and add your paneer crumble on top. Serve with high protein greek yogurt/skyr + granola + seeds!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole breakfast plate\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

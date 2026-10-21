@@ -1,0 +1,189 @@
+{
+  "id": "paneer-mint-chutney-sandwich",
+  "title": "Paneer Mint Chutney Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBGoRBYqa9z/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#119"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat",
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 31,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices whole wheat bread"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp greek yogurt/hung curd"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 slice cheese (optional)"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Mint chutney"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp chilli sauce"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Onion"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Capsicum"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Tomato"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Cucumber"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "garlic powder",
+      "ingredient_id": "garlic_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Garlic Powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Oregano"
+    }
+  ],
+  "steps": [
+    "Sauté paneer cubes, onion and capsicum and then let it cool down.",
+    "Mix the sautéed paneer cubes, onion and capsicum along with greek yogurt, chilli sauce and seasonings.",
+    "On a slice of bread, add a cheese slice and layer your veggies. Then spread the paneer mixture.",
+    "Apply mint chutney on another slice and then toast your sandwich until crispy!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

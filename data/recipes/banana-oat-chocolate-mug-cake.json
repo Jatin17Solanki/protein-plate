@@ -1,0 +1,149 @@
+{
+  "id": "banana-oat-chocolate-mug-cake",
+  "title": "Banana Oat Chocolate Mug Cake",
+  "source": {
+    "url": "https://www.instagram.com/reel/C6JMhfZpHyc/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#192"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "oats",
+    "peanut_butter",
+    "milk_skimmed",
+    "cocoa_powder"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 40,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Half banana (40g)"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 20,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Oats (20g)"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "Pinch of baking soda"
+    },
+    {
+      "item": "baking powder",
+      "ingredient_id": "baking_powder",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "Pinch of baking powder"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp unsweetened cocoa powder"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp monkfruit extract (sugar replacement)"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Peanut Butter (10g)"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 40,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "40-45ml Skimmed Milk"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 3,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Vanilla extract 3-4 drops"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1 square of 70% dark chocolate"
+    }
+  ],
+  "steps": [
+    "Mash the banana and add the powdered oats, baking soda, baking powder, peanut butter, stevia, cocoa powder, vanilla extract, skimmed milk.",
+    "Mix well and add a square of dark chocolate in the centre.",
+    "Bake for 15-20 minutes in an airfryer/oven at 170C.",
+    "Let it cool down for 10 minutes before you dig in."
+  ],
+  "assumptions": [
+    "Monkfruit extract is the sugar replacement."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

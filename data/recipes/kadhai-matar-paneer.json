@@ -1,0 +1,245 @@
+{
+  "id": "kadhai-matar-paneer",
+  "title": "Kadhai Matar Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/C240yoLJC9i/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#179"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed",
+    "besan"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp oil"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "butter"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 chopped green chillies"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves of garlic"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 ginger"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 small cinnamon stick"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 bay leaves"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 peppercorns"
+    },
+    {
+      "item": "clove (spice)",
+      "ingredient_id": null,
+      "qty": 1,
+      "unit": "clove",
+      "type": "spice",
+      "as_written": "1 clove to the oil"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onion"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1.5 tbsp besan"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 150,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "150-200 ml low fat milk"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "fresh peas"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp stevia"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "low fat paneer"
+    },
+    {
+      "item": "fresh cream",
+      "ingredient_id": "cream",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "ghar ka malai 2 tbsp"
+    }
+  ],
+  "steps": [
+    "Add 1 tbsp oil and a little butter to a kadhai. Add 1 tsp jeera, 2-3 chopped green chillies, 2-3 cloves of garlic, 1 ginger cube, 1 small cinnamon stick, 2 bay leaves, 2-3 peppercorns and 1 clove to the oil. Let it roast for a minute.",
+    "Then add onion, cook until translucent and add salt, 1 tsp red chilli powder and 1 tsp coriander powder.",
+    "Cook for a minute and then blend this mixture in a fine paste.",
+    "Now take 1.5 tbsp besan and roast it until it turns light brown. Add the fine paste to this. Mix well and you will see it thickens. Now add methi to this and a dash of water. Mix well.",
+    "Now add 150-200 ml low fat milk to this along with fresh peas.",
+    "Cook this well for 10 minutes and add more milk and water to adjust consistency.",
+    "Add 1 tsp stevia/ zero cal sugar and 1 tsp garam masala to this: Then add your low fat paneer. (At this step you can also add ghar ka malai 2 tbsp or fresh cream)",
+    "Let it cook for another 10 minutes and serve hot with bhakris."
+  ],
+  "assumptions": [
+    "Ghar ka malai or fresh cream (2 tbsp) is optional."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

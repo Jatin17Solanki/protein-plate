@@ -1,0 +1,108 @@
+{
+  "id": "strawberry-oat-yogurt-smoothie",
+  "title": "Strawberry Oat Greek Yogurt Smoothie",
+  "source": {
+    "url": "https://www.instagram.com/reel/DDegnh8IS9I/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#94"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 20,
+    "kcal": 341,
+    "carbs_g": 45,
+    "fat_g": 9
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 220,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "220g Greek Yogurt Plain (Epigamia/Milkymist)"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 25,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "25g Oats"
+    },
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "6-7 Strawberries"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Honey (Or zero-calorie sweetner) - You can add more if you like it sweeter"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 7,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "7g Chia seeds soaked in water"
+    }
+  ],
+  "steps": [
+    "Blend all the above ingredients with some water and enjoy."
+  ],
+  "assumptions": [
+    "The creator also gives 7 g fibre.",
+    "The ingredient list also names zero-calorie sweetener as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

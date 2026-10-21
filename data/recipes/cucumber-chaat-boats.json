@@ -1,0 +1,197 @@
+{
+  "id": "cucumber-chaat-boats",
+  "title": "Cucumber Chaat Boats",
+  "source": {
+    "url": "https://www.instagram.com/reel/DR3tqO1jAZ3/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#3"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "cucumber",
+    "greek_yogurt",
+    "sweet_potato"
+  ],
+  "tags": [
+    "chaat",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 80,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per boat (makes 3)",
+    "protein_g": null,
+    "kcal": 80,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1.5 cucumbers (cut lengthwise, pulp scooped out)"
+    },
+    {
+      "item": "sweet potato",
+      "ingredient_id": "sweet_potato",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2–3 tbsp boiled sweet potato"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion"
+    },
+    {
+      "item": "moong sprouts",
+      "ingredient_id": "sprouts",
+      "qty": 5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "5–6 tbsp boiled kala chana sprouts"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1–2 tbsp Greek yogurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Dash of water"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaves"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chaat masala"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "jeera powder"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp crushed peanuts"
+    },
+    {
+      "item": "imli (sweet tamarind) chutney",
+      "ingredient_id": "imli_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Imli chutney"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Green chutney"
+    },
+    {
+      "item": "sev",
+      "ingredient_id": "sev",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "sev"
+    }
+  ],
+  "steps": [
+    "Cut the cucumbers lengthwise and scoop out the pulp (use the pulp later for cucumber juice).",
+    "In a bowl, add sweet potato, kala chana sprouts, onion, Greek yogurt, and a splash of water.",
+    "Mash everything together until it becomes a creamy filling.",
+    "Add coriander and all the spices, and mix well.",
+    "Fill this mixture into the three cucumber boats.",
+    "Drizzle imli chutney and green chutney on top.",
+    "Finish with crushed peanuts and optional sev."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

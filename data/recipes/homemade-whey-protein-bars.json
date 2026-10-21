@@ -1,0 +1,139 @@
+{
+  "id": "homemade-whey-protein-bars",
+  "title": "Homemade Whey Protein Bars",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7gtj_MJzKe/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#164"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "peanut_butter"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 261,
+    "carbs_g": 24,
+    "fat_g": 9,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bar (makes 8)",
+    "protein_g": 21,
+    "kcal": 261,
+    "carbs_g": 24,
+    "fat_g": 9
+  },
+  "protein_working": [],
+  "servings": 8,
+  "ingredients": [
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 5,
+      "unit": null,
+      "grams": 150,
+      "type": "protein",
+      "as_written": "5 Scoops Chocolate Whey (Per Scoop 25g P) - 130g"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100ml Double Toned Milk"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g Deeseded Dates (Sticky dates, not the dry ones)"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 15,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "15 Cashews"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 120,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "120g Instant Oats (Roasted & then Powdered)"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 70,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "70g Unsweetened Peanut Butter Crunchy"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g Cocoa Powder Unsweetened (Hersheys)"
+    },
+    {
+      "item": "cashews",
+      "section": "garnishing",
+      "ingredient_id": "cashews",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 Cashews Roasted & Chopped"
+    },
+    {
+      "item": "almonds",
+      "section": "garnishing",
+      "ingredient_id": "almonds",
+      "qty": 10,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "10 Almonds Roasted & Chopped"
+    }
+  ],
+  "steps": [
+    "Store in fridge upto a week and consume cold.",
+    "Soak 15 Cashews and Dates in warm double toned milk for 1 hour and then blend this into a smooth paste.",
+    "In a Bowl, add powdered oats, protein powder, cocoa powder, date cashew paste, and peanut butter.",
+    "Knead this into a dough. It will require 10 minutes to come together so be patient. You may add 30-40 ml milk after 3-4 mins of kneading and it will quickly come together. (It may seem quite sticky and powdery at first, but keep kneading. Incase you are not able to get the perfect dough even after adding some milk, add a tiny bit of peanut butter)",
+    "Once the dough is ready, transfer into a rectangle box or cake tin lined with butter paper to get the shape right. Then press it down with your hands to give it shape and make it even. Try making it thinner and longer to achieve 8 bars. (Don’t be like me, I didn’t flatten & make it long enough and only got 6 thick bars)",
+    "Garnish with roasted chopped almonds and cashews and press them down with a flat spoon.",
+    "Let it set in the fridge OVERNIGHT for the perfect consistency. Don’t dig in right away.",
+    "Now cut the dough into 8 equal bars. You may use a scale to mark 7 dots before each cutting.",
+    "Consume cold as it might get a little sticky if kept outside in the heat for long as it contains milk.",
+    "Note that cals and macros may differ depending on the protein powder you are using."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

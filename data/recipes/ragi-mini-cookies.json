@@ -1,0 +1,141 @@
+{
+  "id": "ragi-mini-cookies",
+  "title": "Ragi Mini Cookies",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGkxfI6TPGs/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#138"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "ragi_flour",
+    "oat_flour"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 0.8,
+    "kcal": 38,
+    "carbs_g": 5.5,
+    "fat_g": 1.5,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per cookie (makes 12)",
+    "protein_g": 0.8,
+    "kcal": 38,
+    "carbs_g": 5.5,
+    "fat_g": 1.5
+  },
+  "protein_working": [],
+  "servings": 12,
+  "ingredients": [
+    {
+      "item": "ragi flour",
+      "ingredient_id": "ragi_flour",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Sprouted ragi flour – 40g"
+    },
+    {
+      "item": "oat flour",
+      "ingredient_id": "oat_flour",
+      "qty": 10,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Oats flour – 10g"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Jaggery powder – 20g"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 20,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Ghee – 20g"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Milk – 1-2 tbsp"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Baking soda – Less than 1/4 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Salt – A tiny pinch"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cardamom powder – 1/4 tsp"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1-2 tbsp finely chopped almonds"
+    }
+  ],
+  "steps": [
+    "Preheat oven/airfryer to 160°C and line a baking tray.",
+    "Combine ragi flour, oats flour, baking soda, salt, and cinnamon/cardamom powder.",
+    "Whisk together jaggery powder and ghee until smooth (for like 4-5 mins)",
+    "Gradually mix the dry ingredients into the wet mixture. Add milk little by little until a soft dough forms.",
+    "Roll into small cookie balls of 7g each, slightly flatten, and place on the baking tray.",
+    "Sprinkle chopped almonds on the cookies.",
+    "Bake at 160°C for 10-12 minutes until set or airfry at 150 degree for 8-10 mins.",
+    "Let them cool completely for the best texture!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

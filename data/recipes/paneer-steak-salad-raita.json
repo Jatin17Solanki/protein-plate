@@ -1,0 +1,286 @@
+{
+  "id": "paneer-steak-salad-raita",
+  "title": "Paneer Steak with Garlic Salad and Raita",
+  "source": {
+    "url": "https://www.instagram.com/reel/C7tsgP9pbqC/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#163"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "hot and sweet sauce",
+      "ingredient_id": "hot_sweet_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp hot and sweet sauce"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Schezwan Sauce"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves crushed garlic"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vinegar"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp soya sauce"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "garlic",
+      "section": "salad",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves chopped garlic"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "salad",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chilli flakes"
+    },
+    {
+      "item": "onion",
+      "section": "salad",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small chopped onion"
+    },
+    {
+      "item": "soy sauce",
+      "section": "salad",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp soya sauce"
+    },
+    {
+      "item": "cheese",
+      "section": "salad",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1 Cube Britannia Cheese"
+    },
+    {
+      "item": "salt",
+      "section": "salad",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "oregano",
+      "section": "salad",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "black pepper",
+      "section": "salad",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "raita",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g Greek Yogurt (Plain Epigamia) / Hung Curd"
+    },
+    {
+      "item": "carrot",
+      "section": "raita",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Grated Carrot"
+    },
+    {
+      "item": "beetroot",
+      "section": "raita",
+      "ingredient_id": "beetroot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Grated Boiled Beetroot"
+    },
+    {
+      "item": "cucumber",
+      "section": "raita",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "(Can also add cucumber and tomato)"
+    },
+    {
+      "item": "pomegranate",
+      "section": "raita",
+      "ingredient_id": "pomegranate",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp Pomegranate"
+    },
+    {
+      "item": "chaat masala",
+      "section": "raita",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chaat Masala"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "raita",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    }
+  ],
+  "steps": [
+    "Mix all the ingredients mentioned above and coat 150g low fat paneer (homemade) in this mixture. Let it sit in the fridge for atleast 15 mins before you grill it.",
+    "In a pan, brush a little oil and grill this paneer on both sides until brown.",
+    "In a pan, sauté garlic and chilli flakes. Add onion and rest of the veggies. Sauté for 5 mins on high flame and then add salt, pepper, mixed herbs, soy sauce. Mix this. Turn off the flame and add grated cheese.",
+    "Mix this all well and add a dash of water to achieve the desired consistency."
+  ],
+  "assumptions": [
+    "The ingredient list also names tomato as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

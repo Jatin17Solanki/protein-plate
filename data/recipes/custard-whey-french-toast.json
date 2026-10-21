@@ -1,0 +1,128 @@
+{
+  "id": "custard-whey-french-toast",
+  "title": "Eggless Custard Whey French Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/C6gcd2HKcf_/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#166"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 394,
+    "carbs_g": 45,
+    "fat_g": 6
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 Slices Whole Wheat Bread"
+    },
+    {
+      "item": "custard powder",
+      "ingredient_id": "custard_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 Tsp Custard Powder"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 Tsp Cinnamon powder"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 Scoop Vanilla Whey Protein"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 80,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "80 Ml Milk"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp Monkfruit Extract (zero Calorie Sugar Replacement - you may use powdered sugar but calories will go up)"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "yogurt dressing",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1.5 tbsp greek yogurt"
+    }
+  ],
+  "steps": [
+    "Mix well all the ingredients mentioned above and coat the 2 slices of bread with this.",
+    "Now join the 2 slices of bread and soak up every drop of that mixture.",
+    "Heat a pan, brush some butter onto it. Now place the bread onto the pan and let it cook on slow flame until the bottom is golden brown. Also cover the pan with a lid.",
+    "Now flip the bread and let it brown on the other side. Also, hold each side of the bread vertically onto the pan, and let all 4 sides cook well.",
+    "Once its ready, top it off with the yogurt dressing (1.5 tbsp greek yogurt + pinch of cinnamon + 1 tbsp vanilla whey) and 30g of mango chunks (or make a rose like I did)"
+  ],
+  "assumptions": [
+    "The ingredient list also names sugar as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

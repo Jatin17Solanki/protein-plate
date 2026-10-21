@@ -1,0 +1,137 @@
+{
+  "id": "maggi-masala-zoodles",
+  "title": "Maggi Masala Zucchini Noodles",
+  "source": {
+    "url": "https://www.instagram.com/reel/DJeKa8azxfJ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#115"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "pasta_noodles"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": null,
+    "kcal": 200,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "zucchini",
+      "ingredient_id": "zucchini",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Zuchinis"
+    },
+    {
+      "item": "Maggi masala",
+      "ingredient_id": "maggi_masala",
+      "qty": 2,
+      "unit": null,
+      "type": "spice",
+      "as_written": "2 Packs of Maggi Masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 Dried Red Chillies"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 Garlic Cloves"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Oil"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 Cup water"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 Slice Cheese (Optional)"
+    }
+  ],
+  "steps": [
+    "Julienne the zuchinis and mix them with salt. Keep it aside for 5-6 mins. Tap with a cloth and dry them after they release water.",
+    "Soak Red Chillies and Garlic in Hot water for 30 mins.",
+    "Grind it into a smooth paste.",
+    "In a pan, add oil and the chilli garlic paste.",
+    "Add maggi masala and 2 tbsp water and mix it well.",
+    "Add 1 Cup water and cheese and let it boil for 3-4 mins.",
+    "Add the Zuchini Julienne and cover and cook for 7-8 mins until soft and the desired consistency is achieved."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

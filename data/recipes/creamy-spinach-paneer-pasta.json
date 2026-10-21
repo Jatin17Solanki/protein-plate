@@ -1,0 +1,165 @@
+{
+  "id": "creamy-spinach-paneer-pasta",
+  "title": "Creamy Spinach Paneer Pasta",
+  "source": {
+    "url": "https://www.instagram.com/reel/C1wvlFlJn-f/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#176"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk",
+    "cheese"
+  ],
+  "tags": [
+    "pasta_noodles"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp butter"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 garlic cloves"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp oregano"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "2 tbsp chilli flakes"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3 tbsp chopped onion"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g low fat paneer"
+    },
+    {
+      "item": "whole-wheat pasta",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 cup pasta of choice (boiled)"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup spinach (boiled)"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1 cup milk"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 slice cheese (optional)"
+    },
+    {
+      "item": "whole-wheat flour (atta)",
+      "ingredient_id": "wheat_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp wheat flour"
+    }
+  ],
+  "steps": [
+    "Blend together paneer, boiled spinach and milk to prepare a creamy thin sauce.",
+    "Add butter and garlic to a pan. Sauté the garlic and add the onion. Then add pepper and all your favourite veggies. Cover and let the veggies cook. Add salt, oregano, chilli flakes and the sauce we prepared. Add milk if required to adjust the consistency. Then goes in a spoon of wheat flour. Mix well and add some cheese. Add the boiled pasta, give it a mix and serve hot."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

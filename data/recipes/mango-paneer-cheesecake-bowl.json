@@ -1,0 +1,168 @@
+{
+  "id": "mango-paneer-cheesecake-bowl",
+  "title": "Mango Paneer Cheesecake with Oat Almond Base",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYG24quT2D-/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#233"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (2 servings)",
+    "protein_g": 46,
+    "kcal": 640,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "section": "cheesecake base",
+      "ingredient_id": "oats",
+      "qty": 20,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Oats – 20 g"
+    },
+    {
+      "item": "almonds",
+      "section": "cheesecake base",
+      "ingredient_id": "almonds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Almonds – 10 g"
+    },
+    {
+      "item": "pumpkin seeds",
+      "section": "cheesecake base",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Pumpkin seeds – 10 g"
+    },
+    {
+      "item": "ghee",
+      "section": "cheesecake base",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Ghee – 1 tsp (5 g)"
+    },
+    {
+      "item": "salt",
+      "section": "cheesecake base",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Chopped mango – 1 cup (150 g)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Greek Yogurt/Skyr – 80-100g"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low fat Paneer – 150g"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Monk fruit sweetener by @urbanplatter.in – 1/2 tbsp"
+    },
+    {
+      "item": "mango",
+      "section": "garnish",
+      "ingredient_id": "mango",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mango Slices"
+    },
+    {
+      "item": "almonds",
+      "section": "garnish",
+      "ingredient_id": "almonds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Almond flakes"
+    }
+  ],
+  "steps": [
+    "Prepare the base.",
+    "Dry roast oats, almonds and pumpkin seeds. Blend coarsely with ghee and a pinch of salt.",
+    "Set the base.",
+    "Press the mixture firmly into a bowl to form a compact base layer.",
+    "Prepare the filling.",
+    "Blend mango, paneer, skyr and monk fruit sweetener until smooth and creamy.",
+    "Assemble.",
+    "Pour the filling over the base and level it evenly.",
+    "Garnish & serve.",
+    "Top with chopped mango and almond flakes. Chill for 4-5 hours and serve."
+  ],
+  "assumptions": [
+    "The creator’s figures are approximate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (2 servings)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "paneer-sprouts-chaat-bowl",
+  "title": "Paneer Sprouts Chaat Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DJ39I9qs7d4/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#111"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "sprouts"
+  ],
+  "tags": [
+    "chaat",
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 493,
+    "carbs_g": 53,
+    "fat_g": 16
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g Low fat Paneer"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame seeds"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp olive oil"
+    },
+    {
+      "item": "moong sprouts",
+      "ingredient_id": "sprouts",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g Boiled Sprouts"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 cup Chopped Tomatoes"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 cup chopped Onion"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 cup chopped Cucumber"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 cup grated boiled beetroot"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 cup grated carrot"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies chopped"
+    },
+    {
+      "item": "pomegranate",
+      "ingredient_id": "pomegranate",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup pomegranate"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 chopped Roasted Peanuts"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 Roasted chopped Almonds"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp amchur powder"
+    },
+    {
+      "item": "black salt",
+      "ingredient_id": "black_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "black salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chaat masala"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp jeera powder"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp green chutney"
+    },
+    {
+      "item": "imli (sweet tamarind) chutney",
+      "ingredient_id": "imli_chutney",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1.5 tbsp Imli Chutney (I sweetened the chutney with zero calorie sugar)"
+    },
+    {
+      "item": "sev",
+      "ingredient_id": "sev",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tbsp sev (optional)"
+    }
+  ],
+  "steps": [
+    "On a pan, brush some olive oil and sprinkle sesame seeds. The roast the paneer cubes until golden brown.",
+    "In a bowl, add all the above mentioned ingredients along with the roasted paneer and mix well.",
+    "Top it off with sev and peanuts."
+  ],
+  "assumptions": [
+    "The ingredient list also names zero-calorie sweetener as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

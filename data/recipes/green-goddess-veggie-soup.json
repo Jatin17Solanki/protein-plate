@@ -1,0 +1,163 @@
+{
+  "id": "green-goddess-veggie-soup",
+  "title": "Green Goddess Veggie Soup",
+  "source": {
+    "url": "https://www.instagram.com/reel/DESAXr3IhY0/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#145"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "broccoli",
+    "onion",
+    "almonds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 85,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bowl (makes 3)",
+    "protein_g": null,
+    "kcal": 85,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "broccoli",
+      "ingredient_id": "broccoli",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 Cup Broccoli Florets"
+    },
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup Cauliflower Florets"
+    },
+    {
+      "item": "zucchini",
+      "ingredient_id": "zucchini",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup chopped zuchini/bottlegaurd"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "3/4th Cup Spinach"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4tsp pepper"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter/olive oil"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 garlic cloves chopped"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1.5 medium sized thinly slices onion"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 3,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Water - 3-4 cups or more"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 almonds soaked in water"
+    }
+  ],
+  "steps": [
+    "In a pan, add butter and pepper. Then add garlic and onion. Sauté until golden brown.",
+    "Add all the green vegetables and saute for 3-4 minutes.",
+    "Then add soaked almonds, salt and water. Give it a mix and cover and cook for 10-15 mins until everything is tender.",
+    "Once it cools down, blend it into a fine puree. At this stage you can also add 1/4th cup of coconut milk if you are into rich and super creamy soups.",
+    "Add some butter and chilli oil to the pan and pour this puree back into the pan. Add more water to adjust the consistency if needed and let it come to a bowl.",
+    "Optionally garnish with fried garlic flakes, melted butter and chilli oil."
+  ],
+  "assumptions": [
+    "The ingredient list also names bottle gourd (lauki) and olive oil as alternatives or notes; they aren’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

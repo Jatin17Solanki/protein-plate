@@ -1,0 +1,130 @@
+{
+  "id": "paneer-mawa-modak",
+  "title": "Low-Cal Paneer Mawa Modak",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNugbV02M5a/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#77"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk_powder"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 80,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per modak (makes 8–10)",
+    "protein_g": null,
+    "kcal": 80,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 1,
+      "unit": "cup",
+      "grams": 150,
+      "type": "protein",
+      "as_written": "1 cup homemade crumbled paneer (I am using low fat) - around 150g"
+    },
+    {
+      "item": "milk powder",
+      "ingredient_id": "milk_powder",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1 cup milk powder (prefer unsweetened)"
+    },
+    {
+      "item": "saffron (kesar)",
+      "ingredient_id": "saffron",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Kesar – 8–10 strands soaked in 30-40 ml warm skimmed milk"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 30,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "Kesar – 8–10 strands soaked in 30-40 ml warm skimmed milk"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp Elaichi powder"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1/2 tbsp ghee"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of turmeric powder for color"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3-4 tbsp sweetner of choice (I am using zero calorie sweetner - Monkfruit extract)"
+    }
+  ],
+  "steps": [
+    "Blend the paneer until its smooth to mimic mawa like texture.",
+    "Add ghee to a pan, along with milk powder and the blended paneer.",
+    "Add the saffron infused milk gradually, stirring until it comes together like soft mava.",
+    "Add cardamom powder, and sweetener of your choice.",
+    "Stir well until mixture thickens into a soft dough-like consistency. (Don’t overcook or it’ll get dry.)",
+    "Let the mixture cool down and then need it well to make sure it’s very smooth without any lumps.",
+    "Grease a modak mould with a drop of ghee, stuff the mixture in, press, and unmould.",
+    "Tip - The dough should not stick to your fingers. If it sticks, then its too wet so add 1 tbsp of milk powder and cook for 2 to 3 minutes."
+  ],
+  "assumptions": [
+    "The creator gives 70–80 kcal per modak; we use the upper figure.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

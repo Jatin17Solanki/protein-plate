@@ -1,0 +1,245 @@
+{
+  "id": "black-chana-dahi-tadka-brown-rice",
+  "title": "Black Chana Dahi Tadka Curry with Brown Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTcwOMDjOYB/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#203"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "rice"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 480,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "rice",
+      "section": "rice",
+      "ingredient_id": "rice",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "@daawatofficial Brown Rice – 1 cup"
+    },
+    {
+      "item": "water",
+      "section": "rice",
+      "ingredient_id": "water",
+      "qty": 2.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Water – 2½ cups"
+    },
+    {
+      "item": "black chickpeas (kala chana)",
+      "section": "curry",
+      "ingredient_id": "kala_chana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "Black chana (boiled) – 1 cup"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "curry",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Bell peppers (chopped) – 1 cup"
+    },
+    {
+      "item": "onion",
+      "section": "curry",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Onion (thinly sliced) – ½ medium"
+    },
+    {
+      "item": "cooking oil",
+      "section": "curry",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Oil – 1 tsp"
+    },
+    {
+      "item": "skyr",
+      "section": "curry",
+      "ingredient_id": "skyr",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Skyr / High-protein Greek yogurt (12g protein /100g) – 1 cup"
+    },
+    {
+      "item": "water",
+      "section": "curry",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "pantry",
+      "as_written": "Water – as needed (to thin yogurt)"
+    },
+    {
+      "item": "salt",
+      "section": "curry",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "curry",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "pepper – to taste"
+    },
+    {
+      "item": "ghee",
+      "section": "tadka",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Ghee – 1 tsp"
+    },
+    {
+      "item": "cumin seeds",
+      "section": "tadka",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Jeera –1 tsp"
+    },
+    {
+      "item": "mustard seeds",
+      "section": "tadka",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Mustard seeds –1 tsp"
+    },
+    {
+      "item": "dried red chilli",
+      "section": "tadka",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "Dried red chilli – 1"
+    },
+    {
+      "item": "garlic",
+      "section": "tadka",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "Garlic – 2–3 cloves (chopped)"
+    },
+    {
+      "item": "curry leaves",
+      "section": "tadka",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Curry leaves"
+    },
+    {
+      "item": "turmeric",
+      "section": "tadka",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Haldi - ½ tsp"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "tadka",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red chilli powder – ½ tsp"
+    },
+    {
+      "item": "garam masala",
+      "section": "tadka",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garam masala – ½ tsp"
+    }
+  ],
+  "steps": [
+    "Heat 1 tsp oil in a pan.",
+    "Sauté onion, bell peppers, and boiled black chana with salt & pepper for 3–4 minutes.",
+    "Whisk 1 cup skyr with water till smooth and thin. Add the chole and veggies to the yogurt.",
+    "Heat 1 tsp ghee, add jeera, mustard seeds, dried red chilli, garlic, curry leaves. Once it pops, add haldi, red chilli powder & garam masala.",
+    "Pour this hot tadka over the yogurt-chole mixture. Mix well.",
+    "Boil 1 cup Daawat brown rice in 2½ cups water, stir occasionally till it comes to a boil. Simmer with a lid on for 12–15 mins till perfectly cooked.",
+    "Serve the hot curry over rice and dig in."
+  ],
+  "assumptions": [
+    "Use skyr or a high-protein Greek yogurt (about 12 g protein per 100 g)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

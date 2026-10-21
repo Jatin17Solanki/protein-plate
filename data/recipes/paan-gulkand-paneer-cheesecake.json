@@ -1,0 +1,197 @@
+{
+  "id": "paan-gulkand-paneer-cheesecake",
+  "title": "Paan Gulkand Paneer Cheesecake",
+  "source": {
+    "url": "https://www.instagram.com/reel/DPquYLJDGPe/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#58"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (divide into 2–3 portions)",
+    "protein_g": 35,
+    "kcal": 690,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 Cashews"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 Almonds"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2-3 Tbsp Oats"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 Tsp Ghee"
+    },
+    {
+      "item": "dried figs (anjeer)",
+      "ingredient_id": "anjeer",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Dried Anjeer"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Elaichi Powder"
+    },
+    {
+      "item": "nutmeg powder",
+      "ingredient_id": "nutmeg",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Nutmeg Powder"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "cream layer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer (preferably homemade)"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "cream layer",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g greek yogurt"
+    },
+    {
+      "item": "gulkand",
+      "section": "cream layer",
+      "ingredient_id": "gulkand",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp gulkand"
+    },
+    {
+      "item": "betel (paan) leaves",
+      "section": "cream layer",
+      "ingredient_id": "paan_leaves",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 Betal Leaves"
+    },
+    {
+      "item": "fennel seeds",
+      "section": "cream layer",
+      "ingredient_id": "fennel_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Saunf"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "cream layer",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetner of choice (I used monkfruit which is zero calories, you can subsitute with honey)"
+    },
+    {
+      "item": "pistachios",
+      "section": "cream layer",
+      "ingredient_id": "pistachios",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsp pistachios soaked in hot water"
+    },
+    {
+      "item": "green cardamom",
+      "section": "cream layer",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of elaichi powder"
+    }
+  ],
+  "steps": [
+    "Roast the oats and nuts for 4-5 mins.",
+    "Grind everything together and spread the base in your container. Press it down firmly using a spatula and let it sit in the fridge for 10 mins.",
+    "Blend everything together until silky smooth. You may add little yogurt if mixture seems too thick.",
+    "Pour this over your base layer. Garnish with chopped pista and dried rose petals.",
+    "Set in the fridge for 4-5 hours and its ready!!"
+  ],
+  "assumptions": [
+    "The “cream layer” is the blended paneer filling; there is no cream in it.",
+    "The pistachios are soaked in hot water first.",
+    "The ingredient list also names honey as an alternative or note; it isn’t listed separately.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (divide into 2–3 portions)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

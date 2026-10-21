@@ -1,0 +1,226 @@
+{
+  "id": "pesto-paneer-sandwich",
+  "title": "Pesto Paneer Veggie Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/C9UkyNtpgO3/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#156"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat",
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 27,
+    "kcal": 430,
+    "carbs_g": 34,
+    "fat_g": 20
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "basil",
+      "section": "basil pesto",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 Cup of basil"
+    },
+    {
+      "item": "garlic",
+      "section": "basil pesto",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves of garlic"
+    },
+    {
+      "item": "olive oil",
+      "section": "basil pesto",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsps olive oil"
+    },
+    {
+      "item": "walnuts",
+      "section": "basil pesto",
+      "ingredient_id": "walnuts",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4-5 walnuts"
+    },
+    {
+      "item": "cheese",
+      "section": "basil pesto",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1 cube grated cheese"
+    },
+    {
+      "item": "salt",
+      "section": "basil pesto",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "basil pesto",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "onion",
+      "section": "sandwich",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onions"
+    },
+    {
+      "item": "mushroom",
+      "section": "sandwich",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mushrooms"
+    },
+    {
+      "item": "oregano",
+      "section": "sandwich",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "oregano"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "sandwich",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Capsicum"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "sandwich",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g homemade low fat paneer"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "sandwich",
+      "ingredient_id": "sesame_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "sesame seeds"
+    },
+    {
+      "item": "whole-wheat bread",
+      "section": "sandwich",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices of multigrain bread"
+    },
+    {
+      "item": "beetroot",
+      "section": "sandwich",
+      "ingredient_id": "beetroot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "boiled beetroot"
+    },
+    {
+      "item": "tomato",
+      "section": "sandwich",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "sandwich",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chilli flakes"
+    }
+  ],
+  "steps": [
+    "Blend together 1 Cup of basil, 2-3 cloves of garlic, 2 tsps olive oil, 4-5 walnuts, 1 cube grated cheese, salt, 1/4 tsp pepper.",
+    "2.Please dont add water. It will take some time to grind and should be a coarse paste (not fine).",
+    "You may add a tsp of oil if its not blending well after a few mins.",
+    "Sauté some thinly slices onions and mushrooms. Let them caramelise. Season with salt, pepper, oregano.",
+    "Sauté some Capsicum on high flame for 3-4 mins so its a little crunchy. Season with salt, pepper, chilliflakes.",
+    "Roast 100g homemade low fat paneer (recipe on my page) with some sesame seeds until golden brown on both sides.",
+    "Take 2 slices of multigrain bread and spread 1.5 tbsp of the pesto (use cautiously as its caloric dense).",
+    "Add thinly sliced boiled beetroot, tomato, roasted paneer, sautéd onion, mushroom and capsicum. Also add half a slice of cheese. Season with oregano and chilli flakes.",
+    "Toast the sandwich on both sides until crispy and dig in!!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

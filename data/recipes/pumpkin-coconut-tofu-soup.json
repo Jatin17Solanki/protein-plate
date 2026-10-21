@@ -1,0 +1,182 @@
+{
+  "id": "pumpkin-coconut-tofu-soup",
+  "title": "Creamy Pumpkin Coconut Tofu Soup",
+  "source": {
+    "url": "https://www.instagram.com/reel/DFXhB3qorsD/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#143"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "coconut_milk",
+    "pumpkin"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (makes 3 portions)",
+    "protein_g": 23,
+    "kcal": 582,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "pumpkin",
+      "ingredient_id": "pumpkin",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g Pumpkin"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Half Yellow Bell Pepper"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Half Red Bell Pepper"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4-5 cloves of garlic"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp olive oil"
+    },
+    {
+      "item": "coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 180,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "180 ml coconut milk (I am using Lite Coconut milk which has 50% lesser cals, if you use normal coconut milk then 100ml should be fine and add more water)"
+    },
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g Tofu"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Basil leaves 6-7"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sugar/zero calorie sweetener"
+    }
+  ],
+  "steps": [
+    "Roast bell peppers, garlic cloves, onion, and pumpkin by coating them with olive oil and salt. Roast in an oven at 190 degrees for 25-30 mins or in airfryer at 190 degrees for 15-20 mins. The pumpkin should be golden brown and tender and the bell pepper skin should be slightly charred.",
+    "Let this cool down and blend the veggies with tofu and 200-300 ml water until smooth.",
+    "In a pan, add butter, pepper and chilli oil. Sauté for a minute and add the mixture.",
+    "Let it come to a boil and then add coconut milk and sweetner along with basil leaves.",
+    "Add more water if needed to achieve desired consistency. Cover and let it cook for 10-12 mins.",
+    "Garnish with chilli oil, melted butter and pumpkin seeds."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (makes 3 portions)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

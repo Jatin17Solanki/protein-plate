@@ -1,0 +1,175 @@
+{
+  "id": "strawberry-paneer-cheesecake-cup",
+  "title": "Strawberry Paneer Cheesecake Cup",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSeTe54jK4P/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#12"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 27,
+    "kcal": 450,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "almonds",
+      "section": "base",
+      "ingredient_id": "almonds",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4-5 Roasted Almonds"
+    },
+    {
+      "item": "oats",
+      "section": "base",
+      "ingredient_id": "oats",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 Tbsp Roasted Rolled Oats"
+    },
+    {
+      "item": "ghee",
+      "section": "base",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 tsp ghee"
+    },
+    {
+      "item": "dates",
+      "section": "base",
+      "ingredient_id": "dates",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 small Dates"
+    },
+    {
+      "item": "salt",
+      "section": "base",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Salt"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "cream layer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g Low Fat Homemade Paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "cream layer",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1-2 tbsp greek yogurt"
+    },
+    {
+      "item": "honey",
+      "section": "cream layer",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 -2 tbsp honey/zero cal sweetner"
+    },
+    {
+      "item": "vanilla extract",
+      "section": "cream layer",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla essence"
+    },
+    {
+      "item": "strawberries",
+      "section": "cream layer",
+      "ingredient_id": "strawberries",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2-3 Tbsp Strawberry Compote"
+    },
+    {
+      "item": "strawberries",
+      "section": "topping",
+      "ingredient_id": "strawberries",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp strawberry compote"
+    },
+    {
+      "item": "strawberries",
+      "section": "topping",
+      "ingredient_id": "strawberries",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 freshly cut strawberries"
+    }
+  ],
+  "steps": [
+    "For the compote, chop up 8-10 strawberries and toss them onto a pan with 2 tbsps on water.",
+    "Let this cook on low flame until the strawberries are mushy and release their juice. Then using your spatuala mash them up and add 1 tsp of stevia. Let it thicken a little and turn of the flame.",
+    "For the base, grind all thr ingredients until well combined and press it down firmly into your container. Refrigerate for 10 mins.",
+    "Blend your homemade low fat paneer along either greek yogurt, honey and vanilla essence until the mixture resembles cream cheese (qty of yogurt will depend on how soft or hard your paneer is).",
+    "Mix this blended paneer mixture with 2-3 tbsps of strawberry compote and pour it onto the base layer.",
+    "Now add more strawberry compote on the top along with fresh strawberries and refrigerate overnight."
+  ],
+  "assumptions": [
+    "The “cream layer” is the blended paneer filling; there is no cream in it."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

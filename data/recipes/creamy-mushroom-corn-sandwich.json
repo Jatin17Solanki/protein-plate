@@ -1,0 +1,174 @@
+{
+  "id": "creamy-mushroom-corn-sandwich",
+  "title": "Creamy Mushroom Corn Paneer Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DREQwmDjMUM/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#40"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 378,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g low-fat paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp Greek yogurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2–3 tbsp water"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 chopped mushrooms"
+    },
+    {
+      "item": "sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3–4 tbsp boiled corn"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Chopped basil"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices whole wheat bread"
+    },
+    {
+      "item": "lettuce",
+      "ingredient_id": "lettuce",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 lettuce leaf"
+    }
+  ],
+  "steps": [
+    "Sauté mushrooms: Add chopped mushrooms to a hot pan with zero oil. Let them release their own water and cook till the moisture evaporates and they turn lightly golden. Takes 4-5 mins.",
+    "Blend paneer + yogurt + water + honey + chilli oil + salt + pepper + herbs. This is your base.",
+    "Add the sautéed mushrooms, boiled corn, and basil. Mix it all together.",
+    "Layer bread → lettuce → creamy mixture.",
+    "Toast both sides till golden and crisp.",
+    "Slice and enjoy the creamiest zero-cheese melt of your life."
+  ],
+  "assumptions": [
+    "The creator calls it a 10-min recipe."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

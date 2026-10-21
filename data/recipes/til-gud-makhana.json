@@ -1,0 +1,93 @@
+{
+  "id": "til-gud-makhana",
+  "title": "Til Gud Makhana",
+  "source": {
+    "url": "https://www.instagram.com/reel/DIN4alYMDWC/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#124"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "jaggery"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 Cup of makhana"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "ghee"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "sesame"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1-2 tbsp of jaggery"
+    }
+  ],
+  "steps": [
+    "Dry roast 1 Cup of makhana until crispy.",
+    "Now add a little ghee to the pan, along with sesame and 1-2 tbsp of jaggery.",
+    "Let the jaggery melt and then add your roasted makhana. Mix well until the makhana is well coated!",
+    "Let it dry completely to get that crunchy snack!"
+  ],
+  "assumptions": [
+    "The caption also recommends EatAnytime snacks (coconut orange date laddus, coffee cinnamon date laddus, tangy tomato millet kurmura, achaari masala millet chiwda, sea salt caramel protein truffles); they aren’t part of this recipe."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

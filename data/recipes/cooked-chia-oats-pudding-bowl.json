@@ -1,0 +1,132 @@
+{
+  "id": "cooked-chia-oats-pudding-bowl",
+  "title": "Cooked Chia Oats Pudding Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DX9Vd1tT3yt/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#232"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk",
+    "chia_seeds",
+    "oats"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 300,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "300ml milk"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp chia seeds"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 tbsp instant oats"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "cinnamon"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "honey"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "vanilla protein"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mangoes"
+    },
+    {
+      "item": "granola",
+      "ingredient_id": "granola",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "granola"
+    }
+  ],
+  "steps": [
+    "Cook 300ml milk + water with 1.5 tbsp chia seeds and 2 tbsp instant oats until the chia gels up and form a pudding like texture. Adjust thickness with hot water.",
+    "Add cinnamon, honey and vanilla protein powder.",
+    "Top off with mangoes/apples + crunchy homemade granola and dig in."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

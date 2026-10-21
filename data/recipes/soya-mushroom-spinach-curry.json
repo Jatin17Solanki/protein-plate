@@ -1,0 +1,231 @@
+{
+  "id": "soya-mushroom-spinach-curry",
+  "title": "Soya Mushroom Spinach Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/DI0XDJ9IRCN/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#121"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "green_peas"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 450,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya granules",
+      "ingredient_id": "soya_granules",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g Soya Granules"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Medium size Onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 Tomatoes (pureed)"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "6-7 Chopped Mushrooms"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 Garlic Cloves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 Green Chillies"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup Peas"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 Cup Chopped Spinach"
+    },
+    {
+      "item": "coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4th cup Coconut Milk"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Hing"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp haldi"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp aamchur"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sugar"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4tsp cinnamon"
+    }
+  ],
+  "steps": [
+    "Add 1 tsp ghee to a pan and roast jeera and hing.",
+    "Add onion and saute until transparent. Then add green chilli and garlic paste.",
+    "Cook for 2 mins and add the tomato puree. Cover and cook until the mixture is mushy.",
+    "Add garam masala, coriander powder, red chilli, salt, pepper, haldi, and aamchur and mix well.",
+    "Add peas, spinach, mushrooms, boiled and squeezed soya granules and 1 cup of water.",
+    "Cover and cook for atleast 7-8 mins and then add coconut milk, sugar and cinnamon powder.",
+    "Cook again for 8-10 mins and add water if needed to adjust consistency.",
+    "Serve with hot phulkas and enjoy."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

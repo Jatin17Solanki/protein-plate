@@ -1,0 +1,117 @@
+{
+  "id": "strawberry-whey-smoothie",
+  "title": "Strawberry Whey Smoothie",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGdIvhbIuWy/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#139"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 32,
+    "kcal": 397,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8-10 frozen strawberries"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 Scoop Whey - Naturaltein @naturaltein_india (I am using Vanilla, use my code FITKHURANA if you buy it!)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp high-protein greek yogurt (I am using Epigamia turbo)"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp honey (optional)"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Dessicated coconut + Granola (mine is homemade) + any fresh fruit"
+    },
+    {
+      "item": "granola",
+      "ingredient_id": "granola",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Dessicated coconut + Granola (mine is homemade) + any fresh fruit"
+    }
+  ],
+  "steps": [
+    "Blend ice, strawberries, whey, yogurt and honey until smooth.",
+    "Top with granola, coconut and fresh fruits."
+  ],
+  "assumptions": [
+    "Blend with 4–5 ice cubes."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

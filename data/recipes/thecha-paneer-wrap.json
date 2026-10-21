@@ -1,0 +1,170 @@
+{
+  "id": "thecha-paneer-wrap",
+  "title": "Thecha Paneer Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/DE4qfrzzwNl/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#144"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "peanuts"
+  ],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 24,
+    "kcal": 370,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "green chilli",
+      "section": "thecha",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 Green Chillies"
+    },
+    {
+      "item": "peanuts",
+      "section": "thecha",
+      "ingredient_id": "peanuts",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsps peanuts"
+    },
+    {
+      "item": "garlic",
+      "section": "thecha",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 cloves of garlic"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "thecha",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Coriander & stems"
+    },
+    {
+      "item": "salt",
+      "section": "thecha",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "thecha",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp lemon juice"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "thecha paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g Low Fat Paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "sauce",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp of greek yogurt/hung curd"
+    },
+    {
+      "item": "chilli oil",
+      "section": "sauce",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1-2 tsp of chilli oil or red chilli sauce"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "roti / chapati",
+      "section": "to assemble",
+      "ingredient_id": "roti",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "wheat roti"
+    }
+  ],
+  "steps": [
+    "Roast garlic, peanuts, salt and chillies and then grind this with coriander and lemon juice using a mortar and pestle until its of the consistency shown in the video. You can also add 1 tsp oil if needed.",
+    "Chop into rectangles and coat it with this thecha mixture and let it sit for 20-25 mins in the fridge.",
+    "Grill your paneer on a pan (in 1 tsp oil) until all sides are golden brown.",
+    "Mix it well to make your base.",
+    "Take a wheat roti, add the base sauce layer, thecha paneer, thinly sliced onions and boiled beetroot slices.",
+    "Roll it up and enjoy."
+  ],
+  "assumptions": [
+    "The ingredient list also names chilli sauce as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

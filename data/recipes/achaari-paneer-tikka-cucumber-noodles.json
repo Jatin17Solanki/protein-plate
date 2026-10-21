@@ -1,0 +1,278 @@
+{
+  "id": "achaari-paneer-tikka-cucumber-noodles",
+  "title": "Achaari Paneer Tikka with Cucumber Noodles",
+  "source": {
+    "url": "https://www.instagram.com/reel/DKMhmCwsqN0/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#110"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 37,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat homemade paneer -"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g greek yogurt"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur"
+    },
+    {
+      "item": "black pepper",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "salt",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "turmeric",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Haldi"
+    },
+    {
+      "item": "cumin powder",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Jeera Powder"
+    },
+    {
+      "item": "coriander powder",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Coriander Powder"
+    },
+    {
+      "item": "pickle (achaar)",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "pickle",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp Achaar Masala"
+    },
+    {
+      "item": "nigella seeds (kalonji)",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "kalonji",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp of kalonji seeds"
+    },
+    {
+      "item": "gram flour (besan)",
+      "section": "achaari paneer tikka",
+      "ingredient_id": "besan",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1.5 tbsp roasted besan"
+    },
+    {
+      "item": "cucumber",
+      "section": "cucumber noodles",
+      "ingredient_id": "cucumber",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 cucumbers cut in juliennes"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "cucumber noodles",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp greek yogurt"
+    },
+    {
+      "item": "salt",
+      "section": "cucumber noodles",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "section": "cucumber noodles",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "cucumber noodles",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful coriander"
+    },
+    {
+      "item": "mint leaves",
+      "section": "cucumber noodles",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mint"
+    },
+    {
+      "item": "garlic",
+      "section": "cucumber noodles",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 garlic cloves"
+    },
+    {
+      "item": "walnuts",
+      "section": "cucumber noodles",
+      "ingredient_id": "walnuts",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 Walnuts"
+    },
+    {
+      "item": "green chilli",
+      "section": "cucumber noodles",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "olive oil",
+      "section": "cucumber noodles",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp olive oil"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "cucumber noodles",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 lemon juice"
+    }
+  ],
+  "steps": [
+    "Combine greek yogurt with the roasted besan and spices to form a marinade.",
+    "Coat your paneer cubes in this and let it sit for 15 mins in the fridge.",
+    "Brush some oil on a non-stick pan and saute your paneer on all sides until golden brown.",
+    "For the corinader pesto, grind a cup of coriander and handful of mint with garlic, walnuts, chillies, lemon juice, olive oil, salt and pepper.",
+    "Combine 1-2 tbsp of this pesto with 1 tbsp greek yogurt.",
+    "Chop your cucumber into juliennes and sprinkle salt and keep aside to drain out excess water.",
+    "Soak the cucumber noodles between 2 sheets if tissue paper to dry them and add it to the yogurt pesto mix.",
+    "Assemble with cucumber noodles, achari tikka and toasted walnuts."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

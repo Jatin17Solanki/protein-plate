@@ -54,12 +54,25 @@ export function stripNoise(line: string): string {
 export function numbersIn(text: string): Set<string> {
   const out = new Set<string>();
   let t = text.normalize('NFC');
+  // Mixed fractions ("1 1/2 tbsp") read as one number.
+  t = t.replace(/(?<![\d.\-–])(\d+)\s+(\d)\s*\/\s*(\d)(?!\d)/g, (m, w: string, a: string, b: string) => (Number(a) < Number(b) ? ` ${Number(w) + Number(a) / Number(b)} ` : m));
   t = t.replace(/(\d+)\s*([½¼¾⅓⅔⅛])/g, (_, w: string, f: string) => ` ${Number(w) + FRACTIONS[f]} `);
   t = t.replace(/[½¼¾⅓⅔⅛]/g, (f) => ` ${FRACTIONS[f]} `);
   t = t.replace(/(\d+)\s*\/\s*(\d+)/g, (_, a: string, b: string) => ` ${Number(a) / Number(b)} `);
   for (const m of t.matchAll(/\d+(?:\.\d+)?/g)) out.add(key(Number(m[0])));
   for (const m of t.toLowerCase().matchAll(/\b[a-z]+\b/g)) if (m[0] in WORDS) out.add(key(WORDS[m[0]]));
   return out;
+}
+
+/** Creator promo lines ("300+ recipes on my page", "use my code FIT10 for 10% off") aren't recipe
+ * content (prompt §1), so their numbers needn't be kept. A line that also gives an amount still counts. */
+const PROMO = /\b(on my (page|feed)|my code|use code|discount|comment\b|dm\b|follow\b|check ?out|check (that|it|them) out|recipes? (on|coming|here)|episodes? (coming|drops)|you will (also )?love my|also try my|have you (tried|checked)|need (my|the) recipe|want (my|the) recipe|should i\b|should we\b|tell (me|us)\b|lemme know|let me know|save this|tag us|trust us|btw\b|order now|available on|coming soon|recipes posted|\d+\s*\+\s*(guilt|high|low|mad|healthy|pcos|more)|do you (wanna|want|need)|wanna\b|need my|healthify next|want me to|what should i|what('|’)s your fav|which (dessert|recipe|other recipe|noodles)|healthifying\b|would you try)/i;
+const AMOUNT = /(\d|[½¼¾⅓⅔])\s*(g|gm|gms|grams?|ml|kg|tsp|tbsp|cups?|scoops?)\b/i;
+/** Cues that make a line promo even when it quotes an amount ("Do you wanna see how I eat 120g protein? Comment…"). */
+const STRONG = /\b(comment\b|dm\b|wanna\b|do you (want|need)|on my (page|feed)|need my)/i;
+const HANDLE = /(^|\s)@[a-z0-9_.]{4,}/i;
+export function isPromoLine(line: string): boolean {
+  return STRONG.test(line) || ((PROMO.test(line) || HANDLE.test(line)) && !AMOUNT.test(line));
 }
 
 function numbersOfLines(lines: string[]): Set<string> {
@@ -104,7 +117,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   const rawWords = ` ${wordsOnly(content.map(stripNoise).join(' \n '))} `;
   r.steps.forEach((step, i) => {
     if (step === VIDEO_STEP) return;
-    if (!rawWords.includes(` ${wordsOnly(step)} `)) errors.push(`steps[${i}] is not the source's wording — "${step.slice(0, 90)}"`);
+    if (!rawWords.includes(` ${wordsOnly(stripNoise(step))} `)) errors.push(`steps[${i}] is not the source's wording — "${step.slice(0, 90)}"`);
   });
 
   // 0b. Nothing dropped: every recipe line of the caption shows up in a step or an ingredient.
@@ -113,7 +126,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   content.forEach((line, i) => {
     const w = wordsOnly(stripNoise(line));
     const t = normalizeText(stripNoise(line)).replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}:–-]+$/gu, '');
-    if (i === 0 || !w || HEADER.test(t) || NUTRITION.test(t)) return;
+    if (i === 0 || !w || HEADER.test(t) || NUTRITION.test(t) || isPromoLine(line)) return;
     if (stepWords.includes(` ${w} `) || ingWords.some((g) => g.includes(` ${w} `) || ` ${w} `.includes(g))) return;
     warnings.push(`source line not in any step or ingredient — "${line.slice(0, 90)}"`);
   });
@@ -122,6 +135,7 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   const rawNums = numbersOfLines(content);
   const recipeNums = numbersOfLines(recipeLines(r));
   for (const line of content) {
+    if (isPromoLine(line)) continue;
     const missingHere = [...numbersIn(stripNoise(line))].filter((n) => !recipeNums.has(n));
     if (missingHere.length) errors.push(`source number(s) ${missingHere.join(', ')} not in the recipe — "${line.slice(0, 90)}"`);
   }
@@ -156,7 +170,8 @@ export function checkFidelity(r: Recipe, raw: RawEntry, matcher: Matcher): Fidel
   const mentioned = new Set(matcher.find([...r.steps, ...r.assumptions, ...r.missing].join(' \n ')).map((m) => m.id));
   const reported = new Set<string>();
   // The title (first line) names ingredients loosely ("Paneer … Rice"), so it is not checked here.
-  for (const m of matcher.find(content.slice(1).join(' \n '))) {
+  // Promo lines ("Need my viral tofu wrap? Comment…") name other dishes, not this recipe's ingredients.
+  for (const m of matcher.find(content.slice(1).filter((l) => !isPromoLine(l)).join(' \n '))) {
     if (ids.has(m.id) || mentioned.has(m.id) || reported.has(m.id)) continue;
     reported.add(m.id);
     errors.push(`source mentions "${m.alias}" (${m.id}) but it is not an ingredient, a step or an assumption`);

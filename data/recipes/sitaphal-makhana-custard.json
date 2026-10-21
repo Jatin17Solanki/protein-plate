@@ -1,0 +1,183 @@
+{
+  "id": "sitaphal-makhana-custard",
+  "title": "High-Protein Sitaphal Custard",
+  "source": {
+    "url": "https://www.instagram.com/reel/DP83eawE3zX/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#50"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk",
+    "melon_seeds",
+    "mixed_nuts"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 8,
+    "kcal": 220,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bowl (makes 6–7 bowls)",
+    "protein_g": 8,
+    "kcal": 220,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1.5 cups Makhana"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 10,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "10–12 Cashews"
+    },
+    {
+      "item": "melon seeds (magaz)",
+      "ingredient_id": "melon_seeds",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp Melon Seeds"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 500,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "500 ml Country Delight High Protein Milk"
+    },
+    {
+      "item": "saffron (kesar)",
+      "ingredient_id": "saffron",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Kesar strands"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp milk"
+    },
+    {
+      "item": "sitaphal (custard apple) pulp",
+      "ingredient_id": null,
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1.5 medium Sitaphal (Custard Apple) pulp"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5–2 tbsp 0-calorie sweetener (Stevia/Monk Fruit)"
+    },
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ Apple (chopped)"
+    },
+    {
+      "item": "grapes",
+      "ingredient_id": "grapes",
+      "qty": 7,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "7–8 Grapes (halved)"
+    },
+    {
+      "item": "pomegranate",
+      "ingredient_id": "pomegranate",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ Pomegranate (seeds)"
+    },
+    {
+      "item": "chiku",
+      "ingredient_id": "chiku",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Chiku (sliced)"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Banana (sliced)"
+    },
+    {
+      "item": "mixed nuts",
+      "ingredient_id": "mixed_nuts",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp Chopped Nuts (for garnish)"
+    }
+  ],
+  "steps": [
+    "Lightly heat the high-protein milk — don’t boil it, just warm enough.",
+    "Add makhana, cashews, and melon seeds, kesar milk to the high protein milk and let them soak for a couple of hours until soft.",
+    "Once soaked, blend everything together into a smooth, creamy custard base.",
+    "Add the Sitaphal pulp and mix well.",
+    "Stir in 1.5–2 tbsp 0-calorie sweetener (adjust to taste).",
+    "Fold in all the chopped fruits and garnish with chopped nuts.",
+    "Serve chilled and enjoy."
+  ],
+  "assumptions": [
+    "The creator gives 190–220 kcal and 7–8 g protein per bowl; we use the upper figures.",
+    "The final episode of the creator’s series."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

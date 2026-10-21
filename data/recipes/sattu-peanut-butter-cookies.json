@@ -1,0 +1,145 @@
+{
+  "id": "sattu-peanut-butter-cookies",
+  "title": "Sattu Peanut Butter Cookies",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBoMcKoKg6r/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#150"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 6,
+    "kcal": 120,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per cookie (makes 10)",
+    "protein_g": 6,
+    "kcal": 120,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 10,
+  "ingredients": [
+    {
+      "item": "sattu",
+      "ingredient_id": "sattu",
+      "qty": 110,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "110g sattu"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 50,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "50g Jaggery/zero calorie sweetner"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 90,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "90g unsweetened crunchy peanut butter"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 60,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "60 ml toned milk"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "chopped almonds"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cardamom powder"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cinnamon powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/4 tsp baking soda"
+    },
+    {
+      "item": "baking powder",
+      "ingredient_id": "baking_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/4 tsp baking powder"
+    }
+  ],
+  "steps": [
+    "Mix together sattu, peanut butter, jaggery, cinnamon and cardamom powder, salt, baking powder and baking soda.",
+    "Knead into a dough by adding milk little by little.",
+    "Once the dough comes together, rest it for 5-6 mins and then shape into cookies.",
+    "Pre- heat the oven and bake this cookies for 8 mins on 180 degrees and then flip and bake again for 8 mins at 180 degrees.",
+    "Let it cool down for 10 minutes before you dig in."
+  ],
+  "assumptions": [
+    "The creator made 10 cookies from this dough; you can make 20 smaller ones for 60 kcal each.",
+    "The ingredient list also names zero-calorie sweetener as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

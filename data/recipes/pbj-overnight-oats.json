@@ -1,0 +1,114 @@
+{
+  "id": "pbj-overnight-oats",
+  "title": "PB&J Overnight Oats",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGLHFwZzAfW/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#23"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 490,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Greek Yogurt"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 35,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "35g Oats"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 Scoop Whey Protein Vanilla"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp chia seeds"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp of unsweetened peanut butter"
+    },
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 7,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "7-8 Strawberries"
+    }
+  ],
+  "steps": [
+    "Chop strawberries and add them to a pan with 2-3 tbsps of water and 1 tsp sweetner of choice (I used monkfruit extract).",
+    "Let this simmer for a couple of minutes until strawberries look jammy and the mixture thickens.",
+    "Turn off the flame and let it cool down.",
+    "In a bowl, mix chia seeds, greek yogurt, oats, water and whey protein. Set in in the fridge overnight and it will thicken like a pudding.",
+    "Layer your jar with Oats, Strawberry Compote, and PB and dig in!!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

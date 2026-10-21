@@ -39,6 +39,10 @@ export function isKeywordLine(line: string): boolean {
   if (/^\d+\s?[wdhm]$/.test(t)) return true; // Instagram post age ("7w") pasted with the caption
   if (/^(#\w+\s*)+$/.test(t)) return true; // hashtag-only line
   const parts = t.split(',').map((p) => p.trim()).filter(Boolean);
+  // A method line that lists things ("Add onion, chilli, garlic, the masalas, salt and dhania") is content.
+  // So is a spice list ("Salt, red chilli powder, chaat masala, pepper, jeera powder").
+  if (parts.some((p) => /^(salt|pepper|black pepper|sendha namak|rock salt)$/i.test(p)) || parts.filter((p) => /\b(powder|masala)\b/i.test(p)).length >= 2) return false;
+  if (/^[^\p{L}]*(add|mix|blend|grind|sprinkle|top|serve|garnish|toss|cook|roast|saute|sauté|assemble)\b/iu.test(t)) return false;
   return (
     parts.length >= 5 &&
     !/\d/.test(t) &&

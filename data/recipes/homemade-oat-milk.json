@@ -1,0 +1,97 @@
+{
+  "id": "homemade-oat-milk",
+  "title": "Homemade Oat Milk",
+  "source": {
+    "url": "https://www.instagram.com/reel/DOa5DfMjPAr/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#68"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "oats"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 Cup Oats"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 3,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "3 Cups of Water (Extremely Chilled - Compulsory)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp Vanilla Essence (Optional)"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp Honey/Date Syrup (Optional)"
+    }
+  ],
+  "steps": [
+    "Blend Oats along with the chilled water for exactly 30 seconds (set a timer)",
+    "Use a muslin cloth to extract the milk.",
+    "Squeeze it well and then mix in salt, vanilla essence and honey.",
+    "To make my cinnamon iced coffee, mix 1-1.5 tbsp instant coffee, pinch of cinnamon, salt, honey and 3-4 tbsp of water. You can use a frother.",
+    "Add lots of ice, oat milk and the coffee mix and sip in.",
+    "Please Note, heating this oat milk will lead to separation. So use it for chilled drinks only. You can add a tsp of oil as well along with the salt to avoid separation if you are into hot drinks. Also, shake the bottle everytime before use."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

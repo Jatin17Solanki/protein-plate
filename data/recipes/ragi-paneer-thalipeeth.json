@@ -1,0 +1,182 @@
+{
+  "id": "ragi-paneer-thalipeeth",
+  "title": "Ragi Paneer Thalipeeth",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRd_cFwDIOx/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#33"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "ragi_flour"
+  ],
+  "tags": [
+    "paratha"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (makes 2 thalipeeth), not counting the yogurt and achaar",
+    "protein_g": 25,
+    "kcal": 387,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ grated carrot"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "beetroot"
+    },
+    {
+      "item": "bottle gourd (lauki)",
+      "ingredient_id": "lauki",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp grated lauki"
+    },
+    {
+      "item": "fresh methi (fenugreek leaves)",
+      "ingredient_id": "methi_leaves",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2–3 tbsp chopped methi"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g low-fat grated paneer"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tbsp besan"
+    },
+    {
+      "item": "ragi flour",
+      "ingredient_id": "ragi_flour",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "4 tbsp ragi flour"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of pepper"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp water (or more if needed)"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp white + black sesame seeds"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    }
+  ],
+  "steps": [
+    "Mix all veggies, paneer, flour, and spices.",
+    "Add water slowly and make a soft, non-sticky dough.",
+    "Divide into 2 balls and shape using fingertips between two butter papers.",
+    "Keep it slightly thick and poke 4 small holes in the thalipeeth.",
+    "Transfer to a hot tawa, peel off the bottom butter paper layer and sprinkle sesame seeds.",
+    "Add very little ghee in each of the holes and roast both sides until crisp and golden.",
+    "Serve hot with Greek yogurt and amla ka achar!"
+  ],
+  "assumptions": [
+    "The creator’s numbers leave out the Greek yogurt and achaar served alongside."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (makes 2 thalipeeth), not counting the yogurt and achaar\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

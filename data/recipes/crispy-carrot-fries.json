@@ -1,0 +1,117 @@
+{
+  "id": "crispy-carrot-fries",
+  "title": "Crispy Red Carrot Fries",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3xO8nYJKQQ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#173"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "red_chilli_powder",
+    "corn_flour"
+  ],
+  "tags": [
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup of thickly chopped red carrots"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp cornflour"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    }
+  ],
+  "steps": [
+    "Take 1 cup of thickly chopped red carrots (please make sure they are dry and not wet) and add 1 tbsp cornflour, 1/2 tsp red chilli powder, pepper and mixed herbs. Then add salt and 1 tsp oil. Mix well.",
+    "Add this to an airfryer at 180C for 10 mins. Then take out shake and flip the fries and again in the airfryer for 8-10 mins at 180C. You may keep for a lesser or higher duration depending on how crispy it looks after 10 mins.",
+    "Replacement for airfryer : Oven (180C for 20 mins) - Flip after 10 mins."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

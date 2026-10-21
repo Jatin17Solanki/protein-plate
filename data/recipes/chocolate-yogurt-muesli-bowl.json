@@ -1,0 +1,138 @@
+{
+  "id": "chocolate-yogurt-muesli-bowl",
+  "title": "Chocolate Greek Yogurt Bowl with Strawberries and Muesli",
+  "source": {
+    "url": "https://www.instagram.com/reel/DEr5WckTecI/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#93"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "quick",
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 45,
+    "kcal": 490,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 200,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "200g Greek Yogurt"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 Scoop whey (25g P)"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsps Unsweetened Cocoa Powder"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp peanut butter"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon powder"
+    },
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 strawberries"
+    },
+    {
+      "item": "muesli",
+      "ingredient_id": "muesli",
+      "qty": 20,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "20g protein muesli (Yogabar/Muscleblaze)"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1-2 almonds chopped"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "optional": true,
+      "as_written": "1 tsp dessicated coconut (optional)"
+    }
+  ],
+  "steps": [
+    "Top it off with strawberries, protein muesli, chopped almonds and desiccated coconut!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

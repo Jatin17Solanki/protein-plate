@@ -1,0 +1,196 @@
+{
+  "id": "besan-sooji-paneer-cheela",
+  "title": "Besan Sooji Cheela with Spicy Paneer Filling",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3SYOa0qryO/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#45"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "besan"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "5-6 tablespoon besan"
+    },
+    {
+      "item": "semolina (sooji)",
+      "ingredient_id": "sooji",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 tbsp sooji"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp greek yogurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "oil"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onions"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "spinach"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "schezwan chutney"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "soy sauce"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "chilli garlic sauce"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "cheese"
+    }
+  ],
+  "steps": [
+    "For the batter: 5-6 tablespoon besan, 2 tbsp sooji, 1 tsp salt, 1 tsp red chilli powder, 2 tbsp greek yogurt and some water. Add water slowly to achieve dosa like consistency and mix well.",
+    "For the filling: Add some pepper to a tsp of oil, then add chopped garlic and chillies. Then add onions and your fav veggies along with some chopped spinach. Let it cook and dont make the veggies soggy. Let them be a little cruncy. Then add 150g low fat paneer, salt, red chilli powder, schezwan chutney, soy sauce and chilli garlic sauce. Mix well.",
+    "Make thin cheelas with the batter and add the filling to it. Top with some cheese and enjoy."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

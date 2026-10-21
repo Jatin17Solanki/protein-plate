@@ -1,0 +1,186 @@
+{
+  "id": "apple-oats-crumble-yogurt",
+  "title": "Apple Oats Crumble with Greek Yogurt",
+  "source": {
+    "url": "https://www.instagram.com/reel/DC6kpeOooKb/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-jatin-captions.txt#2"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 21,
+    "kcal": 500,
+    "carbs_g": 75,
+    "fat_g": 13
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "section": "apple oats crumble",
+      "ingredient_id": "oats",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "40 g rolled oats"
+    },
+    {
+      "item": "apple",
+      "section": "apple oats crumble",
+      "ingredient_id": "apple",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small apple"
+    },
+    {
+      "item": "butter",
+      "section": "apple oats crumble",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "cinnamon",
+      "section": "apple oats crumble",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon powder"
+    },
+    {
+      "item": "salt",
+      "section": "apple oats crumble",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "honey",
+      "section": "apple oats crumble",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1–2 tsp honey"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "greek yogurt base",
+      "ingredient_id": "greek_yogurt",
+      "qty": 220,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "220 g Greek yogurt"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "greek yogurt base",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetener of choice: honey or stevia"
+    },
+    {
+      "item": "cinnamon",
+      "section": "greek yogurt base",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "optional": true,
+      "as_written": "A pinch of cinnamon powder (optional)"
+    },
+    {
+      "item": "vanilla extract",
+      "section": "greek yogurt base",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla extract"
+    },
+    {
+      "item": "almonds",
+      "section": "optional toppings",
+      "ingredient_id": "almonds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Chopped almonds"
+    },
+    {
+      "item": "peanut butter",
+      "section": "optional toppings",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp peanut butter"
+    }
+  ],
+  "steps": [
+    "Melt the butter in a pan and toss the chopped apples for 2 minutes.",
+    "Add cinnamon and oats.",
+    "Mix and cook for another 3–4 minutes, until the oats are lightly browned and the apples are soft.",
+    "Add honey and salt. Mix well and turn off the heat.",
+    "Prepare the Greek yogurt base by mixing the yogurt with your chosen sweetener, cinnamon (optional), and vanilla extract. Alternatively, use vanilla protein powder.",
+    "Add the apple-oats crumble on top of the yogurt.",
+    "Optionally garnish with chopped almonds and 1 tsp peanut butter."
+  ],
+  "assumptions": [
+    "The recipe was pinned in the post’s comments; Jatin supplied the text.",
+    "The creator also gives 8 g fibre.",
+    "Alternative: mix the Greek yogurt with 1 scoop of vanilla protein powder, which adds about 25 g protein according to the post."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

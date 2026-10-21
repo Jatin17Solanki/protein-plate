@@ -1,0 +1,155 @@
+{
+  "id": "chocolate-pb-granola",
+  "title": "Chocolate Peanut Butter Granola",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMsKKCtz6DO/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#84"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "oats",
+    "peanut_butter",
+    "walnuts",
+    "almonds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1.5 cups rolled oats"
+    },
+    {
+      "item": "mixed seeds",
+      "ingredient_id": "mixed_seeds",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 th cup mixed seeds (Pumpkin & Sunflower)"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 12,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "12-15 almonds chopped"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 7,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "7-8 walnuts chopped"
+    },
+    {
+      "item": "dried cranberries",
+      "ingredient_id": "cranberries",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful cranberries"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 cubes of 70% dark chocolate (I have taken a date sweetened one)"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp peanut butter (unsweetened)"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp honey"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "cinnamon"
+    },
+    {
+      "item": "nutmeg powder",
+      "ingredient_id": "nutmeg",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "nutmeg powder"
+    }
+  ],
+  "steps": [
+    "Toss oats, nuts and seeds on low flame for 10 mins until crunchy and golden brown.",
+    "Add cinnamon, nutmeg and salt to it along with the cranberries. Mix well.",
+    "Add the melted dark chocolate mixed with PB to this mixture.",
+    "Toss until well coated and add honey. Mix for 2-3 mins and turn off the flame.",
+    "Let it cool down completely and store in an airtight container for a month!"
+  ],
+  "assumptions": [
+    "The ingredient list also names pumpkin and dates as alternatives or notes; they aren’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

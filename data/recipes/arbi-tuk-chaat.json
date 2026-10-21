@@ -1,0 +1,244 @@
+{
+  "id": "arbi-tuk-chaat",
+  "title": "Arbi Tuk Chaat",
+  "source": {
+    "url": "https://www.instagram.com/reel/DO-4xGSDPk1/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#66"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "arbi",
+    "peanuts"
+  ],
+  "tags": [
+    "chaat",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 8,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 2)",
+    "protein_g": 8,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "taro root (arbi)",
+      "section": "arbi tuk",
+      "ingredient_id": "arbi",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 Small Arbis (Taro Root)"
+    },
+    {
+      "item": "rock salt",
+      "section": "arbi tuk",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Sendha Namak"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "arbi tuk",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "section": "arbi tuk",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur Powder"
+    },
+    {
+      "item": "cumin powder",
+      "section": "arbi tuk",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Jeera Powder"
+    },
+    {
+      "item": "black pepper",
+      "section": "arbi tuk",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "cooking oil",
+      "section": "arbi tuk",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Oil Spray"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "green chutney",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Dhaniya"
+    },
+    {
+      "item": "peanuts",
+      "section": "green chutney",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp peanuts"
+    },
+    {
+      "item": "green chilli",
+      "section": "green chutney",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "green chutney",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Lemon Juice"
+    },
+    {
+      "item": "rock salt",
+      "section": "green chutney",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Sendha Namak"
+    },
+    {
+      "item": "cumin seeds",
+      "section": "green chutney",
+      "ingredient_id": "cumin_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Jeera"
+    },
+    {
+      "item": "water",
+      "section": "green chutney",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water"
+    },
+    {
+      "item": "tamarind (imli)",
+      "section": "imli chutney",
+      "ingredient_id": "tamarind",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup Imli"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "imli chutney",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetner of choice (I use zero cal sweetner)"
+    },
+    {
+      "item": "rock salt",
+      "section": "imli chutney",
+      "ingredient_id": "rock_salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch Sendha Namak"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "imli chutney",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch if red chilli powder"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "to assemble",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g greek yogurt"
+    }
+  ],
+  "steps": [
+    "Cook the Arbi in a pressure cooker for 1 whistle and the skin should coke off easily.",
+    "Cut into halves and spray some oil on top and airfry for 15-18 mins on 180 degrees until cripsy and brown on top.",
+    "Now smash each piece with a heavy item and coat it in the masala mix.",
+    "Spray some oil on top and airfry again for 6-7 mins until crispy on both sides.",
+    "Blend everything together and its ready!!",
+    "Soak Imli in hot water for 10-15 mins and extract al thr juice from the pulp.",
+    "Cook this imli juice with sweetner, sendha namak an red chilli powder for 10 mins until it comes to a boil and thickens a bit.",
+    "Cool down and store for 20 days in the fridge!",
+    "Assemble the Arbi Tuk Chaat with 150g greek yogurt, chutneys, anaar and handful of dhaniya."
+  ],
+  "assumptions": [
+    "The green chutney and imli chutney are both made from scratch here."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

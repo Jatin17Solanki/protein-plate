@@ -1,0 +1,226 @@
+{
+  "id": "mini-pyaaz-kachori",
+  "title": "Mini Pyaaz Kachori",
+  "source": {
+    "url": "https://www.instagram.com/reel/DPv2UGMjHRF/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#57"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "khapli_atta",
+    "soya_chunks",
+    "sooji"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 3,
+    "kcal": 78,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per kachori (makes 14)",
+    "protein_g": 3,
+    "kcal": 78,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 14,
+  "ingredients": [
+    {
+      "item": "khapli wheat flour",
+      "section": "dough",
+      "ingredient_id": "khapli_atta",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 Cup Khapli aata from @twobrothersorganicfarmsindia"
+    },
+    {
+      "item": "semolina (sooji)",
+      "section": "dough",
+      "ingredient_id": "sooji",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1/4th cup Suji"
+    },
+    {
+      "item": "gram flour (besan)",
+      "section": "dough",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp besan"
+    },
+    {
+      "item": "ghee",
+      "section": "dough",
+      "ingredient_id": "ghee",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 1/2 tbsp Ghee"
+    },
+    {
+      "item": "carom seeds (ajwain)",
+      "section": "dough",
+      "ingredient_id": "ajwain",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Ajwain"
+    },
+    {
+      "item": "salt",
+      "section": "dough",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "water",
+      "section": "dough",
+      "ingredient_id": "water",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4th cup Water (or a little more if needed)"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1.5 Onions"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 tsp ghee"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 25,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "25g Soya Chunks (weigh raw)"
+    },
+    {
+      "item": "fennel seeds",
+      "ingredient_id": "fennel_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp saunf"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 garlic cloves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 green chillies crushed"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp aamchur powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of haldi"
+    }
+  ],
+  "steps": [
+    "Mix everything together and make sure to rub ghee into the flour first until you get a crumbly feel.",
+    "Then add water spoon-by-spoon and rest the dough for 25 min covered.",
+    "In a pan, add ghee, saunf and jeera.",
+    "Then sauté garlic and chilli paste for 1-2 mins.",
+    "Add onions and let it cook on medium flame until brown and caramalized.",
+    "Add soya chunks (boiled, squeezed and ground into granules) to this.",
+    "Add all masalas and let this cook for 6-7 mins.",
+    "Now roll a big roti from the dough and using a katotri take out little circles.",
+    "Fill in the masala and tightly seal the kachoris.",
+    "Preheat paniyaram pan for 2 min on low-medium flame.",
+    "Add ½ tsp ghee per cavity.",
+    "Place kachoris in the cavity and brush with some ghee on top.",
+    "Cook 6–7 min, flip, cover again 6–7 min.",
+    "Uncover + crisp each side 1-2 min on medium."
+  ],
+  "assumptions": [
+    "Episode 2 of the creator’s series."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

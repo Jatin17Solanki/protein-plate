@@ -1,0 +1,117 @@
+{
+  "id": "oil-free-oat-almond-granola",
+  "title": "Oil-Free Oat Almond Pumpkin Seed Granola",
+  "source": {
+    "url": "https://www.instagram.com/reel/DHDrFESzisr/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#196"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "oats"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 Cup Rolled Oats"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4th cup chopped almonds"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4th cup pumpkin seeds"
+    },
+    {
+      "item": "dried cranberries",
+      "ingredient_id": "cranberries",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3-4 tbsp cranberries"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp honey"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp salt"
+    }
+  ],
+  "steps": [
+    "In a pan, roast oats, pumpkin seeds, almonds until they are nice and toasty (might take 10-15 mins on low flame)",
+    "Turn off the flame and add cinnamon, salt, cranberries and honey to this.",
+    "Mix well and keep it aside to cool down completely.",
+    "It will become crunchy once dry. Store in an airtight container for upto 3 weeks!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

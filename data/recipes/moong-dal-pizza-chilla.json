@@ -1,0 +1,179 @@
+{
+  "id": "moong-dal-pizza-chilla",
+  "title": "Moong Dal Pizza Chilla",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNKhF0UuRAN/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#35"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "chilla_pancake_omelette",
+    "pizza"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 350,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "section": "base",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup soaked yellow moong dal"
+    },
+    {
+      "item": "green chilli",
+      "section": "base",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "garlic",
+      "section": "base",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 cloves garlic"
+    },
+    {
+      "item": "salt",
+      "section": "base",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "spinach",
+      "section": "base",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "optional": true,
+      "as_written": "1 Cup Chopped Spinach (Optional)"
+    },
+    {
+      "item": "nigella seeds (kalonji)",
+      "section": "base",
+      "ingredient_id": "kalonji",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kalaunji seeds"
+    },
+    {
+      "item": "oregano",
+      "section": "base",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp oregano"
+    },
+    {
+      "item": "oregano",
+      "section": "base",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp mixed herbs"
+    },
+    {
+      "item": "black pepper",
+      "section": "base",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp pepper"
+    },
+    {
+      "item": "cheese",
+      "section": "toppings",
+      "ingredient_id": "cheese",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1/2 cube cheese"
+    },
+    {
+      "item": "pizza sauce",
+      "section": "toppings",
+      "ingredient_id": "pizza_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp pizza sauce (I use homemade)"
+    },
+    {
+      "item": "basil",
+      "section": "toppings",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Basil leaves"
+    }
+  ],
+  "steps": [
+    "Grind soaked moong, chillies, salt and garlic into a smooth paste along with some water. (The consistency shoulf be that of a dosa batter)",
+    "Add chopped spinach and all the seasonings into this batter and mix well.",
+    "Make a regular cheela (a little thicker) on a non-stick tava and while it is partially cooked add low fat crumbled paneer on top.",
+    "Using a spatula, press onto the paneer so that it sticks well to the uncooked side of the cheela.",
+    "Now flip and cook for 3-4 mins until the paneer side is golden.",
+    "Now add your pizza sauce, veggies, basil and cheese.",
+    "Cover and cook on low flame for 8-10 mins until the veggies have softened and cheese has melted.",
+    "Slice and enjoy."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

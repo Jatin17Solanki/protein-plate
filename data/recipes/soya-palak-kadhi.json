@@ -1,0 +1,242 @@
+{
+  "id": "soya-palak-kadhi",
+  "title": "Soya Palak Kadhi",
+  "source": {
+    "url": "https://www.instagram.com/reel/DQwR1SvEfoh/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#43"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "soya_chunks",
+    "besan"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (divide into 2)",
+    "protein_g": 40,
+    "kcal": 600,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "5 tbsp Besan"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1 Cup (200g) Greek Yogurt/ Amul High Protein Curd"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp haldi"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 7,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "7-8 Cups of water (if you are using greek yogurt, you may need more water)"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 6,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "6-7 curry leaves"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "fenugreek seeds (methi dana)",
+      "ingredient_id": "methi_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp methi seeds"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 peppercorns"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of hing"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dried red chillies"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium thinly sliced onion"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 25,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "25g Soya Chunks (boiled and squeezed well)"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 Cup Chopped Spinach"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp Ginger Garlic Paste"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp jaggery powder"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful coriander"
+    }
+  ],
+  "steps": [
+    "Make a smooth mixture of curd, besan and spices mentioned above. Add water and mix again until there are no lumps. The consistency should be watery.",
+    "In a pan, add ghee and then add curry leaves, mustard, hing, peppercorns, dried red chillies, green chillies, methi seeds and jeera.",
+    "Sauté for 2 mins and add onion. Cook for 3-4 mins and then add spinach along with boiled soya chunks.",
+    "Saute for 3-4 minutes and add the besan mixture.",
+    "Cover and cook for 4-5 mins and add the ginger garlic paste along with jaggery powder. (You may add water if it seems too thick)",
+    "Cover and cook again for 15 mins on low flame until the curry thickens a little.",
+    "Garnish with coriander and serve with steaming hot basmati rice!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (divide into 2)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "soya-peas-kebabs-beet-dip",
+  "title": "Soya Peas Kebabs with Beetroot Mint Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/DG7_3xAshxP/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#54"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "snack",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "snack",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "green_peas"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 480,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya granules",
+      "ingredient_id": "soya_granules",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g Soya Chunks granules"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1-2 tbsp roasted besan"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup boiled peas"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup coriander"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3-4 tbsp onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3-4 cloves garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 chillies"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 Whole wheat bread (Grind to make breadcrumbs)"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1-2 tsp ghee"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "beetroot mint dip",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g greek yogurt"
+    },
+    {
+      "item": "beetroot",
+      "section": "beetroot mint dip",
+      "ingredient_id": "beetroot",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp grated boiled beet"
+    },
+    {
+      "item": "mint leaves",
+      "section": "beetroot mint dip",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp Dried mint"
+    },
+    {
+      "item": "rock salt",
+      "section": "beetroot mint dip",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Rock salt"
+    },
+    {
+      "item": "chaat masala",
+      "section": "beetroot mint dip",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chaat masala"
+    }
+  ],
+  "steps": [
+    "Spices - 1 tbsp aamchur, 1 tbsp red chilli powder, 1/4 tsp pepper, salt, 1 tsp corainder powder.",
+    "Boil the soya granules and squeeze them well to drain all the water.",
+    "Grind the boiled soya with peas, corinader, spices, onion, chillies and garlic to form the dough.",
+    "Brush oil on your palms and make the cutlets into cylinders. Coat them in breadcrumbs.",
+    "Grease some ghee on a pan and cook these low-medium flame for 20-30 mins on all sides until crispy.",
+    "Mix everything together and its ready!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

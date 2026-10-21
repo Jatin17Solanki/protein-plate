@@ -1,0 +1,98 @@
+{
+  "id": "strawberry-chia-whey-yogurt",
+  "title": "Strawberry Chia Whey Yogurt with Dark Chocolate",
+  "source": {
+    "url": "https://www.instagram.com/reel/C0oexbapDAP/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#98"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 170,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "170g Plain Epigamia Yogurt"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 15,
+      "type": "protein",
+      "as_written": "1/2 scoop whey protein"
+    },
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 mashed strawberries mixed with 1 tbsp chia seeds"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "5-6 mashed strawberries mixed with 1 tbsp chia seeds"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 squares of melted dark chocolate"
+    }
+  ],
+  "steps": [
+    "Mix yogurt, protein powder and the mashed strawberries with chia seeds until well combined. Then add the melted dark chocolate on top and swirl it in the jar. Let it refrigerate overnight and enjoy!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

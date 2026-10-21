@@ -1,0 +1,283 @@
+{
+  "id": "soya-chilli-fried-rice",
+  "title": "Soya Chilli with Fried Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/DOgCcaejHLI/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#67"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "rice",
+    "soy_sauce"
+  ],
+  "tags": [
+    "rice_pulao_biryani",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 450,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per portion (makes 1)",
+    "protein_g": 25,
+    "kcal": 450,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "section": "soya chilli",
+      "ingredient_id": "soya_chunks",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g Soya Chunks"
+    },
+    {
+      "item": "cooking oil",
+      "section": "soya chilli",
+      "ingredient_id": "oil",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp oil"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "soya chilli",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Bell Peppers"
+    },
+    {
+      "item": "onion",
+      "section": "soya chilli",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Onion"
+    },
+    {
+      "item": "garlic",
+      "section": "soya chilli",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Garlic Clives Chopped"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "soya chilli",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Red Chilli Sauce"
+    },
+    {
+      "item": "soy sauce",
+      "section": "soya chilli",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp Soy Sauce"
+    },
+    {
+      "item": "vinegar",
+      "section": "soya chilli",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Vinegar"
+    },
+    {
+      "item": "Schezwan chutney",
+      "section": "soya chilli",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp schezwan chutney"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "section": "soya chilli",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "1 tsp cornflour mixed in water"
+    },
+    {
+      "item": "salt",
+      "section": "soya chilli",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "soya chilli",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "soya chilli",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "spring onion",
+      "section": "soya chilli",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Spring Onion"
+    },
+    {
+      "item": "rice",
+      "section": "fried rice",
+      "ingredient_id": "rice",
+      "qty": 100,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "100g Leftover Rice"
+    },
+    {
+      "item": "cooking oil",
+      "section": "fried rice",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "green beans",
+      "section": "fried rice",
+      "ingredient_id": "green_beans",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Beans"
+    },
+    {
+      "item": "onion",
+      "section": "fried rice",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Onion"
+    },
+    {
+      "item": "carrot",
+      "section": "fried rice",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Carrot"
+    },
+    {
+      "item": "garlic",
+      "section": "fried rice",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Garlic Cloves Chopped"
+    },
+    {
+      "item": "soy sauce",
+      "section": "fried rice",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "2 tsp Soy Sauce"
+    },
+    {
+      "item": "vinegar",
+      "section": "fried rice",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Vinegar"
+    },
+    {
+      "item": "salt",
+      "section": "fried rice",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "fried rice",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    }
+  ],
+  "steps": [
+    "For the soya chilli, boil soya chunks and wash them in cold water and then squeeze them well to drain out the water.",
+    "In a pan, spray some oil and sauté soya chunks until golden brown on all sides.",
+    "Now sauté garlic in some oil, add in your onion and bell peppers. Let it cook for 2 mins on high-flame and add the mix of sauces.",
+    "Add the soya chukks, salt, red chilli powder and pepper.",
+    "Add the cornflour slurry and some water to adjust consistency. Let it simmer on low flame for 5 mins and its ready!! You can also garnish with spring onions.",
+    "For the Fried Rice, add oil, garlic and veggies to the pan and sauté for 4-5 mins on high flame.",
+    "Add leftover rice, soy sauce, vinegar, salt and pepper. Toss for 2 mins and its ready to serve!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

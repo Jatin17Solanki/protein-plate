@@ -1,0 +1,124 @@
+{
+  "id": "strawberry-whey-smoothie-bowl",
+  "title": "Strawberry Whey Yogurt Smoothie Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/C1JM709q0lJ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#97"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "quick",
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g Epigamia Plain yogurt"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop whey protein"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 raisins"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp zero calorie sugar (optional)"
+    },
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 mashed strawberries"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 chopped almonds"
+    },
+    {
+      "item": "muesli",
+      "ingredient_id": "muesli",
+      "qty": 20,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "20g High protein Muesli ( I am using Yogabar)"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp chia seeds"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

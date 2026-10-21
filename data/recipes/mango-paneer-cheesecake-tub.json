@@ -1,0 +1,163 @@
+{
+  "id": "mango-paneer-cheesecake-tub",
+  "title": "Mango Paneer Cheesecake Tub",
+  "source": {
+    "url": "https://www.instagram.com/reel/DJ_omHeTKbE/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#197"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 25,
+    "kcal": 580,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "section": "base",
+      "ingredient_id": "oats",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 Tbsp Rolled Oats"
+    },
+    {
+      "item": "walnuts",
+      "section": "base",
+      "ingredient_id": "walnuts",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 Walnuts"
+    },
+    {
+      "item": "dried figs (anjeer)",
+      "section": "base",
+      "ingredient_id": "anjeer",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Dried Anjeer"
+    },
+    {
+      "item": "ghee",
+      "section": "base",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 teaspoon ghee"
+    },
+    {
+      "item": "salt",
+      "section": "base",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Mango (Alphonso)"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer (mine is homemade)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g Greek Yogurt (no curd pls)"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetner - @trunativ’s monkfruit extract"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetner - @trunativ’s monkfruit extract"
+    },
+    {
+      "item": "mango",
+      "section": "topping",
+      "ingredient_id": "mango",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Mango chopped"
+    }
+  ],
+  "steps": [
+    "Roast walnuts and oats for 5-6 mins until golden brown and crispy.",
+    "Grind the walnuts, oats, ghee and anjeer until coarse.",
+    "Firmly press it down into the tub and refrigerate for 10 mins.",
+    "Blend paneer, mango, yogurt and monkfruit extract (sweetner) until smooth.",
+    "Add it to your cheesecake tub.",
+    "Garnish with mango slices and refrigerate for 5-6 hours!"
+  ],
+  "assumptions": [
+    "Use Greek yogurt, not curd."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

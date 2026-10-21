@@ -1,0 +1,174 @@
+{
+  "id": "tempeh-momos-tomato-soup",
+  "title": "Jhol-Style Tempeh Momos in Tomato Pumpkin Soup",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTVF5w_Ext6/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#202"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 26,
+    "kcal": 550,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "tomato",
+      "section": "soup",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Tomatoes"
+    },
+    {
+      "item": "pumpkin",
+      "section": "soup",
+      "ingredient_id": "pumpkin",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 Cup Pumpkin"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "soup",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Red Bell Pepper"
+    },
+    {
+      "item": "garlic",
+      "section": "soup",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 Garlic Cloves"
+    },
+    {
+      "item": "olive oil",
+      "section": "soup",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "soup",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sesame seeds"
+    },
+    {
+      "item": "salt",
+      "section": "soup",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "soup",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "water",
+      "section": "soup",
+      "ingredient_id": "water",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Water 1.5 Cups"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "soup",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "soup",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sweetner"
+    },
+    {
+      "item": "tempeh momos",
+      "section": "momos",
+      "ingredient_id": "momos",
+      "qty": 180,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "@hello_tempayy Classic Momos 180g roughly"
+    }
+  ],
+  "steps": [
+    "In a pan, add oil, sesame and garlic and sauté well.",
+    "Add tomatoes, pumpkin and bell pepper. Add salt, pepper and water and let it cool for 8-10 mins until soft.",
+    "Blend this well and add chilli powder and sweetner.",
+    "Steam your momos for 7 mins and cook in the soup for 2-3 mins.",
+    "Optionally drizzle with chilli oil and dig in!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

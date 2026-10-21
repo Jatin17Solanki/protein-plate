@@ -1,0 +1,162 @@
+{
+  "id": "achari-paneer-sprouts-paratha",
+  "title": "Achari Paneer Sprouts Paratha",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMh-o2-zdDs/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#85"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "sprouts"
+  ],
+  "tags": [
+    "paratha"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (makes 2 parathas)",
+    "protein_g": 31,
+    "kcal": 589,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "moong sprouts",
+      "ingredient_id": "sprouts",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g boiled sprouts"
+    },
+    {
+      "item": "chilli achaar",
+      "ingredient_id": "chilli_achaar",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp achaar"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "aamchur"
+    },
+    {
+      "item": "carom seeds (ajwain)",
+      "ingredient_id": "ajwain",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Ajwain"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "coriander powder"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped onion"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 chopped green chilli"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "roti / chapati",
+      "ingredient_id": "roti",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Roti dough"
+    }
+  ],
+  "steps": [
+    "Prepare the achaari paneer filling by mashing up everything really well.",
+    "Roll out a roti and fill it with half the mixture. Make a paratha out of it and cook on both sides with very little ghee.",
+    "Serve with greek yogurt for extra protein."
+  ],
+  "assumptions": [
+    "To cut calories, the creator suggests one paratha with 150 g Greek yogurt for about 30 g protein."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (makes 2 parathas)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

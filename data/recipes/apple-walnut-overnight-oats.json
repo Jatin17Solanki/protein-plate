@@ -1,0 +1,115 @@
+{
+  "id": "apple-walnut-overnight-oats",
+  "title": "Apple Walnut Overnight Oats",
+  "source": {
+    "url": "https://www.instagram.com/reel/CytAaV3qR43/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#29"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "oats",
+    "milk_skimmed"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 50,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "50g Oats (blend into a powder) or 50g Muscleblaze high protein Oats"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 chopped walnuts"
+    },
+    {
+      "item": "dried cranberries",
+      "ingredient_id": "cranberries",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4-5 cranberries"
+    },
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g apple"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp chia seeds"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 120,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "120 ml skimmed milk"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop whey protein"
+    }
+  ],
+  "steps": [
+    "Mix everything well and keep in the fridge overnight.",
+    "You can also add some melted chocolate on top and enjoy."
+  ],
+  "assumptions": [
+    "The ingredient list also names protein oats as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}
