@@ -4,7 +4,7 @@ _Last updated: 2026-10-21 (BL3 + BL4 session)_
 
 **Done (BL3 + BL4, PR open):**
 - BL4: `src/lib/feedback.ts` (pure: `describeDevice`, `feedbackBody`, `mailtoUrl`, `issueUrl`), `src/components/FeedbackSheet.tsx`; Menu → "Send feedback" (Home opens the sheet after closing the menu) and a "Send feedback" link at the bottom of every recipe (`col-c`). `site.config.json` gains `feedback_email` (empty → GitHub only). UI icon `message`. The GitHub `feedback` label only applies if the label exists in the repo and for people who can triage.
-- BL3: README rewritten (credit, features, journeys, scope v1/v2, how it works, decisions, run your own copy, develop).
+- BL3: README rebuilt after Jatin's review ("text dump"): header + 3 real screenshots, contents, 6-shot feature gallery, journeys table, roadmap table, Mermaid flow, short credits; details in `<details>`. No data-rule or creator commentary in it (those live in DECISIONS). Screenshots: `docs/readme/*.webp`, regenerate with `scripts/readme-shots.ts` (see its header) when the UI changes.
 - Tests: `tests/unit/feedback.test.ts`; feedback sheet in the sheets screenshot matrix and the a11y spec; two e2e flows. Manual test J13.
 
 **Done before:** A1–A8, BL1, BL2, BL5 merged (BL5: Export copies `prompts/ask-catalog.md` via `askPrompt(prompt, …)`) (BL2: whole-dish numbers only on the recipe page, `portionProtein`) (BL1: Others protein, video-only, accepted flags, estimate box) (A8 QA report: `docs/QA.md`; manual plan: `docs/MANUAL-TEST.md`).

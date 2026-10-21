@@ -276,7 +276,8 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | # | Where | Device | Kind | What happened / what you expected | Decision (after the test) |
 |---|---|---|---|---|---|
 | 1 | J3.4 | all | bug | Found while writing this plan (2026-10-21): "curd" finds 14 dishes, "dahi" only 5 (only those with the word "dahi"). Search still uses the A3 built-in synonym list instead of the aliases in `data/ingredients.json`. | |
-| 2 | | | | | |
+| 2 | J1.5 | all | confusing | Found while taking README screenshots (2026-10-21): about 25 recipes' macro footnote reads e.g. "As stated by the creator (whole recipe — one portion (Jatin))": the portion decision and Jatin's name leak into visible text (`stated_macros.basis`, Track B data). | |
+| 3 | | | | | |
 
 ---
 
