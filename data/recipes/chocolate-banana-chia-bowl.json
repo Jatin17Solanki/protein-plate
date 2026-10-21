@@ -1,0 +1,148 @@
+{
+  "id": "chocolate-banana-chia-bowl",
+  "title": "Chocolate Banana Chia Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dawbd5JTUYt/",
+    "platform": "instagram",
+    "creator": "adamhoad_coaching",
+    "creator_url": "https://www.instagram.com/adamhoad_coaching/",
+    "ref": "batches/2026-10-21-batch2.txt#337"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk_skimmed",
+    "chia_seeds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 495,
+    "carbs_g": 54,
+    "fat_g": 20
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 30,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "30g chia seeds"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 200,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "200ml skimmed milk"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 70,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "70g mashed banana"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon powder"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 10,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "10g banana"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g 70% dark chocolate"
+    },
+    {
+      "item": "high-protein yogurt",
+      "ingredient_id": null,
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g high protein yogurt"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": null,
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Vanilla"
+    }
+  ],
+  "steps": [
+    "To a bowl add 30g chia seeds, 150g high protein yogurt, 200ml skimmed milk, 70g mashed banana, 1 tsp cinnamon powder, 1 tsp Vanilla, 1 tbsp honey (15g), A pinch of salt, Mix it well, Put it in the refrigerator and let it set for atleast 3 hours.",
+    "Once it’s out, for the toppings, add 10g banana slices, 10g 70% dark chocolate, And it’s ready to serve."
+  ],
+  "assumptions": [
+    "The creator also gives 14 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

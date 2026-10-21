@@ -1,0 +1,189 @@
+{
+  "id": "lemon-coriander-mushrooms-paneer-sauce",
+  "title": "Creamy Lemon Coriander Mushrooms",
+  "source": {
+    "url": "https://www.instagram.com/reel/Da1jbWeT-kG/",
+    "platform": "instagram",
+    "creator": "vaishali_living",
+    "creator_url": "https://www.instagram.com/vaishali_living/",
+    "ref": "batches/2026-10-21-batch2.txt#334"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "mushroom"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish",
+    "protein_g": 40,
+    "kcal": 480,
+    "carbs_g": 45,
+    "fat_g": 17
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp butter"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4 cloves chopped garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 chopped onions"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g button mushrooms"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 125,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "125g low fat paneer"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Oregano"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Chillie flakes"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml Water"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp of chaat masala"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ lime"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 1 tbsp butter, 1 bay leaf, 4 cloves chopped garlic, 2 chopped onions, Saute till the onions turn golden brown, 200g button mushrooms (stems and caps separated), 1 tsp salt, Cook for 5 min, until all the water evaporates.",
+    "Meanwhile to a blender add 125g low fat paneer, 1/2 tsp salt, 1 tsp pepper, 1 tsp Oregano, 1 tsp Chillie flakes, 150ml Water, Blend it till smooth.",
+    "Now Pour the paneer sauce over the mushrooms and cook for a 10 minutes until everything comes together, Add chopped coriander, 1/2 tsp of chaat masala, Mix well, Turn off the flame and finish with the juice of ½ lime (10ml)"
+  ],
+  "assumptions": [
+    "The creator also gives 9 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

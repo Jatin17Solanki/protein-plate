@@ -1,0 +1,164 @@
+{
+  "id": "paneer-kali-mirch",
+  "title": "Paneer Kali Mirch",
+  "source": {
+    "url": "https://www.instagram.com/reel/DX9LX3zTJAy/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#363"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish",
+    "protein_g": 44,
+    "kcal": 460,
+    "carbs_g": 12,
+    "fat_g": 27
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "section": "marination",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low fat paneer - 200 g"
+    },
+    {
+      "item": "salt",
+      "section": "marination",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt - 1/2 tsp"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "marination",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger-garlic paste - 1 tsp"
+    },
+    {
+      "item": "black pepper",
+      "section": "marination",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Pepper powder - 1 tsp"
+    },
+    {
+      "item": "garam masala",
+      "section": "marination",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garam masala - 1/2 tsp"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "section": "marination",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kasuri methi - 1 tsp"
+    },
+    {
+      "item": "yogurt",
+      "section": "marination",
+      "ingredient_id": null,
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Yogurt - 3 tbsp"
+    },
+    {
+      "item": "cooking oil",
+      "section": "cooking",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Oil - 1 tsp"
+    },
+    {
+      "item": "cumin seeds",
+      "section": "cooking",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cumin seeds - ½ tsp"
+    },
+    {
+      "item": "green chilli",
+      "section": "cooking",
+      "ingredient_id": "green_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Green chilli"
+    },
+    {
+      "item": "water",
+      "section": "cooking",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Half a cup water"
+    }
+  ],
+  "steps": [
+    "Low fat paneer - 200 g, small cubes, Salt - 1/2 tsp, Yogurt - 3 tbsp, Ginger-garlic paste - 1 tsp, Pepper powder - 1 tsp, Garam masala - 1/2 tsp, Kasuri methi - 1 tsp, crushed, Mix well and rest for 5 minutes.",
+    "To a pan on medium heat add Oil - 1 tsp, Cumin seeds - ½ tsp, Green chilli, Add the marinated paneer, Half a cup water, Cook for 5 minutes."
+  ],
+  "assumptions": [
+    "The caption credits @tikka2taco for the recipe."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "blueberry-chia-jam",
+  "title": "Blueberry Chia Jam",
+  "source": {
+    "url": "https://www.instagram.com/reel/DddI5Xrzlvy/",
+    "platform": "instagram",
+    "creator": "health.is.greatness",
+    "creator_url": "https://www.instagram.com/health.is.greatness/",
+    "ref": "batches/2026-10-21-batch2.txt#310"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "chia_seeds",
+    "blueberries"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 7,
+    "kcal": 255,
+    "carbs_g": 35,
+    "fat_g": 11
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "blueberries",
+      "ingredient_id": "blueberries",
+      "qty": 125,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "125g fresh blueberries"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 200,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "200ml water"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 whole lime"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp chia seeds"
+    }
+  ],
+  "steps": [
+    "125g fresh blueberries, 200ml water.",
+    "Mash the blueberries nicely.",
+    "Then add juice of 1 whole lime (10ml), 3 tbsp chia seeds.",
+    "Mix well and let it cook for around 15 minutes, stirring frequently, or until it thickens into a jam-like consistency.",
+    "Let it cool completely, then store it in the fridge and use it as jam with toast or whatever you like!"
+  ],
+  "assumptions": [
+    "The creator also gives 16 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

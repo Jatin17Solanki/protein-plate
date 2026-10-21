@@ -1,0 +1,120 @@
+{
+  "id": "paneer-chocolate-mousse",
+  "title": "High-Protein Paneer Chocolate Mousse",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaO8ZkvTNAB/",
+    "platform": "instagram",
+    "creator": "chefyuvrajdewan",
+    "creator_url": "https://www.instagram.com/chefyuvrajdewan/",
+    "ref": "batches/2026-10-21-batch2.txt#342"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish",
+    "protein_g": 64,
+    "kcal": 780,
+    "carbs_g": 70,
+    "fat_g": 29
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low fat paneer - 200g"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Cocoa powder - 20 g"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "g",
+      "type": "spice",
+      "as_written": "Salt - 0.5 g"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Honey - 20g"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 5,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Vanilla extract - 5 g"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 70,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Dark chocolate (70%) - 70 g"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Skimmed Milk - 120 g"
+    }
+  ],
+  "steps": [
+    "To a blender add Low fat paneer - 200g (about 1 cup), Cocoa powder - 20 g (¼ cup), Salt - 0.5 g (pinch), Honey - 20g (1 tbsp ), Vanilla extract - 5 g (1 tsp), Dark chocolate (70%) - 70 g (about ⅓ cup melted), Skimmed Milk - 120 g (½ cup)",
+    "Blend it nicely to form a creamy paste.",
+    "Transfer to a bowl or serving dish. Cover directly with plastic wrap/cling film. Refrigerate for at least 2 hours, or until fully set."
+  ],
+  "assumptions": [
+    "The creator would split this into at least 2 servings. They also give 13 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "protein-mango-chia-pudding",
+  "title": "High-Protein Mango Chia Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbnXOZaTlAR/",
+    "platform": "instagram",
+    "creator": "adamhoad_coaching",
+    "creator_url": "https://www.instagram.com/adamhoad_coaching/",
+    "ref": "batches/2026-10-21-batch2.txt#327"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 315,
+    "carbs_g": 23,
+    "fat_g": 9,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 3)",
+    "protein_g": 30,
+    "kcal": 315,
+    "carbs_g": 23,
+    "fat_g": 9
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g mango"
+    },
+    {
+      "item": "coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 120,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "120ml light coconut milk"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 300,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "300g high protien Greek yogurt"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 2,
+      "unit": null,
+      "grams": 60,
+      "type": "protein",
+      "as_written": "2 scoops vanilla protein"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g chia seeds"
+    }
+  ],
+  "steps": [
+    "To a blender add 200g mango, 120ml light coconut milk, 300g high protien Greek yogurt, 1 tbsp honey, 2 scoops vanilla protein powder, blend until smooth.",
+    "Divide the mixture between 3 pots, then stir 20g chia seeds evenly into each pot. Refrigerate for at least 2 hours, or ideally overnight, until thickened. Add your favourite toppings and enjoy."
+  ],
+  "assumptions": [
+    "Stir 20 g chia seeds into each of the 3 pots (60 g in total).",
+    "The creator also gives 8 g fibre per serving."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

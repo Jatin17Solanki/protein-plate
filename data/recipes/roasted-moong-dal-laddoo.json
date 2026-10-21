@@ -1,0 +1,95 @@
+{
+  "id": "roasted-moong-dal-laddoo",
+  "title": "Roasted Moong Dal Laddoo",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdLYxreov7R/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#274"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 5,
+    "kcal": 95,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per laddoo (makes 10)",
+    "protein_g": 5,
+    "kcal": 95,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 10,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g raw yellow moong dal"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1½ tbsp ghee"
+    },
+    {
+      "item": "almond butter",
+      "ingredient_id": "almond_butter",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5-2 tbsp unsweetened almond butter"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener"
+    }
+  ],
+  "steps": [
+    "Wash raw yellow moong dal thoroughly and drain it well.",
+    "Dry roast the moong dal on medium heat until it turns lightly golden brown and smells roasted.",
+    "Let it cool slightly, then grind it into a fine powder.",
+    "Heat 1½ tbsp ghee in a pan and add the powdered moong dal. Roast well on low-medium heat until fragrant and the colour changes to a light brown.",
+    "Take the pan off the heat and let the mixture cool slightly. Add 2 tbsp unsweetened almond butter and zero-calorie sweetener as per taste. I used around 2 tbsp sweetener, but you can adjust it to your preference.",
+    "Mix everything well until it comes together. If the mixture feels too dry and the laddoos aren’t binding, add a little more almond butter.",
+    "Divide the mixture into 10 portions and shape them into laddoos."
+  ],
+  "assumptions": [
+    "The creator’s figures are approximate; they also give about 3.7 g fibre per laddoo."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

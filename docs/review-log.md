@@ -72,3 +72,10 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · protein-spaghetti · macros_basis_unclear → Jatin: macros are for the entire dish; ignore the "2 servings" hint · accepted_flags = macros_basis_unclear; servings stays null; recipe page only
 - 2026-10-20 · tempeh-pav-bhaji · macros_basis_unclear → Jatin: macros are for the full dish, not 1 portion; not for the home page · accepted_flags = macros_basis_unclear; recipe page only
 - Result: 0 flagged recipes. Whole-dish creator numbers (3 recipes) belong on the recipe page only; asked Track A to keep them off home cards and sorting.
+
+## Batch 2 (B3, 2026-10-21)
+
+- 2026-10-21 · rule · categories from Jatin's notes: condiment → sauce_dip, no meal; drink → noted meal or snack; coolers/staple drinks → no meal, main protein `other`; dessert → dessert tag (+ snack if no meal) (Jatin) · applied while converting
+- 2026-10-21 · rule · reposts: keep the newer post only (Jatin) · 25 older posts not added
+- 2026-10-21 · 34 existing recipes · creator null → `fit.khurana` (her posts in batch 2) (Jatin) · `source.creator` + `creator_url`
+- 2026-10-21 · batch 2 flags open for B6 round 3: 135 `macros_basis_unclear`, 99 `no_main_protein`, 60 `no_macros`, 2 `missing_details` (229 of the 285 new recipes flagged; batch 1 still 0)

@@ -1,0 +1,195 @@
+{
+  "id": "palak-paneer-puree",
+  "title": "Palak Paneer with Paneer Purée",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYPV4RZTA6d/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#362"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "spinach"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 20,
+    "kcal": 270,
+    "carbs_g": 14,
+    "fat_g": 17,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 3)",
+    "protein_g": 20,
+    "kcal": 270,
+    "carbs_g": 14,
+    "fat_g": 17
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 large onion"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger garlic paste"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 120,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "120g tomato purée"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 250,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "250g chopped palak"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g soft paneer"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "⅓ cup hot water"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp oil"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.75,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¾ tsp cumin seeds"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri chilli powder"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 garlic cloves"
+    }
+  ],
+  "steps": [
+    "Add 1 tsp oil to a pan on medium heat, 1 large onion (~120g), thinly sliced, 1 tsp ginger garlic paste, Cook till golden brown.",
+    "Add ¼ tsp turmeric, 1/2 tsp chilli powder, 1 tsp coriander powder, ½ tsp garam masala, Mix well and let it cook for a minute.",
+    "Then add 120g tomato purée, 1/2 tsp salt, Mix well and cook for 2 min (it should become thick and glossy)",
+    "Then add 250g chopped palak, Mix well on low flame and let it cook for 3 minutes.",
+    "While the spinach is cooking, To a blender add 200g soft paneer, ⅓ cup hot water (for blending), Add this paneer purée into the spinach that’s cooking, Mix well and let it simmer for only a min or 2.",
+    "Make a Tadka, 1 tbsp oil, ¾ tsp cumin seeds, 1 tsp Kashmiri chilli powder, 3 garlic cloves, finely chopped.",
+    "Mix in the tadka and switch off the flame. Garnish with a handful of chopped coriander and enjoy."
+  ],
+  "assumptions": [
+    "The caption credits @aathirasethumadhavan for the recipe."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

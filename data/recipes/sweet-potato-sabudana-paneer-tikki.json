@@ -1,0 +1,207 @@
+{
+  "id": "sweet-potato-sabudana-paneer-tikki",
+  "title": "Sweet Potato Sabudana Paneer Tikki",
+  "source": {
+    "url": "https://www.instagram.com/reel/DegOZmbShKy/",
+    "platform": "instagram",
+    "creator": "mitali.this.side",
+    "creator_url": "https://www.instagram.com/mitali.this.side/",
+    "ref": "batches/2026-10-21-batch2.txt#286"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 6,
+    "kcal": 100,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per tikki (makes 6)",
+    "protein_g": 6,
+    "kcal": 100,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "sweet potato",
+      "ingredient_id": "sweet_potato",
+      "qty": 150,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "150g steamed sweet potato"
+    },
+    {
+      "item": "sabudana (tapioca pearls)",
+      "ingredient_id": "sabudana",
+      "qty": 80,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "80g raw sabudana"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 5,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "5 to 6 peanuts"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp sesame seeds"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin powder"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "rock salt",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Sendha namak as per taste"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh coriander"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "A little oil for brushing"
+    },
+    {
+      "item": "peanuts",
+      "section": "green chutney",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp peanuts"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "green chutney",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1 handful fresh coriander"
+    },
+    {
+      "item": "mint leaves",
+      "section": "green chutney",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1 handful fresh mint"
+    },
+    {
+      "item": "green chilli",
+      "section": "green chutney",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "green chutney",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Greek yogurt"
+    },
+    {
+      "item": "rock salt",
+      "section": "green chutney",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Sendha namak as per taste"
+    }
+  ],
+  "steps": [
+    "Rinse 100g dry sabudana 2 to 3 times, soak in enough water for 4 to 6 hours until soft, then drain thoroughly in a strainer for 10 to 15 minutes.",
+    "Steam, peel and mash the sweet potato. Mix with the soaked sabudana, crumbled paneer, green chilli, crushed peanuts, sesame seeds, cumin powder, red chilli powder, sendha namak and coriander.",
+    "Mash everything together and shape into 6 equal tikkis.",
+    "Lightly brush with oil and air fry at 180°C for 20 minutes, flipping halfway, until golden and crispy.",
+    "Blend the peanuts, coriander, mint, green chilli, Greek yogurt and sendha namak to make the green chutney.",
+    "Serve the hot and crispy sabudana tikkis with the green yogurt chutney."
+  ],
+  "assumptions": [
+    "A Navratri special. The creator’s figures are approximate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

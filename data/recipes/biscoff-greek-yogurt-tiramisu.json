@@ -1,0 +1,107 @@
+{
+  "id": "biscoff-greek-yogurt-tiramisu",
+  "title": "High-Protein Biscoff Tiramisu",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZUukYbTlgy/",
+    "platform": "instagram",
+    "creator": "fibreandflowers",
+    "creator_url": "https://www.instagram.com/fibreandflowers/",
+    "ref": "batches/2026-10-21-batch2.txt#351"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 356,
+    "carbs_g": 41,
+    "fat_g": 8
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150 ml hot water"
+    },
+    {
+      "item": "instant coffee",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp black coffee"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 300,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "300g High Protein Greek yogurt"
+    },
+    {
+      "item": "Biscoff biscuits",
+      "ingredient_id": "biscoff",
+      "qty": 5,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "5 Biscoff biscuit"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "cocoa powder"
+    }
+  ],
+  "steps": [
+    "Cappuccino sachet with 150 ml hot water or 1 tsp black coffee with water, 300g High Protein Greek yogurt, 5 Biscoff biscuit, And it goes in the fridge overnight.",
+    "When you take it out, dust come cocoa powder and it’s ready."
+  ],
+  "assumptions": [
+    "Use a cappuccino sachet with 150 ml hot water, or 1 tsp black coffee with water."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

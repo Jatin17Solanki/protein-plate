@@ -1,0 +1,97 @@
+{
+  "id": "chocolate-pb-banana-ice-cream",
+  "title": "Chocolate Peanut Butter Banana Ice Cream",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeZHaLLz52z/",
+    "platform": "instagram",
+    "creator": "brittanymillerhealth",
+    "creator_url": "https://www.instagram.com/brittanymillerhealth/",
+    "ref": "batches/2026-10-21-batch2.txt#296"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanut_butter",
+    "banana",
+    "cocoa_powder"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 60,
+    "carbs_g": 11,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per scoop (makes 6)",
+    "protein_g": null,
+    "kcal": 60,
+    "carbs_g": 11,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 chopped frozen bananas"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp cocoa powder"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp unsweetened peanut butter"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 20,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "20ml milk"
+    }
+  ],
+  "steps": [
+    "To a blender add 2 chopped frozen bananas, 2 tbsp cocoa powder, 1 tbsp unsweetened peanut butter, 20ml milk.",
+    "Blend everything until smooth and creamy.",
+    "Pour the mixture into a container and freeze for 3 hours.",
+    "And you’re left with this rich, creamy, gooey chocolate ice cream! Enjoy!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

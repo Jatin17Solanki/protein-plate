@@ -1,0 +1,141 @@
+{
+  "id": "chocolate-pb-rice-cakes",
+  "title": "Chocolate Peanut Butter Rice Cakes",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYmZ2WLTjvU/",
+    "platform": "instagram",
+    "creator": "justinanderson_fit",
+    "creator_url": "https://www.instagram.com/justinanderson_fit/",
+    "ref": "batches/2026-10-21-batch2.txt#360"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "peanut_butter_powder"
+  ],
+  "tags": [
+    "dessert",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "for 2 rice cakes",
+    "protein_g": 62,
+    "kcal": 525,
+    "carbs_g": 55,
+    "fat_g": 29
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "peanut butter powder",
+      "ingredient_id": "peanut_butter_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp of peanut butter powder"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3-4 tbsp of water"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp of peanut butter"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop whey"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "rice crackers",
+      "ingredient_id": "rice_cakes",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 rice crackers"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "1 tbsp (10g) of melted chocolate chips"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "high-protein yogurt",
+      "ingredient_id": null,
+      "qty": 20,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "1 heaped tbsp of high Protien yogurt (20g)"
+    }
+  ],
+  "steps": [
+    "First in a bowl, Add 2 tbsp of peanut butter powder (32g), 3-4 tbsp of water, 1/2 tbsp of peanut butter (8g)",
+    "To another bowl, Add 1 heaped tbsp of high Protien yogurt (20g), 1 scoop whey (30g), 1 tbsp honey (20g)",
+    "Then take 2 rice crackers and a layer of the peanut butter mixture on each and then the yogurt mixture followed by 1 tbsp (10g) of melted chocolate chips on each and sprinkle some salt.",
+    "Put them in the fridge for 10 min for the chocolate to harden (i was so greedy I did only 2min) and then it’s all done."
+  ],
+  "assumptions": [
+    "The creator notes about 10 g of the protein may stay behind in the bowls."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"for 2 rice cakes\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

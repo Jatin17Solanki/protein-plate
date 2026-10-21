@@ -1,0 +1,159 @@
+{
+  "id": "sweet-potato-protein-brownies",
+  "title": "Sweet Potato Protein Brownies",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcsWi78shUc/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#271"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "cocoa_powder",
+    "milk_skimmed",
+    "oat_flour",
+    "walnuts",
+    "sweet_potato"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 9,
+    "kcal": 165,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per square (makes 8)",
+    "protein_g": 9,
+    "kcal": 165,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 8,
+  "ingredients": [
+    {
+      "item": "sweet potato",
+      "ingredient_id": "sweet_potato",
+      "qty": 180,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "180g sweet potato"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 60,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "60-70g dates"
+    },
+    {
+      "item": "nut butter",
+      "ingredient_id": null,
+      "qty": 75,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "75g nut butter"
+    },
+    {
+      "item": "yeast protein powder",
+      "ingredient_id": "yeast_protein",
+      "qty": 1,
+      "unit": null,
+      "type": "protein",
+      "as_written": "@millesupergrain heat stable unflavoured yeast protein – 1 serving (31g protein) - Use my code FIT10"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 25,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "25g cocoa powder"
+    },
+    {
+      "item": "oat flour",
+      "ingredient_id": "oat_flour",
+      "qty": 30,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "30g oat flour"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 120,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "120ml skimmed milk or more as needed"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 25,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "25–30g 85% dark chocolate chips"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "~20g walnuts"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "baking powder",
+      "ingredient_id": "baking_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "¼ tsp baking powder"
+    }
+  ],
+  "steps": [
+    "Steam the sweet potato for 20–25 mins until extremely soft, then mash until smooth.",
+    "Soak dates in hot water until soft, drain and blend into a thick paste.",
+    "Mix sweet potato, date paste and nut butter. Add protein powder, cocoa, oat flour, baking powder, vanilla and salt.",
+    "Gradually add milk while mixing. The batter should be thick and fudgy but droppable from your spatula. It should NOT pour like pancake/cake batter. Adjust the sweetness if you wish with some zero calorie sweetner.",
+    "Fold in some chocolate chips and transfer to a lined dish and top with remaining chocolate chips + walnuts (optional).",
+    "⁠Pre-heat the airfryer at 160 for 5 mins.",
+    "Air fry at 160°C for ~18-20 mins. A skewer should have moist crumbs, not wet batter. Don’t wait for it to come completely clean.",
+    "Let it cool completely before slicing for the fudgiest texture. Cut into 8 squares."
+  ],
+  "assumptions": [
+    "The creator also gives 3 g fibre per square."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

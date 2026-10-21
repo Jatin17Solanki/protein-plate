@@ -1,0 +1,100 @@
+{
+  "id": "pb-chocolate-banana-squares",
+  "title": "4-Ingredient Peanut Butter Chocolate Banana Squares",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dcd2GvIzp8D/",
+    "platform": "instagram",
+    "creator": "crowded_kitchen",
+    "creator_url": "https://www.instagram.com/crowded_kitchen/",
+    "ref": "batches/2026-10-21-batch2.txt#320"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "dark_chocolate",
+    "peanut_butter",
+    "banana"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 3,
+    "kcal": 183,
+    "carbs_g": 21,
+    "fat_g": 10,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 9)",
+    "protein_g": 3,
+    "kcal": 183,
+    "carbs_g": 21,
+    "fat_g": 10
+  },
+  "protein_working": [],
+  "servings": 9,
+  "ingredients": [
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 ripe or even overripe bananas"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp peanut butter"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 200,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "200g of 70% dark chocolate"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "peanuts"
+    }
+  ],
+  "steps": [
+    "Take 3 ripe or even overripe bananas and place them between two sheets of baking paper.",
+    "Smoosh them down until they’re nice and flat.",
+    "Spread 3 tbsp peanut butter evenly over the bananas.",
+    "Melt 200g of 70% dark chocolate and spread it all over the top.",
+    "Finish with a handful of salted peanuts.",
+    "Freeze for at least 1 hour, or until completely set.",
+    "Once frozen, chop it into bite-sized squares, and that’s it! The perfect easy 4-ingredient treat to keep in your freezer."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "korean-cucumber-kimchi",
+  "title": "Korean Cucumber Kimchi",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbUdqzFz5uk/",
+    "platform": "instagram",
+    "creator": "a_culinary_affair",
+    "creator_url": "https://www.instagram.com/a_culinary_affair/",
+    "ref": "batches/2026-10-21-batch2.txt#331"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "cucumber",
+    "soy_sauce",
+    "garlic"
+  ],
+  "tags": [
+    "sauce_dip",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 3,
+    "kcal": 115,
+    "carbs_g": 14,
+    "fat_g": 6
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 sliced cucumbers"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "spring onion",
+      "ingredient_id": "spring_onion",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "A handful of spring onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 cloves of garlic"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chili flakes"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chili powder"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp rice vinegar"
+    },
+    {
+      "item": "sesame oil",
+      "ingredient_id": "sesame_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame oil"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp sugar"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame seeds"
+    }
+  ],
+  "steps": [
+    "To a bowl take 2 sliced cucumbers (350g), Add 1 tsp salt, Wait for 10 min and then drain the excess water.",
+    "Add the cucmbers to another bowl along with, A handful of spring onion, 3 cloves of garlic (finely chopped), 1 tsp chili flakes, 1 tsp red chili powder, 1 tbsp soy sauce, 1 tbsp rice vinegar, 1 tsp sesame oil, 1/2 tsp sugar, 1 tsp sesame seeds, Close the box and mix it. And it’s ready."
+  ],
+  "assumptions": [
+    "Drain the excess water from the salted cucumbers. The creator also gives 3 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

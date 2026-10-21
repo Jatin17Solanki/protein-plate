@@ -1,0 +1,114 @@
+{
+  "id": "chocolate-banana-paneer-pudding",
+  "title": "Chocolate Banana Paneer Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZTynAiTLrx/",
+    "platform": "instagram",
+    "creator": "busezeynep",
+    "creator_url": "https://www.instagram.com/busezeynep/",
+    "ref": "batches/2026-10-21-batch2.txt#352"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 43,
+    "kcal": 650,
+    "carbs_g": 108,
+    "fat_g": 11
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 ripe banana"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 180,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "180ml milk"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp cacao powder"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g seedless dates"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "dark chocolate"
+    }
+  ],
+  "steps": [
+    "To a blender add 1 ripe banana (100g), 180ml milk (i used skimmed milk), 2 tbsp cacao powder (20g), 150g low fat paneer, 80g seedless dates (4 big dates), Blend till it forms a smooth runny paste.",
+    "Honestly the heating on the pan made no sense to me, just refrigerate for like 4 hours and it’s ready.",
+    "To serve grate some dark chocolate on top, it’s all done."
+  ],
+  "assumptions": [
+    "The creator used skimmed milk. The 80 g dates is about 4 big dates."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "spicy-nut-seed-chikki",
+  "title": "Spicy Nut and Seed Chikki",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdgjyUKzpZ-/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#276"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "flax_seeds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "½ cup almonds"
+    },
+    {
+      "item": "roasted chana",
+      "ingredient_id": "roasted_chana",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "½ cup roasted chana"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "¼ cup pumpkin seeds"
+    },
+    {
+      "item": "flax seeds",
+      "ingredient_id": "flax_seeds",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "¼ cup flax seeds"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "¼ cup black sesame seeds"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 cup jaggery"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1-2 tbsp chilli oil (as per taste)"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    }
+  ],
+  "steps": [
+    "Roast the almonds, chana, pumpkin seeds, flax seeds and black sesame seeds until lightly golden, crisp and aromatic. Keep aside.",
+    "In the same pan, add 1 tbsp ghee + jaggery and cook on a low flame for around 2 minutes, until the jaggery melts down nicely.",
+    "Add the chilli oil and salt and give it a quick mix.",
+    "Immediately add all the roasted nuts and seeds and mix really well so everything gets coated evenly.",
+    "Quickly transfer onto a plate lined with baking paper and spread it out before the jaggery starts cooling and clumping.",
+    "Let it cool completely, then break into clusters and store in an airtight container.",
+    "Eat in moderation - Max 2-3 clusters in a day as it is high on cals.",
+    "Important: Once the jaggery melts, work very quickly and keep the flame low throughout."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

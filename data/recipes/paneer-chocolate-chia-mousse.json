@@ -1,0 +1,113 @@
+{
+  "id": "paneer-chocolate-chia-mousse",
+  "title": "Paneer Chocolate Chia Mousse",
+  "source": {
+    "url": "https://www.instagram.com/reel/DXyGsqizrWO/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#364"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 35,
+    "kcal": 680,
+    "carbs_g": 38,
+    "fat_g": 38
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g paneer"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp cocoa powder"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 squares dark chocolate"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100ml milk"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp chia seeds"
+    }
+  ],
+  "steps": [
+    "Let’s see if it’s worth hype, I’ve made a tiny tweak by adding chia seeds for the gut.",
+    "To a blender add: 150g paneer, 2 tbsp cocoa powder (10g), 2 squares dark chocolate (16g - 95% dark), 100ml milk (I did 70ml in the video as I like mine thicker), 1 tbsp honey (20g)",
+    "Transfer it to a bowl, And 1 tsp chia seeds, And mix it well.",
+    "Now Refrigerate for 2 hours."
+  ],
+  "assumptions": [
+    "The caption credits @chefbeyond22yards; this version adds chia seeds. The creator’s calorie figure is approximate; they also give 10 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

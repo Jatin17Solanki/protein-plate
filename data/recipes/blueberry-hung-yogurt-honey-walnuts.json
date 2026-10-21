@@ -1,0 +1,155 @@
+{
+  "id": "blueberry-hung-yogurt-honey-walnuts",
+  "title": "Blueberry Hung Yogurt with Honey Walnuts",
+  "source": {
+    "url": "https://www.instagram.com/reel/DelTN7wMEEA/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#287"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 310,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 220,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "220g Epigamia Turbo Greek Yogurt"
+    },
+    {
+      "item": "blueberries",
+      "ingredient_id": "blueberries",
+      "qty": 15,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "15 to 20 blueberries"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp honey"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 walnuts chopped"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "Coconut chips"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon zest"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Zero calorie sweetener"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of cinnamon"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 Tbsp honey to drizzle on top"
+    }
+  ],
+  "steps": [
+    "Add the blueberries to a pan with zero calorie sweetener and lemon zest. Simmer for 7 to 8 minutes until the compote becomes thick and jammy, with no watery liquid remaining. Let it cool completely.",
+    "Mix the cooled blueberry compote into the Epigamia Turbo Protein Yogurt.",
+    "Transfer the mixture into a muslin cloth, tie it securely and place a heavy weight on top. Let all the excess water drain until the yogurt becomes very thick.",
+    "Scoop the thickened blueberry yogurt into a bowl using an ice cream scoop.",
+    "Dry roast the walnuts in a pan until crunchy. Add a pinch of salt and cinnamon and mix.",
+    "Switch off the heat, add the honey and stir for around 2 minutes until the walnuts are coated.",
+    "Spread the walnuts out and let them air dry for 5 to 10 minutes until crunchy.",
+    "Crush the honey coated walnuts and sprinkle them over the blueberry yogurt.",
+    "Top with coconut chips, honey and serve chilled."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

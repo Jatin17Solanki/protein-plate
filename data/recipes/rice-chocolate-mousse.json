@@ -1,0 +1,96 @@
+{
+  "id": "rice-chocolate-mousse",
+  "title": "2-Ingredient Rice Chocolate Mousse",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdTmRQIztZz/",
+    "platform": "instagram",
+    "creator": "shivesh17",
+    "creator_url": "https://www.instagram.com/shivesh17/",
+    "ref": "batches/2026-10-21-batch2.txt#313"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "dark_chocolate",
+    "rice_cooked"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 4,
+    "kcal": 320,
+    "carbs_g": 40,
+    "fat_g": 17,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 4)",
+    "protein_g": 4,
+    "kcal": 320,
+    "carbs_g": 40,
+    "fat_g": 17
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 cup cooked rice"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "½ cup hot water"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 220,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "220g dark chocolate melts"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp cocoa powder"
+    }
+  ],
+  "steps": [
+    "To a blender jar, add, 1 cup cooked rice (200g), ½ cup hot water (100ml), 220g dark chocolate melts.",
+    "Blend until completely smooth and creamy.",
+    "Pour it into a container and refrigerate for at least 3 hours.",
+    "Once it’s nicely set, sprinkle 1 tsp cocoa powder on top, and it’s ready to serve!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

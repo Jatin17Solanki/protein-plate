@@ -1,0 +1,230 @@
+{
+  "id": "apple-cinnamon-rice-paper-rolls",
+  "title": "Apple Cinnamon Rice Paper Rolls",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dd8_9saIX8N/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#281"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "milk"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 130,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per roll (makes 2), without the yogurt dressing",
+    "protein_g": null,
+    "kcal": 130,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 large apple"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "3 to 4 walnuts"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "1 tsp cornstarch - make slurry"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp zero calorie sweetener"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 to 3 tbsp water"
+    },
+    {
+      "item": "rice paper",
+      "ingredient_id": "rice_paper",
+      "qty": 4,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "4 - 16 cm rice paper sheets"
+    },
+    {
+      "item": "milk",
+      "section": "rice paper milk mix",
+      "ingredient_id": "milk",
+      "qty": 150,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "150ml milk"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "section": "rice paper milk mix",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp cornstarch"
+    },
+    {
+      "item": "cooking oil",
+      "section": "rice paper milk mix",
+      "ingredient_id": "oil",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "½ tbsp oil"
+    },
+    {
+      "item": "cinnamon",
+      "section": "rice paper milk mix",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of cinnamon"
+    },
+    {
+      "item": "skyr",
+      "section": "optional yogurt dressing",
+      "ingredient_id": "skyr",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "100g Skyr"
+    },
+    {
+      "item": "peanut butter",
+      "section": "optional yogurt dressing",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "½ tbsp peanut butter"
+    },
+    {
+      "item": "whey protein",
+      "section": "optional yogurt dressing",
+      "ingredient_id": "whey_protein",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 15,
+      "type": "protein",
+      "optional": true,
+      "as_written": "½ scoop protein"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "optional yogurt dressing",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp sweetner"
+    },
+    {
+      "item": "salt",
+      "section": "optional yogurt dressing",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "optional": true,
+      "as_written": "A pinch of salt"
+    }
+  ],
+  "steps": [
+    "Add butter to a pan then add walnuts. Toast it then add apple. Cook for 3-4 minutes until apples become soft. Add cinnamon, salt, sweetener and water.",
+    "Add the cornstarch slurry and cook until the filling becomes thick and jammy. There should be no watery syrup.",
+    "Let the apple filling cool completely before rolling.",
+    "Mix the milk, cornstarch, oil and cinnamon to dip rice papers.",
+    "Dip each rice paper sheet for only about 2 seconds and stack 2 sheets together for each roll.",
+    "Add the apple filling and roll tightly like a burrito.",
+    "Lightly brush the rolls with oil.",
+    "Air fry at 190°C for 12 to 16 minutes, flipping around 8 minutes.",
+    "For extra crunch, air fry at 200°C for another 2 to 3 minutes. Remove only when completely crunchy and serve with sweet yogurt dip! The cold and hot combo is insane."
+  ],
+  "assumptions": [
+    "The creator gives about 120–130 kcal and 3 g fibre per roll; we use the upper figure.",
+    "The optional yogurt dressing adds 200 kcal and 25 g protein."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

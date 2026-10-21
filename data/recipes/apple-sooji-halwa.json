@@ -1,0 +1,129 @@
+{
+  "id": "apple-sooji-halwa",
+  "title": "Apple Sooji Halwa",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dc3MZTVMuWk/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#272"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "sooji"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (makes 5)",
+    "protein_g": null,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 5,
+  "ingredients": [
+    {
+      "item": "semolina (sooji)",
+      "ingredient_id": "sooji",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "3/4th Cup Sooji"
+    },
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Apple"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5-6 Dates (Can replace with zero calorie sweetner)"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Raisins"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Almonds"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Cashews"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Water - 2 Cups"
+    }
+  ],
+  "steps": [
+    "Dry Roast suji until it changes color and becomes lightly brown.",
+    "Soak 5-6 dates in hot water for 10 minutes (can take more if you like the halwa sweeter). You can also take a zero calorie sweetner.",
+    "Cook the chopped apple in 1 tsp ghee until mushy and blend the apple with some water and dates until you get a purée.",
+    "In the same pan, add 1/2 tbsp ghee and chopped nuts along with the roasted suji.",
+    "Sauté for 2 mins and add 2 cups of boiling water along with the purée.",
+    "Stir fast to avoid lumps and it should be ready in 3-4 minutes!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

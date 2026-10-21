@@ -1,0 +1,165 @@
+{
+  "id": "paneer-modak-two-flavours",
+  "title": "Paneer Modak, Choco Walnut and Kesar Pista",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdN5Y_RIqEa/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#275"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk_powder",
+    "paneer"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 5,
+    "kcal": 80,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per modak (makes 15–17)",
+    "protein_g": 5,
+    "kcal": 80,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "milk powder",
+      "ingredient_id": "milk_powder",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1 cup skimmed milk powder"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g paneer (I used homemade paneer made from toned milk)"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 200,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "200–250ml milk"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1½ tbsp ghee"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp zero-calorie sweetener"
+    },
+    {
+      "item": "cocoa powder",
+      "section": "choco walnut",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1½ tbsp cacao powder"
+    },
+    {
+      "item": "dark chocolate",
+      "section": "choco walnut",
+      "ingredient_id": "dark_chocolate",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 squares 70% dark chocolate"
+    },
+    {
+      "item": "walnuts",
+      "section": "choco walnut",
+      "ingredient_id": "walnuts",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "8–10 toasted walnuts"
+    },
+    {
+      "item": "saffron (kesar)",
+      "section": "kesar pista",
+      "ingredient_id": "saffron",
+      "qty": 8,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "8–10 saffron strands"
+    },
+    {
+      "item": "water",
+      "section": "kesar pista",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "soaked in water"
+    },
+    {
+      "item": "pistachios",
+      "section": "kesar pista",
+      "ingredient_id": "pistachios",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp roasted pistachios"
+    }
+  ],
+  "steps": [
+    "Heat around ½ tbsp ghee in a pan and add the skimmed milk powder. Roast on a very low flame for 1–2 minutes.",
+    "Gradually add milk while continuously mixing. Don’t add all the milk at once.",
+    "Cook on a very low flame for around 15 minutes, adding more milk as required, until you get a smooth mawa-like consistency. Keep stirring every 2 mins.",
+    "Add the zero-calorie sweetener and paneer, then mix well and cook until everything comes together.",
+    "Divide the mixture into two equal portions.",
+    "For the Choco Walnut batch, add cacao powder, 70% dark chocolate and toasted, finely chopped walnuts. Mix well and cook for 3-4 mins.",
+    "For the Kesar Pista batch, add the saffron water and powdered roasted pistachios. Mix until evenly combined and cook for 3-4 mins.",
+    "Grease a modak mould with a little ghee.",
+    "Take a portion of the mixture, press it firmly into the mould and shape the modaks!"
+  ],
+  "assumptions": [
+    "The creator gives about 4–5 g protein and 80 kcal per modak."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

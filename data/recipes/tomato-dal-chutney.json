@@ -1,0 +1,179 @@
+{
+  "id": "tomato-dal-chutney",
+  "title": "Tomato Chutney with Roasted Dal",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcaACHFzWp1/",
+    "platform": "instagram",
+    "creator": "food.and.frolic",
+    "creator_url": "https://www.instagram.com/food.and.frolic/",
+    "ref": "batches/2026-10-21-batch2.txt#321"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "tomato",
+    "onion"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 9,
+    "kcal": 290,
+    "carbs_g": 35,
+    "fat_g": 16
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "chana dal",
+      "ingredient_id": "chana_dal",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tbsp chana dal"
+    },
+    {
+      "item": "urad dal",
+      "ingredient_id": "urad_dal",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "½ tbsp urad dal"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin seeds"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "½ tbsp oil"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "4 dried red chillies"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 garlic cloves"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 cubed tomatoes"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp oil"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp mustard seeds"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 5,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "5–6 curry leaves"
+    }
+  ],
+  "steps": [
+    "Dry-roast 1 tbsp chana dal, ½ tbsp urad dal, ½ tsp cumin seeds in a pan over medium heat until fragrant. Set aside.",
+    "To the same pan add ½ tbsp oil, 4 dried red chillies, 3 garlic cloves, Add 1 small onion, cubed, and cook until golden brown.",
+    "Add 3 cubed tomatoes (roughly three times the quantity of onion), Along with 1 tsp salt, ¼ tsp turmeric. Cook until the tomatoes become soft and mushy, then set aside to cool.",
+    "Blend the roasted lentils and cumin seeds into a fine powder. Add the cooked tomato mixture and blend until smooth, adding a little water if needed to achieve your preferred consistency.",
+    "For the tadka, heat 1 tbsp oil. Once hot, switch off the flame, Add ¼ tsp mustard seeds, 5–6 curry leaves. Pour the tadka over the chutney, and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 9 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

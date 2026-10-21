@@ -1,0 +1,163 @@
+{
+  "id": "saffron-makhana-kheer",
+  "title": "Saffron Makhana Kheer",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcgMQkkTtWK/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#269"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk",
+    "makhana",
+    "milk_powder"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 8,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 6)",
+    "protein_g": 8,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 1,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "1 litre toned milk"
+    },
+    {
+      "item": "saffron (kesar)",
+      "ingredient_id": "saffron",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Saffron"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4–5 almonds"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4–5 cashews"
+    },
+    {
+      "item": "pistachios",
+      "ingredient_id": "pistachios",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4–5 pistachios"
+    },
+    {
+      "item": "milk powder",
+      "ingredient_id": "milk_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp skimmed milk powder"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "¼ cup roasted makhana"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 70,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "70g roasted whole makhana"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener"
+    },
+    {
+      "item": "rose petals",
+      "ingredient_id": "rose_petals",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "Rose petals"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "Mango or sitaphal pulp"
+    }
+  ],
+  "steps": [
+    "Add 1 litre toned milk to a heavy-bottomed kadai and cook on low flame to reduce.",
+    "Keep stirring continuously for around 10–15 minutes. This is important because the milk can stick to the bottom if you don’t keep stirring.",
+    "Mix 2 tbsp skimmed milk powder with a little water to make a smooth, thin mixture. After the milk has reduced a little, slowly add this mixture to the milk while continuously stirring.",
+    "Add the saffron water while the milk is cooking and continue stirring on a low flame.",
+    "Roast the makhana until crisp. Take ¼ cup of the roasted makhana and grind it into a fine powder.",
+    "Add the makhana powder to the milk and mix well. This will help thicken the milk and give it a creamy texture.",
+    "Add the remaining 70g roasted whole makhana along with the chopped almonds, cashews and pistachios. Mix everything well.",
+    "Add zero-calorie sweetener as per your taste and continue cooking on a low flame for a few more minutes.",
+    "Turn off the flame and let it cool. Transfer it to the fridge and chill for a few hours.",
+    "Serve chilled. You can optionally add rose petals or fruit pulp of your choice mango or sitaphal both go really well."
+  ],
+  "assumptions": [
+    "The saffron and the milk powder are each mixed with a little water. The creator’s figures are approximate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

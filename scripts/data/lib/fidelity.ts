@@ -54,6 +54,8 @@ export function stripNoise(line: string): string {
 export function numbersIn(text: string): Set<string> {
   const out = new Set<string>();
   let t = text.normalize('NFC');
+  // Thousands separators ("1,220 kcal") read as one number.
+  t = t.replace(/(?<![\d.,])(\d{1,3}),(\d{3})(?![\d,])/g, '$1$2');
   // Mixed fractions ("1 1/2 tbsp") read as one number.
   t = t.replace(/(?<![\d.\-–])(\d+)\s+(\d)\s*\/\s*(\d)(?!\d)/g, (m, w: string, a: string, b: string) => (Number(a) < Number(b) ? ` ${Number(w) + Number(a) / Number(b)} ` : m));
   t = t.replace(/(\d+)\s*([½¼¾⅓⅔⅛])/g, (_, w: string, f: string) => ` ${Number(w) + FRACTIONS[f]} `);

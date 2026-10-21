@@ -1,0 +1,173 @@
+{
+  "id": "pepper-mushroom-rice",
+  "title": "Pepper Mushroom Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeTayF4zMJX/",
+    "platform": "instagram",
+    "creator": "pawar_omkar",
+    "creator_url": "https://www.instagram.com/pawar_omkar/",
+    "ref": "batches/2026-10-21-batch2.txt#298"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "rice",
+    "mushroom"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 11,
+    "kcal": 478,
+    "carbs_g": 90,
+    "fat_g": 8,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 4)",
+    "protein_g": 11,
+    "kcal": 478,
+    "carbs_g": 90,
+    "fat_g": 8
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp ghee"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 sliced green chillies"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 15,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "15 curry leaves"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp hing"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Sliced onions (200g)"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp black peppercorns"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 7,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "7 garlic cloves"
+    },
+    {
+      "item": "biryani masala",
+      "ingredient_id": "biryani_masala",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "2 tbsp biryani masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 500,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "500g mushrooms"
+    },
+    {
+      "item": "rice",
+      "ingredient_id": "rice",
+      "qty": 400,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "400g washed raw rice"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "2 cups of hot water"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander"
+    }
+  ],
+  "steps": [
+    "To a pot on medium heat, add 2 tbsp ghee, Add 2 sliced green chillies, 15 curry leaves, 1/2 tsp hing, Sliced onions (200g), Sauté until the onions turn golden brown.",
+    "Meanwhile, using a mortar and pestle, crush 2 tsp black peppercorns with 7 garlic cloves into a coarse paste.",
+    "Add the paste to the pot, Then add 2 tbsp biryani masala, 1 tsp salt, 500g mushrooms, cut in half.",
+    "Mix everything well and let the mushrooms cook for 3 minutes.",
+    "Now add 400g washed raw rice and 2 cups of hot water. Give everything a good mix.",
+    "Once it comes to a boil, reduce the flame to low, cover with a lid, and let it cook for 15 minutes or until the rice is fully cooked.",
+    "Remove the lid, garnish with freshly chopped coriander, and it’s ready to serve!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

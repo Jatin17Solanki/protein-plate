@@ -1,0 +1,135 @@
+{
+  "id": "banana-choco-chia-bowl",
+  "title": "Banana Choco Chia Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZKhz1jvsEF/",
+    "platform": "instagram",
+    "creator": "adamhoad_coaching",
+    "creator_url": "https://www.instagram.com/adamhoad_coaching/",
+    "ref": "batches/2026-10-21-batch2.txt#354"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "milk_skimmed",
+    "chia_seeds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 32,
+    "kcal": 555,
+    "carbs_g": 70,
+    "fat_g": 20
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 30,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "30g Chia Seeds"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g banana"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g honey"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g Greek Yogurt"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 200,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "200ml Skimmed Milk"
+    },
+    {
+      "item": "banana",
+      "section": "toppings",
+      "ingredient_id": "banana",
+      "qty": 40,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "40g banana"
+    },
+    {
+      "item": "dark chocolate",
+      "section": "toppings",
+      "ingredient_id": "dark_chocolate",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g Dark Chocolate"
+    },
+    {
+      "item": "peanut butter",
+      "section": "toppings",
+      "ingredient_id": "peanut_butter",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp Peanut Butter"
+    }
+  ],
+  "steps": [
+    "30g Chia Seeds, 80g banana mash, 10g honey, 150g Greek Yogurt (low fat), 200ml Skimmed Milk.",
+    "Pop into the fridge for 4+ hours (overnight is ideal).",
+    "40g banana slices, 10g Dark Chocolate, 2 tsp Peanut Butter."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

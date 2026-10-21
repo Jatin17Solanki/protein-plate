@@ -1,0 +1,147 @@
+{
+  "id": "apple-pie-protein-oat-bowl",
+  "title": "Apple Pie Protein Oat Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZpY_VST364/",
+    "platform": "instagram",
+    "creator": "itsjackearly",
+    "creator_url": "https://www.instagram.com/itsjackearly/",
+    "ref": "batches/2026-10-21-batch2.txt#348"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 45,
+    "kcal": 600,
+    "carbs_g": 85,
+    "fat_g": 11
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 15,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "15g Honey"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Cinnamon"
+    },
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g Apple"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 30,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "30 ml water"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 50,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "50g Oats"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100ml water"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop protein powder"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g high protein Greek Yogurt"
+    },
+    {
+      "item": "digestive biscuits",
+      "ingredient_id": "digestive_biscuits",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 digestive biscuit"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Salt"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 15g Honey, Sprinkle Cinnamon, 100g Apple, 30 ml water, Let that sauté for 5 min, Set it aside.",
+    "Take 50g Oats with 100ml water to a bowl, mix well, Heat it up in the microwave for 2 min (it should be cooked and thick), 1 scoop protein powder (i used chocolate flavour), Mix well, Top with your apples, 100g high protein Greek Yogurt, 2 digestive biscuit, More cinnamon, Pinch of Salt, And done!"
+  ],
+  "assumptions": [
+    "The creator also gives 9 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

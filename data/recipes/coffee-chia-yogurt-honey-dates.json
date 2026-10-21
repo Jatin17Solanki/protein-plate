@@ -1,0 +1,136 @@
+{
+  "id": "coffee-chia-yogurt-honey-dates",
+  "title": "Coffee Chia Yogurt Bowl with Caramelised Honey Butter Dates",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZy512VTaz6/",
+    "platform": "instagram",
+    "creator": "itskatiebien",
+    "creator_url": "https://www.instagram.com/itskatiebien/",
+    "ref": "batches/2026-10-21-batch2.txt#346"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "chia_seeds"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 29,
+    "kcal": 405,
+    "carbs_g": 55,
+    "fat_g": 9
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp chia seeds"
+    },
+    {
+      "item": "instant coffee",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp black coffee"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "grams": 90,
+      "type": "dairy",
+      "as_written": "2 heaped tbsp High Protein Greek yogurt"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 pitted dates"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 4,
+      "unit": "tbsp",
+      "grams": 180,
+      "type": "dairy",
+      "as_written": "4 heaped tbsp High Protein Greek yogurt"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g dark chocolate"
+    }
+  ],
+  "steps": [
+    "The night before (or 2 hours in advance), make the coffee chia pudding - Ingredients: To a container add 2 tbsp chia seeds (20g), 1 tsp black coffee (i used a cappuccino sachet), 2 heaped tbsp High Protein Greek yogurt (90g), Mix everything well, Cover and refrigerate.",
+    "The next morning or when the chia pudding is ready: To a pan on medium heat add 1 tbsp honey (10g), 1 tsp butter, 2 pitted dates, Fry for 2 min and flip, it takes about 5 min to caramelise.",
+    "For the bowl: 4 heaped tbsp High Protein Greek yogurt (180g), 1 tbsp of the coffee chia pudding, Add the caramelised dates, 10g dark chocolate, All done."
+  ],
+  "assumptions": [
+    "The creator notes the original recipe used honey in all three steps.",
+    "The creator also gives 6 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

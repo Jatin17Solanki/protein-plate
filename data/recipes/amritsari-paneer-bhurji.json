@@ -1,0 +1,198 @@
+{
+  "id": "amritsari-paneer-bhurji",
+  "title": "Amritsari Paneer Bhurji",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaMZcA3zF0u/",
+    "platform": "instagram",
+    "creator": "chefguntas",
+    "creator_url": "https://www.instagram.com/chefguntas/",
+    "ref": "batches/2026-10-21-batch2.txt#343"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish",
+    "protein_g": 51,
+    "kcal": 656,
+    "carbs_g": 42,
+    "fat_g": 28
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1.5 tbsp besan"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 230,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "230g Greek yogurt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp chillie powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp amchur"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp coriander powder"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp cumin seeds"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 10,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "10g thinly sliced ginger"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 slit green chillies"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1.5 tsp salt"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped tomato"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat panner"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100ml skimmed milk"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kasuri methi"
+    }
+  ],
+  "steps": [
+    "To a pan on low heat add 1.5 tbsp besan flour and roast it for 5 min. When you get a nutty smells it’s ready, now set it aside.",
+    "To a bow add 230g Greek yogurt (1 cup), 1/2 tsp chillie powder, 1 tsp amchur powder, 1 tsp coriander powder, 1/2 tsp coriander powder, Add the dry roasted besan flour.",
+    "Now to a pan on medium heat add 1 tbsp ghee, 1 tbsp cumin seeds, 10g thinly sliced ginger, 1 chopped onion (80g), 2 slit green chillies, 1.5 tsp salt, Sauté for 5 min.",
+    "Then add 1 chopped tomato, Mix well, Add the yogurt mixture and let it cook for 5 min.",
+    "Add 200g low fat panner (mash it nicely), 100ml skimmed milk, Garnish with coriander and 1 tsp Kasuri methi and it’s ready!"
+  ],
+  "assumptions": [
+    "The creator also gives 9 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "chocolate-cashew-protein-mousse",
+  "title": "High-Protein Chocolate Cashew Mousse",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZcg2AaTCS6/",
+    "platform": "instagram",
+    "creator": "adamhoad_coaching",
+    "creator_url": "https://www.instagram.com/adamhoad_coaching/",
+    "ref": "batches/2026-10-21-batch2.txt#350"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "whey_protein",
+    "cashews"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 35,
+    "kcal": 470,
+    "carbs_g": 35,
+    "fat_g": 22,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 3)",
+    "protein_g": 35,
+    "kcal": 470,
+    "carbs_g": 35,
+    "fat_g": 22
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 80,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "80g cashews"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 450,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "450g Greek yogurt"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop protein powder"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g dates"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 120,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "120ml skimmed milk"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp vanilla extract"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g chia seeds"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "10g dark chocolate"
+    }
+  ],
+  "steps": [
+    "To a blender add 80g cashews, 450g Greek yogurt, 1 scoop protein powder (chocolate), 80g dates, 120ml skimmed milk, 2 tsp vanilla extract, A pinch of salt.",
+    "Blend it well and divide evenly between 3 serving pots and top each one with 20g chia seeds.",
+    "Refrigerate for 2 to 3 hours, or overnight, until thick and mousse like.",
+    "Serve with 10g dark chocolate or fruit."
+  ],
+  "assumptions": [
+    "Top each pot with 20 g chia seeds (60 g in total).",
+    "The creator also gives 10 g fibre per serving."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

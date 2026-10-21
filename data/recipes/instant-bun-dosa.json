@@ -1,0 +1,184 @@
+{
+  "id": "instant-bun-dosa",
+  "title": "Instant Bun Dosa",
+  "source": {
+    "url": "https://www.instagram.com/reel/Deav9PxzpAS/",
+    "platform": "instagram",
+    "creator": "myflavourfuljourney",
+    "creator_url": "https://www.instagram.com/myflavourfuljourney/",
+    "ref": "batches/2026-10-21-batch2.txt#295"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "sooji",
+    "yogurt"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 3,
+    "kcal": 107,
+    "carbs_g": 17,
+    "fat_g": 3,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per dosa (makes 8)",
+    "protein_g": 3,
+    "kcal": 107,
+    "carbs_g": 17,
+    "fat_g": 3
+  },
+  "protein_working": [],
+  "servings": 8,
+  "ingredients": [
+    {
+      "item": "semolina (sooji)",
+      "ingredient_id": "sooji",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 cup semolina"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "3/4 cup yogurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/2 cup water"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp mustard seeds"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cumin seeds"
+    },
+    {
+      "item": "urad dal",
+      "ingredient_id": "urad_dal",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "protein",
+      "as_written": "1/2 tsp urad dal"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 finely chopped onion"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 10,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "10 chopped curry leaves"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1/2 a handful of fresh coriander"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/4 tsp baking soda"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 15,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "15ml water"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp oil"
+    }
+  ],
+  "steps": [
+    "To a bowl add 1 cup semolina, 3/4 cup yogurt, 1/2 cup water, Mix it really well and let it rest. In the meantime, let’s prepare the tempering.",
+    "To a pan on medium heat, add 1 tsp oil, 1/2 tsp mustard seeds, 1/2 tsp cumin seeds, 1/2 tsp urad dal, 1 finely chopped onion, 10 chopped curry leaves, Sauté till golden brown and set it aside.",
+    "Now transfer the semolina and yogurt mixture into a blender and blend until smooth.",
+    "Top it with the prepared tempering and 1/2 a handful of fresh coriander.",
+    "Mix everything really well, then, add 1/4 tsp baking soda, 1 tsp salt and 15ml water. Gently fold it all in.",
+    "Now heat a tempering pan on very low heat with 1/2 tsp oil. Pour in the batter, cover and cook for 3 minutes or until fully cooked.",
+    "Flip it over and cook the other side until nicely golden brown.",
+    "And it’s done! Enjoy your soft and fluffy Bun Dosa with some chutney!"
+  ],
+  "assumptions": [
+    "The creator also gives 1 g fibre per dosa."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "tiramisu-protein-overnight-oats",
+  "title": "Tiramisu Protein Overnight Oats",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZERWEJT7uB/",
+    "platform": "instagram",
+    "creator": "balancewithnu",
+    "creator_url": "https://www.instagram.com/balancewithnu/",
+    "ref": "batches/2026-10-21-batch2.txt#355"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 40,
+    "kcal": 430,
+    "carbs_g": 42,
+    "fat_g": 12
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "instant coffee",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Coffee powder"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 180,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "180ml hot water"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "40g oats"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp chia seeds"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop chocolate protein"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 85,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "85g Greek yogurt"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "10g (1 tbsp) cocoa powder"
+    }
+  ],
+  "steps": [
+    "To a container add 1 tsp Coffee powder mixed with 180ml hot water, 40g oats, 2 tbsp chia seeds (20g), 1 scoop chocolate protein (30g), Mix it well.",
+    "Then add 85g Greek yogurt (I used plain vanilla would taste better), Sprinkle 10g (1 tbsp) cocoa powder on top, And let it sit in the fridge over overnight. That’s it - all done."
+  ],
+  "assumptions": [
+    "The creator also gives 12 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

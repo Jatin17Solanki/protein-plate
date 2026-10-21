@@ -1,0 +1,126 @@
+{
+  "id": "black-chana-fudgy-brownies",
+  "title": "No-Bake Black Chana Fudgy Brownies",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaKtXZIzyby/",
+    "platform": "instagram",
+    "creator": "homechefalison",
+    "creator_url": "https://www.instagram.com/homechefalison/",
+    "ref": "batches/2026-10-21-batch2.txt#344"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "dark_chocolate",
+    "cocoa_powder"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 9,
+    "kcal": 409,
+    "carbs_g": 55,
+    "fat_g": 17,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bar (makes 4)",
+    "protein_g": 9,
+    "kcal": 409,
+    "carbs_g": 55,
+    "fat_g": 17
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "black chickpeas (kala chana)",
+      "ingredient_id": "kala_chana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup Boiled Black Chana"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup Dates"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 30,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "30g Cocoa Powder"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Vanilla Extract"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 30,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "30ml water"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 80,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "80g of dark chocolate"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g crushed nuts (I used almonds"
+    }
+  ],
+  "steps": [
+    "In a blender add 150g or 1 cup Boiled Black Chana (Black Chickpeas / Kala Chana), 150g or 1 cup Dates (soaked in warm water), 30g Cocoa Powder (1/4 cup), 1 tsp Vanilla Extract (5ml), Pinch of salt, 30ml water (add more of it isn’t blending)",
+    "Melt 80g of dark chocolate, pour it on top and add 10g crushed nuts (I used almonds).",
+    "Put it in the fridge for 3 to 4 hours and it’s ready."
+  ],
+  "assumptions": [
+    "Soak the dates in warm water first. The creator also gives 10 g fibre per bar."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}
