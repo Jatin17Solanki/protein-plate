@@ -45,7 +45,7 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | B6 | Resolve flagged recipes with Jatin | B2, /review/ page | review | `claude/busy-noether-s5qjwo` / round 1 [PR 18](https://github.com/Jatin17Solanki/protein-plate/pull/18) (merged), round 2 [PR 20](https://github.com/Jatin17Solanki/protein-plate/pull/20) | Opus | Round 1: conflicts, main proteins (+`other`), missing details (+`video_only`), macros (+`accepted_flags`, `estimated_macros`). Round 2: the 32 `macros_basis_unclear`. **0 flagged.** Whole-dish numbers off home cards = Track A request. Log: docs/review-log.md |
 | B3 | Batch 2 (new scrape) | B2 | todo | | Opus | Jatin supplies the file. Runbook: `docs/ADD-RECIPES.md` |
 | B4 | Incomplete entries, oats, My list seed | Jatin's details | todo | | Opus | My list seed delivered 2026-10-20 (13 recipes, backup file sent in chat, not committed). Waiting on Jatin: protein oats recipe + details for the 15 incomplete entries. |
-| B5 | Export prompt + agent questions | B2 | review | `claude/busy-noether-s5qjwo` / PR_LINK | Opus | `prompts/ask-catalog.md`; tested with 6 sample questions (fresh chats, real catalog): all links real, numbers correct. Track A: make "Copy prompt" read the file (like add-recipes). |
+| B5 | Export prompt + agent questions | B2 | review | `claude/busy-noether-s5qjwo` / [PR 26](https://github.com/Jatin17Solanki/protein-plate/pull/26) | Opus | `prompts/ask-catalog.md`; tested with 6 sample questions (fresh chats, real catalog): all links real, numbers correct. Track A: make "Copy prompt" read the file (like add-recipes). |
 
 ## Jatin's tasks
 | Task | When |

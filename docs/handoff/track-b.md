@@ -17,7 +17,7 @@ _Last updated: 2026-10-21 (B5 export prompt; B6 done; add-recipes runbook)_
 - `main_proteins` can be `other` (Jatin's "Others"). A hand-set main protein is kept when the 35 % rule finds none.
 
 **Next:**
-- B5: `prompts/ask-catalog.md` written and tested (PR_LINK). Track A swaps it into `askPrompt()`: text after its `---`, then the catalog and "My question:"; drop the "my data" bullet when personal data isn't included. Keep its field guide in step with `compactCatalog()`.
+- B5: `prompts/ask-catalog.md` written and tested ([PR 26](https://github.com/Jatin17Solanki/protein-plate/pull/26)). Track A swaps it into `askPrompt()`: text after its `---`, then the catalog and "My question:"; drop the "my data" bullet when personal data isn't included. Keep its field guide in step with `compactCatalog()`.
 - B3 (and every future batch): follow `docs/ADD-RECIPES.md`. When Jatin sends the new compilation: run `dedupe.ts --batch <file>` (or `findPairsAgainst`), fix creator credits where it names them, add the recipes the same way.
 - B4: the protein oats recipe (Jatin will send it). Only 6 incomplete recipes remain, all video only, kept as is by Jatin. The My list seed was delivered in chat (never committed).
 
