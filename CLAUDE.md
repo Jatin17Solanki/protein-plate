@@ -11,7 +11,7 @@ A free, mobile-first, static recipe catalog (GitHub Pages) that helps a vegetari
 | `docs/CONTEXT.md` | Full decision record: problem, journeys, data rules, rejected ideas, backlog | Only the sections your phase lists |
 | `docs/DESIGN.md` + `design/` | Design system, screen spec, references | Track A: the sections your phase lists |
 | `docs/DECISIONS.md` | Dated log of decisions | Append only |
-| `docs/MANUAL-TEST.md` | Jatin's real-device test plan, one section per feature | Update when your phase adds or changes something visible |
+| `docs/MANUAL-TEST.md` | Jatin's manual test, one user journey per section, plus the feedback log | Update the journey your phase touches when you add or change something visible |
 
 ## Session protocol
 1. **Start:** read TRACKER → your track's handoff → your phase in PLAN → the listed sections. Don't ask Jatin to re-explain anything written in these files. If something is genuinely undecided, ask a short question instead of assuming.
