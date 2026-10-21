@@ -49,13 +49,32 @@ describe('compactCatalog', () => {
   });
 });
 
-describe('askPrompt', () => {
-  it('starter + count + catalog, ends ready for the question', () => {
-    const p = askPrompt(recipes, SITE);
-    expect(p).toContain(`${recipes.length} vegetarian recipes`);
-    expect(p).not.toContain('My own data is included');
-    expect(p.endsWith('My question:\n')).toBe(true);
-    expect(askPrompt(recipes, SITE, personal)).toContain('My own data is included');
+describe('askPrompt (Track B prompts/ask-catalog.md)', () => {
+  const PROMPT = readFileSync('prompts/ask-catalog.md', 'utf8');
+
+  it('prompt text after its ---, then "Catalog:" + one line per recipe, then "My question:"', () => {
+    const p = askPrompt(PROMPT, recipes, SITE);
+    expect(p.startsWith('You are helping me choose what to cook from **Protein Plate**')).toBe(true);
+    expect(p).not.toContain('The Export screen'); // the file's intro for sessions stays out
+    expect(p).toContain(`Catalog:\n${compactCatalog(recipes, SITE)}\n`);
+    expect(p.endsWith('\n\nMy question:\n')).toBe(true);
+    expect(p).not.toContain('whole recipe');
+  });
+
+  it('the "My data" bullet only when personal data is included', () => {
+    expect(askPrompt(PROMPT, recipes, SITE)).not.toContain('**My data**');
+    const mine = askPrompt(PROMPT, recipes, SITE, personal);
+    expect(mine).toContain('- **My data** (only when included)');
+    expect(mine).toContain('my note: "Less salt next time"');
+  });
+
+  it("the prompt's field guide still matches compactCatalog()'s line order", () => {
+    expect(PROMPT).toContain('`Title · protein per portion · main protein · meals · dish type · extras · ingredients · my data · link`');
+    const line = compactCatalog([get('besan-chilla')], SITE, personal);
+    const order = ['- Besan Chilla · ', ' g protein', ' · Pulses', ' · Breakfast', ' · Chilla / pancake', ' · quick', ' · ingredients: ', ' · on my list', ' · https://example.org/pp/r/besan-chilla/'];
+    const at = order.map((s) => line.indexOf(s));
+    expect(at.every((i) => i >= 0)).toBe(true);
+    expect([...at].sort((a, b) => a - b)).toEqual(at);
   });
 });
 
