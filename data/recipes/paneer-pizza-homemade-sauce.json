@@ -1,0 +1,211 @@
+{
+  "id": "paneer-pizza-homemade-sauce",
+  "title": "Paneer Pizza with Homemade Pizza Sauce",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-M7fobJmtO/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#155"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "pizza_base"
+  ],
+  "tags": [
+    "pizza",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "tomato",
+      "section": "pizza sauce",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 boiled tomatoes"
+    },
+    {
+      "item": "onion",
+      "section": "pizza sauce",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "dried red chilli",
+      "section": "pizza sauce",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3 dried red chilles soaked in water"
+    },
+    {
+      "item": "garlic",
+      "section": "pizza sauce",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4-5 cloves of garlic"
+    },
+    {
+      "item": "basil",
+      "section": "pizza sauce",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful fresh basil"
+    },
+    {
+      "item": "salt",
+      "section": "pizza sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "oregano",
+      "section": "pizza sauce",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "pizza sauce",
+      "ingredient_id": "chilli_flakes",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsps red chilli flakes"
+    },
+    {
+      "item": "sugar",
+      "section": "pizza sauce",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sugar/stevia"
+    },
+    {
+      "item": "black pepper",
+      "section": "pizza sauce",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp pepper"
+    },
+    {
+      "item": "tomato ketchup",
+      "section": "pizza sauce",
+      "ingredient_id": "ketchup",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1.5 tbsp ketchup"
+    },
+    {
+      "item": "whole wheat pizza base",
+      "section": "pizza",
+      "ingredient_id": "pizza_base",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 Whole wheat pizza base (Millet Amma/ Health Factory/ Gobble/ Baker’s dozen)"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "pizza",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g of low fat homemade paneer (Lightly Sauteed a little with salt and mixed herbs)"
+    },
+    {
+      "item": "pizza sauce",
+      "section": "pizza",
+      "ingredient_id": "pizza_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsps of homemade pizza sauce"
+    },
+    {
+      "item": "basil",
+      "section": "pizza",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh basil"
+    },
+    {
+      "item": "cheese",
+      "section": "pizza",
+      "ingredient_id": "cheese",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Parmesan/Mozerella Cheese - 2-3tbsp"
+    }
+  ],
+  "steps": [
+    "Boil 3 tomatoes and blend them in a mixer.",
+    "In a pan, add 1 tsp olive oil and add tha garlic. Sauté until golden brown and then add onion. Sauté for another 2 mins.",
+    "Then add the boiled tomatoes paste. Cover and let it cook for 4-5 mins.",
+    "Add a dash of water to adjust consistency and then add ketchup and seasonings.",
+    "Cook for 3-4 mins and add fresh basil.",
+    "Now turn off the gas, let it cool down for 10 mins and using a hand blender, blend this sauce well. Don’t make it too fine. Just make sure its well combined and gets that pizza sauce like coarse consistency.",
+    "Protip: Let the sauce rest for 2 hrs before you use it on the pizza base for the flavors to really rise.",
+    "Assemble your pizza and bake in oven/airfryer for 10-15 mins at 200 degrees. Please keep checking in the mid so it doesn’t burn."
+  ],
+  "assumptions": [
+    "Sweeten the sauce with sugar or stevia; use parmesan or mozzarella on top.",
+    "Pizza base brands the creator suggests: Millet Amma, Health Factory, Gobble, Baker’s dozen."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

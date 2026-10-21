@@ -1,0 +1,199 @@
+{
+  "id": "strawberry-banana-protein-muffins",
+  "title": "Strawberry Banana Protein Oat Muffins",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUslP5xjJGB/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#210"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "oat_flour",
+    "skyr"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 9,
+    "kcal": 190,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per muffin (makes 8)",
+    "protein_g": 9,
+    "kcal": 190,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 8,
+  "ingredients": [
+    {
+      "item": "banana",
+      "section": "wet",
+      "ingredient_id": "banana",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 ripe banana (very well mashed)"
+    },
+    {
+      "item": "skyr",
+      "section": "wet",
+      "ingredient_id": "skyr",
+      "qty": 75,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "75 g skyr"
+    },
+    {
+      "item": "ghee",
+      "section": "wet",
+      "ingredient_id": "ghee",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50 g melted ghee"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "section": "wet",
+      "ingredient_id": "sweetener",
+      "qty": 50,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "50g zero cal sweetner/ any of your choice"
+    },
+    {
+      "item": "milk",
+      "section": "wet",
+      "ingredient_id": "milk",
+      "qty": 90,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "90 ml milk"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "wet",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp lemon juice"
+    },
+    {
+      "item": "oat flour",
+      "section": "dry",
+      "ingredient_id": "oat_flour",
+      "qty": 120,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "120g/1 cup oat flour"
+    },
+    {
+      "item": "whey protein",
+      "section": "dry",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop cookable protein powder"
+    },
+    {
+      "item": "baking powder",
+      "section": "dry",
+      "ingredient_id": "baking_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp baking powder"
+    },
+    {
+      "item": "baking soda",
+      "section": "dry",
+      "ingredient_id": "baking_soda",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp baking soda"
+    },
+    {
+      "item": "rock salt",
+      "section": "dry",
+      "ingredient_id": "rock_salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp sea salt"
+    },
+    {
+      "item": "cinnamon",
+      "section": "dry",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "1 tsp cinnamon (optional)"
+    },
+    {
+      "item": "strawberries",
+      "section": "add-ins",
+      "ingredient_id": "strawberries",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g strawberries (finely chopped)"
+    },
+    {
+      "item": "walnuts",
+      "section": "add-ins",
+      "ingredient_id": "walnuts",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-8 walnuts (chopped)"
+    }
+  ],
+  "steps": [
+    "Toss strawberries with 5 g oat flour (from the 120 g)",
+    "Preheat air fryer/oven to 160°C for 3 minutes.",
+    "Banana + skyr + ghee + monk fruit + milk + lemon juice + vanilla. Whisk till smooth and glossy.",
+    "In another bowl mix oat flour + protein + baking powder + baking soda + salt + cinnamon.",
+    "Fold dry into wet gently.",
+    "Do NOT overmix. Slight lumps are fine.",
+    "Fold in strawberries + walnuts.",
+    "Let batter rest 5 minutes.",
+    "Fill greased aluminium muffin moulds ¾ full.",
+    "Air fry at 150–155°C for 14–17 minutes. (If tops brown early, loosely tent with foil. Toothpick should show moist crumbs (not wet batter). Or bake at 170°C for 16–19 minutes (until toothpick shows moist crumbs).",
+    "Let cool for 8–10 minutes before removing."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

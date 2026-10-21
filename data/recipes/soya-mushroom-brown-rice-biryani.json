@@ -1,0 +1,285 @@
+{
+  "id": "soya-mushroom-brown-rice-biryani",
+  "title": "Soya Mushroom Brown Rice Biryani",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdyCT0bItiP/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#278"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "skyr"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 35,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 35,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "section": "marinade",
+      "ingredient_id": "soya_chunks",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60g soya chunks"
+    },
+    {
+      "item": "mushroom",
+      "section": "marinade",
+      "ingredient_id": "mushroom",
+      "qty": 15,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "15–18 mushrooms"
+    },
+    {
+      "item": "skyr",
+      "section": "marinade",
+      "ingredient_id": "skyr",
+      "qty": 300,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "300g Skyr"
+    },
+    {
+      "item": "onion",
+      "section": "marinade",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "¾ of the air-fried onions"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "marinade",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped coriander"
+    },
+    {
+      "item": "mint leaves",
+      "section": "marinade",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mint"
+    },
+    {
+      "item": "biryani masala",
+      "section": "marinade",
+      "ingredient_id": "biryani_masala",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1½ tbsp biryani masala"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "section": "marinade",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp kasuri methi"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "marinade",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "salt",
+      "section": "marinade",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "chilli garlic paste",
+      "section": "marinade",
+      "ingredient_id": "ginger_garlic_chilli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Green chilli-garlic paste"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "marinade",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon juice"
+    },
+    {
+      "item": "jaggery",
+      "section": "marinade",
+      "ingredient_id": "jaggery",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp jaggery powder"
+    },
+    {
+      "item": "rice",
+      "section": "rice",
+      "ingredient_id": "rice",
+      "qty": 85,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "85g Daawat Brown Basmati Rice (raw)"
+    },
+    {
+      "item": "cinnamon",
+      "section": "rice",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 cinnamon stick"
+    },
+    {
+      "item": "black pepper",
+      "section": "rice",
+      "ingredient_id": "black_pepper",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3–4 black peppercorns"
+    },
+    {
+      "item": "ghee",
+      "section": "rice",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "salt",
+      "section": "rice",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "rice",
+      "section": "layering",
+      "ingredient_id": "rice",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "90% cooked brown basmati rice"
+    },
+    {
+      "item": "onion",
+      "section": "layering",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "¼ of the air-fried onions"
+    },
+    {
+      "item": "mint leaves",
+      "section": "layering",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh mint"
+    },
+    {
+      "item": "milk",
+      "section": "layering",
+      "ingredient_id": "milk",
+      "qty": 30,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "30–35ml toned milk mixed with saffron"
+    },
+    {
+      "item": "saffron (kesar)",
+      "section": "layering",
+      "ingredient_id": "saffron",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "30–35ml toned milk mixed with saffron"
+    },
+    {
+      "item": "onion",
+      "section": "air-fried onions",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 medium onions"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks, squeeze out all the excess water and keep them aside.",
+    "Thinly slice 2 medium onions and air-fry at 180°C with a light spray of oil until brown and crisp.",
+    "Make the marinade by mixing the soya chunks, mushrooms, Skyr, ¾ of the air-fried onions, chopped coriander and mint, biryani masala, kasuri methi, red chilli powder, salt, green chilli-garlic paste, lemon juice and jaggery powder. Mix well and let it rest for 10–15 minutes.",
+    "Cook the Daawat Brown Basmati Rice with cinnamon, black peppercorns, 1 tsp ghee and a pinch of salt until 90% cooked. Drain and keep aside.",
+    "Heat 1 tsp ghee in a pan and add cumin seeds. Let them sizzle, then add the entire marinated soya-mushroom mixture. Cook on low heat for 10–12 minutes.",
+    "Layer the 90% cooked rice over the soya-mushroom mixture. Top with the remaining ¼ air-fried onions, fresh mint and saffron-infused milk.",
+    "Cover and cook on low heat for another 6–7 minutes, allowing the rice to finish cooking and the flavours to infuse."
+  ],
+  "assumptions": [
+    "The creator uses Daawat brown basmati rice for its higher fibre, which slows the blood sugar rise, and made this for World Heart Day.",
+    "The creator also gives 8 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

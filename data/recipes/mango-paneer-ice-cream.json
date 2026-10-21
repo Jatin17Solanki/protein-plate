@@ -1,0 +1,124 @@
+{
+  "id": "mango-paneer-ice-cream",
+  "title": "Mango Paneer Ice Cream",
+  "source": {
+    "url": "https://www.instagram.com/reel/DIVgCt-T0O7/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#123"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 110,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per scoop",
+    "protein_g": null,
+    "kcal": 110,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 Cashews"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 6,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "6-7 Almonds"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8-10 dates"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 small cup makhana"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2-3 tbsp Oats"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 350,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "350 ml low fat milk"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Mangoes"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g low fat homemade paneer"
+    }
+  ],
+  "steps": [
+    "Soak cashews, almonds, dates, makhana and oats in hot milk for 45 minutes.",
+    "Blend this with 2 mangoes and paneer until the mixture is silky smooth.",
+    "Set this in a mould and put a cling wrap on top touching the surface if the icecream so that ice crystalls don’t form on top.",
+    "Freeeze for 8 hours and keep it at room temperature for atleast 10-15 mins before serving and dig in!"
+  ],
+  "assumptions": [
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -1,0 +1,162 @@
+{
+  "id": "paneer-paturi",
+  "title": "Paneer Paturi",
+  "source": {
+    "url": "https://www.instagram.com/reel/Den8ZXJo42f/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#288"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 520,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 2)",
+    "protein_g": 30,
+    "kcal": 520,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g Paneer Low fat (made with toned milk)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 250,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "250g High Protein Greek Yogurt"
+    },
+    {
+      "item": "poppy seeds (khus khus)",
+      "ingredient_id": "poppy_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp poppy seeds (khus khus)"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp black mustard seeds"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp yellow mustard seeds"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 7,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "7–8 cashews"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup freshly grated coconut"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp turmeric powder"
+    },
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp mustard oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "banana leaf",
+      "ingredient_id": "banana_leaf",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Banana leaf for steaming"
+    }
+  ],
+  "steps": [
+    "Soak the poppy seeds, black mustard seeds, yellow mustard seeds and cashews in warm water for 15 minutes.",
+    "Add the soaked ingredients to a blender along with grated coconut and a little water. Blend into a smooth paste.",
+    "Transfer the paste to a bowl and mix in the Greek yogurt, turmeric powder and salt until well combined.",
+    "Add the paneer cubes, green chillies and mustard oil. Mix everything gently until the paneer is nicely coated.",
+    "Line a steel container with a banana leaf, transfer the paneer mixture into it and close the lid.",
+    "Steam for 20 minutes until cooked. Serve hot with steamed rice and enjoy!"
+  ],
+  "assumptions": [
+    "The low-fat paneer is made with toned milk."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -1,0 +1,126 @@
+{
+  "id": "pb-paneer-cheesecake",
+  "title": "High-Protein Peanut Butter Paneer Cheesecake",
+  "source": {
+    "url": "https://www.instagram.com/reel/DarOcdNz-AN/",
+    "platform": "instagram",
+    "creator": "nature.hea1",
+    "creator_url": "https://www.instagram.com/nature.hea1/",
+    "ref": "batches/2026-10-21-batch2.txt#339"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 52,
+    "kcal": 605,
+    "carbs_g": 42,
+    "fat_g": 27,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 52,
+    "kcal": 605,
+    "carbs_g": 42,
+    "fat_g": 27
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 180,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "180g low-fat paneer"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp peanut butter"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla extract"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 150,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "150ml skimmed milk"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 8,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "8g 70% dark chocolate"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3 - 4 peanuts"
+    }
+  ],
+  "steps": [
+    "To a blender add 180g low-fat paneer, 2 tbsp peanut butter, 1 tbsp honey, 1 tsp vanilla extract, Pinch of salt, 150ml skimmed milk, Pour it into a container.",
+    "Now add 8g 70% dark chocolate, melted, Sprinkle crushed peanuts (like 3 - 4 peanuts)",
+    "Refrigerate for atleast 1 hour and it’s ready to serve."
+  ],
+  "assumptions": [
+    "The video says 525 kcal because it left out the dark chocolate and peanuts; the caption corrects it to 605 kcal for the complete recipe.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

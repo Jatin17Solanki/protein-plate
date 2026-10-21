@@ -1,0 +1,93 @@
+{
+  "id": "apple-chocolate-mousse-cake",
+  "title": "2-Ingredient Apple Chocolate Mousse Cake",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcH_zyVzJIs/",
+    "platform": "instagram",
+    "creator": "shivesh17",
+    "creator_url": "https://www.instagram.com/shivesh17/",
+    "ref": "batches/2026-10-21-batch2.txt#323"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "dark_chocolate"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 2,
+    "kcal": 210,
+    "carbs_g": 27,
+    "fat_g": 11,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per slice (makes 6)",
+    "protein_g": 2,
+    "kcal": 210,
+    "carbs_g": 27,
+    "fat_g": 11
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 red apples"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 200,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "200g dark chocolate chips"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "cocoa powder"
+    }
+  ],
+  "steps": [
+    "2 red apples, peeled and chopped, 200g dark chocolate chips.",
+    "Add the peeled and chopped apples to a pot over medium heat. Cook until soft and mushy this took me about 15 minutes.",
+    "Transfer the cooked apples to a blender, leaving behind any excess water.",
+    "Add 200g dark chocolate chips and blend until completely smooth and creamy.",
+    "Pour the mixture into a container lined with parchment paper and refrigerate for at least 4 hours, or until set.",
+    "Once set, flip the container over and carefully remove the mousse cake.",
+    "Dust with cocoa powder, slice, and it’s ready to serve!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

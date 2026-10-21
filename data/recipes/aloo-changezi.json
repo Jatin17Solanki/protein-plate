@@ -1,0 +1,269 @@
+{
+  "id": "aloo-changezi",
+  "title": "Aloo Changezi",
+  "source": {
+    "url": "https://www.instagram.com/reel/DelXcBSTyun/",
+    "platform": "instagram",
+    "creator": "myflavourfuljourney",
+    "creator_url": "https://www.instagram.com/myflavourfuljourney/",
+    "ref": "batches/2026-10-21-batch2.txt#292"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "potato",
+    "cashews",
+    "tomato"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 14,
+    "kcal": 750,
+    "carbs_g": 104,
+    "fat_g": 34,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish — one portion",
+    "protein_g": 14,
+    "kcal": 750,
+    "carbs_g": 104,
+    "fat_g": 34
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "potato",
+      "ingredient_id": "potato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 large potatoes"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger-garlic paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp oil"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "8 cashews"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp yogurt"
+    },
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp mustard oil"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 cardamom pods"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "black peppercorns"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 200,
+      "unit": "ml",
+      "type": "produce",
+      "as_written": "200ml tomato purée"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger-garlic paste"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml water"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "½ handful fresh coriander"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "cloves (spice)",
+      "ingredient_id": null,
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "4 cloves"
+    }
+  ],
+  "steps": [
+    "Peel 2 large potatoes (400g) and slice them into wedges. Transfer them to a bowl and add: 1 tsp Kashmiri red chilli powder, ½ tsp turmeric powder, 1 tsp ginger-garlic paste, ½ tsp salt, ½ tsp oil, Mix everything really well until the potatoes are evenly coated, and set aside.",
+    "Next, thinly slice 1 onion and fry (or air-fry) until deep golden brown. Transfer the browned onion to a blender along with: 8 cashews, 2 tbsp yogurt, Blend everything into a smooth, fine paste and set aside.",
+    "Now air-fry the marinated potato wedges at 200°C for 20 minutes, flipping halfway through, until golden and cooked through.",
+    "Meanwhile, heat 1 tbsp mustard oil in a pan over medium heat. Add: 1 bay leaf, 2 cardamom pods, 4 cloves, black peppercorns, Sauté for about 30 seconds until fragrant, then add: 200ml tomato purée, ½ tsp turmeric powder, 1 tsp Kashmiri red chilli powder, 1 tsp coriander powder, 1 tsp salt.",
+    "Mix everything really well and cook until the tomato purée thickens and the raw smell disappears.",
+    "Add 1 tbsp ginger-garlic paste, followed by the fried onion and cashew paste. Mix well. Pour in 150ml water, give it a good stir, and let the gravy simmer until it’s nicely cooked and thickened. Now toss in the air-fried potatoes and add: ½ handful fresh coriander, 1 tsp kasuri methi (crushed), ½ tsp garam masala.",
+    "Mix everything really well and cook for another 2–3 minutes so the potatoes soak up all that flavour. Garnish with fresh coriander, and your Aloo Changezi is ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 12 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

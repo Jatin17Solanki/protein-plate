@@ -1,0 +1,74 @@
+{
+  "id": "homemade-paneer-two-litres",
+  "title": "Homemade Paneer from 2 Litres of Milk",
+  "source": {
+    "url": "https://www.instagram.com/reel/C61DkWMqsFU/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#16"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "staple"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 2,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "2 Litres Toned milk (I am using Amul)"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3-4 tbsp of Vinegar/ Lemon Juice of 2-2.5 lemons"
+    }
+  ],
+  "steps": [
+    "Boil the milk, and turn off the flame once it comes up. Add vinegar/ lemon juice and stir on low flame until the green water separates (you may need a little more vinegar/lemon juice depending on the milk quality). Once the whey water separates, strain the paneer and shape it with the help of a spoon. Let it sit in the strainer for 30 minutes and its ready!!",
+    "You can use the whey water to make gravies, knead doughs or to water plants."
+  ],
+  "assumptions": [
+    "Makes about 350 g paneer."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

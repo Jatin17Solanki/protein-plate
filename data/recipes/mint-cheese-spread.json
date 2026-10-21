@@ -121,7 +121,7 @@
   ],
   "assumptions": [
     "A spread, so no meal type.",
-    "Jatin: the creator's numbers are for the whole spread, not a portion."
+    "The creator's numbers are for the whole spread, not a portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

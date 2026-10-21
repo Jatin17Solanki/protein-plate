@@ -2,6 +2,8 @@
 
 _Last updated: 2026-10-21 (BL3 + BL4 session)_
 
+**BL6 (by Track B, PR 25):** optional `archived: {reason}` in the schema (types regenerated). `src/lib/catalog.ts` now exports `allRecipes` (recipe pages, Add recipes duplicate check and prompt index), `recipes` (main catalog: Home, search, My recipes, Review, Export) and `archivedRecipes`. New hidden `/archive/` page (`src/screens/Archive.tsx`, `src/lib/archive.ts`), an "Archived" note on archived recipe pages, `archive/` static page; `catalog.txt` and home counts use the main catalog. Fixture: `tests/fixtures/archived/` (own folder so unit-test fixture counts stay 10). Tests: `tests/unit/archive.test.ts`, `tests/e2e/archive.spec.ts`, a11y states.
+
 **Done (BL3 + BL4, PR open):**
 - BL4: `src/lib/feedback.ts` (pure: `describeDevice`, `feedbackBody`, `mailtoUrl`, `issueUrl`), `src/components/FeedbackSheet.tsx`; Menu → "Send feedback" (Home opens the sheet after closing the menu) and a "Send feedback" link at the bottom of every recipe (`col-c`). `site.config.json` gains `feedback_email` (empty → GitHub only). UI icon `message`. The GitHub `feedback` label only applies if the label exists in the repo and for people who can triage.
 - BL3: README rebuilt after Jatin's review ("text dump"): header + 3 real screenshots, contents, 6-shot feature gallery, journeys table, roadmap table, Mermaid flow, short credits; details in `<details>`. No data-rule or creator commentary in it (those live in DECISIONS). Screenshots: `docs/readme/*.webp`, regenerate with `scripts/readme-shots.ts` (see its header) when the UI changes.

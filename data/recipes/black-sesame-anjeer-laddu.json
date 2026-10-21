@@ -1,0 +1,145 @@
+{
+  "id": "black-sesame-anjeer-laddu",
+  "title": "Black Sesame Anjeer Makhana Laddu",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUH_YkzDNla/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#207"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "walnuts",
+    "sesame_seeds",
+    "anjeer"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 90,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per laddoo (makes about 20)",
+    "protein_g": null,
+    "kcal": 90,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 20,
+  "ingredients": [
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Black sesame seeds – ¾ cup"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Pumpkin seeds – ½ cup"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 10,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "Walnuts – 10–12"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Dry coconut – 3–4 tbsp"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "Makhana – 1 cup"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Ghee – ½ tbsp"
+    },
+    {
+      "item": "dried figs (anjeer)",
+      "ingredient_id": "anjeer",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Anjeer – 8–10 medium (adjust to taste)"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "optional": true,
+      "as_written": "Kishmish – 2 tbsp (optional)"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "White sesame seeds – 2–3 tbsp"
+    }
+  ],
+  "steps": [
+    "Dry roast the black sesame, pumpkin seeds, walnuts and dry coconut on low flame till aromatic and lightly golden. Let them cool completely.",
+    "In a blender, grind this roasted mix with ½ tbsp ghee till it turns into a smooth nut-seed butter.",
+    "Add the anjeer to the blender and grind again until you get a thick, glossy, sweet paste — no extra fat needed.",
+    "Separately dry roast the makhana till crisp, then grind into a powder.",
+    "Transfer the nut-anjeer paste to a bowl and mix in the makhana flour.",
+    "Add kishmish and roasted white sesame seeds if using. Mix well.",
+    "Portion into ~20 equal balls so each laddoo comes to roughly 90 calories.",
+    "Store in an airtight box."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

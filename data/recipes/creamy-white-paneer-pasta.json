@@ -1,0 +1,157 @@
+{
+  "id": "creamy-white-paneer-pasta",
+  "title": "Creamy White Paneer Garlic Pasta",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYGZYCOz8yJ/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#289"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "pasta_whole_wheat"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish (serves 2)",
+    "protein_g": 66,
+    "kcal": 833,
+    "carbs_g": 92,
+    "fat_g": 23
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "whole-wheat pasta",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 75,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "75g raw pasta"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small tomato"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 300,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "300ml water"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat paneer"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4 cloves of garlic"
+    },
+    {
+      "item": "red chilli",
+      "ingredient_id": null,
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 red chilli"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp salt"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 200,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "200ml milk"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "oregano"
+    }
+  ],
+  "steps": [
+    "75g raw pasta, 1 small onion, 1 small tomato, 300ml water, 1/2 tsp salt, Cover and Boil for 20 min on medium flame, keep the lid slightly open.",
+    "Meanwhile make your sauce: 200g low fat paneer, 4 cloves of garlic (8 is super garlicky!!), 1 red chilli (3 is recommending in the original recipe), 1/4 tsp salt, 200ml milk, Blend it.",
+    "Once the pasta absorbs majority of the water, add the sauce to the pasta and cook it on low flame for about 5 to 10 min.",
+    "Finally sprinkle some oregano."
+  ],
+  "assumptions": [
+    "The caption credits @gskcooks2k23 for the original recipe.",
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

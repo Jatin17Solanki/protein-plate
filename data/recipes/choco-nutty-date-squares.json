@@ -1,0 +1,114 @@
+{
+  "id": "choco-nutty-date-squares",
+  "title": "Choco Nutty Date Squares",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcqXe6kThP6/",
+    "platform": "instagram",
+    "creator": "bellas_vegan_adventures",
+    "creator_url": "https://www.instagram.com/bellas_vegan_adventures/",
+    "ref": "batches/2026-10-21-batch2.txt#317"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanut_butter",
+    "dark_chocolate",
+    "almonds"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 3,
+    "kcal": 161,
+    "carbs_g": 20,
+    "fat_g": 8,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per piece",
+    "protein_g": 3,
+    "kcal": 161,
+    "carbs_g": 20,
+    "fat_g": 8
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 7,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "7 Medjool dates"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp peanut butter"
+    },
+    {
+      "item": "pistachios",
+      "ingredient_id": "pistachios",
+      "qty": 10,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "10 roasted pistachios"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 10,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "10 roasted almonds"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 100,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "100g melted dark chocolate"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    }
+  ],
+  "steps": [
+    "7 Medjool dates, 3 tbsp peanut butter, 10 roasted pistachios (crushed), 10 roasted almonds (crushed), 100g melted dark chocolate 70%, A pinch of salt.",
+    "Refrigerate for at least an hour or till the chocolate hardens and enjoy."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

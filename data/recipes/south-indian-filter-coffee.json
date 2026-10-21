@@ -1,0 +1,103 @@
+{
+  "id": "south-indian-filter-coffee",
+  "title": "South Indian Filter Coffee",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-m8EV9Jroy/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#38"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "drink"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "filter coffee powder",
+      "ingredient_id": "coffee_brew",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "South Indian Coffee 1.5 tbsp (Select a coffee brand with 80-20 or 60-40 Coffee Chicory ratio) - Brands: Malgudi"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50 ml water"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Cinnamon"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1/2 tbsp sugar - Can adjust based on preference (I am using zero calorie sweetner)"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "3/4 cup boiling hot milk (for best taste use full fat milk)"
+    }
+  ],
+  "steps": [
+    "In your filter, add coffee, cinnamon and sugar. Then gently dab the pressing disc on the coffee mixture (Don’t need to press it hard).",
+    "Add boiling water on top of the disc and cover the filter with the lid. Let it brew for 30 mins atleast.",
+    "Once all the liquid collects in the bottom container, add it in a glass. Then add hot milk in the the glass from a height to create foam at the top.",
+    "Transfer your coffee from one glass to another 2-3 times before pouring it in your cup.",
+    "And its readyyyy."
+  ],
+  "assumptions": [
+    "Makes 1 cup. You need a South Indian coffee filter (the creator bought one on Swiggy Instamart for Rs 280).",
+    "The ingredient list also names zero-calorie sweetener as an alternative or note; it isn’t listed separately.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

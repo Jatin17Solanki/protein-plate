@@ -1,0 +1,125 @@
+{
+  "id": "protein-hot-chocolate",
+  "title": "Protein Hot Chocolate",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSkFVs2DO8y/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#14"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 13,
+    "kcal": 158,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 2)",
+    "protein_g": 13,
+    "kcal": 158,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 250,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "250 ml low-fat milk"
+    },
+    {
+      "item": "yeast protein powder",
+      "ingredient_id": "yeast_protein",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 15,
+      "type": "protein",
+      "as_written": "½ scoop @millesupergrain unflavoured yeast protein - Use my code - FIT10"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp unsweetened cocoa powder"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "85% dark chocolate (4-5 squares)"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1–1.5 tbsp zero-calorie sweetener (as per taste)"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of cinnamon"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "~100 ml water (to mix protein)"
+    }
+  ],
+  "steps": [
+    "Add milk to a pan and whisk in cocoa powder, salt and cinnamon.",
+    "Mix the yeast protein with water till smooth and pour it into the milk.",
+    "Add dark chocolate and sweetener, then let it slow cook for 10–15 minutes, stirring occasionally, until thick and glossy.",
+    "Serve hot and sip in on Christmas Eve."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

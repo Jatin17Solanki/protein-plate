@@ -1,0 +1,108 @@
+{
+  "id": "no-bake-chana-brownie-bars",
+  "title": "No-Bake Roasted Chana Brownie Bars",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZCsLm8zB_s/",
+    "platform": "instagram",
+    "creator": "homechefalison",
+    "creator_url": "https://www.instagram.com/homechefalison/",
+    "ref": "batches/2026-10-21-batch2.txt#356"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "cocoa_powder",
+    "dates"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 10,
+    "kcal": 380,
+    "carbs_g": 72,
+    "fat_g": 6,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bar (makes 4)",
+    "protein_g": 10,
+    "kcal": 380,
+    "carbs_g": 72,
+    "fat_g": 6
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "roasted chana",
+      "ingredient_id": "roasted_chana",
+      "qty": 110,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "110g Roasted Channa"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g soaked dates"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 30,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "30g cocoa powder"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50ml water"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 30,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "(30g) melted dark chocolate"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "(10g) almonds"
+    }
+  ],
+  "steps": [
+    "110g Roasted Channa, 200g soaked dates (I didn’t soak mine), 30g cocoa powder, 50ml water.",
+    "Blend it to a thick paste, Transfer it to a container and press it down well. Then top it up with the (30g) melted dark chocolate, sprinkle over (10g) almonds.",
+    "Refrigerate it for an hour and then split it into 4 bars."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "high-protein-paneer-roti",
+  "title": "High-Protein Paneer Roti",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMK0Qm5xgYd/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#86"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 225,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per 2 rotis (makes 2–3)",
+    "protein_g": 25,
+    "kcal": 225,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g soft low fat paneer (homemade) (Comment “paneer” for the recipe to get it in your dms)"
+    },
+    {
+      "item": "whole-wheat flour (atta)",
+      "ingredient_id": "wheat_flour",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "3-4 tbsp of whole wheat flour"
+    }
+  ],
+  "steps": [
+    "Crush/grate paneer and add 2 tbsp flour. Start kneading the dough and then add 1-2 tbsp of flour again.",
+    "It will take you 6-7 mins to make the dough soft and well combined. Absolutely no water is required to knead this dough as homemade paneer reatins a little water.",
+    "Divide the dough into equal balls and start rolling into rotis.",
+    "Cook them like normal rotis on a tawa and cook on low flame.",
+    "Apply some ghee on your rotis once off the flame and enjoy with sabzis/curries.",
+    "MOST IMPORTANT TIP - Apply oil on your rolling board so that this roti does not tear apart while rolling."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

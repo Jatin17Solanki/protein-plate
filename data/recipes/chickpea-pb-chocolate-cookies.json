@@ -1,0 +1,122 @@
+{
+  "id": "chickpea-pb-chocolate-cookies",
+  "title": "Chickpea Peanut Butter Chocolate Cookies",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdLQKcNTe_k/",
+    "platform": "instagram",
+    "creator": "marco.madewell",
+    "creator_url": "https://www.instagram.com/marco.madewell/",
+    "ref": "batches/2026-10-21-batch2.txt#314"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 5,
+    "kcal": 113,
+    "carbs_g": 16,
+    "fat_g": 4,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per cookie (makes 10)",
+    "protein_g": 5,
+    "kcal": 113,
+    "carbs_g": 16,
+    "fat_g": 4
+  },
+  "protein_working": [],
+  "servings": 10,
+  "ingredients": [
+    {
+      "item": "chickpeas (chole)",
+      "ingredient_id": "chickpeas",
+      "qty": 400,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "400g soaked chickpeas"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp peanut butter"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp honey"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla extract"
+    },
+    {
+      "item": "baking powder",
+      "ingredient_id": "baking_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp baking powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 30,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "30g dark chocolate chips"
+    }
+  ],
+  "steps": [
+    "To a blender add, 400g soaked chickpeas (soaked weight), 3 tbsp peanut butter, 1.5 tbsp honey, 1 tsp vanilla extract, 1 tsp baking powder, 1/2 tsp salt.",
+    "Blend everything nicely until smooth.",
+    "Then add, 30g dark chocolate chips.",
+    "Mix the chocolate chips in nicely.",
+    "Now divide the mixture and shape it into 10 cookies.",
+    "Air fry at 170°C for 12 min.",
+    "Take them out, let them cool slightly and they’re ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 4 g fibre per cookie."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

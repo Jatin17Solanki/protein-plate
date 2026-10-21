@@ -1,0 +1,176 @@
+{
+  "id": "methi-khakra-sprouts-chaat",
+  "title": "Methi Khakra Sprouts Chaat",
+  "source": {
+    "url": "https://www.instagram.com/reel/DKwj4sMTCxD/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#105"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "sprouts",
+    "khakra"
+  ],
+  "tags": [
+    "chaat",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 12,
+    "kcal": 280,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 12,
+    "kcal": 280,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "methi khakra",
+      "ingredient_id": "khakra",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1.5 whole wheat methi Khakras"
+    },
+    {
+      "item": "moong sprouts",
+      "ingredient_id": "sprouts",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g boiled sprouts"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g greek yogurt"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 roasted crushed peanuts"
+    },
+    {
+      "item": "sev",
+      "ingredient_id": "sev",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sev"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion"
+    },
+    {
+      "item": "green chutney",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp green chutney"
+    },
+    {
+      "item": "imli (sweet tamarind) chutney",
+      "ingredient_id": "imli_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp imli chutney"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Jeera Powder"
+    },
+    {
+      "item": "rock salt",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Rock Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    }
+  ],
+  "steps": [
+    "Break the khakras and add boiled sprouts on top.",
+    "Whisk the yogurt with some water to make it thinner and pour it over your khakras and sprouts.",
+    "Add rest of the ingredients on top to assemble and eat immediately to avoid soggy khakras."
+  ],
+  "assumptions": [
+    "A quick assembly with no cooking.",
+    "The creator’s imli chutney is sugar-free.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

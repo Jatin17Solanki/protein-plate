@@ -1,0 +1,195 @@
+{
+  "id": "healthy-paneer-cheesecake-tub",
+  "title": "Healthy Paneer Cheesecake Tub",
+  "source": {
+    "url": "https://www.instagram.com/reel/DckZ8SmzIug/",
+    "platform": "instagram",
+    "creator": "salonikukreja",
+    "creator_url": "https://www.instagram.com/salonikukreja/",
+    "ref": "batches/2026-10-21-batch2.txt#318"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "dark_chocolate",
+    "cream_cheese"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 9,
+    "kcal": 331,
+    "carbs_g": 24,
+    "fat_g": 23,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 6)",
+    "protein_g": 9,
+    "kcal": 331,
+    "carbs_g": 24,
+    "fat_g": 23
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "digestive biscuits",
+      "section": "base",
+      "ingredient_id": "digestive_biscuits",
+      "qty": 3,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "⅓ cup (40g or 3 pieces) digestive biscuits"
+    },
+    {
+      "item": "butter",
+      "section": "base",
+      "ingredient_id": "butter",
+      "qty": 20,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "20g melted butter"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "cheesecake filling",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "⅔ cup (150g) low-fat paneer"
+    },
+    {
+      "item": "cream cheese",
+      "section": "cheesecake filling",
+      "ingredient_id": "cream_cheese",
+      "qty": 170,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "¾ cup (170g) cream cheese"
+    },
+    {
+      "item": "honey",
+      "section": "cheesecake filling",
+      "ingredient_id": "honey",
+      "qty": 60,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "3 tbsp (60g) honey"
+    },
+    {
+      "item": "instant coffee",
+      "section": "cheesecake filling",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "½ tsp (1g) coffee powder"
+    },
+    {
+      "item": "skimmed milk",
+      "section": "cheesecake filling",
+      "ingredient_id": "milk_skimmed",
+      "qty": 30,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "2 tbsp (30ml) skim milk"
+    },
+    {
+      "item": "vanilla extract",
+      "section": "cheesecake filling",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla extract"
+    },
+    {
+      "item": "dark chocolate",
+      "section": "cheesecake filling",
+      "ingredient_id": "dark_chocolate",
+      "qty": 100,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "½ cup (100g) melted dark chocolate"
+    },
+    {
+      "item": "salt",
+      "section": "cheesecake filling",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "dark chocolate",
+      "section": "optional chocolate ganache",
+      "ingredient_id": "dark_chocolate",
+      "qty": 50,
+      "unit": "g",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "½ cup (50g) dark chocolate"
+    },
+    {
+      "item": "fresh cream",
+      "section": "optional chocolate ganache",
+      "ingredient_id": "cream",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "¼ cup (50g) heavy cream"
+    },
+    {
+      "item": "butter",
+      "section": "optional chocolate ganache",
+      "ingredient_id": "butter",
+      "qty": 15,
+      "unit": "g",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "1 tbsp (15g) butter"
+    },
+    {
+      "item": "cocoa powder",
+      "section": "optional chocolate ganache",
+      "ingredient_id": "cocoa_powder",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "cocoa powder"
+    }
+  ],
+  "steps": [
+    "Crush ⅓ cup (40g or 3 pieces) digestive biscuits into a fine powder, Add 20g melted butter and mix well, Press the mixture firmly into the bottom of your tub to create an even base.",
+    "Add to a blender ⅔ cup (150g) low-fat paneer, ¾ cup (170g) cream cheese, 3 tbsp (60g) honey, ½ tsp (1g) coffee powder, 2 tbsp (30ml) skim milk, 1 tsp vanilla extract, ½ cup (100g) melted dark chocolate, A pinch of salt, Blend until completely smooth and creamy.",
+    "(I used 60ml of milk, but it made the filling a little runny, so I’d recommend sticking to 30ml.)",
+    "Pour the cheesecake filling over the biscuit base and spread it evenly, Let it set in the fridge for at least 1 hour.",
+    "½ cup (50g) dark chocolate, ¼ cup (50g) heavy cream, 1 tbsp (15g) butter.",
+    "Pour the ganache over the cheesecake and let it set.",
+    "Or, keep it lighter and simply dust some cocoa powder over the top like I did.",
+    "And your Healthy Cheesecake Tub is ready!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

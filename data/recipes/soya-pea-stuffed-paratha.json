@@ -1,0 +1,176 @@
+{
+  "id": "soya-pea-stuffed-paratha",
+  "title": "Soya Pea Stuffed Paratha",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSCBGKUjJX2/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#2"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "roti"
+  ],
+  "tags": [
+    "paratha"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 350,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per paratha with Greek yogurt",
+    "protein_g": 25,
+    "kcal": 350,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 25,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "25 g soya chunks (boiled)"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3 tbsp boiled peas"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped onion"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 chopped garlic cloves"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp amchur"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of chopped dhania"
+    },
+    {
+      "item": "roti / chapati",
+      "ingredient_id": "roti",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "Dough for 1 big roti"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee for cooking"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "to serve",
+      "ingredient_id": "greek_yogurt",
+      "qty": 85,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "85g greek yogurt"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks, squeeze out excess water and grind them coarsely with boiled peas.",
+    "Add onion, green chilli, garlic, all the masalas, salt and dhania.",
+    "Mix everything into a tight, flavour-packed stuffing.",
+    "Stuff it inside a big roti and seal properly. Optionally top with kalaunji seeds.",
+    "Roast on a hot tawa using just 1 tsp ghee till golden on both sides.",
+    "Serve hot with 85g greek yogurt + aamla ka achaar."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

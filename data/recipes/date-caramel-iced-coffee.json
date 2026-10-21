@@ -1,0 +1,121 @@
+{
+  "id": "date-caramel-iced-coffee",
+  "title": "Date Salted Caramel Iced Coffee",
+  "source": {
+    "url": "https://www.instagram.com/reel/DCOsG9hIw2n/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#149"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "drink"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk",
+    "dates"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "dates",
+      "section": "date salted caramel",
+      "ingredient_id": "dates",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "6-7 dates soaked in hot water (30-40ml) for 30 mins"
+    },
+    {
+      "item": "salt",
+      "section": "date salted caramel",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp salt (can add more based on preference)"
+    },
+    {
+      "item": "cinnamon",
+      "section": "date salted caramel",
+      "ingredient_id": "cinnamon",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "1/4 tsp cinnamon powder (optional but tastes amazing)"
+    },
+    {
+      "item": "vanilla extract",
+      "section": "date salted caramel",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla essence"
+    },
+    {
+      "item": "instant coffee",
+      "section": "coffee",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1-1.5tbsp of instant coffee"
+    },
+    {
+      "item": "milk",
+      "section": "coffee",
+      "ingredient_id": "milk",
+      "qty": 150,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "150ml of chilled double toned milk"
+    }
+  ],
+  "steps": [
+    "Blend all the above ingredients until smooth. Use the water in which the dates were soaked. No need to add extra water.",
+    "Take 2 tsps of the caramel we prepared (can add more if you prefer your coffee sweeter) and store the rest of the caramel in fridge.",
+    "Add 1-1.5tbsp of instant coffee (I am using Nescafe gold, you can alter qty of coffee based on preference)",
+    "Using a frother, whip the coffee and date caramel until it doubles. Add 2 tsps of water to froth well.",
+    "Then add lots of ice and pour 150ml of chilled double toned milk. Mix it well and its ready."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

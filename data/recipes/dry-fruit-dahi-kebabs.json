@@ -1,0 +1,134 @@
+{
+  "id": "dry-fruit-dahi-kebabs",
+  "title": "Dry Fruit Dahi Kebabs",
+  "source": {
+    "url": "https://www.instagram.com/reel/DP1GNs8jOqJ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#52"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 103,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per tikki (makes 6–7)",
+    "protein_g": null,
+    "kcal": 103,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1 Cup Hung Curd"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g grated low fat paneer"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Dhaniya"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsp chopped casews"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "almonds"
+    },
+    {
+      "item": "dried cranberries",
+      "ingredient_id": "cranberries",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped cranberries"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp kasturi methi"
+    },
+    {
+      "item": "oat flour",
+      "ingredient_id": "oat_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp oat flour"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Onion Thinly sliced - Caramalize on low falme until brownish"
+    }
+  ],
+  "steps": [
+    "Spices - Salt, 1/4 tsp pepper, 1/2 tsp red chilli powder, 1/2 tsp garam masala, 1/2 tsp aamchur, 1/2 tsp jeera powder.",
+    "Crust - 1.5 slices whole wheat bread + 3-4 walnuts - Grind to make fine particles.",
+    "Mix all the above in a bowl and roll into patties.",
+    "Coat with the crumb mix we prepared and pan fry wtith very litrle oil until crispy from all sides."
+  ],
+  "assumptions": [
+    "Episode 4 of the creator’s series."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

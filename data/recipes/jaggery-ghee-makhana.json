@@ -1,0 +1,99 @@
+{
+  "id": "jaggery-ghee-makhana",
+  "title": "Jaggery Ghee Makhana",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8Mgoxup4FJ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#126"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "makhana"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g Makhana"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 18,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "18 Jaggery Powder"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 4,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "4g (1 tsp) Ghee"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    }
+  ],
+  "steps": [
+    "Roast makhanas on slow flame until Crunchy.",
+    "Now add 1 tbsp ghee in a kadhai along with jaggery powder.",
+    "Keep stirring continuously until a jaggery syrup forms (make sure gas is on low flame).",
+    "Then add salt and stir. Add the makhanas and mix well until each makhana is coated.",
+    "Let it sit under the fan for 5-7 minutes until its crunchy and break the makhanas as it will all be stuck together."
+  ],
+  "assumptions": [
+    "The caption says “18 Jaggery Powder”, most likely 18 g."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

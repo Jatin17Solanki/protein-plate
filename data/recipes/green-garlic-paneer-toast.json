@@ -1,0 +1,194 @@
+{
+  "id": "green-garlic-paneer-toast",
+  "title": "Green Garlic Paneer Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3pmPaHpaFa/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#174"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "sourdough"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "garlic"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "butter"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "5-6 cloves of garlic"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "oregano"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "fresh peas"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "spinach"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "basil"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onion"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mushrooms"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "cherry tomatoes"
+    },
+    {
+      "item": "sourdough bread",
+      "ingredient_id": "sourdough",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices of whole wheat/multigrain/ sourdough"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "siracha"
+    }
+  ],
+  "steps": [
+    "For the Green Base: Add some garlic butter to a pan. Then add 5-6 cloves of garlic, pepper, oregano, mixed herbs. Sauté well until the garlic is golden brown and add fresh peas to this. Cook for 3-4 mins and add a handful of freshly chopped spinach. Cook for 1 min and add freshly chopped basil. Now add this to a blender, add 150g low fat paneer, a tiny dash of water, salt and 1/2 tsp red chilli powder.",
+    "For the topping: Add garlic butter to a pan. Then add some chopped onion. Sauté for 2 mins and add mushrooms. Let it cook for 5 mins until they are caramelised and beautifully brown. Now add salt, red chilli powder, mixed herbs and cherry tomatoes chopped in half and just mix for 30 seconds and turn off the flame. Also add some fresh basil along with the cherry tomatoes.",
+    "Assemble: Take 2 slices of whole wheat/multigrain/ sourdough bread and apply this greek paste on the toasted bread. Add the toppings we prepared. Sprinkle oregano and drizzle siracha/hot sauce."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

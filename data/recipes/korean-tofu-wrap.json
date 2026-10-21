@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/Da17e6NsaK1/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#41"
   },
   "status": "complete",
@@ -27,8 +27,8 @@
     "global",
     "quick"
   ],
-  "dish_group": null,
-  "variant_label": null,
+  "dish_group": "tofu-rice-paper-roll",
+  "variant_label": "Korean wrap",
   "per_portion": {
     "protein_g": 24.8,
     "kcal": 390,

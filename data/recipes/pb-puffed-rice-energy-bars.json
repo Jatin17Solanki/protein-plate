@@ -1,0 +1,130 @@
+{
+  "id": "pb-puffed-rice-energy-bars",
+  "title": "Peanut Butter Puffed Rice Energy Bars",
+  "source": {
+    "url": "https://www.instagram.com/reel/Db4h0CLzTIY/",
+    "platform": "instagram",
+    "creator": "boldbakingnation",
+    "creator_url": "https://www.instagram.com/boldbakingnation/",
+    "ref": "batches/2026-10-21-batch2.txt#324"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanut_butter",
+    "dark_chocolate",
+    "pumpkin_seeds"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 6,
+    "kcal": 245,
+    "carbs_g": 22,
+    "fat_g": 16,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bar (makes 4)",
+    "protein_g": 6,
+    "kcal": 245,
+    "carbs_g": 22,
+    "fat_g": 16
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 30,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "30g raisins"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50ml hot water"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "grams": 32,
+      "type": "pantry",
+      "as_written": "2 tbsp unsweetened peanut butter"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "a pinch of salt"
+    },
+    {
+      "item": "puffed rice",
+      "ingredient_id": "puffed_rice",
+      "qty": 1.5,
+      "unit": "cup",
+      "grams": 25,
+      "type": "grain",
+      "as_written": "1½ cups puffed rice"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "grams": 20,
+      "type": "pantry",
+      "as_written": "2 tbsp pumpkin seeds"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 85,
+      "type": "pantry",
+      "as_written": "½ cup melted 70% dark chocolate"
+    }
+  ],
+  "steps": [
+    "In a bowl, soak 30g raisins in 50ml hot water for 30 minutes. Now add 2 tbsp unsweetened peanut butter (32g) and salt a pinch of salt, Mash it and mix together if you like it chunkly or you can blend it if you like it smooth.",
+    "Add 1½ cups puffed rice (25g) and 2 tbsp pumpkin seeds (20g), Mix it all well.",
+    "Transfer it to a container liner with parchment paper ans press it down nicely. Transfer the mixture to a container lined with parchment paper and press it down firmly.",
+    "Top with ½ cup melted 70% dark chocolate (85g). Refrigerate for at least 1 hour. Once set, it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The caption writes “245g” for calories; we read it as 245 kcal."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "lehsuni-dhaniya-paneer",
+  "title": "Lehsuni Dhaniya Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeqLxQYzpU-/",
+    "platform": "instagram",
+    "creator": "arorashoaib",
+    "creator_url": "https://www.instagram.com/arorashoaib/",
+    "ref": "batches/2026-10-21-batch2.txt#290"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 22,
+    "kcal": 390,
+    "carbs_g": 18,
+    "fat_g": 25,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 2)",
+    "protein_g": 22,
+    "kcal": 390,
+    "carbs_g": 18,
+    "fat_g": 25
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp mustard oil"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low-fat paneer"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 finely chopped onions"
+    },
+    {
+      "item": "chilli garlic paste",
+      "ingredient_id": "ginger_garlic_chilli",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp chilli garlic paste"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1 handful fresh coriander"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1¼ tsp coriander powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp yogurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100ml water"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp brown sugar"
+    },
+    {
+      "item": "fresh cream",
+      "ingredient_id": "cream",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp fresh cream"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "½ handful of fresh coriander"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat, add 2 tbsp mustard oil. Once the oil heats up, add 200g low-fat paneer (whole block). Fry until golden brown on both sides, then set it aside.",
+    "In the same oil, add 2 finely chopped onions and sauté until golden brown. In the meantime, chop the fried paneer into cubes.",
+    "Once the onions brown, add 1 tsp chilli garlic paste and sauté for 2 minutes. Now add 1 handful fresh coriander, 1 chopped green chilli, ½ tsp turmeric powder, 1 tsp Kashmiri red chilli powder, 1¼ tsp coriander powder, 1 tsp salt, Mix everything really well until the spices are nicely combined.",
+    "Now add 3 tbsp yogurt and 100ml water. Give it a good stir. Add the fried paneer cubes back into the pan. Sprinkle in 1 tsp brown sugar and add 2 tbsp fresh cream.",
+    "Mix everything well and let it simmer until the gravy thickens and coats the paneer beautifully.",
+    "Garnish with ½ handful of fresh coriander, and it’s ready to serve!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

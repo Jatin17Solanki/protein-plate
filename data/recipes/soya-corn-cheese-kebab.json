@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/DbqLxfZs5HG/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#39"
   },
   "status": "complete",
@@ -36,7 +36,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 30,
     "kcal": 470
   },
@@ -249,7 +249,7 @@
   ],
   "assumptions": [
     "'1/2 ts' read as ½ tsp.",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

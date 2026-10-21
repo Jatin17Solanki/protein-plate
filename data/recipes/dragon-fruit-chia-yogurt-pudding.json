@@ -1,0 +1,103 @@
+{
+  "id": "dragon-fruit-chia-yogurt-pudding",
+  "title": "Dragon Fruit Chia Yogurt Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_X7_7rS-y8/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#47"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "breakfast_bowl"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "chia_seeds"
+  ],
+  "tags": [
+    "dessert",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "dragon fruit",
+      "ingredient_id": "dragon_fruit",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "3/4 Cup Red Dragon Fruit (Medium sized)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g Greek Yogurt Plain"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 18,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "18g Chia seeds"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 2,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "2-3 drops Vanilla essence"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Sweetner of Choice 1 tsp (I used Monkfruit Extract)"
+    }
+  ],
+  "steps": [
+    "Blend together dragon fruit, greek yogurt, sweetner and vanilla essence. Add chia seeds to it and mix well. Refrigerate for 6-7 hours and its ready to eat."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "cucumber-coconut-water-cooler",
+  "title": "Cucumber Coconut Water Cooler",
+  "source": {
+    "url": "https://www.instagram.com/reel/DH0oi6XIcRS/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#127"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "drink"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "chia_seeds",
+    "cucumber",
+    "coconut_water"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Medium sized cucumbers"
+    },
+    {
+      "item": "coconut water",
+      "ingredient_id": "coconut_water",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Coconut Water"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mint leaves"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chaat Masala"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Sweetner of Choice (1-2 tbsp)"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 lemon juice"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp chia seeds soaked"
+    }
+  ],
+  "steps": [
+    "Blend everything together, strain if needed and pour it in a glass with soaked chia seeds and 2-3 slices of cucumber."
+  ],
+  "assumptions": [
+    "Makes 2 glasses. Serve over ice cubes."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

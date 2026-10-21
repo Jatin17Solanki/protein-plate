@@ -1,0 +1,143 @@
+{
+  "id": "sabudana-paneer-sandwich",
+  "title": "Sabudana Paneer Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DA5wNZuqd85/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#151"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "potato",
+    "peanuts"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "sabudana (tapioca pearls)",
+      "ingredient_id": "sabudana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 Cup Sabudana (Soaked Overnight)"
+    },
+    {
+      "item": "potato",
+      "ingredient_id": "potato",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1.5 Boiled and grated Potato (1 big, 0.5 small)"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp crushed roasted peanuts"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Coriander"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 Green Chillies"
+    },
+    {
+      "item": "rock salt",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Sendha Namak/ Salt"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Jeera"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp pepper"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g Low fat paneer slice"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    }
+  ],
+  "steps": [
+    "Mix soaked sabudana, grated boiled potato, crushed peanuts, coriander, green chillies, sendha namak, jeera, pepper until well combined.",
+    "Brush a sandwich maker with very little oil and spread a thin layer in rectangular shape of the sabudana mixture.",
+    "Now add the paneer slice and sprinkle sendha namak and pepper.",
+    "Close it with another slice of the sabudana mixture.",
+    "Toast the sandwich on low flame so that it cooks well from the inside. It will take 8-10 mins.",
+    "Open the toaster when the sandwich is almost cooked and apply ghee on both sides and toast again until golden brown and crispy.",
+    "Serve with green chutney and dig in!"
+  ],
+  "assumptions": [
+    "Use sendha namak or regular salt."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

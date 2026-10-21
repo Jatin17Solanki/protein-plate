@@ -41,7 +41,7 @@
   "assumptions": [
     "Title from the batch file.",
     "Meal types are our guess.",
-    "Main protein set by Jatin."
+    "Main protein set by hand."
   ],
   "missing": [
     "Written recipe (no caption; the video is the recipe)"

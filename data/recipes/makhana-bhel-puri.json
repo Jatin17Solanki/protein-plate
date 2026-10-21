@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/DZUuq_FTJoI/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#48"
   },
   "status": "complete",
@@ -38,7 +38,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 16.5,
     "kcal": 270
   },
@@ -161,7 +161,8 @@
   ],
   "assumptions": [
     "Skyr ('high protein greek yogurt') is listed as skyr.",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion.",
+    "The imli chutney is made with zero-calorie sweetener."
   ],
   "missing": [],
   "added_at": "2026-10-20",

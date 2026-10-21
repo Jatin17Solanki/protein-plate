@@ -1,0 +1,107 @@
+{
+  "id": "kit-kat-protein-shake",
+  "title": "Low-Calorie Kit Kat Protein Shake",
+  "source": {
+    "url": "https://www.instagram.com/reel/Cdma_LSIJiS/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#370"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 274,
+    "carbs_g": 26,
+    "fat_g": 12,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 30,
+    "kcal": 274,
+    "carbs_g": 26,
+    "fat_g": 12
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "almond or oat milk",
+      "ingredient_id": "almond_milk",
+      "qty": 120,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "120ml almond / oat milk"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g chocolate whey"
+    },
+    {
+      "item": "Kit Kat bar",
+      "ingredient_id": "kit_kat",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 kit kat bars"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 5,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "5g cocoa powder"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 30,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "30g unflavoured epigamia greek yogurt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100ml water"
+    }
+  ],
+  "steps": [
+    "If you love Kit Kat this one is for you!",
+    "120ml almond / oat milk, 30g chocolate whey, 2 kit kat bars, 5g cocoa powder, 30g unflavoured epigamia greek yogurt, Ice cubes / 100ml water.",
+    "Cow's milk is another alternative to almond milk. However the shake will amount to approximately 320 calories."
+  ],
+  "assumptions": [
+    "Blend with ice cubes or 100 ml water.",
+    "Meal types are our guess.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

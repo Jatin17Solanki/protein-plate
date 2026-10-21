@@ -20,7 +20,7 @@
   ],
   "supporting_proteins": [
     "avocado",
-    "curd"
+    "yogurt"
   ],
   "tags": [
     "sandwich_toast",
@@ -89,8 +89,8 @@
       "as_written": "1 green chilly"
     },
     {
-      "item": "yogurt (curd, marinade)",
-      "ingredient_id": "curd",
+      "item": "yogurt (marinade)",
+      "ingredient_id": "yogurt",
       "qty": 1.5,
       "unit": "tbsp",
       "type": "dairy",

@@ -1,0 +1,116 @@
+{
+  "id": "chocolate-overnight-oats-walnut",
+  "title": "Chocolate Overnight Oats with Walnuts and Cranberries",
+  "source": {
+    "url": "https://www.instagram.com/reel/C2HuCSGyqb8/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#28"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "breakfast_bowl"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "oats"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "section": "coarse powder",
+      "ingredient_id": "oats",
+      "qty": 35,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "35g Oats"
+    },
+    {
+      "item": "chia seeds",
+      "section": "coarse powder",
+      "ingredient_id": "chia_seeds",
+      "qty": 7,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "7g Chia seeds"
+    },
+    {
+      "item": "cocoa powder",
+      "section": "coarse powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp cocoa powder (good quality)"
+    },
+    {
+      "item": "cinnamon",
+      "section": "coarse powder",
+      "ingredient_id": "cinnamon",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "optional": true,
+      "as_written": "Cinnamon powder 1/4 tsp (optional)"
+    },
+    {
+      "item": "sugar",
+      "section": "coarse powder",
+      "ingredient_id": "sugar",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1/4 tsp sugar (optional)"
+    },
+    {
+      "item": "whey protein",
+      "section": "coarse powder",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 heaping scoop whey protein (mine has 25g protein/ scoop)"
+    }
+  ],
+  "steps": [
+    "Blend well and add 100-120 ml low fat milk. Don’t add too much milk. It should be fudgy and not milky. You should be able to easily mix it but it should not fall off the spoon that easy.",
+    "Now add chopped walnuts and cranberries and refrigerate overnight.",
+    "Top with fresh strawberries and bananas (optional) in the morning and dig in."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

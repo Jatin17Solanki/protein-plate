@@ -1,0 +1,134 @@
+{
+  "id": "low-cal-protein-milk-cake",
+  "title": "Low-Cal High-Protein Milk Cake",
+  "source": {
+    "url": "https://www.instagram.com/reel/DP6M1iEE7iG/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#51"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "milk",
+    "whey_protein"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 5.4,
+    "kcal": 97,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per piece (makes 10)",
+    "protein_g": 5.4,
+    "kcal": 97,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 10,
+  "ingredients": [
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 0.5,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "Half litre toned milk"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat homemade paneer crumbled"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp elaichi powder"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "6-7 Dates soled in water"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "stevia/monkfruit sweetner"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 15,
+      "type": "protein",
+      "optional": true,
+      "as_written": "Half scoop unflavored protein powder (optional a can replace with 2 tbsp milk powder)"
+    },
+    {
+      "item": "pistachios",
+      "ingredient_id": "pistachios",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Chopped pista for garnish"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1/2 Tbsp ghee"
+    }
+  ],
+  "steps": [
+    "Boil milk in a non stick kadhai and let it simmer until it reduces to half. Keep mixing every 3-4 mins or it will stick.",
+    "Add paneer, elachi powder, protein powder and dates paste.",
+    "Mix well and keep cooking for 5-6 mins on low flame and stir in between.",
+    "Add ghee and mix again. Cook for another 5 mins until you see the mixture leaving sides of the kadhai and becoming brownish.",
+    "Set in a greased mould and garnish with pista (optional step)",
+    "Refrigerate for 30 mins and its ready!! Cut into 10 pieces and enjoy."
+  ],
+  "assumptions": [
+    "Episode 5 of the creator’s series.",
+    "Makes 10 pieces (4 vertical cuts and 1 horizontal cut).",
+    "The dates are soaked in water and blended into a paste; they are mainly there for colour.",
+    "The ingredient list also names milk powder as an alternative or note; it isn’t listed separately.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

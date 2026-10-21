@@ -1,0 +1,108 @@
+{
+  "id": "hazelnut-protein-iced-coffee",
+  "title": "Hazelnut Protein Iced Coffee",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRbf5KEjFPx/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#37"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "drink"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "yeast protein powder",
+      "section": "here’s how it goes",
+      "ingredient_id": "yeast_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop Mille’s Bio-Fermented Coffee Hazelnut Yeast Protein @millesupergrain - Use my code FIT10 to get a 10% discount on the website"
+    },
+    {
+      "item": "milk",
+      "section": "here’s how it goes",
+      "ingredient_id": "milk",
+      "qty": 250,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "250ml milk or cold water (you can also use low-fat coconut milk for a coconut hazelnut iced coffee"
+    },
+    {
+      "item": "salt",
+      "section": "here’s how it goes",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "a tiny pinch of salt"
+    },
+    {
+      "item": "instant coffee",
+      "section": "here’s how it goes",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1 coffee shot (only if you like it stronger)"
+    },
+    {
+      "item": "cinnamon",
+      "section": "here’s how it goes",
+      "ingredient_id": "cinnamon",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "a dash of cinnamon"
+    }
+  ],
+  "steps": [
+    "Mix (or blend in a shaker) till frothy and pour over a mountain of ice.",
+    "Sip Sip and realise your regular iced coffee is officially unemployed."
+  ],
+  "assumptions": [
+    "The ingredient list also names water, coconut milk and coconut (fresh) as alternatives or notes; they aren’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

@@ -1193,6 +1193,12 @@ body.has-hint .home { padding-bottom: 140px; }
 .review-links { display: flex; flex-wrap: wrap; gap: 8px; }
 .review-links .chip-btn { text-decoration: none; }
 @media (min-width: 1024px) { .review-page { max-width: 800px; } }
+
+/* ======================= Archive page (/archive/) — reuses the review cards ======================= */
+.archive-group { display: flex; flex-direction: column; gap: 10px; }
+.archive-group + .archive-group { margin-top: 8px; }
+.archived-note { margin: 0; }
+.archived-note a { color: var(--text); }
 @media (min-width: 600px) {
   /* .chip-row becomes display: contents on Home from 600 px; the review filters stay one wrapping row. */
   .review-chips { display: flex; flex-wrap: wrap; overflow: visible; }

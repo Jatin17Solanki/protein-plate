@@ -1,0 +1,153 @@
+{
+  "id": "rajasthani-lahsun-chutney",
+  "title": "Rajasthani Lahsun Chutney",
+  "source": {
+    "url": "https://www.instagram.com/reel/Ddob9eBzAFQ/",
+    "platform": "instagram",
+    "creator": "marwadi_rasoei",
+    "creator_url": "https://www.instagram.com/marwadi_rasoei/",
+    "ref": "batches/2026-10-21-batch2.txt#308"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sauce_dip"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "yogurt",
+    "coriander_powder",
+    "cumin_seeds"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 5,
+    "kcal": 590,
+    "carbs_g": 20,
+    "fat_g": 56
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp coriander powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 75,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "75ml water"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 10,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "10 garlic cloves"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4 tbsp oil"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1.5 tbsp yogurt"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "½ handful fresh coriander"
+    }
+  ],
+  "steps": [
+    "To a bowl add 1 tbsp red chilli powder, ½ tsp turmeric powder, 1 tbsp coriander powder, ½ tsp salt, 75ml water.",
+    "Mix everything really well to make a nice smooth paste and set it aside.",
+    "Now using a mortar and pestle or grinder, crush 10 garlic cloves, 1 tsp cumin seeds.",
+    "To a pan on medium heat, add 4 tbsp oil.",
+    "Once the oil is hot, add the crushed garlic and cumin seeds and fry for around 30 seconds.",
+    "Now lower the heat and pour in the chilli mixture along with 1.5 tbsp yogurt.",
+    "Add ½ handful fresh coriander and mix everything really well.",
+    "Cook for 2 minutes and your Rajasthani Lahsun Chutney is ready!"
+  ],
+  "assumptions": [
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

@@ -22,12 +22,12 @@ export interface ReviewItem {
 
 /**
  * Flagged recipes, plus incomplete ones the data forgot to flag (shown as missing details). Video-only recipes are
- * complete as far as Jatin is concerned, and flags he accepted (`accepted_flags`) are decided: neither is listed.
+ * complete as far as Jatin is concerned, archived ones are out of the catalog, and flags he accepted (`accepted_flags`) are decided: neither is listed.
  */
 export function reviewItems(recipes: Recipe[]): ReviewItem[] {
   const order = (c: FlagCode) => FLAG_INFO.findIndex((f) => f.code === c);
   return recipes
-    .filter((recipe) => !recipe.video_only)
+    .filter((recipe) => !recipe.video_only && !recipe.archived)
     .map((recipe) => {
       const accepted = new Set<FlagCode>(recipe.accepted_flags ?? []);
       const flags = (recipe.flags ?? []).filter((f) => !accepted.has(f.code));

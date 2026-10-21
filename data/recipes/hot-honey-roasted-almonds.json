@@ -1,0 +1,101 @@
+{
+  "id": "hot-honey-roasted-almonds",
+  "title": "Hot Honey Roasted Almonds",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dbe19UTTwQ4/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/2026-10-21-batch2.txt#328"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "red_chilli_powder",
+    "honey"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 32,
+    "kcal": 997,
+    "carbs_g": 70,
+    "fat_g": 75
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup raw almonds"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp honey"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 1 cup raw almonds (150g), Dry roast for 8 minutes, stirring occasionally. Now push the almonds to the sides of the pan and reduce the heat to low, In the centre add 2 tbsp honey, 1 tsp red chilli powder, 1 tsp salt, Mix the honey and the masala’s really well, Toss the almonds in the honey mixture until evenly coated. Cook for another 2-3 minutes, stirring continuously, Spread the almonds in a single layer on parchment or baking paper. Refrigerate for 15-20 minutes until the coating hardens. Break apart if needed and enjoy!",
+    "Storage: Store in an airtight container for a quick, crunchy snack."
+  ],
+  "assumptions": [
+    "The creator also gives 19 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

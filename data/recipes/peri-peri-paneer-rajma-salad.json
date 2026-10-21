@@ -1,0 +1,190 @@
+{
+  "id": "peri-peri-paneer-rajma-salad",
+  "title": "Peri Peri Paneer Rajma Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DOs9JWnkaWa/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#10"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer",
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "salad_bowl",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 26,
+    "kcal": 440,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 26,
+    "kcal": 440,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g Low Fat Paneer (Homemade)"
+    },
+    {
+      "item": "kidney beans (rajma)",
+      "ingredient_id": "rajma",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g Boiled Rajma"
+    },
+    {
+      "item": "peri peri masala",
+      "ingredient_id": "peri_peri",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp Peri Peri Masala"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon Juice"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "cucumber"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onion"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "carrots"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "sauce",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Coriander"
+    },
+    {
+      "item": "pumpkin seeds",
+      "section": "sauce",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp pumpkin seeds"
+    },
+    {
+      "item": "green chilli",
+      "section": "sauce",
+      "ingredient_id": "green_chilli",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Chilli"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "sauce",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon Juice"
+    },
+    {
+      "item": "salt",
+      "section": "sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "sauce",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    }
+  ],
+  "steps": [
+    "Mix Paneer and Boiled Rajma with peri peri masala, salt and lemon juice.",
+    "Sauté for 5 mins until paneer is golden brown.",
+    "For the sauce, blend everything together, and mix with 1 more spoon of thick curd post blending if you like a thicker sauce.",
+    "Assemble the bowl with peri peri paneer and rajma, veggies and poir the sauce on top!!",
+    "To bump up the protein intake, I am adding 1 scoop of Oziva’s plant protein post workout! It’s super clean and causes NO bloating!"
+  ],
+  "assumptions": [
+    "Sweeten with 1 tsp honey or stevia.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

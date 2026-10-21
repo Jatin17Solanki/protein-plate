@@ -1,0 +1,103 @@
+{
+  "id": "low-cal-vietnamese-iced-coffee",
+  "title": "Low-Cal Vietnamese Iced Coffee",
+  "source": {
+    "url": "https://www.instagram.com/reel/C55wyIaNF6c/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#190"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "drink"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "condensed_milk",
+    "milk_skimmed"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "condensed milk",
+      "ingredient_id": "condensed_milk",
+      "qty": 35,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "35g condensed milk"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 20,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "20ml skimmed milk"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "mint leaves"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 75,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "75-80ml of water"
+    },
+    {
+      "item": "instant coffee",
+      "ingredient_id": "instant_coffee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp of coffee"
+    }
+  ],
+  "steps": [
+    "In a shaker, add 35g condensed milk (milkmaid) and 20ml skimmed milk. Add a few ice cubes and 4-5 mint leaves.",
+    "Also mix 75-80ml of water and 1 tbsp of coffee (can add more if you like it stronger). Add this coffee mixture in the condensed milk mixture and shake this well for 1 minute.",
+    "Serve it with more ice cubes and enjoy."
+  ],
+  "assumptions": [
+    "Serve with more ice cubes.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

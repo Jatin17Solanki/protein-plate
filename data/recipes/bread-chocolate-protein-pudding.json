@@ -1,0 +1,118 @@
+{
+  "id": "bread-chocolate-protein-pudding",
+  "title": "Bread Chocolate Protein Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbZoMA0Tnpm/",
+    "platform": "instagram",
+    "creator": "thejsfoodtales",
+    "creator_url": "https://www.instagram.com/thejsfoodtales/",
+    "ref": "batches/2026-10-21-batch2.txt#329"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 17,
+    "kcal": 330,
+    "carbs_g": 44,
+    "fat_g": 11,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 6)",
+    "protein_g": 17,
+    "kcal": 330,
+    "carbs_g": 44,
+    "fat_g": 11
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "milk buns",
+      "ingredient_id": "milk_buns",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 milk buns"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 700,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "700ml whole milk"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "⅓ cup cocoa powder"
+    },
+    {
+      "item": "custard powder",
+      "ingredient_id": "custard_powder",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "⅓ cup custard powder"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 40,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "¼ dark chocolate chips (40g)"
+    },
+    {
+      "item": "condensed milk",
+      "ingredient_id": "condensed_milk",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "½ cup condensed milk"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 2,
+      "unit": null,
+      "grams": 60,
+      "type": "protein",
+      "as_written": "2 scoops of protein powder"
+    }
+  ],
+  "steps": [
+    "To a pan add 2 milk buns, 700ml whole milk, ⅓ cup cocoa powder (30g), ⅓ cup custard powder (30g), ¼ dark chocolate chips (40g), ½ cup condensed milk (150g), Then break the buns and mix it nicely.",
+    "Cook it on low flame while stirring continuously until the mixture combines into a clumpy form. (It takes like 5 min)",
+    "Let this mixture cool down, Add 2 scoops of protein powder, blend it to a smooth and runny texture. (For the video, I divided the mixture into two equal batches and blended only one batch.)",
+    "Transfer this to desired ramekins or bowls and refrigerate for a few hours or overnight.",
+    "Finally, when it’s set - dust with cocoa powder. And it’s ready!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

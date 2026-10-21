@@ -84,7 +84,8 @@ for (const { file, recipe: r } of loadRecipes()) {
   }
   const manual = (r.flags ?? []).filter((f) => !AUTO.has(f.code));
   next.flags = [...autoFlags(next), ...manual];
-  if (next.flags.length) flagged.set(r.id, next.flags.map((f) => f.code));
+  // Archived recipes keep their flags (for if they come back) but are off the review list.
+  if (next.flags.length && !r.archived) flagged.set(r.id, next.flags.map((f) => f.code));
 
   const pretty = JSON.stringify(next, null, 2) + '\n';
   if (write) {

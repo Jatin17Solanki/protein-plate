@@ -1,0 +1,122 @@
+{
+  "id": "caramelised-banana-choco-yogurt-bowl",
+  "title": "Caramelised Banana Choco Crunch Yogurt Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbHmOCABPUX/",
+    "platform": "instagram",
+    "creator": "deliciousmartha",
+    "creator_url": "https://www.instagram.com/deliciousmartha/",
+    "ref": "batches/2026-10-21-batch2.txt#332"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "oats",
+    "banana",
+    "dark_chocolate"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 28,
+    "kcal": 500,
+    "carbs_g": 76,
+    "fat_g": 11,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 28,
+    "kcal": 500,
+    "carbs_g": 76,
+    "fat_g": 11
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "3 tbsp oats"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp of honey"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 banana"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 8,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "8g 70% dark chocolate"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "cinnamon"
+    },
+    {
+      "item": "high-protein yogurt",
+      "ingredient_id": null,
+      "qty": 220,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "220g high protien yogurt"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 1 tsp butter, 3 tbsp oats (30g), Drizzle 1 tbsp of honey, Add 1 banana, sliced, Caramelise for 5 min till the oats nicely stick to the banana - creating a ball, Set it aside.",
+    "To a bowl add 220g high protien yogurt, Now add the hot buttery banana oat balls, 8g 70% dark chocolate, Sprinkle some cinnamon, And it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 7 g fibre.",
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

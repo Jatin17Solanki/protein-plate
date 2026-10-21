@@ -72,3 +72,19 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-20 · protein-spaghetti · macros_basis_unclear → Jatin: macros are for the entire dish; ignore the "2 servings" hint · accepted_flags = macros_basis_unclear; servings stays null; recipe page only
 - 2026-10-20 · tempeh-pav-bhaji · macros_basis_unclear → Jatin: macros are for the full dish, not 1 portion; not for the home page · accepted_flags = macros_basis_unclear; recipe page only
 - Result: 0 flagged recipes. Whole-dish creator numbers (3 recipes) belong on the recipe page only; asked Track A to keep them off home cards and sorting.
+
+## Batch 2 (B3, 2026-10-21)
+
+- 2026-10-21 · rule · categories from Jatin's notes: condiment → sauce_dip, no meal; drink → noted meal or snack; coolers/staple drinks → no meal, main protein `other`; dessert → dessert tag (+ snack if no meal) (Jatin) · applied while converting
+- 2026-10-21 · rule · reposts: keep the newer post only (Jatin) · 25 older posts not added
+- 2026-10-21 · 34 existing recipes · creator null → `fit.khurana` (her posts in batch 2) (Jatin) · `source.creator` + `creator_url`
+- 2026-10-21 · batch 2 flags open for B6 round 3: 135 `macros_basis_unclear`, 99 `no_main_protein`, 60 `no_macros`, 2 `missing_details` (229 of the 285 new recipes flagged; batch 1 still 0)
+- 2026-10-21 · rule · fit.khurana / ral.livezy recipes are one portion unless the caption says otherwise (Jatin) · 118 recipes `servings: 1`; 17 kept whole-recipe with `accepted_flags: ["macros_basis_unclear"]` (6 serve several, 11 batch items: see DECISIONS) · `macros_basis_unclear` now 0
+- 2026-10-21 · rule · no names in shown data (Jatin) · bases read "… — one portion"; assumptions say "The recipe makes one portion." / "Main protein set by hand."
+- 2026-10-21 · butter-garlic-veggies-tofu, paneer-tadka-masala · missing_details → Jatin: remove · recipes deleted
+- 2026-10-21 · rule · accompaniments are archived, not deleted (Jatin) · `archived: {reason}`; off the review list
+- 2026-10-21 · 39 no_macros recipes (9 drinks/coolers, 17 sweets & snacks, 11 breakfast bowls & oats, 2 staple paneer preps) → archived · 20 no_macros meals → keep blank (`accepted_flags: ["no_macros"]`), Jatin gives feedback when he cooks one
+- 2026-10-21 · 29 sweets (no_main_protein) → archived sweet_snack; 3 sweets get the dessert tag · 4 chutneys → archived sauce_dip; jam, chocolate PB, cream cheese, kimchi → archived condiment (sauce_dip tag removed) (Jatin)
+- 2026-10-21 · 18 yogurt/oat breakfast bowls → main protein `other`; 2 → soya, 3 → pulses (Jatin) · flag cleared. 17 savoury recipes still `no_main_protein`, waiting on Jatin
+- 2026-10-21 · 17 savoury no_main_protein recipes → archived `low_protein` (Jatin) · **0 recipes flagged**
+- 2026-10-21 · duplicates (Jatin) · deleted tiramisu-chia-overnight-oats, tiramisu-skyr-overnight-oats, tiramisu-protein-overnight-oats, apple-oats-crumble-yogurt, mango-paneer-cheesecake-bowl, tofu-guacamole-toast, quinoa-light-tofu-coconut-curry, kosambari-moong-podi-salad, soya-stuffed-paratha-raita, quinoa-moong-masoor-khichdi; korean-tofu-wrap + tofu-rice-paper-rolls → dish_group tofu-rice-paper-roll. Future batches: skip these posts

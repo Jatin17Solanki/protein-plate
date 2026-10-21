@@ -1,0 +1,232 @@
+{
+  "id": "tofu-rice-paper-rolls",
+  "title": "Tofu Rice Paper Rolls with Peanut Chilli Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/DQgyecFDMn0/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#48"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "peanut_butter"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "global"
+  ],
+  "dish_group": "tofu-rice-paper-roll",
+  "variant_label": "rice paper rolls with peanut chilli dip",
+  "per_portion": {
+    "protein_g": 18,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (3 rolls) with the dipping sauce — one portion",
+    "protein_g": 18,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "section": "tofu marinade",
+      "ingredient_id": "tofu_firm",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g tofu"
+    },
+    {
+      "item": "chilli oil",
+      "section": "tofu marinade",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chili oil"
+    },
+    {
+      "item": "sugar",
+      "section": "tofu marinade",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp brown sugar"
+    },
+    {
+      "item": "soy sauce",
+      "section": "tofu marinade",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "black pepper",
+      "section": "tofu marinade",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Pepper"
+    },
+    {
+      "item": "vinegar",
+      "section": "tofu marinade",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vinegar"
+    },
+    {
+      "item": "salt",
+      "section": "tofu marinade",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "tofu marinade",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "chili flakes to taste"
+    },
+    {
+      "item": "cooking oil",
+      "section": "tofu marinade",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil (for cooking)"
+    },
+    {
+      "item": "rice paper",
+      "section": "rolls",
+      "ingredient_id": "rice_paper",
+      "qty": 3,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "3 rice paper sheets"
+    },
+    {
+      "item": "carrot",
+      "section": "rolls",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ carrot"
+    },
+    {
+      "item": "cucumber",
+      "section": "rolls",
+      "ingredient_id": "cucumber",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium cucumber"
+    },
+    {
+      "item": "lettuce",
+      "section": "rolls",
+      "ingredient_id": "lettuce",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "A few lettuce leaves"
+    },
+    {
+      "item": "peanut butter",
+      "section": "dipping sauce",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.75,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3/4th tbsp peanut butter"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "dipping sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "½ tbsp chili sauce"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "dipping sauce",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of ½ lemon"
+    },
+    {
+      "item": "water",
+      "section": "dipping sauce",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp water"
+    },
+    {
+      "item": "salt",
+      "section": "dipping sauce",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    }
+  ],
+  "steps": [
+    "In a bowl, mix chili oil, brown sugar, soy sauce, salt, and chili powder. Add tofu sticks and marinate for 10–15 mins.",
+    "Heat 1 tsp oil in a pan and cook tofu until golden brown on all sides.",
+    "Prepare the sauce by mixing peanut butter, chili sauce, lemon juice, water and salt until smooth.",
+    "Soak one rice paper sheet in water for 5–10 seconds until soft.",
+    "Place tofu, carrot, cucumber, and lettuce on it, then roll it up like a burrito.",
+    "Repeat for the remaining sheets.",
+    "Cut into halves and serve the rolls with the spicy peanut chili lime dip."
+  ],
+  "assumptions": [
+    "Without the dipping sauce the creator gives 345 kcal and 15 g protein.",
+    "Episode 1 of the creator’s series.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

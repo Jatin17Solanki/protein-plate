@@ -1,0 +1,358 @@
+{
+  "id": "honey-chilli-veggies-paneer-bowl",
+  "title": "Honey Chilli Veggies and Paneer Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DHYgY4VoAzB/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#135"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 490,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 40,
+    "kcal": 490,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "honey chilli veggies",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Bell Peppers"
+    },
+    {
+      "item": "cabbage",
+      "section": "honey chilli veggies",
+      "ingredient_id": "cabbage",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Cabbage"
+    },
+    {
+      "item": "mushroom",
+      "section": "honey chilli veggies",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mushrooms"
+    },
+    {
+      "item": "garlic",
+      "section": "honey chilli veggies",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped garlic"
+    },
+    {
+      "item": "olive oil",
+      "section": "honey chilli veggies",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "soy sauce",
+      "section": "honey chilli veggies",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soya sauce"
+    },
+    {
+      "item": "honey",
+      "section": "honey chilli veggies",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "honey chilli veggies",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp red chilli sauce"
+    },
+    {
+      "item": "walnuts",
+      "section": "honey chilli veggies",
+      "ingredient_id": "walnuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 walnuts chopped"
+    },
+    {
+      "item": "salt",
+      "section": "honey chilli veggies",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "honey chilli veggies",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "honey chilli veggies",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "cucumber noodles",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Greek Yogurt"
+    },
+    {
+      "item": "cucumber",
+      "section": "cucumber noodles",
+      "ingredient_id": "cucumber",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Cucumber cut into juliens"
+    },
+    {
+      "item": "salt",
+      "section": "cucumber noodles",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "cucumber noodles",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "chaat masala",
+      "section": "cucumber noodles",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chaat masala"
+    },
+    {
+      "item": "black pepper",
+      "section": "cucumber noodles",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "peanuts",
+      "section": "cucumber noodles",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp crushed peanuts"
+    },
+    {
+      "item": "mint leaves",
+      "section": "cucumber noodles",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful mint"
+    },
+    {
+      "item": "garlic",
+      "section": "cucumber noodles",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp garlic chopped"
+    },
+    {
+      "item": "green chilli",
+      "section": "cucumber noodles",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "cucumber noodles",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp lemon juice"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "paneer marination",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g Low fat Paneer"
+    },
+    {
+      "item": "Schezwan chutney",
+      "section": "paneer marination",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp schezwan chutney"
+    },
+    {
+      "item": "soy sauce",
+      "section": "paneer marination",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "tomato ketchup",
+      "section": "paneer marination",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "paneer marination",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 lemon juice"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "paneer marination",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander chopped"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "paneer marination",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sesame seeds"
+    },
+    {
+      "item": "salt",
+      "section": "paneer marination",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "paneer marination",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    }
+  ],
+  "steps": [
+    "Add some oil and garlic in a pan. Saute well and add walnuts.",
+    "Add your veggies and cook them on high foame for 5 mins.",
+    "Add sauces and seasonings. Mix well and its ready!",
+    "Grind mint, garlic and chillies into a paste.",
+    "Add this paste to greek yogurt along with the seasonings and cucumber juliens.",
+    "Garnish with peanuts and its ready!",
+    "Prepare a marinade by mixing all the above and coat your paneer.",
+    "Let it rest for 10-15 mins and toss onto a pan until golden brown and crispy.",
+    "Lastly assemble the bowl with fresh salad leaves, cherry tomatoes, honey chilli veggies, marinated paneer and cucumber yogurt noodles!"
+  ],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

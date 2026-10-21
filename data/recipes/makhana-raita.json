@@ -1,0 +1,158 @@
+{
+  "id": "makhana-raita",
+  "title": "Makhana Raita",
+  "source": {
+    "url": "https://www.instagram.com/reel/Deb3HS9z_aQ/",
+    "platform": "instagram",
+    "creator": "sagarskitchenofficial",
+    "creator_url": "https://www.instagram.com/sagarskitchenofficial/",
+    "ref": "batches/2026-10-21-batch2.txt#294"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [
+      "lunch",
+      "snack"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "yogurt"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 19,
+    "kcal": 533,
+    "carbs_g": 87,
+    "fat_g": 13,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish — one portion",
+    "protein_g": 19,
+    "kcal": 533,
+    "carbs_g": 87,
+    "fat_g": 13
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1½ cups of lotus seeds"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 2,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "2 cups of whisked yogurt"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of asafoetida"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chaat masala"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp black pepper powder"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cumin powder"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1½ tbsp jaggery powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "pomegranate",
+      "ingredient_id": "pomegranate",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g pomegranate seeds"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 1½ cups of lotus seeds aka fox nuts (makhana). Dry roast them for 6-7 minutes till nice and crispy. Now to a bowl add 2 cups of whisked yogurt. Add all the roasted makhana, Now add A pinch of asafoetida (hing), ½ tsp chaat masala, ½ tsp black pepper powder, 1 chopped green chilli, ½ tsp cumin powder, 1½ tbsp jaggery powder, 1 tsp salt, Mix it all really well.",
+    "Now throw in 50g pomegranate seeds and ½ a handful of freshly chopped coriander.",
+    "Give it one final mix and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 7 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

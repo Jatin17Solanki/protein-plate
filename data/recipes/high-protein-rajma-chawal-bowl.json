@@ -1,0 +1,205 @@
+{
+  "id": "high-protein-rajma-chawal-bowl",
+  "title": "High-Protein Rajma Chawal Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYw1XonTrMZ/",
+    "platform": "instagram",
+    "creator": "vishal.chowhan_",
+    "creator_url": "https://www.instagram.com/vishal.chowhan_/",
+    "ref": "batches/2026-10-21-batch2.txt#358"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer",
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "rice_pulao_biryani",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 41,
+    "kcal": 505,
+    "carbs_g": 64,
+    "fat_g": 10,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 1)",
+    "protein_g": 41,
+    "kcal": 505,
+    "carbs_g": 64,
+    "fat_g": 10
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "kidney beans (rajma)",
+      "ingredient_id": "rajma",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g boiled or canned rajma"
+    },
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 100,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "100g cooked rice"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g air fried low fat paneer"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 tomato"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 cucumber"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g greek yogurt"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "A handful of coriander leaves"
+    },
+    {
+      "item": "rajma masala",
+      "ingredient_id": null,
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp rajma masala"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cumin powder"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": null,
+      "type": "spice",
+      "as_written": "1/2 chilli flakes"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": null,
+      "type": "spice",
+      "as_written": "1/2 salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp pepper"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 lime"
+    },
+    {
+      "item": "tandoori masala",
+      "section": "paneer marinade",
+      "ingredient_id": "tandoori_masala",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1.5 tsp tandoori masala"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "paneer marinade",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp Greek yogurt"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "paneer marinade",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli powder"
+    }
+  ],
+  "steps": [
+    "100g boiled or canned rajma (kidney beans), 100g cooked rice, 100g air fried low fat paneer, 1/2 onion (70g), 1/2 tomato (70g), 1/2 cucumber (70g), 100g greek yogurt, A handful of coriander leaves (around 10-14g), 1 tsp rajma masala, 1/2 tsp cumin powder, 1/2 chilli flakes (adjust as per taste), 1/2 salt (adjust as per taste), 1/2 tsp pepper, Squeeze of 1/2 lime.",
+    "To make the air-fried paneer - I marinated the paneer with 1.5 tsp tandoori masala, 1 tbsp Greek yogurt, ½ tsp, and ½ tsp chilli powder, then air-fried it at 200°C for 15 minutes (flip it half way)",
+    "If you’re using boiled rajma - soak the dry rajma overnight or for at least 8 hours. Then pressure cook it with salt for 30 minutes."
+  ],
+  "assumptions": [
+    "The creator also gives 10 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

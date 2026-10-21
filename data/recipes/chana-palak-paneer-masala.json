@@ -1,0 +1,202 @@
+{
+  "id": "chana-palak-paneer-masala",
+  "title": "Chana Palak Masala",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeGJgeOzBgE/",
+    "platform": "instagram",
+    "creator": "myflavourfuljourney",
+    "creator_url": "https://www.instagram.com/myflavourfuljourney/",
+    "ref": "batches/2026-10-21-batch2.txt#301"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer",
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 49,
+    "kcal": 700,
+    "carbs_g": 58,
+    "fat_g": 34,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish — one portion",
+    "protein_g": 49,
+    "kcal": 700,
+    "carbs_g": 58,
+    "fat_g": 34
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "black chickpeas (kala chana)",
+      "ingredient_id": "kala_chana",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g soaked black chana"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup water"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g spinach"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml water"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1.5 tbsp oil"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small finely chopped onion"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger-garlic paste"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp kasuri methi"
+    },
+    {
+      "item": "reserved chickpea water",
+      "ingredient_id": "water",
+      "qty": 200,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "200ml of the reserved chickpea"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    }
+  ],
+  "steps": [
+    "To a pressure cooker, add: 150g soaked black chana (or you can use regular chickpeas), 1 tsp salt, 1 cup water (or enough to cover the chana), Pressure cook for 20 minutes or until the chana is soft and cooked through. Once cooked, set it aside and reserve the chickpea water.",
+    "To a blender, add: 80g spinach, 150g low fat paneer, 150ml water, Blend until nice and smooth, then set it aside.",
+    "Now, to a pan on medium heat, add: 1.5 tbsp oil, 1 tsp cumin seeds, 1 small finely chopped onion (60g), 1 chopped green chilli, 1 tsp ginger-garlic paste, Mix well and sauté for 2 minutes.",
+    "Then add: ½ tsp turmeric powder, 1 tsp Kashmiri red chilli powder, 1 tsp coriander powder, 1 tsp kasuri methi, Mix well, then pour in 200ml of the reserved chickpea water.",
+    "Add the spinach paneer purée and cook for about 5 minutes, or until the gravy starts to thicken.",
+    "Add: ½ tsp salt, Cooked chickpeas, Mix everything together and cook for another 2 minutes. Garnish with fresh coriander, and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 16 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

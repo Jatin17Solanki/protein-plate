@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'preact/hooks';
-import { recipes } from '../lib/catalog';
+import { allRecipes, recipes } from '../lib/catalog';
+import { archiveLabel } from '../lib/archive';
 import { formatNumber, formatQty, groupIngredients, macroFootnote, tagChips, versionLine, versionsOf } from '../lib/recipe';
 import { goBack, href } from '../lib/router';
 import {
@@ -18,7 +19,8 @@ const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? 
 export function Recipe({ id }: { id: string | null }) {
   useStorage();
   const [sheet, setSheet] = useState<'share' | 'edit' | 'feedback' | null>(null);
-  const r = id === null ? undefined : recipes.find((x) => x.id === id);
+  // Archived recipes keep their page (links shared earlier still work); they just aren't listed anywhere else.
+  const r = id === null ? undefined : allRecipes.find((x) => x.id === id);
 
   useLayoutEffect(() => scrollTo(0, 0), [id]);
   useEffect(() => {
@@ -81,6 +83,16 @@ export function Recipe({ id }: { id: string | null }) {
             ))}
             {tagChips(r).map((t) => <li key={t} class="tag-chip">{t}</li>)}
           </ul>
+
+          {r.archived && (
+            <p class="info-box archived-note">
+              <UiIcon name="info" size={18} />
+              <span>
+                <b>Archived</b> · {archiveLabel(r.archived.reason)}. Kept out of the main catalog; see the{' '}
+                <a href={href.archive()}>archive</a>.
+              </span>
+            </p>
+          )}
 
           {r.video_only ? <VideoOnlyCard /> : incomplete ? <MissingCard r={r} /> : <MacroCard r={r} />}
 

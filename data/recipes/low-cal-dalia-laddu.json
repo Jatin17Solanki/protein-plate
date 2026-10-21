@@ -1,0 +1,140 @@
+{
+  "id": "low-cal-dalia-laddu",
+  "title": "Low-Cal Dalia Laddu",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNxsWOK2PwF/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#72"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "dalia"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": 16,
+  "ingredients": [
+    {
+      "item": "dalia (broken wheat)",
+      "ingredient_id": "dalia",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1/2 Cup Dalia"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "2 Cups Water"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tablespoon rice flour"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Cardamom powder"
+    },
+    {
+      "item": "saffron (kesar)",
+      "ingredient_id": "saffron",
+      "qty": 8,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "8-10 stands of saffron"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4-5 tbsp sweetner (Monkfruit extract - zero calorie sweetner/ Coconut Sugar) - Try avoiding jaggery because it changes the taste"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 10,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "10-12 Small raisins"
+    },
+    {
+      "item": "food colour",
+      "ingredient_id": "food_colour",
+      "qty": 3,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "3-4 drops orange food color"
+    }
+  ],
+  "steps": [
+    "Roast dailya for 4-5 mins in 1 tsp ghee.",
+    "Add water and cover the pan. Let it cook on low flame until its soft and mushy. Takes 5-10 mins. Don’t let it become too dry, it should be wet and mushy so you can easily roll into balls.",
+    "Add Rice flour, cardamom powder, saffron infused water, sweetner, food color and raisins. Also add 1 tbsp ghee at this stage.",
+    "Sauté for 2 minutes. Turn off the flame and let it cool down. The mixture should be sticky and have a starchy texture.",
+    "Apply ghee on your palms and starting rolling into laddus. Garnish with pistachios/ cashews and dig in."
+  ],
+  "assumptions": [
+    "Makes 16 medium laddus. Use a non-stick pan only.",
+    "The creator credits the recipe to @guiltfree.cookbook.",
+    "The ingredient list also names coconut (fresh), sugar and jaggery as alternatives or notes; they aren’t listed separately.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

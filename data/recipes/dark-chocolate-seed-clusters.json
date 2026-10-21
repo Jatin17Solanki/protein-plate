@@ -1,0 +1,120 @@
+{
+  "id": "dark-chocolate-seed-clusters",
+  "title": "Dark Chocolate Seed Clusters",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSHHlVFDMqe/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#5"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "pumpkin_seeds",
+    "dark_chocolate"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 70,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per cluster (makes about 14)",
+    "protein_g": null,
+    "kcal": 70,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 80,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "80g of 70-85% dark chocolate"
+    },
+    {
+      "item": "pomegranate",
+      "ingredient_id": "pomegranate",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "½ cup pomegranate seeds"
+    },
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "3 tbsp pumpkin seeds"
+    },
+    {
+      "item": "sunflower seeds",
+      "ingredient_id": "sunflower_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp sunflower seeds"
+    },
+    {
+      "item": "plant protein powder",
+      "ingredient_id": "plant_protein",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 15,
+      "type": "protein",
+      "as_written": "½ scoop @ozivanutrition Plant Protein"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil (to melt the chocolate smoothly)"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "White sesame seeds (optional topping)"
+    }
+  ],
+  "steps": [
+    "Melt the chocolate in a bowl with 1 tsp oil (microwave or double boiler) until smooth and glossy.",
+    "In a separate bowl, mix the protein powder, pumpkin seeds, sunflower seeds, and pomegranate.",
+    "Pour the melted chocolate over the mixture and gently fold everything together so everything gets lightly coated.",
+    "On a plate lined with parchment, drop small spoonfuls of the mixture to form mini clusters. Make around 14 for 70 cals per cluster or 9-10 for 110 cals each.",
+    "Top with sesame seeds for crunch (optional but fab). Let them set in the freezer for 20–25 minutes until firm."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

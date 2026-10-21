@@ -1,0 +1,190 @@
+{
+  "id": "spicy-mexican-salad",
+  "title": "Spicy Mexican Rajma Paneer Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DQ6gU0Ajm52/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#8"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "pulses",
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "salad_bowl",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 34,
+    "kcal": 488,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 34,
+    "kcal": 488,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "kidney beans (rajma)",
+      "ingredient_id": "rajma",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g boiled rajma"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 70,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "70g low fat paneer"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp olive oil"
+    },
+    {
+      "item": "peri peri masala",
+      "ingredient_id": "peri_peri",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1/2 tbsp peri peri masala"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup mixed bell peppers"
+    },
+    {
+      "item": "sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup boiled corn"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1/2 tsp butter"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tomato"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ onion"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "lemon juice"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "chilli flakes"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp Greek yogurt"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander"
+    },
+    {
+      "item": "tortilla chips",
+      "ingredient_id": "tortilla_chips",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 crushed baked nachos"
+    }
+  ],
+  "steps": [
+    "Sauté 100g boiled rajma + 70g low fat paneer (I used milky mist) in ½ tsp olive oil. Add 1/2 tbsp peri peri masala and cook till golden.",
+    "Sauté 1/2 cup mixed bell peppers + 1/2 cup boiled corn in 1/2 tsp butter, salt, pepper for 3-4 mins.",
+    "For dressing: roast 1 tomato on flame until the skin is black, peel, and chop. Roughly grind the tomato, ½ onion, lemon juice, chilli flakes, salt, pepper, 1 tbsp ketchup into a salsa. Whisk in 2 tbsp Greek yogurt and chopped coriander. (I used Epigamia).",
+    "Assemble: rajma–paneer mix → veggies → dressing. Optionally, add 3-4 crushed baked nachos on top if you want some crunch."
+  ],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

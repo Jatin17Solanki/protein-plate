@@ -1,0 +1,127 @@
+{
+  "id": "chocolate-muesli-hung-skyr-cup",
+  "title": "Chocolate Muesli Hung Skyr Dessert Cup",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbXYzpisd0k/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#261"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "muesli"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 430,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 30,
+    "kcal": 430,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "muesli",
+      "ingredient_id": "muesli",
+      "qty": 35,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "35–40g @thedrchoice High-Protein Muesli - use my code FITKDC for a discount"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 150,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "150g high protein greek yoghurt (Skyr)"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp cocoa powder"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "½ tbsp peanut butter"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp melted 85% dark chocolate"
+    },
+    {
+      "item": "blueberries",
+      "ingredient_id": "blueberries",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8-10 Blueberries"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "Lemon zest (optional, for the compote)"
+    }
+  ],
+  "steps": [
+    "In a bowl, mix the Skyr, cocoa powder, and peanut butter until smooth.",
+    "Line a sieve with a clean muslin cloth and transfer the mixture into it. Wrap it tightly and refrigerate for at least 3-4 hours or overnight.",
+    "To make the blueberry compote, add the blueberries to a pan with a splash of water. Cook for 5-6 minutes until they become soft and jammy. Optionally add a little lemon zest for freshness. Let it cool.",
+    "Unwrap the chilled Skyr and place it on a serving plate.",
+    "Pour the melted 85% dark chocolate over the top.",
+    "Sprinkle the high-protein muesli around the Skyr.",
+    "Finish with the blueberry compote and serve immediately."
+  ],
+  "assumptions": [
+    "The creator also gives 8 g fibre.",
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -5,7 +5,7 @@ import type { Recipe } from '../../src/types/recipe';
 import { checkDictionary, makeMatcher, type DictEntry } from './lib/dictionary';
 import { findPairs, findPairsAgainst } from './lib/dedupe';
 import { estimate } from './lib/estimate';
-import { checkFidelity, numbersIn } from './lib/fidelity';
+import { checkFidelity, isPromoLine, numbersIn } from './lib/fidelity';
 import { canonicalUrl, linkKey, parseBatch } from './lib/raw';
 
 const dict = dictJson as DictEntry[];
@@ -83,6 +83,14 @@ describe('parseBatch', () => {
     const text = 'https://www.instagram.com/p/X1/\nDish\nAdd the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.\nquick dinner, high protein, veg recipes, easy meals, desi food\n';
     expect(parseBatch(text)[0].content).toEqual(['Dish', 'Add the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.']);
   });
+  it('reads structured batches: ID/URL/Creator lines and ____ separators', () => {
+    const text = 'ID: TIKKI-A\nURL: https://www.instagram.com/reel/S1/\nCreator: @someone\nTitle: Soya tikki\nCaption:\nSoya Tikki\n50g soya chunks\nNotes: snack\n______________________________\nID: TIKKI-B\nURL: https://www.instagram.com/reel/S2/\nMix 1 tsp salt, 1/2 tsp chilli powder, 1 tsp garam masala\n';
+    const es = parseBatch(text);
+    expect(es.map((e) => e.meta.ID)).toEqual(['TIKKI-A', 'TIKKI-B']);
+    expect(es[0].meta.Creator).toBe('@someone');
+    expect(es[0].content).not.toContain('ID: TIKKI-A');
+    expect(es[1].content).toContain('Mix 1 tsp salt, 1/2 tsp chilli powder, 1 tsp garam masala');
+  });
   it('normalises links', () => {
     expect(linkKey(entries[1].url)).toBe('ig:BBB222');
     expect(canonicalUrl(entries[1].url)).toBe('https://www.instagram.com/reel/BBB222/');
@@ -94,6 +102,19 @@ describe('numbersIn', () => {
     expect([...numbersIn('4–5 tomatoes, ½ tsp, 1/4tsp, 1½ cups, two minutes, 200°C')].sort()).toEqual(
       ['0.25', '0.5', '1.5', '2', '200', '4', '5'].sort(),
     );
+  });
+  it('reads mixed fractions and thousands separators as one number', () => {
+    expect([...numbersIn('1 1/2 tbsp ghee, 1,220 kcal')].sort()).toEqual(['1.5', '1220'].sort());
+  });
+});
+
+describe('isPromoLine', () => {
+  it('spots creator promo lines but keeps lines that give amounts', () => {
+    expect(isPromoLine('Comment “paneer” and I will dm you the recipe')).toBe(true);
+    expect(isPromoLine('50+ High Protein Breakfast Recipes on my page')).toBe(true);
+    expect(isPromoLine('Quickly get your atta from @somebrand')).toBe(true);
+    expect(isPromoLine('1 cup atta from @somebrand')).toBe(false);
+    expect(isPromoLine('100g low fat paneer')).toBe(false);
   });
 });
 
