@@ -5,6 +5,7 @@ import { Home } from './screens/Home';
 import { Recipe } from './screens/Recipe';
 import { MyRecipes } from './screens/MyRecipes';
 import { Review } from './screens/Review';
+import { Archive } from './screens/Archive';
 import { Export } from './screens/Export';
 import { Toast } from './components/Toast';
 import { UpdatePrompt } from './components/UpdatePrompt';
@@ -27,6 +28,7 @@ export function App() {
     route.name === 'recipe' ? <Recipe key={route.id} id={route.id} />
     : route.name === 'myRecipes' ? <MyRecipes />
     : route.name === 'review' ? <Review />
+    : route.name === 'archive' ? <Archive />
     : route.name === 'add' ? <Suspense fallback={<div class="my-page" />}><AddRecipes /></Suspense>
     : route.name === 'export' ? <Export />
     : route.name === 'notFound' ? <Recipe id={null} />

@@ -18,6 +18,15 @@ export type Recipe = {
    * The post has no written recipe; the video is the recipe (Jatin, 2026-10-20). Kept out of the review list; the app may list these separately.
    */
   video_only?: boolean;
+  /**
+   * Kept out of the main catalog (Home, search, My recipes, exports, catalog.txt) but not deleted: listed on the hidden /archive/ page and its recipe page still opens. Remove the field to bring the recipe back.
+   */
+  archived?: {
+    /**
+     * Why it is archived; groups the /archive/ page.
+     */
+    reason: 'drink' | 'sweet_snack' | 'breakfast_bowl' | 'staple';
+  };
   meal_types: MealTypes;
   /**
    * Every source supplying >= 35 % of the recipe's protein, larger contributor first. The first one sets the tile colour. Empty only when no protein group reaches 35 % — then flagged no_main_protein (CONTEXT §4: never invent one).

@@ -21,6 +21,8 @@ const STATES: { name: string; path: string; open?: (p: Page) => Promise<unknown>
   { name: 'add', path: '/add/', open: (p) => p.locator('textarea').fill(`[${readFileSync('tests/fixtures/besan-chilla.json', 'utf8')}, {"title": "x"}]`) },
   { name: 'export', path: '/export/' },
   { name: 'review', path: '/review/' },
+  { name: 'archive', path: '/archive/' },
+  { name: 'archived recipe', path: '/r/cucumber-mint-cooler/' },
   { name: 'not found', path: '/nope/' },
 ];
 

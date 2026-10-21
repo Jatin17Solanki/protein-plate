@@ -129,12 +129,11 @@
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "no_macros",
-      "note": "The creator gives no macros."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "no_macros"
   ]
 }

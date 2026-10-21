@@ -53,6 +53,26 @@
       "description": "The post has no written recipe; the video is the recipe (Jatin, 2026-10-20). Kept out of the review list; the app may list these separately.",
       "type": "boolean"
     },
+    "archived": {
+      "description": "Kept out of the main catalog (Home, search, My recipes, exports, catalog.txt) but not deleted: listed on the hidden /archive/ page and its recipe page still opens. Remove the field to bring the recipe back.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reason"
+      ],
+      "properties": {
+        "reason": {
+          "description": "Why it is archived; groups the /archive/ page.",
+          "type": "string",
+          "enum": [
+            "drink",
+            "sweet_snack",
+            "breakfast_bowl",
+            "staple"
+          ]
+        }
+      }
+    },
     "meal_types": {
       "$ref": "#/definitions/MealTypes"
     },

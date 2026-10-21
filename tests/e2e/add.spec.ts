@@ -69,7 +69,7 @@ test.describe('phone', () => {
     expect(text.startsWith('You are adding recipes to **Protein Plate**')).toBe(true);
     expect(text).toContain('## Schema (schema/recipe.schema.json)');
     expect(text).toContain('soya_chunks: soya chunks');
-    expect(text).toContain('## Catalog index (10 recipes');
+    expect(text).toContain('## Catalog index (11 recipes'); // archived ones included, so a re-added post is caught
     expect(text).toContain('soya-pea-kebab | Soya Pea Kebab | @Fixture Kitchen | https://www.instagram.com/reel/FIXTURE08/ | soya | soya-kebab');
   });
 

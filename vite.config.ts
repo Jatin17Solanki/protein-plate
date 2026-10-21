@@ -7,6 +7,7 @@ import site from './site.config.json' with { type: 'json' };
 import { readTokens } from './scripts/build/tokens';
 import { ogImage } from './scripts/build/og';
 import { readRecipes, recipeCard, withMeta, writePage } from './scripts/build/pages';
+import { splitArchived } from './src/lib/archive';
 import { catalogText } from './src/lib/export';
 
 // Everything that differs between forks comes from site.config.json.
@@ -63,7 +64,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,woff2,png}'],
-        globIgnores: ['og/**', 'r/**', 'my/**', 'review/**', 'add/**', 'export/**', '404.html'],
+        globIgnores: ['og/**', 'r/**', 'my/**', 'review/**', 'archive/**', 'add/**', 'export/**', '404.html'],
         navigateFallback: `${base}index.html`,
         // Opening /catalog.txt must reach the real file, not the app shell.
         navigateFallbackDenylist: [/\/catalog\.txt$/],
@@ -80,13 +81,15 @@ export default defineConfig({
       },
     },
     {
-      // Static pages with link previews: r/<id>/ for every recipe, plus my/, review/, add/ and export/ (PLAN A6, A7),
+      // Static pages with link previews: r/<id>/ for every recipe, plus my/, review/, archive/, add/ and export/ (PLAN A6, A7),
       // and catalog.txt: every recipe as plain text for AI tools that can read a link (PLAN A7).
       name: 'static-pages',
       apply: 'build',
       async closeBundle() {
         const dist = 'dist';
-        const recipes = readRecipes(recipesDir);
+        // Archived recipes keep their r/<id>/ page; counts, catalog.txt and the home card use the main catalog only.
+        const all = process.env.VITE_FIXTURES === '1' ? [...readRecipes(recipesDir), ...readRecipes(join(recipesDir, 'archived'))] : readRecipes(recipesDir);
+        const recipes = splitArchived(all).active;
         const index = (await import('node:fs')).readFileSync(join(dist, 'index.html'), 'utf8');
         mkdirSync(join(dist, 'og'), { recursive: true });
         writeFileSync(
@@ -99,7 +102,7 @@ export default defineConfig({
             tint: 'soya',
           }),
         );
-        for (const r of recipes) {
+        for (const r of all) {
           const card = recipeCard(r);
           writeFileSync(join(dist, 'og', `${r.id}.png`), await ogImage(card));
           writePage(dist, `r/${r.id}`, withMeta(index, {
@@ -114,7 +117,8 @@ export default defineConfig({
         writePage(dist, 'export', withMeta(index, { ...homeMeta(recipes.length), title: `Export catalog · ${site.title}`, url: `${siteUrl}export/`, noindex: true }));
         writeFileSync(join(dist, 'catalog.txt'), catalogText(recipes, siteUrl, site.title));
         writePage(dist, 'review', withMeta(index, { ...homeMeta(recipes.length), title: `Review · ${site.title}`, url: `${siteUrl}review/`, noindex: true }));
-        console.log(`static-pages: ${recipes.length} recipe pages + previews`);
+        writePage(dist, 'archive', withMeta(index, { ...homeMeta(recipes.length), title: `Archive · ${site.title}`, url: `${siteUrl}archive/`, noindex: true }));
+        console.log(`static-pages: ${all.length} recipe pages + previews (${all.length - recipes.length} archived)`);
       },
     },
   ],

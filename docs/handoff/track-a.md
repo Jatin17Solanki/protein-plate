@@ -1,6 +1,8 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-20 (BL2 session)_
+_Last updated: 2026-10-21 (BL5 archive built by the Track B session in PR 25)_
+
+**BL5 (by Track B, PR 25):** optional `archived: {reason}` in the schema (types regenerated). `src/lib/catalog.ts` now exports `allRecipes` (recipe pages, Add recipes duplicate check and prompt index), `recipes` (main catalog: Home, search, My recipes, Review, Export) and `archivedRecipes`. New hidden `/archive/` page (`src/screens/Archive.tsx`, `src/lib/archive.ts`), an "Archived" note on archived recipe pages, `archive/` static page; `catalog.txt` and home counts use the main catalog. Fixture: `tests/fixtures/archived/` (own folder so unit-test fixture counts stay 10). Tests: `tests/unit/archive.test.ts`, `tests/e2e/archive.spec.ts`, a11y states.
 
 **Done (BL2, PR open):** whole-dish creator numbers only on the recipe page. New `portionProtein(r)` (= `per_portion.protein_g`) drives tiles, sorting, My recipes, version cards, share, exports, `catalog.txt`, OG cards and the Add-recipes ready line; `Tile.whole` and the "whole recipe" tier are gone. `shownProtein`/`shownNumbers`/`macroFootnote` (recipe page macro card) and the admin `/review/` meta still show whole-dish totals.
 

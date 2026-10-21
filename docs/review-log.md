@@ -82,3 +82,5 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-21 · rule · fit.khurana / ral.livezy recipes are one portion unless the caption says otherwise (Jatin) · 118 recipes `servings: 1`; 17 kept whole-recipe with `accepted_flags: ["macros_basis_unclear"]` (6 serve several, 11 batch items: see DECISIONS) · `macros_basis_unclear` now 0
 - 2026-10-21 · rule · no names in shown data (Jatin) · bases read "… — one portion"; assumptions say "The recipe makes one portion." / "Main protein set by hand."
 - 2026-10-21 · butter-garlic-veggies-tofu, paneer-tadka-masala · missing_details → Jatin: remove · recipes deleted
+- 2026-10-21 · rule · accompaniments are archived, not deleted (Jatin) · `archived: {reason}`; off the review list
+- 2026-10-21 · 39 no_macros recipes (9 drinks/coolers, 17 sweets & snacks, 11 breakfast bowls & oats, 2 staple paneer preps) → archived · 20 no_macros meals → keep blank (`accepted_flags: ["no_macros"]`), Jatin gives feedback when he cooks one

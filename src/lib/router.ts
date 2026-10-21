@@ -9,6 +9,7 @@ export type Route =
   | { name: 'recipe'; id: string }
   | { name: 'myRecipes' }
   | { name: 'review' }
+  | { name: 'archive' }
   | { name: 'add' }
   | { name: 'export' }
   | { name: 'notFound' };
@@ -20,6 +21,7 @@ export function parse(pathname: string, base = BASE): Route {
   if (clean === '' || clean === 'index.html') return { name: 'home' };
   if (clean === 'my') return { name: 'myRecipes' };
   if (clean === 'review') return { name: 'review' };
+  if (clean === 'archive') return { name: 'archive' };
   if (clean === 'add') return { name: 'add' };
   if (clean === 'export') return { name: 'export' };
   const m = clean.match(/^r\/([a-z0-9-]+)$/);
@@ -32,6 +34,8 @@ export const href = {
   myRecipes: () => `${BASE}my/`,
   /** Hidden admin page (not linked in the menu). */
   review: () => `${BASE}review/`,
+  /** Hidden admin page (not linked in the menu): recipes kept out of the main catalog. */
+  archive: () => `${BASE}archive/`,
   add: () => `${BASE}add/`,
   export: () => `${BASE}export/`,
 };
