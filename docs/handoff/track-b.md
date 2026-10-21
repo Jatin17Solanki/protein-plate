@@ -18,10 +18,10 @@ _Last updated: 2026-10-20 (B6 review rounds 1–2 done)_
 
 **Next:**
 - B5: export prompt. Track A swaps it into `askPrompt()` once it exists.
-- B3 when Jatin sends the new compilation: run `dedupe.ts --batch <file>` (or `findPairsAgainst`), fix creator credits where it names them, add the recipes the same way.
-- B4: the protein oats recipe and the 15 incomplete entries; Jatin will send them together. The My list seed was delivered in chat (never committed).
+- B3 (and every future batch): follow `docs/ADD-RECIPES.md`. When Jatin sends the new compilation: run `dedupe.ts --batch <file>` (or `findPairsAgainst`), fix creator credits where it names them, add the recipes the same way.
+- B4: the protein oats recipe (Jatin will send it). Only 6 incomplete recipes remain, all video only, kept as is by Jatin. The My list seed was delivered in chat (never committed).
 
-**Asked of Track A (2026-10-20, Dev 2 session):** keep whole-dish numbers (servings null and `per_portion.protein_g` null) off home cards and out of protein sorting. This covers mint-cheese-spread, protein-spaghetti and tempeh-pav-bhaji. `wholeRecipeProtein` / `shownProtein` in `src/lib/home.ts`.
+**Track A:** whole-dish numbers now stay on the recipe page only (BL2, PR 21, merged); nothing open from Track B.
 
 **Gotchas:**
 - Raw entry N = the Nth line with a link. New captions go in new batch files; never append to old ones.
