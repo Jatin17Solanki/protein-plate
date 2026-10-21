@@ -93,7 +93,7 @@ Use **Opus** for every Track B phase — the work is judgment (nutrition maths, 
 Remaining ~70 recipes, in chunks of ~20 per session if needed (split into B2a/B2b/…). Every chunk ends with the dedupe report and a "possible duplicates / variants" list for Jatin to confirm in the PR. Incomplete entries kept with `status: "incomplete"`.
 
 ### B3 — Batch 2 (Jatin's new scrape)
-Same as B2, deduplicated against the whole catalog.
+Same as B2, deduplicated against the whole catalog. Follow `docs/ADD-RECIPES.md` (the runbook for every future batch).
 
 ### B4 — Fill gaps (whenever Jatin supplies details)
 13 incomplete entries + protein oats breakfast; My list seed file (Jatin's self-cook marks) delivered as a personal backup JSON (`exports/jatin-mylist.backup.json`, **not** committed if the repo is public — attach to the PR instead).

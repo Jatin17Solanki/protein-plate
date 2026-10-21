@@ -11,6 +11,7 @@ A free, mobile-first, static recipe catalog (GitHub Pages) that helps a vegetari
 | `docs/CONTEXT.md` | Full decision record: problem, journeys, data rules, rejected ideas, backlog | Only the sections your phase lists |
 | `docs/DESIGN.md` + `design/` | Design system, screen spec, references | Track A: the sections your phase lists |
 | `docs/DECISIONS.md` | Dated log of decisions | Append only |
+| `docs/ADD-RECIPES.md` | Runbook for adding new recipes (Track B) | **Whenever Jatin hands over recipes to add** |
 | `docs/MANUAL-TEST.md` | Jatin's real-device test plan, one section per feature | Update when your phase adds or changes something visible |
 
 ## Session protocol
