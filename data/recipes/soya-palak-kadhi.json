@@ -19,7 +19,9 @@
       "dinner"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "soya"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "soya_chunks",
@@ -227,16 +229,12 @@
     "Garnish with coriander and serve with steaming hot basmati rice!"
   ],
   "assumptions": [
-    "The creator’s numbers are for the whole recipe, not one portion."
+    "The creator’s numbers are for the whole recipe, not one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ],
+  "flags": [],
   "accepted_flags": [
     "macros_basis_unclear"
   ]

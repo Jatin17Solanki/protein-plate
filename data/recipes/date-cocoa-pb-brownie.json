@@ -9,6 +9,9 @@
     "ref": "batches/2026-10-21-batch2.txt#59"
   },
   "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
   "meal_types": {
     "values": [
       "snack"

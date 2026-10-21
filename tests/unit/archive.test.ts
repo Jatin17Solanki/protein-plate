@@ -36,6 +36,8 @@ describe('archiveGroups', () => {
   });
   it('labels every reason', () => {
     expect(archiveLabel('breakfast_bowl')).toBe('Breakfast bowls & oats');
+    expect(archiveLabel('sauce_dip')).toBe('Sauces & dips');
+    expect(archiveLabel('condiment')).toBe('Condiments');
   });
 });
 

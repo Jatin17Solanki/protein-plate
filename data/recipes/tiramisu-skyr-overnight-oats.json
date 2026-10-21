@@ -17,7 +17,9 @@
       "breakfast"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "skyr",
     "protein_oats"
@@ -154,14 +156,10 @@
     "Dust with cocoa powder before eating and enjoy!"
   ],
   "assumptions": [
-    "The espresso shot is instant coffee with water."
+    "The espresso shot is instant coffee with water.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

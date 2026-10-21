@@ -19,7 +19,9 @@
       "snack"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "almonds"
@@ -101,14 +103,10 @@
     "To a pan on medium heat add 20g honey (1.5 tbsp), Sprinkle some cinnamon, Add 80g banana slices, And fry till the banana slices turn brown and caramelised (fry for 2 min each side), Place the banana slices on top of 200g low fat Greek yogurt, Along with 15g roasted almonds, Add 10g dark chocolate, And done your desert bowl is ready."
   ],
   "assumptions": [
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

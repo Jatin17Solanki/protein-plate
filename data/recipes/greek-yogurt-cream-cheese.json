@@ -9,6 +9,9 @@
     "ref": "batches/2026-10-21-batch2.txt#357"
   },
   "status": "complete",
+  "archived": {
+    "reason": "condiment"
+  },
   "meal_types": {
     "values": [],
     "stated_by_user": []
@@ -17,9 +20,7 @@
   "supporting_proteins": [
     "greek_yogurt"
   ],
-  "tags": [
-    "sauce_dip"
-  ],
+  "tags": [],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {

@@ -24,7 +24,9 @@
   "supporting_proteins": [
     "makhana"
   ],
-  "tags": [],
+  "tags": [
+    "dessert"
+  ],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {

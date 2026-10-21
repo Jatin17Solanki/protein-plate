@@ -9,6 +9,8 @@ export const ARCHIVE_INFO: { reason: ArchiveReason; label: string }[] = [
   { reason: 'drink', label: 'Drinks & coolers' },
   { reason: 'sweet_snack', label: 'Sweets & snacks' },
   { reason: 'breakfast_bowl', label: 'Breakfast bowls & oats' },
+  { reason: 'sauce_dip', label: 'Sauces & dips' },
+  { reason: 'condiment', label: 'Condiments' },
   { reason: 'staple', label: 'Staples' },
 ];
 

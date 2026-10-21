@@ -19,7 +19,9 @@
       "snack"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "pulses"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "kala_chana"
@@ -223,14 +225,10 @@
     "You can also prepare this at night and store in the fridge. Give a fresh tadka in the morning."
   ],
   "assumptions": [
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

@@ -19,7 +19,9 @@
       "dinner"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "soya"
+  ],
   "supporting_proteins": [
     "wheat_flour",
     "soya_chunks",
@@ -187,14 +189,10 @@
     "Once the theplas cook on both sides then apply very little ghee and its ready!"
   ],
   "assumptions": [
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

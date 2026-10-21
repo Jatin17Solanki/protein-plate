@@ -9,6 +9,9 @@
     "ref": "batches/2026-10-21-batch2.txt#154"
   },
   "status": "complete",
+  "archived": {
+    "reason": "condiment"
+  },
   "meal_types": {
     "values": [
       "snack"
@@ -21,9 +24,7 @@
   "supporting_proteins": [
     "peanuts"
   ],
-  "tags": [
-    "sauce_dip"
-  ],
+  "tags": [],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
@@ -86,6 +87,10 @@
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
     {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."

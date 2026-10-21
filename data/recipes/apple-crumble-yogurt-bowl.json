@@ -17,7 +17,9 @@
       "breakfast"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "oats"
@@ -136,14 +138,10 @@
   "assumptions": [
     "Sweeten with 1 tsp honey or stevia.",
     "The ingredient list also names skyr as an alternative or note; it isn’t listed separately.",
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

@@ -17,7 +17,9 @@
       "breakfast"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "oats"
@@ -92,14 +94,10 @@
   "assumptions": [
     "The creator also gives 7 g fibre.",
     "The ingredient list also names zero-calorie sweetener as an alternative or note; it isn’t listed separately.",
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

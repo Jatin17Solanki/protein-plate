@@ -17,7 +17,9 @@
       "snack"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "pulses"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "sprouts",
@@ -202,14 +204,10 @@
   ],
   "assumptions": [
     "The ingredient list also names mint leaves, coriander leaves, peanuts, lemon / lime and cumin seeds as alternatives or notes; they aren’t listed separately.",
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

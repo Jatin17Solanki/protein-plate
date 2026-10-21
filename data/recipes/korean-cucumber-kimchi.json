@@ -9,6 +9,9 @@
     "ref": "batches/2026-10-21-batch2.txt#331"
   },
   "status": "complete",
+  "archived": {
+    "reason": "condiment"
+  },
   "meal_types": {
     "values": [],
     "stated_by_user": []
@@ -20,7 +23,6 @@
     "garlic"
   ],
   "tags": [
-    "sauce_dip",
     "global"
   ],
   "dish_group": null,

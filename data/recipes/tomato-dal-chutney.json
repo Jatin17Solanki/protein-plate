@@ -9,6 +9,9 @@
     "ref": "batches/2026-10-21-batch2.txt#321"
   },
   "status": "complete",
+  "archived": {
+    "reason": "sauce_dip"
+  },
   "meal_types": {
     "values": [],
     "stated_by_user": []

@@ -17,7 +17,9 @@
       "breakfast"
     ]
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "other"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "oats"
@@ -170,14 +172,10 @@
     "The recipe was pinned in the post’s comments; the text was copied from there.",
     "The creator also gives 8 g fibre.",
     "Alternative: mix the Greek yogurt with 1 scoop of vanilla protein powder, which adds about 25 g protein according to the post.",
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }

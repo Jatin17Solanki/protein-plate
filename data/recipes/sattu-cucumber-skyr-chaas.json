@@ -15,7 +15,9 @@
     ],
     "stated_by_user": []
   },
-  "main_proteins": [],
+  "main_proteins": [
+    "pulses"
+  ],
   "supporting_proteins": [
     "greek_yogurt",
     "sattu",
@@ -131,14 +133,10 @@
   "assumptions": [
     "The ingredient list also names skyr as an alternative or note; it isn’t listed separately.",
     "Meal types are our guess.",
-    "The recipe makes one portion."
+    "The recipe makes one portion.",
+    "Main protein set by hand."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "no_main_protein",
-      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
-    }
-  ]
+  "flags": []
 }
