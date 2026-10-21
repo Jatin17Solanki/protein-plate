@@ -1,0 +1,180 @@
+{
+  "id": "crispy-tofu-asian-sauce",
+  "title": "Crispy Tofu in Asian Sauce",
+  "source": {
+    "url": "https://www.instagram.com/reel/DB6JINGKTrs/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#49"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "soy_sauce"
+  ],
+  "tags": [
+    "global",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "section": "crispy tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g Tofu (Broken into small pieces)"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "section": "crispy tofu",
+      "ingredient_id": "corn_flour",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1/2 tbsp cornflour"
+    },
+    {
+      "item": "olive oil",
+      "section": "crispy tofu",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "asian sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp red chilli sauce"
+    },
+    {
+      "item": "soy sauce",
+      "section": "asian sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp soy sauce"
+    },
+    {
+      "item": "vinegar",
+      "section": "asian sauce",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vinegar"
+    },
+    {
+      "item": "sugar",
+      "section": "asian sauce",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp brown sugar"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "asian sauce",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame"
+    },
+    {
+      "item": "tomato ketchup",
+      "section": "asian sauce",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp tomtao ketchup"
+    },
+    {
+      "item": "garlic",
+      "section": "gravy",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp minced garlic"
+    },
+    {
+      "item": "cashews",
+      "section": "gravy",
+      "ingredient_id": "cashews",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 cashews"
+    },
+    {
+      "item": "broccoli",
+      "section": "gravy",
+      "ingredient_id": "broccoli",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "brocolli"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "gravy",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "bell peppers"
+    }
+  ],
+  "steps": [
+    "Mix it up and airfry at 180 degrees for 8-10 mins until crispy (You can bake it or pan fry with very little oil too)",
+    "Add all of this to a container and shake it well.",
+    "Add 1 tsp olive oil, 1 tbsp minced garlic and 3-4 cashews in a pan. Saute the garlic and cashews until brown.",
+    "Add veggies of choice - boiled brocolli, babycorn, bell peppers, etc.",
+    "Saute for 4-5 mins and add the Asian sauce along with 100ml of water and 1/2 tbsp corn flour. Mix it and add tofu.",
+    "Cook on low flame until the sauce starts to thicken. Add salt and fresh basil and its ready.",
+    "Serve it with sticky rice or noodles."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

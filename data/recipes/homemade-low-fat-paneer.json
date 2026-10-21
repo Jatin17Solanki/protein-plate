@@ -1,0 +1,95 @@
+{
+  "id": "homemade-low-fat-paneer",
+  "title": "Homemade Low-Fat Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/DStx1qAjBr9/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#15"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk_skimmed"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 19,
+    "kcal": 190,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per 100 g of paneer (the creator’s rough estimate)",
+    "protein_g": 19,
+    "kcal": 190,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 3,
+      "unit": "l",
+      "type": "dairy",
+      "as_written": "3 litres of low fat milk"
+    },
+    {
+      "item": "fresh cream",
+      "ingredient_id": "cream",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "malai"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsp of vinegar"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    }
+  ],
+  "steps": [
+    "Boil 3 litres of low fat milk/toned/ double toned/skimmed milk which ever is available in your area. I took this one from Amul because only that was available. You can then remove the top later of malai post boiling (cool down a bit) to make it lower in fat. No need for this step if you’re using double toned or skimmed milk.",
+    "Heat again, add 2-3 tbsp of vinegar or more once the boil comes. Switch off the flame and stir until whey water separates. You may need more vinegar if the water does not separate in 2 mins.",
+    "Strain it and let it sit for a while in the strainer until it takes shape.",
+    "Store for 4-5 days in a container in the fridge.",
+    "The qty will differ based on milk used."
+  ],
+  "assumptions": [
+    "Makes about 500 g low-fat paneer; the creator gives a range of 19–20 g protein and 190–230 kcal per 100 g of paneer."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

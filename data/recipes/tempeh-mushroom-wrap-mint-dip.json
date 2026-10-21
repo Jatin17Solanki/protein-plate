@@ -1,0 +1,243 @@
+{
+  "id": "tempeh-mushroom-wrap-mint-dip",
+  "title": "Tempeh Mushroom Wrap with Mint Yogurt Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/DVBMIkSjHny/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#212"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "roti"
+  ],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 448,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole wrap, not counting the dip — one portion",
+    "protein_g": 25,
+    "kcal": 448,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "tempeh",
+      "ingredient_id": "tempeh",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90gm tempeh crumbles @hello_tempayy"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50 g mushrooms"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1.5 tomatoes (pureed)"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp coriander powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp jeera powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "pepper to taste"
+    },
+    {
+      "item": "avocado",
+      "ingredient_id": "avocado",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1.5 tbsp avocado pulp"
+    },
+    {
+      "item": "lettuce",
+      "ingredient_id": "lettuce",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "handful of lettuce"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/4 cup veggies of choice (onion/cucumber/capsicum)"
+    },
+    {
+      "item": "roti / chapati",
+      "ingredient_id": "roti",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 whole-wheat big roti"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "mint yoghurt dip",
+      "ingredient_id": "greek_yogurt",
+      "qty": 60,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "60 g Greek yoghurt"
+    },
+    {
+      "item": "mint leaves",
+      "section": "mint yoghurt dip",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp finely chopped mint"
+    },
+    {
+      "item": "garlic powder",
+      "section": "mint yoghurt dip",
+      "ingredient_id": "garlic_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garlic powder"
+    },
+    {
+      "item": "salt",
+      "section": "mint yoghurt dip",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "mint yoghurt dip",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "honey",
+      "section": "mint yoghurt dip",
+      "ingredient_id": "honey",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp honey"
+    }
+  ],
+  "steps": [
+    "Heat 1 tsp oil in a pan, add cumin seeds, then sauté mushrooms and tempeh crumbles until lightly browned.",
+    "Add tomato puree and cook it down until thick.",
+    "Season with red chilli, garam masala, coriander powder, jeera powder, salt and pepper. Cook until water fully evaporates.",
+    "Combine Greek yoghurt, mint, garlic powder, honey, salt and pepper.",
+    "Assemble the wrap- Mash avocado, add lettuce, sautéed tempeh-mushroom filling, and chopped veggies on the whole-wheat wrap.",
+    "Serve - Roll tightly and serve with the mint yogurt dip. Enjoy warm!"
+  ],
+  "assumptions": [
+    "The creator also gives 11.5 g fibre.",
+    "The ingredient list also names cucumber and capsicum (bell pepper) as alternatives or notes; they aren’t listed separately.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

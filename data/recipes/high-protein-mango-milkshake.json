@@ -1,0 +1,102 @@
+{
+  "id": "high-protein-mango-milkshake",
+  "title": "High-Protein Mango Milkshake",
+  "source": {
+    "url": "https://www.instagram.com/reel/CvdzoDfpHin/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#365"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "milk"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 33,
+    "kcal": 255,
+    "carbs_g": 25,
+    "fat_g": 3,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 33,
+    "kcal": 255,
+    "carbs_g": 25,
+    "fat_g": 3
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop of mango whey protein"
+    },
+    {
+      "item": "mango Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp Mango greek yogurt"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 0.333,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/3 mango"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 200,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "200ml Slim milk"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 100,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "100ml water"
+    }
+  ],
+  "steps": [
+    "To a blending jar or a mixie: Add 1 scoop of mango whey protein (30g), 2 tbsp Mango greek yogurt, 1/3 mango flesh (45g), 200ml Slim milk, 100ml water.",
+    "Blend it all up! And it’s all done.",
+    "Mango Milkshake Macros:."
+  ],
+  "assumptions": [
+    "Inspired by @_aussiefitness.",
+    "Meal types are our guess.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

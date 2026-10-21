@@ -1,0 +1,219 @@
+{
+  "id": "afghani-paneer-sprouts-salad",
+  "title": "Afghani Paneer with Sprouts Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNAwhilIYwp/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#80"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "sprouts"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Low fat paneer (using milkymist)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g greek yogurt"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Bay leaf"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Elaichi"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 sluced onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 chopped garlic"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Dhaniya"
+    },
+    {
+      "item": "moong sprouts",
+      "section": "sprouts salad",
+      "ingredient_id": "sprouts",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 small cup boiled sprouts"
+    },
+    {
+      "item": "cucumber",
+      "section": "sprouts salad",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped cucumber"
+    },
+    {
+      "item": "tomato",
+      "section": "sprouts salad",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "onion",
+      "section": "sprouts salad",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onion"
+    },
+    {
+      "item": "carrot",
+      "section": "sprouts salad",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "grated carrot"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "sprouts salad",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 lemon juice"
+    },
+    {
+      "item": "salt",
+      "section": "sprouts salad",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "chaat masala",
+      "section": "sprouts salad",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chaat Masala"
+    },
+    {
+      "item": "roti / chapati",
+      "section": "to serve",
+      "ingredient_id": "roti",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Pair the sabzi and salad with a jowar/plain roti"
+    }
+  ],
+  "steps": [
+    "Spices - Salt, 1/2 tsp red chilli powder, 1/2 tsp garam masala, 1/2 tsp coriander powder, 1/2 tsp sugar.",
+    "Add 1 tsp ghee, bay leaf, elaichi, jeera, green chillies and garlic to a pan. Sauté for 2 mins.",
+    "Add onion and sauté for 2-3 mins.",
+    "Add this all to a blender with dhaniya and grind into a smooth paste.",
+    "Add this mixture that we grinded to a bowl along with greek yogurt and mix until smooth.",
+    "Sauté some paneer for 3-4 mins until golden-brown and add the gravy we prepared to this. Adjust with a little bit of water.",
+    "Add sugar and let it simmer for 5 mins and its ready!",
+    "Mix all the above together and its ready! You can add lemon later if you want otherwise it would leave water."
+  ],
+  "assumptions": [
+    "The 40 g protein and 557 kcal in the caption are for the next episode (Quinoa Paneer Pulao), not this dish."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

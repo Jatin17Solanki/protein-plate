@@ -1,0 +1,140 @@
+{
+  "id": "paneer-cheese-cucumber-sandwich",
+  "title": "Paneer Cheese Cucumber Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/Cs_KM_8p97G/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#183"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "snack"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 500,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 30,
+    "kcal": 500,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1/2 cube cheese"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 50,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "50-60 ml low fat milk"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Cucumber"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "bread",
+      "ingredient_id": "bread",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Bread of choice"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
+  "assumptions": [
+    "The creator’s figures are approximate.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

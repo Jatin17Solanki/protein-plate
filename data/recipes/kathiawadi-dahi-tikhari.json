@@ -1,0 +1,200 @@
+{
+  "id": "kathiawadi-dahi-tikhari",
+  "title": "Kathiawadi Dahi Tikhari",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeWGZGHTx1i/",
+    "platform": "instagram",
+    "creator": "diningwithdhoot",
+    "creator_url": "https://www.instagram.com/diningwithdhoot/",
+    "ref": "batches/2026-10-21-batch2.txt#297"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "garlic",
+    "onion"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 18,
+    "kcal": 143,
+    "carbs_g": 14,
+    "fat_g": 3,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 3)",
+    "protein_g": 18,
+    "kcal": 143,
+    "carbs_g": 14,
+    "fat_g": 3
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp mustard seeds"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cumin seeds"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp hing"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 10,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "10 curry leaves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 slit green chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 6,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "6 cloves of garlic"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 15,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "15ml water"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp turmeric powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cumin powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "high-protein yogurt",
+      "ingredient_id": null,
+      "qty": 500,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "500g high-protein yogurt"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 1 tsp oil, 1/2 tsp mustard seeds, 1/2 tsp cumin seeds, 1/4 tsp hing, 10 curry leaves, 2 slit green chillies, 1 chopped onion, Sauté till golden brown.",
+    "Meanwhile, to a mortar and pestle add 6 cloves of garlic, 1 tsp Kashmiri red chilli powder, 15ml water, Crush it all into a paste and add it to the pan.",
+    "Now add 1 tsp coriander powder, 1/4 tsp turmeric powder, 1/2 tsp cumin powder, 1 tsp garam masala, Mix everything well and let it cook for 2 min.",
+    "Then add half a handful of chopped coriander, give it a final mix and switch off the flame.",
+    "Once cooled, I added 500g high-protein yogurt (350g is what’s recommend), 1 tsp salt, Mix everything really well and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator used 500 g high-protein yogurt; the original recipe recommends 350 g."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

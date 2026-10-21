@@ -1,0 +1,172 @@
+{
+  "id": "high-protein-paneer-cheese-sandwich",
+  "title": "High-Protein Paneer Cheese Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/CunvYTkpYk5/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#367"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 20,
+    "kcal": 290,
+    "carbs_g": 29,
+    "fat_g": 10,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per sandwich (makes 6)",
+    "protein_g": 20,
+    "kcal": 290,
+    "carbs_g": 29,
+    "fat_g": 10
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 pods of garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small chopped onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tomato"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp turmeric"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small capsicum"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200gms low fat paneer"
+    },
+    {
+      "item": "bread",
+      "ingredient_id": "bread",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices bread"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "as_written": "1 slice cheese"
+    }
+  ],
+  "steps": [
+    "Here’s what you need: (For 6 sandwiches)",
+    "Get you pan to medium heat, 1 tsp oil, 1 tsp cumin seeds, 3 pods of garlic cut into bits, 1 small chopped onion, 1 tomato, 1 tsp turmeric, 1 tsp chilli powder, 1/2 tsp garam masala, 1 tsp salt, Mix well and let it cook for 3 minutes on medium heat, Then add 1 small capsicum (1/2 green 1/2 red is a good option), Add 200gms low fat paneer cut into small bits, Mix well.",
+    "Here’s how to make 1 sandwich:.",
+    "To a hot pan, toast 2 slices bread with 1 tsp butter (let it rest on medium heat for 2 minutes in total), Then add your paneer mix (2 tbsp), 1 slice cheese, Continue to toast till golden brown."
+  ],
+  "assumptions": [
+    "The filling makes 6 sandwiches; the bread, butter and cheese amounts are per sandwich.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

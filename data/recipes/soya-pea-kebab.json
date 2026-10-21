@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/C3Kle_zymu4/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#35"
   },
   "status": "complete",
@@ -37,7 +37,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe, kebabs + dip — one portion (Jatin)",
+    "basis": "whole recipe, kebabs + dip — one portion",
     "protein_g": 30,
     "kcal": null
   },
@@ -236,7 +236,7 @@
   "assumptions": [
     "'Chillies' read as green chillies.",
     "The amount of Greek yogurt for the dip isn't given; watch the video for anything unclear.",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

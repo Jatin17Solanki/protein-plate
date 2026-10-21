@@ -1,0 +1,155 @@
+{
+  "id": "low-cal-karanji",
+  "title": "Low-Calorie Rice Paper Karanji",
+  "source": {
+    "url": "https://www.instagram.com/reel/DPydqtsDM6u/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#56"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "rice_paper"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 98,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per karanji (makes 8–9)",
+    "protein_g": null,
+    "kcal": 98,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "rice paper",
+      "ingredient_id": "rice_paper",
+      "qty": 8,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "Rice paper – 8-9 sheets"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "Low Fat Paneer – 3/4th cup (crumbled)"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Fresh grated coconut – 1 cup"
+    },
+    {
+      "item": "dried figs (anjeer)",
+      "ingredient_id": "anjeer",
+      "qty": 9,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Dried Anjeer – 9–10 (chopped)"
+    },
+    {
+      "item": "semolina (sooji)",
+      "ingredient_id": "sooji",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "Sooji – 1.5 tbsp"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 1,
+      "unit": "handful",
+      "type": "pantry",
+      "as_written": "Handful Almonds"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Raisins"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Cashews"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "Ghee – 1.5 tsp (for roasting)"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Elaichi powder – ¼ tsp"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water – to soften rice paper"
+    }
+  ],
+  "steps": [
+    "Roast sooji till golden and keep aside.",
+    "Dry-roast nuts till slightly brown.",
+    "In a little ghee, roast coconut till fragrant & light brown.",
+    "Add paneer + anjeer + elaichi → sauté 2–3 mins.",
+    "Grind everything (except sooji) into a smooth mix.",
+    "Mix in the sooji and the filling is ready.",
+    "Dip rice paper in water for a few seconds → place 2 tbsp filling → fold into triangular shapes.",
+    "Brush lightly with ghee & air-fry at 180°C for 5 mins, flipping once till golden & crisp.",
+    "Enjoy immediately, or it will get soggy later!!"
+  ],
+  "assumptions": [
+    "Episode 3 of the creator’s series.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

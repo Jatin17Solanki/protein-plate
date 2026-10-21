@@ -1,0 +1,132 @@
+{
+  "id": "healthy-suji-bread",
+  "title": "Healthy Suji Bread",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dd3kYI1TWmG/",
+    "platform": "instagram",
+    "creator": "shivesh17",
+    "creator_url": "https://www.instagram.com/shivesh17/",
+    "ref": "batches/2026-10-21-batch2.txt#305"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "sooji"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole loaf",
+    "protein_g": 31,
+    "kcal": 1220,
+    "carbs_g": 190,
+    "fat_g": 38
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "semolina (sooji)",
+      "ingredient_id": "sooji",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1½ cups suji"
+    },
+    {
+      "item": "caster sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp caster sugar"
+    },
+    {
+      "item": "instant yeast",
+      "ingredient_id": "yeast",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp instant yeast"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "½ cup water"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp milk"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp oil"
+    }
+  ],
+  "steps": [
+    "To a bowl add 1½ cups suji, 1 tbsp caster sugar, 1 tsp instant yeast, ¼ tsp salt, Mix well.",
+    "Then add ½ cup water, 3 tbsp milk, 2 tbsp oil, Mix everything well and let it rest for 10 minutes.",
+    "Transfer the dough onto a greased surface and knead well for 15 minutes.",
+    "Cover and let the dough proof for 1 hour, or until it doubles in size.",
+    "Once doubled, punch it down, roll it out and shape it into a log. Make sure to pinch and seal the dough after every roll.",
+    "Transfer it into a greased loaf pan, cover and let it rise again. This took me about 2–3 hours.",
+    "Brush the top with milk, sprinkle with seeds of your choice and bake in a preheated oven at 180°C for 30 minutes, or until golden brown. (You can also use a pressure cooker like the original recipe.)",
+    "Let it cool, slice it up and your homemade Suji Bread is ready!"
+  ],
+  "assumptions": [
+    "The creator also gives 11 g fibre for the loaf.",
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/DVQoRPMjJM8/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#54"
   },
   "status": "complete",
@@ -37,7 +37,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 35,
     "kcal": 489
   },
@@ -205,7 +205,7 @@
     "Greek yogurt or skyr is listed as Greek yogurt.",
     "Meal types are our guess.",
     "Use dry soya chunks (the method says soya granules).",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

@@ -1,0 +1,242 @@
+{
+  "id": "mexican-paneer-curry-peri-rice",
+  "title": "Mexican Paneer Curry with Peri Peri Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/DIBgBSOzY65/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#81"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "green_peas"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "rice_pulao_biryani",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 32,
+    "kcal": 590,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 2)",
+    "protein_g": 32,
+    "kcal": 590,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "section": "curry",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g Low fat Paneer (I am using Milky Mist 50g Protein Paneer)"
+    },
+    {
+      "item": "coconut milk",
+      "section": "curry",
+      "ingredient_id": "coconut_milk",
+      "qty": 120,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "120ml Coconut milk"
+    },
+    {
+      "item": "green peas",
+      "section": "curry",
+      "ingredient_id": "green_peas",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 Cup Peas"
+    },
+    {
+      "item": "spinach",
+      "section": "curry",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 Cup Spinach"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "curry",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Veggies of choices - Bell Peppers"
+    },
+    {
+      "item": "mushroom",
+      "section": "curry",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mushrooms"
+    },
+    {
+      "item": "onion",
+      "section": "curry",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Thinly Sliced Onion"
+    },
+    {
+      "item": "garlic",
+      "section": "curry",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 Garlic Cloves"
+    },
+    {
+      "item": "green chilli",
+      "section": "curry",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "sugar",
+      "section": "curry",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sugar"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "curry",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "oregano",
+      "section": "curry",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "black pepper",
+      "section": "curry",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "olive oil",
+      "section": "curry",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "olive oil",
+      "section": "rice",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "Schezwan chutney",
+      "section": "rice",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp schezwan chutney"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "rice",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of coriander"
+    },
+    {
+      "item": "salt",
+      "section": "rice",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "cooked rice",
+      "section": "rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 100,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "100g Cooked Rice"
+    }
+  ],
+  "steps": [
+    "Boil peas and spinach and blend it with coconut milk and 2 green chillies.",
+    "Add olive oil to a pan, along with garlic and onions. Saute until a little brown and add bell peppers and mushrooms (optional)",
+    "Cook for a couple of minutes and add seasonings to this.",
+    "Now add the coconut base and add sugar and red chilli powder to this along with paneer.",
+    "Add water to adjust consistency and let it cook for 15 mins on low flame.",
+    "Add olive oil to the pan along with schezwan chutney and a pinch of salt.",
+    "Add rice and chopped coriander to this and mix well.",
+    "Cook for 2 minutes and it’s ready!"
+  ],
+  "assumptions": [
+    "The rice amounts are for one serve.",
+    "The creator calls the rice “Peri Peri Rice”; it is flavoured with schezwan chutney."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

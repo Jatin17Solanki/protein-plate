@@ -1,0 +1,155 @@
+{
+  "id": "besan-sheera-turmeric-milk",
+  "title": "Besan Sheera Turmeric Milk",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcD2SD3MSbm/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#266"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "milk_skimmed"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 8,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (1 small cup)",
+    "protein_g": 8,
+    "kcal": 180,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "½ tbsp ghee"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1–2 cashews"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "2–3 almonds"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp besan"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "½ cup boiling water"
+    },
+    {
+      "item": "raisins",
+      "ingredient_id": "raisins",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "optional": true,
+      "as_written": "3–5 raisins (optional)"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100 ml skimmed milk"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp turmeric"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2–3 black peppercorns"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Elaichi powder"
+    }
+  ],
+  "steps": [
+    "Heat ½ tbsp ghee in a pan on low-medium heat.",
+    "If using, add the crushed cashews and almonds and lightly roast them in the ghee.",
+    "Add 20g besan and roast on low heat, stirring continuously, until it turns golden brown and smells beautifully nutty.",
+    "Grind/crush the turmeric and black peppercorns together, add them to the roasted besan along with zero-calorie sweetener mix well.",
+    "Add the raisins to boiling water. Then slowly pour in ½ cup boiling water, a little at a time in the besan, while stirring continuously to prevent lumps.",
+    "Gradually add 100 ml skimmed milk, continuing to stir. Don’t pour it all in at once!!",
+    "Cook on low heat for another 4–5 minutes, stirring continuously, until smooth, creamy and properly cooked.",
+    "If you prefer a thinner, more drinkable consistency, add a little more hot water."
+  ],
+  "assumptions": [
+    "The creator’s figures are approximate; the optional nuts aren’t included in them."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

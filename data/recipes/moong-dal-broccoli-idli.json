@@ -1,0 +1,134 @@
+{
+  "id": "moong-dal-broccoli-idli",
+  "title": "Moong Dal Broccoli Idli",
+  "source": {
+    "url": "https://www.instagram.com/reel/DGSw8iCTY18/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#140"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "lunch"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 16,
+    "kcal": 230,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per 5 idlis (makes 9–10)",
+    "protein_g": 16,
+    "kcal": 230,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Moong Dal (soak 4 hrs)"
+    },
+    {
+      "item": "broccoli",
+      "ingredient_id": "broccoli",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup grated brocolli"
+    },
+    {
+      "item": "curd (dahi)",
+      "ingredient_id": "curd",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g Amul High Protein Dahi (Or normal thick curd)"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp green chillies"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "type": "produce",
+      "as_written": "1 inch ginger"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin powder"
+    },
+    {
+      "item": "eno fruit salt",
+      "ingredient_id": null,
+      "qty": 0.75,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "3/4 tsp eno"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee (to grease the molds)"
+    }
+  ],
+  "steps": [
+    "Blend soaked moong dal with curd into a smooth batter (add 1-2 tbsp water if needed).",
+    "Mix in grated broccoli, salt, and cumin. Let it rest for 15-20 minutes to activate fermentation.",
+    "Just before steaming, add eno and mix the batter gently.",
+    "Grease the mold, pour in the batter and steam for 15-18 mins until fluffy (can also take a little longer).",
+    "Let the idlis cool down a bit before demoulding or else they will stick.",
+    "If they still stick to the mould, dip a spoon or knife in water and gently release the edges.",
+    "Don’t overmix the batter.",
+    "Add water ONLY if needed. Watery mixture can make idlis flat."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

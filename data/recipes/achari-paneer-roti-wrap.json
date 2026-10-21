@@ -1,0 +1,196 @@
+{
+  "id": "achari-paneer-roti-wrap",
+  "title": "Achari Paneer Roti Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/DALipOFqbAm/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#11"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 410,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 30,
+    "kcal": 410,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "section": "dressing",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp greek yogurt"
+    },
+    {
+      "item": "garlic powder",
+      "section": "dressing",
+      "ingredient_id": "garlic_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp garlic powder"
+    },
+    {
+      "item": "salt",
+      "section": "dressing",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of salt"
+    },
+    {
+      "item": "honey",
+      "section": "dressing",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "black pepper",
+      "section": "dressing",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of pepper"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "dressing",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp coriander"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "paneer base",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g low fat paneer"
+    },
+    {
+      "item": "chilli achaar",
+      "section": "paneer base",
+      "ingredient_id": "chilli_achaar",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp achaar"
+    },
+    {
+      "item": "pickle (achaar)",
+      "section": "paneer base",
+      "ingredient_id": "pickle",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "mango pickle"
+    },
+    {
+      "item": "salt",
+      "section": "paneer base",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "paneer base",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "green chutney",
+      "section": "additional items required",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Green Chutney"
+    },
+    {
+      "item": "onion",
+      "section": "additional items required",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp thinly sliced onions"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "additional items required",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Some sautéed bell peppers"
+    },
+    {
+      "item": "roti / chapati",
+      "ingredient_id": "roti",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "normal wheat roti"
+    }
+  ],
+  "steps": [
+    "Mix 2 tbsp greek yogurt/hung curd, 1/2 tsp garlic powder, pinch of salt, 1 tsp honey, pinch of pepper, 1 tbsp coriander.",
+    "Mix crushed 120g low fat paneer (homemade), 1 tbsp achaar(mixed/ mango pickle), 1/2 tsp salt, 1/2 tsp red chilli powder.",
+    "Make a beetroot/spinach/normal wheat roti. Put it on a non-stick pan.",
+    "Spread the paneer immediately onto the roti and press it down using a spatula so it sticks well to the roti.",
+    "Once cooked on one side, flip and let the roti cook on low flame until the paneer is golden brown.",
+    "Assemble the wrap and dig in."
+  ],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

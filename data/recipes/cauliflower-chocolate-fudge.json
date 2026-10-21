@@ -1,0 +1,86 @@
+{
+  "id": "cauliflower-chocolate-fudge",
+  "title": "2-Ingredient Cauliflower Chocolate Fudge",
+  "source": {
+    "url": "https://www.instagram.com/reel/Db1-DoCzjlf/",
+    "platform": "instagram",
+    "creator": "lilsipper",
+    "creator_url": "https://www.instagram.com/lilsipper/",
+    "ref": "batches/2026-10-21-batch2.txt#325"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "dark_chocolate",
+    "cauliflower"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 10,
+    "kcal": 509,
+    "carbs_g": 47,
+    "fat_g": 34
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 180,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "1 cup (180g) of steamed cauliflower florets"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 85,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "1/2 (85g) cup of dark chocolate chips"
+    }
+  ],
+  "steps": [
+    "To a blender add 1 cup (180g) of steamed cauliflower florets (measure after steaming), 1/2 (85g) cup of dark chocolate chips of choice (50-70% dark chocolate), Blend it until smooth and creamy then transfer into a lined dish and refrigerate for a few hours or until firm. (It took me about 3 hrs for it to set), When it’s set it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 13 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

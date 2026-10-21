@@ -1,0 +1,92 @@
+{
+  "id": "roasted-chana-date-laddu",
+  "title": "Roasted Chana Date Peanut Butter Laddu",
+  "source": {
+    "url": "https://www.instagram.com/reel/DN44kjCDAiE/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#71"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 120,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per laddu (makes 10–12)",
+    "protein_g": null,
+    "kcal": 120,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "roasted chana",
+      "ingredient_id": "roasted_chana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup roated channa"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup soft dates"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp eliachi powder"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4-5 tbsp peanut butter (can add more if the mixture seems a little dry, ideally the mixture should be soft enough for you to make the balls without them breaking)"
+    }
+  ],
+  "steps": [
+    "Grind everything until super fine and roll into laddus."
+  ],
+  "assumptions": [
+    "The creator gives 100–120 kcal per laddu; we use the upper figure."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

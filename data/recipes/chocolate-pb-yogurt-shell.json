@@ -1,0 +1,102 @@
+{
+  "id": "chocolate-pb-yogurt-shell",
+  "title": "Chocolate Peanut Butter Yogurt with Dark Chocolate Shell",
+  "source": {
+    "url": "https://www.instagram.com/reel/C6EC9NUJ593/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#191"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 17.5,
+    "kcal": 200,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (makes 2)",
+    "protein_g": 17.5,
+    "kcal": 200,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "120g Greek Yogurt"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g Unsweetened Peanut Butter"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 0.75,
+      "unit": null,
+      "grams": 23,
+      "type": "protein",
+      "as_written": "0.75 scoop Vanilla Whey Protein"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp stevia/monkfruit extract (can use honey too but that will increase calories)"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 Squares 70-80% Dark Chocolate (I am using Sugar-Free Chocolate)"
+    }
+  ],
+  "steps": [
+    "Mix yogurt with protein powder and peanut butter. Set in the fridge for 10 mins.",
+    "Melt 2 squares of chocolate in the microwave (or in a bowl placed on a tawa on medium flame) for 2 mins and add 2 drops of oil to that while melting for a flowy consistency. Add a pinch of salt to the melted chocolate.",
+    "Now pour the chocolate over the yogurt and let it sit in the freezer for 20 minutes and dig in!"
+  ],
+  "assumptions": [
+    "Honey works instead of stevia but adds calories; the creator uses sugar-free dark chocolate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

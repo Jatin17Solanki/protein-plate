@@ -1,0 +1,109 @@
+{
+  "id": "mango-chia-yogurt-pudding",
+  "title": "Mango Chia Yogurt Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/C6WAyRfpuQ_/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#193"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "breakfast_bowl"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "milk_skimmed"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 120,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Mango 120g (I am using Alphonso)"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Chia seeds (10g)"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 140,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "Double Toned milk (140ml)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 110,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Greek Yogurt 110g"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Stevia/ Monkfruit Extract 1 Tsp (Sugar Replacement)"
+    }
+  ],
+  "steps": [
+    "Blend Mango and milk. Make sure to keep 4-5 cubes of mango aside for later.",
+    "Now mix chia seeds, monkfruit extract and Greek yogurt in this.",
+    "Mix well and garnish with mango cubes and 1 chopped almonds (optional)",
+    "Set in the fridge for 4-5 hours or overnight and enjoy."
+  ],
+  "assumptions": [
+    "Stevia or monkfruit extract is the sugar replacement."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -16,7 +16,7 @@
     "gen:types": "tsx scripts/gen-types.ts",
     "check:types": "tsx scripts/gen-types.ts --check",
     "validate": "tsx scripts/validate.ts",
-    "validate:fixtures": "tsx scripts/validate.ts tests/fixtures",
+    "validate:fixtures": "tsx scripts/validate.ts tests/fixtures tests/fixtures/archived",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "icons": "tsx scripts/icons.ts"

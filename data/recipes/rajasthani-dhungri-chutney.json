@@ -1,0 +1,139 @@
+{
+  "id": "rajasthani-dhungri-chutney",
+  "title": "Rajasthani Dhungri Tadka Chutney",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdYvn6Jzfpx/",
+    "platform": "instagram",
+    "creator": "bhagyahomekitchen",
+    "creator_url": "https://www.instagram.com/bhagyahomekitchen/",
+    "ref": "batches/2026-10-21-batch2.txt#312"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sauce_dip"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanuts"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 30,
+    "kcal": 1200,
+    "carbs_g": 49,
+    "fat_g": 105
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 finely chopped onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 finely chopped tomatoes"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1 handful fresh coriander"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 100,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "100g roasted peanuts"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "5 garlic cloves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4 tbsp piping-hot mustard oil"
+    }
+  ],
+  "steps": [
+    "To a bowl, add 1 finely chopped onion, 2 finely chopped tomatoes, 1 handful fresh coriander, Now take 100g roasted peanuts and 5 garlic cloves, grind them together, and add them to the bowl. Add 1 chopped green chilli.",
+    "Then add 1 tbsp red chilli powder, 1 tsp salt.",
+    "Pour 4 tbsp piping-hot mustard oil over the mixture.",
+    "Mix everything together nicely, and it’s ready to serve!"
+  ],
+  "assumptions": [
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

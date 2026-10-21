@@ -1,0 +1,186 @@
+{
+  "id": "roasted-pepper-paneer-penne",
+  "title": "Roasted Red Pepper Paneer Penne",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-eyyHiKPFe/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#137"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "pasta_whole_wheat"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 24,
+    "kcal": 480,
+    "carbs_g": 60,
+    "fat_g": 16,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (makes 1)",
+    "protein_g": 24,
+    "kcal": 480,
+    "carbs_g": 60,
+    "fat_g": 16
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp olive oil"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 cloves of chopped garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2.5 tomatoes (small to medium size)"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Red Bell Pepper"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 85,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "85g Low fat Homemade Paneer"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 cashews"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1/2 tbsp chilli flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1/2 oregano"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": null,
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp ketchup"
+    },
+    {
+      "item": "whole-wheat pasta",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 30,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "30-35g Whole Wheat/Semolina Penne Pasta"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of Fresh Basil"
+    }
+  ],
+  "steps": [
+    "In a Pan, add very little olive oil. Sauté garlic and onion until golden brown. Then add the tomatoes. On the side, roast a bell pepper until charred and then scrap off the black parts.",
+    "Add some salt and let the tomatoes cook well for 8-10 mins on slow- mid flame.",
+    "Once the tomatoes are all mushy, blend this mixture with cashews, roasted bell pepper, paneer, and some water. Make a smooth paste.",
+    "Add 1 tsp of chilli oil in a pan and then goes in this gravy that we blended.",
+    "Add in the seasonings mentioned along with some ketchup.",
+    "Let it cook well for 3-4 mins and add the pasta. Mix it all well and add the basil.",
+    "Cover and cook on slow flame for 5 mins and its ready to serve."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

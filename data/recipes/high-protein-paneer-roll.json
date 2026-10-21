@@ -1,0 +1,162 @@
+{
+  "id": "high-protein-paneer-roll",
+  "title": "High-Protein Paneer Roll",
+  "source": {
+    "url": "https://www.instagram.com/reel/CvLut_ypFaS/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#366"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "wrap_roll_taco"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 14,
+    "kcal": 190,
+    "carbs_g": 21,
+    "fat_g": 5,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per roll (makes 6)",
+    "protein_g": 14,
+    "kcal": 190,
+    "carbs_g": 21,
+    "fat_g": 5
+  },
+  "protein_working": [],
+  "servings": 6,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat paneer"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger garlic paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp turmeric powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cumin powder"
+    },
+    {
+      "item": "coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "50ml coconut milk"
+    },
+    {
+      "item": "cooking oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "roti / chapati",
+      "ingredient_id": "roti",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "a chapati"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "onions"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "bell peppers"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "a lime"
+    }
+  ],
+  "steps": [
+    "Here’s what you need: (for 6 rolls), 200g low fat paneer cubes, 1 tbsp ginger garlic paste, 1 tsp salt, 2 tsp chilli powder, 1 tsp turmeric powder, 1/2 tsp cumin powder, 50ml coconut milk.",
+    "Mix well and cook the paneer for 5 minutes on medium heat with 1 tsp oil.",
+    "Take a chapati: add 30g of the low fat paneer mixture, fresh tomato, diced or sliced onions, bell peppers and squeeze a lime and Enjoy!"
+  ],
+  "assumptions": [
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

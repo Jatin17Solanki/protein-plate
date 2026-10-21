@@ -228,10 +228,14 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 4. Open **Mint Cheese Spread**. **See:** the macro card shows the creator's whole-dish total ("protein, whole recipe"); on Home its tile shows "—" / Macros not given.
 5. Open **Hara Bhara Kebab** or **Tofu Cabbage Paratha**. **See:** steps show one line with ▶ "No written method — watch the video for the steps." instead of a numbered list.
 6. Pick 5 recipes at random and compare with their videos. **See:** ingredients and amounts match exactly; steps are the creator's wording; numbers are the creator's (or "Macros not given").
+7. Open `/r/masala-makhana/` (archived). **See:** the full recipe from the post's pinned comment, an assumption saying so, and the "Archived" note. Open **Korean Tofu Wrap**. **See:** "Other versions" shows the rice paper rolls.
+8. Open any recipe credited to **@fit.khurana** (e.g. Soya Pea Stuffed Paratha). **See:** "by @fit.khurana" with a link to her profile; older catalog recipes from her posts (e.g. Shahi Paneer, Watermelon Sorbet) now show the credit too.
+9. Open `/archive/` (not in the menu). **See:** 93 archived recipes in groups (Drinks & coolers, Sweets & snacks, Breakfast bowls & oats, Sauces & dips, Condiments, Low-protein dishes, Staples), with chips to filter. Open **Til Gud Makhana**. **See:** an "Archived · Sweets & snacks" note on the recipe page; search Home for "til gud". **See:** it doesn't show. It's not in Export or `catalog.txt` either.
 
 **Feedback J11**
 - Are these labels clear and honest, or confusing?
 - Should video-only and Others be hidden by default, or stay in the grid?
+- Anything in the archive you want back in the catalog?
 >
 
 ---

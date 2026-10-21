@@ -1,0 +1,132 @@
+{
+  "id": "blue-pea-coconut-water-cooler",
+  "title": "Blue Pea Coconut Water Cooler",
+  "source": {
+    "url": "https://www.instagram.com/reel/DY6TCKNMkeU/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#242"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "drink"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "coconut_water",
+    "sabja_seeds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "coconut water",
+      "ingredient_id": "coconut_water",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Fresh coconut water"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Fill rest with chilled water"
+    },
+    {
+      "item": "blue pea flower extract",
+      "ingredient_id": "blue_pea_flower",
+      "qty": 70,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Blue Pea flower extract – 70-80ml"
+    },
+    {
+      "item": "sabja seeds",
+      "ingredient_id": "sabja_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Sabja seeds – 1 tbsp"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Mint leaves – 2 tbsp (chopped)"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Honey (optional)"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of 1 lemon"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chaat masala – ½ tsp"
+    }
+  ],
+  "steps": [
+    "Prepare the base.",
+    "In a jug, add coconut water + regular water + blue pea flower extract (soak dried flowers in hot water for 5-6 mins). Mix well.",
+    "Add soaked sabja seeds, salt, chaat masala, honey and lemon juice. Stir well.",
+    "Add chopped mint leaves and ice cubes. Serve chilled. Finish within 3-4 hrs if kept at room temperature or refrigerate and keep enjoying till eve."
+  ],
+  "assumptions": [
+    "Use the water of 1 fresh coconut. Serve with ice cubes."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

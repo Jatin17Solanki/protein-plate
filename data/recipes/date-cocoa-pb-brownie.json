@@ -1,0 +1,133 @@
+{
+  "id": "date-cocoa-pb-brownie",
+  "title": "Date Cocoa Peanut Butter Brownie",
+  "source": {
+    "url": "https://www.instagram.com/reel/DPlEAfak9g6/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#59"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanut_butter",
+    "cocoa_powder",
+    "walnuts",
+    "dates",
+    "dark_chocolate"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 160,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per square (makes 9)",
+    "protein_g": null,
+    "kcal": 160,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 9,
+  "ingredients": [
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 160,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "160g Dates deseeded"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 25,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "25g Unsweetened Cocoa Powder"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4-5 Tbsps Peanut butter"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1/2 tsp vanilla extract (optional)"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "8-10 walnuts"
+    },
+    {
+      "item": "mixed nuts",
+      "ingredient_id": "mixed_nuts",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Chopped Nuts for garnishing - walnuts/cashews (4-5)"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 50,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "50-60g Dark Chocolate - (I am using 70% cocoa )"
+    }
+  ],
+  "steps": [
+    "Blend dates, cocoa powder, walnuts, peanut butter until well combined. Then transfer to mould and press it down well. Top with melted dark chocolate, flaky sea salt and chopped nuts. Freeze for 10 mins, cut into squares and enjoy!"
+  ],
+  "assumptions": [
+    "The ingredient list also names cashews as an alternative or note; it isn’t listed separately.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

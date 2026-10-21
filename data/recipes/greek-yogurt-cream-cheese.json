@@ -1,0 +1,87 @@
+{
+  "id": "greek-yogurt-cream-cheese",
+  "title": "Homemade Greek Yogurt Cream Cheese",
+  "source": {
+    "url": "https://www.instagram.com/reel/DY_JnEcz5Ml/",
+    "platform": "instagram",
+    "creator": "dudu_eats",
+    "creator_url": "https://www.instagram.com/dudu_eats/",
+    "ref": "batches/2026-10-21-batch2.txt#357"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "condiment"
+  },
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole block",
+    "protein_g": 26,
+    "kcal": 520,
+    "carbs_g": 36,
+    "fat_g": 30
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 500,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "500g greek yogurt"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 1/4 tsp salt"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "2 tsp lime"
+    }
+  ],
+  "steps": [
+    "500g greek yogurt, 1 1/4 tsp salt, 2 tsp lime.",
+    "Put the yogurt in between kitchen paper on a sieve over night to drain out the extra water. That’s it."
+  ],
+  "assumptions": [
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

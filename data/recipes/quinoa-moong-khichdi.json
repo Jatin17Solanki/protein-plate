@@ -1,0 +1,235 @@
+{
+  "id": "quinoa-moong-khichdi",
+  "title": "Quinoa Moong Khichdi",
+  "source": {
+    "url": "https://www.instagram.com/reel/DF7m5cTzCpN/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#141"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "quinoa"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 24.8,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve with Greek yogurt (makes 3)",
+    "protein_g": 24.8,
+    "kcal": 420,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "quinoa",
+      "ingredient_id": "quinoa",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 cup Quinoa"
+    },
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 Cup Yellow Moong"
+    },
+    {
+      "item": "green moong",
+      "ingredient_id": "moong_green",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/2 Cup Green Moong"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 2,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "2 Cups Spinach"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup Coriander"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chillies"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Tomatoes"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp haldi"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of hing"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 5,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "5-6 curry leaves"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dried red chilli"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Lemon (Juice)"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sugar"
+    }
+  ],
+  "steps": [
+    "Soak quinoa and dal in water for 10 mins.",
+    "Make a puree of spinach and coriander.",
+    "Cook the quinoa and dal in a cooker salt and haldi for 3-4 whistles (water level should be 2 inches above the dal)",
+    "In a pan, add 1 tsp of ghee and saute hing, curry leaves, dried red chillies, mustard, jeera, garlic and chilli paste.",
+    "Add Onion and cook for 2 mins and then add tomatoes.",
+    "Add a little water and the masalas. Let the tomatoes become soft and add the spinach puree.",
+    "Add Sugar and lemon juice. Cook for 2-3 mins and add the cooked quinoa dal mixture.",
+    "Cover and cook for another 10 mins and add water to adjust the consistency if needed.",
+    "Pro Tip - Serve with Greek Yogurt which contributes to around 7-8g of Protein! And enjoy with nimbu ka achaar because it tastes super delicious."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

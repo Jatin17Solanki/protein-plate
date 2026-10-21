@@ -1,0 +1,85 @@
+{
+  "id": "pumpkin-sesame-seed-milk",
+  "title": "Pumpkin Seed and Sesame Seed Milk",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeCFakKTH3R/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#282"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "pumpkin_seeds",
+    "sesame_seeds"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 2,
+    "kcal": 32,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per 100 ml (makes 750 ml)",
+    "protein_g": 2,
+    "kcal": 32,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "pumpkin seeds",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4 tbsp pumpkin seeds (magnesium seeds)"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sesame seeds"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 750,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "750 ml water"
+    }
+  ],
+  "steps": [
+    "Soak pumpkin seeds and sesame seeds in water for 4–6 hours or overnight.",
+    "Add the soaked seeds with 750 ml fresh water to a blender and blend for 30–40 seconds until smooth.",
+    "Strain the mixture using a muslin cloth, or fine sieve to separate the milk from the pulp. Mix honey, cinnamon and sea salt in thr milk!",
+    "Transfer the milk to a glass bottle and refrigerate. It stays fresh for 2–3 days. Dont heat this!!!",
+    "Dont throw the Leftover Pulp.",
+    "Add to Rotis / Parathas/Pancakes, mix pulp with atta to make high-fiber magnesium-rich rotis.",
+    "Energy Bites- Combine with: dates, cocoa powder, peanut butter.",
+    "Add 1–2 tbsp pulp to smoothies for extra minerals and fiber."
+  ],
+  "assumptions": [
+    "Costs Rs 50/750 ml. The creator’s figures are approximate."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

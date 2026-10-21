@@ -1,0 +1,254 @@
+{
+  "id": "millet-moong-khichdi-tofu",
+  "title": "Millet Moong Khichdi with Tofu Chilli",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMDKLRbxFa4/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#89"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "tofu_firm",
+    "millet"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 660,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole lunch: about half the khichdi, the tofu chilli and a small cup of Greek yogurt — one portion",
+    "protein_g": 40,
+    "kcal": 660,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "millet",
+      "ingredient_id": "millet",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1/2 cup foxtail/barnyard millet"
+    },
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup moong dal"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup peas"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup grated carrot"
+    },
+    {
+      "item": "bottle gourd (lauki)",
+      "ingredient_id": "lauki",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup lauki"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup tomatoes (can also add chopped palak/methi)"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "4 tbsp chopped bellpeppers"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4th tsp haldi"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of hing"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "sambhar powder",
+      "ingredient_id": "sambhar_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp sambar powder"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sugar"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "4-5 curry leaves"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2-3 garlic cloves"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dried red chillies"
+    },
+    {
+      "item": "tamarind (imli)",
+      "ingredient_id": "tamarind",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4th cup dried imli soaked in hot water for 10 mins"
+    },
+    {
+      "item": "firm tofu",
+      "section": "tofu chilli",
+      "ingredient_id": "tofu_firm",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g tofu"
+    },
+    {
+      "item": "chilli oil",
+      "section": "tofu chilli",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    }
+  ],
+  "steps": [
+    "Add the millet, dal, veggies, salt, haldi, 1 tsp oil to a cooker with 4-5 cups of water.",
+    "Cook for 4-5 whistles and until then prep the tadka.",
+    "Add ghee/oil to a pan along with jeera, mustard, minced garlic, green chilli, red chilli, curry leaves.",
+    "Sauté for a min and add onion, bell peppers.",
+    "Cook for 2 mins and add your cooked khichdi along with sambar powder, sugar, red chilli powder, and imli water.",
+    "Add a little water to adjust consistency and let it come to a boil! Its ready.",
+    "For the tofu chilli, just sauté 150g tofu with 1 tsp chilli oil, salt and lemon juice."
+  ],
+  "assumptions": [
+    "The khichdi makes 2–3 portions; the creator took almost half and had it with a small cup of Epigamia plain Greek yogurt.",
+    "The ingredient list also names spinach as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

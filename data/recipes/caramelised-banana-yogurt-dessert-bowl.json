@@ -1,0 +1,112 @@
+{
+  "id": "caramelised-banana-yogurt-dessert-bowl",
+  "title": "Caramelised Banana Yogurt Dessert Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZNAyRPT_9c/",
+    "platform": "instagram",
+    "creator": "itsjackearly",
+    "creator_url": "https://www.instagram.com/itsjackearly/",
+    "ref": "batches/2026-10-21-batch2.txt#353"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "almonds"
+  ],
+  "tags": [
+    "salad_bowl",
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 346,
+    "carbs_g": 46,
+    "fat_g": 12,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 25,
+    "kcal": 346,
+    "carbs_g": 46,
+    "fat_g": 12
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g honey"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "cinnamon"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g banana"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 200,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "200g low fat Greek yogurt"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 15,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "15g roasted almonds"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g dark chocolate"
+    }
+  ],
+  "steps": [
+    "To a pan on medium heat add 20g honey (1.5 tbsp), Sprinkle some cinnamon, Add 80g banana slices, And fry till the banana slices turn brown and caramelised (fry for 2 min each side), Place the banana slices on top of 200g low fat Greek yogurt, Along with 15g roasted almonds, Add 10g dark chocolate, And done your desert bowl is ready."
+  ],
+  "assumptions": [
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

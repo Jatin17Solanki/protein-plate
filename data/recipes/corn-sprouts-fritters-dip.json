@@ -1,0 +1,213 @@
+{
+  "id": "corn-sprouts-fritters-dip",
+  "title": "Corn Sprouts Fritters with Yogurt Dip",
+  "source": {
+    "url": "https://www.instagram.com/reel/DLry3XCTQiD/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#91"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "sprouts",
+    "besan",
+    "sweet_corn"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 19.5,
+    "kcal": 444,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 19.5,
+    "kcal": 444,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "sweet corn",
+      "section": "fritters",
+      "ingredient_id": "sweet_corn",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup corn"
+    },
+    {
+      "item": "moong sprouts",
+      "section": "fritters",
+      "ingredient_id": "sprouts",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/2 Cup Boiled Mix Sprouts"
+    },
+    {
+      "item": "spinach",
+      "section": "fritters",
+      "ingredient_id": "spinach",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 cup greens (Methi/Spinach)"
+    },
+    {
+      "item": "onion",
+      "section": "fritters",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped onion"
+    },
+    {
+      "item": "gram flour (besan)",
+      "section": "fritters",
+      "ingredient_id": "besan",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1.5 tbsp besan"
+    },
+    {
+      "item": "semolina (sooji)",
+      "section": "fritters",
+      "ingredient_id": "sooji",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp sooji"
+    },
+    {
+      "item": "rice flour",
+      "section": "fritters",
+      "ingredient_id": "rice_flour",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1.5 tbsp rice flour"
+    },
+    {
+      "item": "green chilli",
+      "section": "fritters",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli chopped"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "fritters",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "turmeric",
+      "section": "fritters",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Haldi"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "section": "fritters",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur"
+    },
+    {
+      "item": "salt",
+      "section": "fritters",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "section": "fritters",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "water",
+      "section": "fritters",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "A little water to bind"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "dip",
+      "ingredient_id": "greek_yogurt",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "120g Greek Yogurt"
+    },
+    {
+      "item": "green chutney",
+      "section": "dip",
+      "ingredient_id": "green_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp green chutney (Mint + Coriander + Chilli + Peanuts + Lemon Juice + Salt and jeera)"
+    }
+  ],
+  "steps": [
+    "Take half the corn and sprouts mixture and grind.",
+    "Now add this to the remaining corn and sprouts along all the above mentioned ingredients.",
+    "Add 1/4th cup water little by little to prepare the pakoda base.",
+    "Make thin pancakes out of the mixture and let it cook on medium-high flame on both sides on a non stick pan until crispy on both sides.",
+    "You can spray a little oil on both sides of the fritters to make it crispier.",
+    "Mix the chutney and greek yogurt to prepare a dip and enjoy with your fritters!"
+  ],
+  "assumptions": [
+    "The ingredient list also names mint leaves, coriander leaves, peanuts, lemon / lime and cumin seeds as alternatives or notes; they aren’t listed separately.",
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

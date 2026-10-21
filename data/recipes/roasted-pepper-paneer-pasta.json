@@ -1,0 +1,197 @@
+{
+  "id": "roasted-pepper-paneer-pasta",
+  "title": "Roasted Pepper Paneer Pasta",
+  "source": {
+    "url": "https://www.instagram.com/reel/DRY2-EoDP_B/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#39"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "lentil_pasta",
+    "tomato"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 20,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 2)",
+    "protein_g": 20,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 bell pepper (charred completely)"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp olive oil"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3–4 garlic cloves"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3–4 walnuts"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 tomatoes"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4–5 cherry tomatoes"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8–10 mushrooms"
+    },
+    {
+      "item": "lentil pasta",
+      "ingredient_id": "lentil_pasta",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g raw pasta (I’m using a lentil pasta)"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120g low-fat paneer"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chili flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "oregano"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Basil leaves"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "optional": true,
+      "as_written": "Chili oil (optional)"
+    }
+  ],
+  "steps": [
+    "Char the bell pepper till fully black — the smokiness is elite.",
+    "Heat 2 tsp olive oil and add garlic + walnuts.",
+    "Add onions, cook for 2 mins, then add tomatoes + cherry tomatoes + salt + pepper and let everything get mushy.",
+    "Boil the pasta till al dente and save that pasta water — non-negotiable.",
+    "Blend the tomato–onion base + charred bell pepper + 120g paneer + pasta water till smooth and creamy.",
+    "In a hot pan, cook mushrooms without oil for 4–5 mins till they smell insane.",
+    "Add the sauce, add the pasta, sprinkle chili flakes + oregano, and let it cook for 5–6 mins.",
+    "Finish with basil and optional chili oil for that final glow-up."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

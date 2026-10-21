@@ -1,0 +1,147 @@
+{
+  "id": "apple-crumble-yogurt-bowl",
+  "title": "Apple Crumble Greek Yogurt Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DQWjTJtjMQP/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#19"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "oats"
+  ],
+  "tags": [
+    "salad_bowl",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 23,
+    "kcal": 425,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 23,
+    "kcal": 425,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 20,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "20g Rolled Oats"
+    },
+    {
+      "item": "apple",
+      "ingredient_id": "apple",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Small Apple"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 1,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "1 chopped walnut"
+    },
+    {
+      "item": "mixed seeds",
+      "ingredient_id": "mixed_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp mix seeds"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Drizzle of peanut butter"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 170,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "170g Greek yogurt (I used Skyr which is higher in protein than Greek yogurt, you can also go for Epigamia Turbo)"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Sweetner of choice - 1 tsp Honey/Stevia"
+    }
+  ],
+  "steps": [
+    "You can also mix the greek yogurt with 1 scoop vanilla protein powder (additional 25g Protein)",
+    "In some butter, toss the chopped apples for 2 mins. Add cinnamon, salt. Toss for another 2 mins until soft.",
+    "Add oats and toss until they are toasted (slightly brownish).",
+    "Prepare the yogurt base by mixing with your choice of sweetner. Add the crumble, seeds, nuts and peanut butter."
+  ],
+  "assumptions": [
+    "Sweeten with 1 tsp honey or stevia.",
+    "The ingredient list also names skyr as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -1,0 +1,148 @@
+{
+  "id": "masala-makhana",
+  "title": "Masala Makhana",
+  "source": {
+    "url": "https://www.instagram.com/reel/DEcUr2xoeSp/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-jatin-captions.txt#1"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk_powder",
+    "garlic_powder",
+    "red_chilli_powder"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "red chilli powder",
+      "section": "masala",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1.5 tsp red chilli powder"
+    },
+    {
+      "item": "milk powder",
+      "section": "masala",
+      "ingredient_id": "milk_powder",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1.5 tsp milk powder"
+    },
+    {
+      "item": "garlic powder",
+      "section": "masala",
+      "ingredient_id": "garlic_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garlic powder"
+    },
+    {
+      "item": "onion powder",
+      "section": "masala",
+      "ingredient_id": "onion_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp onion powder"
+    },
+    {
+      "item": "powdered sugar",
+      "section": "masala",
+      "ingredient_id": "sugar",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp powdered sugar"
+    },
+    {
+      "item": "salt",
+      "section": "masala",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "section": "makhana",
+      "ingredient_id": "makhana",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1.5 cups makhana (fox nuts)"
+    },
+    {
+      "item": "ghee",
+      "section": "makhana",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "olive oil",
+      "section": "makhana",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp olive oil"
+    }
+  ],
+  "steps": [
+    "Mix all the masala ingredients and grind them into a coarse powder that can stick easily to the makhana.",
+    "Add ghee to a pan and roast the makhana until crispy.",
+    "Transfer the makhana to a container. Add the prepared masala and 2 tsp olive oil.",
+    "Shake for 3–4 minutes until the makhana are evenly coated.",
+    "Store in an airtight container for up to 2 weeks."
+  ],
+  "assumptions": [
+    "The recipe was pinned in the post’s comments; the text was copied from there. Recipe inspiration: @mynutritionpalette."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

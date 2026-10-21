@@ -1,0 +1,109 @@
+{
+  "id": "mango-makhana-yogurt-pudding",
+  "title": "Mango Makhana Yogurt Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8jpMUIJQ5F/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#159"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 10,
+    "kcal": 198,
+    "carbs_g": 34,
+    "fat_g": 3,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 10,
+    "kcal": 198,
+    "carbs_g": 34,
+    "fat_g": 3
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 Cup Makhana (15g)"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1/2 Cup Greek Yogurt (110g approx) (Can replace with Hung Curd)"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp jaggery powder/ stevia/ monkfruit extract"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp elaichi powder"
+    },
+    {
+      "item": "mango",
+      "ingredient_id": "mango",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Mango Pulp (1/2-3/4 cup) - 80-90g"
+    }
+  ],
+  "steps": [
+    "Roast the makhanas until crispy.",
+    "Let the makhanad cool down and then blend the makhanas with rest of the ingredients mentioned above into a very fine paste.",
+    "The mixture will be slightly jiggly. Pour into a bowl. And let it set overnight for 7-8 hrs.",
+    "Enjoy it as a snack or even for breakfast- its just so healthy."
+  ],
+  "assumptions": [
+    "The ingredient list also names zero-calorie sweetener as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/DZ4vPpTM_Za/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#47"
   },
   "status": "complete",
@@ -41,7 +41,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "from the video, for the recipe (makes 2 toasties) — one portion (Jatin)",
+    "basis": "from the video, for the recipe (makes 2 toasties) — one portion",
     "protein_g": 40,
     "kcal": 447
   },
@@ -147,8 +147,8 @@
   ],
   "assumptions": [
     "Makes 2 toasties; the caption doesn't say how many make a portion.",
-    "Macros from the video (supplied by Jatin).",
-    "Jatin: the recipe makes one portion."
+    "Macros from the video.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

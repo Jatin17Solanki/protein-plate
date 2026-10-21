@@ -1,0 +1,163 @@
+{
+  "id": "paneer-cauliflower-pumpkin-pasta",
+  "title": "Creamy Paneer Cauliflower Pumpkin Pasta",
+  "source": {
+    "url": "https://www.instagram.com/reel/DLcVUY1o224/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#99"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 400,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 25,
+    "kcal": 400,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90-100g Low Fat paneer (mine is homemade)"
+    },
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g Cauliflower"
+    },
+    {
+      "item": "pumpkin",
+      "ingredient_id": "pumpkin",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g Pumpkin"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 Cashews"
+    },
+    {
+      "item": "whole-wheat pasta",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 0.75,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "3/4th Cup Slightly Undercooked Pasta (I am using Whole wheat)"
+    },
+    {
+      "item": "mushroom",
+      "ingredient_id": "mushroom",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "Veggies of choice (mushrooms, bellpeppers, corn)"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3-4 cloves garlic"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Oregano"
+    }
+  ],
+  "steps": [
+    "Boil some whole wheat pasta until slightly undercooked. Please save the pasta water after you drain it.",
+    "Boil cashews, pumpkin, cauliflower until soft.",
+    "Then blend everything with homemade low fat paneer until smooth and creamy. You can add the water in which you boiled the veggies while blending everything.",
+    "Add a little olive oil and saute some garlic, mushrooms and bell peppers in a sauce pan. (Veggies are optional)",
+    "Now add the sauce we blended along with some pasta water that we kept aside. Add the seasonings and let it cook for 2 minutes.",
+    "Add in your boiled pasta and let it cook for another 2-3 minutes until desired consistency is achieved. You can adjust the consistency with pasta water."
+  ],
+  "assumptions": [
+    "The ingredient list also names sweet corn as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

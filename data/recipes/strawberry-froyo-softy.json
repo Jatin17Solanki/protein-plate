@@ -1,0 +1,98 @@
+{
+  "id": "strawberry-froyo-softy",
+  "title": "Strawberry Froyo Softy",
+  "source": {
+    "url": "https://www.instagram.com/reel/DWIpnEDDJhb/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#220"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "cashews",
+    "strawberries",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 400,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "400g frozen strawberries"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp Greek yogurt"
+    },
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/4 cup soaked cashews"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "pantry",
+      "as_written": "Zero-calorie sweetener (as per taste)"
+    }
+  ],
+  "steps": [
+    "Add everything to a blender.",
+    "Blend till smooth and creamy.",
+    "Transfer to a container and freeze with clingwrap sheet on top (otherwise icecrystals form). Don’t freeze for too long, otherwise it will become like a rock.",
+    "Scoop it out and top with pistachios! Tastes between a sorbet and icecream."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

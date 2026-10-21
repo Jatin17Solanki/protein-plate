@@ -1,0 +1,213 @@
+{
+  "id": "guacamole-tofu-toast",
+  "title": "Guacamole Tofu Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/CvpL3aRpxPW/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#185"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "avocado"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 22,
+    "kcal": 480,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (2 toasts) — one portion",
+    "protein_g": 22,
+    "kcal": 480,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "avocado",
+      "section": "guacamole",
+      "ingredient_id": "avocado",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Half an avocado (small)"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "guacamole",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lime juice"
+    },
+    {
+      "item": "black pepper",
+      "section": "guacamole",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "oregano",
+      "section": "guacamole",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "guacamole",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "section": "guacamole",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "onion",
+      "section": "guacamole",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped onion"
+    },
+    {
+      "item": "tomato",
+      "section": "guacamole",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "tomato"
+    },
+    {
+      "item": "garlic",
+      "section": "tofu mixture",
+      "ingredient_id": "garlic",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1/2 tbsp Garlic butter"
+    },
+    {
+      "item": "butter",
+      "section": "tofu mixture",
+      "ingredient_id": "butter",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "1/2 tbsp Garlic butter"
+    },
+    {
+      "item": "garlic",
+      "section": "tofu mixture",
+      "ingredient_id": "garlic",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped Garlic"
+    },
+    {
+      "item": "onion",
+      "section": "tofu mixture",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped onion"
+    },
+    {
+      "item": "sweet corn",
+      "section": "tofu mixture",
+      "ingredient_id": "sweet_corn",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp boiled corn"
+    },
+    {
+      "item": "firm tofu",
+      "section": "tofu mixture",
+      "ingredient_id": "tofu_firm",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Tofu"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "tofu mixture",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Sriracha Sauce 1 tbsp"
+    },
+    {
+      "item": "oregano",
+      "section": "tofu mixture",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "salt",
+      "section": "tofu mixture",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "No written method — watch the video for the steps."
+  ],
+  "assumptions": [
+    "The creator’s numbers are for 2 toasts; the bread isn’t listed.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

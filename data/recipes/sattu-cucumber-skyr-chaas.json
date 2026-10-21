@@ -1,0 +1,142 @@
+{
+  "id": "sattu-cucumber-skyr-chaas",
+  "title": "Sattu Cucumber Skyr Chaas",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZFTZ9sss9w/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#244"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "sattu",
+    "cucumber"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 14.7,
+    "kcal": 143,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 14.7,
+    "kcal": 143,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g - 120g Greek yogurt (I am using Skyr which is higher in protein than greek yogurt)"
+    },
+    {
+      "item": "sattu",
+      "ingredient_id": "sattu",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1.5 tbsp sattu powder"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2-3 curry leaves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1/2 tsp chopped green chillies"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small cucumber"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 250,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "250-300 ml water"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp jeera powder"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of chaat masala"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp zero cal sweetner"
+    },
+    {
+      "item": "rock salt",
+      "ingredient_id": "rock_salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of rock salt"
+    }
+  ],
+  "steps": [
+    "Blend everything together and enjoy with lots of ice."
+  ],
+  "assumptions": [
+    "The ingredient list also names skyr as an alternative or note; it isn’t listed separately.",
+    "Meal types are our guess.",
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

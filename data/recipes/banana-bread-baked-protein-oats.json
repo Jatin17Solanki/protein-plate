@@ -1,0 +1,172 @@
+{
+  "id": "banana-bread-baked-protein-oats",
+  "title": "Banana Bread Baked Protein Oats",
+  "source": {
+    "url": "https://www.instagram.com/reel/DYrnDzXsFuN/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#240"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "protein_oats",
+    "skyr"
+  ],
+  "tags": [
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 32,
+    "kcal": 500,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 32,
+    "kcal": 500,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "protein oats",
+      "ingredient_id": "protein_oats",
+      "qty": 60,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "60 g @thedrchoice Banana Caramel Protein Oats (24g P per 100g) - You can use my code - FITKDC for a discount"
+    },
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small ripe banana"
+    },
+    {
+      "item": "baking powder",
+      "ingredient_id": "baking_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/4 tsp baking powder"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp Skyr/Greek Yogurt"
+    },
+    {
+      "item": "skimmed milk",
+      "ingredient_id": "milk_skimmed",
+      "qty": 20,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "20-30 ml skimmed milk"
+    },
+    {
+      "item": "blueberries",
+      "ingredient_id": "blueberries",
+      "qty": 10,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "10–15 blueberries"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "4–5 dark chocolate chips (optional)"
+    },
+    {
+      "item": "walnuts",
+      "ingredient_id": "walnuts",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "2–3 walnuts"
+    },
+    {
+      "item": "whey protein",
+      "section": "chocolate sauce",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tbsp Choc Protein Powder"
+    },
+    {
+      "item": "cocoa powder",
+      "section": "chocolate sauce",
+      "ingredient_id": "cocoa_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp unsweetened cocoa powder"
+    },
+    {
+      "item": "skimmed milk",
+      "section": "chocolate sauce",
+      "ingredient_id": "milk_skimmed",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp low-fat milk"
+    },
+    {
+      "item": "water",
+      "section": "chocolate sauce",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "pantry",
+      "as_written": "Water as needed for desired consistency"
+    }
+  ],
+  "steps": [
+    "Mash the banana properly in a bowl.",
+    "Add the protein oats, skyr, milk, and mix everything well. Adjust qty of milk if needed for a thick pourable cake batter.",
+    "Fold in the blueberries.",
+    "Transfer to a baking dish and top with chocolate chips + chopped walnuts.",
+    "Preheat airfryer at 180 for 3 mins and airfry for 15-16 mins at 180 or bake for 20-22 mins at 175.",
+    "Meanwhile, mix all the chocolate sauce ingredients together. Add water depending on how thick or runny you want it.",
+    "Pour the chocolate sauce on top while the baked oats are still hot."
+  ],
+  "assumptions": [
+    "The ingredient list also names Greek yogurt as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

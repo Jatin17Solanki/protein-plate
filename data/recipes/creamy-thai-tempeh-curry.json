@@ -1,0 +1,142 @@
+{
+  "id": "creamy-thai-tempeh-curry",
+  "title": "Creamy Thai Tempeh Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/C_kM3eIJGsU/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#153"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [
+    "coconut_milk"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 22,
+    "kcal": 358,
+    "carbs_g": 25,
+    "fat_g": 20,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 22,
+    "kcal": 358,
+    "carbs_g": 25,
+    "fat_g": 20
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "Thai red curry paste",
+      "ingredient_id": "thai_curry_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Readymade Thai Curry Paste (Can use Real Thai) - 1tbsp"
+    },
+    {
+      "item": "coconut milk",
+      "ingredient_id": "coconut_milk",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "⁠Coconut Milk 150ml (I prefer lite coconut milk by Real Thai as its lower in calories)"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "⁠Veggies - Carrots"
+    },
+    {
+      "item": "zucchini",
+      "ingredient_id": "zucchini",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Zuchini"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Bell Peppers (1 Small cup)"
+    },
+    {
+      "item": "tempeh",
+      "ingredient_id": "tempeh",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "⁠Protein Source - Thai Chilli Tempeh Thins by @Hello_Tempayy"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "⁠1 tsp Zero Calorie Sweetner"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "⁠1 tsp olive oil"
+    },
+    {
+      "item": "kaffir lime leaves",
+      "ingredient_id": null,
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "⁠Kafir Lime Leaves (3/4) - optional"
+    }
+  ],
+  "steps": [
+    "Grill the tempeh thins for 3 mins or heat them on a pan. Cut them into small cubes and keep aside.",
+    "⁠In a pan, add olive oil and 50ml coconut milk. Cook for 2 mins on low flame until it starts reducing a bit.",
+    "⁠Add 1 tbsp thai curry paste and mix well until its well combined.",
+    "⁠Add 100ml coconut milk and 100ml of water. Also add sugar/zero calorie sweetner.",
+    "⁠Let it cook for 2-3 minutes and then add in your veggies and tempeh. Also add kafir lime leaves.",
+    "⁠Cover and let it simmer on low flame for 20-25 mins. You can add a little more water if needed."
+  ],
+  "assumptions": [
+    "Tempeh is made by fermenting soybeans.",
+    "The creator also gives 11 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

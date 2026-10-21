@@ -1,0 +1,244 @@
+{
+  "id": "kala-chana-coconut-curry",
+  "title": "Kala Chana Coconut Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/C3aB6bkJ95-/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#178"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "black chickpeas (kala chana)",
+      "ingredient_id": "kala_chana",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup black chickpeas"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 small cup of grated fresh coconut"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2-3 tbsp peanuts"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "curry leaves"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dried red chillies"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp dhaniya powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp haldi"
+    },
+    {
+      "item": "cinnamon",
+      "ingredient_id": "cinnamon",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp cinnamon powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "ghee"
+    },
+    {
+      "item": "fennel seeds",
+      "ingredient_id": "fennel_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp fennel seeds"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 5,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "5-6 cloves of chopped garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 chopped chillies"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "ginger"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 tomatoes"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "pinch of hing"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3-4 tbsp onions"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "jaggery",
+      "ingredient_id": "jaggery",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp of jaggery powder"
+    }
+  ],
+  "steps": [
+    "Soak 1 cup black chickpeas overnight then pressure cook for 4-5 whistles until soft.",
+    "For the coconut masala: Take 1 small cup of grated fresh coconut and roast it until it turns a little brown. In a kadhai, roast 2-3 tbsp peanuts, curry leaves, 2 dried red chillies. Then add roasted coconut, 1 tsp red chilli powder, salt, 1 tsp dhaniya powder, 1/2 tsp haldi, 1/4 tsp cinnamon powder, 1 tsp garam masala. Roast for a min and take it off the flame.",
+    "Add some ghee in a kadhai. Then add 1/2 tsp fennel seeds (saunf), 5-6 cloves of chopped garlic, 3-4 chopped chillies, chopped ginger. Then add 1 chopped onion and sauté well. After a few minutes add salt, red chilli powder and garam masala. Now add the coconut masala we roasted and let it cook for 2-3 minutes. Then add purée of 2 tomatoes. Let this cook well until soft and mushy and blend into a fine paste.",
+    "Now in a pan, add 1 tsp mustard seeds, curry leaves, pinch of hing, 3-4 tbsp onions and the curry we prepared. Let it cook for 2 mins and add boiled chickpeas along with some mashed chickpeas.",
+    "Give it a mix and cover and cook for 7-8 mins. Add water to adjust consistency.",
+    "Add 1 tbsp of jaggery powder and adjust the masalas as per your taste.",
+    "Cook for 5 more minutes and it’s ready. Serve with hot fluffy appams."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

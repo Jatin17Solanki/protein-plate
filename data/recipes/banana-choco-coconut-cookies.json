@@ -1,0 +1,96 @@
+{
+  "id": "banana-choco-coconut-cookies",
+  "title": "3-Ingredient Banana Choco Coconut Cookies",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbFBg4Yzv4w/",
+    "platform": "instagram",
+    "creator": "tastyiri_en",
+    "creator_url": "https://www.instagram.com/tastyiri_en/",
+    "ref": "batches/2026-10-21-batch2.txt#333"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "banana",
+    "coconut",
+    "dark_chocolate"
+  ],
+  "tags": [
+    "dessert",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe",
+    "protein_g": 7,
+    "kcal": 620,
+    "carbs_g": 72,
+    "fat_g": 39
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 ripe bananas"
+    },
+    {
+      "item": "coconut (fresh)",
+      "ingredient_id": "coconut",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g shredded coconut"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 15,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "15g of 70% dark chocolate"
+    }
+  ],
+  "steps": [
+    "To a bowl add 2 ripe bananas and mash it until smooth, Add 50g shredded coconut - mix it well, Shape it into cookies and cook in the air fryer at 180°C for 10 - 15 minutes (it should form a light brown crust), Now add 15g of 70% dark chocolate (melt it, and fill each cookie), Refrigerate for 30 minutes before serving."
+  ],
+  "assumptions": [
+    "The creator also gives 16 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
+  ]
+}

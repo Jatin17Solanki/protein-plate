@@ -1,0 +1,169 @@
+{
+  "id": "chilli-tofu",
+  "title": "Chilli Tofu",
+  "source": {
+    "url": "https://www.instagram.com/reel/CtVtAhwKRPH/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#187"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "soy_sauce"
+  ],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tsbsp Chopped Garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp Chopped Green chillies"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soya sauce"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp schezwan chutney"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chilli flakes"
+    },
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100-150g tofu"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "ingredient_id": "corn_flour",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1/2 tbsp cornflour to coat tofu and 1/2 tbsp to dd in the gravy"
+    },
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "1/2 tbsp cornflour to coat tofu and 1/2 tbsp to dd in the gravy"
+    },
+    {
+      "item": "spring onion",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "optional": true,
+      "as_written": "Garnish with Spring onions (optional)"
+    }
+  ],
+  "steps": [
+    "You can have this Chilli tofu with herb rice or wheat noddles and make your meal super balanced and healthy."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

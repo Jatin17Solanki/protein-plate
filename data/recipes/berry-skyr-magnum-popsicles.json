@@ -1,0 +1,117 @@
+{
+  "id": "berry-skyr-magnum-popsicles",
+  "title": "Berry Skyr Magnum Popsicles",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZfAqDEsikC/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#247"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "skyr",
+    "peanut_butter"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 120,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per popsicle (makes 4)",
+    "protein_g": null,
+    "kcal": 120,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "mixed berries",
+      "ingredient_id": "mixed_berries",
+      "qty": 150,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "150g frozen mixed berries from Pluckk"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g skyr"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 0.75,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "¾ tbsp peanut butter"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "4 tbsp melted 85% dark chocolate"
+    },
+    {
+      "item": "pistachios",
+      "ingredient_id": "pistachios",
+      "qty": 4,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "4 tsp chopped pistachios"
+    }
+  ],
+  "steps": [
+    "Blend the frozen berries, skyr, honey and peanut butter until smooth and creamy.",
+    "Pour the mixture into popsicle moulds and freeze until completely set.",
+    "Coat each popsicle with 1 tbsp melted dark chocolate (½ tbsp on each side).",
+    "Immediately sprinkle 1 tsp chopped pistachios over each popsicle.",
+    "Freeze again for 10–15 minutes until the chocolate hardens.",
+    "Enjoy your crunchy berry magnum!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

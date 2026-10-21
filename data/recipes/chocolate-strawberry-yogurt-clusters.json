@@ -1,0 +1,95 @@
+{
+  "id": "chocolate-strawberry-yogurt-clusters",
+  "title": "Chocolate Strawberry Yogurt Clusters",
+  "source": {
+    "url": "https://www.instagram.com/reel/C4Nm_AbpzHB/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#96"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "strawberries",
+      "ingredient_id": "strawberries",
+      "qty": 12,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "12-15 juicy strawberries"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1 cup of greek yogurt"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp of zero calorie sweetner"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "dark chocolate"
+    }
+  ],
+  "steps": [
+    "Chop 12-15 juicy strawberries and add 1 cup of greek yogurt (not curd) to it. Also add 1 tbsp of zero calorie sweetner of choice (stevia/monkfruit extract). Mix it up and pour small clusters over a parchment sheet. Freeze this.",
+    "Now melt some good quality low cal dark chocolate in a microwave and dip these frozen yogurt clusters in the dark chocolate. Make sure that the coating is thin so the calories don’t shoot up. Freeze again and dig in!",
+    "Pro tip: Take it out of the freezer and let it sit for 5 mins before you dig in for a strawberry yogurt explosion."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

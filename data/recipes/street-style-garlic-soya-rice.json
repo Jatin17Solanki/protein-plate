@@ -1,0 +1,260 @@
+{
+  "id": "street-style-garlic-soya-rice",
+  "title": "Street-Style Garlic Soya Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/Den9ECxzh84/",
+    "platform": "instagram",
+    "creator": "bharatzkitchen",
+    "creator_url": "https://www.instagram.com/bharatzkitchen/",
+    "ref": "batches/2026-10-21-batch2.txt#291"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "rice"
+  ],
+  "tags": [
+    "rice_pulao_biryani"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 20,
+    "kcal": 525,
+    "carbs_g": 96,
+    "fat_g": 7,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 4)",
+    "protein_g": 20,
+    "kcal": 525,
+    "carbs_g": 96,
+    "fat_g": 7
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 3,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "3 cups of water"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp salt"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 cardamom pods"
+    },
+    {
+      "item": "bay leaf",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp chopped coriander stems"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 slit green chilli"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp garam masala"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60g raw soya chunks"
+    },
+    {
+      "item": "rice",
+      "ingredient_id": "rice",
+      "qty": 400,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "400g washed basmati rice"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup chopped carrots"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup green peas"
+    },
+    {
+      "item": "sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "¼ cup sweet corn"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 halved tomatoes"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 12,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "12 garlic cloves"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped green chilli"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "cloves (spice)",
+      "ingredient_id": null,
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "4 cloves"
+    }
+  ],
+  "steps": [
+    "To a pot on medium heat, add 3 cups of water. Add 1 tbsp salt, 2 cardamom pods, 4 cloves, 1 bay leaf, 1 tbsp chopped coriander stems, 1 slit green chilli, ¼ tsp garam masala, 60g raw soya chunks, Let it boil for 2 minutes.",
+    "Now add 400g washed basmati rice to the boiling water.",
+    "Once the rice is almost cooked through, add: ¼ cup chopped carrots, ¼ cup green peas, ¼ cup sweet corn.",
+    "Let everything continue boiling.",
+    "Now bring the flame to low, cover, and let it cook for 10 minutes until the rice is fully cooked.",
+    "Once done, set it aside.",
+    "Next, to a pan on medium heat, add: 1 tbsp ghee, 1 tsp butter.",
+    "Arrange 3 halved tomatoes in the pan like petals of a flower.",
+    "Right in the centre, add: 1 chopped onion, 12 garlic cloves, 1 chopped green chilli, ½ tsp salt.",
+    "Cover and cook for 5 minutes until the tomatoes soften.",
+    "Now remove the tomato skins and mash everything together into a nice chutney.",
+    "Add: 1 tsp Kashmiri red chilli powder, ½ tsp turmeric powder.",
+    "Mix everything really well.",
+    "Now top it with the cooked spiced soya rice.",
+    "Sprinkle ½ tsp garam masala over it and give everything one final mix until the rice is nicely coated in that garlic tomato masala.",
+    "And your Street-Style Garlic Soya Rice is ready to serve!"
+  ],
+  "assumptions": [
+    "The creator also gives 10 g fibre per serving."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -1,0 +1,148 @@
+{
+  "id": "kesar-pista-protein-chia-pudding",
+  "title": "Kesar Pista Protein Chia Pudding",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeBg0Eazo45/",
+    "platform": "instagram",
+    "creator": "auraartofhealthyliving",
+    "creator_url": "https://www.instagram.com/auraartofhealthyliving/",
+    "ref": "batches/2026-10-21-batch2.txt#303"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "other"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "whey_protein"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 29,
+    "kcal": 467,
+    "carbs_g": 38,
+    "fat_g": 25,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per jar (serves 3)",
+    "protein_g": 29,
+    "kcal": 467,
+    "carbs_g": 38,
+    "fat_g": 25
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 400,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "400g Greek yogurt"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g almonds"
+    },
+    {
+      "item": "pistachios",
+      "ingredient_id": "pistachios",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g pistachios"
+    },
+    {
+      "item": "saffron (kesar)",
+      "ingredient_id": "saffron",
+      "qty": 12,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "12 strands saffron"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 120,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "120ml milk"
+    },
+    {
+      "item": "dates",
+      "ingredient_id": "dates",
+      "qty": 60,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "60g seedless dates"
+    },
+    {
+      "item": "green cardamom",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp cardamom powder"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 1,
+      "unit": null,
+      "grams": 30,
+      "type": "protein",
+      "as_written": "1 scoop vanilla protein"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20g chia seeds"
+    }
+  ],
+  "steps": [
+    "To a blender add 400g Greek yogurt, 20g almonds, 20g pistachios, 12 strands saffron, soaked in 120ml milk, 60g seedless dates, 1/2 tsp cardamom powder, 1 scoop vanilla protein powder, A pinch of salt, Blend until smooth.",
+    "Pour it evenly into 3 containers.",
+    "Now add around 20g chia seeds to each container, Mix well.",
+    "Refrigerate for at least 2 hours or until completely set.",
+    "Once it’s out of the fridge, top it with any fruits or berries of your choice. I used strawberries.",
+    "And it’s ready to serve!"
+  ],
+  "assumptions": [
+    "Use about 20 g chia seeds per container (60 g in total). Top with fruit of your choice.",
+    "The creator also gives 11 g fibre per jar.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -1,0 +1,149 @@
+{
+  "id": "homemade-snickers-bars",
+  "title": "Homemade Snickers Bars",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcLc9wJTAvz/",
+    "platform": "instagram",
+    "creator": "kin.elevital",
+    "creator_url": "https://www.instagram.com/kin.elevital/",
+    "ref": "batches/2026-10-21-batch2.txt#322"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "peanut_butter",
+    "cashews"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 17,
+    "kcal": 680,
+    "carbs_g": 50,
+    "fat_g": 51,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per bar (makes 4)",
+    "protein_g": 17,
+    "kcal": 680,
+    "carbs_g": 50,
+    "fat_g": 51
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "cashews",
+      "ingredient_id": "cashews",
+      "qty": 65,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "½ cup (65g) cashews"
+    },
+    {
+      "item": "coconut cream",
+      "ingredient_id": "coconut_cream",
+      "qty": 120,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "½ cup (120g) coconut cream"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp honey"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of salt"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 130,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "½ cup (130g) peanut butter"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp honey"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp vanilla extract"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "handful",
+      "type": "pantry",
+      "as_written": "a handful of roasted peanuts"
+    },
+    {
+      "item": "dark chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "dark chocolate"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "cocoa"
+    }
+  ],
+  "steps": [
+    "To a blender, add ½ cup (65g) cashews, ½ cup (120g) coconut cream, 2 tbsp honey, A pinch of salt. Blend until smooth, transfer the mixture to a lined container and refrigerate for at least 1 hour, or until firm.",
+    "Once the base is ready, it’s time to make the caramel layer. In a bowl, combine ½ cup (130g) peanut butter, 2 tbsp honey, 1 tsp vanilla extract. Pour the mixture over the chilled base and sprinkle a handful of roasted peanuts on top.",
+    "Freeze for at least 1 hour, then remove it from the container and cut it into 4 bars.",
+    "Coat each bar in melted dark chocolate - preferably 70% cocoa or higher. You’ll need approximately 150g of chocolate to coat all four bars.",
+    "Sprinkle a little salt on top. The chocolate will harden almost instantly when it comes into contact with the frozen bars.",
+    "Your homemade Snickers bars are ready!"
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

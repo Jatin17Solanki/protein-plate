@@ -1,0 +1,220 @@
+{
+  "id": "cauliflower-steak-pepper-paneer-sauce",
+  "title": "Cauliflower Steak with Red Pepper Paneer Sauce",
+  "source": {
+    "url": "https://www.instagram.com/reel/DWYxN4Dk6cl/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#222"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "global",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 27,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 27,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium cauliflower (cut into a thick slice for the steak)"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "2 tsp olive oil"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of ½ lemon"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Schezwan chutney"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sesame seeds"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "garlic powder",
+      "ingredient_id": "garlic_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garlic powder"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp chilli flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mixed herbs"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "section": "sauce",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 red bell pepper (medium)"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "sauce",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 90,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "90g low-fat paneer"
+    },
+    {
+      "item": "walnuts",
+      "section": "sauce",
+      "ingredient_id": "walnuts",
+      "qty": 3,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "3-4 walnuts (small handful)"
+    },
+    {
+      "item": "salt",
+      "section": "sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "sauce",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "sauce",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of ½ lemon"
+    },
+    {
+      "item": "water",
+      "section": "sauce",
+      "ingredient_id": "water",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2–3 tbsp water (to blend)"
+    }
+  ],
+  "steps": [
+    "Cut the cauliflower.",
+    "Slice the cauliflower into a cross sectional steak.",
+    "Prepare the marinade.",
+    "Mix olive oil, lemon juice, Schezwan chutney, sesame seeds, salt, garlic powder, chilli flakes and mixed herbs.",
+    "Coat the steak.",
+    "Brush the marinade evenly on both sides of the cauliflower steak.",
+    "Air fry.",
+    "Air fry at 180°C for 18-20 minutes, flipping midway, until tender and slightly charred. You can also do it on a fry pan.",
+    "Prepare the sauce.",
+    "Char the red bell pepper directly on flame or in a pan, peel off the skin.",
+    "Blend the sauce.",
+    "Blend the roasted bell pepper with paneer, walnuts, salt, chilli powder, honey, lemon juice and water until smooth.",
+    "Assemble.",
+    "Spread the sauce on a plate and place the cauliflower steak over it.",
+    "Serve.",
+    "Optionally top with extra chopped walnuts or coriander butter and serve warm."
+  ],
+  "assumptions": [
+    "The creator’s figures are approximate; they also give about 8 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

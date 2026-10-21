@@ -1,0 +1,152 @@
+{
+  "id": "date-sweetened-hot-chocolate",
+  "title": "Date-Sweetened Hot Chocolate",
+  "source": {
+    "url": "https://www.instagram.com/reel/DDzJNzGoLNv/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#146"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "milk",
+    "milk_skimmed",
+    "cocoa_powder"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 198,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per cup (makes about 3 small cups)",
+    "protein_g": null,
+    "kcal": 198,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "dates",
+      "section": "date paste",
+      "ingredient_id": "dates",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4 Medium size Dates"
+    },
+    {
+      "item": "cashews",
+      "section": "date paste",
+      "ingredient_id": "cashews",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2-3 Cashews"
+    },
+    {
+      "item": "almonds",
+      "section": "date paste",
+      "ingredient_id": "almonds",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4-5 Almonds"
+    },
+    {
+      "item": "salt",
+      "section": "date paste",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "skimmed milk",
+      "section": "date paste",
+      "ingredient_id": "milk_skimmed",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100 ml Low fat milk (I am using @prideofcowsindia)"
+    },
+    {
+      "item": "milk",
+      "section": "hot chocolate",
+      "ingredient_id": "milk",
+      "qty": 350,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "350 ml Milk (I am using @prideofcowsindia)"
+    },
+    {
+      "item": "dark chocolate",
+      "section": "hot chocolate",
+      "ingredient_id": "dark_chocolate",
+      "qty": 8,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "70%+ Dark Chocolate (8-10 squares - prefer a dark chocolate without refuned sugar and vegetable/palm oil)"
+    },
+    {
+      "item": "cinnamon",
+      "section": "hot chocolate",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cinnamon powder"
+    },
+    {
+      "item": "cocoa powder",
+      "section": "hot chocolate",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp unsweetened hersheys cocoa powder"
+    }
+  ],
+  "steps": [
+    "For the cashew paste, soak dates, almonds, cashews in some warm milk for 20-30 mins and blend into a very smooth paste with a pinch of salt.",
+    "In a pan, add 350 ml milk and let it simmer for 3-4 mins.",
+    "To the milk, add cocoa powder, cinnamon and the date paste. Mix well until there are no clumps.",
+    "Now add the dark chocolate and mix until the mixture is velvety smooth and gets thick. In 3-4 mins your dark chocolate should be ready!",
+    "Enjoy as is or top it with some whipped cream/marshmallows.",
+    "Please keep the flame low while making your hot chocolate."
+  ],
+  "assumptions": [
+    "The creator suggests a dark chocolate without refined sugar or vegetable/palm oil.",
+    "Meal type is our guess (dessert)."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

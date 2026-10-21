@@ -1,6 +1,8 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-21 (BL5 session)_
+_Last updated: 2026-10-21 (BL6 archive built by the Track B session in PR 25)_
+
+**BL6 (by Track B, PR 25):** optional `archived: {reason}` in the schema (types regenerated). `src/lib/catalog.ts` now exports `allRecipes` (recipe pages, Add recipes duplicate check and prompt index), `recipes` (main catalog: Home, search, My recipes, Review, Export) and `archivedRecipes`. New hidden `/archive/` page (`src/screens/Archive.tsx`, `src/lib/archive.ts`), an "Archived" note on archived recipe pages, `archive/` static page; `catalog.txt` and home counts use the main catalog. Fixture: `tests/fixtures/archived/` (own folder so unit-test fixture counts stay 10). Tests: `tests/unit/archive.test.ts`, `tests/e2e/archive.spec.ts`, a11y states.
 
 **Done (BL5, PR open):** Export's "Copy prompt + catalog" now uses Track B's `prompts/ask-catalog.md` via `askPrompt(prompt, recipes, siteUrl, personal)`: text after its first `---`, then `Catalog:` + `compactCatalog()`, then `My question:`; the "- **My data**" bullet is dropped unless personal data is ticked. The `?raw` import lives in `Export.tsx` (export.ts stays importable from vite.config). `tests/unit/export.test.ts` checks the prompt's field guide against `compactCatalog()`'s order: if you change the line format, tell Track B.
 

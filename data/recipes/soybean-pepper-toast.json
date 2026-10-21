@@ -1,0 +1,168 @@
+{
+  "id": "soybean-pepper-toast",
+  "title": "Soybean Pepper Toast",
+  "source": {
+    "url": "https://www.instagram.com/reel/C8CO9idJ0VJ/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#160"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "bread_whole_wheat"
+  ],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 25,
+    "kcal": 470,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soybeans",
+      "ingredient_id": "soybeans",
+      "qty": 110,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "110g Boiled Soyabean"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves chopped garlic"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small onion chopped"
+    },
+    {
+      "item": "capsicum (bell pepper)",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped bell pepper"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1.5 tbsp ketchup (I prefer an organic no sugar ketchup)"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp chilli sauce"
+    },
+    {
+      "item": "basil",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Basil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp red chilli powder"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Mixed herbs"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "cheese",
+      "ingredient_id": "cheese",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "dairy",
+      "as_written": "1/2 cube britannia cheese"
+    },
+    {
+      "item": "whole-wheat bread",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 Slices Whole Wheat Bread"
+    }
+  ],
+  "steps": [
+    "In a pan, add 1 tsp oil/butter. Add garlic and onion to this and saute until golden brown. The. Add your bell peppers and saute for 3-4 mins.",
+    "Next add the sauces and condiments mentioned above. Mix well and then add soyabean and basil. Add a dash of water and cover it for 3-4 mins (leave on low flame). After this, add the cheese and just cook on medium- high flame for 2 minutes until the sauce dries up a bit.",
+    "You can apply butter on 2 slices of bread and serve this (i skipped butter to cut calories)."
+  ],
+  "assumptions": [
+    "The ingredient list also names sugar as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

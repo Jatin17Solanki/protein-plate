@@ -1,0 +1,151 @@
+{
+  "id": "besan-paneer-spinach-omelette",
+  "title": "Besan Paneer Spinach Omelette",
+  "source": {
+    "url": "https://www.instagram.com/reel/DPd73SKDKoq/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#34"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "besan"
+  ],
+  "tags": [
+    "chilla_pancake_omelette"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 28,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per omelette (makes 1)",
+    "protein_g": 28,
+    "kcal": 380,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 Thinly Sliced Onion"
+    },
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful Spinach"
+    },
+    {
+      "item": "gram flour (besan)",
+      "ingredient_id": "besan",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1/2 cup besan"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2-3 tbsp yogurt"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g low fat paneer"
+    },
+    {
+      "item": "mozzarella",
+      "ingredient_id": "mozzarella",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "2 tbsp Shredded mozerlla cheese (optional)"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chilli flakes"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Oregano"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp pepper"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp butter"
+    }
+  ],
+  "steps": [
+    "Mix besan, salt, pepper and yogurt along with 1/3rd cup water or slightly more to make a smooth batter like dosa (slightly thinner)",
+    "On a pan add some butter, spread onions and spinach onto it.",
+    "After 2-3 mins, add your besan batter (thin layer not thick) onto the spinach and onion base and cover wnd cook for 5-6 mins on low-med flame.",
+    "Add oregano, chilli flakes, pepper, paneer and shredded cheese. Press down well with the flap so it sticks onto the cheela.",
+    "Cover again and cook for another 7-8 mins until you can see that the bottom is well caramalized nothing is wet on the top portion.",
+    "No need to flip and cook. Just fold it, cut into halves and enjoy with your fav chutney/sauce."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

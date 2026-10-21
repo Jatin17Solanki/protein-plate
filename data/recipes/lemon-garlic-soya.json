@@ -1,0 +1,188 @@
+{
+  "id": "lemon-garlic-soya",
+  "title": "Lemon Garlic Soya",
+  "source": {
+    "url": "https://www.instagram.com/reel/DazE7k9z4at/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/2026-10-21-batch2.txt#335"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 57,
+    "kcal": 742,
+    "carbs_g": 78,
+    "fat_g": 25,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish — one portion",
+    "protein_g": 57,
+    "kcal": 742,
+    "carbs_g": 78,
+    "fat_g": 25
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp salt"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "pinch of sugar"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "½ tbsp ginger garlic paste"
+    },
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g raw soya chunks"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp of corn flour"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "½ tbsp red chilli"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp coriander powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "½ tbsp ghee"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "butter",
+      "ingredient_id": "butter",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 tsp butter"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 sliced green chillie"
+    },
+    {
+      "item": "corn flour (cornstarch)",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "1 tbsp corn flour"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup water"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 lemon"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 10,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "10 minced garlic"
+    }
+  ],
+  "steps": [
+    "To boiling water add ½ tsp salt, pinch of sugar, ½ tbsp ginger garlic paste, 100g raw soya chunks and let it boil for 5 min. Then squeeze the water out, but keep the soya a bit moist and put it in a bowl.",
+    "Now to the soya chunks add 1 tbsp of corn flour, ½ tbsp red chilli, 1 tbsp coriander powder, 1 tsp salt, ½ tbsp ghee, Mix it well, add it to a pan on medium heat and fry the chunks for 12 min, till it turns crisp and set it aside. (Or Air fry at 180°C for 18 mins)",
+    "To the same pad add 1 tsp ghee + 2 tsp butter, 10 minced garlic, 1 sliced green chillie, 1 tbsp corn flour, 1 cup water, Juice of 1 lemon, Now let it thicken. Add crispy soya, mix well till it’s nicely coated and serve hot."
+  ],
+  "assumptions": [
+    "Boil the soya chunks in salted water. The creator also gives 20 g fibre.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

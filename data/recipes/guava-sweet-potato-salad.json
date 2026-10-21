@@ -1,0 +1,142 @@
+{
+  "id": "guava-sweet-potato-salad",
+  "title": "Guava and Sweet Potato Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSWstVqDNbu/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#7"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "guava",
+    "peanuts",
+    "sweet_potato"
+  ],
+  "tags": [
+    "salad_bowl",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "guava",
+      "ingredient_id": "guava",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium size Guava"
+    },
+    {
+      "item": "sweet potato",
+      "ingredient_id": "sweet_potato",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1/2 Steamed sweet potato - you can keep the skin to add more fibre"
+    },
+    {
+      "item": "peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp salted crushed peanuts"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of fresh mint leaves"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ lemon juice"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp roasted jeera powder"
+    },
+    {
+      "item": "black salt",
+      "ingredient_id": "black_salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp black salt"
+    },
+    {
+      "item": "imli (sweet tamarind) chutney",
+      "ingredient_id": "imli_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp imli chutney"
+    }
+  ],
+  "steps": [
+    "Optionally roast the guava & chop it.",
+    "Add steamed sweet potato, crushed peanuts, imli chutney & fresh mint.",
+    "Sprinkle chilli powder, jeera powder & black salt.",
+    "Squeeze in fresh lemon juice.",
+    "Shake well and enjoy.",
+    "Tip - if you are carrying this to work, then add chutney, lemon juice and salt later."
+  ],
+  "assumptions": [
+    "Episode 5 of the creator’s Sassy Salads series."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

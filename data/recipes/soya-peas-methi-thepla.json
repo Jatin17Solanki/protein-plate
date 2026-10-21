@@ -1,0 +1,198 @@
+{
+  "id": "soya-peas-methi-thepla",
+  "title": "Soya Peas Methi Thepla",
+  "source": {
+    "url": "https://www.instagram.com/reel/DFxSX5rR_Ou/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#142"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "wheat_flour",
+    "soya_chunks",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "paratha"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 33,
+    "kcal": 572,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 33,
+    "kcal": 572,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 25,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "25g Soya Chunks"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/2 Cup Peas"
+    },
+    {
+      "item": "fresh methi (fenugreek leaves)",
+      "ingredient_id": "methi_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful of Methi"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red Chilli Powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Pepper"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of Haldi"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp onion"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies chopped"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2-3 cloves of garlic crushed"
+    },
+    {
+      "item": "whole-wheat flour (atta)",
+      "ingredient_id": "wheat_flour",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "1 small cup wheat flour"
+    },
+    {
+      "item": "nigella seeds (kalonji)",
+      "ingredient_id": "kalonji",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "2 tbsp kalaunji"
+    },
+    {
+      "item": "sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "sesame seeds"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "to serve",
+      "ingredient_id": "greek_yogurt",
+      "qty": 90,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "90g Greek Yogurt"
+    }
+  ],
+  "steps": [
+    "Grind boiled soya chunks, boiled peas, methi, onion, garlic, chillies and masala in a mixer jar.",
+    "In a bowl, add wheat flour and this mixture along with 1 tsp ghee.",
+    "You don’t need water as this mixture is already moist. If needed you may add a little more flour to knead it properly. Let this dough rest for 10 mins in the fridge.",
+    "IMP - Apply oil on the rolling board and pin and also dust your roti dough with a little flour so it does not stick to the bottom.",
+    "Make mini theplas, garnish with the sesame and kalaunji mix and cook it on a tava.",
+    "Once the theplas cook on both sides then apply very little ghee and its ready!"
+  ],
+  "assumptions": [
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

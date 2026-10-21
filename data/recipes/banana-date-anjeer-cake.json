@@ -1,0 +1,198 @@
+{
+  "id": "banana-date-anjeer-cake",
+  "title": "Eggless Banana Date Anjeer Cake",
+  "source": {
+    "url": "https://www.instagram.com/reel/DK3vtl5zZuF/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#104"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "wheat_flour",
+    "oat_flour",
+    "dates",
+    "walnuts"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": 150,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per slice (makes 12)",
+    "protein_g": null,
+    "kcal": 150,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 12,
+  "ingredients": [
+    {
+      "item": "banana",
+      "ingredient_id": "banana",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g ripe banana (about 2 medium, mashed)"
+    },
+    {
+      "item": "date and anjeer paste",
+      "ingredient_id": "dates",
+      "qty": 120,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "120–130g blended paste (from ~8–10 dates + 4–5 anjeer soaked in hot water and blended)"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "50g ghee"
+    },
+    {
+      "item": "curd (as buttermilk)",
+      "ingredient_id": "curd",
+      "qty": 75,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100ml buttermilk (75g curd + 25ml water)"
+    },
+    {
+      "item": "lemon / lime",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp lemon juice"
+    },
+    {
+      "item": "vanilla extract",
+      "ingredient_id": "vanilla_extract",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "1 tsp vanilla extract (optional)"
+    },
+    {
+      "item": "whole-wheat flour (atta)",
+      "section": "dry ingredients",
+      "ingredient_id": "wheat_flour",
+      "qty": 65,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "65g whole wheat flour"
+    },
+    {
+      "item": "oat flour",
+      "section": "dry ingredients",
+      "ingredient_id": "oat_flour",
+      "qty": 60,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "60g oats flour (grind oats fine)"
+    },
+    {
+      "item": "baking powder",
+      "section": "dry ingredients",
+      "ingredient_id": "baking_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp baking powder"
+    },
+    {
+      "item": "baking soda",
+      "section": "dry ingredients",
+      "ingredient_id": "baking_soda",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp baking soda"
+    },
+    {
+      "item": "cinnamon",
+      "section": "dry ingredients",
+      "ingredient_id": "cinnamon",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp cinnamon powder"
+    },
+    {
+      "item": "nutmeg powder",
+      "section": "dry ingredients",
+      "ingredient_id": "nutmeg",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of nutmeg powder"
+    },
+    {
+      "item": "salt",
+      "section": "dry ingredients",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Pinch of salt"
+    },
+    {
+      "item": "walnuts",
+      "section": "optional add-ins",
+      "ingredient_id": "walnuts",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "optional": true,
+      "as_written": "20g walnuts or dark chocolate chips"
+    }
+  ],
+  "steps": [
+    "Preheat oven to 180°C. Line or grease a loaf/square tin.",
+    "In a bowl, mix mashed bananas, date-anjeer paste, melted ghee, buttermilk, lemon juice, vanilla.",
+    "In another bowl, mix atta, oats flour, baking powder, baking soda, cinnamon, salt.",
+    "Fold wet into dry — don’t overmix. Add walnuts/choco chips if using.",
+    "Pour into tin, smooth the top.",
+    "Bake at 180°C for 35–40 mins. Check at 35 with a toothpick.",
+    "Cool fully before slicing — makes 12 slices.",
+    "Microwave 10–15 sec before eating for that fresh-out-of-the-oven feel!"
+  ],
+  "assumptions": [
+    "The 120–130 g paste is 8–10 dates and 4–5 anjeer soaked in hot water and blended.",
+    "The ingredient list also names water and oats as alternatives or notes; they aren’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

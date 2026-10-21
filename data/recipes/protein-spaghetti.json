@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/DbdLdvKTBOI/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#40"
   },
   "status": "complete",
@@ -155,7 +155,7 @@
   "assumptions": [
     "'Low fat/toned milk paneer' is listed as low-fat paneer.",
     "Creator also states 9 g fibre.",
-    "Jatin: the creator's numbers are for the whole dish, not one portion."
+    "The creator's numbers are for the whole dish, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

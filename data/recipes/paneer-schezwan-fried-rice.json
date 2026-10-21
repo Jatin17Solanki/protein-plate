@@ -1,0 +1,165 @@
+{
+  "id": "paneer-schezwan-fried-rice",
+  "title": "Paneer Schezwan Fried Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/DaUMxXjzvkG/",
+    "platform": "instagram",
+    "creator": "pawar_omkar",
+    "creator_url": "https://www.instagram.com/pawar_omkar/",
+    "ref": "batches/2026-10-21-batch2.txt#341"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "rice_cooked"
+  ],
+  "tags": [
+    "rice_pulao_biryani",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 26,
+    "kcal": 384,
+    "carbs_g": 44,
+    "fat_g": 12,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serve (serves 3)",
+    "protein_g": 26,
+    "kcal": 384,
+    "carbs_g": 44,
+    "fat_g": 12
+  },
+  "protein_working": [],
+  "servings": 3,
+  "ingredients": [
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1 tbsp ghee"
+    },
+    {
+      "item": "ginger",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Chopped Ginger - 1 tbsp"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Chopped Garlic - 1 tbsp"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 275,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low fat Paneer (small cubes) - 275gms"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Chilli Oil - 1 tsp"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 20,
+      "unit": "ml",
+      "type": "sauce",
+      "as_written": "Light Soy Sauce - 20ml (2 tbsp)"
+    },
+    {
+      "item": "chilli sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 5,
+      "unit": "ml",
+      "type": "sauce",
+      "as_written": "Chilli Sauce - 5ml (1 tsp)"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Vinegar - 10ml (2 tsp)"
+    },
+    {
+      "item": "Schezwan chutney",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Schezwan chutney - 1.5 tbsp"
+    },
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 400,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Cooked Rice - 400gms"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "White Pepper - 1 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt - 1 tsp"
+    },
+    {
+      "item": "spring onion",
+      "ingredient_id": "spring_onion",
+      "qty": 2,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Chopped Spring Onions - 2 Handfuls"
+    }
+  ],
+  "steps": [
+    "To a pan on medium head add 1 tbsp ghee, Chopped Ginger - 1 tbsp, Chopped Garlic - 1 tbsp, Low fat Paneer (small cubes) - 275gms, Chilli Oil - 1 tsp, Mix it well and fry for 2 min, Light Soy Sauce - 20ml (2 tbsp), Chilli Sauce - 5ml (1 tsp), Vinegar - 10ml (2 tsp), Schezwan chutney - 1.5 tbsp, Mix it well.",
+    "Add Cooked Rice - 400gms, White Pepper - 1 tsp, Salt - 1 tsp, Chopped Spring Onions - 2 Handfuls, Mix it well and it’s ready."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

@@ -4,8 +4,8 @@
   "source": {
     "url": "https://www.instagram.com/reel/DUndZHDExJ8/",
     "platform": "instagram",
-    "creator": null,
-    "creator_url": null,
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
     "ref": "batches/2026-10-16-batch1.txt#56"
   },
   "status": "complete",
@@ -36,7 +36,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 30,
     "kcal": 430
   },
@@ -198,7 +198,7 @@
   ],
   "assumptions": [
     "Meal types are our guess.",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

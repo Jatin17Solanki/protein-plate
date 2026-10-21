@@ -1,0 +1,234 @@
+{
+  "id": "sprouts-chana-yogurt-bowl",
+  "title": "Savoury Sprouts Chana Yogurt Bowl",
+  "source": {
+    "url": "https://www.instagram.com/reel/DBQ4XFKKDxI/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#95"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "kala_chana"
+  ],
+  "tags": [
+    "salad_bowl"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 390,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 25,
+    "kcal": 390,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 250,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "250g Epigamia Greek Yogurt/ Amul High Protein Dahi"
+    },
+    {
+      "item": "moong sprouts",
+      "ingredient_id": "sprouts",
+      "qty": 45,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "45g Boiled Sprouts + 30g boiled Chana"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g Soaked Chia seeds"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chilli Powder"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Aamchur"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Black Pepper"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped tomato"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped onion"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped cucumber"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp grated boiled beetroot"
+    },
+    {
+      "item": "ghee",
+      "section": "tadka",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1/2 tsp ghee"
+    },
+    {
+      "item": "mustard seeds",
+      "section": "tadka",
+      "ingredient_id": "mustard_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp mustard seeds"
+    },
+    {
+      "item": "cashews",
+      "section": "tadka",
+      "ingredient_id": "cashews",
+      "qty": 2,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "2 cashews"
+    },
+    {
+      "item": "curry leaves",
+      "section": "tadka",
+      "ingredient_id": "curry_leaves",
+      "qty": 5,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "5-6 curry leaves"
+    },
+    {
+      "item": "pomegranate",
+      "section": "topping",
+      "ingredient_id": "pomegranate",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp pomegranate seeds"
+    },
+    {
+      "item": "peanuts",
+      "section": "topping",
+      "ingredient_id": "peanuts",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4 roasted crushed peanuts"
+    },
+    {
+      "item": "pumpkin seeds",
+      "section": "topping",
+      "ingredient_id": "pumpkin_seeds",
+      "qty": 4,
+      "unit": "piece",
+      "type": "pantry",
+      "as_written": "4-5 pumpkin seeds"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "topping",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander"
+    },
+    {
+      "item": "black chickpeas (kala chana)",
+      "ingredient_id": "kala_chana",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g boiled Chana"
+    }
+  ],
+  "steps": [
+    "Mix the curd with soaked chia seeds until smooth.",
+    "Add the sprouts, chana, spices and veggies and give it a mix.",
+    "Then add the tadka along with the toppings!",
+    "You can also prepare this at night and store in the fridge. Give a fresh tadka in the morning."
+  ],
+  "assumptions": [
+    "The recipe makes one portion.",
+    "Main protein set by hand."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

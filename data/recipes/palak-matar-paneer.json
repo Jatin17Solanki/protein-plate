@@ -1,0 +1,192 @@
+{
+  "id": "palak-matar-paneer",
+  "title": "Palak Matar Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/C1jvbBTJ-_9/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#180"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "spinach",
+      "ingredient_id": "spinach",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1 cup palak"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful coriander"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "1/3 cup boiled peas"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g low fat paneer"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3-4 garlic cloves"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "curd (dahi)",
+      "ingredient_id": "curd",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1/3 cup curd"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp garam masala"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "haldi"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "coriander powder"
+    },
+    {
+      "item": "whole-wheat flour (atta)",
+      "ingredient_id": "wheat_flour",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "2 tsp wheat flour"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "1/3 cup milk"
+    },
+    {
+      "item": "sugar",
+      "ingredient_id": "sugar",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1/2 tsp sugar"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "optional": true,
+      "as_written": "Kasturi methi (optional)"
+    }
+  ],
+  "steps": [
+    "Prepare a purée with boiled palak, chillies and coriander.",
+    "Add some ghee in a pan, then add jeera, garlic, chillies. After a min add chopped onion. Let it brown and then add the curd. After this add all the masalas. Let it cook for 2 mins and add the palak purée. Cover and cook for 5 mins and add the boiled peas, along with a dash of water and wheat flour. Add the paneer, milk and sugar, add some kasturi methi and cook for 5 mins."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [],
+  "accepted_flags": [
+    "no_macros"
+  ]
+}

@@ -2,7 +2,8 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/ho
 import prompt from '../../prompts/add-recipes.md?raw';
 import schema from '../../schema/recipe.schema.json';
 import dictionary from '../../data/ingredients.json';
-import { recipes } from '../lib/catalog';
+// Archived recipes count too: the duplicate check and the prompt's catalog index must still see them.
+import { allRecipes as recipes } from '../lib/catalog';
 import {
   asVersion, buildAddPrompt, checkPaste, dictionaryIndex, fixItPrompt, matchReason, parsePaste, readyLine, submission,
   versionLabelProblem, type Match, type Submission, type Verdict,

@@ -1,0 +1,111 @@
+{
+  "id": "chocolate-paneer-mousse",
+  "title": "Chocolate Paneer Protein Mousse",
+  "source": {
+    "url": "https://www.instagram.com/reel/C4ks_UJJf0e/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#171"
+  },
+  "status": "complete",
+  "archived": {
+    "reason": "sweet_snack"
+  },
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "whey_protein"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 180,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "180g low fat paneer"
+    },
+    {
+      "item": "zero-calorie sweetener",
+      "ingredient_id": "sweetener",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Stevia/Monkfruit extract/honey"
+    },
+    {
+      "item": "cocoa powder",
+      "ingredient_id": "cocoa_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp unsweetened cocoa powder"
+    },
+    {
+      "item": "peanut butter",
+      "ingredient_id": "peanut_butter",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 tsp chocolate peanut butter"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 40,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "40-50 ml milk"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 0.75,
+      "unit": null,
+      "grams": 23,
+      "type": "protein",
+      "as_written": "3/4th scoop chocolate protein powder"
+    }
+  ],
+  "steps": [
+    "Bring 1-1.5 l of milk to a boil and then add 2 tbsp vinegar and stir until the whey water separates. Strain the paneer and rinse with cold water. Let it sit for 15-20 mins to drain the excess liquid.",
+    "Blend all the ingredients mentioned above into a very smooth velvety mixture. Add some more milk if needed. Pour into 2 cups and refrigerate for 2-3 hours. Top with chopped strawberries and dig in."
+  ],
+  "assumptions": [
+    "The ingredient list also names honey as an alternative or note; it isn’t listed separately."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

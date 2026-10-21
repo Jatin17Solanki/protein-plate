@@ -1,0 +1,95 @@
+{
+  "id": "low-cal-protein-peanut-butter",
+  "title": "Low-Calorie High-Protein Peanut Butter",
+  "source": {
+    "url": "https://www.instagram.com/reel/CfaY_VEF7LQ/",
+    "platform": "instagram",
+    "creator": "ral.livezy",
+    "creator_url": "https://www.instagram.com/ral.livezy/",
+    "ref": "batches/2026-10-21-batch2.txt#369"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "peanut_butter_powder",
+    "milk"
+  ],
+  "tags": [
+    "sauce_dip"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 31,
+    "kcal": 261,
+    "carbs_g": 15,
+    "fat_g": 7,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 31,
+    "kcal": 261,
+    "carbs_g": 15,
+    "fat_g": 7
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "peanut butter powder",
+      "ingredient_id": "peanut_butter_powder",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp powdered peanut butter"
+    },
+    {
+      "item": "whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 0.5,
+      "unit": null,
+      "grams": 15,
+      "type": "protein",
+      "as_written": "1/2 scoop whey"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 100,
+      "unit": "ml",
+      "type": "dairy",
+      "as_written": "100ml milk"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    }
+  ],
+  "steps": [
+    "All you peanut butter lovers, this one is perfect for you, especially when you're trying to use fat. 🏼.",
+    "2 tbsp powdered peanut butter, 1/2 scoop whey (flavour of your choice), 100ml milk (or even water to save calories)",
+    "I recommend you use the PB2 powdered peanut butter, the macros are great and it also tastes amazing, best i've had so far."
+  ],
+  "assumptions": [
+    "The creator recommends PB2 powdered peanut butter; water instead of milk saves calories. Inspired by @scaseyfitness.",
+    "Meal types are our guess.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

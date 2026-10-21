@@ -1,0 +1,188 @@
+{
+  "id": "shirataki-tofu-noodle-salad",
+  "title": "Shirataki Tofu Noodle Salad with Peanut Schezwan Sauce",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZZ2sCnMefv/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/2026-10-21-batch2.txt#246"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 25,
+    "kcal": 395,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe — one portion",
+    "protein_g": 25,
+    "kcal": 395,
+    "carbs_g": null,
+    "fat_g": null
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g tofu"
+    },
+    {
+      "item": "shirataki noodles / rice",
+      "ingredient_id": "shirataki",
+      "qty": 150,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "150g shirataki noodles from @urbanplatter.in (almost zero carbs - made of water)"
+    },
+    {
+      "item": "cabbage",
+      "ingredient_id": "cabbage",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "½ cup shredded cabbage"
+    },
+    {
+      "item": "carrot",
+      "ingredient_id": "carrot",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ carrot"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "mixed herbs"
+    },
+    {
+      "item": "peanut butter",
+      "section": "sauce",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp peanut butter"
+    },
+    {
+      "item": "Schezwan chutney",
+      "section": "sauce",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp Schezwan chutney"
+    },
+    {
+      "item": "chilli sauce",
+      "section": "sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp red chilli sauce"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp honey"
+    },
+    {
+      "item": "lemon / lime",
+      "section": "sauce",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of 1 lemon"
+    },
+    {
+      "item": "soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp soy sauce"
+    },
+    {
+      "item": "salt",
+      "section": "sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    }
+  ],
+  "steps": [
+    "Toss the tofu with salt and mixed herbs.",
+    "Heat a pan with olive oil and cook the tofu until golden and crispy on all sides.",
+    "In the same pan, sauté the cabbage and carrot on high heat for 1–2 minutes. Keep them slightly crunchy.",
+    "In a bowl, whisk together the peanut butter, Schezwan chutney, red chilli sauce, honey, lemon juice, soy sauce and salt.",
+    "Add the shirataki noodles, sautéed veggies and crispy tofu to a large bowl.",
+    "Pour over the sauce.",
+    "Close the lid and shake everything together until well coated.",
+    "Serve immediately."
+  ],
+  "assumptions": [
+    "Use 150 g tofu or 100 g low fat paneer.",
+    "The creator notes shirataki noodles are almost zero carbs; they are made mostly of water.",
+    "The recipe makes one portion."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}
