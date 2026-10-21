@@ -37,7 +37,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 42,
     "kcal": 447,
     "carbs_g": 47,
@@ -121,7 +121,7 @@
   "assumptions": [
     "Creator also states 11 g fibre.",
     "Meal types are our guess; tagged dessert from the batch's dessert section.",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

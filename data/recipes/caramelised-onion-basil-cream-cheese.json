@@ -140,14 +140,13 @@
     "Spread it on toasted sesame bagels and enjoy."
   ],
   "assumptions": [
-    "The 1.5 litres of milk makes about 150 g low-fat paneer. The creator uses Pride of Cows fat-free milk (10 litres for Rs 999)."
+    "The 1.5 litres of milk makes about 150 g low-fat paneer. The creator uses Pride of Cows fat-free milk (10 litres for Rs 999).",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole batch\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

@@ -66,18 +66,18 @@
     "To a blender add 1 cup (180g) of steamed cauliflower florets (measure after steaming), 1/2 (85g) cup of dark chocolate chips of choice (50-70% dark chocolate), Blend it until smooth and creamy then transfer into a lined dish and refrigerate for a few hours or until firm. (It took me about 3 hrs for it to set), When it’s set it’s ready to serve!"
   ],
   "assumptions": [
-    "The creator also gives 13 g fibre."
+    "The creator also gives 13 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

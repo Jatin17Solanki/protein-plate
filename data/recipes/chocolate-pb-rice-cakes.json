@@ -30,22 +30,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 62,
+    "kcal": 525,
+    "carbs_g": 55,
+    "fat_g": 29,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "for 2 rice cakes",
+    "basis": "for 2 rice cakes — one portion",
     "protein_g": 62,
     "kcal": 525,
     "carbs_g": 55,
     "fat_g": 29
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "peanut butter powder",
@@ -128,14 +128,10 @@
     "Put them in the fridge for 10 min for the chocolate to harden (i was so greedy I did only 2min) and then it’s all done."
   ],
   "assumptions": [
-    "The creator notes about 10 g of the protein may stay behind in the bowls."
+    "The creator notes about 10 g of the protein may stay behind in the bowls.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"for 2 rice cakes\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

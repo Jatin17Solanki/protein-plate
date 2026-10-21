@@ -162,7 +162,7 @@
   "assumptions": [
     "Title from the caption's keywords (the post has no title).",
     "Meal types are our guess.",
-    "Macros from the video (supplied by Jatin)."
+    "Macros from the video."
   ],
   "missing": [],
   "added_at": "2026-10-20",

@@ -112,18 +112,18 @@
     "Let it cool, slice it up and your homemade Suji Bread is ready!"
   ],
   "assumptions": [
-    "The creator also gives 11 g fibre for the loaf."
+    "The creator also gives 11 g fibre for the loaf.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole loaf\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

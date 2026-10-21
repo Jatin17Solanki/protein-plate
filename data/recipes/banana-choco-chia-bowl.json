@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 32,
+    "kcal": 555,
+    "carbs_g": 70,
+    "fat_g": 20,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 32,
     "kcal": 555,
     "carbs_g": 70,
     "fat_g": 20
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "chia seeds",
@@ -119,14 +119,12 @@
     "Pop into the fridge for 4+ hours (overnight is ideal).",
     "40g banana slices, 10g Dark Chocolate, 2 tsp Peanut Butter."
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."

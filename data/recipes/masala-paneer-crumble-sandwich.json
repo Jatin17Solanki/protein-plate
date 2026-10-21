@@ -29,7 +29,7 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
+    "protein_g": 45,
     "kcal": null,
     "carbs_g": null,
     "fat_g": null,
@@ -37,14 +37,14 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole breakfast plate",
+    "basis": "whole breakfast plate — one portion",
     "protein_g": 45,
     "kcal": null,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "cooking oil",
@@ -190,13 +190,10 @@
     "Cook for 3-4 mins until it becomes creamy.",
     "Assemble cucumber slices on whole wheat bread and add your paneer crumble on top. Serve with high protein greek yogurt/skyr + granola + seeds!"
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole breakfast plate\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

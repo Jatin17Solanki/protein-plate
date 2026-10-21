@@ -145,14 +145,13 @@
     "Finally sprinkle some oregano."
   ],
   "assumptions": [
-    "The caption credits @gskcooks2k23 for the original recipe."
+    "The caption credits @gskcooks2k23 for the original recipe.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole dish (serves 2)\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

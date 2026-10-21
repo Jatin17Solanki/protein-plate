@@ -30,21 +30,21 @@
   "variant_label": null,
   "per_portion": {
     "protein_g": null,
-    "kcal": null,
+    "kcal": 200,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe",
+    "basis": "whole recipe — one portion",
     "protein_g": null,
     "kcal": 200,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "zucchini",
@@ -121,14 +121,12 @@
     "Add 1 Cup water and cheese and let it boil for 3-4 mins.",
     "Add the Zuchini Julienne and cover and cook for 7-8 mins until soft and the desired consistency is achieved."
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."

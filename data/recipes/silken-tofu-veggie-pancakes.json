@@ -40,7 +40,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "from the video (the batch makes 4–5 pancakes) — one portion (Jatin)",
+    "basis": "from the video (the batch makes 4–5 pancakes) — one portion",
     "protein_g": 23,
     "kcal": 470
   },
@@ -174,8 +174,8 @@
   ],
   "assumptions": [
     "Makes 4–5 pancakes; the caption doesn't say how many make a portion.",
-    "Macros from the video (supplied by Jatin).",
-    "Jatin: the recipe makes one portion."
+    "Macros from the video.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

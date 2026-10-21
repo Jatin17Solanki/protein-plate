@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 44,
+    "kcal": 373,
+    "carbs_g": 27,
+    "fat_g": 11,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 44,
     "kcal": 373,
     "carbs_g": 27,
     "fat_g": 11
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "tomato",
@@ -125,14 +125,10 @@
     "Pour it In a sauce pan and let it cook for 5 min on medium heat. (It should start to boil from the 3rd minute)"
   ],
   "assumptions": [
-    "The creator also gives 5 g fibre."
+    "The creator also gives 5 g fibre.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

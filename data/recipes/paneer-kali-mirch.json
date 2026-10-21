@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 44,
+    "kcal": 460,
+    "carbs_g": 12,
+    "fat_g": 27,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole dish",
+    "basis": "whole dish — one portion",
     "protein_g": 44,
     "kcal": 460,
     "carbs_g": 12,
     "fat_g": 27
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "low-fat paneer",
@@ -151,14 +151,10 @@
     "To a pan on medium heat add Oil - 1 tsp, Cumin seeds - ½ tsp, Green chilli, Add the marinated paneer, Half a cup water, Cook for 5 minutes."
   ],
   "assumptions": [
-    "The caption credits @tikka2taco for the recipe."
+    "The caption credits @tikka2taco for the recipe.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

@@ -31,22 +31,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 33,
+    "kcal": 572,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 33,
     "kcal": 572,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "soya chunks",
@@ -186,14 +186,12 @@
     "Make mini theplas, garnish with the sesame and kalaunji mix and cook it on a tava.",
     "Once the theplas cook on both sides then apply very little ghee and its ready!"
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."

@@ -27,22 +27,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 57,
+    "kcal": 742,
+    "carbs_g": 78,
+    "fat_g": 25,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole dish",
+    "basis": "whole dish — one portion",
     "protein_g": 57,
     "kcal": 742,
     "carbs_g": 78,
     "fat_g": 25
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "salt",
@@ -179,14 +179,10 @@
     "To the same pad add 1 tsp ghee + 2 tsp butter, 10 minced garlic, 1 sliced green chillie, 1 tbsp corn flour, 1 cup water, Juice of 1 lemon, Now let it thicken. Add crispy soya, mix well till it’s nicely coated and serve hot."
   ],
   "assumptions": [
-    "Boil the soya chunks in salted water. The creator also gives 20 g fibre."
+    "Boil the soya chunks in salted water. The creator also gives 20 g fibre.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

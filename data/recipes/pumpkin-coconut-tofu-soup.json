@@ -170,13 +170,13 @@
     "Add more water if needed to achieve desired consistency. Cover and let it cook for 10-12 mins.",
     "Garnish with chilli oil, melted butter and pumpkin seeds."
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (makes 3 portions)\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

@@ -37,7 +37,7 @@
   "steps": [],
   "assumptions": [
     "Title from the batch file.",
-    "Main protein set by Jatin."
+    "Main protein set by hand."
   ],
   "missing": [
     "Written recipe (no caption; the video is the recipe)"

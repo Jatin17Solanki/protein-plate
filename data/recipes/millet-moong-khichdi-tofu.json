@@ -30,22 +30,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 40,
+    "kcal": 660,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole lunch: about half the khichdi, the tofu chilli and a small cup of Greek yogurt",
+    "basis": "whole lunch: about half the khichdi, the tofu chilli and a small cup of Greek yogurt — one portion",
     "protein_g": 40,
     "kcal": 660,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "millet",
@@ -245,14 +245,10 @@
   ],
   "assumptions": [
     "The khichdi makes 2–3 portions; the creator took almost half and had it with a small cup of Epigamia plain Greek yogurt.",
-    "The ingredient list also names spinach as an alternative or note; it isn’t listed separately."
+    "The ingredient list also names spinach as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole lunch: about half the khichdi, the tofu chilli and a small cup of Greek yogurt\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

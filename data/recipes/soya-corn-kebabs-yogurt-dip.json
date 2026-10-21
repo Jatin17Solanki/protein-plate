@@ -34,22 +34,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 35,
+    "kcal": 460,
+    "carbs_g": 59,
+    "fat_g": 9,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 35,
     "kcal": 460,
     "carbs_g": 59,
     "fat_g": 9
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "soya chunks",
@@ -144,14 +144,10 @@
     "Serve it with some greek yogurt dip (Yogurt + Pinch of Black Salt & Chilli powder + Pinch of sugar + pomegranate)"
   ],
   "assumptions": [
-    "The creator also gives 13 g fibre."
+    "The creator also gives 13 g fibre.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

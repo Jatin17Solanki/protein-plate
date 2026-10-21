@@ -76,18 +76,18 @@
     "To a bowl add 2 ripe bananas and mash it until smooth, Add 50g shredded coconut - mix it well, Shape it into cookies and cook in the air fryer at 180°C for 10 - 15 minutes (it should form a light brown crust), Now add 15g of 70% dark chocolate (melt it, and fill each cookie), Refrigerate for 30 minutes before serving."
   ],
   "assumptions": [
-    "The creator also gives 16 g fibre."
+    "The creator also gives 16 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

@@ -30,22 +30,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 32,
+    "kcal": 580,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "toast plus the cinnamon iced filter coffee",
+    "basis": "toast plus the cinnamon iced filter coffee — one portion",
     "protein_g": 32,
     "kcal": 580,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "avocado",
@@ -163,14 +163,10 @@
     "Layer your guac on 2 slices of toasted sourdough and enjoy."
   ],
   "assumptions": [
-    "The creator’s numbers include a cinnamon iced filter coffee, which isn’t in this recipe."
+    "The creator’s numbers include a cinnamon iced filter coffee, which isn’t in this recipe.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"toast plus the cinnamon iced filter coffee\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

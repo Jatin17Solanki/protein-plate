@@ -28,22 +28,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 21,
+    "kcal": 500,
+    "carbs_g": 75,
+    "fat_g": 13,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 21,
     "kcal": 500,
     "carbs_g": 75,
     "fat_g": 13
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "oats",
@@ -167,17 +167,14 @@
     "Optionally garnish with chopped almonds and 1 tsp peanut butter."
   ],
   "assumptions": [
-    "The recipe was pinned in the post’s comments; Jatin supplied the text.",
+    "The recipe was pinned in the post’s comments; the text was copied from there.",
     "The creator also gives 8 g fibre.",
-    "Alternative: mix the Greek yogurt with 1 scoop of vanilla protein powder, which adds about 25 g protein according to the post."
+    "Alternative: mix the Greek yogurt with 1 scoop of vanilla protein powder, which adds about 25 g protein according to the post.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."

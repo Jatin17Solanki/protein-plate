@@ -133,17 +133,18 @@
     "Add ½ handful fresh coriander and mix everything really well.",
     "Cook for 2 minutes and your Rajasthani Lahsun Chutney is ready!"
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

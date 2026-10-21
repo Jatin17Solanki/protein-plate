@@ -32,22 +32,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 18,
+    "kcal": 420,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (3 rolls) with the dipping sauce",
+    "basis": "whole recipe (3 rolls) with the dipping sauce — one portion",
     "protein_g": 18,
     "kcal": 420,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "firm tofu",
@@ -223,14 +223,10 @@
   ],
   "assumptions": [
     "Without the dipping sauce the creator gives 345 kcal and 15 g protein.",
-    "Episode 1 of the creator’s series."
+    "Episode 1 of the creator’s series.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (3 rolls) with the dipping sauce\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

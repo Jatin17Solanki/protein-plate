@@ -137,18 +137,18 @@
     "Add the cucmbers to another bowl along with, A handful of spring onion, 3 cloves of garlic (finely chopped), 1 tsp chili flakes, 1 tsp red chili powder, 1 tbsp soy sauce, 1 tbsp rice vinegar, 1 tsp sesame oil, 1/2 tsp sugar, 1 tsp sesame seeds, Close the box and mix it. And it’s ready."
   ],
   "assumptions": [
-    "Drain the excess water from the salted cucumbers. The creator also gives 3 g fibre."
+    "Drain the excess water from the salted cucumbers. The creator also gives 3 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

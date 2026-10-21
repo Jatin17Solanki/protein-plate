@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 30,
+    "kcal": 420,
+    "carbs_g": 41,
+    "fat_g": 15,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 30,
     "kcal": 420,
     "carbs_g": 41,
     "fat_g": 15
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "coriander leaves",
@@ -177,14 +177,10 @@
   ],
   "assumptions": [
     "The creator also gives 8 g fibre.",
-    "Make the green chutney first; 2 tbsp go into the spread."
+    "Make the green chutney first; 2 tbsp go into the spread.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 31,
+    "kcal": 589,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (makes 2 parathas)",
+    "basis": "whole recipe (makes 2 parathas) — one portion",
     "protein_g": 31,
     "kcal": 589,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "low-fat paneer",
@@ -149,14 +149,10 @@
     "Serve with greek yogurt for extra protein."
   ],
   "assumptions": [
-    "To cut calories, the creator suggests one paratha with 150 g Greek yogurt for about 30 g protein."
+    "To cut calories, the creator suggests one paratha with 150 g Greek yogurt for about 30 g protein.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (makes 2 parathas)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

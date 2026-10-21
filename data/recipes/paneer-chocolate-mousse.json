@@ -107,14 +107,13 @@
     "Transfer to a bowl or serving dish. Cover directly with plastic wrap/cling film. Refrigerate for at least 2 hours, or until fully set."
   ],
   "assumptions": [
-    "The creator would split this into at least 2 servings. They also give 13 g fibre."
+    "The creator would split this into at least 2 servings. They also give 13 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole dish\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

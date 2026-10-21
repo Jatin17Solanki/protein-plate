@@ -162,18 +162,18 @@
     "For the tadka, heat 1 tbsp oil. Once hot, switch off the flame, Add ¼ tsp mustard seeds, 5–6 curry leaves. Pour the tadka over the chutney, and it’s ready to serve!"
   ],
   "assumptions": [
-    "The creator also gives 9 g fibre."
+    "The creator also gives 9 g fibre.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

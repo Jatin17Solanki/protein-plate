@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 25,
+    "kcal": 387,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (makes 2 thalipeeth), not counting the yogurt and achaar",
+    "basis": "whole recipe (makes 2 thalipeeth), not counting the yogurt and achaar — one portion",
     "protein_g": 25,
     "kcal": 387,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "carrot",
@@ -169,14 +169,10 @@
     "Serve hot with Greek yogurt and amla ka achar!"
   ],
   "assumptions": [
-    "The creator’s numbers leave out the Greek yogurt and achaar served alongside."
+    "The creator’s numbers leave out the Greek yogurt and achaar served alongside.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (makes 2 thalipeeth), not counting the yogurt and achaar\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

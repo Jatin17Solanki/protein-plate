@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 34,
+    "kcal": 488,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 34,
     "kcal": 488,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "kidney beans (rajma)",
@@ -181,13 +181,10 @@
     "For dressing: roast 1 tomato on flame until the skin is black, peel, and chop. Roughly grind the tomato, ½ onion, lemon juice, chilli flakes, salt, pepper, 1 tbsp ketchup into a salsa. Whisk in 2 tbsp Greek yogurt and chopped coriander. (I used Epigamia).",
     "Assemble: rajma–paneer mix → veggies → dressing. Optionally, add 3-4 crushed baked nachos on top if you want some crunch."
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The recipe makes one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

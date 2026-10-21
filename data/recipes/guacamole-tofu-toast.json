@@ -29,22 +29,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 22,
+    "kcal": 480,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (2 toasts)",
+    "basis": "whole recipe (2 toasts) — one portion",
     "protein_g": 22,
     "kcal": 480,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "avocado",
@@ -204,14 +204,10 @@
     "No written method — watch the video for the steps."
   ],
   "assumptions": [
-    "The creator’s numbers are for 2 toasts; the bread isn’t listed."
+    "The creator’s numbers are for 2 toasts; the bread isn’t listed.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (2 toasts)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

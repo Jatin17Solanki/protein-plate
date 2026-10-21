@@ -30,22 +30,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 21,
+    "kcal": 430,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (makes 2 toasts)",
+    "basis": "whole recipe (makes 2 toasts) — one portion",
     "protein_g": 21,
     "kcal": 430,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "avocado",
@@ -163,14 +163,10 @@
     "Airfry/ Toast your bread until crispy. Assemble the toast and top it with pumpkin seeds and extra pomegranate!"
   ],
   "assumptions": [
-    "The ingredient list also names sourdough bread as an alternative or note; it isn’t listed separately."
+    "The ingredient list also names sourdough bread as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (makes 2 toasts)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

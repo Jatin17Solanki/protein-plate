@@ -25,22 +25,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 30,
+    "kcal": 274,
+    "carbs_g": 26,
+    "fat_g": 12,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 30,
     "kcal": 274,
     "carbs_g": 26,
     "fat_g": 12
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "almond or oat milk",
@@ -98,14 +98,10 @@
   ],
   "assumptions": [
     "Blend with ice cubes or 100 ml water.",
-    "Meal types are our guess."
+    "Meal types are our guess.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    }
-  ]
+  "flags": []
 }

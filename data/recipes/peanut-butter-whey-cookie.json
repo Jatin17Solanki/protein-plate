@@ -26,22 +26,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
-    "carbs_g": null,
-    "fat_g": null,
+    "protein_g": 13,
+    "kcal": 185,
+    "carbs_g": 13,
+    "fat_g": 9,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (1 cookie)",
+    "basis": "whole recipe (1 cookie) — one portion",
     "protein_g": 13,
     "kcal": 185,
     "carbs_g": 13,
     "fat_g": 9
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "peanut butter",
@@ -101,15 +101,12 @@
     "Imp tip: Flatten it little before before you put it for baking. In the mid, just take the cookie out once and flatten a bit with the back of the glass and repeat the same after 10 mins. It will develop a few cracks when you flatten it, but that makes it crispy and crumbly."
   ],
   "assumptions": [
-    "The ingredient list also names honey as an alternative or note; it isn’t listed separately."
+    "The ingredient list also names honey as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (1 cookie)\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."

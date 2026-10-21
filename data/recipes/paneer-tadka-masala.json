@@ -34,22 +34,22 @@
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
-    "protein_g": null,
-    "kcal": null,
+    "protein_g": 22,
+    "kcal": 250,
     "carbs_g": null,
     "fat_g": null,
     "fibre_g": null,
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe (servings not stated)",
+    "basis": "whole recipe — one portion",
     "protein_g": 22,
     "kcal": 250,
     "carbs_g": null,
     "fat_g": null
   },
   "protein_working": [],
-  "servings": null,
+  "servings": 1,
   "ingredients": [
     {
       "item": "butter",
@@ -184,17 +184,14 @@
     "No written method — watch the video for the steps."
   ],
   "assumptions": [
-    "The ingredient list also names ghee as an alternative or note; it isn’t listed separately."
+    "The ingredient list also names ghee as an alternative or note; it isn’t listed separately.",
+    "The recipe makes one portion."
   ],
   "missing": [
     "The caption lists only the masala; the paneer amount isn’t given."
   ],
   "added_at": "2026-10-21",
   "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
-    },
     {
       "code": "missing_details",
       "note": "The caption lists only the masala; the paneer amount isn’t given."

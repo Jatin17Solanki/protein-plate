@@ -69,17 +69,18 @@
     "500g greek yogurt, 1 1/4 tsp salt, 2 tsp lime.",
     "Put the yogurt in between kitchen paper on a sieve over night to drain out the extra water. That’s it."
   ],
-  "assumptions": [],
+  "assumptions": [
+    "The creator’s numbers are for the whole recipe, not one portion."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [
     {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole block\", and the caption doesn't say how many portions that is."
-    },
-    {
       "code": "no_main_protein",
       "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
     }
+  ],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

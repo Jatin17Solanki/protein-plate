@@ -184,14 +184,13 @@
     "The “cream layer” is the blended paneer filling; there is no cream in it.",
     "The pistachios are soaked in hot water first.",
     "The ingredient list also names honey as an alternative or note; it isn’t listed separately.",
-    "Meal type is our guess (dessert)."
+    "Meal type is our guess (dessert).",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (divide into 2–3 portions)\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

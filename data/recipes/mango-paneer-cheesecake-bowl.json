@@ -155,14 +155,13 @@
     "Top with chopped mango and almond flakes. Chill for 4-5 hours and serve."
   ],
   "assumptions": [
-    "The creator’s figures are approximate."
+    "The creator’s figures are approximate.",
+    "The creator’s numbers are for the whole recipe, not one portion."
   ],
   "missing": [],
   "added_at": "2026-10-21",
-  "flags": [
-    {
-      "code": "macros_basis_unclear",
-      "note": "The creator's numbers are \"whole recipe (2 servings)\", and the caption doesn't say how many portions that is."
-    }
+  "flags": [],
+  "accepted_flags": [
+    "macros_basis_unclear"
   ]
 }

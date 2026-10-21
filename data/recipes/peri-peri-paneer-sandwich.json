@@ -39,7 +39,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 40,
     "kcal": 450
   },
@@ -154,7 +154,7 @@
   ],
   "assumptions": [
     "Quick: about 15 minutes hands-on (our estimate).",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",

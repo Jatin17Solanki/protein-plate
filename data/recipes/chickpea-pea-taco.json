@@ -39,7 +39,7 @@
     "is_estimate": false
   },
   "stated_macros": {
-    "basis": "whole recipe — one portion (Jatin)",
+    "basis": "whole recipe — one portion",
     "protein_g": 25,
     "kcal": 495
   },
@@ -235,7 +235,7 @@
   "assumptions": [
     "Skyr or Greek yogurt is listed as skyr.",
     "Meal types are our guess.",
-    "Jatin: the recipe makes one portion."
+    "The recipe makes one portion."
   ],
   "missing": [],
   "added_at": "2026-10-20",
