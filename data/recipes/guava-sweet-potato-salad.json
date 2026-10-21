@@ -9,6 +9,9 @@
     "ref": "batches/2026-10-21-batch2.txt#7"
   },
   "status": "complete",
+  "archived": {
+    "reason": "low_protein"
+  },
   "meal_types": {
     "values": [
       "snack"

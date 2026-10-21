@@ -86,3 +86,4 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-21 · 39 no_macros recipes (9 drinks/coolers, 17 sweets & snacks, 11 breakfast bowls & oats, 2 staple paneer preps) → archived · 20 no_macros meals → keep blank (`accepted_flags: ["no_macros"]`), Jatin gives feedback when he cooks one
 - 2026-10-21 · 29 sweets (no_main_protein) → archived sweet_snack; 3 sweets get the dessert tag · 4 chutneys → archived sauce_dip; jam, chocolate PB, cream cheese, kimchi → archived condiment (sauce_dip tag removed) (Jatin)
 - 2026-10-21 · 18 yogurt/oat breakfast bowls → main protein `other`; 2 → soya, 3 → pulses (Jatin) · flag cleared. 17 savoury recipes still `no_main_protein`, waiting on Jatin
+- 2026-10-21 · 17 savoury no_main_protein recipes → archived `low_protein` (Jatin) · **0 recipes flagged**

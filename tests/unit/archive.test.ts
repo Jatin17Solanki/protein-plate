@@ -38,6 +38,7 @@ describe('archiveGroups', () => {
     expect(archiveLabel('breakfast_bowl')).toBe('Breakfast bowls & oats');
     expect(archiveLabel('sauce_dip')).toBe('Sauces & dips');
     expect(archiveLabel('condiment')).toBe('Condiments');
+    expect(archiveLabel('low_protein')).toBe('Low-protein dishes');
   });
 });
 

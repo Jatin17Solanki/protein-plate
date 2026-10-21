@@ -25,7 +25,7 @@ export type Recipe = {
     /**
      * Why it is archived; groups the /archive/ page.
      */
-    reason: 'drink' | 'sweet_snack' | 'breakfast_bowl' | 'sauce_dip' | 'condiment' | 'staple';
+    reason: 'drink' | 'sweet_snack' | 'breakfast_bowl' | 'sauce_dip' | 'condiment' | 'low_protein' | 'staple';
   };
   meal_types: MealTypes;
   /**
