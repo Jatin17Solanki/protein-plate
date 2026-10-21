@@ -11,7 +11,7 @@ _Last updated: 2026-10-21 (B3 batch 2 in review; B5 export prompt and B6 done ea
 **Next:**
 - B5: `prompts/ask-catalog.md` written and tested ([PR 26](https://github.com/Jatin17Solanki/protein-plate/pull/26)). Track A swaps it into `askPrompt()`: text after its `---`, then the catalog and "My question:"; drop the "my data" bullet when personal data isn't included. Keep its field guide in step with `compactCatalog()`.
 - Every future batch: follow `docs/ADD-RECIPES.md`. When Jatin sends the new compilation: run `dedupe.ts --batch <file>` (or `findPairsAgainst`), fix creator credits where it names them, add the recipes the same way.
-- B4: the protein oats recipe (Jatin will send it). Only 6 incomplete recipes remain, all video only, kept as is by Jatin. The My list seed was delivered in chat (never committed).
+- B4: Protein Oats Smoothie added ([PR 29](https://github.com/Jatin17Solanki/protein-plate/pull/29)). Owner recipes have `source.url`/`ref` null (fidelity skips them); the raw text is kept in the private repo anyway (`batches/2026-10-21-jatin-protein-oats.txt`). The 6 video-only recipes stay as they are.
 
 **Track A requests:**
 - A "fun to try" tag (Jatin's notes mark many posts that way); not in the schema yet.
