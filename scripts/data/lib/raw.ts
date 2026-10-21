@@ -1,6 +1,9 @@
 // Parses a raw batch file (private repo protein-plate-raw/batches/*.txt) into numbered entries.
 // Entry N = the Nth line in the file that holds a recipe link; it runs until the next link line
-// or a ---- separator. Pure (no fs), so the Add recipes screen (A7) can reuse it.
+// or a ---- / ____ separator. Pure (no fs), so the Add recipes screen (A7) can reuse it.
+// Structured batches (2026-10-21 on) wrap each caption in "ID: / URL: / Posted: / Creator: / Title: /
+// Notes:" lines and an "Ingredients and method (caption, verbatim):" heading; those are Jatin's
+// metadata, never recipe content (the ID line sits above the URL line, so it is carried forward).
 
 export interface RawEntry {
   /** 1-based; `source.ref` is `<batch path>#<n>`. */
@@ -16,12 +19,17 @@ export interface RawEntry {
   lines: string[];
   /** Lines that are Jatin's notes ("Notes: …"): categorisation hints, never recipe content. */
   notes: string[];
+  /** Structured-batch metadata ("ID", "Posted", "Creator", "Title"), keyed by field name. */
+  meta: Record<string, string>;
   /** Lines that carry recipe content: no notes, hashtag/keyword lists or blank lines. */
   content: string[];
 }
 
 const LINK = /https?:\/\/(?:www\.)?(?:instagram\.com|youtube\.com|youtu\.be)\/\S+/i;
-const SEPARATOR = /^-{20,}\s*$/;
+const SEPARATOR = /^(-{20,}|_{20,})\s*$/;
+/** Structured-batch metadata line ("Creator: fit.khurana"); the URL line is the link line itself. */
+const META = /^(ID|URL|Posted|Creator|Title):\s*(.*)$/;
+const CAPTION_HEADING = /^ingredients and method \(caption, verbatim\):?\s*$/i;
 const HEADING = /^([A-Z][A-Za-z /&]+?):?\s*$/;
 
 /** Keyword/hashtag lists creators paste under a caption: many short comma-separated phrases, no
@@ -50,6 +58,7 @@ export function parseBatch(text: string): RawEntry[] {
   let current: RawEntry | null = null;
   let section: string | null = null;
   let lastWasSeparator = false;
+  let pendingMeta: Record<string, string> = {};
 
   for (const line of lines) {
     const separator = SEPARATOR.test(line);
@@ -58,8 +67,10 @@ export function parseBatch(text: string): RawEntry[] {
     lastWasSeparator = separator;
     const link = line.match(LINK);
     if (link) {
-      const label = line.replace(link[0], '').replace(/^[\s:–-]+|[\s:–-]+$/g, '').trim() || null;
-      current = { n: entries.length + 1, url: link[0], label, section, credit: null, lines: [], notes: [], content: [] };
+      let label = line.replace(link[0], '').replace(/^[\s:–-]+|[\s:–-]+$/g, '').trim() || null;
+      if (label && /^url$/i.test(label)) label = null;
+      current = { n: entries.length + 1, url: link[0], label, section, credit: null, lines: [], notes: [], meta: pendingMeta, content: [] };
+      pendingMeta = {};
       entries.push(current);
       continue;
     }
@@ -67,7 +78,12 @@ export function parseBatch(text: string): RawEntry[] {
       current = null;
       continue;
     }
+    const meta = line.trim().match(META);
     if (!current) {
+      if (meta) {
+        pendingMeta[meta[1]] = meta[2].trim();
+        continue;
+      }
       const h = line.trim().match(HEADING);
       if (h && line.trim()) section = h[1].trim();
       continue;
@@ -76,6 +92,8 @@ export function parseBatch(text: string): RawEntry[] {
     const t = line.trim();
     if (!t) continue;
     if (isNoteLine(t)) current.notes.push(t);
+    else if (meta) current.meta[meta[1]] = meta[2].trim();
+    else if (CAPTION_HEADING.test(t)) continue;
     else if (isKeywordLine(t)) continue;
     else {
       const credit = t.match(/^recipe by\s+@([\w.]+)/i);
