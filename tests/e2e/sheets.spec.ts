@@ -6,6 +6,7 @@ const SHEETS = [
   { name: 'share', path: '/r/soya-tikka-salad/', open: (p: Page) => p.locator('.action-row').getByRole('button', { name: 'Share' }).click(), title: 'Share recipe' },
   { name: 'edit', path: '/r/soya-tikka-salad/', open: (p: Page) => p.getByRole('button', { name: 'Edit' }).click(), title: 'Edit this recipe' },
   { name: 'menu', path: '/', open: (p: Page) => p.getByRole('button', { name: 'Menu' }).click(), title: null },
+  { name: 'feedback', path: '/r/soya-tikka-salad/', open: (p: Page) => p.getByRole('button', { name: 'Send feedback' }).click(), title: 'Send feedback' },
 ];
 
 for (const theme of ['light', 'dark'] as const) {
@@ -31,6 +32,32 @@ for (const theme of ['light', 'dark'] as const) {
 
 test.describe('phone', () => {
   test.use({ viewport: { width: 390, height: 844 }, permissions: ['clipboard-read', 'clipboard-write'] });
+
+  test('feedback from the menu: email + GitHub issue, pre-filled with page and device (BL4)', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('button', { name: 'Menu' }).click();
+    await page.getByRole('button', { name: /^Send feedback/ }).click();
+    const dialog = page.getByRole('dialog', { name: 'Send feedback' });
+    await expect(dialog).toBeVisible();
+    const mail = await dialog.getByRole('link', { name: 'Email' }).getAttribute('href');
+    expect(mail).toMatch(/^mailto:jatin\.dev\.17@gmail\.com\?subject=Protein%20Plate%20feedback&body=/);
+    expect(decodeURIComponent(mail!.split('body=')[1])).toMatch(/Page: http:\/\/localhost:\d+\/\nDevice: \w+ · \w+/);
+    const issue = new URL((await dialog.getByRole('link', { name: 'GitHub issue' }).getAttribute('href'))!);
+    expect(issue.pathname).toBe('/Jatin17Solanki/protein-plate/issues/new');
+    expect(issue.searchParams.get('labels')).toBe('feedback');
+    await page.keyboard.press('Escape');
+    await expect(dialog).toBeHidden();
+  });
+
+  test('feedback from a recipe names the recipe (BL4)', async ({ page }) => {
+    await page.goto('/r/soya-tikka-salad/');
+    await page.getByRole('button', { name: 'Send feedback' }).click();
+    const dialog = page.getByRole('dialog', { name: 'Send feedback' });
+    await expect(dialog).toContainText('Something wrong or missing in Soya Tikka Salad?');
+    const issue = new URL((await dialog.getByRole('link', { name: 'GitHub issue' }).getAttribute('href'))!);
+    expect(issue.searchParams.get('title')).toBe('Protein Plate feedback: Soya Tikka Salad');
+    expect(issue.searchParams.get('body')).toContain('Recipe: Soya Tikka Salad');
+  });
 
   test('share: preview follows the toggles; Copy text copies exactly the preview', async ({ page }) => {
     await page.addInitScript(() => localStorage.setItem('pp.notes', JSON.stringify({ 'besan-chilla': 'Less salt' })));

@@ -14,6 +14,7 @@ import { Sidebar } from '../components/Sidebar';
 import { EmptyState } from '../components/EmptyState';
 import { toggle } from '../components/filterParts';
 import { MenuSheet } from '../components/MenuSheet';
+import { FeedbackSheet } from '../components/FeedbackSheet';
 import { InstallHint } from '../components/InstallHint';
 
 let searcher: Searcher | null = null;
@@ -30,6 +31,7 @@ export function Home() {
   const [query, setQuery] = useState(memory.query);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [personal, setPersonal] = useState(readPersonal);
   const searchInput = useRef<HTMLInputElement>(null);
 
@@ -197,7 +199,8 @@ export function Home() {
           onClose={() => setSheetOpen(false)}
         />
       )}
-      {menuOpen && <MenuSheet onClose={() => setMenuOpen(false)} />}
+      {menuOpen && <MenuSheet onClose={() => setMenuOpen(false)} onFeedback={() => { setMenuOpen(false); setFeedbackOpen(true); }} />}
+      {feedbackOpen && <FeedbackSheet onClose={() => setFeedbackOpen(false)} />}
       <InstallHint />
     </div>
   );

@@ -49,6 +49,8 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | Back up / restore, light / dark, install, offline, update prompt | Menu, phone | J10 |
 | Special recipes: Others, video only, whole-dish numbers, rough estimates | Home, recipe | J11 |
 | Accessibility: big text, VoiceOver, keyboard | everywhere | J12 |
+| Send feedback (email or GitHub issue) | Menu, bottom of every recipe | J13 |
+| README: what the app is, credits, run your own copy | GitHub repo page | J13 |
 
 ---
 
@@ -244,6 +246,21 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 3. Laptop, keyboard only (Tab, Shift+Tab, Enter, Esc): open filters, apply, open a recipe, open Share, close with Esc. **See:** a green focus ring always visible; focus returns where it was.
 
 **Feedback J12**
+>
+
+---
+
+## J13 · "Tell Jatin something's off" + "What is this site?"
+*Your mom finds a mistake in a recipe; a friend wants to know what the site is and make their own.*  ·  iC, D
+
+1. Home → Menu (⋯) → **Send feedback**. **See:** a sheet with **Email** (green) and **GitHub issue**, and a note that GitHub needs an account and is public.
+2. Tap **Email**. **See:** your mail app opens to jatin.dev.17@gmail.com, subject "Protein Plate feedback", and a short form with the page address and your device ("iPhone · Chrome"). Send it to yourself and check it arrives.
+3. Open any recipe, scroll to the bottom: "Something wrong or missing here? **Send feedback**". **See:** the sheet names the recipe; the email subject and the GitHub issue title include the recipe name.
+4. Tap **GitHub issue** (logged in). **See:** a new-issue page on the repo with the title and body filled in. Close it without submitting (or submit one test issue and close it).
+5. Open the repo on GitHub (https://github.com/Jatin17Solanki/protein-plate). **See:** the README explains what the app does, says clearly that recipes belong to their creators, lists the user journeys and what's planned for v2, and has a "Run your own copy" section a friend could follow.
+
+**Feedback J13**
+- Would your mom manage the email route? Is anything in the README wrong or missing?
 >
 
 ---
