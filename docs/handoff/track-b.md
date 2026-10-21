@@ -1,12 +1,17 @@
 # Track B handoff — Data
 
-_Last updated: 2026-10-21 (B3 batch 2 in review)_
+_Last updated: 2026-10-21 (B3 batch 2 in review; B5 export prompt and B6 done earlier)_
 
 **Done (B3):** batch 2 (`batches/2026-10-21-batch2.txt`, 370 links) is converted: **283 new recipes**, then 12 removed by Jatin (2 missing details, 10 duplicates): 259 in the catalog + 93 archived. Left out: 48 already in the catalog, 25 older reposts, NOODLES-D (chicken), CHAI-A (promo), 10 multi-recipe posts. 34 existing recipes now credit fit.khurana. Two recipes come from pinned comments Jatin pasted (`batches/2026-10-21-jatin-captions.txt`). Checks: validate 362/362, fidelity 362/362, data + app tests, typecheck, build all pass. Review sheet + dedupe report: private repo `reviews/2026-10-21-B3-batch2*.md`.
 
 **Next (B6 round 3):** `macros_basis_unclear` is done (Jatin's rule: one portion unless the caption says otherwise; 17 exceptions accepted). `missing_details` done (both removed). `no_macros` done: 39 archived (see below), 20 meals kept blank. `no_main_protein`: sweets/condiments archived, breakfast bowls → `other`, 5 set to soya/pulses. The last 17 savoury ones → archived as low-protein dishes. **0 flagged.** Duplicates resolved (DECISIONS 2026-10-21). **B3 is done** once PR 25 merges.
 
-**Archive (built in this PR, see TRACKER BL5):** `archived: {reason}` (`drink` / `sweet_snack` / `breakfast_bowl` / `sauce_dip` / `condiment` / `low_protein` / `staple`) hides a recipe everywhere except its own page and `/archive/`. To bring one back, delete the field. `check.ts` doesn't list archived recipes as flagged.
+**Archive (built in this PR, see TRACKER BL6):** `archived: {reason}` (`drink` / `sweet_snack` / `breakfast_bowl` / `sauce_dip` / `condiment` / `low_protein` / `staple`) hides a recipe everywhere except its own page and `/archive/`. To bring one back, delete the field. `check.ts` doesn't list archived recipes as flagged.
+
+**Next:**
+- B5: `prompts/ask-catalog.md` written and tested ([PR 26](https://github.com/Jatin17Solanki/protein-plate/pull/26)). Track A swaps it into `askPrompt()`: text after its `---`, then the catalog and "My question:"; drop the "my data" bullet when personal data isn't included. Keep its field guide in step with `compactCatalog()`.
+- Every future batch: follow `docs/ADD-RECIPES.md`. When Jatin sends the new compilation: run `dedupe.ts --batch <file>` (or `findPairsAgainst`), fix creator credits where it names them, add the recipes the same way.
+- B4: the protein oats recipe (Jatin will send it). Only 6 incomplete recipes remain, all video only, kept as is by Jatin. The My list seed was delivered in chat (never committed).
 
 **Track A requests:**
 - A "fun to try" tag (Jatin's notes mark many posts that way); not in the schema yet.

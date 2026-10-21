@@ -1,18 +1,18 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-21 (BL5 archive built by the Track B session in PR 25)_
+_Last updated: 2026-10-21 (BL6 archive built by the Track B session in PR 25)_
 
-**BL5 (by Track B, PR 25):** optional `archived: {reason}` in the schema (types regenerated). `src/lib/catalog.ts` now exports `allRecipes` (recipe pages, Add recipes duplicate check and prompt index), `recipes` (main catalog: Home, search, My recipes, Review, Export) and `archivedRecipes`. New hidden `/archive/` page (`src/screens/Archive.tsx`, `src/lib/archive.ts`), an "Archived" note on archived recipe pages, `archive/` static page; `catalog.txt` and home counts use the main catalog. Fixture: `tests/fixtures/archived/` (own folder so unit-test fixture counts stay 10). Tests: `tests/unit/archive.test.ts`, `tests/e2e/archive.spec.ts`, a11y states.
+**BL6 (by Track B, PR 25):** optional `archived: {reason}` in the schema (types regenerated). `src/lib/catalog.ts` now exports `allRecipes` (recipe pages, Add recipes duplicate check and prompt index), `recipes` (main catalog: Home, search, My recipes, Review, Export) and `archivedRecipes`. New hidden `/archive/` page (`src/screens/Archive.tsx`, `src/lib/archive.ts`), an "Archived" note on archived recipe pages, `archive/` static page; `catalog.txt` and home counts use the main catalog. Fixture: `tests/fixtures/archived/` (own folder so unit-test fixture counts stay 10). Tests: `tests/unit/archive.test.ts`, `tests/e2e/archive.spec.ts`, a11y states.
 
-**Done (BL2, PR open):** whole-dish creator numbers only on the recipe page. New `portionProtein(r)` (= `per_portion.protein_g`) drives tiles, sorting, My recipes, version cards, share, exports, `catalog.txt`, OG cards and the Add-recipes ready line; `Tile.whole` and the "whole recipe" tier are gone. `shownProtein`/`shownNumbers`/`macroFootnote` (recipe page macro card) and the admin `/review/` meta still show whole-dish totals.
+**Done (BL5, PR open):** Export's "Copy prompt + catalog" now uses Track B's `prompts/ask-catalog.md` via `askPrompt(prompt, recipes, siteUrl, personal)`: text after its first `---`, then `Catalog:` + `compactCatalog()`, then `My question:`; the "- **My data**" bullet is dropped unless personal data is ticked. The `?raw` import lives in `Export.tsx` (export.ts stays importable from vite.config). `tests/unit/export.test.ts` checks the prompt's field guide against `compactCatalog()`'s order: if you change the line format, tell Track B.
 
-**Done before:** A1–A8 and BL1 merged (BL1: Others protein, video-only, accepted flags, estimate box) (A8 QA report: `docs/QA.md`; manual plan: `docs/MANUAL-TEST.md`).
+**Done before:** A1–A8, BL1, BL2 merged (BL2: whole-dish numbers only on the recipe page, `portionProtein`) (BL1: Others protein, video-only, accepted flags, estimate box) (A8 QA report: `docs/QA.md`; manual plan: `docs/MANUAL-TEST.md`).
 
 **Not done / needs Jatin:** the manual test itself (TRACKER "Jatin's tasks"). The first real Add-recipes commit is still untested (the 8,000-char GitHub link cap, `MAX_URL` in `src/lib/addRecipes.ts`).
 
-**Next:** no Track A phase or backlog item left. Next Track A work comes from Jatin's results log in `docs/MANUAL-TEST.md` (fix list → new TRACKER rows, e.g. `A9 fixes from manual test`), plus the requests for Track B below.
+**Next:** BL3 (README) can start any time; BL4 (feedback) needs Jatin's feedback email. Otherwise wait for the manual test (`docs/MANUAL-TEST.md`, J1–J12); its feedback log becomes the next fix list after triage. Next Track A work comes from Jatin's results log in `docs/MANUAL-TEST.md` (fix list → new TRACKER rows, e.g. `A9 fixes from manual test`), plus the requests for Track B below.
 
-**Still open for Track B:** B5 export prompt → swap into `askPrompt()` in `src/lib/export.ts`. (Done by Track B: chat rules in §10 of the prompt; `check.ts --write` re-formats app-added one-line files.)
+**Still open for Track B:** nothing from Track A. Keep `prompts/ask-catalog.md`'s field guide in step with `compactCatalog()`.
 
 **Gotchas:**
 - Recipe page: put new sections in the right wrapper. `col-a` = top (title, macros, actions, credit), `col-b` = right column, `col-c` = Tried it + notes. Phone order = markup order.

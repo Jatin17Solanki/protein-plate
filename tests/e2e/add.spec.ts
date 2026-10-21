@@ -145,13 +145,15 @@ test.describe('export (phone)', () => {
     await expect(page.locator('.page-intro')).toContainText('10 recipes.');
     await page.getByRole('button', { name: 'Copy prompt + catalog' }).click();
     let text = await clipboard(page);
-    expect(text).toContain('10 vegetarian recipes');
+    expect(text.startsWith('You are helping me choose what to cook from **Protein Plate**')).toBe(true);
+    expect(text).not.toContain('**My data**');
     expect(text).toContain('- Besan Chilla · ');
     expect(text).not.toContain('Add more chilli');
     await page.getByRole('checkbox', { name: /Include my notes/ }).check();
     await page.getByRole('button', { name: 'Copy prompt + catalog' }).click();
     text = await clipboard(page);
     expect(text).toContain('my note: "Add more chilli"');
+    expect(text).toContain('- **My data** (only when included)');
   });
 
   test('copy link points at the live catalog.txt; the built page is plain text', async ({ page, request }) => {

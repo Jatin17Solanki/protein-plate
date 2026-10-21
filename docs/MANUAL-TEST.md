@@ -177,8 +177,9 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 *You want an AI to suggest dishes from your catalog, based on what's at home.*  ·  iC, D
 
 1. Menu → **Export catalog**. **See:** the recipe count and three options.
-2. **Copy prompt + catalog** → paste into ChatGPT or Claude → ask "I have bread and veggies left, what can I make?". **See:** answers use your catalog recipes, with their links.
-3. Tick **Include my notes, My list and Like / Dislike**, copy again. **See:** the pasted text now includes your likes, list and notes. Untick: it doesn't.
+2. **Copy prompt + catalog** → paste into ChatGPT or Claude → ask "I have bread and veggies left, what can I make?". **See:** it may first ask up to two short questions (meal, time, what's at home); then it suggests up to 3 recipes from your catalog with protein per portion, why it fits and the link, and once you pick one it ends with **Open the recipe: <link>**. Tap a link: it opens that recipe on the site.
+   - Also try "plan my day to reach 110 g": for recipes without creator numbers it asks once whether to leave them out ("not counted") or use its "≈ estimate", shown apart from the real numbers.
+3. Tick **Include my notes, My list and Like / Dislike**, copy again. **See:** the pasted text now explains "My data" and each recipe line carries your list / likes / notes. Untick: neither is there.
 4. **Copy link** → open it in a browser. **See:** `catalog.txt`, every recipe as plain text, no personal data. Give the link to an AI tool that can read links and ask a question.
 5. **Download JSON**. **See:** `protein-plate-catalog-<date>.json` in Files / Downloads.
 
