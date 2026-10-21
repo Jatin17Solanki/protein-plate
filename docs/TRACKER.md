@@ -55,4 +55,4 @@ Update your own row at the end of every session. Track A sessions edit only the 
 | Review schema in A1 PR | A1 |
 | Review 10 normalised recipes (B1), confirm duplicate lists (B2, B3) | per PR |
 | Send new scrape (B3), incomplete details + oats (B4) | when ready |
-| Full feature test with `docs/MANUAL-TEST.md` (iPhone Chrome + Safari, Android if possible); replaces the per-merge phone checks | once, at the end (when both tracks are done) |
+| Manual test by user journey (`docs/MANUAL-TEST.md`, J1–J12, ~2 h, any order); log feedback, then a triage session decides fix / later / won't fix | once, at the end (when both tracks are done) |
