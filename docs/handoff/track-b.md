@@ -1,32 +1,37 @@
 # Track B handoff — Data
 
-_Last updated: 2026-10-21 (B3 batch 2 in review; B5 export prompt and B6 done earlier)_
+_Last updated: 2026-10-21 (all Track B phases done; tracker tidied)_
 
-**Done (B3):** batch 2 (`batches/2026-10-21-batch2.txt`, 370 links) is converted: **283 new recipes**, then 12 removed by Jatin (2 missing details, 10 duplicates): 180 in the catalog (259 in all) + 93 archived. Left out: 48 already in the catalog, 25 older reposts, NOODLES-D (chicken), CHAI-A (promo), 10 multi-recipe posts. 34 existing recipes now credit fit.khurana. Two recipes come from pinned comments Jatin pasted (`batches/2026-10-21-jatin-captions.txt`). Checks: validate 362/362, fidelity 362/362, data + app tests, typecheck, build all pass. Review sheet + dedupe report: private repo `reviews/2026-10-21-B3-batch2*.md`.
+**State:** B1–B6 are done and merged. The catalog has 353 recipes in all: 260 shown, plus 93 archived (`archived: {reason}`: hidden everywhere except their own page and `/archive/`). **0 flagged.**
+- Every raw file is on the private repo's `main`; `fidelity.ts` passes 352/352. The 353rd, protein-oats-smoothie, is Jatin's own recipe with `ref: null`, which fidelity skips.
+- Decisions are in `docs/review-log.md` (batch 1) and `docs/DECISIONS.md`.
 
-**Next (B6 round 3):** `macros_basis_unclear` is done (Jatin's rule: one portion unless the caption says otherwise; 17 exceptions accepted). `missing_details` done (both removed). `no_macros` done: 39 archived (see below), 20 meals kept blank. `no_main_protein`: sweets/condiments archived, breakfast bowls → `other`, 5 set to soya/pulses. The last 17 savoury ones → archived as low-protein dishes. **0 flagged.** Duplicates resolved (DECISIONS 2026-10-21). **B3 is done** once PR 25 merges.
-
-**Archive (built in this PR, see TRACKER BL6):** `archived: {reason}` (`drink` / `sweet_snack` / `breakfast_bowl` / `sauce_dip` / `condiment` / `low_protein` / `staple`) hides a recipe everywhere except its own page and `/archive/`. To bring one back, delete the field. `check.ts` doesn't list archived recipes as flagged.
+**Rules in force:**
+- Steps = the creator's exact words, formatting only (`fidelity.ts` enforces it).
+- Numbers = the creator's, or ones Jatin read from the video. For Jatin's own recipes, numbers worked out from pack labels when he asks, and the basis says so.
+- Servings: one portion unless the caption says otherwise (Jatin, B3). Whole-dish numbers stay on the recipe page only.
+- `estimated_macros`: only when Jatin asks; recipe page only, with a warning.
+- `flags[]` / `accepted_flags`: `check.ts --write` sets the auto flags. Sauces/dips never get `no_macros`; video-only recipes only get `no_main_protein`.
+- `main_proteins` can be `other`. A hand-set main protein is kept when the 35 % rule finds none.
+- Never put anyone's name in recipe data the app shows.
 
 **Next:**
-- B5: `prompts/ask-catalog.md` written and tested ([PR 26](https://github.com/Jatin17Solanki/protein-plate/pull/26)). Track A swaps it into `askPrompt()`: text after its `---`, then the catalog and "My question:"; drop the "my data" bullet when personal data isn't included. Keep its field guide in step with `compactCatalog()`.
-- Every future batch: follow `docs/ADD-RECIPES.md`. When Jatin sends the new compilation: run `dedupe.ts --batch <file>` (or `findPairsAgainst`), fix creator credits where it names them, add the recipes the same way.
-- B4: the protein oats recipe (Jatin will send it). Only 6 incomplete recipes remain, all video only, kept as is by Jatin. The My list seed was delivered in chat (never committed).
+- Every new batch follows `docs/ADD-RECIPES.md`: a new session with both repos, then "Add these recipes to the catalog — follow docs/ADD-RECIPES.md".
+- **Open for Jatin:**
+  - a protein-per-100 g figure for "high-protein yogurt" (many batch-2 recipes have `ingredient_id: null`);
+  - whether he wants a "fun to try" tag (needs a Track A schema change).
+- **Prompts:**
+  - `prompts/ask-catalog.md` is wired into Export (BL5).
+  - Track A's `tests/unit/export.test.ts` checks its field-guide line against `compactCatalog()`. Reword that line → update the test.
 
-**Track A requests:**
-- A "fun to try" tag (Jatin's notes mark many posts that way); not in the schema yet.
-- Many new recipes use "high-protein yogurt" with `ingredient_id: null` (no protein estimate). Fine for creator numbers; a dictionary entry would need Jatin's protein figure.
-
-**Gotchas (new this session):**
-- Conversion working files (generator + per-entry specs) are in the private repo `tools/b3-gen/`; re-run with `run.sh specsNN` after `npm i`. Paths in them are absolute to this container.
-- `fidelity.ts` changes: thousands separators, @handles in steps, promo cues (`isPromoLine`), mixed fractions. `raw.ts`: structured `ID:/URL:` batches.
-- Dictionary: `chilli_garlic` (a broken entry) removed; "powdered sugar"/"caster sugar" are sugar, not sweetener; added "chillie flakes/powder", "dried red chilles", "red chillies dried".
-- Validate warns on 5 dips/spreads that keep a snack meal (Jatin's notes said snack). Leave unless he says otherwise.
-- Never put Jatin's (or anyone's) name in recipe data the app shows: basis "… — one portion", assumptions "The recipe makes one portion.", "Main protein set by hand."
-- Edits after conversion were made to the JSON directly; don't re-run the `tools/b3-gen` specs (they'd undo them).
-- Raw entry N = the Nth line with a link. "Recipe by @x" = original creator.
+**Gotchas:**
+- Raw entry N = the Nth line with a link (or an `ID:/URL:` block in structured batches). New text goes in new batch files; never append to old ones.
+- Merge the private repo's branch into its `main` too, or the next session can't check fidelity (it happened twice).
+- "Recipe by @x" = original creator.
+- Batch-2 working files are in the private repo `tools/b3-gen/`. Don't re-run them: edits after conversion went into the JSON directly.
+- Aliases: avoid bare generic words ("moong", "methi", "yogurt", "cloves"). Plurals need their own alias.
+- Validate warns on 5 dips/spreads that keep a snack meal (Jatin's notes); leave them.
+- PR numbers are shared by both tracks. `docs/DECISIONS.md` conflicts often; keep both sides.
 - After every push, check mergeability with `pull_request_read`.
-- Aliases: avoid bare generic words ("moong", "methi", "yogurt", "cloves"); they break existing recipes. Plurals need their own alias.
-- PR numbers are shared by both tracks; `docs/DECISIONS.md` conflicts often, keep both sides.
 
-**Open questions for Jatin:** none blocking; the flag rounds above.
+**Coordination:** the Track A session is "Dev 2 - phase A" (`session_01Qwkn8yZAbjE228CGzZT6xB`), reached with `send_message`. Its backlog is BL3 (README) and BL4 (feedback; needs Jatin's email).

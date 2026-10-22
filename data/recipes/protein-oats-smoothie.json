@@ -1,0 +1,134 @@
+{
+  "id": "protein-oats-smoothie",
+  "title": "Protein Oats Smoothie",
+  "source": {
+    "url": null,
+    "platform": null,
+    "creator": null,
+    "creator_url": null,
+    "ref": null
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "whey"
+  ],
+  "supporting_proteins": [
+    "milk",
+    "oats"
+  ],
+  "tags": [
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 37,
+    "kcal": 475,
+    "carbs_g": 43,
+    "fat_g": 18,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 1), with 200 ml toned milk — worked out from the pack labels",
+    "protein_g": 37,
+    "kcal": 475,
+    "carbs_g": 43,
+    "fat_g": 18
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "high-protein instant oats",
+      "ingredient_id": "oats",
+      "qty": 37,
+      "unit": "g",
+      "grams": 37,
+      "type": "grain",
+      "as_written": "37g Saffola high-protein instant oats (1 scoop)"
+    },
+    {
+      "item": "chocolate whey protein",
+      "ingredient_id": "whey_protein",
+      "qty": 30,
+      "unit": "g",
+      "grams": 30,
+      "type": "protein",
+      "as_written": "30g chocolate whey protein (1 scoop, Myprotein Impact Whey Chocolate Smooth)"
+    },
+    {
+      "item": "ground flax seeds",
+      "ingredient_id": "flax_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "grams": 10,
+      "type": "pantry",
+      "as_written": "1 tbsp ground flax seeds (10g)"
+    },
+    {
+      "item": "chia seeds",
+      "ingredient_id": "chia_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "grams": 10,
+      "type": "pantry",
+      "as_written": "1 tbsp chia seeds (10g)"
+    },
+    {
+      "item": "instant coffee",
+      "ingredient_id": "instant_coffee",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "¼ tsp Nescafe Classic"
+    },
+    {
+      "item": "cardamom powder",
+      "ingredient_id": "green_cardamom",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "small pinch cardamom powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "small pinch salt"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 200,
+      "unit": "ml",
+      "grams": 206,
+      "type": "dairy",
+      "as_written": "200ml milk"
+    }
+  ],
+  "steps": [
+    "Blend everything until smooth."
+  ],
+  "assumptions": [
+    "The macros are worked out from pack labels: high-protein oats 369 kcal, 12.6 g protein, 66.8 g carbs, 5.3 g fat and 10.4 g fibre per 100 g; whey 22 g protein and about 120 kcal per 30 g scoop; flax and chia seeds; toned milk (3.2 g protein, 58 kcal per 100 ml).",
+    "About 10 g fibre per serving.",
+    "With full-cream milk instead of toned, add about 60 kcal and 3 g fat.",
+    "The recipe gives no method; it is a smoothie, so blend everything."
+  ],
+  "missing": [],
+  "added_at": "2026-10-21",
+  "flags": []
+}

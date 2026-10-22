@@ -56,6 +56,7 @@ Fix every fidelity error by fixing the record (or, if the caption really is odd,
 Only when the checks are clean and Jatin's questions from step 3 are answered:
 - Update `docs/TRACKER.md` (row → `review` + PR link), `docs/DECISIONS.md` (append), `docs/handoff/track-b.md` (overwrite, ≤ 40 lines).
 - Commit, push, open the PR. Body: how many recipes added; the **flagged list** (`check.ts` prints it: id + reason); the **duplicates/variants list**; dictionary additions; link to the private review sheet; verification output.
+- Also open a PR in the private repo for its branch (batch file, Jatin's extra captions, review sheet) and tell Jatin to merge both. If the private one stays unmerged, the next session can't run `fidelity.ts` on these recipes.
 - After every push, check the PR is mergeable (`pull_request_read` → `mergeable_state`); if main moved, merge main in and resolve (DECISIONS.md: keep both sides). Don't wait for Jatin to report conflicts.
 
 ## 9. Resolve flags with Jatin
