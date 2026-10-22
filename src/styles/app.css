@@ -1067,6 +1067,7 @@ h1 { margin: 0; }
   align-items: center;
   gap: 14px;
   text-align: left;
+  text-decoration: none;
 }
 .menu-list li:last-child .menu-item { border-bottom: none; }
 .menu-item:disabled { opacity: 0.5; }

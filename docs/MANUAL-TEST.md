@@ -50,7 +50,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | Special recipes: Others, video only, whole-dish numbers, rough estimates | Home, recipe | J11 |
 | Accessibility: big text, VoiceOver, keyboard | everywhere | J12 |
 | Send feedback (email or GitHub issue) | Menu, bottom of every recipe | J13 |
-| README: what the app is, credits, run your own copy | GitHub repo page | J13 |
+| README: what the app is, credits, run your own copy | Menu → About Protein Plate (opens the GitHub repo) | J13 |
 
 ---
 
@@ -262,7 +262,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 2. Tap **Email**. **See:** your mail app opens to jatin.dev.17@gmail.com, subject "Protein Plate feedback", and a short form with the page address and your device ("iPhone · Chrome"). Send it to yourself and check it arrives.
 3. Open any recipe, scroll to the bottom: "Something wrong or missing here? **Send feedback**". **See:** the sheet names the recipe; the email subject and the GitHub issue title include the recipe name.
 4. Tap **GitHub issue** (logged in). **See:** a new-issue page on the repo with the title and body filled in. Close it without submitting (or submit one test issue and close it).
-5. Open the repo on GitHub (https://github.com/Jatin17Solanki/protein-plate). **See:** the README explains what the app does, says clearly that recipes belong to their creators, lists the user journeys and what's planned for v2, and has a "Run your own copy" section a friend could follow.
+5. Home → Menu → scroll to the bottom → **About Protein Plate**. **See:** the GitHub repo's README opens in a new tab (the app stays open in the old one). **See:** the README explains what the app does, says clearly that recipes belong to their creators, lists the user journeys and what's planned for v2, and has a "Run your own copy" section a friend could follow.
 
 **Feedback J13**
 - Would your mom manage the email route? Is anything in the README wrong or missing?

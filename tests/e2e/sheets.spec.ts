@@ -49,6 +49,16 @@ test.describe('phone', () => {
     await expect(dialog).toBeHidden();
   });
 
+  test('menu: About opens the GitHub README in a new tab (BL7)', async ({ page }) => {
+    await page.goto('/');
+    await page.getByRole('button', { name: 'Menu' }).click();
+    const about = page.getByRole('dialog').getByRole('link', { name: /^About Protein Plate/ });
+    await expect(about).toHaveAttribute('href', 'https://github.com/Jatin17Solanki/protein-plate#readme');
+    await expect(about).toHaveAttribute('target', '_blank');
+    await about.scrollIntoViewIfNeeded();
+    await expect(about).toBeInViewport();
+  });
+
   test('feedback from a recipe names the recipe (BL4)', async ({ page }) => {
     await page.goto('/r/soya-tikka-salad/');
     await page.getByRole('button', { name: 'Send feedback' }).click();

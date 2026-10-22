@@ -41,6 +41,8 @@ jobs:
         with:
           path: dist
       - name: Install Playwright browser
+        # This step once hung for 50+ minutes (PR 31); fail fast instead of blocking CI for hours.
+        timeout-minutes: 10
         run: npx playwright install --with-deps chromium
       - name: e2e (overflow check, light + dark)
         run: npm run test:e2e
