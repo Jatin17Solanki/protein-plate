@@ -49,6 +49,8 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | Back up / restore, light / dark, install, offline, update prompt | Menu, phone | J10 |
 | Special recipes: Others, video only, whole-dish numbers, rough estimates | Home, recipe | J11 |
 | Accessibility: big text, VoiceOver, keyboard | everywhere | J12 |
+| Send feedback (email or GitHub issue) | Menu, bottom of every recipe | J13 |
+| README: what the app is, credits, run your own copy | GitHub repo page | J13 |
 
 ---
 
@@ -181,6 +183,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
    - Also try "plan my day to reach 110 g": for recipes without creator numbers it asks once whether to leave them out ("not counted") or use its "≈ estimate", shown apart from the real numbers.
 3. Tick **Include my notes, My list and Like / Dislike**, copy again. **See:** the pasted text now explains "My data" and each recipe line carries your list / likes / notes. Untick: neither is there.
 4. **Copy link** → open it in a browser. **See:** `catalog.txt`, every recipe as plain text, no personal data. Give the link to an AI tool that can read links and ask a question.
+   - Also open `…/protein-plate/catalog.json`. **See:** the same recipes as structured JSON (no personal data). The README's `curl … | jq` example prints quick breakfasts with ≥ 25 g protein.
 5. **Download JSON**. **See:** `protein-plate-catalog-<date>.json` in Files / Downloads.
 
 **Feedback J8**
@@ -252,6 +255,21 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 
 ---
 
+## J13 · "Tell Jatin something's off" + "What is this site?"
+*Your mom finds a mistake in a recipe; a friend wants to know what the site is and make their own.*  ·  iC, D
+
+1. Home → Menu (⋯) → **Send feedback**. **See:** a sheet with **Email** (green) and **GitHub issue**, and a note that GitHub needs an account and is public.
+2. Tap **Email**. **See:** your mail app opens to jatin.dev.17@gmail.com, subject "Protein Plate feedback", and a short form with the page address and your device ("iPhone · Chrome"). Send it to yourself and check it arrives.
+3. Open any recipe, scroll to the bottom: "Something wrong or missing here? **Send feedback**". **See:** the sheet names the recipe; the email subject and the GitHub issue title include the recipe name.
+4. Tap **GitHub issue** (logged in). **See:** a new-issue page on the repo with the title and body filled in. Close it without submitting (or submit one test issue and close it).
+5. Open the repo on GitHub (https://github.com/Jatin17Solanki/protein-plate). **See:** the README explains what the app does, says clearly that recipes belong to their creators, lists the user journeys and what's planned for v2, and has a "Run your own copy" section a friend could follow.
+
+**Feedback J13**
+- Would your mom manage the email route? Is anything in the README wrong or missing?
+>
+
+---
+
 ## After the test
 
 1. When every journey you planned is done, tell a Claude session: **"manual test done"**.
@@ -263,7 +281,8 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | # | Where | Device | Kind | What happened / what you expected | Decision (after the test) |
 |---|---|---|---|---|---|
 | 1 | J3.4 | all | bug | Found while writing this plan (2026-10-21): "curd" finds 14 dishes, "dahi" only 5 (only those with the word "dahi"). Search still uses the A3 built-in synonym list instead of the aliases in `data/ingredients.json`. | |
-| 2 | | | | | |
+| 2 | J1.5 | all | confusing | Found while taking README screenshots (2026-10-21): about 25 recipes' macro footnote reads e.g. "As stated by the creator (whole recipe — one portion (Jatin))": the portion decision and Jatin's name leak into visible text (`stated_macros.basis`, Track B data). | Fixed by Track B in PR 25 (basis now "whole recipe — one portion"). |
+| 3 | | | | | |
 
 ---
 

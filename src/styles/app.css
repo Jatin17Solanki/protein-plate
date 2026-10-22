@@ -1376,3 +1376,9 @@ body.has-hint .home { padding-bottom: 140px; }
 .steps-hint { margin: 10px 0 0; display: flex; align-items: center; gap: 8px; color: var(--text2); font-size: 14px; line-height: 1.45; }
 .steps-hint svg { flex: none; color: var(--brand); }
 .video-only-card .missing-mark { background: var(--soya-bg); color: var(--brand); }
+
+/* ======================= BL4: Send feedback ======================= */
+.sheet-lead { margin: 0; font-size: 15px; line-height: 1.5; color: var(--text2); }
+.sheet-lead b { color: var(--text); }
+.feedback-link { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 13px; color: var(--text2); }
+.feedback-link .link-btn { min-height: var(--tap); font-size: 13px; }

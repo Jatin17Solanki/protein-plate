@@ -17,7 +17,7 @@ const THEMES: { key: Theme; label: string }[] = [
 ];
 
 /** R5-Menu (+ My recipes first, Like/Dislike wording). Back up / Restore and Appearance work here. */
-export function MenuSheet({ onClose }: { onClose: () => void }) {
+export function MenuSheet({ onClose, onFeedback }: { onClose: () => void; onFeedback: () => void }) {
   const [theme, setThemeState] = useState(getTheme);
   const [help, setHelp] = useState(false);
   const [pending, setPending] = useState<{ backup: BackupData; differ: number } | null>(null);
@@ -127,6 +127,15 @@ export function MenuSheet({ onClose }: { onClose: () => void }) {
           <button type="button" class="link-btn" onClick={() => setPending(null)}>Cancel</button>
         </div>
       )}
+
+      <ul class="menu-list">
+        <li>
+          <button type="button" class="menu-item" onClick={onFeedback}>
+            <span class="menu-icon"><UiIcon name="message" size={18} /></span>
+            <span class="menu-text"><b>Send feedback</b><span>By email or as a GitHub issue</span></span>
+          </button>
+        </li>
+      </ul>
 
       <p class="eyebrow">Appearance</p>
       <div class="segmented" role="radiogroup" aria-label="Appearance">

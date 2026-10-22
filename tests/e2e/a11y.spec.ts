@@ -16,6 +16,7 @@ const STATES: { name: string; path: string; open?: (p: Page) => Promise<unknown>
   { name: 'recipe', path: '/r/soya-pea-kebab/' },
   { name: 'share', path: '/r/soya-pea-kebab/', open: (p) => p.locator('.action-row').getByRole('button', { name: 'Share' }).click() },
   { name: 'edit', path: '/r/soya-pea-kebab/', open: (p) => p.getByRole('button', { name: 'Edit' }).click() },
+  { name: 'feedback', path: '/r/soya-pea-kebab/', open: (p) => p.getByRole('button', { name: 'Send feedback' }).click() },
   { name: 'incomplete', path: '/r/lasooni-dhaniya-paneer/' },
   { name: 'my', path: '/my/' },
   { name: 'add', path: '/add/', open: (p) => p.locator('textarea').fill(`[${readFileSync('tests/fixtures/besan-chilla.json', 'utf8')}, {"title": "x"}]`) },

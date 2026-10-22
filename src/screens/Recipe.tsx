@@ -11,13 +11,14 @@ import { portionProtein, PROTEINS, shownNumbers, shownProtein, tintOf } from '..
 import { FilledIcon, UiIcon } from '../components/Icon';
 import { EditSheet } from '../components/EditSheet';
 import { ShareSheet } from '../components/ShareSheet';
+import { FeedbackSheet } from '../components/FeedbackSheet';
 import type { EstimatedMacros, Recipe as RecipeData } from '../types/recipe';
 
 const proteinLabel = (k: string) => PROTEINS.find((p) => p.key === k)?.label ?? k;
 
 export function Recipe({ id }: { id: string | null }) {
   useStorage();
-  const [sheet, setSheet] = useState<'share' | 'edit' | null>(null);
+  const [sheet, setSheet] = useState<'share' | 'edit' | 'feedback' | null>(null);
   // Archived recipes keep their page (links shared earlier still work); they just aren't listed anywhere else.
   const r = id === null ? undefined : allRecipes.find((x) => x.id === id);
 
@@ -162,10 +163,15 @@ export function Recipe({ id }: { id: string | null }) {
         <div class="col-c">
           {!incomplete && <TriedIt id={r.id} />}
           <Notes id={r.id} incomplete={incomplete} />
+          <p class="feedback-link">
+            Something wrong or missing here?{' '}
+            <button type="button" class="link-btn" aria-haspopup="dialog" onClick={() => setSheet('feedback')}>Send feedback</button>
+          </p>
         </div>
       </main>
       {sheet === 'share' && <ShareSheet recipe={r} onClose={() => setSheet(null)} />}
       {sheet === 'edit' && <EditSheet recipe={r} onClose={() => setSheet(null)} />}
+      {sheet === 'feedback' && <FeedbackSheet recipe={r.title} onClose={() => setSheet(null)} />}
     </div>
   );
 }

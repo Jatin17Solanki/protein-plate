@@ -167,6 +167,16 @@ test.describe('export (phone)', () => {
     expect(body.match(/^## /gm)).toHaveLength(10);
   });
 
+  test('catalog.json: the main catalog as structured JSON, no personal data', async ({ request }) => {
+    const res = await request.get('/catalog.json');
+    expect(res.headers()['content-type']).toContain('application/json');
+    const file = await res.json();
+    expect(file).toMatchObject({ kind: 'protein-plate-catalog', version: 1, count: 10, site: 'https://jatin17solanki.github.io/protein-plate/' });
+    expect(file.recipes).toHaveLength(10);
+    expect(file.recipes.every((r: { archived?: unknown }) => !r.archived)).toBe(true);
+    expect('personal' in file).toBe(false);
+  });
+
   test('download JSON saves every recipe', async ({ page }) => {
     await page.goto('/export/');
     const [download] = await Promise.all([page.waitForEvent('download'), page.getByRole('button', { name: 'Download JSON' }).click()]);
