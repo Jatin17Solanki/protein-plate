@@ -63,23 +63,36 @@
 
 ## Use the catalog with any AI
 
-Every recipe is stored as **structured data** (JSON), not as a web page: title, protein and calories per portion, main protein, meals, tags, every ingredient with its amount, the steps and the video link. That makes the catalog something an AI, a script or a spreadsheet can filter, add up and plan with, not just read.
+Every recipe is saved as structured data: protein and calories per portion, meal, main protein, every ingredient with its amount, the steps and the video link. So an AI can search, compare, plan and make lists from it. You don't need to be technical; pick whichever way your AI chat supports:
 
-There are three ways in:
-
-| | What you get | Good for |
+| | How | Works best when |
 |---|---|---|
-| **Prompt** | App → Menu → Export → *Copy prompt + catalog* | Any chat (ChatGPT, Claude, Gemini): paste and ask |
-| **Link** | [`catalog.txt`](https://jatin17solanki.github.io/protein-plate/catalog.txt): every recipe as plain text | AI tools that read links; a Claude Project or custom GPT as its "knowledge" |
-| **JSON** | [`catalog.json`](https://jatin17solanki.github.io/protein-plate/catalog.json): every recipe as structured data | Scripts, automations, spreadsheets, your own app |
+| **1. Copy and paste** | In the app: Menu → **Export catalog** → **Copy prompt + catalog**. Paste it into a new chat, then ask your question. | Always. Works in any AI chat app, on any phone. |
+| **2. Share the link** | Paste [this link](https://jatin17solanki.github.io/protein-plate/catalog.txt) into the chat with your question. The AI opens it and reads every recipe. | Your AI chat can open links (most can, when web access is on). |
+| **3. Upload the file** | Export catalog → **Download JSON**, then attach that file in the chat (📎). | Your AI chat takes file uploads; good for long plans. |
 
-**Example: ask a chat.** Paste the Export prompt, then:
+**Example questions:**
 
-> *"Cook's away today and I need something quick with at least 30 g protein. Pick one."*
+- **Copy and paste:**
+  > *"Cook's away today and I need something quick with at least 30 g protein. Pick one."*
 
-The AI answers only from the catalog, gives the protein per portion and why it fits, and ends with **"Open the recipe:"** and the link. When a question is open-ended, it first asks up to two short questions (which meal? how much time?).
+  The AI picks from your recipes only, says how much protein and why it fits, and ends with **"Open the recipe:"** and the link. If your question is open-ended, it first asks one or two short questions (which meal? how much time?).
+- **Share the link:**
+  > *"Here are my recipes: https://jatin17solanki.github.io/protein-plate/catalog.txt. Plan my breakfasts for next week, at least 25 g protein each, no paneer two days in a row."*
+- **Upload the file:**
+  > *(attach the file)* *"Make one shopping list for Besan Toast Breakfast Sandwich, Peri Peri Paneer Sandwich and a dal of your choice from this file."*
 
-**Example: use the JSON.** Quick breakfasts with at least 25 g protein, straight from the live catalog:
+**More ideas:**
+- A **weekly plan** that hits your daily protein, with a **shopping list**.
+- Save the link once in a ChatGPT custom GPT or a Claude Project, so every chat there already knows your recipes.
+- "What can I make with what's in my fridge?" Type what you have and let it match.
+
+Your notes, list and likes aren't in the public link. To include them in the copied prompt or the file, tick *Include my notes…* on the Export screen first.
+
+<details>
+<summary>For developers: the JSON feed</summary>
+
+The same catalog is published as JSON at [`catalog.json`](https://jatin17solanki.github.io/protein-plate/catalog.json), for scripts, automations, spreadsheets or your own app. Quick breakfasts with at least 25 g protein:
 
 ```sh
 curl -s https://jatin17solanki.github.io/protein-plate/catalog.json \
@@ -96,12 +109,7 @@ curl -s https://jatin17solanki.github.io/protein-plate/catalog.json \
 …
 ```
 
-**Ideas to build on it:**
-- A weekly plan that hits your protein target, with a shopping list. Use a Claude Project or custom GPT with `catalog.txt` as its knowledge.
-- A daily "what's for dinner?" message, from a scheduled script that reads `catalog.json` and asks the AI you already use.
-- A spreadsheet of protein per rupee, or per minute of cooking. Import `catalog.json`.
-
-Your notes, list and likes aren't in these public files. Tick *Include my notes…* in Export to add them to a prompt or file you copy yourself.
+</details>
 
 ---
 
