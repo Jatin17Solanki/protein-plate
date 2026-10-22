@@ -2,6 +2,7 @@ import { useRef, useState } from 'preact/hooks';
 import {
   backupFileName, conflicts, currentData, makeBackup, merge, parseBackup, summarize, type BackupData,
 } from '../lib/backup';
+import site from '../../site.config.json';
 import { downloadJson } from '../lib/download';
 import { href, navigate } from '../lib/router';
 import { getTheme, setTheme, writeAll, type Theme } from '../lib/storage';
@@ -15,6 +16,9 @@ const THEMES: { key: Theme; label: string }[] = [
   { key: 'dark', label: 'Dark' },
   { key: 'auto', label: 'Auto' },
 ];
+
+// From site.config, so a fork's menu points to its own README.
+const REPO_README = `https://github.com/${site.owner}/${site.repo}#readme`;
 
 /** R5-Menu (+ My recipes first, Like/Dislike wording). Back up / Restore and Appearance work here. */
 export function MenuSheet({ onClose, onFeedback }: { onClose: () => void; onFeedback: () => void }) {
@@ -145,6 +149,15 @@ export function MenuSheet({ onClose, onFeedback }: { onClose: () => void; onFeed
           </button>
         ))}
       </div>
+
+      <ul class="menu-list">
+        <li>
+          <a class="menu-item" href={REPO_README} target="_blank" rel="noopener">
+            <span class="menu-icon"><UiIcon name="info" size={18} /></span>
+            <span class="menu-text"><b>About Protein Plate</b><span>How it works, credits, make your own copy</span></span>
+          </a>
+        </li>
+      </ul>
     </Sheet>
   );
 }
