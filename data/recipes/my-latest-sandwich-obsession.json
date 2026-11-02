@@ -1,0 +1,58 @@
+{
+  "id": "my-latest-sandwich-obsession",
+  "title": "My Latest Sandwich Obsession",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dc3-3_8M-cO/",
+    "platform": "instagram",
+    "creator": "izhecoconuts",
+    "creator_url": "https://www.instagram.com/izhecoconuts/",
+    "ref": "batches/instinct-B001.txt#8"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Title from the caption, which is only this line; the dish isn't named."
+  ],
+  "missing": [
+    "Written recipe (the caption is only the title; the video is the recipe)"
+  ],
+  "added_at": "2026-11-02",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "Video only, and no main protein chosen yet."
+    },
+    {
+      "code": "other",
+      "note": "The caption is only a title, so it's unknown whether the sandwich is vegetarian (no egg or meat). Check the video before keeping it."
+    }
+  ],
+  "video_only": true
+}

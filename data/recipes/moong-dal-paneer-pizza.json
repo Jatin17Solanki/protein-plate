@@ -1,0 +1,276 @@
+{
+  "id": "moong-dal-paneer-pizza",
+  "title": "Moong Dal Paneer Pizza",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dcx_x4Gg4oU/",
+    "platform": "instagram",
+    "creator": "shemusttry",
+    "creator_url": "https://www.instagram.com/shemusttry/",
+    "ref": "batches/instinct-B001.txt#9"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "moong_dal_yellow"
+  ],
+  "tags": [
+    "pizza",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 30,
+    "kcal": 350,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 2)",
+    "protein_g": 30,
+    "kcal": 350
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "moong dal, soaked",
+      "section": "base",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 60,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "60g soaked moong dal"
+    },
+    {
+      "item": "plain yogurt",
+      "section": "base",
+      "ingredient_id": "yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp yogurt"
+    },
+    {
+      "item": "psyllium husk",
+      "section": "base",
+      "ingredient_id": "psyllium_husk",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "½ tsp psyllium husk"
+    },
+    {
+      "item": "baking soda",
+      "section": "base",
+      "ingredient_id": "baking_soda",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "¼ tsp baking soda"
+    },
+    {
+      "item": "salt",
+      "section": "base",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "turmeric (haldi)",
+      "section": "base",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "haldi"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 190,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "190g low-fat paneer"
+    },
+    {
+      "item": "plain yogurt",
+      "section": "paneer",
+      "ingredient_id": "yogurt",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "yogurt"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "paneer",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "ginger-garlic paste"
+    },
+    {
+      "item": "salt",
+      "section": "paneer",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "garam masala",
+      "section": "paneer",
+      "ingredient_id": "garam_masala",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "garam masala"
+    },
+    {
+      "item": "coriander powder (dhaniya powder)",
+      "section": "paneer",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "dhaniya powder"
+    },
+    {
+      "item": "red chilli",
+      "section": "paneer",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "red chilli"
+    },
+    {
+      "item": "oil spray",
+      "section": "paneer",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "oil spray"
+    },
+    {
+      "item": "tomatoes, cooked",
+      "section": "sauce",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "cooked 2 tomatoes"
+    },
+    {
+      "item": "garlic cloves",
+      "section": "sauce",
+      "ingredient_id": "garlic",
+      "qty": 6,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "6–7 garlic cloves"
+    },
+    {
+      "item": "basil",
+      "section": "sauce",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "basil"
+    },
+    {
+      "item": "red chillies",
+      "section": "sauce",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 red chillies"
+    },
+    {
+      "item": "salt",
+      "section": "sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "jaggery or sugar",
+      "section": "sauce",
+      "ingredient_id": "jaggery",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "jaggery/sugar"
+    },
+    {
+      "item": "mixed veggies",
+      "section": "toppings",
+      "ingredient_id": "mixed_vegetables",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "veggies"
+    },
+    {
+      "item": "mozzarella",
+      "section": "toppings",
+      "ingredient_id": "mozzarella",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "mozzarella"
+    },
+    {
+      "item": "basil",
+      "section": "toppings",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "basil"
+    }
+  ],
+  "steps": [
+    "Base: Blend 60g soaked moong dal with 2 tbsp yogurt, ½ tsp psyllium husk, ¼ tsp baking soda, salt & haldi. Spread on greased parchment.",
+    "Paneer: Marinate 190g low-fat paneer with yogurt, ginger-garlic paste, salt, garam masala, dhaniya powder, red chilli & oil spray.",
+    "Quick sauce: Blend cooked 2 tomatoes + 6–7 garlic cloves + basil + 2 red chillies + salt. Add a little jaggery/sugar if you like.",
+    "Air fry: Base 5 min at 150°C → add sauce, veggies, paneer, mozzarella & basil → 9–10 min at 160°C.",
+    "Pan: Cook covered on low-medium flame, flip once cooked, add toppings & cook covered on the lowest flame for 7–8 min."
+  ],
+  "assumptions": [
+    "\"~30g protein\" read as per serving, like the kcal figure next to it.",
+    "Creator says under 350 kcal per serving; 350 is recorded as the upper limit.",
+    "The caption doesn't say which veggies, or how much mozzarella."
+  ],
+  "missing": [],
+  "added_at": "2026-11-02",
+  "flags": []
+}

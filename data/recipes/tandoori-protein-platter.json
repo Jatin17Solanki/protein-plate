@@ -1,0 +1,227 @@
+{
+  "id": "tandoori-protein-platter",
+  "title": "Tandoori Protein Platter",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdwCqdPAXgH/",
+    "platform": "instagram",
+    "creator": "myflavourfuljourney",
+    "creator_url": "https://www.instagram.com/myflavourfuljourney/",
+    "ref": "batches/instinct-B001.txt#5"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "snack",
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "soya_chunks",
+    "paneer",
+    "greek_yogurt"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "mushrooms, halved",
+      "ingredient_id": "mushroom",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200 g mushrooms, halved"
+    },
+    {
+      "item": "paneer, cubed",
+      "ingredient_id": "paneer",
+      "qty": 120,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "120 g paneer, cubed"
+    },
+    {
+      "item": "large soya nuggets, boiled and drained",
+      "ingredient_id": "soya_chunks",
+      "qty": 15,
+      "unit": "piece",
+      "grams": 50,
+      "type": "protein",
+      "as_written": "15–20 large soya nuggets, boiled and drained (approx. 50–60 g dry)"
+    },
+    {
+      "item": "onion, roughly chopped (medium)",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium onion, roughly chopped"
+    },
+    {
+      "item": "green capsicum, roughly chopped (medium)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium green capsicum, roughly chopped"
+    },
+    {
+      "item": "red bell pepper, roughly chopped (small)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small red bell pepper, roughly chopped"
+    },
+    {
+      "item": "yellow bell pepper, roughly chopped (small)",
+      "ingredient_id": "capsicum",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 small yellow bell pepper, roughly chopped"
+    },
+    {
+      "item": "broccoli florets (medium)",
+      "ingredient_id": "broccoli",
+      "qty": 10,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "10–12 medium broccoli florets"
+    },
+    {
+      "item": "thick hung curd or Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 8,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "8 tbsp thick hung curd or Greek yogurt"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger-garlic paste"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp turmeric powder"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "oil",
+      "section": "besan tadka",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp oil"
+    },
+    {
+      "item": "besan (gram flour)",
+      "section": "besan tadka",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp besan"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "section": "besan tadka",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "kasuri methi, crushed",
+      "section": "besan tadka",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp kasuri methi, crushed"
+    }
+  ],
+  "steps": [
+    "In a large air-fryer-safe tray, combine the boiled soya nuggets, paneer, mushrooms, onion, capsicum, bell peppers and broccoli.",
+    "Add hung curd, ginger-garlic paste, turmeric, red chilli powder, coriander powder, garam masala and salt. Mix gently until everything is coated.",
+    "For the tadka, heat oil in a small pan. Add besan and cook briefly, stirring continuously. Add Kashmiri red chilli powder and crushed kasuri methi, and mix well over low heat.",
+    "Pour the besan tadka into the tray and mix everything gently to coat evenly.",
+    "Air fry at 180°C for 12 minutes. For more char, air fry for an additional 2–3 minutes.",
+    "Serve hot with green chutney."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-11-02",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

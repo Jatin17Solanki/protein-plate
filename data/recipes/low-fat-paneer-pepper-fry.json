@@ -1,0 +1,202 @@
+{
+  "id": "low-fat-paneer-pepper-fry",
+  "title": "Low Fat Paneer Pepper Fry",
+  "source": {
+    "url": "https://www.instagram.com/reel/DfCVlIXKg9_/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B001.txt#2"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 50,
+    "kcal": 500
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer, cubed",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g low fat paneer"
+    },
+    {
+      "item": "onions, chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 onion chopped"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chilli chopped"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "curry leaves"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "fennel seeds",
+      "ingredient_id": "fennel_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp fennel seeds"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "10 ml oil"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp Ginger garlic paste"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1\\2 tsp turmeric powder"
+    },
+    {
+      "item": "cumin powder (jeera powder)",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Black pepper powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander leaves"
+    },
+    {
+      "item": "lemon juice",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "lemon juice"
+    }
+  ],
+  "steps": [
+    "Splash some oil in a pan and add low fat paneer cubes in medium flame.",
+    "Toss it well until it starts to changes its colour.",
+    "Now transfer into a bowl and in same pan splash some oil.",
+    "Keep flame medium and add jeera, fennel seeds, green chilli, onion. Curry leaves, Ginger garlic paste.",
+    "Sauce until onion starts to change its colour.",
+    "Now add the masala and salt and water.",
+    "Mix it all well for 2 mins.",
+    "Now add paneer cubes and mix it all well in high flame for 2 mins.",
+    "Check the salt and switch off the flame.",
+    "Now add black pepper powder, Lemon juice and coriander leaves.",
+    "Enjoy it!!!"
+  ],
+  "assumptions": [
+    "Turmeric is written \"1\\2 tsp\"; read as 0.5 tsp (½ tsp), so the amount is left blank in the list.",
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-02",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

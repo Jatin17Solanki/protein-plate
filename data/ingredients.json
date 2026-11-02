@@ -1,5 +1,5 @@
 [
-{"id":"soya_chunks","name":"soya chunks","aliases":["soya chunks","soya chunk","soy chunks","soya bari","nutrela","meal maker"],"type":"protein","protein_per_100g":52,"kcal_per_100g":345,"basis":"dry","main_protein":"soya","unit_grams":{"cup":50}},
+{"id":"soya_chunks","name":"soya chunks","aliases":["soya chunks","soya chunk","soy chunks","soya bari","nutrela","meal maker","soya nuggets","soya nugget"],"type":"protein","protein_per_100g":52,"kcal_per_100g":345,"basis":"dry","main_protein":"soya","unit_grams":{"cup":50}},
 {"id":"soya_granules","name":"soya granules","aliases":["soya granules","soy granules","soya keema","soya mince","soya chunks granules"],"type":"protein","protein_per_100g":52,"kcal_per_100g":345,"basis":"dry","main_protein":"soya","unit_grams":{"cup":90}},
 {"id":"soybeans","name":"soybeans","aliases":["soybeans","soyabeans","soya beans","soyabean","soybean","soya bean"],"type":"protein","protein_per_100g":36,"kcal_per_100g":446,"basis":"dry","main_protein":"soya","unit_grams":{"cup":185}},
 {"id":"paneer","name":"paneer","aliases":["paneer","cottage cheese","full fat paneer","full-fat paneer"],"type":"protein","protein_per_100g":18,"kcal_per_100g":265,"basis":"as_sold","main_protein":"paneer","unit_grams":{"cup":130}},
