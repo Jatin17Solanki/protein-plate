@@ -26,7 +26,7 @@ _Last updated: 2026-11-02 (B7 automated recipe inbox set up)_
   - Track A's `tests/unit/export.test.ts` checks its field-guide line against `compactCatalog()`. Reword that line → update the test.
 
 **Gotchas:**
-- Automated runs never edit TRACKER/handoff; they add one line per batch to `docs/review-log.md` and log the email in the private `inbox-log.md`. Tidy TRACKER in a human-run session.
+- Automated runs never edit TRACKER/handoff; the inbox task adds one line per batch to `docs/review-log.md`; the separate "raw archive" task (scheduled tasks take one repo each) saves the email to the private repo + `inbox-log.md`. Tidy TRACKER in a human-run session.
 - Raw entry N = the Nth line with a link (or an `ID:/URL:` block in structured batches). New text goes in new batch files; never append to old ones.
 - Merge the private repo's branch into its `main` too, or the next session can't check fidelity (it happened twice).
 - "Recipe by @x" = original creator.
