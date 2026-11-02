@@ -91,6 +91,27 @@ describe('parseBatch', () => {
     expect(es[0].content).not.toContain('ID: TIKKI-A');
     expect(es[1].content).toContain('Mix 1 tsp salt, 1/2 tsp chilli powder, 1 tsp garam masala');
   });
+  it('reads an Instinct email batch: header, "Live file" link and END line are not entries', () => {
+    const text = [
+      'BATCH: B001', 'ENTRIES: 2', 'SAVED: 2026-10-28 to 2026-11-03', 'ENTRY-IDS: SAMOSA-A, SANDWICH-A',
+      'Live file: https://files.instinct.com/abc-recipe-file', '',
+      'Batch membership is fixed at send time. Confirming this batch clears exactly', 'the ENTRY-IDS listed above.',
+      '============================================================', '',
+      'ID: SAMOSA-A', 'URL: https://www.instagram.com/reel/S1/', 'Posted: 2026-10-28', 'Creator: fit.khurana',
+      'Title: Soya Samosa (label from caption)', 'Notes: snacks, air fryer', '',
+      'Ingredients and method (caption, verbatim):', 'Recipe (4 Samosas | ~35g Protein Total)', '35g soya granules',
+      '____________________________________________________________', '', '',
+      'ID: SANDWICH-A', 'URL: https://www.instagram.com/reel/S2/', 'Posted: 2026-09-04', 'Creator: someone',
+      'Title: Sandwich', 'Notes: INCOMPLETE ENTRY - the caption is only the title line', '',
+      'Ingredients and method (caption, verbatim):', 'My latest sandwich obsession ✨',
+      '____________________________________________________________', '', '', 'END OF BATCH B001', '',
+    ].join('\n');
+    const es = parseBatch(text);
+    expect(es.map((e) => [e.n, e.meta.ID, e.section])).toEqual([[1, 'SAMOSA-A', null], [2, 'SANDWICH-A', null]]);
+    expect(es[0].content).toEqual(['Recipe (4 Samosas | ~35g Protein Total)', '35g soya granules']);
+    expect(es[1].content).toEqual(['My latest sandwich obsession ✨']);
+    expect(es[1].notes).toHaveLength(1);
+  });
   it('normalises links', () => {
     expect(linkKey(entries[1].url)).toBe('ig:BBB222');
     expect(canonicalUrl(entries[1].url)).toBe('https://www.instagram.com/reel/BBB222/');

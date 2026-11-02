@@ -1,6 +1,6 @@
 # Track B handoff — Data
 
-_Last updated: 2026-10-21 (all Track B phases done; tracker tidied)_
+_Last updated: 2026-11-02 (B7 automated recipe inbox set up)_
 
 **State:** B1–B6 are done and merged. The catalog has 353 recipes in all: 260 shown, plus 93 archived (`archived: {reason}`: hidden everywhere except their own page and `/archive/`). **0 flagged.**
 - Every raw file is on the private repo's `main`; `fidelity.ts` passes 352/352. The 353rd, protein-oats-smoothie, is Jatin's own recipe with `ref: null`, which fidelity skips.
@@ -16,7 +16,8 @@ _Last updated: 2026-10-21 (all Track B phases done; tracker tidied)_
 - Never put anyone's name in recipe data the app shows.
 
 **Next:**
-- Every new batch follows `docs/ADD-RECIPES.md`: a new session with both repos, then "Add these recipes to the catalog — follow docs/ADD-RECIPES.md".
+- New batches arrive by email from Instinct; the scheduled task "Protein Plate — recipe inbox" (every 3 days, or *Run now*) follows `docs/ADD-RECIPES.md` → Automated mode and keeps one rolling PR on `auto/recipe-inbox`. By hand still works: a session with both repos + "Add these recipes … follow docs/ADD-RECIPES.md".
+- B7 open: no real Instinct email yet; check the first automated PR closely. Open for Jatin: who confirms the batch back to Instinct.
 - **Open for Jatin:**
   - a protein-per-100 g figure for "high-protein yogurt" (many batch-2 recipes have `ingredient_id: null`);
   - whether he wants a "fun to try" tag (needs a Track A schema change).
@@ -25,6 +26,7 @@ _Last updated: 2026-10-21 (all Track B phases done; tracker tidied)_
   - Track A's `tests/unit/export.test.ts` checks its field-guide line against `compactCatalog()`. Reword that line → update the test.
 
 **Gotchas:**
+- Automated runs never edit TRACKER/handoff; they add one line per batch to `docs/review-log.md` and log the email in the private `inbox-log.md`. Tidy TRACKER in a human-run session.
 - Raw entry N = the Nth line with a link (or an `ID:/URL:` block in structured batches). New text goes in new batch files; never append to old ones.
 - Merge the private repo's branch into its `main` too, or the next session can't check fidelity (it happened twice).
 - "Recipe by @x" = original creator.
