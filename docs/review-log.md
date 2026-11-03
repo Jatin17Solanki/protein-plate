@@ -88,3 +88,7 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-10-21 · 18 yogurt/oat breakfast bowls → main protein `other`; 2 → soya, 3 → pulses (Jatin) · flag cleared. 17 savoury recipes still `no_main_protein`, waiting on Jatin
 - 2026-10-21 · 17 savoury no_main_protein recipes → archived `low_protein` (Jatin) · **0 recipes flagged**
 - 2026-10-21 · duplicates (Jatin) · deleted tiramisu-chia-overnight-oats, tiramisu-skyr-overnight-oats, tiramisu-protein-overnight-oats, apple-oats-crumble-yogurt, mango-paneer-cheesecake-bowl, tofu-guacamole-toast, quinoa-light-tofu-coconut-curry, kosambari-moong-podi-salad, soya-stuffed-paratha-raita, quinoa-moong-masoor-khichdi; korean-tofu-wrap + tofu-rice-paper-rolls → dish_group tofu-rice-paper-roll. Future batches: skip these posts
+
+## Recipe inbox (automated)
+
+- 2026-11-02 · inbox batch B001 · 9 added, 8 flagged, 5 possible duplicates (chikkar-chole already in the catalog, not re-added)

@@ -1,0 +1,207 @@
+{
+  "id": "low-fat-paneer-wrap",
+  "title": "Low Fat Paneer Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcdizNSv16v/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B001.txt#6"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 36,
+    "kcal": 400
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer, grated",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Low Fat paneer"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Skyr"
+    },
+    {
+      "item": "sweet corn, boiled",
+      "ingredient_id": "sweet_corn",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g Boiled sweet corn"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 5,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "5ml oil"
+    },
+    {
+      "item": "onion rings",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Half onion rings"
+    },
+    {
+      "item": "cucumber",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Half cucumber"
+    },
+    {
+      "item": "tomato",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 tomato"
+    },
+    {
+      "item": "oregano",
+      "ingredient_id": "oregano",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp oregano"
+    },
+    {
+      "item": "chilli flakes",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp chilli flakes"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp black pepper powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "cumin powder (jeera powder)",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp jeera powder"
+    },
+    {
+      "item": "chaat masala",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp chaat masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "lemon squeeze",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon squeeze"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaves"
+    }
+  ],
+  "steps": [
+    "Spread some oil in a tawa.",
+    "Keep flame low.",
+    "Now spread the grated paneer in top of it.",
+    "Make it as circle and add sweet corns.",
+    "Brush some oil And press it well.",
+    "Now sprinkle oregano, chilli flakes, black pepper powder and salt.",
+    "Let it cook for 4 to 5 in low flame slowly.",
+    "Meanwhile add red chilli powder, jeera powder and chaat masala into the Skyr along with some salt.",
+    "Mix it well and spread it on top of the wrap.",
+    "And add onion rings, tomato and cucumber along with coriander leaves.",
+    "Squeeze lemon and fold it gently and let it cook for another 2 mins in medium flame.",
+    "Now take it out, cut it and enjoy it with hot!!!"
+  ],
+  "assumptions": [
+    "The wrap is the grated paneer itself, cooked flat on the tawa (no flatbread in the list).",
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-02",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

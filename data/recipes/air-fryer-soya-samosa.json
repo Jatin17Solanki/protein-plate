@@ -1,0 +1,227 @@
+{
+  "id": "air-fryer-soya-samosa",
+  "title": "Air Fryer Soya Samosa",
+  "source": {
+    "url": "https://www.instagram.com/reel/DfCZnudTHQg/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/instinct-B001.txt#1"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "tortilla_whole_wheat",
+    "green_peas"
+  ],
+  "tags": [
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (4 samosas)",
+    "protein_g": 35,
+    "kcal": 680
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "whole-wheat tortillas",
+      "ingredient_id": "tortilla_whole_wheat",
+      "qty": 2,
+      "unit": "piece",
+      "grams": 90,
+      "type": "grain",
+      "as_written": "2 whole wheat tortillas (45g each)"
+    },
+    {
+      "item": "soya granules",
+      "ingredient_id": "soya_granules",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g soya granules"
+    },
+    {
+      "item": "potato, boiled (medium)",
+      "ingredient_id": "potato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium boiled potato"
+    },
+    {
+      "item": "green peas, boiled",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "½ cup boiled green peas"
+    },
+    {
+      "item": "fennel seeds",
+      "ingredient_id": "fennel_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Fennel seeds"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Cumin seeds"
+    },
+    {
+      "item": "coriander seeds",
+      "ingredient_id": "coriander_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Coriander seeds"
+    },
+    {
+      "item": "black peppercorns",
+      "ingredient_id": "black_pepper",
+      "qty": 6,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "6-7 Black peppercorns"
+    },
+    {
+      "item": "green chillies",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chillies"
+    },
+    {
+      "item": "garlic cloves",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 garlic cloves"
+    },
+    {
+      "item": "kasuri methi",
+      "ingredient_id": "kasuri_methi",
+      "qty": 1,
+      "unit": "handful",
+      "type": "spice",
+      "as_written": "A handful of kasuri methi"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt and black salt to taste"
+    },
+    {
+      "item": "black salt",
+      "ingredient_id": "black_salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt and black salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp black pepper"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp garam masala"
+    },
+    {
+      "item": "dry mango powder (amchur)",
+      "ingredient_id": "amchur",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Aamchur powder"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "cornflour slurry (for sealing)",
+      "ingredient_id": "corn_flour",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Cornflour slurry for sealing"
+    },
+    {
+      "item": "green chutney (to serve)",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Green chutney for serving"
+    }
+  ],
+  "steps": [
+    "Add the fennel seeds, cumin seeds, coriander seeds and black peppercorns to a mortar and pestle. Crush coarsely.",
+    "Heat 1 tsp oil in a pan. Add the crushed whole spices and sauté until aromatic.",
+    "Crush the green chillies and garlic together into a coarse mixture. Add to the pan and sauté briefly.",
+    "Add the boiled and squeezed soya granules and cook for 3 to 4 minutes.",
+    "Add the boiled potato and mix well with the soya granules and spices. Add the boiled peas and sauté everything together.",
+    "Add the kasuri methi, garam masala, black pepper, dry mango powder, salt and black salt. Mix well.",
+    "Mash the mixture until it comes together, leaving some peas slightly intact.",
+    "Mix cornflour with a little water to make a smooth slurry for sealing.",
+    "Cut each tortilla in half. Add the filling in middle and fold each corner towards the mide, and seal the edges firmly with the cornflour slurry making a triangle.",
+    "Spray oil on top and Air-fry at 160°C for 7 to 10 minutes, flipping halfway through, until crispy.",
+    "Serve hot with green chutney."
+  ],
+  "assumptions": [
+    "The creator's numbers are totals for the 4 samosas the recipe makes.",
+    "Creator also states ~18 g fibre (total)."
+  ],
+  "missing": [],
+  "added_at": "2026-11-02",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (4 samosas)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}
