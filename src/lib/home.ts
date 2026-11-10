@@ -21,9 +21,12 @@ export const MEALS: { key: MealType | 'all'; label: string }[] = [
   { key: 'dinner', label: 'Dinner' },
 ];
 
-export type QuickKey = 'quick' | 'myList' | 'global' | 'airFryer';
+export type QuickKey = 'quick' | 'classic' | 'addOn' | 'myList' | 'global' | 'airFryer';
 export const QUICK: { key: QuickKey; label: string }[] = [
   { key: 'quick', label: 'Quick' },
+  // Everyday Indian dishes made high-protein; small protein sides for a plain meal (Track B tags, B8).
+  { key: 'classic', label: 'Classics' },
+  { key: 'addOn', label: 'Add-ons' },
   { key: 'myList', label: 'My list' },
   { key: 'global', label: 'Global' },
   { key: 'airFryer', label: 'Air fryer' },
@@ -150,6 +153,8 @@ const tier = (t: { sortProtein: number | null }) => (t.sortProtein === null ? 1 
 function matchesQuick(r: Recipe, q: QuickKey, p: Personal): boolean {
   switch (q) {
     case 'quick': return r.tags.includes('quick');
+    case 'classic': return r.tags.includes('classic');
+    case 'addOn': return r.tags.includes('add_on');
     case 'global': return r.tags.includes('global');
     case 'airFryer': return r.tags.includes('air_fryer_required') || r.tags.includes('air_fryer_optional');
     case 'myList': return p.myList.has(r.id);
