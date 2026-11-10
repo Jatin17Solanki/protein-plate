@@ -250,6 +250,8 @@ See `docs/PLAN.md` (phases) and `docs/TRACKER.md` (status).
 
 ## 11. Backlog (v2 and later) — keep, don't build yet
 
+**v2 direction (2026-11-10, DECISIONS):** v2 improves the catalog (order, filters, tags, coverage of quick options), not meal planning. The meal plan, last-planned, rotation builder and shopping rows below are parked; keep them only as ideas. Current v2 work: TRACKER rows V2-1 to V2-3.
+
 | Item | Notes |
 |---|---|
 | **Meal plan** | Spec in section 8. Day or week; calendar; 4 slots (breakfast, lunch, snack, dinner); day macro totals; browser storage, last 7 days; slot recipe picker. |

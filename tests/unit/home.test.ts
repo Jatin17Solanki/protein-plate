@@ -2,8 +2,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import {
-  bestRelaxation, dishCount, filterRecipes, groupTitle, NO_FILTERS, NO_PERSONAL, optionCounts, shownProtein, summaryParts, toTiles,
-  portionProtein, wholeRecipeProtein,
+  bestRelaxation, dishCount, filterRecipes, groupTitle, NO_FILTERS, NO_PERSONAL, optionCounts, pickProtein, picksExtras, shownProtein,
+  skipProtein, summaryParts, toTiles, portionProtein, wholeRecipeProtein, type Filters,
 } from '../../src/lib/home';
 import { parse } from '../../src/lib/router';
 import type { Recipe } from '../../src/types/recipe';
@@ -119,6 +119,59 @@ describe('toTiles', () => {
   it('multi-protein meta joins names', () => {
     const r = recipes.find((x) => x.id === 'soya-paneer-tikki')!;
     expect(toTiles([r])[0].meta).toBe('Soya + paneer · 300 kcal');
+  });
+});
+
+describe('Leave out (skip proteins)', () => {
+  it('hides recipes with any left-out main protein, including multi-protein ones', () => {
+    const left = ids(filterRecipes(recipes, { ...NO_FILTERS, skipProteins: ['paneer'] }));
+    expect(left).not.toContain('soya-paneer-tikki');
+    expect(left).not.toContain('paneer-tikka-wrap');
+    expect(left).toContain('soya-pea-kebab');
+  });
+
+  it('a protein is either picked or left out, never both', () => {
+    const f = pickProtein(NO_FILTERS, 'paneer');
+    expect(skipProtein(f, 'paneer')).toMatchObject({ proteins: [], skipProteins: ['paneer'] });
+    expect(pickProtein(skipProtein(NO_FILTERS, 'soya'), 'soya')).toMatchObject({ proteins: ['soya'], skipProteins: [] });
+  });
+
+  it('count = dishes left with that protein also left out; summary and relaxation name it', () => {
+    const c = optionCounts(recipes, { ...NO_FILTERS, skipProteins: ['soya'] });
+    expect(c.skipProteins.soya).toBe(dishCount(filterRecipes(recipes, { ...NO_FILTERS, skipProteins: ['soya'] })));
+    expect(c.skipProteins.tofu).toBe(dishCount(filterRecipes(recipes, { ...NO_FILTERS, skipProteins: ['soya', 'tofu'] })));
+    expect(summaryParts({ ...NO_FILTERS, skipProteins: ['soya', 'paneer'] })).toEqual(['Not Paneer or Soya']);
+    // Picked under Main protein → its Leave out count is what you'd get after the swap, so the chip stays usable.
+    const picked = optionCounts(recipes, { ...NO_FILTERS, proteins: ['paneer'] });
+    expect(picked.skipProteins.paneer).toBe(dishCount(filterRecipes(recipes, { ...NO_FILTERS, skipProteins: ['paneer'] })));
+    expect(optionCounts(recipes, { ...NO_FILTERS, skipProteins: ['soya'] }).proteins.soya).toBeGreaterThan(0);
+    const f = { ...NO_FILTERS, skipProteins: ['paneer', 'soya', 'pulses', 'tofu', 'tempeh', 'whey'] as Filters['skipProteins'] };
+    expect(dishCount(filterRecipes(recipes, f))).toBe(0);
+    expect(bestRelaxation(recipes, f)).toMatchObject({ label: 'Not Paneer or Soya or Pulses or Tofu or Tempeh or Whey', filters: NO_FILTERS });
+  });
+});
+
+describe('extras (desserts, sauces) sort last', () => {
+  const as = (id: string, protein: number, tags: Recipe['tags']): Recipe => {
+    const base = recipes.find((r) => r.id === 'soya-tikka-salad')!;
+    return { ...base, id, title: id, dish_group: null, tags, per_portion: { ...base.per_portion, protein_g: protein } };
+  };
+  const list = [as('cheesecake', 60, ['dessert']), as('dip', 40, ['sauce_dip']), as('sabzi', 30, ['curry_sabzi']), as('wrap', 20, ['wrap_roll_taco'])];
+
+  it('meals first by the chosen sort, then extras by the same sort', () => {
+    expect(toTiles(list).map((t) => t.id)).toEqual(['sabzi', 'wrap', 'cheesecake', 'dip']);
+    expect(toTiles(list, 'kcal').slice(2).every((t) => t.extra)).toBe(true);
+  });
+
+  it('picking Dessert or Sauce keeps the plain sort', () => {
+    expect(picksExtras({ ...NO_FILTERS, dishTypes: ['dessert'] })).toBe(true);
+    expect(picksExtras({ ...NO_FILTERS, dishTypes: ['curry_sabzi'] })).toBe(false);
+    expect(toTiles(list, 'protein', undefined, true).map((t) => t.id)).toEqual(['cheesecake', 'dip', 'sabzi', 'wrap']);
+  });
+
+  it('a search name match still comes before everything', () => {
+    const hits = new Map([['cheesecake', { nameMatch: true, uses: null }]]);
+    expect(toTiles(list, 'protein', hits)[0].id).toBe('cheesecake');
   });
 });
 

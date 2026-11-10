@@ -132,11 +132,11 @@ curl -s https://jatin17solanki.github.io/protein-plate/catalog.json \
 
 | ✅ Now (v1) | 🔜 Next (v2) | 🚫 Not planned |
 |---|---|---|
-| Browse, filter, search | **Meal plan** for a day or week, with protein totals | Accounts or sign-in |
-| Recipe page, versions, notes | **Rotation builder**: 1–2 weeks that hit a daily protein target | Servers or paid services |
-| My list, like / dislike | "Last planned" markers, to avoid repeats | Ads or tracking |
-| Share, add recipes, ask an AI | Shopping list for the week | |
-| Offline, Home Screen, dark mode | Suggestions for something new to try | |
+| Browse, filter, search | Desserts and sauces last in every list; **Leave out** a protein | Accounts or sign-in |
+| Recipe page, versions, notes | **Classics**: everyday Indian dishes made high-protein | Servers or paid services |
+| My list, like / dislike | **Add-ons**: a protein side for any plain meal | Ads or tracking |
+| Share, add recipes, ask an AI | More quick, light snacks for every protein | Meal planning inside the app |
+| Offline, Home Screen, dark mode | | |
 
 Full list of later ideas: [backlog](docs/CONTEXT.md#11-backlog-v2-and-later--keep-dont-build-yet).
 
