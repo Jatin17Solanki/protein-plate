@@ -37,7 +37,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | Feature | Where | Journey |
 |---|---|---|
 | Home grid: protein number, dish icon, colour by main protein | Home | J1 |
-| Meal tabs, protein chips, quick chips (Quick · My list · Global · Air fryer), filter sheet with live counts, Leave out, sort; desserts and sauces always last | Home | J1, J2, J3 |
+| Meal tabs, protein chips, quick chips (Quick · Classics · Add-ons · My list · Global · Air fryer), filter sheet with live counts, Leave out, sort; desserts and sauces always last | Home | J1, J2, J3, J4 |
 | Search by dish or ingredient, Hindi/Hinglish names, small typos | Home | J3 |
 | Dish versions ("6 versions", Other versions) | Home, recipe | J2 |
 | Recipe page: macros, Watch video, ingredients with ticks, steps, Tried it (Like / Dislike), My notes | Recipe | J1, J5 |
@@ -117,7 +117,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 
 1. Tap **Global**. **See:** fusion / non-Indian dishes (Moong Dal Veg Pizza, High Protein Pasta, Nachos with Cheesy Paneer Dip, Tempeh Avocado Toast…).
 2. Combine with a protein chip (e.g. **Tempeh**). **See:** the list narrows; the summary line shows both.
-3. The other way round, familiar food: search **classic**. **See:** everyday dishes made high-protein (Soya Poha, Protein Upma, Moong Dal Broccoli Idli, Soya Peas Methi Thepla, High-Protein Rajma Chawal Bowl…). Search **add on**. **See:** small protein sides (Low Fat Paneer Pepper Fry, Paneer Kali Mirch, Garlic Chilli Soybean…). Until Track A ships the Classics / Add-ons filters (V2-2), search is the only way in.
+3. The other way round, familiar food: clear filters and tap **Classics**. **See:** everyday dishes made high-protein (Soya Poha, Protein Upma, Moong Dal Broccoli Idli, Soya Peas Methi Thepla, High-Protein Rajma Chawal Bowl…) and "Classics — N dishes". Open one: a **Classic** chip under the title. Tap **Classics** off and **Add-ons** on. **See:** small protein sides (Low Fat Paneer Pepper Fry, Paneer Kali Mirch, Garlic Chilli Soybean…). Searching **classic** or **add on** finds the same recipes.
 
 **Feedback J4**
 - Anything tagged Classic or Add-on that isn't, or missing from the list?

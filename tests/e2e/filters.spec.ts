@@ -123,6 +123,19 @@ test.describe('phone', () => {
   });
 });
 
+test('Classics and Add-ons quick chips filter by tag', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Classics' }).click();
+  await expect(tiles(page)).toHaveCount(1);
+  await expect(page.locator('.summary')).toContainText('Classics — 1 dish');
+  await page.screenshot({ path: 'test-results/screens/classics-390-light.png' });
+  await page.getByRole('button', { name: 'Classics' }).click();
+  await page.getByRole('button', { name: 'Add-ons' }).click();
+  await expect(tiles(page)).toHaveCount(1);
+  await expect(page.locator('.summary')).toContainText('Add-ons — 1 dish');
+});
+
 test('Leave out: hides a protein, swaps with Main protein, shows in the summary', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');

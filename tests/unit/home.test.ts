@@ -34,6 +34,12 @@ describe('filterRecipes', () => {
     expect(ids(filterRecipes(recipes, { ...NO_FILTERS, meal: 'snack', proteins: ['soya'], quick: ['airFryer'] }))).toEqual(['soya-paneer-tikki', 'soya-pea-kebab']);
   });
 
+  it('Classics and Add-ons match the classic / add_on tags', () => {
+    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['classic'] }))).toEqual(['rajma-rice-bowl']);
+    expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['addOn'] }))).toEqual(['lasooni-dhaniya-paneer']);
+    expect(summaryParts({ ...NO_FILTERS, quick: ['classic', 'addOn'] })).toEqual(['Classics', 'Add-ons']);
+  });
+
   it('My list uses the ids passed in', () => {
     const p = { ...NO_PERSONAL, myList: new Set(['besan-chilla']) };
     expect(ids(filterRecipes(recipes, { ...NO_FILTERS, quick: ['myList'] }, p))).toEqual(['besan-chilla']);
@@ -64,7 +70,7 @@ describe('dishCount + optionCounts', () => {
     expect(c.proteins).toEqual({ other: 0, paneer: 1, soya: 1, pulses: 1, tofu: 0, tempeh: 0, whey: 0 });
     expect(c.dishTypes.kebab_tikki_cutlet).toBe(1);
     expect(c.dishTypes.salad_bowl).toBe(0);
-    expect(c.quick).toEqual({ quick: 0, myList: 0, global: 0, airFryer: 1 });
+    expect(c.quick).toEqual({ quick: 0, classic: 0, addOn: 0, myList: 0, global: 0, airFryer: 1 });
   });
 });
 

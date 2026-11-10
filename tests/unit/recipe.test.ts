@@ -60,6 +60,11 @@ describe('tagChips', () => {
     expect(tagChips(byId('tempeh-chilli-noodles'))).toEqual(['Pasta / noodles', 'Lunch · Dinner', 'Global']);
     expect(tagChips(byId('besan-chilla'))).toEqual(['Chilla / pancake', 'Breakfast · Snack', 'Quick']);
   });
+
+  it('classic and add-on', () => {
+    expect(tagChips(byId('rajma-rice-bowl')).at(-1)).toBe('Classic');
+    expect(tagChips(byId('lasooni-dhaniya-paneer')).at(-1)).toBe('Add-on');
+  });
 });
 
 describe('macroFootnote', () => {

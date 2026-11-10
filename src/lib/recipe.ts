@@ -62,7 +62,7 @@ export function versionLine(r: Recipe, versions: Recipe[]): string | null {
   return `${groupTitle(r.dish_group!)} · version ${versions.indexOf(r) + 1} of ${versions.length}`;
 }
 
-/** Chips under the title (after the protein chip): dish types, meals, air fryer, quick, global. */
+/** Chips under the title (after the protein chip): dish types, meals, air fryer, quick, global, classic, add-on. */
 export function tagChips(r: Recipe): string[] {
   const chips = r.tags
     .filter((t): t is DishType => (DISH_TYPES as readonly string[]).includes(t))
@@ -73,6 +73,8 @@ export function tagChips(r: Recipe): string[] {
   if (r.tags.includes('air_fryer_optional')) chips.push('Air fryer · optional');
   if (r.tags.includes('quick')) chips.push('Quick');
   if (r.tags.includes('global')) chips.push('Global');
+  if (r.tags.includes('classic')) chips.push('Classic');
+  if (r.tags.includes('add_on')) chips.push('Add-on');
   return chips;
 }
 
