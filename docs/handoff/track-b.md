@@ -8,6 +8,7 @@ _Last updated: 2026-11-10 (B8 Classic and Add-on tags)_
 - Rules in `docs/ADD-RECIPES.md` step 4 + Automated mode step 6/9, and in `prompts/add-recipes.md` §5 (the Add screen's Copy prompt and the inbox both read it).
 - "desi" removed everywhere (ghee alias, a data-test caption). Rule: never write that word.
 - B7 (recipe inbox) row set to done: PR 33 merged; first real batch B001 merged in PR 35.
+- Scheduled task "recipe inbox" (`trig_0134ycguz44pck7shDVZnZ6V`): removed the stale "read the runbook from the B7 branch" fallback (PR 34 merged); it reads `docs/ADD-RECIPES.md` on main, so the tag rules reach it once this merges. Run on demand: claude.ai → scheduled tasks → *Run now*, or ask any session to fire it.
 
 **Next:**
 - **Track A row V2-2 (Classics and Add-ons filters) can start once this PR merges.** Tag ids: `classic`, `add_on`. Today they only work through search ("classic", "add on").
