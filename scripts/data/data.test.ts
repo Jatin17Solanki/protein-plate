@@ -80,7 +80,7 @@ describe('parseBatch', () => {
     expect(entries[2].label).toBe('Link only');
   });
   it('keeps long comma-heavy method lines but drops keyword lists', () => {
-    const text = 'https://www.instagram.com/p/X1/\nDish\nAdd the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.\nquick dinner, high protein, veg recipes, easy meals, desi food\n';
+    const text = 'https://www.instagram.com/p/X1/\nDish\nAdd the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.\nquick dinner, high protein, veg recipes, easy meals, indian food\n';
     expect(parseBatch(text)[0].content).toEqual(['Dish', 'Add the puree along with turmeric, chilli powder, masala, cumin powder, garam masala, and salt. Cook well.']);
   });
   it('reads structured batches: ID/URL/Creator lines and ____ separators', () => {

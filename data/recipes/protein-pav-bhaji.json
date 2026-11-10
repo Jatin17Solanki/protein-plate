@@ -25,7 +25,9 @@
   "supporting_proteins": [
     "moong_dal_yellow"
   ],
-  "tags": [],
+  "tags": [
+    "classic"
+  ],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {

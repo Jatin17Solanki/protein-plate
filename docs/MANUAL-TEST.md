@@ -117,8 +117,10 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 
 1. Tap **Global**. **See:** fusion / non-Indian dishes (Moong Dal Veg Pizza, High Protein Pasta, Nachos with Cheesy Paneer Dip, Tempeh Avocado Toast…).
 2. Combine with a protein chip (e.g. **Tempeh**). **See:** the list narrows; the summary line shows both.
+3. The other way round, familiar food: search **classic**. **See:** everyday dishes made high-protein (Soya Poha, Protein Upma, Moong Dal Broccoli Idli, Soya Peas Methi Thepla, High-Protein Rajma Chawal Bowl…). Search **add on**. **See:** small protein sides (Low Fat Paneer Pepper Fry, Paneer Kali Mirch, Garlic Chilli Soybean…). Until Track A ships the Classics / Add-ons filters (V2-2), search is the only way in.
 
 **Feedback J4**
+- Anything tagged Classic or Add-on that isn't, or missing from the list?
 - Do these feel "different" to you? Anything tagged Global that isn't, or the other way round?
 >
 

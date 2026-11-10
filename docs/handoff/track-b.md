@@ -1,39 +1,36 @@
 # Track B handoff — Data
 
-_Last updated: 2026-11-02 (B7 automated recipe inbox set up)_
+_Last updated: 2026-11-10 (B8 Classic and Add-on tags)_
 
-**State:** B1–B6 are done and merged. The catalog has 353 recipes in all: 260 shown, plus 93 archived (`archived: {reason}`: hidden everywhere except their own page and `/archive/`). **0 flagged.**
-- Every raw file is on the private repo's `main`; `fidelity.ts` passes 352/352. The 353rd, protein-oats-smoothie, is Jatin's own recipe with `ref: null`, which fidelity skips.
-- Decisions are in `docs/review-log.md` (batch 1) and `docs/DECISIONS.md`.
-
-**Rules in force:**
-- Steps = the creator's exact words, formatting only (`fidelity.ts` enforces it).
-- Numbers = the creator's, or ones Jatin read from the video. For Jatin's own recipes, numbers worked out from pack labels when he asks, and the basis says so.
-- Servings: one portion unless the caption says otherwise (Jatin, B3). Whole-dish numbers stay on the recipe page only.
-- `estimated_macros`: only when Jatin asks; recipe page only, with a warning.
-- `flags[]` / `accepted_flags`: `check.ts --write` sets the auto flags. Sauces/dips never get `no_macros`; video-only recipes only get `no_main_protein`.
-- `main_proteins` can be `other`. A hand-set main protein is kept when the 35 % rule finds none.
-- Never put anyone's name in recipe data the app shows.
+**Done this session (B8, asked as "B7"; B7 is the recipe inbox):**
+- Schema: tag enum + `classic`, `add_on` (Jatin allowed this one Track B schema edit); `npm run gen:types` regenerated `src/types/recipe.ts`.
+- Live catalog tagged (269 live recipes, archived untouched): **30 `classic`, 7 `add_on`**, appended after the other tags (never the tile icon). Lists + borderline cases in the PR for Jatin.
+- Rules in `docs/ADD-RECIPES.md` step 4 + Automated mode step 6/9, and in `prompts/add-recipes.md` §5 (the Add screen's Copy prompt and the inbox both read it).
+- "desi" removed everywhere (ghee alias, a data-test caption). Rule: never write that word.
+- B7 (recipe inbox) row set to done: PR 33 merged; first real batch B001 merged in PR 35.
+- Scheduled task "recipe inbox" (`trig_0134ycguz44pck7shDVZnZ6V`): removed the stale "read the runbook from the B7 branch" fallback (PR 34 merged); it reads `docs/ADD-RECIPES.md` on main, so the tag rules reach it once this merges. Run on demand: claude.ai → scheduled tasks → *Run now*, or ask any session to fire it.
 
 **Next:**
-- New batches arrive by email from Instinct; the scheduled task "Protein Plate — recipe inbox" (every 3 days, or *Run now*) follows `docs/ADD-RECIPES.md` → Automated mode and keeps one rolling PR on `auto/recipe-inbox`. By hand still works: a session with both repos + "Add these recipes … follow docs/ADD-RECIPES.md".
-- B7 open: no real Instinct email yet; check the first automated PR closely. Open for Jatin: who confirms the batch back to Instinct.
-- **Open for Jatin:**
-  - a protein-per-100 g figure for "high-protein yogurt" (many batch-2 recipes have `ingredient_id: null`);
-  - whether he wants a "fun to try" tag (needs a Track A schema change).
-- **Prompts:**
-  - `prompts/ask-catalog.md` is wired into Export (BL5).
-  - Track A's `tests/unit/export.test.ts` checks its field-guide line against `compactCatalog()`. Reword that line → update the test.
+- **Track A row V2-2 (Classics and Add-ons filters) can start once this PR merges.** Tag ids: `classic`, `add_on`. Today they only work through search ("classic", "add on").
+- Apply Jatin's verdicts on the borderline list (add/remove the tag, log in `docs/DECISIONS.md`).
+
+**State:** 362 recipes: 269 shown, 93 archived. 0 flagged except the inbox's own. Fidelity 361/361 (protein-oats-smoothie has no raw ref).
+
+**Rules in force:**
+- Steps = the creator's exact words (`fidelity.ts`). Numbers = the creator's only; `estimated_macros` only when Jatin asks.
+- Servings: one portion unless the caption says otherwise. Whole-dish numbers stay on the recipe page.
+- `classic`: everyday Indian dish + added/swapped protein; not when the protein is the dish's own (shahi paneer, chole, moong chilla), not fusion, sandwiches, wraps, sweets. `add_on`: small protein side for a plain meal; not full meals, gravies or sauces alone. Unsure → leave off, list it.
+- Never put anyone's name in recipe data the app shows.
 
 **Gotchas:**
-- Automated runs never edit TRACKER/handoff; the inbox task adds one line per batch to `docs/review-log.md`; the separate "raw archive" task (scheduled tasks take one repo each) saves the email to the private repo + `inbox-log.md`. Tidy TRACKER in a human-run session.
-- Raw entry N = the Nth line with a link (or an `ID:/URL:` block in structured batches). New text goes in new batch files; never append to old ones.
-- Merge the private repo's branch into its `main` too, or the next session can't check fidelity (it happened twice).
-- "Recipe by @x" = original creator.
-- Batch-2 working files are in the private repo `tools/b3-gen/`. Don't re-run them: edits after conversion went into the JSON directly.
-- Aliases: avoid bare generic words ("moong", "methi", "yogurt", "cloves"). Plurals need their own alias.
-- Validate warns on 5 dips/spreads that keep a snack meal (Jatin's notes); leave them.
+- Automated inbox runs never edit TRACKER/handoff; tidy them in a human-run session.
+- Raw entry N = the Nth line with a link (or an `ID:/URL:` block). New text goes in new batch files.
+- Merge the private repo's branch into its `main`, or the next session can't run fidelity.
+- Aliases: avoid bare generic words ("moong", "methi", "yogurt"). Plurals need their own alias.
+- Validate warns on dips/spreads that keep a meal type (Jatin's notes); leave them.
 - PR numbers are shared by both tracks. `docs/DECISIONS.md` conflicts often; keep both sides.
 - After every push, check mergeability with `pull_request_read`.
 
-**Coordination:** the Track A session is "Dev 2 - phase A" (`session_01Qwkn8yZAbjE228CGzZT6xB`), reached with `send_message`. Its backlog is BL3 (README) and BL4 (feedback; needs Jatin's email).
+**Open for Jatin:** borderline Classic/Add-on list (PR); a protein-per-100 g figure for "high-protein yogurt"; whether he wants a "fun to try" tag.
+
+**Coordination:** Track A session "Dev 2 - phase A" (`session_01Qwkn8yZAbjE228CGzZT6xB`), via `send_message`.

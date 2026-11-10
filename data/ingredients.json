@@ -30,7 +30,7 @@
 {"id":"mozzarella","name":"mozzarella","aliases":["mozzarella","mozzarella cheese","mozerella","mozerlla cheese","mozerella cheese"],"type":"dairy","protein_per_100g":22,"kcal_per_100g":300,"basis":"as_sold","main_protein":null},
 {"id":"cream","name":"fresh cream","aliases":["fresh cream","cream","malai"],"type":"dairy","protein_per_100g":2.5,"kcal_per_100g":250,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":15}},
 {"id":"butter","name":"butter","aliases":["butter","makhan"],"type":"dairy","protein_per_100g":0.9,"kcal_per_100g":720,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":5,"tbsp":14}},
-{"id":"ghee","name":"ghee","aliases":["ghee","desi ghee"],"type":"dairy","protein_per_100g":0,"kcal_per_100g":900,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":5,"tbsp":13}},
+{"id":"ghee","name":"ghee","aliases":["ghee"],"type":"dairy","protein_per_100g":0,"kcal_per_100g":900,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":5,"tbsp":13}},
 {"id":"rice_flour","name":"rice flour","aliases":["rice flour","chawal ka atta"],"type":"grain","protein_per_100g":6,"kcal_per_100g":360,"basis":"dry","main_protein":null,"unit_grams":{"tsp":3,"tbsp":10,"cup":160}},
 {"id":"corn_flour","name":"corn flour (cornstarch)","aliases":["corn flour","cornflour","cornstarch","corn starch"],"type":"grain","protein_per_100g":0.3,"kcal_per_100g":380,"basis":"dry","main_protein":null,"unit_grams":{"tsp":3,"tbsp":8}},
 {"id":"sooji","name":"semolina (sooji)","aliases":["sooji","suji","semolina","rava"],"type":"grain","protein_per_100g":10.4,"kcal_per_100g":350,"basis":"dry","main_protein":null,"unit_grams":{"tbsp":10,"cup":165}},

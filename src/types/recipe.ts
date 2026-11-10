@@ -110,7 +110,9 @@ export type Tag =
   | 'global'
   | 'quick'
   | 'air_fryer_required'
-  | 'air_fryer_optional';
+  | 'air_fryer_optional'
+  | 'classic'
+  | 'add_on';
 export type NullableAmount = number | null;
 
 export interface Source {
