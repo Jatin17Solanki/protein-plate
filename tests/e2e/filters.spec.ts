@@ -19,7 +19,7 @@ for (const theme of ['light', 'dark'] as const) {
         await expect(sheet.getByRole('button', { name: /^Show 2 dishes$/ })).toBeVisible();
       } else {
         await expect(page.getByRole('complementary', { name: 'Filters' })).toBeVisible();
-        await page.getByRole('checkbox', { name: /Soya/ }).check();
+        await page.getByRole('checkbox', { name: /^Soya/ }).check();
         await expect(page.locator('.summary')).toContainText('Soya — 2 dishes');
       }
       expect(await overflowOffenders(page)).toEqual([]);
@@ -123,15 +123,30 @@ test.describe('phone', () => {
   });
 });
 
+test('Leave out: hides a protein, swaps with Main protein, shows in the summary', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Open filters' }).click();
+  const sheet = page.getByRole('dialog', { name: 'Filters' });
+  await sheet.getByRole('button', { name: /^Paneer/ }).click();
+  await sheet.getByRole('button', { name: 'Leave out Paneer' }).click();
+  await expect(sheet.getByRole('button', { name: /^Paneer/ })).toHaveAttribute('aria-pressed', 'false');
+  await expect(sheet.getByRole('button', { name: 'Leave out Paneer' })).toHaveAttribute('aria-pressed', 'true');
+  await page.screenshot({ path: 'test-results/screens/leave-out-390-light.png' });
+  await sheet.getByRole('button', { name: /^Show \d+ dishes$/ }).click();
+  await expect(page.locator('.summary')).toContainText('Not Paneer');
+  await expect(page.getByRole('link', { name: /Paneer Tikka Wrap/ })).toHaveCount(0);
+});
+
 test('desktop sidebar applies immediately and hides the protein chips', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto('/');
   await expect(page.getByRole('button', { name: 'Open filters' })).toBeHidden();
   await expect(page.locator('.protein-row')).toBeHidden();
   const sidebar = page.getByRole('complementary', { name: 'Filters' });
-  await sidebar.getByRole('checkbox', { name: /Tempeh/ }).check();
+  await sidebar.getByRole('checkbox', { name: /^Tempeh/ }).check();
   await expect(tiles(page)).toHaveCount(1);
-  await expect(sidebar.getByRole('checkbox', { name: /Whey/ })).toBeEnabled();
+  await expect(sidebar.getByRole('checkbox', { name: /^Whey/ })).toBeEnabled();
   await sidebar.getByRole('button', { name: 'Clear all' }).click();
   await expect(tiles(page)).toHaveCount(9);
 });

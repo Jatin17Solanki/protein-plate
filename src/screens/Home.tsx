@@ -1,7 +1,8 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { recipes } from '../lib/catalog';
 import {
-  bestRelaxation, filterRecipes, MEALS, NO_FILTERS, PROTEINS, QUICK, summaryParts, toTiles, type Filters, type Personal,
+  bestRelaxation, filterRecipes, MEALS, NO_FILTERS, pickProtein, picksExtras, PROTEINS, QUICK, summaryParts, toTiles, type Filters,
+  type Personal,
 } from '../lib/home';
 import { Searcher } from '../lib/search';
 import { synonymGroups } from '../lib/synonyms';
@@ -53,7 +54,7 @@ export function Home() {
   const hits = useMemo(() => (q ? getSearcher().search(q) : undefined), [q]);
   const candidates = useMemo(() => (hits ? recipes.filter((r) => hits.has(r.id)) : recipes), [hits]);
   const tiles = useMemo(
-    () => toTiles(filterRecipes(candidates, filters, personal), filters.sort, hits),
+    () => toTiles(filterRecipes(candidates, filters, personal), filters.sort, hits, picksExtras(filters)),
     [candidates, filters, personal, hits],
   );
   const parts = summaryParts(filters);
@@ -136,7 +137,7 @@ export function Home() {
               <div class="chip-row protein-row" role="group" aria-label="Main protein">
                 {PROTEINS.map((p) => (
                   <button key={p.key} type="button" class="protein-chip" data-tint={p.key} aria-pressed={filters.proteins.includes(p.key)}
-                    onClick={() => setFilters({ ...filters, proteins: toggle(filters.proteins, p.key) })}>
+                    onClick={() => setFilters(pickProtein(filters, p.key))}>
                     <span class="dot" />{p.label}
                   </button>
                 ))}

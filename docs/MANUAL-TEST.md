@@ -37,7 +37,7 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 | Feature | Where | Journey |
 |---|---|---|
 | Home grid: protein number, dish icon, colour by main protein | Home | J1 |
-| Meal tabs, protein chips, quick chips (Quick · My list · Global · Air fryer), filter sheet with live counts, sort | Home | J1, J2, J3 |
+| Meal tabs, protein chips, quick chips (Quick · My list · Global · Air fryer), filter sheet with live counts, Leave out, sort; desserts and sauces always last | Home | J1, J2, J3 |
 | Search by dish or ingredient, Hindi/Hinglish names, small typos | Home | J3 |
 | Dish versions ("6 versions", Other versions) | Home, recipe | J2 |
 | Recipe page: macros, Watch video, ingredients with ticks, steps, Tried it (Like / Dislike), My notes | Recipe | J1, J5 |
@@ -78,12 +78,14 @@ For anything that surprises you, write one line, in the journey's **Feedback** b
 *Yesterday was paneer. Today you want another protein, or paneer in a completely different form.*  ·  iC, D
 
 1. Tap **Soya** then **Pulses**. **See:** dishes with soya **or** pulses; a line like "Soya or Pulses — N dishes" with **Clear**.
-2. Tap the filter button (sliders). **See:** a sheet with Main protein, Dish type (8 + "Show all 13 types"), quick picks, "Show disliked recipes", Sort. Every option shows how many dishes you'd get; options that would give 0 are dimmed.
+2. Tap the filter button (sliders). **See:** a sheet with Main protein, Leave out, Dish type (8 + "Show all 13 types", one of them **Sabzi**), quick picks, "Show disliked recipes", Sort. Every option shows how many dishes you'd get; options that would give 0 are dimmed.
 3. Pick a dish type, e.g. **Kebab / tikki**. Tap **Show N dishes**. **See:** the filter button turns green with a count badge.
 4. Find the **Soya kebab** tile with "6 versions". Open it. **See:** "Soya kebab · version 1 of 6" at the top, and **Other versions** cards (with peas, with corn & cheese, galouti bowl…). Tap one: that version opens.
 5. Back on Home, try **Paneer** only, then sort **Calories low → high** in the sheet. **See:** the order changes.
 6. Filter down to nothing (e.g. **Tempeh** + **Dessert**). **See:** an empty state that offers to remove the narrowest filter ("Remove … · N dishes") or **Clear all filters**; both work.
-7. Laptop, full width: **See:** filters as a left sidebar with checkboxes and counts, no filter button. At ~800 px: 3 columns, header in one row.
+7. Laptop, full width: **See:** filters as a left sidebar with checkboxes and counts (Main protein, Leave out, Dish type), no filter button. At ~800 px: 3 columns, header in one row.
+8. Clear all. Filter sheet → **Leave out → Paneer** → Show. **See:** "Not Paneer — N dishes"; no paneer dish in the grid. Now tap **Paneer** under Main protein: it moves there and Leave out → Paneer turns off (a protein can't be both).
+9. Clear all. Tap **Snack**, scroll to the end. **See:** desserts (cheesecakes, rice cakes…) and dips come **after** every savoury snack. Filter sheet → Dish type → **Dessert**. **See:** only desserts, highest protein first.
 
 **Feedback J2**
 - Did "different protein" or "different form" feel easy to find?

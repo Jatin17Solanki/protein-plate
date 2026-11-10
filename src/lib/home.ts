@@ -42,7 +42,7 @@ export const DISH_LABELS: Record<DishType, { short: string; long: string }> = {
   wrap_roll_taco: { short: 'Wrap', long: 'Wrap / roll' },
   kebab_tikki_cutlet: { short: 'Kebab', long: 'Kebab / tikki' },
   chilla_pancake_omelette: { short: 'Chilla', long: 'Chilla / pancake' },
-  curry_sabzi: { short: 'Curry', long: 'Curry' },
+  curry_sabzi: { short: 'Sabzi', long: 'Sabzi' },
   rice_pulao_biryani: { short: 'Rice', long: 'Rice' },
   pasta_noodles: { short: 'Pasta', long: 'Pasta / noodles' },
   chaat: { short: 'Chaat', long: 'Chaat' },
@@ -52,18 +52,24 @@ export const DISH_LABELS: Record<DishType, { short: string; long: string }> = {
   sauce_dip: { short: 'Sauce', long: 'Sauce / dip' },
 };
 
+/** Extras, not meals: sorted to the bottom of every list unless the user picks one of these types (Jatin, 2026-11-10). */
+export const EXTRA_TYPES: readonly DishType[] = ['dessert', 'sauce_dip'];
+const isExtra = (r: Recipe) => r.tags.some((t) => (EXTRA_TYPES as readonly string[]).includes(t));
+
 export type SortKey = 'protein' | 'kcal';
 
 export interface Filters {
   meal: MealType | 'all';
   proteins: MainProtein[];
+  /** "Leave out": recipes with any of these main proteins are hidden (e.g. had paneer at lunch). */
+  skipProteins: MainProtein[];
   dishTypes: DishType[];
   quick: QuickKey[];
   showDisliked: boolean;
   sort: SortKey;
 }
 
-export const NO_FILTERS: Filters = { meal: 'all', proteins: [], dishTypes: [], quick: [], showDisliked: false, sort: 'protein' };
+export const NO_FILTERS: Filters = { meal: 'all', proteins: [], skipProteins: [], dishTypes: [], quick: [], showDisliked: false, sort: 'protein' };
 
 /** Personal data that affects filtering (from browser storage). */
 export interface Personal {
@@ -104,6 +110,8 @@ export interface Tile {
   nameMatch: boolean;
   /** No written recipe: the video is the recipe (shows a "Video only" badge). */
   videoOnly: boolean;
+  /** Dessert or sauce: sorted after the meals. */
+  extra: boolean;
   sortProtein: number | null;
   sortKcal: number | null;
 }
@@ -148,11 +156,22 @@ function matchesQuick(r: Recipe, q: QuickKey, p: Personal): boolean {
   }
 }
 
+const flip = <T,>(list: T[], item: T): T[] => (list.includes(item) ? list.filter((x) => x !== item) : [...list, item]);
+
+/** Tap a protein under "Main protein": toggles it there and takes it out of "Leave out" (a protein can't be both). */
+export const pickProtein = (f: Filters, p: MainProtein): Filters =>
+  ({ ...f, proteins: flip(f.proteins, p), skipProteins: f.skipProteins.filter((x) => x !== p) });
+
+/** Tap a protein under "Leave out": toggles it there and takes it out of "Main protein". */
+export const skipProtein = (f: Filters, p: MainProtein): Filters =>
+  ({ ...f, skipProteins: flip(f.skipProteins, p), proteins: f.proteins.filter((x) => x !== p) });
+
 export function matches(r: Recipe, f: Filters, p: Personal = NO_PERSONAL): boolean {
   return (
     (f.showDisliked || !p.disliked.has(r.id)) &&
     (f.meal === 'all' || r.meal_types.values.includes(f.meal)) &&
     (f.proteins.length === 0 || r.main_proteins.some((x) => f.proteins.includes(x))) &&
+    !r.main_proteins.some((x) => f.skipProteins.includes(x)) &&
     (f.dishTypes.length === 0 || r.tags.some((t) => (f.dishTypes as string[]).includes(t))) &&
     f.quick.every((q) => matchesQuick(r, q, p))
   );
@@ -175,18 +194,29 @@ export function dishCount(recipes: Recipe[]): number {
 
 export interface OptionCounts {
   proteins: Record<MainProtein, number>;
+  skipProteins: Record<MainProtein, number>;
   dishTypes: Record<DishType, number>;
   quick: Record<QuickKey, number>;
 }
 
 /**
  * Live counts beside each option (DESIGN §4 row 3). Proteins and dish types (OR groups): dishes matching that
- * option with every other group as is. Quick picks (AND): dishes you'd get with that pick added.
+ * option with every other group as is. Quick picks (AND) and Leave out: dishes you'd get with that choice added.
  */
 export function optionCounts(recipes: Recipe[], f: Filters, p: Personal = NO_PERSONAL): OptionCounts {
   const count = (g: Filters) => dishCount(filterRecipes(recipes, g, p));
   return {
-    proteins: Object.fromEntries(PROTEINS.map(({ key }) => [key, count({ ...f, proteins: [key] })])) as OptionCounts['proteins'],
+    // A tap moves a protein between "Main protein" and "Leave out", so each count assumes it's gone from the other.
+    proteins: Object.fromEntries(
+      PROTEINS.map(({ key }) => [key, count({ ...f, proteins: [key], skipProteins: f.skipProteins.filter((x) => x !== key) })]),
+    ) as OptionCounts['proteins'],
+    skipProteins: Object.fromEntries(
+      PROTEINS.map(({ key }) => [key, count({
+        ...f,
+        proteins: f.proteins.filter((x) => x !== key),
+        skipProteins: f.skipProteins.includes(key) ? f.skipProteins : [...f.skipProteins, key],
+      })]),
+    ) as OptionCounts['skipProteins'],
     dishTypes: Object.fromEntries(DISH_TYPES.map((d) => [d, count({ ...f, dishTypes: [d] })])) as OptionCounts['dishTypes'],
     quick: Object.fromEntries(
       QUICK.map(({ key }) => [key, count({ ...f, quick: f.quick.includes(key) ? f.quick : [...f.quick, key] })]),
@@ -235,6 +265,7 @@ function singleTile(r: Recipe, hit?: Hit): Tile {
     uses: hit && !hit.nameMatch ? hit.uses : null,
     nameMatch: hit?.nameMatch ?? false,
     videoOnly: !!r.video_only,
+    extra: isExtra(r),
     sortProtein: p,
     sortKcal: r.status === 'incomplete' ? null : k,
   };
@@ -261,6 +292,7 @@ function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): 
     uses: nameMatch ? null : (groupHits.find((h) => h.uses)?.uses ?? null),
     nameMatch,
     videoOnly: false,
+    extra: isExtra(lead),
     sortProtein: low,
     sortKcal: avgKcal,
   };
@@ -268,9 +300,10 @@ function groupTile(group: string, versions: Recipe[], hits?: Map<string, Hit>): 
 
 /**
  * One tile per recipe, except versions of a dish group (among the given recipes) share one tile.
- * With search hits, name matches come first (DESIGN §6); then the chosen sort; unknown values last.
+ * With search hits, name matches come first (DESIGN §6); then meals before extras (desserts, sauces), unless
+ * `extrasFirst` (the user picked an extra type); then the chosen sort; unknown values last.
  */
-export function toTiles(recipes: Recipe[], sort: SortKey = 'protein', hits?: Map<string, Hit>): Tile[] {
+export function toTiles(recipes: Recipe[], sort: SortKey = 'protein', hits?: Map<string, Hit>, extrasFirst = false): Tile[] {
   const groups = new Map<string, Recipe[]>();
   const tiles: Tile[] = [];
   for (const r of recipes) {
@@ -285,15 +318,23 @@ export function toTiles(recipes: Recipe[], sort: SortKey = 'protein', hits?: Map
       ? tier(a) - tier(b) || (b.sortProtein ?? -1) - (a.sortProtein ?? -1)
       : (a.sortKcal ?? Infinity) - (b.sortKcal ?? Infinity);
   return tiles.sort(
-    (a, b) => (hits ? Number(b.nameMatch) - Number(a.nameMatch) : 0) || bySort(a, b) || a.title.localeCompare(b.title),
+    (a, b) =>
+      (hits ? Number(b.nameMatch) - Number(a.nameMatch) : 0) ||
+      (extrasFirst ? 0 : Number(a.extra) - Number(b.extra)) ||
+      bySort(a, b) ||
+      a.title.localeCompare(b.title),
   );
 }
 
-/** "Dinner", "Paneer or Soya", "Sandwich or Wrap", "Quick", "Air fryer", "incl. disliked" — one per active choice. */
+/** The user asked for desserts or sauces, so they keep their normal place in the sort. */
+export const picksExtras = (f: Filters): boolean => f.dishTypes.some((d) => EXTRA_TYPES.includes(d));
+
+/** "Dinner", "Paneer or Soya", "Not Paneer", "Sandwich or Wrap", "Quick", "Air fryer", "incl. disliked" — one per active choice. */
 export function summaryParts(f: Filters): string[] {
   const parts: string[] = [];
   if (f.meal !== 'all') parts.push(MEALS.find((m) => m.key === f.meal)!.label);
   if (f.proteins.length) parts.push(PROTEINS.filter((p) => f.proteins.includes(p.key)).map((p) => p.label).join(' or '));
+  if (f.skipProteins.length) parts.push(`Not ${PROTEINS.filter((p) => f.skipProteins.includes(p.key)).map((p) => p.label).join(' or ')}`);
   if (f.dishTypes.length) parts.push(DISH_TYPES.filter((d) => f.dishTypes.includes(d)).map((d) => DISH_LABELS[d].short).join(' or '));
   for (const q of QUICK) if (f.quick.includes(q.key)) parts.push(q.label);
   if (f.showDisliked) parts.push('incl. disliked');
@@ -319,6 +360,7 @@ export function bestRelaxation(recipes: Recipe[], f: Filters, p: Personal = NO_P
   const options: { label: string; filters: Filters }[] = [];
   if (f.meal !== 'all') options.push({ label: MEALS.find((m) => m.key === f.meal)!.label, filters: { ...f, meal: 'all' } });
   if (f.proteins.length) options.push({ label: summaryParts({ ...NO_FILTERS, proteins: f.proteins })[0], filters: { ...f, proteins: [] } });
+  if (f.skipProteins.length) options.push({ label: summaryParts({ ...NO_FILTERS, skipProteins: f.skipProteins })[0], filters: { ...f, skipProteins: [] } });
   if (f.dishTypes.length) options.push({ label: summaryParts({ ...NO_FILTERS, dishTypes: f.dishTypes })[0], filters: { ...f, dishTypes: [] } });
   for (const q of QUICK) {
     if (f.quick.includes(q.key)) options.push({ label: q.label, filters: { ...f, quick: f.quick.filter((x) => x !== q.key) } });

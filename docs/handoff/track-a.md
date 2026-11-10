@@ -1,33 +1,30 @@
 # Track A handoff — App
 
-_Last updated: 2026-10-22 (BL7 session)_
+_Last updated: 2026-11-10 (V2-1 session)_
 
-**Done (BL7, PR open):** Menu → "About Protein Plate" (last item, below Appearance) → `https://github.com/{owner}/{repo}#readme` in a new tab (`REPO_README` in `MenuSheet.tsx`, from `site.config.json`). `.menu-item` now also styles an `<a>` (`text-decoration: none`). e2e: `sheets.spec.ts` "menu: About…". Manual test J13 step 5.
+**Direction change (DECISIONS 2026-11-10):** v2 is a better catalog, not a meal planner. No plan/rotation/cook/household features. TRACKER rows V2-1 to V2-3.
 
-**BL6 (by Track B, PR 25):** optional `archived: {reason}` in the schema (types regenerated). `src/lib/catalog.ts` now exports `allRecipes` (recipe pages, Add recipes duplicate check and prompt index), `recipes` (main catalog: Home, search, My recipes, Review, Export) and `archivedRecipes`. New hidden `/archive/` page (`src/screens/Archive.tsx`, `src/lib/archive.ts`), an "Archived" note on archived recipe pages, `archive/` static page; `catalog.txt` and home counts use the main catalog. Fixture: `tests/fixtures/archived/` (own folder so unit-test fixture counts stay 10). Tests: `tests/unit/archive.test.ts`, `tests/e2e/archive.spec.ts`, a11y states.
+**Done (V2-1, PR open):**
+- Desserts and sauces are "extras": `EXTRA_TYPES`, `Tile.extra`, and `toTiles(…, extrasFirst)` in `src/lib/home.ts`. Sort order = search name matches → meals before extras → chosen sort → title. `picksExtras(filters)` (Dessert or Sauce picked) turns the demotion off; Home passes it. Real catalog: All = first extra at tile 209 of 261; Snack 61 of 102.
+- **Leave out** a main protein: `Filters.skipProteins`, `pickProtein` / `skipProtein` (a protein is either picked or left out), `optionCounts().skipProteins` (counts assume the swap, so a picked protein's Leave out chip stays enabled), summary "Not Paneer or Soya", offered by `bestRelaxation`. UI: a "Leave out" section in `FilterSheet` (pick-chips, `aria-label="Leave out X"`) and a fieldset in `Sidebar`. Home protein chips use `pickProtein`.
+- `DISH_LABELS.curry_sabzi` → "Sabzi" (tag unchanged).
+- Tests: `tests/unit/home.test.ts` (Leave out, extras order); `tests/e2e/filters.spec.ts` (Leave out flow + `leave-out-390-light.png`; sidebar selectors anchored `^Soya` etc. because "Leave out Soya" also matches /Soya/).
+- Docs: TRACKER (BL7 → done, PR 31), DECISIONS, CONTEXT §11 note, MANUAL-TEST J2 steps 8–9, README roadmap.
 
-**Done (BL3 + BL4, merged in PR 28):**
-- BL4: `src/lib/feedback.ts` (pure: `describeDevice`, `feedbackBody`, `mailtoUrl`, `issueUrl`), `src/components/FeedbackSheet.tsx`; Menu → "Send feedback" (Home opens the sheet after closing the menu) and a "Send feedback" link at the bottom of every recipe (`col-c`). `site.config.json` gains `feedback_email` (empty → GitHub only). UI icon `message`. The GitHub `feedback` label only applies if the label exists in the repo and for people who can triage.
-- BL3: README rebuilt after Jatin's review ("text dump"): header + 3 real screenshots, contents, 6-shot feature gallery, journeys table, roadmap table, Mermaid flow, short credits; details in `<details>`. No data-rule or creator commentary in it (those live in DECISIONS). Screenshots: `docs/readme/*.webp`, regenerate with `scripts/readme-shots.ts` (see its header) when the UI changes.
-- README review round 2: no "§", short-label Mermaid (GitHub's font clipped long ones), "why run your own copy", Feedback and ideas section (email), "Use the catalog with any AI" (prompt / catalog.txt / catalog.json + real jq example). Build now also writes `dist/catalog.json` (`catalogFile(recipes, …, null)`, compact; SW denylist covers it).
-- Branch protection: `.github/rulesets/*.json` + README there; Jatin imports them (sessions can't change settings).
-- Tests: `tests/unit/feedback.test.ts`; feedback sheet in the sheets screenshot matrix and the a11y spec; two e2e flows. Manual test J13.
+**Not done:** My recipes keeps the user's own order (no extras demotion there, on purpose).
 
-**Done before:** A1–A8, BL1, BL2, BL5 merged (BL5: Export copies `prompts/ask-catalog.md` via `askPrompt(prompt, …)`) (BL2: whole-dish numbers only on the recipe page, `portionProtein`) (BL1: Others protein, video-only, accepted flags, estimate box) (A8 QA report: `docs/QA.md`; manual plan: `docs/MANUAL-TEST.md`).
+**Next:** V2-2 (Classics + Add-ons filters) once Track B ships the tags. Likely as two more `QUICK` chips (`classic`, `addOn`) matching the tags; check the 320 px chip row still scrolls, not wraps.
 
-**Not done / needs Jatin:** the manual test itself (TRACKER "Jatin's tasks"). The first real Add-recipes commit is still untested (the 8,000-char GitHub link cap, `MAX_URL` in `src/lib/addRecipes.ts`).
-
-**Next:** no backlog item left. Wait for the manual test (`docs/MANUAL-TEST.md`, J1–J12); its feedback log becomes the next fix list after triage. Next Track A work comes from Jatin's results log in `docs/MANUAL-TEST.md` (fix list → new TRACKER rows, e.g. `A9 fixes from manual test`), plus the requests for Track B below.
-
-**Still open for Track B:** nothing from Track A. Keep `prompts/ask-catalog.md`'s field guide in step with `compactCatalog()`.
+**Requests for Track B (Track A can't edit the Track B table):**
+1. Add tags `classic` and `add_on` to the schema enum + data. Rules (Jatin, 2026-11-10): **classic** = an everyday Indian dish a household already eats, made high-protein by adding or swapping a protein source (Soya Poha, Protein Upma, Moong Dal Idli, Soya Methi Thepla, High-Protein Rajma Chawal Bowl). **add_on** = a small protein side that goes with any plain meal (sautéed paneer, tempeh crumbles, soya granules). Never use the word "desi". Add both rules to `docs/ADD-RECIPES.md` so the inbox tags new recipes. List tagged recipes for Jatin to check.
+2. Coverage gaps to watch as batches land: quick + ≤ 300 kcal snacks (2 today), quick soya/tofu/pulses/tempeh options, whey-free breakfasts.
 
 **Gotchas:**
-- Recipe page: put new sections in the right wrapper. `col-a` = top (title, macros, actions, credit), `col-b` = right column, `col-c` = Tried it + notes. Phone order = markup order.
-- Lighthouse locally: `BASE_PATH=/ npx vite preview` (without it the preview serves `/protein-plate/`); `CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx lighthouse@12.8.2 …`. SEO "robots.txt invalid" is a local-preview artefact.
-- Preact 11 runs `useEffect` cleanups **after paint** on unmount. Anything that must happen before the next screen shows (saving a pending note) belongs in `useLayoutEffect`. This made `main` CI red after PR 19/21 (fixed in PR 22).
-- Don't `pkill -f` a pattern that matches your own Bash command line (kills the shell; same for Playwright).
-- `askPrompt` takes the prompt text: the `?raw` import is in `Export.tsx` so `export.ts` stays importable from `vite.config.ts`. Tell Track B if `compactCatalog()`'s line format changes (a unit test guards the prompt's field guide).
-- `src/` imports `scripts/data/lib/{dedupe,raw}.ts`: keep those pure.
-- Lists, cards, share, exports and OG use `portionProtein`; only the recipe page macro card uses `shownProtein`/`shownNumbers`. Colour via `tintOf`. `estimated_macros` is read only by `EstimateNote` (recipe page); keep it out of everything else (`tests/unit/bl1.test.ts` guards it).
+- Recipe page wrappers: `col-a` top, `col-b` right column, `col-c` Tried it + notes. Phone order = markup order.
+- Lighthouse locally: `BASE_PATH=/ npx vite preview`; `CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx lighthouse@12.8.2 …`.
+- Preact 11 runs `useEffect` cleanups after paint on unmount; must-happen-before-next-screen work goes in `useLayoutEffect`.
+- Don't `pkill -f` a pattern that matches your own command line.
+- Lists, cards, share, exports and OG use `portionProtein`; only the recipe page macro card uses `shownProtein`/`shownNumbers`. `estimated_macros` stays on the recipe page only (`tests/unit/bl1.test.ts`).
+- Tell Track B if `compactCatalog()`'s line format changes.
 
 **Open questions:** none.

@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'preact/hooks';
 import type { Recipe } from '../types/recipe';
-import { clearSheet, DISH_LABELS, DISH_TYPES, optionCounts, PROTEINS, type Filters, type Personal } from '../lib/home';
+import {
+  clearSheet, DISH_LABELS, DISH_TYPES, optionCounts, pickProtein, PROTEINS, skipProtein, type Filters, type Personal,
+} from '../lib/home';
 import { SortOptions, toggle } from './filterParts';
 
 const FIRST_DISH_TYPES = 5;
@@ -33,8 +35,24 @@ export function Sidebar({ recipes, personal, filters, onChange }: {
           return (
             <label key={p.key} class="check-row" data-tint={p.key}>
               <input type="checkbox" checked={on} disabled={!on && n === 0}
-                onChange={() => onChange({ ...filters, proteins: toggle(filters.proteins, p.key) })} />
+                onChange={() => onChange(pickProtein(filters, p.key))} />
               <span class="dot" />
+              <span class="check-label">{p.label}</span>
+              <span class="count">{n}</span>
+            </label>
+          );
+        })}
+      </fieldset>
+
+      <fieldset>
+        <legend>Leave out</legend>
+        {PROTEINS.map((p) => {
+          const on = filters.skipProteins.includes(p.key);
+          const n = counts.skipProteins[p.key];
+          return (
+            <label key={p.key} class="check-row">
+              <input type="checkbox" checked={on} disabled={!on && n === 0} aria-label={`Leave out ${p.label}`}
+                onChange={() => onChange(skipProtein(filters, p.key))} />
               <span class="check-label">{p.label}</span>
               <span class="count">{n}</span>
             </label>

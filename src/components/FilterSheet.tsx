@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import type { Recipe } from '../types/recipe';
 import {
-  clearSheet, DISH_LABELS, DISH_TYPES, dishCount, filterRecipes, optionCounts, PROTEINS, QUICK,
+  clearSheet, DISH_LABELS, DISH_TYPES, dishCount, filterRecipes, optionCounts, pickProtein, PROTEINS, QUICK, skipProtein,
   type Filters, type Personal,
 } from '../lib/home';
 import { DishIcon } from './Icon';
@@ -47,8 +47,25 @@ export function FilterSheet(props: {
             const n = counts.proteins[p.key];
             return (
               <button key={p.key} type="button" class="protein-chip lg" data-tint={p.key} aria-pressed={on} disabled={!on && n === 0}
-                onClick={() => setDraft({ ...draft, proteins: toggle(draft.proteins, p.key) })}>
+                onClick={() => setDraft(pickProtein(draft, p.key))}>
                 <span class="dot" />{p.label}<span class="count">{n}</span>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section class="sheet-section">
+        <div class="section-head"><h3>Leave out</h3><span>none of these</span></div>
+        <div class="wrap-row">
+          {PROTEINS.map((p) => {
+            const on = draft.skipProteins.includes(p.key);
+            const n = counts.skipProteins[p.key];
+            return (
+              <button key={p.key} type="button" class="pick-chip" aria-pressed={on} disabled={!on && n === 0}
+                aria-label={`Leave out ${p.label}`}
+                onClick={() => setDraft(skipProtein(draft, p.key))}>
+                {p.label}<span class="count">{n}</span>
               </button>
             );
           })}
