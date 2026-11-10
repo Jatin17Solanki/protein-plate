@@ -92,3 +92,4 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 ## Recipe inbox (automated)
 
 - 2026-11-02 · inbox batch B001 · 9 added, 8 flagged, 5 possible duplicates (chikkar-chole already in the catalog, not re-added)
+- 2026-11-10 · inbox batch B002 · 5 added, 5 flagged, 2 possible duplicates

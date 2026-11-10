@@ -1,0 +1,186 @@
+{
+  "id": "air-fried-soya-65",
+  "title": "Air-Fried Soya 65",
+  "source": {
+    "url": "https://www.instagram.com/reel/DXrbc5gAhBr/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B002.txt#3"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup soya chunks"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp ginger-garlic paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "cornflour",
+      "ingredient_id": "corn_flour",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "3 tbsp cornflour"
+    },
+    {
+      "item": "rice flour",
+      "ingredient_id": "rice_flour",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "2 tbsp rice flour"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp red chilli powder"
+    },
+    {
+      "item": "Kashmiri chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp Kashmiri chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "½ tbsp garam masala"
+    },
+    {
+      "item": "curd",
+      "ingredient_id": "curd",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "4 tbsp curd"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Curry leaves"
+    },
+    {
+      "item": "garlic cloves, chopped",
+      "section": "tadka",
+      "ingredient_id": "garlic",
+      "qty": 10,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "10–12 garlic cloves (chopped)"
+    },
+    {
+      "item": "ginger, grated",
+      "section": "tadka",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "type": "produce",
+      "as_written": "1 inch ginger (grated)"
+    },
+    {
+      "item": "green chillies, chopped",
+      "section": "tadka",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies (chopped)"
+    },
+    {
+      "item": "tomato ketchup",
+      "section": "tadka",
+      "ingredient_id": "ketchup",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp tomato ketchup"
+    },
+    {
+      "item": "oil (for brushing + tadka)",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Oil (for brushing + tadka)"
+    }
+  ],
+  "steps": [
+    "Boil soya chunks in salted water with 1 tbsp ginger-garlic paste for 3–4 mins. Drain & squeeze out water completely.",
+    "Mix cornflour, rice flour, chilli powders, garam masala, curd, curry leaves, 1 tbsp ginger-garlic paste & salt. Add soya chunks, coat well.",
+    "Brush with oil & air-fry at 200°C for 25 mins.",
+    "Heat oil, add garlic, ginger, green chilli & curry leaves. Sauté till golden.",
+    "Add chilli powder, ketchup & a little water. Mix well.",
+    "Toss in air-fried soya, coat evenly & serve hot."
+  ],
+  "assumptions": [
+    "Step 5 says \"chilli powder\" without an amount; both chilli powders are listed once in the ingredients."
+  ],
+  "missing": [],
+  "added_at": "2026-11-10",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

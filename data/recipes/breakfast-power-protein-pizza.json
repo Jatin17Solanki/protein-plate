@@ -1,0 +1,216 @@
+{
+  "id": "breakfast-power-protein-pizza",
+  "title": "Breakfast Power Protein Pizza",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZ7mAOih03S/",
+    "platform": "instagram",
+    "creator": "growwithprat",
+    "creator_url": "https://www.instagram.com/growwithprat/",
+    "ref": "batches/instinct-B002.txt#5"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "sourdough"
+  ],
+  "tags": [
+    "pizza",
+    "air_fryer_required",
+    "quick",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated; \"50g+ protein\")",
+    "protein_g": 50,
+    "kcal": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "paneer, crumbled",
+      "ingredient_id": "paneer",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g paneer, crumbled"
+    },
+    {
+      "item": "bell peppers, chopped",
+      "ingredient_id": "capsicum",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped bell peppers"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped onion"
+    },
+    {
+      "item": "tomatoes, chopped",
+      "ingredient_id": "tomato",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped tomatoes"
+    },
+    {
+      "item": "yogurt",
+      "ingredient_id": "yogurt",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 tsp yogurt"
+    },
+    {
+      "item": "salt",
+      "section": "seasoning",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "seasoning",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Red chilli powder"
+    },
+    {
+      "item": "black pepper",
+      "section": "seasoning",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Black pepper"
+    },
+    {
+      "item": "coriander powder",
+      "section": "seasoning",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Coriander powder"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "seasoning",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chilli flakes"
+    },
+    {
+      "item": "oregano",
+      "section": "seasoning",
+      "ingredient_id": "oregano",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Oregano"
+    },
+    {
+      "item": "sourdough (or any bread)",
+      "section": "base & toppings",
+      "ingredient_id": "sourdough",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 slices of sourdough"
+    },
+    {
+      "item": "homemade pesto",
+      "section": "base & toppings",
+      "ingredient_id": "pesto",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "homemade pesto"
+    },
+    {
+      "item": "pizza sauce",
+      "section": "base & toppings",
+      "ingredient_id": "pizza_sauce",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "pizza sauce"
+    },
+    {
+      "item": "mozzarella cheese",
+      "section": "base & toppings",
+      "ingredient_id": "mozzarella",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "a little mozzarella cheese"
+    },
+    {
+      "item": "torn basil leaves",
+      "section": "base & toppings",
+      "ingredient_id": "basil",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "torn basil leaves"
+    }
+  ],
+  "steps": [
+    "Mix everything together.",
+    "Take 2 slices of sourdough (or any bread of your choice).",
+    "Spread a layer of homemade pesto and pizza sauce.",
+    "Load the paneer mixture on top, add a little mozzarella cheese and some torn basil leaves.",
+    "Air fry at 170–180°C for 10–12 minutes until golden and crispy."
+  ],
+  "assumptions": [
+    "The creator says it takes 10 minutes, so quick."
+  ],
+  "missing": [
+    "Amounts of the vegetables, seasonings, pesto, pizza sauce and mozzarella"
+  ],
+  "added_at": "2026-11-10",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated; \"50g+ protein\")\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts of the vegetables, seasonings, pesto, pizza sauce and mozzarella"
+    }
+  ]
+}

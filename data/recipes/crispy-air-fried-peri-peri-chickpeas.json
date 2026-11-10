@@ -1,0 +1,101 @@
+{
+  "id": "crispy-air-fried-peri-peri-chickpeas",
+  "title": "Crispy Air Fried Peri Peri Chickpeas",
+  "source": {
+    "url": "https://www.instagram.com/reel/DY9Yf0DTwfq/",
+    "platform": "instagram",
+    "creator": "cookwithmrdots",
+    "creator_url": "https://www.instagram.com/cookwithmrdots/",
+    "ref": "batches/instinct-B002.txt#4"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "peri_peri"
+  ],
+  "tags": [
+    "air_fryer_required",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "boiled or canned chickpeas",
+      "ingredient_id": "chickpeas",
+      "qty": null,
+      "unit": null,
+      "type": "protein",
+      "as_written": "Boiled or canned chickpeas"
+    },
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp olive oil"
+    },
+    {
+      "item": "peri peri seasoning",
+      "ingredient_id": "peri_peri",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1–2 tsp peri peri seasoning"
+    },
+    {
+      "item": "parmesan (light grating)",
+      "ingredient_id": "cheese",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "Light grating of parmesan"
+    }
+  ],
+  "steps": [
+    "Drain boiled/canned chickpeas and dry them well with a paper towel.",
+    "Toss everything together until evenly coated.",
+    "Air fry at 200°C for ~15-20 mins, shaking halfway, until golden and crispy."
+  ],
+  "assumptions": [
+    "The creator says it is made with just 4 simple ingredients.",
+    "Main protein: chickpeas, the only protein source (the amount is not stated, so the 35 % rule cannot be computed)."
+  ],
+  "missing": [
+    "Amount of chickpeas",
+    "Amount of parmesan"
+  ],
+  "added_at": "2026-11-10",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amount of chickpeas; Amount of parmesan"
+    }
+  ]
+}

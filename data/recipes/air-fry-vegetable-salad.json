@@ -1,0 +1,208 @@
+{
+  "id": "air-fry-vegetable-salad",
+  "title": "Air Fry Vegetable Salad",
+  "source": {
+    "url": "https://www.instagram.com/reel/DcisZ0Ivhot/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B002.txt#2"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr"
+  ],
+  "tags": [
+    "salad_bowl",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 50,
+    "kcal": 550
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "skyr yogurt",
+      "section": "yogurt base",
+      "ingredient_id": "skyr",
+      "qty": 225,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "225g skyr yogurt"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g beetroot"
+    },
+    {
+      "item": "carrots",
+      "ingredient_id": "carrot",
+      "qty": 80,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "80g carrots"
+    },
+    {
+      "item": "cauliflower",
+      "ingredient_id": "cauliflower",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g cauliflower"
+    },
+    {
+      "item": "onion petals",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion petals"
+    },
+    {
+      "item": "garlic",
+      "section": "yogurt base",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Black pepper powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp coriander powder"
+    },
+    {
+      "item": "cumin (jeera) powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp jeera powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "section": "yogurt base",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "chaat masala",
+      "section": "yogurt base",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp chaat masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "yogurt base",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaves"
+    },
+    {
+      "item": "lemon squeeze",
+      "section": "yogurt base",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon squeeze"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "10ml oil"
+    }
+  ],
+  "steps": [
+    "Take a bowl.",
+    "Now add Onion, Beetroot, Cauliflower, Carrot, Paneer, Coriander powder, Jeera powder, Black pepper powder, Salt, Oil.",
+    "Now Close the bowl And shake it well And transfer into the air fryer.",
+    "Set it 190° for 25 minutes.",
+    "Every seven minutes, take it out, shake It well and keep it inside again.",
+    "Meanwhile Add yoghurt into a bowl along with red chilli powder, Chaat masala, Coriander leaf, Grated garlic, Lemon juice, Salt.",
+    "Mix it all well and place it In a plate.",
+    "Now add all the air fry vegetables on top of it.",
+    "Enjoy it !!!"
+  ],
+  "assumptions": [
+    "'2 garlic' read as 2 cloves.",
+    "Quick is not set: 25 minutes in the air fryer, shaken every 7 minutes."
+  ],
+  "missing": [],
+  "added_at": "2026-11-10",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}
