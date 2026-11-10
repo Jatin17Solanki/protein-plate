@@ -32,6 +32,11 @@ Follow `prompts/add-recipes.md` §0–§7 for every entry. In short:
 - **Normalisation (fidelity):** ingredients and amounts exactly as written (`as_written` is a substring of the caption); steps are the creator's own words, only reformatted; every number in the caption ends up in the record. No caption → `status: "incomplete"` (`video_only: true` when the video is the recipe).
 - **Numbers:** the creator's only. `servings` only from a stated count (or Jatin's answer). Never estimate.
 - **Categorisation:** main proteins by the 35 % rule (computed — see step 5), meal types from Jatin's notes (else our guess, said so in `assumptions`), tags and dish groups per §5.
+- **Classic and Add-on tags** (B7, Jatin 2026-11-10; full wording in `prompts/add-recipes.md` §5). Append them after the other tags (they never pick the tile icon):
+  - `classic`: an everyday Indian dish a household already eats (poha, upma, idli, thepla, paratha, cheela, kadhi, khichdi, pulao, rajma chawal, pav bhaji…), made high-protein by **adding or swapping** a protein source (soya in poha, moong dal for rice in idli, paneer blended into the gravy). Not a classic: a dish whose protein is already the original one (shahi paneer, chole, moong chilla), fusion, sandwiches/wraps/toasts, sweets.
+  - `add_on`: a small protein side that goes with any plain meal (sautéed paneer, tempeh crumbles, soya granules, a paneer marinade). Not an add-on: a full meal, a gravy curry, a snack plate or a sauce on its own.
+  - Unsure → leave the tag off and list the recipe under "Borderline (classic / add-on)" in the PR for Jatin.
+  - The filter is called **Classics**. Never use the Hindi word for "home-country style" (d-e-s-i) anywhere: tags, titles, notes, assumptions, aliases, PR text (Jatin, 2026-11-10).
 - Missing dictionary ingredients: add them to `data/ingredients.json` (with aliases; avoid bare generic words like "moong").
 - Write one file per recipe: `data/recipes/<id>.json`.
 
@@ -98,12 +103,13 @@ Both name the raw file `batches/instinct-<BATCH>.txt` from the batch id, so `sou
      - Clearly not vegetarian → leave it out; list it in the PR.
    - **A link already in the catalog** → don't add it; list it under "Already in the catalog". Also skip posts that `docs/review-log.md` says were deleted as duplicates.
    - **Possible duplicates/variants** (`dedupe.ts`) → list them in the PR for Jatin. **Never merge, delete or rename a recipe on your own.** Recipe ids are the keys of Jatin's likes, list and notes in his browser: a renamed or deleted id loses them.
+   - **`classic` / `add_on`**: apply both rules from step 4 to every new recipe; unsure → leave the tag off and list it in the PR under "Borderline (classic / add-on)".
    - Everything else as in steps 4–7: the creator's numbers only, the dictionary. **Fidelity on the new recipes only:** `npx tsx scripts/data/fidelity.ts --raw /tmp/pp-raw <new ids…>` (the older batches live in the private repo this task can't see; don't run fidelity on all recipes). **No review sheet** in this task: the PR lists everything, and the raw text stays in the email and the private repo.
 7. **Checks (step 5) must all pass.** If something can't be fixed without weakening a check: commit nothing to the public repo, label the email `protein-plate-failed`, report what failed.
 8. **Commit and push** `auto/recipe-inbox`, with one commit per batch: `Recipe inbox: batch B001 (N recipes)`. Append one line to `docs/review-log.md`: `date · inbox batch B001 · N added, F flagged, D possible duplicates`. Don't touch `docs/TRACKER.md` or the handoff files; a human-run session tidies those up.
 9. **Open the PR or update it.**
    - Title: `Recipe inbox: N new recipes` (keep N current).
-   - Body: one section per batch (added / flagged with reasons / possible duplicates / already in catalog / left out / dictionary additions), then the verification output, then the line from `npx tsx scripts/data/review-count.ts --new <new ids…>`.
+   - Body: one section per batch (added / flagged with reasons / tagged classic / tagged add-on / borderline classic or add-on / possible duplicates / already in catalog / left out / dictionary additions), then the verification output, then the line from `npx tsx scripts/data/review-count.ts --new <new ids…>`.
    - Once the open PR holds 3 batches, add a line asking Jatin to merge it.
    - After pushing, check `mergeable_state`; if it's conflicted, merge main in again and resolve.
 10. **Label the email** `protein-plate-processed` and remove `protein-plate-failed` if it's set.

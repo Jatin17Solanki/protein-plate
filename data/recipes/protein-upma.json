@@ -25,7 +25,9 @@
     "sooji",
     "tofu_silken"
   ],
-  "tags": [],
+  "tags": [
+    "classic"
+  ],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {

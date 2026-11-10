@@ -23,7 +23,9 @@
     "soya"
   ],
   "supporting_proteins": [],
-  "tags": [],
+  "tags": [
+    "add_on"
+  ],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
