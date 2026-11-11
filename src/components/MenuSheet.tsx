@@ -17,8 +17,8 @@ const THEMES: { key: Theme; label: string }[] = [
   { key: 'auto', label: 'Auto' },
 ];
 
-// From site.config, so a fork's menu points to its own README.
-const REPO_README = `https://github.com/${site.owner}/${site.repo}#readme`;
+// From site.config, so a fork's menu points to its own README, at the "Make it yours" section (Jatin, 2026-11-11).
+const REPO_README = `https://github.com/${site.owner}/${site.repo}#make-it-yours`;
 
 /** R5-Menu (+ My recipes first, Like/Dislike wording). Back up / Restore and Appearance work here. */
 export function MenuSheet({ onClose, onFeedback }: { onClose: () => void; onFeedback: () => void }) {
@@ -154,7 +154,7 @@ export function MenuSheet({ onClose, onFeedback }: { onClose: () => void; onFeed
         <li>
           <a class="menu-item" href={REPO_README} target="_blank" rel="noopener">
             <span class="menu-icon"><UiIcon name="info" size={18} /></span>
-            <span class="menu-text"><b>About Protein Plate</b><span>How it works, credits, make your own copy</span></span>
+            <span class="menu-text"><b>About · make your own copy</b><span>Use it with your own recipes; how it works, credits</span></span>
           </a>
         </li>
       </ul>
