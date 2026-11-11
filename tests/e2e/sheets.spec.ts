@@ -52,8 +52,8 @@ test.describe('phone', () => {
   test('menu: About opens the GitHub README in a new tab (BL7)', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: 'Menu' }).click();
-    const about = page.getByRole('dialog').getByRole('link', { name: /^About Protein Plate/ });
-    await expect(about).toHaveAttribute('href', 'https://github.com/Jatin17Solanki/protein-plate#readme');
+    const about = page.getByRole('dialog').getByRole('link', { name: /^About · make your own copy/ });
+    await expect(about).toHaveAttribute('href', 'https://github.com/Jatin17Solanki/protein-plate#make-it-yours');
     await expect(about).toHaveAttribute('target', '_blank');
     await about.scrollIntoViewIfNeeded();
     await expect(about).toBeInViewport();
