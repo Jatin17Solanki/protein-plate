@@ -21,7 +21,8 @@ const dark = readTokens(':root[data-theme="dark"] {');
 
 const homeMeta = (count: number) => ({
   title: site.title,
-  description: `${count} high-protein vegetarian recipes. ${site.description}`,
+  // "274 recipes. <site description>": the description already says what kind (it repeated it before).
+  description: `${count} recipes. ${site.description}`,
   url: siteUrl,
   image: `${siteUrl}og/home.png`,
 });
@@ -39,7 +40,8 @@ export default defineConfig({
             .replaceAll('%SITE_DESCRIPTION%', site.description)
             .replaceAll('%THEME_LIGHT%', light.bg)
             .replaceAll('%THEME_DARK%', dark.bg),
-          homeMeta(readRecipes(recipesDir).length),
+          // Main catalog only, like the preview image and Home (archived recipes made this 367 vs 274).
+          homeMeta(splitArchived(readRecipes(recipesDir)).active.length),
         ),
     },
     VitePWA({
