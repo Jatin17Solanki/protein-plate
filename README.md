@@ -3,7 +3,8 @@
 
 <p align="center">
   <b>High-protein vegetarian recipes, filtered by meal and protein.</b><br>
-  Free · works on your phone · works offline · no account
+  Free · works on your phone · works offline · no account<br>
+  <b>A building block:</b> <a href="#make-it-yours">make your own copy</a> and fill it with your own recipes.
 </p>
 
 <p align="center">
@@ -21,6 +22,7 @@
 ## Contents
 
 - [Features](#features)
+- [Make it yours](#make-it-yours)
 - [Use the catalog with any AI](#use-the-catalog-with-any-ai)
 - [What it's for](#what-its-for)
 - [Roadmap](#roadmap)
@@ -41,7 +43,7 @@
 <td align="center" width="33%"><img src="docs/readme/recipe.webp" width="220" alt="Recipe page"></td>
 </tr>
 <tr>
-<td valign="top"><b>Find something to cook</b><br>Pick a meal and a protein, add Quick, Global or Air fryer. Counts show what you'll get.</td>
+<td valign="top"><b>Find something to cook</b><br>Pick a meal and a protein (or leave one out), add Quick, Classics, Add-ons, Global or Air fryer. Counts show what you'll get; desserts and sauces wait at the end.</td>
 <td valign="top"><b>Search the fridge</b><br>Search a dish or an ingredient. Small typos are fine.</td>
 <td valign="top"><b>One page per recipe</b><br>Protein, video, ingredients to tick, steps, versions, your notes.</td>
 </tr>
@@ -58,6 +60,42 @@
 </table>
 
 **Also:** light and dark mode · install it on your Home Screen · works offline · back up and restore your notes and lists · **Send feedback** from the menu.
+
+---
+
+## Make it yours
+
+This app is a **template, not a closed product**. The recipes here are mine; the app works with anyone's. Your copy is free, has no server or account, and takes about 15 minutes.
+
+**Bring whatever recipe data you have.** It doesn't need to be tidy:
+
+| You have… | How it gets in |
+|---|---|
+| Saved Instagram / YouTube reels | The app's **Add recipes** screen: copy the prompt, paste it into any AI chat with the captions, paste the answer back. |
+| Notes, a WhatsApp chat, a family recipe book | Same: paste the text instead of captions. The AI turns it into recipe files. |
+| A spreadsheet or another app's export | Ask an AI to convert it using the recipe format in [`schema/recipe.schema.json`](schema/recipe.schema.json). |
+| Recipes already in this format | Drop the files into `data/recipes/`. |
+
+**What you can change:**
+- **Without code:** the name, your recipes, your feedback address ([`site.config.json`](#run-your-own-copy)).
+- **With a coding tool** (Claude Code, Cursor, Copilot…): proteins, filters, dish types, colours, anything else. The code is MIT licensed. Point the tool at [`CLAUDE.md`](CLAUDE.md) first; [Develop](#develop) shows where everything lives.
+
+**Stuck? Let an AI walk you through it.** These open a new chat with a ready-made prompt that reads this repo and guides you step by step:
+
+<p>
+  <a href="https://claude.ai/new?q=I%20want%20my%20own%20copy%20of%20Protein%20Plate%2C%20a%20free%20recipe-catalog%20web%20app%3A%20https%3A%2F%2Fgithub.com%2FJatin17Solanki%2Fprotein-plate%20.%20Read%20its%20README%20%28especially%20%22Make%20it%20yours%22%20and%20%22Run%20your%20own%20copy%22%29%20and%20docs%2FADD-RECIPES.md.%20I%27m%20not%20a%20developer.%20First%20ask%20me%20what%20recipe%20data%20I%20have%20%28links%2C%20notes%2C%20a%20spreadsheet%2C%20family%20recipes%E2%80%A6%29%20and%20what%20I%20want%20to%20filter%20by.%20Then%20guide%20me%20one%20step%20at%20a%20time%3A%20set%20up%20my%20copy%2C%20turn%20my%20data%20into%20the%20app%27s%20recipe%20files%2C%20and%20tell%20me%20which%20changes%20need%20a%20coding%20tool."><b>Ask Claude →</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://chatgpt.com/?q=I%20want%20my%20own%20copy%20of%20Protein%20Plate%2C%20a%20free%20recipe-catalog%20web%20app%3A%20https%3A%2F%2Fgithub.com%2FJatin17Solanki%2Fprotein-plate%20.%20Read%20its%20README%20%28especially%20%22Make%20it%20yours%22%20and%20%22Run%20your%20own%20copy%22%29%20and%20docs%2FADD-RECIPES.md.%20I%27m%20not%20a%20developer.%20First%20ask%20me%20what%20recipe%20data%20I%20have%20%28links%2C%20notes%2C%20a%20spreadsheet%2C%20family%20recipes%E2%80%A6%29%20and%20what%20I%20want%20to%20filter%20by.%20Then%20guide%20me%20one%20step%20at%20a%20time%3A%20set%20up%20my%20copy%2C%20turn%20my%20data%20into%20the%20app%27s%20recipe%20files%2C%20and%20tell%20me%20which%20changes%20need%20a%20coding%20tool."><b>Ask ChatGPT →</b></a>
+</p>
+
+<details>
+<summary>The prompt (copy it into any other AI chat)</summary>
+
+```
+I want my own copy of Protein Plate, a free recipe-catalog web app: https://github.com/Jatin17Solanki/protein-plate . Read its README (especially "Make it yours" and "Run your own copy") and docs/ADD-RECIPES.md. I'm not a developer. First ask me what recipe data I have (links, notes, a spreadsheet, family recipes…) and what I want to filter by. Then guide me one step at a time: set up my copy, turn my data into the app's recipe files, and tell me which changes need a coding tool.
+```
+
+</details>
+
+Step-by-step instructions: [Run your own copy](#run-your-own-copy).
 
 ---
 
@@ -118,7 +156,9 @@ curl -s https://jatin17solanki.github.io/protein-plate/catalog.json \
 | Situation | What helps |
 |---|---|
 | "What do we make for breakfast?" | Meal tabs, highest protein first |
-| "Had paneer yesterday, want something else" | Protein chips, dish types, versions |
+| "Had paneer yesterday, want something else" | Protein chips, **Leave out**, dish types, versions |
+| "Something familiar, but with more protein" | **Classics** (Soya Poha, Protein Upma…) |
+| "Plain dal-roti today, need more protein" | **Add-ons** (a quick protein side) |
 | "Something quick" / "I have curd and 20 minutes" | Quick, Air fryer, ingredient search |
 | "Something different tonight" | Global (fusion, non-Indian) |
 | "My go-to recipes" | My list, likes, notes |
