@@ -21,6 +21,11 @@ test('works offline after the first visit: home, recipe deep link, in-app naviga
   await context.setOffline(false);
 });
 
+test('home link preview: main-catalog count, description not repeated', async ({ request }) => {
+  const html = await (await request.get('/')).text();
+  expect(html).toContain('<meta property="og:description" content="10 recipes. High-protein vegetarian recipes, filtered by meal, protein and dish type." />');
+});
+
 test('each recipe has a static page with its own link-preview tags and image', async ({ request }) => {
   const html = await (await request.get('/r/soya-tikka-salad/')).text();
   expect(html).toContain('<title>Soya Tikka Salad · Protein Plate</title>');
