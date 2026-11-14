@@ -1,0 +1,217 @@
+{
+  "id": "mint-coriander-rice",
+  "title": "Mint Coriander Rice",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dfo9i2vP1nX/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B003.txt#9"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr",
+    "rice_cooked",
+    "green_peas"
+  ],
+  "tags": [
+    "rice_pulao_biryani",
+    "quick",
+    "classic"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (serves 2 or 3)",
+    "protein_g": 43,
+    "kcal": 800
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Low fat paneer"
+    },
+    {
+      "item": "green peas",
+      "ingredient_id": "green_peas",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100g Green peas"
+    },
+    {
+      "item": "skyr",
+      "ingredient_id": "skyr",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Skyr"
+    },
+    {
+      "item": "cooked rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 250,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "250g Cooked rice"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "10ml oil"
+    },
+    {
+      "item": "mint leaves",
+      "ingredient_id": "mint",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Mint leaves"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander leaves"
+    },
+    {
+      "item": "garlic",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 garlic"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chilli"
+    },
+    {
+      "item": "cloves (laung)",
+      "ingredient_id": "cloves",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 cloves"
+    },
+    {
+      "item": "cinnamon stick",
+      "ingredient_id": "cinnamon",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 cinnamon stick"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion chopped"
+    },
+    {
+      "item": "medium onion, cubed",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium size onion cubes"
+    },
+    {
+      "item": "Kashmiri chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": null,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1\\2 tsp Kashmiri Chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    }
+  ],
+  "steps": [
+    "Take a mixer jar.",
+    "Add onion cubes, coriander leaves, mint leaves, garlic and green chilli.",
+    "Mix it in coarse and keep it aside.",
+    "Now heat oil in a kadai.",
+    "Add jeera, cinnamon stick and cloves and onion chopped.",
+    "Saute for 2 to 3 mins in high flame.",
+    "Now add boiled green peas and paneer cubes.",
+    "Saute for 4 mins in high flame.",
+    "Now add mint coriander paste and saute until raw smell goes.",
+    "Now add salt and rice and keep the flame medium.",
+    "Mix it all slowly for 1 min and then keep the flame high and mix it slowly for another 1 min.",
+    "Now serve it for 2 or 3 people and serve it with Skyr yogurt sprinkle of Kashmiri chilli powder.",
+    "Enjoy it!!!"
+  ],
+  "assumptions": [
+    "\"3 garlic\" read as 3 cloves.",
+    "Kashmiri chilli powder is written \"1\\2 tsp\"; read as ½ tsp, so the amount is left blank in the list.",
+    "The creator's numbers are for the whole recipe, which serves 2 or 3.",
+    "Quick is our estimate (with cooked rice ready)."
+  ],
+  "missing": [
+    "Amounts for mint, coriander and salt"
+  ],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (serves 2 or 3)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for mint, coriander and salt"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "tandoori-rice-paper-bites",
+  "title": "Tandoori Rice Paper Bites",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dcz1-WiTchw/",
+    "platform": "instagram",
+    "creator": "desichefco",
+    "creator_url": "https://www.instagram.com/desichefco/",
+    "ref": "batches/instinct-B003.txt#4"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "air_fryer_required",
+    "quick",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 32,
+    "kcal": 350
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "rice paper sheets",
+      "ingredient_id": "rice_paper",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 rice paper sheets"
+    },
+    {
+      "item": "low-fat paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low-fat paneer"
+    },
+    {
+      "item": "Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "optional": true,
+      "as_written": "50g Greek yogurt (optional)"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 30,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "30g onion"
+    },
+    {
+      "item": "bell pepper",
+      "ingredient_id": "capsicum",
+      "qty": 30,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "30g bell pepper"
+    },
+    {
+      "item": "chili garlic sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chili garlic sauce"
+    },
+    {
+      "item": "garlic powder",
+      "ingredient_id": "garlic_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garlic powder"
+    },
+    {
+      "item": "smoked paprika",
+      "ingredient_id": "paprika",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp smoked paprika"
+    },
+    {
+      "item": "tandoori masala",
+      "ingredient_id": "tandoori_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp tandoori masala"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "black pepper"
+    }
+  ],
+  "steps": [
+    "Mix the filling.",
+    "Soften rice paper.",
+    "Add filling & fold.",
+    "Air fry at 190°C / 375°F for 10-12 min, flipping halfway."
+  ],
+  "assumptions": [
+    "The method is one line in the caption; it is split into steps here.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Amounts for salt and black pepper"
+  ],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for salt and black pepper"
+    }
+  ]
+}

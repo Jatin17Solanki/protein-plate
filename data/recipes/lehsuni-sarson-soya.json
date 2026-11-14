@@ -1,0 +1,241 @@
+{
+  "id": "lehsuni-sarson-soya",
+  "title": "Lehsuni Sarson Soya",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdMJn7yq3KG/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B003.txt#13"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks",
+      "section": "soya",
+      "ingredient_id": "soya_chunks",
+      "qty": 1.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1½ cups soya chunks"
+    },
+    {
+      "item": "salt",
+      "section": "soya",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "soya",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Shalimar’s red chilli powder"
+    },
+    {
+      "item": "turmeric powder",
+      "section": "soya",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Shalimar’s turmeric powder"
+    },
+    {
+      "item": "mustard oil",
+      "section": "soya",
+      "ingredient_id": "mustard_oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Shalimar Mustard Oil"
+    },
+    {
+      "item": "chopped tomatoes",
+      "section": "gravy",
+      "ingredient_id": "tomato",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 chopped tomatoes"
+    },
+    {
+      "item": "soaked mustard seeds",
+      "section": "gravy",
+      "ingredient_id": "mustard_seeds",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "2 tbsp soaked mustard seeds"
+    },
+    {
+      "item": "garlic cloves",
+      "section": "gravy",
+      "ingredient_id": "garlic",
+      "qty": 8,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "8–10 garlic cloves"
+    },
+    {
+      "item": "green chillies",
+      "section": "gravy",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chillies"
+    },
+    {
+      "item": "ginger",
+      "section": "gravy",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": null,
+      "type": "produce",
+      "as_written": "1-inch ginger"
+    },
+    {
+      "item": "mustard oil",
+      "section": "masala",
+      "ingredient_id": "mustard_oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Shalimar Mustard Oil"
+    },
+    {
+      "item": "coriander powder",
+      "section": "masala",
+      "ingredient_id": "coriander_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Shalimar’s coriander powder"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "masala",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Shalimar’s red chilli powder"
+    },
+    {
+      "item": "cumin powder",
+      "section": "masala",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Shalimar’s cumin powder"
+    },
+    {
+      "item": "turmeric powder",
+      "section": "masala",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Shalimar’s turmeric powder"
+    },
+    {
+      "item": "salt",
+      "section": "masala",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "sugar",
+      "section": "masala",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "A pinch of sugar"
+    },
+    {
+      "item": "water",
+      "section": "masala",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water, as required"
+    },
+    {
+      "item": "fresh coriander (garnish)",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "fresh coriander"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks and squeeze out all the excess water.",
+    "Heat Shalimar Mustard Oil in a pan. Add soya chunks, red chilli powder, turmeric powder and salt. Sauté for a few minutes and set aside.",
+    "Blend tomatoes, soaked mustard seeds, garlic, green chillies and ginger into a smooth paste.",
+    "Heat Shalimar Mustard Oil in a pan. Add coriander powder, red chilli powder, cumin powder and turmeric powder.",
+    "Add the prepared gravy and salt. Cook for a few minutes.",
+    "Add the sautéed soya chunks, a pinch of sugar and a little water if required.",
+    "Cover and cook for a few more minutes until the gravy coats the soya beautifully.",
+    "Garnish with fresh coriander and serve hot."
+  ],
+  "assumptions": [
+    "The caption names Shalimar brand mustard oil and spice powders."
+  ],
+  "missing": [
+    "Amounts for the mustard oil, spice powders and coriander"
+  ],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the mustard oil, spice powders and coriander"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "high-protein-veg-kabab",
+  "title": "High Protein Veg Kabab",
+  "source": {
+    "url": "https://www.instagram.com/reel/DTU0pjtE2un/",
+    "platform": "instagram",
+    "creator": "shwetasgenielife",
+    "creator_url": "https://www.instagram.com/shwetasgenielife/",
+    "ref": "batches/instinct-B003.txt#6"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "snack",
+      "breakfast"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "paneer",
+    "soya_chunks",
+    "chickpeas",
+    "green_peas"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "boiled chickpeas",
+      "ingredient_id": "chickpeas",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 30,
+      "type": "protein",
+      "as_written": "Boiled Chickpeas - 1/2 Cup"
+    },
+    {
+      "item": "boiled soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 15,
+      "type": "protein",
+      "as_written": "Boiled Soya Chunks - 1/2 Cup"
+    },
+    {
+      "item": "boiled green peas",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Boiled Green Peas - 1/2 Cup"
+    },
+    {
+      "item": "grated paneer",
+      "ingredient_id": "paneer",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 60,
+      "type": "protein",
+      "as_written": "Grated Paneer - 1/2 Cup"
+    },
+    {
+      "item": "onion",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Onion - 2 tbsp"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Dhaniya Leaves - 1 tbsp"
+    },
+    {
+      "item": "green chilli",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Green chilli - 1 tbsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt - as per taste"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kashmiri red chilli powder - 1 tsp"
+    },
+    {
+      "item": "cumin powder",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cumin Powder - 1 tsp"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garam masala - 2 tsp"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Ginger Garlic paste - 1 tbsp"
+    },
+    {
+      "item": "mustard oil",
+      "ingredient_id": "mustard_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Mustard oil - 1 tbsp"
+    },
+    {
+      "item": "besan (gram flour), for binding",
+      "ingredient_id": "besan",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "Besan / Gram Flour - 1 tbsp (for binding)"
+    }
+  ],
+  "steps": [
+    "Boiled chickpeas - 1/2 cup, boiled soya chunks - 1/2 cup, boiled green peas - 1/2 cup: grind them coarsely.",
+    "Add grated paneer - 1/2 cup, onion - 2 tbsp, dhaniya leaves - 1 tbsp, green chilli - 1 tbsp, salt - as per taste, Kashmiri red chilli powder - 1 tsp, cumin powder - 1 tsp, garam masala - 2 tsp, ginger garlic paste - 1 tbsp, mustard oil - 1 tbsp, besan / gram flour - 1 tbsp (for binding).",
+    "Mix mix mix.",
+    "Give them shape.",
+    "Preheat the air fryer for 2 mins at 200 degrees.",
+    "Air fry the kabab at 180 degrees for 15 mins.",
+    "Flip after 8 mins."
+  ],
+  "assumptions": [],
+  "missing": [],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

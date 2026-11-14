@@ -1,0 +1,60 @@
+{
+  "id": "cheesy-soya-pavs",
+  "title": "Cheesy Soya Pavs",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdOaFxcNxxL/",
+    "platform": "instagram",
+    "creator": "cookwith.shree",
+    "creator_url": "https://www.instagram.com/cookwith.shree/",
+    "ref": "batches/instinct-B003.txt#8"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 18,
+    "kcal": 330,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per pav (recipe makes 4)",
+    "protein_g": 18,
+    "kcal": 330
+  },
+  "protein_working": [],
+  "servings": 4,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Creator gives ranges per pav: ~330–350 kcal, ~18–19 g protein; the lower figures are recorded.",
+    "Whole recipe (4 pavs), as the creator states it: ~1,300–1,400 kcal, ~70–75 g protein, ~175–185 g carbs, ~40–45 g fat.",
+    "The caption describes crispy square soya patties, air-fried, in pavs with cheese, veggies and sauce, finished with a little ghee."
+  ],
+  "missing": [
+    "Ingredients, quantities and method (the creator shares the exact recipe on request only; the caption gives an overview)"
+  ],
+  "added_at": "2026-11-14",
+  "video_only": true,
+  "flags": []
+}

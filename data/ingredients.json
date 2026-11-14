@@ -90,7 +90,7 @@
 {"id":"water","name":"water","aliases":["water","pani","ice cubes"],"type":"pantry","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
 {"id":"soy_sauce","name":"soy sauce","aliases":["soy sauce","soya sauce"],"type":"sauce","protein_per_100g":8,"kcal_per_100g":53,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":16}},
 {"id":"gochujang","name":"gochujang","aliases":["gochujang"],"type":"sauce","protein_per_100g":4,"kcal_per_100g":210,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":18}},
-{"id":"chilli_sauce","name":"chilli sauce","aliases":["chilli sauce","chili sauce","red chilli sauce","sriracha","sriracha sauce","chilli garlic sauce","chilli garlic dip","siracha","green chilli sauce"],"type":"sauce","protein_per_100g":1,"kcal_per_100g":100,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":17}},
+{"id":"chilli_sauce","name":"chilli sauce","aliases":["chilli sauce","chili sauce","red chilli sauce","sriracha","sriracha sauce","chilli garlic sauce","chili garlic sauce","chilli garlic dip","siracha","green chilli sauce"],"type":"sauce","protein_per_100g":1,"kcal_per_100g":100,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":6,"tbsp":17}},
 {"id":"chilli_oil","name":"chilli oil","aliases":["chilli oil","chili oil"],"type":"sauce","protein_per_100g":0,"kcal_per_100g":800,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":4.5,"tbsp":14}},
 {"id":"green_chutney","name":"green chutney","aliases":["green chutney","hari chutney","mint chutney","coriander pesto"],"type":"sauce","protein_per_100g":2,"kcal_per_100g":60,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":15}},
 {"id":"salt","name":"salt","aliases":["salt","namak"],"type":"spice","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
@@ -253,7 +253,7 @@
 {"id":"lachha_paratha","name":"whole wheat lachha paratha","aliases":["lachha paratha"],"type":"grain","protein_per_100g":8,"kcal_per_100g":300,"basis":"as_sold","main_protein":null,"unit_grams":{"piece":80}},
 {"id":"milk_buns","name":"milk buns","aliases":["milk buns","milk bun"],"type":"grain","protein_per_100g":8,"kcal_per_100g":300,"basis":"as_sold","main_protein":null,"unit_grams":{"piece":40}},
 {"id":"chicken","name":"chicken","aliases":["chicken thigh","chicken"],"type":"protein","protein_per_100g":24,"kcal_per_100g":180,"basis":"as_sold","main_protein":null,"note":"Not vegetarian; only for detecting non-veg entries."},
-{"id":"ginger_garlic_chilli","name":"chilli garlic paste","aliases":["chilli garlic paste","green chilli-garlic paste","green chilli garlic paste"],"type":"produce","protein_per_100g":3,"kcal_per_100g":60,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":5}},
+{"id":"ginger_garlic_chilli","name":"chilli garlic paste","aliases":["chilli garlic paste","green chilli-garlic paste","green chilli garlic paste","ginger-garlic-green chilli paste"],"type":"produce","protein_per_100g":3,"kcal_per_100g":60,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":5}},
 {"id":"khakra","name":"methi khakra","aliases":["khakras","khakra"],"type":"grain","protein_per_100g":12,"kcal_per_100g":400,"basis":"as_sold","main_protein":null,"unit_grams":{"piece":20}},
 {"id":"yeast","name":"instant yeast","aliases":["instant yeast","yeast"],"type":"pantry","protein_per_100g":40,"kcal_per_100g":325,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":3}},
 {"id":"pickle","name":"pickle (achaar)","aliases":["mango pickle","achaar masala","amla ka achaar","aamla ka achaar","nimbu ka achaar"],"type":"sauce","protein_per_100g":1,"kcal_per_100g":150,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":5,"tbsp":15}},
@@ -262,5 +262,8 @@
 {"id":"mixed_seeds","name":"mixed seeds","aliases":["mix seeds","mixed seeds","seedmix","seed mix"],"type":"pantry","protein_per_100g":22,"kcal_per_100g":570,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":9,"tsp":3}},
 {"id":"sabudana","name":"sabudana (tapioca pearls)","aliases":["sabudana","tapioca pearls"],"type":"grain","protein_per_100g":0.2,"kcal_per_100g":358,"basis":"dry","main_protein":null,"unit_grams":{"cup":150}},
 {"id":"rose_petals","name":"rose petals","aliases":["rose petals","dried rose petals"],"type":"produce","protein_per_100g":0,"kcal_per_100g":0,"basis":"as_sold","main_protein":null},
-{"id":"pesto","name":"pesto","aliases":["homemade pesto"],"type":"sauce","protein_per_100g":5,"kcal_per_100g":450,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":15}}
+{"id":"pesto","name":"pesto","aliases":["homemade pesto"],"type":"sauce","protein_per_100g":5,"kcal_per_100g":450,"basis":"as_sold","main_protein":null,"unit_grams":{"tbsp":15}},
+{"id":"maida","name":"refined flour (maida)","aliases":["maida","refined flour","all-purpose flour","all purpose flour","plain flour"],"type":"grain","protein_per_100g":10,"kcal_per_100g":364,"basis":"as_sold","main_protein":null,"unit_grams":{"tsp":3,"tbsp":8}},
+{"id":"cornflakes","name":"cornflakes","aliases":["cornflakes","corn flakes"],"type":"grain","protein_per_100g":7,"kcal_per_100g":357,"basis":"as_sold","main_protein":null,"unit_grams":{"cup":28}},
+{"id":"snake_gourd","name":"snake gourd (podalangai)","aliases":["snake gourd","podalangai","chichinda","padwal"],"type":"produce","protein_per_100g":0.5,"kcal_per_100g":18,"basis":"as_sold","main_protein":null,"unit_grams":{"cup":100}}
 ]

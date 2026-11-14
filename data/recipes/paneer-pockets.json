@@ -1,0 +1,54 @@
+{
+  "id": "paneer-pockets",
+  "title": "Paneer Pockets",
+  "source": {
+    "url": "https://www.instagram.com/reel/DezLgxgNQXw/",
+    "platform": "instagram",
+    "creator": "cookwith.shree",
+    "creator_url": "https://www.instagram.com/cookwith.shree/",
+    "ref": "batches/instinct-B003.txt#5"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein from the caption: paneer, with a cheese filling. The caption is marked as an ad."
+  ],
+  "missing": [
+    "Written recipe (the creator sends it on request only; the caption has no ingredients or method)"
+  ],
+  "added_at": "2026-11-14",
+  "video_only": true,
+  "flags": []
+}
