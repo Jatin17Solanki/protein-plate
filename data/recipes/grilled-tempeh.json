@@ -1,0 +1,167 @@
+{
+  "id": "grilled-tempeh",
+  "title": "Grilled Tempeh",
+  "source": {
+    "url": "https://www.instagram.com/reel/C-IVg6HuHrv/",
+    "platform": "instagram",
+    "creator": "kaaffi_shubh",
+    "creator_url": "https://www.instagram.com/kaaffi_shubh/",
+    "ref": "batches/instinct-B003.txt#15"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "quick",
+    "add_on"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 38,
+    "kcal": 450,
+    "carbs_g": 18,
+    "fat_g": 15
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "plain soy tempeh",
+      "ingredient_id": "tempeh",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g plain soy tempeh"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "0.5 - 1 Tsp of red chilli powder"
+    },
+    {
+      "item": "coriander powder (dhaniya)",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "0.5 Tsp dhaniya powder"
+    },
+    {
+      "item": "kitchen king masala",
+      "ingredient_id": "kitchen_king_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "0.5 Tsp kitchen king masala"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 Tsp of ginger garlic paste"
+    },
+    {
+      "item": "turmeric (haldi)",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "A pinch of haldi"
+    },
+    {
+      "item": "garlic powder",
+      "ingredient_id": "garlic_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1-2 Tsp of garlic powder"
+    },
+    {
+      "item": "amchur",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1-2 Tsp of aamchur"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1.5 Tsp of oil"
+    }
+  ],
+  "steps": [
+    "Cut 200g plain soy tempeh into bite size cubes.",
+    "Add salt and pepper (to taste).",
+    "0.5 - 1 Tsp of red chilli powder based on how spicy you like it.",
+    "0.5 Tsp dhaniya powder.",
+    "0.5 Tsp kitchen king masala. This recipe was originally made using chicken masala (which is still vegetarian, just different blend of spices) which tastes a whole lot better if you want to try it out.",
+    "1 Tsp of ginger garlic paste (can add more if preferred).",
+    "A pinch of haldi.",
+    "1-2 Tsp of garlic powder (I love garlic. You can add swaad anusar).",
+    "1-2 Tsp of aamchur (not needed if you add the chicken masala instead).",
+    "Grill on medium heat using 1.5 Tsp of oil.",
+    "Serve hot :)"
+  ],
+  "assumptions": [
+    "\"Chicken masala\" is a spice blend the creator mentions as an alternative; the recipe itself uses kitchen king masala. Check the pack is vegetarian if you swap it in.",
+    "Creator also states 8 g fibre.",
+    "The creator sells this tempeh brand (disclosed in the caption).",
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

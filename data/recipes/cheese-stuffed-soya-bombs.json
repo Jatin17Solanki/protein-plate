@@ -1,0 +1,59 @@
+{
+  "id": "cheese-stuffed-soya-bombs",
+  "title": "Cheese-Stuffed Soya Bombs",
+  "source": {
+    "url": "https://www.instagram.com/reel/DdbJYcKNuBb/",
+    "platform": "instagram",
+    "creator": "cookwith.shree",
+    "creator_url": "https://www.instagram.com/cookwith.shree/",
+    "ref": "batches/instinct-B003.txt#2"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (4 pieces)",
+    "protein_g": 86,
+    "kcal": 876
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein from the caption: soya chunks, stuffed with cheese and wrapped in crispy noodles (Indo-Chinese style)."
+  ],
+  "missing": [
+    "Written recipe (the creator sends it by DM only; the caption has no ingredients or method)"
+  ],
+  "added_at": "2026-11-14",
+  "video_only": true,
+  "flags": []
+}

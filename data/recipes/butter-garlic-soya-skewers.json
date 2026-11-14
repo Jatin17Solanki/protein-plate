@@ -1,0 +1,275 @@
+{
+  "id": "butter-garlic-soya-skewers",
+  "title": "Butter Garlic Soya Skewers",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dfmb1WFz-Z8/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B003.txt#7"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "cheese"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 53,
+    "kcal": 720,
+    "carbs_g": 58,
+    "fat_g": 31
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "boiling water",
+      "section": "soya",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "l",
+      "type": "pantry",
+      "as_written": "1 ltr boiling water"
+    },
+    {
+      "item": "salt",
+      "section": "soya",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "sugar",
+      "section": "soya",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp sugar"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "soya",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "½ tbsp ginger garlic paste"
+    },
+    {
+      "item": "soya chunks",
+      "section": "soya",
+      "ingredient_id": "soya_chunks",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g soya chunks"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "coating",
+      "ingredient_id": "greek_yogurt",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp Greek yogurt"
+    },
+    {
+      "item": "fresh cream",
+      "section": "coating",
+      "ingredient_id": "cream",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "2 tbsp fresh cream"
+    },
+    {
+      "item": "cheese cube, grated (or 30 g mozzarella)",
+      "section": "coating",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "piece",
+      "grams": 30,
+      "type": "dairy",
+      "as_written": "1 cheese cube, grated (I used 30gm mozeralla cheese)"
+    },
+    {
+      "item": "oregano",
+      "section": "coating",
+      "ingredient_id": "oregano",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp oregano"
+    },
+    {
+      "item": "black pepper",
+      "section": "coating",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp black pepper"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "coating",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp red chilli powder"
+    },
+    {
+      "item": "maida or corn flour",
+      "section": "coating",
+      "ingredient_id": "maida",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "½ tbsp maida or corn flour"
+    },
+    {
+      "item": "salt",
+      "section": "coating",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp salt"
+    },
+    {
+      "item": "butter",
+      "section": "sauce",
+      "ingredient_id": "butter",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 1/2 tsp Butter"
+    },
+    {
+      "item": "garlic cloves, minced",
+      "section": "sauce",
+      "ingredient_id": "garlic",
+      "qty": 10,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "10-12 garlic cloves, minced"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "sauce",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Chilli flakes"
+    },
+    {
+      "item": "maida",
+      "section": "sauce",
+      "ingredient_id": "maida",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "1 tsp maida"
+    },
+    {
+      "item": "water",
+      "section": "sauce",
+      "ingredient_id": "water",
+      "qty": 150,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "150ml Water"
+    },
+    {
+      "item": "fresh cream",
+      "section": "sauce",
+      "ingredient_id": "cream",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "3 tbsp fresh cream"
+    },
+    {
+      "item": "salt",
+      "section": "sauce",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp salt"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp honey"
+    },
+    {
+      "item": "fresh coriander, chopped",
+      "section": "sauce",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "1/2 handful Fresh coriander, chopped"
+    }
+  ],
+  "steps": [
+    "To a pot of 1 ltr boiling water add 1 tsp salt, 1 tsp sugar, ½ tbsp ginger garlic paste, 80g soya chunks.",
+    "Let it boil for 5 min and then squeeze the water out.",
+    "Now take a bowl add 3 tbsp Greek yogurt, 2 tbsp fresh cream, 1 cheese cube, grated (I used 30gm mozeralla cheese), 1 tbsp oregano, 1 tbsp black pepper, 2 tsp red chilli powder, ½ tbsp maida or corn flour, 1/2 tsp salt.",
+    "Mix it well and coat the soya chunks.",
+    "Then pop them onto skewers and airfry at 180 degrees for 18 min.",
+    "Meanwhile let’s make the sauce, to a pan on medium head add 1 1/2 tsp Butter, 10-12 garlic cloves, minced, 1/2 tsp Chilli flakes, 1 tsp maida, 150ml Water, 3 tbsp fresh cream, 1/4 tsp salt, 1 tbsp honey, 1/2 handful Fresh coriander, chopped.",
+    "Mix it all well.",
+    "And drizzle it alll over the air fried skewers and your Butter Garlic Soya Skewers are ready."
+  ],
+  "assumptions": [
+    "Posted by ral.livezy; the caption credits the recipe to feastlyfit.",
+    "The creator's numbers are for the entire recipe.",
+    "Creator also states 11 g fibre.",
+    "The coating takes maida or corn flour, either one."
+  ],
+  "missing": [],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

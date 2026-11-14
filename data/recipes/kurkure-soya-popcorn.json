@@ -1,0 +1,127 @@
+{
+  "id": "kurkure-soya-popcorn",
+  "title": "Kurkure Soya Popcorn",
+  "source": {
+    "url": "https://www.instagram.com/reel/DZUzcAfzOax/",
+    "platform": "instagram",
+    "creator": "wifeofpotato",
+    "creator_url": "https://www.instagram.com/wifeofpotato/",
+    "ref": "batches/instinct-B003.txt#3"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks, boiled",
+      "ingredient_id": "soya_chunks",
+      "qty": 2,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "2 cup soya chunck, boiled"
+    },
+    {
+      "item": "curd",
+      "ingredient_id": "curd",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "½ cup curd"
+    },
+    {
+      "item": "ginger-garlic-green chilli paste",
+      "ingredient_id": "ginger_garlic_chilli",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger-garlic-green chilli paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp black pepper"
+    },
+    {
+      "item": "besan",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2-3 tbsp besan"
+    },
+    {
+      "item": "chopped coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp chopped coriander"
+    },
+    {
+      "item": "cornflakes, crushed into crumbs",
+      "ingredient_id": "cornflakes",
+      "qty": 0.667,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "2/3 cup cornflakes, crushed into crumbs"
+    }
+  ],
+  "steps": [
+    "Boil the soya chunks and drain excess water.",
+    "In a bowl, mix the boiled soya beans with curd, ginger-garlic-green chilli paste, salt, black pepper, besan, and chopped coriander.",
+    "Crush the cornflakes into fine crumbs and coat the prepared soya mixture evenly.",
+    "Arrange in an air fryer basket and air fry at 180°C for 12-15 minutes or until golden and crispy.",
+    "Serve hot with your favorite sauce or add them to any curry for a delicious crunchy twist."
+  ],
+  "assumptions": [
+    "Step 2 says \"soya beans\"; the list has soya chunks (\"soya chunck\" in the caption).",
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

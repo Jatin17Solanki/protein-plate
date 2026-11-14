@@ -1,0 +1,306 @@
+{
+  "id": "high-protein-kadhi",
+  "title": "High-Protein Kadhi",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dc8rgFTiC__/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B003.txt#12"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "soya_chunks",
+    "besan",
+    "curd"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "air_fryer_optional",
+    "classic"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "thinly sliced onions",
+      "section": "soya pakoras",
+      "ingredient_id": "onion",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 thinly sliced onions"
+    },
+    {
+      "item": "besan",
+      "section": "soya pakoras",
+      "ingredient_id": "besan",
+      "qty": 4,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "4 tbsp besan"
+    },
+    {
+      "item": "dry soya chunks, boiled, squeezed & blended",
+      "section": "soya pakoras",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "40g dry soya chunks, boiled, squeezed & blended"
+    },
+    {
+      "item": "green chillies, chopped",
+      "section": "soya pakoras",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chillies, chopped"
+    },
+    {
+      "item": "fresh coriander",
+      "section": "soya pakoras",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh coriander"
+    },
+    {
+      "item": "salt",
+      "section": "soya pakoras",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "besan",
+      "section": "kadhi",
+      "ingredient_id": "besan",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "½ cup besan"
+    },
+    {
+      "item": "room-temperature curd",
+      "section": "kadhi",
+      "ingredient_id": "curd",
+      "qty": 2,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "2 cups room-temperature curd"
+    },
+    {
+      "item": "turmeric",
+      "section": "kadhi",
+      "ingredient_id": "turmeric",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1½ tsp turmeric"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "kadhi",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1½ tsp red chilli powder"
+    },
+    {
+      "item": "ginger paste",
+      "section": "kadhi",
+      "ingredient_id": "ginger",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "½ tbsp ginger paste"
+    },
+    {
+      "item": "salt",
+      "section": "kadhi",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "water",
+      "section": "kadhi",
+      "ingredient_id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1 cup water"
+    },
+    {
+      "item": "mustard oil",
+      "section": "kadhi",
+      "ingredient_id": "mustard_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp mustard oil"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "section": "kadhi",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "mustard seeds",
+      "section": "kadhi",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "methi seeds",
+      "section": "kadhi",
+      "ingredient_id": "methi_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp methi seeds"
+    },
+    {
+      "item": "hing",
+      "section": "kadhi",
+      "ingredient_id": "hing",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "a pinch of hing"
+    },
+    {
+      "item": "green chillies",
+      "section": "kadhi",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chillies"
+    },
+    {
+      "item": "curry leaves",
+      "section": "kadhi",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "curry leaves"
+    },
+    {
+      "item": "more water",
+      "section": "kadhi",
+      "ingredient_id": "water",
+      "qty": 4,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "4 more cups of water"
+    },
+    {
+      "item": "kasuri methi, crushed",
+      "section": "kadhi",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "crushed kasuri methi"
+    },
+    {
+      "item": "ghee",
+      "section": "tadka",
+      "ingredient_id": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "2 tsp ghee"
+    },
+    {
+      "item": "dried red chillies",
+      "section": "tadka",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dried red chillies"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "section": "tadka",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri red chilli powder"
+    }
+  ],
+  "steps": [
+    "Mix everything well. No water is required; if the mixture feels too dry, add a small splash of water.",
+    "Shape into small balls and cook in a paniyaram pan until golden on all sides. You can also air-fry them.",
+    "Blend everything until smooth.",
+    "Heat 1 tbsp mustard oil in a kadhai. Add 1 tsp jeera, 1 tsp mustard seeds, 1 tsp methi seeds and a pinch of hing.",
+    "Once they splutter, add 3 green chillies and curry leaves. Cook for 2–3 minutes.",
+    "Add the blended kadhi mixture and 4 more cups of water. Keep stirring until it comes to a boil.",
+    "Cover and cook for 20–25 minutes.",
+    "Remove the lid, add crushed kasuri methi and mix well. Add the prepared protein pakoras and cook for another 5 minutes.",
+    "Heat 2 tsp ghee. Add 2 dried red chillies and 1 tsp Kashmiri red chilli powder. Pour over the kadhi.",
+    "Mix well and serve hot with rice!"
+  ],
+  "assumptions": [
+    "The caption gives no air-fryer time or temperature for the pakoras."
+  ],
+  "missing": [
+    "Amounts for coriander, curry leaves, kasuri methi and salt"
+  ],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for coriander, curry leaves, kasuri methi and salt"
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

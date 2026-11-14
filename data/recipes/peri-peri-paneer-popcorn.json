@@ -1,0 +1,56 @@
+{
+  "id": "peri-peri-paneer-popcorn",
+  "title": "Peri Peri Paneer Popcorn",
+  "source": {
+    "url": "https://www.instagram.com/reel/DMxN97BJr-m/",
+    "platform": "instagram",
+    "creator": "fitnessmoral",
+    "creator_url": "https://www.instagram.com/fitnessmoral/",
+    "ref": "batches/instinct-B003.txt#1"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 50,
+    "kcal": 550
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein from the caption: low-fat paneer."
+  ],
+  "missing": [
+    "Written recipe (the caption is only the dish name and macros; the video is the recipe)"
+  ],
+  "added_at": "2026-11-14",
+  "video_only": true,
+  "flags": []
+}

@@ -1,0 +1,194 @@
+{
+  "id": "tempeh-bhurji",
+  "title": "Tempeh Bhurji",
+  "source": {
+    "url": "https://www.instagram.com/reel/DUhwfuCEVDX/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B003.txt#14"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 21,
+    "kcal": 240,
+    "carbs_g": 16,
+    "fat_g": 10,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 2)",
+    "protein_g": 21,
+    "kcal": 240,
+    "carbs_g": 16,
+    "fat_g": 10
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "tempeh (Hello Tempayy), minced",
+      "ingredient_id": "tempeh",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200 g Hello Tempayy Tempeh, minced"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2 tbsp oil"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "big onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 big onion, chopped"
+    },
+    {
+      "item": "garlic cloves, minced",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 garlic cloves, minced"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1–2 green chillies, chopped"
+    },
+    {
+      "item": "big tomatoes, puréed",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 big tomatoes, puréed"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp coriander powder"
+    },
+    {
+      "item": "turmeric",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp turmeric"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp red chilli powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "2 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "garam masala",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "fresh coriander, for garnish",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh coriander for garnish"
+    },
+    {
+      "item": "splash of water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Splash of water"
+    }
+  ],
+  "steps": [
+    "Heat oil, add jeera and let it splutter.",
+    "Add garlic, onion and green chillies; sauté till light golden.",
+    "Add minced tempeh and cook for 4–5 minutes till aromatic.",
+    "Add tomato purée, spices, salt and a little water. Mix well.",
+    "Cover and cook for 7–8 minutes till flavours come together.",
+    "Finish with garam masala and garnish with coriander.",
+    "Serve hot with roti, pav or toast."
+  ],
+  "assumptions": [
+    "The caption names Hello Tempayy tempeh.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Amounts for the coriander and water"
+  ],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "missing_details",
+      "note": "Amounts for the coriander and water"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "podalangai-chana-curry",
+  "title": "Podalangai Chana Curry",
+  "source": {
+    "url": "https://www.instagram.com/reel/Deg2xAMJO8F/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B003.txt#11"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (portions not stated; \"split it\")",
+    "protein_g": 22,
+    "kcal": 500
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "snake gourd (podalangai)",
+      "ingredient_id": "snake_gourd",
+      "qty": 300,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "300g Snake Gourd"
+    },
+    {
+      "item": "raw black chana",
+      "ingredient_id": "kala_chana",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Raw Black chana"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 onion chopped"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "curry leaves"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 5,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "5ml oil"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "urad dal",
+      "ingredient_id": "urad_dal",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "protein",
+      "as_written": "1 tsp Urad daal"
+    },
+    {
+      "item": "green chilli, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 3,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "3 green chilli chopped"
+    },
+    {
+      "item": "dry red chilli, chopped",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 dry red chilli chopped"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": null,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1\\2 tsp Turmeric powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri Red chilli powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "salt"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "water"
+    },
+    {
+      "item": "grated coconut",
+      "ingredient_id": "coconut",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp Grated coconut"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaves"
+    },
+    {
+      "item": "lemon squeeze (mandatory)",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon Squeeze (Mandatory)"
+    }
+  ],
+  "steps": [
+    "Soak overnight and boil the black chana without salt and keep it aside.",
+    "Now chop the snake gourd into bite pieces and steam it for 4 to 5 mins.",
+    "Now heat oil in a pan.",
+    "Add mustard seeds, urad daal, dry chilli, green chilli.",
+    "Saute in medium flame until urad daal starts to change colour.",
+    "Now add curry leaves and onion.",
+    "Keep the flame high and sauté for 3 to 4 mins.",
+    "Now keep the flame low and add turmeric powder, red chilli powder, salt.",
+    "Saute it in medium flame for a min and add steamed snake gourd and boiled chana along with some water.",
+    "Saute in high heat for 3 to 4 mins until gets dry.",
+    "Now add grated coconuts and coriander leaves.",
+    "Switch off the flame and mix it all well for 1 min.",
+    "Now squeeze lemon on top of it, split it and enjoy it !!!"
+  ],
+  "assumptions": [
+    "Turmeric is written \"1\\2 tsp\"; read as ½ tsp, so the amount is left blank in the list.",
+    "The creator's numbers are for the whole recipe; they say to split it but not into how many portions."
+  ],
+  "missing": [
+    "Amounts for curry leaves, salt, water, coriander and lemon"
+  ],
+  "added_at": "2026-11-14",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (portions not stated; \"split it\")\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for curry leaves, salt, water, coriander and lemon"
+    }
+  ]
+}
