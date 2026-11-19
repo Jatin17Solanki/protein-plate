@@ -1,0 +1,245 @@
+{
+  "id": "lauki-gravy",
+  "title": "Lauki Gravy",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeJsMyvvAzF/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B004.txt#5"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "skyr",
+    "peanuts"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "stated next to 'Serves 2' (per serving or whole recipe not said)",
+    "protein_g": 31,
+    "kcal": 420
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "lauki (bottle gourd), cubed",
+      "ingredient_id": "lauki",
+      "qty": 300,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "300 to 400 g of Lauki"
+    },
+    {
+      "item": "skyr yogurt",
+      "ingredient_id": "skyr",
+      "qty": 225,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "225g Skyr yogurt"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "10ml oil"
+    },
+    {
+      "item": "roasted peanuts",
+      "ingredient_id": "peanuts",
+      "qty": 20,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "20 g roasted peanuts"
+    },
+    {
+      "item": "garlic, muddled with skin",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4 garlic muddle with skin"
+    },
+    {
+      "item": "mustard seeds",
+      "ingredient_id": "mustard_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp mustard seeds"
+    },
+    {
+      "item": "urad dal",
+      "ingredient_id": "urad_dal",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1 tab urad dal"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chilli chopped"
+    },
+    {
+      "item": "dried red chilli",
+      "ingredient_id": "dried_red_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 Dry chilli"
+    },
+    {
+      "item": "curry leaves",
+      "ingredient_id": "curry_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Curry leaf"
+    },
+    {
+      "item": "onions, chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 onion chopped"
+    },
+    {
+      "item": "tomatoes, chopped",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 tomato chopped"
+    },
+    {
+      "item": "turmeric powder",
+      "ingredient_id": "turmeric",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp turmeric powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri Red chilli powder"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Coriander powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaf"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water"
+    }
+  ],
+  "steps": [
+    "Heat oil in a Kadai.",
+    "Add Mustard seeds, jeera, urad dal saute For one minute in medium flame.",
+    "Now add dry chilli, Green chilli, Curry leaf saute for 30 secs in high flames.",
+    "Add onion and saute for 3 mins in high flame.",
+    "Add tomato and saute for 2 mins.",
+    "Now add Lauki cubes, Masala, Salt and mix it all for 2 mins in High flame.",
+    "Now add Water, mix it well and cover it.",
+    "Let it cook for 5 mins in medium flame.",
+    "Open it and check whether it’s cooked right or not.",
+    "Now add middle garlic and muddle peanuts.",
+    "Mix it all well in high flame for 2 mins and check the salt and switch off the flame.",
+    "Now add yogurt and Coriander leaf.",
+    "Mix it all well and enjoy it!"
+  ],
+  "assumptions": [
+    "'1 tab urad dal' read as 1 tbsp.",
+    "'Middle garlic' in the method is the muddled garlic from the list.",
+    "The caption says it serves 2.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Amounts for the curry leaves, salt, coriander leaves and water"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"stated next to 'Serves 2' (per serving or whole recipe not said)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the curry leaves, salt, coriander leaves and water"
+    },
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    },
+    {
+      "code": "other",
+      "note": "The caption says 'Serves 2' next to 31 g protein / 420 kcal but not whether that is per serving or for both; servings left blank until you decide. Most of the protein is skyr."
+    }
+  ]
+}

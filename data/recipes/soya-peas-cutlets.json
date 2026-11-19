@@ -1,0 +1,238 @@
+{
+  "id": "soya-peas-cutlets",
+  "title": "Soya Peas Cutlets",
+  "source": {
+    "url": "https://www.instagram.com/reel/DbXF1giigVQ/",
+    "platform": "instagram",
+    "creator": "harshfit7",
+    "creator_url": "https://www.instagram.com/harshfit7/",
+    "ref": "batches/instinct-B004.txt#6"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "snack",
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "bread_whole_wheat",
+    "green_peas"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya granules",
+      "section": "cutlets",
+      "ingredient_id": "soya_granules",
+      "qty": 35,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "35g soya granules"
+    },
+    {
+      "item": "boiled green peas",
+      "section": "cutlets",
+      "ingredient_id": "green_peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "½ cup boiled green peas"
+    },
+    {
+      "item": "roasted besan",
+      "section": "cutlets",
+      "ingredient_id": "besan",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "1–2 tbsp roasted besan"
+    },
+    {
+      "item": "fresh coriander",
+      "section": "cutlets",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "½ cup fresh coriander"
+    },
+    {
+      "item": "onion, finely chopped",
+      "section": "cutlets",
+      "ingredient_id": "onion",
+      "qty": 3,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "3–4 tbsp finely chopped onion"
+    },
+    {
+      "item": "garlic cloves",
+      "section": "cutlets",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3–4 garlic cloves"
+    },
+    {
+      "item": "green chillies",
+      "section": "cutlets",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chillies"
+    },
+    {
+      "item": "amchur powder",
+      "section": "cutlets",
+      "ingredient_id": "amchur",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp amchur powder"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "cutlets",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "cumin powder",
+      "section": "cutlets",
+      "ingredient_id": "cumin_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin powder"
+    },
+    {
+      "item": "black pepper",
+      "section": "cutlets",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp black pepper"
+    },
+    {
+      "item": "salt",
+      "section": "cutlets",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "whole wheat bread slices (ground into breadcrumbs)",
+      "section": "cutlets",
+      "ingredient_id": "bread_whole_wheat",
+      "qty": 2,
+      "unit": "slice",
+      "type": "grain",
+      "as_written": "2 whole wheat bread slices (ground into breadcrumbs)"
+    },
+    {
+      "item": "ghee (for cooking)",
+      "section": "cutlets",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1–2 tsp ghee (for cooking)"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "beetroot mint dip",
+      "ingredient_id": "greek_yogurt",
+      "qty": 80,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "80g Greek yogurt"
+    },
+    {
+      "item": "boiled beetroot, grated",
+      "section": "beetroot mint dip",
+      "ingredient_id": "beetroot",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "2 tbsp grated boiled beetroot"
+    },
+    {
+      "item": "dried mint",
+      "section": "beetroot mint dip",
+      "ingredient_id": "mint",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp dried mint"
+    },
+    {
+      "item": "rock salt",
+      "section": "beetroot mint dip",
+      "ingredient_id": "rock_salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Rock salt to taste"
+    },
+    {
+      "item": "chaat masala",
+      "section": "beetroot mint dip",
+      "ingredient_id": "chaat_masala",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Chaat masala to taste"
+    }
+  ],
+  "steps": [
+    "Boil the soya granules for 4–5 minutes, then drain and squeeze out all the excess water.",
+    "Add the boiled soya, peas, coriander, onion, garlic, green chillies, roasted besan, and all the spices to a mixer. Pulse until it forms a coarse dough.",
+    "Shape the mixture into cutlets using lightly greased hands.",
+    "Grind the whole wheat bread into fine breadcrumbs and coat each cutlet evenly.",
+    "Heat a pan, grease it with 1–2 tsp ghee, and cook the cutlets on low to medium heat for 20–25 minutes, turning occasionally until golden brown and crispy.",
+    "Mix the Greek yogurt, grated beetroot, dried mint, rock salt, and chaat masala until smooth. Serve chilled with the crispy cutlets."
+  ],
+  "assumptions": [
+    "The cutlets are pan-cooked; the caption calls them air fryer friendly but gives no air fryer method."
+  ],
+  "missing": [],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    }
+  ]
+}

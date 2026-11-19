@@ -94,3 +94,4 @@ Flag codes: `no_macros` · `macros_basis_unclear` · `missing_details` · `no_ma
 - 2026-11-02 · inbox batch B001 · 9 added, 8 flagged, 5 possible duplicates (chikkar-chole already in the catalog, not re-added)
 - 2026-11-10 · inbox batch B002 · 5 added, 5 flagged, 2 possible duplicates
 - 2026-11-14 · inbox batch B003 · 15 added, 11 flagged, 7 possible duplicates
+- 2026-11-19 · inbox batch B004 · 15 added, 10 flagged, 11 possible duplicates (likely real: high-protein-marry-me-tofu ↔ marry-me-tofu, soya-peas-cutlets ↔ soya-peas-kebabs-beet-dip)

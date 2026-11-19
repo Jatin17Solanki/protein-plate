@@ -1,0 +1,219 @@
+{
+  "id": "shawarma-paneer-crispy-rice-bowl",
+  "title": "Shawarma Paneer Crispy Rice Bowl",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=SX3VbErApfM",
+    "platform": "youtube",
+    "creator": "Chitwan Garg",
+    "creator_url": null,
+    "ref": "batches/instinct-B004.txt#9"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "salad_bowl",
+    "global",
+    "air_fryer_required",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 430,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (serves 1)",
+    "protein_g": 40,
+    "kcal": 430
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "leftover cooked rice",
+      "section": "crispy rice",
+      "ingredient_id": "rice_cooked",
+      "qty": 80,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Leftover cooked rice – 80 g"
+    },
+    {
+      "item": "olive oil",
+      "section": "crispy rice",
+      "ingredient_id": "olive_oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Olive oil – ½ tsp"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "crispy rice",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red chilli powder – ¼ tsp"
+    },
+    {
+      "item": "black pepper",
+      "section": "crispy rice",
+      "ingredient_id": "black_pepper",
+      "qty": 0.125,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – ⅛ tsp"
+    },
+    {
+      "item": "salt",
+      "section": "crispy rice",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "shawarma paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low-fat paneer – 100 g"
+    },
+    {
+      "item": "red chilli paste",
+      "section": "shawarma paneer",
+      "ingredient_id": "red_chilli_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Red chilli paste – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "section": "shawarma paneer",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "black pepper",
+      "section": "shawarma paneer",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – ¼ tsp"
+    },
+    {
+      "item": "cucumber, diced",
+      "section": "salad",
+      "ingredient_id": "cucumber",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Cucumber – ½ medium, diced"
+    },
+    {
+      "item": "tomatoes, halved",
+      "section": "salad",
+      "ingredient_id": "tomato",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Tomatoes – ½ cup, halved"
+    },
+    {
+      "item": "red onion, finely sliced",
+      "section": "salad",
+      "ingredient_id": "onion",
+      "qty": 0.25,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Red onion – ¼ small, finely sliced"
+    },
+    {
+      "item": "lettuce, chopped",
+      "section": "salad",
+      "ingredient_id": "lettuce",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Lettuce – ½ cup, chopped"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "dressing",
+      "ingredient_id": "greek_yogurt",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Greek yogurt – 100 g"
+    },
+    {
+      "item": "salt",
+      "section": "dressing",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "black pepper",
+      "section": "dressing",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – ¼ tsp"
+    },
+    {
+      "item": "roasted sesame seeds",
+      "section": "dressing",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "Roasted sesame seeds – ½ tbsp"
+    }
+  ],
+  "steps": [
+    "Mix leftover cooked rice with olive oil, red chilli powder, black pepper and salt.",
+    "Air-fry at 190°C for 8–12 minutes until crispy.",
+    "Coat low-fat paneer with red chilli paste, salt and pepper. Sauté in a non-stick pan until golden and lightly charred.",
+    "Add cucumber, tomatoes, onion and lettuce to a bowl.",
+    "Whisk Greek yogurt with salt, black pepper and roasted sesame seeds to make a creamy dressing.",
+    "Add crispy rice and shawarma paneer to the salad.",
+    "Pour the dressing on top, mix well and enjoy!"
+  ],
+  "assumptions": [
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-19",
+  "flags": []
+}
