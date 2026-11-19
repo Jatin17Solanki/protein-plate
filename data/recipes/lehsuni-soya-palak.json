@@ -1,0 +1,274 @@
+{
+  "id": "lehsuni-soya-palak",
+  "title": "Lehsuni Soya Palak",
+  "source": {
+    "url": "https://www.instagram.com/reel/Df2EsqxiIYz/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B004.txt#14"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "soya",
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "fresh spinach (palak)",
+      "section": "palak paste",
+      "ingredient_id": "spinach",
+      "qty": 200,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "200g fresh spinach (palak)"
+    },
+    {
+      "item": "green chillies",
+      "section": "palak paste",
+      "ingredient_id": "green_chilli",
+      "qty": 4,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "4–5 green chillies"
+    },
+    {
+      "item": "garlic cloves",
+      "section": "palak paste",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2–3 garlic cloves"
+    },
+    {
+      "item": "high-protein paneer",
+      "section": "palak paste",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g high-protein paneer"
+    },
+    {
+      "item": "water",
+      "section": "palak paste",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "A little water"
+    },
+    {
+      "item": "dry soya chunks",
+      "section": "boiling soya",
+      "ingredient_id": "soya_chunks",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g dry soya chunks"
+    },
+    {
+      "item": "bay leaf (tej patta)",
+      "section": "boiling soya",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf (tej patta)"
+    },
+    {
+      "item": "black cardamom (badi elaichi)",
+      "section": "boiling soya",
+      "ingredient_id": "black_cardamom",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 black cardamom (badi elaichi)"
+    },
+    {
+      "item": "cloves (laung)",
+      "section": "boiling soya",
+      "ingredient_id": "cloves",
+      "qty": 4,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "4–5 cloves"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "boiling soya",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "½ tbsp ginger-garlic paste"
+    },
+    {
+      "item": "salt",
+      "section": "boiling soya",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "sugar",
+      "section": "boiling soya",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "pantry",
+      "as_written": "A pinch of sugar"
+    },
+    {
+      "item": "onion, finely chopped",
+      "section": "curry",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion, finely chopped"
+    },
+    {
+      "item": "garlic cloves, chopped",
+      "section": "curry",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4–5 garlic cloves, chopped"
+    },
+    {
+      "item": "turmeric powder",
+      "section": "curry",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp turmeric powder"
+    },
+    {
+      "item": "coriander powder",
+      "section": "curry",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp coriander powder"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "curry",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp red chilli powder"
+    },
+    {
+      "item": "garam masala",
+      "section": "curry",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "section": "curry",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "oil",
+      "section": "curry",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "A little oil"
+    },
+    {
+      "item": "low-fat cream",
+      "section": "garnish",
+      "ingredient_id": "cream",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "optional": true,
+      "as_written": "Low-fat cream"
+    },
+    {
+      "item": "chilli oil",
+      "section": "garnish",
+      "ingredient_id": "chilli_oil",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "optional": true,
+      "as_written": "Chilli oil"
+    }
+  ],
+  "steps": [
+    "Blanch spinach in hot water for 4–5 minutes and immediately transfer to ice-cold water to retain its vibrant green colour.",
+    "Boil soya chunks with bay leaf, black cardamom, cloves, ginger-garlic paste, salt and a pinch of sugar for 6–7 minutes. Drain and squeeze out excess water.",
+    "Blend blanched spinach, green chillies, garlic, paneer and a little water into a smooth paste.",
+    "Heat a little oil in a pan. Add chopped onion and garlic and sauté for 3–4 minutes.",
+    "Add turmeric, coriander powder and red chilli powder. Cook for 2–3 minutes.",
+    "Add the palak paste and salt. Mix well and cook for 4–5 minutes.",
+    "Add boiled soya chunks and cook for another 5–7 minutes.",
+    "Finish with garam masala and cook for 4–5 minutes.",
+    "Top with low-fat cream and chilli oil (optional).",
+    "Serve hot with roti or rice!"
+  ],
+  "assumptions": [
+    "The creator calls it a protein upgrade of palak paneer: soya chunks added to the spinach-paneer curry."
+  ],
+  "missing": [
+    "Amounts for the water, oil, low-fat cream and chilli oil"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the water, oil, low-fat cream and chilli oil"
+    }
+  ]
+}

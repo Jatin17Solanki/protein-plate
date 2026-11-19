@@ -1,0 +1,222 @@
+{
+  "id": "high-protein-falafel-chaat",
+  "title": "High-Protein Falafel Chaat",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSB-yA5jPFb/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B004.txt#7"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "chaat",
+    "air_fryer_optional"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "overnight-soaked chickpeas",
+      "ingredient_id": "chickpeas",
+      "qty": 1,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "1 cup overnight soaked chickpeas"
+    },
+    {
+      "item": "onion, chopped",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 chopped onion"
+    },
+    {
+      "item": "garlic cloves",
+      "ingredient_id": "garlic",
+      "qty": 8,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "8–10 garlic cloves"
+    },
+    {
+      "item": "green chillies",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2–3 green chillies"
+    },
+    {
+      "item": "fresh coriander",
+      "ingredient_id": "coriander_leaves",
+      "qty": 1,
+      "unit": "handful",
+      "type": "produce",
+      "as_written": "Handful fresh coriander"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt to taste"
+    },
+    {
+      "item": "coriander powder",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp coriander powder"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 3,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "3–4 tsp red chilli powder"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp cumin seeds"
+    },
+    {
+      "item": "besan (gram flour)",
+      "ingredient_id": "besan",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "protein",
+      "as_written": "2 tbsp besan"
+    },
+    {
+      "item": "baking soda",
+      "ingredient_id": "baking_soda",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp baking soda"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp oil"
+    },
+    {
+      "item": "curd (mixed with salt + black pepper)",
+      "section": "toppings",
+      "ingredient_id": "curd",
+      "qty": null,
+      "unit": null,
+      "type": "dairy",
+      "as_written": "Curd (mixed with salt + black pepper)"
+    },
+    {
+      "item": "green chutney",
+      "section": "toppings",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Green chutney"
+    },
+    {
+      "item": "imli chutney",
+      "section": "toppings",
+      "ingredient_id": "imli_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "as_written": "Imli chutney"
+    },
+    {
+      "item": "chopped onions",
+      "section": "toppings",
+      "ingredient_id": "onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped onions"
+    },
+    {
+      "item": "fresh coriander",
+      "section": "toppings",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh coriander"
+    },
+    {
+      "item": "sev / namkeen",
+      "section": "toppings",
+      "ingredient_id": "sev",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Sev/namkeen (optional)"
+    }
+  ],
+  "steps": [
+    "In a blender, add chickpeas, onion, garlic, green chillies, coriander, salt, coriander powder, red chilli powder and cumin seeds.",
+    "Blend in small portions without adding water to form a coarse, sticky mixture.",
+    "Transfer to a bowl, add besan, baking soda and oil. Mix well.",
+    "Shape into small falafels.",
+    "Air fry in a preheated air fryer at 180°C for 20 minutes.",
+    "Place falafels on a plate and top with curd mixture, green chutney, imli chutney, onions, coriander and sev."
+  ],
+  "assumptions": [
+    "The recipe is from the creator's pinned comment on the post (the caption has none).",
+    "The amounts (3–4 tsp red chilli powder, 1 tsp baking soda) are as the creator wrote them.",
+    "In the video the creator says the falafel can be fried or air-fried.",
+    "The caption's imli and hari chutney are the imli chutney and green chutney toppings; the curd topping is mixed with salt and black pepper (amounts not given)."
+  ],
+  "missing": [
+    "Amounts for the toppings (curd, chutneys, onions, coriander, sev)"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the toppings (curd, chutneys, onions, coriander, sev)"
+    }
+  ]
+}

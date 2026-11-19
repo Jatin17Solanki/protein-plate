@@ -1,0 +1,53 @@
+{
+  "id": "easy-grilled-tofu",
+  "title": "Easy Grilled Tofu",
+  "source": {
+    "url": "https://www.instagram.com/reel/DK68PsSJiQg/",
+    "platform": "instagram",
+    "creator": "fitnessmoral",
+    "creator_url": "https://www.instagram.com/fitnessmoral/",
+    "ref": "batches/instinct-B004.txt#11"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "the portion shown (one tofu block; weight not stated)",
+    "protein_g": 28,
+    "kcal": 310
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein from the caption: a block of grilled tofu."
+  ],
+  "missing": [
+    "Written recipe (the caption has no ingredients or method; the video is the recipe)"
+  ],
+  "added_at": "2026-11-19",
+  "video_only": true,
+  "flags": []
+}

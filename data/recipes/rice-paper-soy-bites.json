@@ -1,0 +1,107 @@
+{
+  "id": "rice-paper-soy-bites",
+  "title": "Rice Paper Soy Bites",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dfw5EVLq1Nq/",
+    "platform": "instagram",
+    "creator": "ekansh_taneja_fitness",
+    "creator_url": "https://www.instagram.com/ekansh_taneja_fitness/",
+    "ref": "batches/instinct-B004.txt#12"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "wrap_roll_taco",
+    "air_fryer_required",
+    "quick",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 28,
+    "kcal": 283,
+    "carbs_g": 40,
+    "fat_g": 0.7,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per roll (makes 2 rolls)",
+    "protein_g": 28,
+    "kcal": 283,
+    "carbs_g": 40,
+    "fat_g": 0.7
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "raw soy chunks, boiled and minced",
+      "ingredient_id": "soya_chunks",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g raw soy chunks"
+    },
+    {
+      "item": "ginger garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger garlic paste"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp salt"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "spice",
+      "as_written": "1 tbsp red chilli powder"
+    },
+    {
+      "item": "rice paper sheets",
+      "ingredient_id": "rice_paper",
+      "qty": 2,
+      "unit": "piece",
+      "grams": 66,
+      "type": "grain",
+      "as_written": "2 sheets (33g each) of rice paper"
+    }
+  ],
+  "steps": [
+    "Boil and mince 100g raw soy chunks, 1 tbsp ginger garlic paste, 1 tsp salt, 1 tbsp red chilli powder. Mix well and set it aside.",
+    "Now dip 2 sheets (33g each) of rice paper in water for 10 seconds until it softens.",
+    "Spread and divide whole portion of the soy mixture evenly over the rice papers.",
+    "Roll it up tightly and cut it into 5-6 bite-sized pieces.",
+    "Air fry at 200°C for 15 minutes, flipping halfway through, until the bites are fully crispy.",
+    "And it’s ready!"
+  ],
+  "assumptions": [
+    "The title also says 56 cal per piece (each roll is cut into 5–6 bites).",
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-19",
+  "flags": []
+}
