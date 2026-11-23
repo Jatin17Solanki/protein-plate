@@ -1,0 +1,51 @@
+{
+  "id": "crispy-hot-honey-chili-tofu",
+  "title": "Crispy Hot Honey Chili Tofu",
+  "source": {
+    "url": "https://www.instagram.com/reel/DSt5JhFkUiH/",
+    "platform": "instagram",
+    "creator": "feastlyfit",
+    "creator_url": "https://www.instagram.com/feastlyfit/",
+    "ref": "batches/instinct-B004.txt#10"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein from the caption: tofu, tossed in hot honey and chilli (Asian-style)."
+  ],
+  "missing": [
+    "Written recipe (the caption has no ingredients or method; the video is the recipe)"
+  ],
+  "added_at": "2026-11-19",
+  "video_only": true,
+  "flags": []
+}

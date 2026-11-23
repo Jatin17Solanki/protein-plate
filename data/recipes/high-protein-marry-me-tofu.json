@@ -1,0 +1,276 @@
+{
+  "id": "high-protein-marry-me-tofu",
+  "title": "High-Protein Marry Me Tofu",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=62dhJ1EvMLE",
+    "platform": "youtube",
+    "creator": "Ritika Phulwade",
+    "creator_url": null,
+    "ref": "batches/instinct-B004.txt#8"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt",
+    "mozzarella"
+  ],
+  "tags": [
+    "curry_sabzi",
+    "global",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 40,
+    "kcal": 450,
+    "carbs_g": 30,
+    "fat_g": 20,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole dish — one portion",
+    "protein_g": 40,
+    "kcal": 450,
+    "carbs_g": 30,
+    "fat_g": 20
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "section": "crispy tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "200g firm tofu"
+    },
+    {
+      "item": "cornflour",
+      "section": "crispy tofu",
+      "ingredient_id": "corn_flour",
+      "qty": 2,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "2 tsp cornflour"
+    },
+    {
+      "item": "Kashmiri chilli powder",
+      "section": "crispy tofu",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Kashmiri chilli powder"
+    },
+    {
+      "item": "Italian seasoning",
+      "section": "crispy tofu",
+      "ingredient_id": "oregano",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Italian seasoning"
+    },
+    {
+      "item": "soy sauce",
+      "section": "crispy tofu",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp soy sauce"
+    },
+    {
+      "item": "oil",
+      "section": "crispy tofu",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "salt",
+      "section": "crispy tofu",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and black pepper"
+    },
+    {
+      "item": "black pepper",
+      "section": "crispy tofu",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and black pepper"
+    },
+    {
+      "item": "oil",
+      "section": "creamy sauce",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp oil"
+    },
+    {
+      "item": "small onion, finely chopped",
+      "section": "creamy sauce",
+      "ingredient_id": "onion",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ small onion, finely chopped"
+    },
+    {
+      "item": "minced garlic",
+      "section": "creamy sauce",
+      "ingredient_id": "garlic",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp minced garlic"
+    },
+    {
+      "item": "medium tomato, finely chopped",
+      "section": "creamy sauce",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 medium tomato, finely chopped"
+    },
+    {
+      "item": "tomato ketchup",
+      "section": "creamy sauce",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1–1½ tbsp tomato ketchup"
+    },
+    {
+      "item": "Kashmiri chilli powder",
+      "section": "creamy sauce",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Kashmiri chilli powder"
+    },
+    {
+      "item": "Italian seasoning",
+      "section": "creamy sauce",
+      "ingredient_id": "oregano",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½ tsp Italian seasoning"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "creamy sauce",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "½–1 tsp chilli flakes"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "creamy sauce",
+      "ingredient_id": "greek_yogurt",
+      "qty": 120,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "120g Greek yogurt"
+    },
+    {
+      "item": "salt",
+      "section": "creamy sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and black pepper"
+    },
+    {
+      "item": "black pepper",
+      "section": "creamy sauce",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and black pepper"
+    },
+    {
+      "item": "grated mozzarella",
+      "section": "topping",
+      "ingredient_id": "mozzarella",
+      "qty": 20,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "20g grated mozzarella"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "topping",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Chilli flakes"
+    },
+    {
+      "item": "fresh coriander or parsley",
+      "section": "topping",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Fresh coriander or parsley"
+    }
+  ],
+  "steps": [
+    "Tear tofu into bite-sized pieces. Toss with cornflour, spices, soy sauce, salt, pepper and oil.",
+    "Air fry at 200°C for 12–15 minutes, shaking halfway, until golden and crispy.",
+    "Heat oil in a pan. Sauté onion and garlic.",
+    "Add tomatoes, ketchup, spices and seasoning. Cook until jammy.",
+    "Turn off the heat and mix in Greek yogurt until creamy.",
+    "Add crispy tofu and coat generously in the sauce.",
+    "Top with mozzarella, cover until melted and finish with chilli flakes and fresh herbs."
+  ],
+  "assumptions": [
+    "The creator gives ranges for the whole dish: ~450–480 kcal, ~40–43 g protein, ~30–35 g carbs, ~20–22 g fat; the lower figures are recorded.",
+    "The video description mentions chicken only as a comparison; it is not an ingredient."
+  ],
+  "missing": [
+    "Amounts for the salt, black pepper, topping chilli flakes and herbs"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "missing_details",
+      "note": "Amounts for the salt, black pepper, topping chilli flakes and herbs"
+    }
+  ]
+}

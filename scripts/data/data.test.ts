@@ -127,6 +127,9 @@ describe('numbersIn', () => {
   it('reads mixed fractions and thousands separators as one number', () => {
     expect([...numbersIn('1 1/2 tbsp ghee, 1,220 kcal')].sort()).toEqual(['1.5', '1220'].sort());
   });
+  it('reads a backslash typed for the fraction slash', () => {
+    expect([...numbersIn('1\\2 tsp chaat masala')]).toEqual(['0.5']);
+  });
 });
 
 describe('isPromoLine', () => {

@@ -1,0 +1,218 @@
+{
+  "id": "rice-paper-paneer-bites",
+  "title": "Rice Paper Paneer Bites",
+  "source": {
+    "url": "https://www.instagram.com/reel/Df1ZeXIyAlI/",
+    "platform": "instagram",
+    "creator": "_naman_gulati",
+    "creator_url": "https://www.instagram.com/_naman_gulati/",
+    "ref": "batches/instinct-B004.txt#13"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "mushroom"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "air_fryer_required",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "olive oil",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1tbsp Olive Oil"
+    },
+    {
+      "item": "chopped mushrooms",
+      "ingredient_id": "mushroom",
+      "qty": 180,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "180g Chopped Mushrooms"
+    },
+    {
+      "item": "paneer",
+      "ingredient_id": "paneer",
+      "qty": 150,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "150g Paneer"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1tbsp Soy Sauce"
+    },
+    {
+      "item": "garlic, minced",
+      "ingredient_id": "garlic",
+      "qty": 3,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "3 Cloves Minced Garlic"
+    },
+    {
+      "item": "green onions, sliced",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Sliced Green Onions"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and Pepper"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt and Pepper"
+    },
+    {
+      "item": "rice paper",
+      "ingredient_id": "rice_paper",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Rice Paper"
+    },
+    {
+      "item": "peanut butter",
+      "section": "sauce",
+      "ingredient_id": "peanut_butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1tbsp Peanut Butter"
+    },
+    {
+      "item": "garlic, minced",
+      "section": "sauce",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 Cloves Minced Garlic"
+    },
+    {
+      "item": "green onion, sliced",
+      "section": "sauce",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Sliced Green Onion"
+    },
+    {
+      "item": "chilli crisp",
+      "section": "sauce",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1tsp Chilli Crisp"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "sauce",
+      "ingredient_id": "sesame_seeds",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1tbsp Sesame Seeds"
+    },
+    {
+      "item": "soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1tsp Soy Sauce"
+    },
+    {
+      "item": "honey or maple syrup",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1tsp Honey/Maple Syrup"
+    },
+    {
+      "item": "hot sesame oil",
+      "section": "sauce",
+      "ingredient_id": "sesame_oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "2tbsp Hot Sesame Oil"
+    }
+  ],
+  "steps": [
+    "For the filling, heat a little oil and add the chopped mushrooms.",
+    "When the mushrooms are nice and brown, add the paneer.",
+    "Cut off the heat, add one tablespoon of soy sauce, minced garlic, green onions, and salt and pepper to taste - that is the filling.",
+    "Add the filling to the rice paper and roll it up like a burrito, then cut into bite-sized pieces.",
+    "Place them in the air fryer until golden, brown and crispy.",
+    "For the sauce: one tablespoon of peanut butter, minced garlic, green onions, some chili oil, sesame seeds, soy sauce, honey or maple syrup, and finally the hot oil.",
+    "To plate: sauce on the bottom, bites on top, more sesame seeds, and spring onion greens to finish."
+  ],
+  "assumptions": [
+    "The caption lists the ingredients only; the steps are the creator’s words from the video.",
+    "The video shows the rice paper softened in water before filling (this step is not spoken)."
+  ],
+  "missing": [
+    "Air fryer temperature and time",
+    "Amounts for the green onions, salt and pepper, and rice paper"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Air fryer temperature and time; Amounts for the green onions, salt and pepper, and rice paper"
+    }
+  ]
+}

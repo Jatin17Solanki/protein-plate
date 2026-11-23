@@ -1,0 +1,333 @@
+{
+  "id": "no-onion-no-garlic-palak-paneer",
+  "title": "No Onion, No Garlic Palak Paneer",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeeSgEqRf_f/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B004.txt#4"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "besan"
+  ],
+  "tags": [
+    "curry_sabzi"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 34,
+    "kcal": 465
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "palak (spinach)",
+      "section": "spinach dough",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Bunch of palak"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "section": "spinach dough",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Jeera"
+    },
+    {
+      "item": "oil",
+      "section": "spinach dough",
+      "ingredient_id": "oil",
+      "qty": 5,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "5ml oil"
+    },
+    {
+      "item": "green chilli, chopped",
+      "section": "spinach dough",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli chopped"
+    },
+    {
+      "item": "ginger",
+      "section": "spinach dough",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Ginger"
+    },
+    {
+      "item": "coriander powder",
+      "section": "spinach dough",
+      "ingredient_id": "coriander_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Coriander powder"
+    },
+    {
+      "item": "garam masala",
+      "section": "spinach dough",
+      "ingredient_id": "garam_masala",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Garam masala"
+    },
+    {
+      "item": "besan (gram flour)",
+      "section": "spinach dough",
+      "ingredient_id": "besan",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g Besan flour"
+    },
+    {
+      "item": "salt",
+      "section": "spinach dough",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "low-fat paneer, grated",
+      "section": "paneer filling",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g low fat paneer"
+    },
+    {
+      "item": "black pepper powder",
+      "section": "paneer filling",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Black pepper powder"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "paneer filling",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaves"
+    },
+    {
+      "item": "salt",
+      "section": "paneer filling",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "tomatoes",
+      "section": "tomato gravy",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 tomato"
+    },
+    {
+      "item": "oil",
+      "section": "tomato gravy",
+      "ingredient_id": "oil",
+      "qty": 5,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "5ml oil"
+    },
+    {
+      "item": "cumin seeds (jeera)",
+      "section": "tomato gravy",
+      "ingredient_id": "cumin_seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp jeera"
+    },
+    {
+      "item": "green cardamom",
+      "section": "tomato gravy",
+      "ingredient_id": "green_cardamom",
+      "qty": 2,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "2 cardamom"
+    },
+    {
+      "item": "cloves (laung)",
+      "section": "tomato gravy",
+      "ingredient_id": "cloves",
+      "qty": 3,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "3 cloves"
+    },
+    {
+      "item": "bay leaf",
+      "section": "tomato gravy",
+      "ingredient_id": "bay_leaf",
+      "qty": 1,
+      "unit": "piece",
+      "type": "spice",
+      "as_written": "1 bay leaf"
+    },
+    {
+      "item": "green chilli, chopped",
+      "section": "tomato gravy",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 green chilli chopped"
+    },
+    {
+      "item": "walnuts",
+      "section": "tomato gravy",
+      "ingredient_id": "walnuts",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g walnuts"
+    },
+    {
+      "item": "coriander powder",
+      "section": "tomato gravy",
+      "ingredient_id": "coriander_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp coriander powder"
+    },
+    {
+      "item": "Kashmiri red chilli powder",
+      "section": "tomato gravy",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/2 tsp Kashmiri red chilli powder"
+    },
+    {
+      "item": "turmeric powder",
+      "section": "tomato gravy",
+      "ingredient_id": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp turmeric powder"
+    },
+    {
+      "item": "garam masala",
+      "section": "tomato gravy",
+      "ingredient_id": "garam_masala",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1/4 tsp garam masala"
+    },
+    {
+      "item": "salt",
+      "section": "tomato gravy",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "section": "tomato gravy",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Kasoori methi"
+    },
+    {
+      "item": "water",
+      "section": "tomato gravy",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water"
+    }
+  ],
+  "steps": [
+    "Blanch the spinach and mix it well as a paste in a blender.",
+    "Heat oil in a pan.",
+    "Add jeera, ginger, green chilli and spinach paste and masala and salt.",
+    "Mix it well for 3 min high flame and besan flour and mix it well into a dough.",
+    "Now add grated paneer in a bowl along with pepper powder, coriander leaf and salt.",
+    "Make it as ball and stuff it into the spinach dough and make it as a whole ball.",
+    "Now add one by one slowly into a steamer.",
+    "Steam it for 3 to 4 mins.",
+    "Now heat oil in a pan and add cardamom, cloves and bay leaf along with tomato, walnuts, masala, Kasoori methi, salt and water.",
+    "Mix it all well in high heat for 1 min and cover it and cook it in medium flame for 4 mins.",
+    "Now transfer in a plate and let it come to room temperature.",
+    "Now transfer into a mixer jar and blend it into a paste and add in a kadai along with jeera.",
+    "Mix it well for 3 mins in high flame.",
+    "Now pour it in a plate and cut the spinach paneer balls and add it into this gravy and enjoy it!"
+  ],
+  "assumptions": [],
+  "missing": [
+    "Amounts for the palak (a bunch), ginger, coriander leaves, salt, kasoori methi and water"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the palak (a bunch), ginger, coriander leaves, salt, kasoori methi and water"
+    }
+  ]
+}

@@ -60,7 +60,8 @@ export function numbersIn(text: string): Set<string> {
   t = t.replace(/(?<![\d.\-–])(\d+)\s+(\d)\s*\/\s*(\d)(?!\d)/g, (m, w: string, a: string, b: string) => (Number(a) < Number(b) ? ` ${Number(w) + Number(a) / Number(b)} ` : m));
   t = t.replace(/(\d+)\s*([½¼¾⅓⅔⅛])/g, (_, w: string, f: string) => ` ${Number(w) + FRACTIONS[f]} `);
   t = t.replace(/[½¼¾⅓⅔⅛]/g, (f) => ` ${FRACTIONS[f]} `);
-  t = t.replace(/(\d+)\s*\/\s*(\d+)/g, (_, a: string, b: string) => ` ${Number(a) / Number(b)} `);
+  // "1\2 tsp" (a backslash typed for the slash) is ½ too.
+  t = t.replace(/(\d+)\s*[/\\]\s*(\d+)/g, (_, a: string, b: string) => ` ${Number(a) / Number(b)} `);
   for (const m of t.matchAll(/\d+(?:\.\d+)?/g)) out.add(key(Number(m[0])));
   for (const m of t.toLowerCase().matchAll(/\b[a-z]+\b/g)) if (m[0] in WORDS) out.add(key(WORDS[m[0]]));
   return out;

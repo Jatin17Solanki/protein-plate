@@ -1,0 +1,174 @@
+{
+  "id": "tempeh-gravy",
+  "title": "Tempeh Gravy",
+  "source": {
+    "url": "https://www.instagram.com/reel/DNVX7j8xdWk/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B004.txt#1"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "main_proteins": [
+    "tempeh"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "curry_sabzi",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 30,
+    "kcal": 350
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "tempeh (Hello Tempeh)",
+      "ingredient_id": "tempeh",
+      "qty": 130,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Hello Tempeh 130 g"
+    },
+    {
+      "item": "sesame oil",
+      "ingredient_id": "sesame_oil",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "10ml sesame oil"
+    },
+    {
+      "item": "besan (gram flour)",
+      "ingredient_id": "besan",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "protein",
+      "as_written": "1 tsp besan flour"
+    },
+    {
+      "item": "onions, chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 Onion Chopped"
+    },
+    {
+      "item": "tomatoes, chopped",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 tomato chopped"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "2 green chilli chopped"
+    },
+    {
+      "item": "ginger, julienned",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Ginger julienne"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp pepper powder"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaf"
+    },
+    {
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "ingredient_id": "kasuri_methi",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Dry methi leaf"
+    }
+  ],
+  "steps": [
+    "Heat Oil in the Kadai And keep it in low flame.",
+    "Add besan flour and stir For one minute.",
+    "Now add onion, tomato, green chilli, ginger, and chopped Tempeh.",
+    "Mix it all for 2 to 3 minutes in High flame.",
+    "Now add some water.",
+    "And mix it all for high flame in 4 to 5 minutes.",
+    "Now add some salt and mix it well.",
+    "Now check the salt and add dry methi, Coriander leaf, Black pepper powder, and switch off the flame.",
+    "Mix it all and enjoy it!"
+  ],
+  "assumptions": [
+    "The caption names Hello Tempeh tempeh.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Amounts for the ginger, water, salt, coriander leaves and dry methi"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the ginger, water, salt, coriander leaves and dry methi"
+    }
+  ]
+}

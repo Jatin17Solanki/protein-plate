@@ -1,0 +1,51 @@
+{
+  "id": "kurkure-bhindi",
+  "title": "Kurkure Bhindi",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dfj36onv-th/",
+    "platform": "instagram",
+    "creator": "chef_satyaa",
+    "creator_url": "https://www.instagram.com/chef_satyaa/",
+    "ref": "batches/instinct-B004.txt#15"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "Main protein from the video: boiled, crushed soya chunks are added to the air-fried bhindi."
+  ],
+  "missing": [
+    "Written recipe (the caption has no ingredients or method; the video is the recipe)"
+  ],
+  "added_at": "2026-11-19",
+  "video_only": true,
+  "flags": []
+}

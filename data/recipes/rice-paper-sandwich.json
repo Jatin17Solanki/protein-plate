@@ -1,0 +1,263 @@
+{
+  "id": "rice-paper-sandwich",
+  "title": "Rice Paper Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DfUXBIEKlnC/",
+    "platform": "instagram",
+    "creator": "vencutcook",
+    "creator_url": "https://www.instagram.com/vencutcook/",
+    "ref": "batches/instinct-B004.txt#3"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "skyr"
+  ],
+  "tags": [
+    "sandwich_toast",
+    "global",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "stated next to 'Serves 2' (per serving or whole recipe not said)",
+    "protein_g": 31,
+    "kcal": 500
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer, grated",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "100g Low fat paneer"
+    },
+    {
+      "item": "boiled sweet corn",
+      "ingredient_id": "sweet_corn",
+      "qty": 30,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "30g Boiled Sweet corn"
+    },
+    {
+      "item": "capsicum",
+      "ingredient_id": "capsicum",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "50g Capsicum"
+    },
+    {
+      "item": "oil",
+      "ingredient_id": "oil",
+      "qty": 10,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "10ml oil"
+    },
+    {
+      "item": "garlic, chopped",
+      "ingredient_id": "garlic",
+      "qty": 4,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "4 garlic chopped"
+    },
+    {
+      "item": "ginger, chopped",
+      "ingredient_id": "ginger",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "ginger chopped"
+    },
+    {
+      "item": "onion, sliced",
+      "ingredient_id": "onion",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 onion sliced"
+    },
+    {
+      "item": "soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp Soya sauce"
+    },
+    {
+      "item": "vinegar",
+      "ingredient_id": "vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1 tsp Vinger"
+    },
+    {
+      "item": "tomato ketchup",
+      "ingredient_id": "ketchup",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp Tomato Ketchup"
+    },
+    {
+      "item": "black pepper powder",
+      "ingredient_id": "black_pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Balck pepper powder"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    },
+    {
+      "item": "coriander leaves",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Coriander leaves"
+    },
+    {
+      "item": "skyr yogurt",
+      "section": "yogurt dip",
+      "ingredient_id": "skyr",
+      "qty": 100,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "100g Skyr Yogurt"
+    },
+    {
+      "item": "Kashmiri chilli powder",
+      "section": "yogurt dip",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1 tsp Kashmiri Chilli powder"
+    },
+    {
+      "item": "cumin powder (jeera powder)",
+      "section": "yogurt dip",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1\\2 tsp Jeera powder"
+    },
+    {
+      "item": "chaat masala",
+      "section": "yogurt dip",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "1\\2 tsp chaat masala"
+    },
+    {
+      "item": "lemon, squeezed",
+      "section": "yogurt dip",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "half lemon squeeze"
+    },
+    {
+      "item": "coriander leaves",
+      "section": "yogurt dip",
+      "ingredient_id": "coriander_leaves",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "coriander leaves"
+    },
+    {
+      "item": "rice paper sheets",
+      "ingredient_id": "rice_paper",
+      "qty": 2,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "2 or 3 Rice Paper"
+    },
+    {
+      "item": "white sesame seeds",
+      "ingredient_id": "sesame_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "1\\2 tsp white Sesame seeds"
+    }
+  ],
+  "steps": [
+    "Heat oil in a pan.",
+    "Add garlic, ginger, onion and sauté for 2 mins in high flame.",
+    "Add all the sauces and corn and capsicum.",
+    "Saute in high flame for 2 mins.",
+    "Now add grated paneer, black pepper powder and salt and coriander leaves.",
+    "Saute for 3 mins in high flame and switch off the flame.",
+    "Now add Kashmiri chilli powder, jeera powder, chaat masala, coriander leaves, lemon juice in the yogurt.",
+    "Mix it all well and keep it aside.",
+    "Now heat tawa and speed some oil.",
+    "Keep the flame medium and place the soaked rice paper on oil spreaded tawa.",
+    "Now fill the paneer stuffing and place another soaked rice paper to cover it.",
+    "Sprinkle some sesame on top of it.",
+    "Each side cook for 2 mins in medium flame as long as it becomes crisp.",
+    "Now take it out and cut it and enjoy it with Yogurt dip."
+  ],
+  "assumptions": [
+    "'1\\2 tsp' read as ½ tsp.",
+    "The caption says it serves 2.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Amounts for the ginger, salt and coriander leaves"
+  ],
+  "added_at": "2026-11-19",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"stated next to 'Serves 2' (per serving or whole recipe not said)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the ginger, salt and coriander leaves"
+    },
+    {
+      "code": "other",
+      "note": "The caption says 'Serves 2' next to 31 g protein / 500 kcal but not whether that is per serving or for both; servings left blank so the numbers aren't shown per portion until you decide."
+    }
+  ]
+}
