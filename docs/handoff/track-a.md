@@ -1,10 +1,12 @@
 # Track A handoff — App
 
-_Last updated: 2026-11-10 (V2-2 session)_
+_Last updated: 2026-11-23 (V2-5 session)_
 
 **Direction change (DECISIONS 2026-11-10):** v2 is a better catalog, not a meal planner. No plan/rotation/cook/household features. TRACKER rows V2-1 to V2-3.
 
-**Done (V2-2, PR open):** `QUICK` gains `classic` ("Classics") and `addOn` ("Add-ons") right after Quick; `matchesQuick` reads tags `classic` / `add_on` (Track B, B8, PR 37: 30 + 7 live recipes). Shows on the Home chip row, filter sheet quick picks, desktop chip row. Recipe page `tagChips` adds "Classic" / "Add-on". Fixtures: `rajma-rice-bowl` + `classic`, `lasooni-dhaniya-paneer` + `add_on`. Tests: unit (home, recipe), e2e `filters.spec.ts` "Classics and Add-ons…" + `classics-390-light.png`. MANUAL-TEST J4 step 3 now uses the chips.
+**Done (V2-5, PR open):** `QUICK` gains `vegan` ("Vegan", after Add-ons) matching Track B's computed `vegan` tag (B9, PR 44); recipe page `tagChips` adds "Vegan". Fixture `tempeh-chilli-noodles` + `vegan`. Unit + e2e (`filters.spec.ts` Classics/Add-ons/Vegan flow). MANUAL-TEST J4 step 4 uses the chip. V2-4 (README Make it yours, menu "About · make your own copy", PR 40) and the link-preview count fix (PR 41) are merged.
+
+**Done before (V2-2, PR 38 merged):** `QUICK` gains `classic` ("Classics") and `addOn` ("Add-ons") right after Quick; `matchesQuick` reads tags `classic` / `add_on` (Track B, B8, PR 37: 30 + 7 live recipes). Shows on the Home chip row, filter sheet quick picks, desktop chip row. Recipe page `tagChips` adds "Classic" / "Add-on". Fixtures: `rajma-rice-bowl` + `classic`, `lasooni-dhaniya-paneer` + `add_on`. Tests: unit (home, recipe), e2e `filters.spec.ts` "Classics and Add-ons…" + `classics-390-light.png`. MANUAL-TEST J4 step 3 now uses the chips.
 
 **Done before (V2-1, PR 36 merged):** desserts and sauces sort last (`EXTRA_TYPES`, `Tile.extra`, `picksExtras`); **Leave out** a main protein (`skipProteins`, `pickProtein` / `skipProtein`, swap-aware counts); "Curry" → "Sabzi"; CI pinned to `ubuntu-24.04` (Playwright 1.56 can't install on 26.04: unpin after a Playwright upgrade).
 
@@ -21,5 +23,6 @@ _Last updated: 2026-11-10 (V2-2 session)_
 - Don't `pkill -f` a pattern that matches your own command line.
 - Lists, cards, share, exports and OG use `portionProtein`; only the recipe page macro card uses `shownProtein`/`shownNumbers`. `estimated_macros` stays on the recipe page only (`tests/unit/bl1.test.ts`).
 - Tell Track B if `compactCatalog()`'s line format changes.
+- Cloud containers may ship a newer Chromium than Playwright 1.56 expects (`chromium_headless_shell-1194` missing). Run e2e locally with a throwaway config that sets `use.launchOptions.executablePath: '/opt/pw-browsers/chromium'`; don't commit it. CI is unaffected.
 
 **Open questions:** none.

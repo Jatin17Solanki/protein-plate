@@ -134,6 +134,10 @@ test('Classics and Add-ons quick chips filter by tag', async ({ page }) => {
   await page.getByRole('button', { name: 'Add-ons' }).click();
   await expect(tiles(page)).toHaveCount(1);
   await expect(page.locator('.summary')).toContainText('Add-ons — 1 dish');
+  await page.getByRole('button', { name: 'Add-ons' }).click();
+  await page.getByRole('button', { name: 'Vegan' }).click();
+  await expect(tiles(page)).toHaveCount(1);
+  await expect(page.locator('.summary')).toContainText('Vegan — 1 dish');
 });
 
 test('Leave out: hides a protein, swaps with Main protein, shows in the summary', async ({ page }) => {
