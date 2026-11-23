@@ -22,7 +22,9 @@
   "supporting_proteins": [
     "oats"
   ],
-  "tags": [],
+  "tags": [
+    "vegan"
+  ],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {
@@ -88,7 +90,9 @@
     "Add lots of ice, oat milk and the coffee mix and sip in.",
     "Please Note, heating this oat milk will lead to separation. So use it for chilled drinks only. You can add a tsp of oil as well along with the salt to avoid separation if you are into hot drinks. Also, shake the bottle everytime before use."
   ],
-  "assumptions": [],
+  "assumptions": [
+    "Honey or date syrup, as the creator wrote; date syrup keeps it vegan."
+  ],
   "missing": [],
   "added_at": "2026-10-21",
   "flags": [

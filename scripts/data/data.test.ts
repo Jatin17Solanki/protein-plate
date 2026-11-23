@@ -7,6 +7,7 @@ import { findPairs, findPairsAgainst } from './lib/dedupe';
 import { estimate } from './lib/estimate';
 import { checkFidelity, isPromoLine, numbersIn } from './lib/fidelity';
 import { canonicalUrl, linkKey, parseBatch } from './lib/raw';
+import { veganStatus } from './lib/vegan';
 
 const dict = dictJson as DictEntry[];
 const matcher = makeMatcher(dict);
@@ -234,6 +235,33 @@ describe('estimate', () => {
     const r = tikki();
     r.ingredients.push({ item: 'Greek yogurt', ingredient_id: 'greek_yogurt', qty: 100, unit: 'g', type: 'dairy', as_written: '100g greek yogurt' });
     expect(estimate(r, byId).supporting_proteins).toEqual(['greek_yogurt']);
+  });
+});
+
+describe('veganStatus', () => {
+  const byId = matcher.byId;
+  const add = (r: Recipe, id: string, extra: Partial<Recipe['ingredients'][number]> = {}) =>
+    r.ingredients.push({ item: id, ingredient_id: id, qty: 1, unit: 'tbsp', type: byId.get(id)?.type ?? 'pantry', as_written: id, ...extra });
+  it('is vegan when every required ingredient is plant-based', () => {
+    expect(veganStatus(tikki(), byId).status).toBe('vegan');
+  });
+  it('is not vegan with dairy or honey, unless that ingredient is optional', () => {
+    const r = tikki();
+    add(r, 'honey', { optional: true });
+    expect(veganStatus(r, byId).status).toBe('vegan');
+    add(r, 'greek_yogurt');
+    expect(veganStatus(r, byId)).toMatchObject({ status: 'not_vegan', animal: ['greek_yogurt'] });
+  });
+  it('reads the title: a yogurt dip left out of the list still counts, peanut butter and seed milk do not', () => {
+    expect(veganStatus({ ...tikki(), title: 'Soya Tikki with Yogurt Dip' }, byId).status).toBe('not_vegan');
+    expect(veganStatus({ ...tikki(), title: 'Peanut Butter Soya Tikki' }, byId).status).toBe('vegan');
+    expect(veganStatus({ ...tikki(), title: 'Soya Tikki and Seed Milk' }, byId).status).toBe('vegan');
+  });
+  it("can't tell with an unmatched ingredient or no ingredient list", () => {
+    const r = tikki();
+    r.ingredients.push({ item: 'mystery sauce', ingredient_id: null, qty: null, unit: null, type: 'sauce', as_written: 'mystery sauce' });
+    expect(veganStatus(r, byId)).toMatchObject({ status: 'unknown', unknown: ['mystery sauce'] });
+    expect(veganStatus({ ...tikki(), status: 'incomplete', ingredients: [] }, byId).status).toBe('unknown');
   });
 });
 

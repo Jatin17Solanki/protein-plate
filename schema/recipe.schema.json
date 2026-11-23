@@ -335,7 +335,8 @@
         "air_fryer_required",
         "air_fryer_optional",
         "classic",
-        "add_on"
+        "add_on",
+        "vegan"
       ]
     },
     "Source": {
