@@ -7,11 +7,15 @@
 //    estimate behind the scenes — the only place the estimate is used
 //  - flags[] lists what Jatin must look at: no_macros, macros_basis_unclear, missing_details and no_main_protein are set
 //    automatically; source_conflict / other are added by hand and kept
+//  - the `vegan` tag matches the ingredients (lib/vegan.ts): added when every required ingredient is plant-based,
+//    removed when one isn't; left as set by hand when we can't tell (no ingredient list, or an ingredient
+//    without a dictionary id)
 // Usage: tsx scripts/data/check.ts [--write]   (--write fills those computed fields in place)
 import { readFileSync, writeFileSync } from 'node:fs';
 import type { Flag, Recipe } from '../../src/types/recipe';
 import { checkDictionary } from './lib/dictionary';
 import { estimate } from './lib/estimate';
+import { veganStatus } from './lib/vegan';
 import { loadDict, loadRecipes } from './load';
 
 const write = process.argv.includes('--write');
@@ -28,6 +32,8 @@ const AUTO = new Set<Flag['code']>(['no_macros', 'macros_basis_unclear', 'missin
 /** Old missing[] lines that are now flags instead. */
 const NOW_FLAGS = [/^Macros: the creator gives none/, /^Servings: the caption doesn't say/, /^Servings$/, /^Servings and macros$/];
 const flagged = new Map<string, string[]>();
+const veganUnknown = new Map<string, string[]>();
+let veganCount = 0;
 
 /** The creator's numbers are for one serving/piece ("per serving", "per sandwich"), even with no serving count. */
 function perPortionBasis(r: Recipe): boolean {
@@ -82,6 +88,11 @@ for (const { file, recipe: r } of loadRecipes()) {
     // Computed supporting proteins first; keep hand-added ones (e.g. an unweighed yogurt dip) after them.
     next.supporting_proteins = [...new Set([...est.supporting_proteins, ...r.supporting_proteins.filter((x) => ingredientIds.has(x))])];
   }
+  const vegan = veganStatus(next, byId);
+  if (vegan.status === 'vegan' && !next.tags.includes('vegan')) next.tags = [...next.tags, 'vegan'];
+  if (vegan.status === 'not_vegan') next.tags = next.tags.filter((t) => t !== 'vegan');
+  if (!r.archived && next.tags.includes('vegan')) veganCount++;
+  if (!r.archived && vegan.status === 'unknown' && vegan.unknown.length && !next.tags.includes('vegan')) veganUnknown.set(r.id, vegan.unknown);
   const manual = (r.flags ?? []).filter((f) => !AUTO.has(f.code));
   next.flags = [...autoFlags(next), ...manual];
   // Archived recipes keep their flags (for if they come back) but are off the review list.
@@ -97,11 +108,17 @@ for (const { file, recipe: r } of loadRecipes()) {
   if (!same(next.main_proteins, r.main_proteins)) err(file, `main_proteins should be ${JSON.stringify(next.main_proteins)} by the 35 % rule`);
   if (!same(next.supporting_proteins, r.supporting_proteins)) err(file, `supporting_proteins should be ${JSON.stringify(next.supporting_proteins)}`);
   if (!same(next.per_portion, r.per_portion)) err(file, 'per_portion must be the creator\'s stated numbers (run with --write)');
+  if (!same(next.tags, r.tags)) err(file, `vegan tag should be ${next.tags.includes('vegan') ? 'set' : 'removed'}${vegan.animal.length ? ` (not vegan: ${vegan.animal.join(', ')})` : ''} (run with --write)`);
   if (r.protein_working.length) err(file, 'protein_working must be empty — we show no estimates');
   if (!same(next.missing, r.missing) || !same(next.flags, r.flags ?? [])) err(file, 'flags/missing are out of date (run with --write)');
 }
 
 console.log(`flagged for Jatin: ${flagged.size} recipes`);
 for (const [id, codes] of flagged) console.log(`  ${id}: ${codes.join(', ')}`);
+console.log(`vegan: ${veganCount} live recipes tagged`);
+if (veganUnknown.size) {
+  console.log(`vegan unknown (plant-based except ingredients with no dictionary id; add them to the dictionary or tag by hand): ${veganUnknown.size}`);
+  for (const [id, items] of veganUnknown) console.log(`  ${id}: ${items.join(', ')}`);
+}
 console.log(`data check: ${errors} errors${write ? ' (computed fields written)' : ''}`);
 process.exit(errors ? 1 : 0);

@@ -37,12 +37,15 @@ Follow `prompts/add-recipes.md` §0–§7 for every entry. In short:
   - `add_on`: a small protein side that goes with any plain meal (sautéed paneer, tempeh crumbles, soya granules, a paneer marinade). Not an add-on: a full meal, a gravy curry, a snack plate or a sauce on its own.
   - Unsure → leave the tag off and list the recipe under "Borderline (classic / add-on)" in the PR for Jatin.
   - The filter is called **Classics**. Never use the Hindi word for "home-country style" (d-e-s-i) anywhere: tags, titles, notes, assumptions, aliases, PR text (Jatin, 2026-11-10).
+- **Vegan tag** (B9, Jatin 2026-11-23): **computed, never set by hand when it can be worked out.** `check.ts --write` (step 5) adds `vegan` when every required ingredient is plant-based and removes it when one isn't (optional ingredients don't count; the title counts too, so "… with Yogurt Dip" is not vegan even when the caption leaves the dip out). What it relies on:
+  - Every ingredient needs an `ingredient_id`. A **new dictionary entry** that is an animal product, or usually contains one (dairy, paneer, whey, honey, ghee, milk buns, protein bread, store muesli/granola, dark chocolate, pesto, Thai curry paste), gets `"vegan": false`; plant-based entries leave the field out.
+  - `check.ts` prints "vegan unknown" for recipes it can't decide (an ingredient with no dictionary id). Fix the dictionary; only if that's impossible, set or leave the tag by hand and say why in `assumptions`.
 - Missing dictionary ingredients: add them to `data/ingredients.json` (with aliases; avoid bare generic words like "moong").
 - Write one file per recipe: `data/recipes/<id>.json`.
 
 ## 5. Run the checks
 ```
-npx tsx scripts/data/check.ts --write     # fills per_portion, main/supporting proteins, flags; re-formats
+npx tsx scripts/data/check.ts --write     # fills per_portion, main/supporting proteins, flags, the vegan tag; re-formats
 npm run validate                          # schema + rules
 npx tsx scripts/data/check.ts             # 0 errors
 npx tsx scripts/data/fidelity.ts          # raw vs normalised, must be N/N
@@ -104,12 +107,13 @@ Both name the raw file `batches/instinct-<BATCH>.txt` from the batch id, so `sou
    - **A link already in the catalog** → don't add it; list it under "Already in the catalog". Also skip posts that `docs/review-log.md` says were deleted as duplicates.
    - **Possible duplicates/variants** (`dedupe.ts`) → list them in the PR for Jatin. **Never merge, delete or rename a recipe on your own.** Recipe ids are the keys of Jatin's likes, list and notes in his browser: a renamed or deleted id loses them.
    - **`classic` / `add_on`**: apply both rules from step 4 to every new recipe; unsure → leave the tag off and list it in the PR under "Borderline (classic / add-on)".
+   - **`vegan`**: comes from `check.ts --write`. Give every new dictionary entry `"vegan": false` when it is (or usually contains) an animal product. List the recipes it tagged vegan in the PR, and any "vegan unknown" lines it prints.
    - Everything else as in steps 4–7: the creator's numbers only, the dictionary. **Fidelity on the new recipes only:** `npx tsx scripts/data/fidelity.ts --raw /tmp/pp-raw <new ids…>` (the older batches live in the private repo this task can't see; don't run fidelity on all recipes). **No review sheet** in this task: the PR lists everything, and the raw text stays in the email and the private repo.
 7. **Checks (step 5) must all pass.** If something can't be fixed without weakening a check: commit nothing to the public repo, label the email `protein-plate-failed`, report what failed.
 8. **Commit and push** `auto/recipe-inbox`, with one commit per batch: `Recipe inbox: batch B001 (N recipes)`. Append one line to `docs/review-log.md`: `date · inbox batch B001 · N added, F flagged, D possible duplicates`. Don't touch `docs/TRACKER.md` or the handoff files; a human-run session tidies those up.
 9. **Open the PR or update it.**
    - Title: `Recipe inbox: N new recipes` (keep N current).
-   - Body: one section per batch (added / flagged with reasons / tagged classic / tagged add-on / borderline classic or add-on / possible duplicates / already in catalog / left out / dictionary additions), then the verification output, then the line from `npx tsx scripts/data/review-count.ts --new <new ids…>`.
+   - Body: one section per batch (added / flagged with reasons / tagged classic / tagged add-on / borderline classic or add-on / tagged vegan / vegan unknown / possible duplicates / already in catalog / left out / dictionary additions), then the verification output, then the line from `npx tsx scripts/data/review-count.ts --new <new ids…>`.
    - Once the open PR holds 3 batches, add a line asking Jatin to merge it.
    - After pushing, check `mergeable_state`; if it's conflicted, merge main in again and resolve.
 10. **Label the email** `protein-plate-processed` and remove `protein-plate-failed` if it's set.

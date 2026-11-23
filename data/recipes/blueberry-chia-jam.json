@@ -21,7 +21,9 @@
     "chia_seeds",
     "blueberries"
   ],
-  "tags": [],
+  "tags": [
+    "vegan"
+  ],
   "dish_group": null,
   "variant_label": null,
   "per_portion": {

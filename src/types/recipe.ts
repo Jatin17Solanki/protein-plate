@@ -112,7 +112,8 @@ export type Tag =
   | 'air_fryer_required'
   | 'air_fryer_optional'
   | 'classic'
-  | 'add_on';
+  | 'add_on'
+  | 'vegan';
 export type NullableAmount = number | null;
 
 export interface Source {

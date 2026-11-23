@@ -1,36 +1,36 @@
 # Track B handoff — Data
 
-_Last updated: 2026-11-10 (B8 Classic and Add-on tags)_
+_Last updated: 2026-11-23 (B9 vegan tag)_
 
-**Done this session (B8, asked as "B7"; B7 is the recipe inbox):**
-- Schema: tag enum + `classic`, `add_on` (Jatin allowed this one Track B schema edit); `npm run gen:types` regenerated `src/types/recipe.ts`.
-- Live catalog tagged (269 live recipes, archived untouched): **30 `classic`, 7 `add_on`**, appended after the other tags (never the tile icon). Lists + borderline cases in the PR for Jatin.
-- Rules in `docs/ADD-RECIPES.md` step 4 + Automated mode step 6/9, and in `prompts/add-recipes.md` §5 (the Add screen's Copy prompt and the inbox both read it).
-- "desi" removed everywhere (ghee alias, a data-test caption). Rule: never write that word.
-- B7 (recipe inbox) row set to done: PR 33 merged; first real batch B001 merged in PR 35.
-- Scheduled task "recipe inbox" (`trig_0134ycguz44pck7shDVZnZ6V`): removed the stale "read the runbook from the B7 branch" fallback (PR 34 merged); it reads `docs/ADD-RECIPES.md` on main, so the tag rules reach it once this merges. Run on demand: claude.ai → scheduled tasks → *Run now*, or ask any session to fire it.
+**Done this session (B9):**
+- Schema: tag enum + `vegan` (Jatin allowed the edit); `npm run gen:types` regenerated `src/types/recipe.ts`.
+- `vegan` is **computed**: `scripts/data/lib/vegan.ts`, applied by `check.ts --write`. Vegan = every required ingredient is plant-based (optional ones don't count) and the title names no dairy/honey ("… with Yogurt Dip", "Raita"; "peanut butter", "coconut milk", "seed milk" are fine). No ingredient list or an ingredient without a dictionary id → can't tell, the tag stays as set by hand, and `check.ts` prints it under "vegan unknown".
+- Dictionary: `"vegan": false` on 32 entries (all dairy, paneer, whey, chicken, honey, and bought foods that usually contain dairy). Absent = plant-based. `date_syrup` split out of `honey`; "buttermilk protein powder" alias dropped from `yeast_protein`.
+- Catalog: **30 live recipes vegan** (+13 archived). List in the PR.
+- Rules: `docs/ADD-RECIPES.md` step 4/5 + Automated mode 6/9, `prompts/add-recipes.md` §5. The inbox runs `check.ts --write`, so it tags vegan by itself; it must give new dictionary entries `vegan: false` when needed.
+- Asked the Dev 2 session for a **Vegan** filter chip (Track A row to add).
+- B8 row → done (PR 37 merged).
 
 **Next:**
-- **Track A row V2-2 (Classics and Add-ons filters) can start once this PR merges.** Tag ids: `classic`, `add_on`. Today they only work through search ("classic", "add on").
-- Apply Jatin's verdicts on the borderline list (add/remove the tag, log in `docs/DECISIONS.md`).
+- Jatin's verdicts on the conservative bought-food list (dark chocolate, protein bread…) and the B8 borderline list.
+- `paneer-kali-mirch` fails fidelity on main ("tsp yogurt" alias of `yogurt` matches the caption); pre-existing, not from B9. Fix with an assumption or an alias change in a data session.
 
-**State:** 362 recipes: 269 shown, 93 archived. 0 flagged except the inbox's own. Fidelity 361/361 (protein-oats-smoothie has no raw ref).
+**State:** 382 recipes on main. 0 errors in `check.ts`; fidelity 380/381 (the one above).
 
 **Rules in force:**
 - Steps = the creator's exact words (`fidelity.ts`). Numbers = the creator's only; `estimated_macros` only when Jatin asks.
 - Servings: one portion unless the caption says otherwise. Whole-dish numbers stay on the recipe page.
-- `classic`: everyday Indian dish + added/swapped protein; not when the protein is the dish's own (shahi paneer, chole, moong chilla), not fusion, sandwiches, wraps, sweets. `add_on`: small protein side for a plain meal; not full meals, gravies or sauces alone. Unsure → leave off, list it.
-- Never put anyone's name in recipe data the app shows.
+- `classic` / `add_on`: see ADD-RECIPES step 4; unsure → leave off, list it. `vegan`: computed, never hand-set when it can be worked out.
+- Never write the word d-e-s-i. Never put anyone's name in recipe data the app shows.
 
 **Gotchas:**
 - Automated inbox runs never edit TRACKER/handoff; tidy them in a human-run session.
 - Raw entry N = the Nth line with a link (or an `ID:/URL:` block). New text goes in new batch files.
 - Merge the private repo's branch into its `main`, or the next session can't run fidelity.
-- Aliases: avoid bare generic words ("moong", "methi", "yogurt"). Plurals need their own alias.
-- Validate warns on dips/spreads that keep a meal type (Jatin's notes); leave them.
+- Aliases: avoid bare generic words. Splitting an alias into a new entry can break fidelity on old recipes that wrote both ("Honey/Date Syrup"); explain it in `assumptions`.
 - PR numbers are shared by both tracks. `docs/DECISIONS.md` conflicts often; keep both sides.
-- After every push, check mergeability with `pull_request_read`.
+- After every push, check CI with `gh api repos/Jatin17Solanki/protein-plate/commits/<sha>/check-runs` (GitHub MCP tools retired).
 
-**Open for Jatin:** borderline Classic/Add-on list (PR); a protein-per-100 g figure for "high-protein yogurt"; whether he wants a "fun to try" tag.
+**Scheduled tasks:** "recipe inbox" (`trig_0134ycguz44pck7shDVZnZ6V`) reads this runbook from main each run; on demand: claude.ai → scheduled tasks → *Run now*. "raw archive" (`trig_01QmEycMcpBMKfzrX5S4wfEy`).
 
 **Coordination:** Track A session "Dev 2 - phase A" (`session_01Qwkn8yZAbjE228CGzZT6xB`), via `send_message`.

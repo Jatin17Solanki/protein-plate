@@ -17,6 +17,8 @@ export interface DictEntry {
   basis: Basis;
   /** Filterable main-protein group this ingredient counts towards, or null (supporting only). */
   main_protein: MainProtein | null;
+  /** false = comes from an animal (dairy, honey, whey) or usually contains it (milk buns, protein bread). Absent = plant-based. */
+  vegan?: false;
   /** Grams per spoon/cup/piece, used when a recipe ingredient has no `grams`. */
   unit_grams?: Partial<Record<string, number>>;
   note?: string;
@@ -53,6 +55,7 @@ export function checkDictionary(dict: DictEntry[]): string[] {
     if (!TYPES.includes(d.type)) errors.push(`${at}: type must be one of ${TYPES.join(', ')}`);
     if (!BASES.includes(d.basis)) errors.push(`${at}: basis must be one of ${BASES.join(', ')}`);
     if (d.main_protein !== null && !MAIN.includes(d.main_protein)) errors.push(`${at}: main_protein must be one of ${MAIN.join(', ')} or null`);
+    if ('vegan' in d && d.vegan !== false) errors.push(`${at}: vegan is either false or left out (left out = plant-based)`);
     for (const k of ['protein_per_100g', 'kcal_per_100g'] as const) {
       if (typeof d[k] !== 'number' || d[k] < 0 || d[k] > 900) errors.push(`${at}: ${k} must be a number 0–900`);
     }
