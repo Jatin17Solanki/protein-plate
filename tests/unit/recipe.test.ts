@@ -57,7 +57,7 @@ describe('versions', () => {
 describe('tagChips', () => {
   it('dish types, meals, air fryer, quick, global', () => {
     expect(tagChips(byId('paneer-tikka-wrap'))).toEqual(['Wrap / roll', 'Lunch · Dinner', 'Air fryer · optional']);
-    expect(tagChips(byId('tempeh-chilli-noodles'))).toEqual(['Pasta / noodles', 'Lunch · Dinner', 'Global']);
+    expect(tagChips(byId('tempeh-chilli-noodles'))).toEqual(['Pasta / noodles', 'Lunch · Dinner', 'Global', 'Vegan']);
     expect(tagChips(byId('besan-chilla'))).toEqual(['Chilla / pancake', 'Breakfast · Snack', 'Quick']);
   });
 

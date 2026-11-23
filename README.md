@@ -43,7 +43,7 @@
 <td align="center" width="33%"><img src="docs/readme/recipe.webp" width="220" alt="Recipe page"></td>
 </tr>
 <tr>
-<td valign="top"><b>Find something to cook</b><br>Pick a meal and a protein (or leave one out), add Quick, Classics, Add-ons, Global or Air fryer. Counts show what you'll get; desserts and sauces wait at the end.</td>
+<td valign="top"><b>Find something to cook</b><br>Pick a meal and a protein (or leave one out), add Quick, Classics, Add-ons, Vegan, Global or Air fryer. Counts show what you'll get; desserts and sauces wait at the end.</td>
 <td valign="top"><b>Search the fridge</b><br>Search a dish or an ingredient. Small typos are fine.</td>
 <td valign="top"><b>One page per recipe</b><br>Protein, video, ingredients to tick, steps, versions, your notes.</td>
 </tr>
