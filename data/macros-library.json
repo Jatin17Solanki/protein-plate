@@ -1,0 +1,1391 @@
+{
+  "schema_version": "1.1",
+  "title": "Jatin's macros library",
+  "as_of": "2026-11-24",
+  "conventions": {
+    "units": "kcal and grams; milk in ml",
+    "carbs_g": "total carbohydrate INCLUDING fibre (net carbs = carbs_g - fibre_g)",
+    "per_100": "per 100 g or 100 ml in the stated form (dry / raw / cooked); for unit=piece it is per piece",
+    "form": "dry = uncooked weight (pulses, soya chunks, oats, flours); raw = as sold; cooked = after cooking",
+    "cost": "INR, based on online selling prices seen on as_of date; scale linearly from pack price",
+    "confidence": "high = official/brand label or your pack photo; medium = crowd-sourced, reference values or estimated",
+    "ingredient_id": "matching id in the protein-plate repo's data/ingredients.json dictionary; null when there is no single match (meals, fruit)",
+    "brand": "brand = who made it; product = brand + product name; Generic = no brand",
+    "meal": "category meal = a fixed recipe built from other library items; components lists them; macros are their sum",
+    "buffer": "category buffer = rough everyday extras (oil, veg sabzi, fruit, sauces) logged as standard portions rather than weighed"
+  },
+  "items": [
+    {
+      "id": "milky_mist_hp_low_fat_paneer",
+      "name": "High Protein Low Fat Paneer",
+      "brand": "Milky Mist",
+      "product": "Milky Mist High Protein Low Fat Paneer",
+      "category": "dairy_protein",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "raw",
+        "label": "100 g"
+      },
+      "per_100": {
+        "kcal": 189.8,
+        "protein_g": 25.0,
+        "carbs_g": 6.7,
+        "fat_g": 7.0,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 189.8,
+        "protein_g": 25.0,
+        "carbs_g": 6.7,
+        "fat_g": 7.0,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 54.5,
+        "cost_per_10g_protein_inr": 21.8,
+        "pack_size": 200,
+        "pack_unit": "g",
+        "pack_price_inr": 109,
+        "mrp_inr": 160,
+        "price_source": "BigBasket listing",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Pack label (your photo): per 100 g 189.8 kcal, 25 g P, 7 g fat, 6.7 g carbs (5.7 g milk sugar)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 190,
+        "label_kcal_per_100": 189.8,
+        "flag": false
+      },
+      "notes": "",
+      "ingredient_id": "paneer_low_fat"
+    },
+    {
+      "id": "amul_malai_paneer",
+      "name": "Malai Paneer",
+      "brand": "Amul",
+      "product": "Amul Malai Paneer",
+      "category": "dairy_protein",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "raw",
+        "label": "100 g"
+      },
+      "per_100": {
+        "kcal": 323,
+        "protein_g": 20.0,
+        "carbs_g": 4.5,
+        "fat_g": 25.0,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 323.0,
+        "protein_g": 20.0,
+        "carbs_g": 4.5,
+        "fat_g": 25.0,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 42.75,
+        "cost_per_10g_protein_inr": 21.38,
+        "pack_size": 200,
+        "pack_unit": "g",
+        "pack_price_inr": 85.5,
+        "mrp_inr": 99,
+        "price_source": "BigBasket listing",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "amul.com product page (official label)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 323,
+        "label_kcal_per_100": 323,
+        "flag": false
+      },
+      "notes": "BigBasket's 'Fresh Malai Paneer' label shows 312 kcal / 24 g fat — near-identical.",
+      "ingredient_id": "paneer"
+    },
+    {
+      "id": "amul_taaza_milk",
+      "name": "Taaza Toned Milk",
+      "brand": "Amul",
+      "product": "Amul Taaza Toned Milk",
+      "category": "dairy",
+      "serving": {
+        "amount": 200,
+        "unit": "ml",
+        "form": "raw",
+        "label": "200 ml"
+      },
+      "per_100": {
+        "kcal": 58,
+        "protein_g": 3.0,
+        "carbs_g": 4.8,
+        "fat_g": 3.0,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 116.0,
+        "protein_g": 6.0,
+        "carbs_g": 9.6,
+        "fat_g": 6.0,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 12.4,
+        "cost_per_10g_protein_inr": 20.67,
+        "pack_size": 500,
+        "pack_unit": "ml",
+        "pack_price_inr": 31,
+        "mrp_inr": 31,
+        "price_source": "500 ml pouch after the 12 Nov 2026 ₹2/L hike (₹29→30 in May, +₹1 in Nov); city-dependent",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "amul.com Taaza UHT page / Dudhsagar Dairy label (per 100 ml)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 58,
+        "label_kcal_per_100": 58,
+        "flag": false
+      },
+      "notes": "Carbs are milk sugar (lactose), no added sugar.",
+      "ingredient_id": "milk"
+    },
+    {
+      "id": "amul_masti_dahi",
+      "name": "Masti Dahi",
+      "brand": "Amul",
+      "product": "Amul Masti Dahi",
+      "category": "dairy",
+      "serving": {
+        "amount": 200,
+        "unit": "g",
+        "form": "raw",
+        "label": "200 g"
+      },
+      "per_100": {
+        "kcal": 65,
+        "protein_g": 4.0,
+        "carbs_g": 4.6,
+        "fat_g": 3.1,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 130.0,
+        "protein_g": 8.0,
+        "carbs_g": 9.2,
+        "fat_g": 6.2,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 22.5,
+        "cost_per_10g_protein_inr": 28.12,
+        "pack_size": 400,
+        "pack_unit": "g",
+        "pack_price_inr": 45,
+        "mrp_inr": 45,
+        "price_source": "BigBasket 400 g cup (1 kg pouch is cheaper at ~₹77)",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Zepto/BigBasket label (per 100 g)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 62,
+        "label_kcal_per_100": 65,
+        "flag": false
+      },
+      "notes": "",
+      "ingredient_id": "curd"
+    },
+    {
+      "id": "soya_chunks_fortune",
+      "name": "Soya Chunks",
+      "brand": "Fortune (Nutrela is near-identical)",
+      "product": "Fortune (Nutrela is near-identical) Soya Chunks",
+      "category": "soy_protein",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 345,
+        "protein_g": 52.0,
+        "carbs_g": 33.0,
+        "fat_g": 0.5,
+        "fibre_g": 13.0
+      },
+      "per_serving": {
+        "kcal": 172.5,
+        "protein_g": 26.0,
+        "carbs_g": 16.5,
+        "fat_g": 0.2,
+        "fibre_g": 6.5
+      },
+      "cost": {
+        "cost_per_serving_inr": 8.15,
+        "cost_per_10g_protein_inr": 3.13,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 163,
+        "mrp_inr": 169,
+        "price_source": "Flipkart 1 kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Fortune label (via Sastasundar): 345 kcal, 52 g P, 13 g dietary fibre",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 318,
+        "label_kcal_per_100": 345,
+        "flag": false
+      },
+      "notes": "Nutrela lists ~53 g protein, 354 kcal per 100 g.",
+      "ingredient_id": "soya_chunks"
+    },
+    {
+      "id": "hello_tempayy_crumbles",
+      "name": "Simply Natural Tempeh Crumbles",
+      "brand": "Hello Tempayy",
+      "product": "Hello Tempayy Simply Natural Tempeh Crumbles",
+      "category": "soy_protein",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "raw",
+        "label": "100 g"
+      },
+      "per_100": {
+        "kcal": 178,
+        "protein_g": 21.0,
+        "carbs_g": 10.1,
+        "fat_g": 6.8,
+        "fibre_g": 8.5
+      },
+      "per_serving": {
+        "kcal": 178.0,
+        "protein_g": 21.0,
+        "carbs_g": 10.1,
+        "fat_g": 6.8,
+        "fibre_g": 8.5
+      },
+      "cost": {
+        "cost_per_serving_inr": 72.34,
+        "cost_per_10g_protein_inr": 34.45,
+        "pack_size": 200,
+        "pack_unit": "g",
+        "pack_price_inr": 144.69,
+        "mrp_inr": 159,
+        "price_source": "BigBasket 200 g",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Pack label (your photo): 178 kcal, 21 g P, 6.8 g fat, 10.1 g carbs, 8.5 g fibre per 100 g",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 169,
+        "label_kcal_per_100": 178,
+        "flag": false
+      },
+      "notes": "Also has iron 8.8 mg and B12 1.1 µg per 100 g.",
+      "ingredient_id": "tempeh"
+    },
+    {
+      "id": "mooz_tofu",
+      "name": "Fresh & Firm Organic Tofu",
+      "brand": "Mooz",
+      "product": "Mooz Fresh & Firm Organic Tofu",
+      "category": "soy_protein",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "raw",
+        "label": "100 g"
+      },
+      "per_100": {
+        "kcal": 140,
+        "protein_g": 14.2,
+        "carbs_g": 4.5,
+        "fat_g": 2.9,
+        "fibre_g": 0.5
+      },
+      "per_serving": {
+        "kcal": 140.0,
+        "protein_g": 14.2,
+        "carbs_g": 4.5,
+        "fat_g": 2.9,
+        "fibre_g": 0.5
+      },
+      "cost": {
+        "cost_per_serving_inr": 52.0,
+        "cost_per_10g_protein_inr": 36.62,
+        "pack_size": 200,
+        "pack_unit": "g",
+        "pack_price_inr": 104,
+        "mrp_inr": 110,
+        "price_source": "BigBasket 200 g",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "BigBasket label (140 kcal, 14.19 g P, 4.5 g C, 2.89 g F)",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 100,
+        "label_kcal_per_100": 140,
+        "flag": true
+      },
+      "notes": "Label kcal is higher than its own macros imply (~101 kcal). Fibre not on label (estimate). Reviewers report packs can weigh ~160 g after draining.",
+      "ingredient_id": "tofu_firm"
+    },
+    {
+      "id": "hello_tempayy_momos_peri_peri",
+      "name": "Peri Peri High Protein Veg Momos",
+      "brand": "Hello Tempayy",
+      "product": "Hello Tempayy Peri Peri High Protein Veg Momos",
+      "category": "soy_protein",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "cooked",
+        "label": "100 g cooked"
+      },
+      "per_100": {
+        "kcal": 211,
+        "protein_g": 10.7,
+        "carbs_g": 28.3,
+        "fat_g": 6.0,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 211.0,
+        "protein_g": 10.7,
+        "carbs_g": 28.3,
+        "fat_g": 6.0,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 56.64,
+        "cost_per_10g_protein_inr": 52.93,
+        "pack_size": 210,
+        "pack_unit": "g",
+        "pack_price_inr": 118.95,
+        "mrp_inr": 195,
+        "price_source": "BigBasket 10 pcs (pack = 2.5 × 84 g ≈ 210 g)",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Pack label (your photo): per 100 g 211 kcal, 10.7 g P, 6 g fat, 28.3 g carbs",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 210,
+        "label_kcal_per_100": 211,
+        "flag": false
+      },
+      "notes": "Fibre not on label (counted as 0). Pack serving is 84 g (~4 pieces). Dipping sauce not tracked.",
+      "ingredient_id": "momos"
+    },
+    {
+      "id": "amul_diced_cheese_blend",
+      "name": "Diced Cheese Blend (Mozzarella & Cheddar)",
+      "brand": "Amul",
+      "product": "Amul Diced Cheese Blend (Mozzarella & Cheddar)",
+      "category": "dairy",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "raw",
+        "label": "100 g"
+      },
+      "per_100": {
+        "kcal": 289,
+        "protein_g": 23.0,
+        "carbs_g": 2.0,
+        "fat_g": 21.0,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 289.0,
+        "protein_g": 23.0,
+        "carbs_g": 2.0,
+        "fat_g": 21.0,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 60.0,
+        "cost_per_10g_protein_inr": 26.09,
+        "pack_size": 200,
+        "pack_unit": "g",
+        "pack_price_inr": 120,
+        "mrp_inr": 120,
+        "price_source": "BigBasket 200 g pouch (1 kg pouch ~₹501)",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Pack label (your photo): 289 kcal, 23 g P, 21 g fat, 2 g carbs per 100 g",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 289,
+        "label_kcal_per_100": 289,
+        "flag": false
+      },
+      "notes": "Sodium 400 mg per 100 g.",
+      "ingredient_id": "cheese"
+    },
+    {
+      "id": "myprotein_impact_whey_choc_smooth",
+      "name": "Impact Whey Protein – Chocolate Smooth",
+      "brand": "Myprotein",
+      "product": "Myprotein Impact Whey Protein – Chocolate Smooth",
+      "category": "supplement",
+      "serving": {
+        "amount": 30,
+        "unit": "g",
+        "form": "raw",
+        "label": "1 scoop (30 g)"
+      },
+      "per_100": {
+        "kcal": 383.6,
+        "protein_g": 73.68,
+        "carbs_g": 8.0,
+        "fat_g": 6.32,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 115.1,
+        "protein_g": 22.1,
+        "carbs_g": 2.4,
+        "fat_g": 1.9,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 101.1,
+        "cost_per_10g_protein_inr": 45.75,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 3370,
+        "mrp_inr": 4999,
+        "price_source": "Flipkart 1 kg (Myprotein runs frequent sales)",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "myprotein.co.in product page, Chocolate Smooth (30 g scoop: 115 kcal, 22.1 g P)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 384,
+        "label_kcal_per_100": 383.6,
+        "flag": false
+      },
+      "notes": "Older India packs used a 25 g scoop (98 kcal, 19 g P). Check your scoop size.",
+      "ingredient_id": "whey_protein"
+    },
+    {
+      "id": "saffola_oats_plain",
+      "name": "Oats (plain, instant rolled)",
+      "brand": "Saffola",
+      "product": "Saffola Oats (plain, instant rolled)",
+      "category": "grain",
+      "serving": {
+        "amount": 40,
+        "unit": "g",
+        "form": "dry",
+        "label": "40 g dry"
+      },
+      "per_100": {
+        "kcal": 369,
+        "protein_g": 12.6,
+        "carbs_g": 66.8,
+        "fat_g": 8.0,
+        "fibre_g": 10.4
+      },
+      "per_serving": {
+        "kcal": 147.6,
+        "protein_g": 5.0,
+        "carbs_g": 26.7,
+        "fat_g": 3.2,
+        "fibre_g": 4.2
+      },
+      "cost": {
+        "cost_per_serving_inr": 6.55,
+        "cost_per_10g_protein_inr": 13.1,
+        "pack_size": 1300,
+        "pack_unit": "g",
+        "pack_price_inr": 213,
+        "mrp_inr": 235,
+        "price_source": "Flipkart 1 kg + 300 g free",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Saffola label (BigBasket/Zepto/Open Food Facts)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 369,
+        "label_kcal_per_100": 369,
+        "flag": false
+      },
+      "notes": "One listing shows 5.3 g fat; most show 8 g.",
+      "ingredient_id": "oats"
+    },
+    {
+      "id": "alpino_hp_super_oats_choc",
+      "name": "High Protein Super Oats – Chocolate",
+      "brand": "Alpino",
+      "product": "Alpino High Protein Super Oats – Chocolate",
+      "category": "grain",
+      "serving": {
+        "amount": 40,
+        "unit": "g",
+        "form": "dry",
+        "label": "40 g dry"
+      },
+      "per_100": {
+        "kcal": 457.77,
+        "protein_g": 22.0,
+        "carbs_g": 51.34,
+        "fat_g": 18.6,
+        "fibre_g": 11.06
+      },
+      "per_serving": {
+        "kcal": 183.1,
+        "protein_g": 8.8,
+        "carbs_g": 20.5,
+        "fat_g": 7.4,
+        "fibre_g": 4.4
+      },
+      "cost": {
+        "cost_per_serving_inr": 18.89,
+        "cost_per_10g_protein_inr": 21.47,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 472.29,
+        "mrp_inr": 519,
+        "price_source": "BigBasket 1 kg (400 g pack is ₹236.55, MRP ₹249)",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Alpino label as listed on BigBasket: per 100 g 457.77 kcal, 22 g P, 18.6 g fat, 51.34 g carbs, 11.06 g fibre; label serving 40 g",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 439,
+        "label_kcal_per_100": 457.77,
+        "flag": false
+      },
+      "notes": "Made with oats, peanut butter, peanut protein and cocoa, so it carries much more fat than plain oats. No added sugar.",
+      "ingredient_id": "protein_oats"
+    },
+    {
+      "id": "rice_cooked",
+      "name": "Cooked white rice",
+      "brand": "Generic",
+      "product": "Cooked white rice",
+      "category": "grain",
+      "serving": {
+        "amount": 100,
+        "unit": "g",
+        "form": "cooked",
+        "label": "100 g cooked"
+      },
+      "per_100": {
+        "kcal": 130,
+        "protein_g": 2.7,
+        "carbs_g": 28.2,
+        "fat_g": 0.3,
+        "fibre_g": 0.4
+      },
+      "per_serving": {
+        "kcal": 130.0,
+        "protein_g": 2.7,
+        "carbs_g": 28.2,
+        "fat_g": 0.3,
+        "fibre_g": 0.4
+      },
+      "cost": {
+        "cost_per_serving_inr": 2.81,
+        "cost_per_10g_protein_inr": 10.41,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 28.07,
+        "mrp_inr": null,
+        "price_source": "Assumes raw rice at ₹80/kg and ~2.85x cooked yield (100 g cooked ≈ 35 g raw)",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "USDA FoodData Central, white long-grain rice, cooked",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 126,
+        "label_kcal_per_100": 130,
+        "flag": false
+      },
+      "notes": "Varies by variety and how wet it's cooked. Pack/price fields here are per 1 kg cooked equivalent.",
+      "ingredient_id": "rice_cooked"
+    },
+    {
+      "id": "chia_seeds",
+      "name": "Chia seeds",
+      "brand": "Generic",
+      "product": "Chia seeds",
+      "category": "seed",
+      "serving": {
+        "amount": 5,
+        "unit": "g",
+        "form": "raw",
+        "label": "5 g"
+      },
+      "per_100": {
+        "kcal": 486,
+        "protein_g": 16.5,
+        "carbs_g": 42.1,
+        "fat_g": 30.7,
+        "fibre_g": 34.4
+      },
+      "per_serving": {
+        "kcal": 24.3,
+        "protein_g": 0.8,
+        "carbs_g": 2.1,
+        "fat_g": 1.5,
+        "fibre_g": 1.7
+      },
+      "cost": {
+        "cost_per_serving_inr": 3.95,
+        "cost_per_10g_protein_inr": null,
+        "pack_size": 250,
+        "pack_unit": "g",
+        "pack_price_inr": 197.43,
+        "mrp_inr": 350,
+        "price_source": "True Elements 250 g, BigBasket",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "USDA FoodData Central",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 442,
+        "label_kcal_per_100": 486,
+        "flag": false
+      },
+      "notes": "",
+      "ingredient_id": "chia_seeds"
+    },
+    {
+      "id": "flax_seeds_blended",
+      "name": "Flax seeds (blended)",
+      "brand": "Generic",
+      "product": "Flax seeds (blended)",
+      "category": "seed",
+      "serving": {
+        "amount": 5,
+        "unit": "g",
+        "form": "raw",
+        "label": "5 g"
+      },
+      "per_100": {
+        "kcal": 534,
+        "protein_g": 18.3,
+        "carbs_g": 28.9,
+        "fat_g": 42.2,
+        "fibre_g": 27.3
+      },
+      "per_serving": {
+        "kcal": 26.7,
+        "protein_g": 0.9,
+        "carbs_g": 1.4,
+        "fat_g": 2.1,
+        "fibre_g": 1.4
+      },
+      "cost": {
+        "cost_per_serving_inr": 2.06,
+        "cost_per_10g_protein_inr": null,
+        "pack_size": 250,
+        "pack_unit": "g",
+        "pack_price_inr": 102.81,
+        "mrp_inr": 149,
+        "price_source": "True Elements 250 g, BigBasket",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "USDA FoodData Central",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 514,
+        "label_kcal_per_100": 534,
+        "flag": false
+      },
+      "notes": "Grinding doesn't change macros; it makes them absorbable.",
+      "ingredient_id": "flax_seeds"
+    },
+    {
+      "id": "pumpkin_seeds",
+      "name": "Pumpkin seeds",
+      "brand": "Generic",
+      "product": "Pumpkin seeds",
+      "category": "seed",
+      "serving": {
+        "amount": 5,
+        "unit": "g",
+        "form": "raw",
+        "label": "5 g"
+      },
+      "per_100": {
+        "kcal": 559,
+        "protein_g": 30.2,
+        "carbs_g": 10.7,
+        "fat_g": 49.0,
+        "fibre_g": 6.0
+      },
+      "per_serving": {
+        "kcal": 28.0,
+        "protein_g": 1.5,
+        "carbs_g": 0.5,
+        "fat_g": 2.5,
+        "fibre_g": 0.3
+      },
+      "cost": {
+        "cost_per_serving_inr": 5.79,
+        "cost_per_10g_protein_inr": 38.6,
+        "pack_size": 250,
+        "pack_unit": "g",
+        "pack_price_inr": 289.25,
+        "mrp_inr": 325,
+        "price_source": "True Elements 250 g, BigBasket",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "USDA FoodData Central (hulled, dried)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 593,
+        "label_kcal_per_100": 559,
+        "flag": false
+      },
+      "notes": "",
+      "ingredient_id": "pumpkin_seeds"
+    },
+    {
+      "id": "sunflower_seeds",
+      "name": "Sunflower seeds",
+      "brand": "Generic",
+      "product": "Sunflower seeds",
+      "category": "seed",
+      "serving": {
+        "amount": 5,
+        "unit": "g",
+        "form": "raw",
+        "label": "5 g"
+      },
+      "per_100": {
+        "kcal": 584,
+        "protein_g": 20.8,
+        "carbs_g": 20.0,
+        "fat_g": 51.5,
+        "fibre_g": 8.6
+      },
+      "per_serving": {
+        "kcal": 29.2,
+        "protein_g": 1.0,
+        "carbs_g": 1.0,
+        "fat_g": 2.6,
+        "fibre_g": 0.4
+      },
+      "cost": {
+        "cost_per_serving_inr": 2.69,
+        "cost_per_10g_protein_inr": 26.9,
+        "pack_size": 250,
+        "pack_unit": "g",
+        "pack_price_inr": 134.46,
+        "mrp_inr": 162,
+        "price_source": "True Elements 250 g, BigBasket",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "USDA FoodData Central (kernels, dried)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 610,
+        "label_kcal_per_100": 584,
+        "flag": false
+      },
+      "notes": "",
+      "ingredient_id": "sunflower_seeds"
+    },
+    {
+      "id": "moong_dal_yellow_split",
+      "name": "Unpolished Moong Dal (yellow, split)",
+      "brand": "Tata Sampann",
+      "product": "Tata Sampann Unpolished Moong Dal (yellow, split)",
+      "category": "pulse",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 347,
+        "protein_g": 24.0,
+        "carbs_g": 63.0,
+        "fat_g": 1.0,
+        "fibre_g": 9.4
+      },
+      "per_serving": {
+        "kcal": 173.5,
+        "protein_g": 12.0,
+        "carbs_g": 31.5,
+        "fat_g": 0.5,
+        "fibre_g": 4.7
+      },
+      "cost": {
+        "cost_per_serving_inr": 7.5,
+        "cost_per_10g_protein_inr": 6.25,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 150,
+        "mrp_inr": 213,
+        "price_source": "BigBasket 1 kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Tata Sampann label via Swiggy Instamart (347 kcal, 24 g P, 63 g carbs, 1 g fat); fibre not listed, IFCT value used",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 338,
+        "label_kcal_per_100": 347,
+        "flag": false
+      },
+      "notes": "Snap your pack label to confirm fibre.",
+      "ingredient_id": "moong_dal_yellow"
+    },
+    {
+      "id": "green_moong_whole",
+      "name": "Unpolished Green Moong (whole)",
+      "brand": "Tata Sampann",
+      "product": "Tata Sampann Unpolished Green Moong (whole)",
+      "category": "pulse",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 347,
+        "protein_g": 24.5,
+        "carbs_g": 59.5,
+        "fat_g": 1.2,
+        "fibre_g": 15.5
+      },
+      "per_serving": {
+        "kcal": 173.5,
+        "protein_g": 12.2,
+        "carbs_g": 29.8,
+        "fat_g": 0.6,
+        "fibre_g": 7.8
+      },
+      "cost": {
+        "cost_per_serving_inr": 8.5,
+        "cost_per_10g_protein_inr": 6.97,
+        "pack_size": 500,
+        "pack_unit": "g",
+        "pack_price_inr": 85,
+        "mrp_inr": 99,
+        "price_source": "BigBasket 500 g",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Tata Sampann label as listed by a calorie-tracker app (347 kcal, 24.5 g P, 59.5 g carbs, 15.5 g fibre)",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 316,
+        "label_kcal_per_100": 347,
+        "flag": false
+      },
+      "notes": "",
+      "ingredient_id": "moong_green"
+    },
+    {
+      "id": "chole_kabuli",
+      "name": "Unpolished Kabuli Chana (chole)",
+      "brand": "Tata Sampann",
+      "product": "Tata Sampann Unpolished Kabuli Chana (chole)",
+      "category": "pulse",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 378,
+        "protein_g": 20.5,
+        "carbs_g": 63.0,
+        "fat_g": 6.0,
+        "fibre_g": 12.2
+      },
+      "per_serving": {
+        "kcal": 189.0,
+        "protein_g": 10.2,
+        "carbs_g": 31.5,
+        "fat_g": 3.0,
+        "fibre_g": 6.1
+      },
+      "cost": {
+        "cost_per_serving_inr": 9.25,
+        "cost_per_10g_protein_inr": 9.07,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 185,
+        "mrp_inr": 210,
+        "price_source": "Blinkit 1 kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Tata Sampann label not found online; USDA chickpea values used",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 364,
+        "label_kcal_per_100": 378,
+        "flag": false
+      },
+      "notes": "Send a photo of the pack label to replace these.",
+      "ingredient_id": "chickpeas"
+    },
+    {
+      "id": "rajma",
+      "name": "Unpolished Rajma",
+      "brand": "Tata Sampann",
+      "product": "Tata Sampann Unpolished Rajma",
+      "category": "pulse",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 337,
+        "protein_g": 22.5,
+        "carbs_g": 61.3,
+        "fat_g": 1.1,
+        "fibre_g": 15.2
+      },
+      "per_serving": {
+        "kcal": 168.5,
+        "protein_g": 11.2,
+        "carbs_g": 30.6,
+        "fat_g": 0.6,
+        "fibre_g": 7.6
+      },
+      "cost": {
+        "cost_per_serving_inr": 9.8,
+        "cost_per_10g_protein_inr": 8.75,
+        "pack_size": 500,
+        "pack_unit": "g",
+        "pack_price_inr": 98,
+        "mrp_inr": 122,
+        "price_source": "BigBasket 500 g",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Tata Sampann label not found online; USDA red kidney bean values used",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 315,
+        "label_kcal_per_100": 337,
+        "flag": false
+      },
+      "notes": "Send a photo of the pack label to replace these.",
+      "ingredient_id": "rajma"
+    },
+    {
+      "id": "kala_chana",
+      "name": "Unpolished Kala Chana",
+      "brand": "Tata Sampann",
+      "product": "Tata Sampann Unpolished Kala Chana",
+      "category": "pulse",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 340,
+        "protein_g": 19.5,
+        "carbs_g": 62.0,
+        "fat_g": 5.5,
+        "fibre_g": 18.0
+      },
+      "per_serving": {
+        "kcal": 170.0,
+        "protein_g": 9.8,
+        "carbs_g": 31.0,
+        "fat_g": 2.8,
+        "fibre_g": 9.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 5.5,
+        "cost_per_10g_protein_inr": 5.61,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 110,
+        "mrp_inr": 120,
+        "price_source": "BigBasket 1 kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Tata Sampann label not found online (the Instamart listing shows cooked-chana numbers); IFCT-based approximation",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 340,
+        "label_kcal_per_100": 340,
+        "flag": false
+      },
+      "notes": "Send a photo of the pack label to replace these.",
+      "ingredient_id": "kala_chana"
+    },
+    {
+      "id": "roasted_besan",
+      "name": "Besan, roasted at home",
+      "brand": "Tata Sampann",
+      "product": "Tata Sampann Besan, roasted at home",
+      "category": "pulse",
+      "serving": {
+        "amount": 50,
+        "unit": "g",
+        "form": "dry",
+        "label": "50 g dry"
+      },
+      "per_100": {
+        "kcal": 384,
+        "protein_g": 21.5,
+        "carbs_g": 62.3,
+        "fat_g": 5.4,
+        "fibre_g": 9.3
+      },
+      "per_serving": {
+        "kcal": 192.0,
+        "protein_g": 10.8,
+        "carbs_g": 31.1,
+        "fat_g": 2.7,
+        "fibre_g": 4.7
+      },
+      "cost": {
+        "cost_per_serving_inr": 6.2,
+        "cost_per_10g_protein_inr": 5.74,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 124,
+        "mrp_inr": 149,
+        "price_source": "BigBasket/Flipkart 1 kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Tata Sampann Fine Besan label (384 kcal, 21.5 g P, 5.4 g fat, 62.3 g carbs, 9.3 g fibre)",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 365,
+        "label_kcal_per_100": 384,
+        "flag": false
+      },
+      "notes": "Dry roasting only drives off a little moisture, so the raw label applies.",
+      "ingredient_id": "besan"
+    },
+    {
+      "id": "cooking_fat_tsp",
+      "name": "Cooking oil or ghee, 1 tsp",
+      "brand": "Generic",
+      "product": "Cooking oil or ghee, 1 tsp",
+      "category": "buffer",
+      "serving": {
+        "amount": 5,
+        "unit": "g",
+        "form": "raw",
+        "label": "5 g"
+      },
+      "per_100": {
+        "kcal": 900,
+        "protein_g": 0.0,
+        "carbs_g": 0.0,
+        "fat_g": 100.0,
+        "fibre_g": 0.0
+      },
+      "per_serving": {
+        "kcal": 45.0,
+        "protein_g": 0.0,
+        "carbs_g": 0.0,
+        "fat_g": 5.0,
+        "fibre_g": 0.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 0.9,
+        "cost_per_10g_protein_inr": null,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 180,
+        "mrp_inr": null,
+        "price_source": "Assumes ~₹180/kg refined oil; ghee is ~₹680/kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Any oil or ghee is ~100% fat",
+      "confidence": "high",
+      "kcal_check": {
+        "implied_kcal_per_100": 900,
+        "label_kcal_per_100": 900,
+        "flag": false
+      },
+      "notes": "Your share of the oil in sabzi and dal. See the buffer note for how to estimate it.",
+      "ingredient_id": "oil"
+    },
+    {
+      "id": "sabzi_veg_katori",
+      "name": "Mixed veg sabzi or gravy, 1 katori (no oil)",
+      "brand": "Generic",
+      "product": "Mixed veg sabzi or gravy, 1 katori (no oil)",
+      "category": "buffer",
+      "serving": {
+        "amount": 150,
+        "unit": "g",
+        "form": "cooked",
+        "label": "150 g cooked"
+      },
+      "per_100": {
+        "kcal": 35,
+        "protein_g": 1.7,
+        "carbs_g": 7.0,
+        "fat_g": 0.2,
+        "fibre_g": 2.5
+      },
+      "per_serving": {
+        "kcal": 52.5,
+        "protein_g": 2.5,
+        "carbs_g": 10.5,
+        "fat_g": 0.3,
+        "fibre_g": 3.8
+      },
+      "cost": {
+        "cost_per_serving_inr": 15.0,
+        "cost_per_10g_protein_inr": 60.0,
+        "pack_size": 1000,
+        "pack_unit": "g",
+        "pack_price_inr": 100,
+        "mrp_inr": null,
+        "price_source": "Rough: ~₹100 of mixed veg per cooked kg",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Average of common Indian veg (onion, tomato, gourds, beans, cabbage, capsicum, palak) per USDA/IFCT; oil counted separately",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 32,
+        "label_kcal_per_100": 35,
+        "flag": false
+      },
+      "notes": "Potato, peas, corn or paneer-heavy sabzis are 2–3x higher; log those as their own items.",
+      "ingredient_id": "mixed_vegetables"
+    },
+    {
+      "id": "fruit_medium",
+      "name": "Fruit, 1 medium piece or bowl",
+      "brand": "Generic",
+      "product": "Fruit, 1 medium piece or bowl",
+      "category": "buffer",
+      "serving": {
+        "amount": 1,
+        "unit": "piece",
+        "form": "raw",
+        "label": "1 piece"
+      },
+      "per_100": {
+        "kcal": 80,
+        "protein_g": 1.0,
+        "carbs_g": 20.0,
+        "fat_g": 0.3,
+        "fibre_g": 3.0
+      },
+      "per_serving": {
+        "kcal": 80,
+        "protein_g": 1.0,
+        "carbs_g": 20.0,
+        "fat_g": 0.3,
+        "fibre_g": 3.0
+      },
+      "cost": {
+        "cost_per_serving_inr": 15.0,
+        "cost_per_10g_protein_inr": 150.0,
+        "pack_size": 1,
+        "pack_unit": "piece",
+        "pack_price_inr": 15,
+        "mrp_inr": null,
+        "price_source": "Rough average per piece",
+        "price_as_of": "2026-11-24"
+      },
+      "source": "Average of banana (~105 kcal), apple (~95), guava (~70), orange (~60), papaya bowl (~60)",
+      "confidence": "medium",
+      "kcal_check": {
+        "implied_kcal_per_100": 81,
+        "label_kcal_per_100": 80,
+        "flag": false
+      },
+      "notes": "Per 100 here means per piece. Banana and mango run high; citrus and papaya low.",
+      "ingredient_id": null
+    },
+    {
+      "id": "whey_oats_shake",
+      "name": "Whey protein shake (whey + oats + milk + chia + flax)",
+      "brand": "Home-made",
+      "product": "Whey protein shake (whey + oats + milk + chia + flax)",
+      "category": "meal",
+      "serving": {
+        "amount": 1,
+        "unit": "piece",
+        "form": "prepared",
+        "label": "1 shake"
+      },
+      "per_serving": {
+        "kcal": 429.7,
+        "protein_g": 34.8,
+        "carbs_g": 42.2,
+        "fat_g": 14.7,
+        "fibre_g": 7.3
+      },
+      "cost": {
+        "cost_per_serving_inr": 126.06,
+        "cost_per_10g_protein_inr": 36.22,
+        "price_source": "Sum of the component items' costs",
+        "price_as_of": "2026-11-24"
+      },
+      "components": [
+        {
+          "id": "myprotein_impact_whey_choc_smooth",
+          "servings": 1,
+          "serving": "1 scoop (30 g)",
+          "product": "Myprotein Impact Whey Protein – Chocolate Smooth"
+        },
+        {
+          "id": "saffola_oats_plain",
+          "servings": 1,
+          "serving": "40 g dry",
+          "product": "Saffola Oats (plain, instant rolled)"
+        },
+        {
+          "id": "amul_taaza_milk",
+          "servings": 1,
+          "serving": "200 ml",
+          "product": "Amul Taaza Toned Milk"
+        },
+        {
+          "id": "chia_seeds",
+          "servings": 1,
+          "serving": "5 g",
+          "product": "Chia seeds"
+        },
+        {
+          "id": "flax_seeds_blended",
+          "servings": 1,
+          "serving": "5 g",
+          "product": "Flax seeds (blended)"
+        }
+      ],
+      "source": "Sum of component items in this library; updates when any component changes",
+      "confidence": "high",
+      "notes": "Don't also log the components separately when you log this.",
+      "ingredient_id": null
+    },
+    {
+      "id": "alpino_oats_milk_bowl",
+      "name": "Alpino protein oats with milk",
+      "brand": "Home-made",
+      "product": "Alpino protein oats with milk",
+      "category": "meal",
+      "serving": {
+        "amount": 1,
+        "unit": "piece",
+        "form": "prepared",
+        "label": "1 bowl (40 g oats + 200 ml milk)"
+      },
+      "per_serving": {
+        "kcal": 299.1,
+        "protein_g": 14.8,
+        "carbs_g": 30.1,
+        "fat_g": 13.4,
+        "fibre_g": 4.4
+      },
+      "cost": {
+        "cost_per_serving_inr": 31.29,
+        "cost_per_10g_protein_inr": 21.14,
+        "price_source": "Sum of the component items' costs",
+        "price_as_of": "2026-11-24"
+      },
+      "components": [
+        {
+          "id": "alpino_hp_super_oats_choc",
+          "servings": 1,
+          "serving": "40 g dry",
+          "product": "Alpino High Protein Super Oats – Chocolate"
+        },
+        {
+          "id": "amul_taaza_milk",
+          "servings": 1,
+          "serving": "200 ml",
+          "product": "Amul Taaza Toned Milk"
+        }
+      ],
+      "source": "Sum of component items in this library; updates when any component changes",
+      "confidence": "high",
+      "notes": "Don't also log the components separately when you log this.",
+      "ingredient_id": null
+    },
+    {
+      "id": "roti_blended_atta_ghee",
+      "name": "Roti (50% Aashirvaad atta + 25% Tata Sampann besan + 25% FirstClub soya flour) with ghee",
+      "brand": "Home-made",
+      "product": "Home-made roti, blended flour",
+      "category": "grain",
+      "serving": {
+        "amount": 1,
+        "unit": "piece",
+        "form": "cooked",
+        "label": "1 roti (35 g cooked) + 2 g ghee"
+      },
+      "per_serving": {
+        "kcal": 122.5,
+        "protein_g": 5.2,
+        "carbs_g": 16.5,
+        "fat_g": 4.1,
+        "fibre_g": 2.7
+      },
+      "per_serving_without_ghee": {
+        "kcal": 104.5,
+        "protein_g": 5.2,
+        "carbs_g": 16.5,
+        "fat_g": 2.1,
+        "fibre_g": 2.7
+      },
+      "per_100_dry_blend": {
+        "kcal": 402.0,
+        "protein_g": 19.83,
+        "carbs_g": 63.28,
+        "fat_g": 8.0,
+        "fibre_g": 10.4
+      },
+      "cost": {
+        "cost_per_serving_inr": 4.14,
+        "cost_per_10g_protein_inr": 8.03,
+        "blend_price_per_kg_inr": 107.0,
+        "ghee_price_per_kg_inr": 680,
+        "price_source": "Aashirvaad atta ~₹52/kg (10 kg pack), Tata Sampann besan ~₹124/kg, FirstClub soya flour assumed ~₹200/kg (send actual), Amul ghee ₹680/kg (Nov 2026)",
+        "price_as_of": "2026-11-24"
+      },
+      "derivation": {
+        "cooked_weight_g": 35,
+        "estimated_dry_flour_g": 26,
+        "dry_flour_range_g": [
+          24,
+          28
+        ],
+        "ghee_g": 2,
+        "ghee_range_g": [
+          1.5,
+          2.5
+        ],
+        "method": "35 g is cooked weight, not raw. A cooked roti is ~30–35% water; atta is ~11% water. So dry flour ≈ 35 × (0.65–0.70) ÷ 0.89 ≈ 25.5–27.5 g → 26 g. Ghee: half a teaspoon ≈ 2.3 g, 'less than half' → 2 g.",
+        "assumptions": [
+          "35 g weighed before ghee",
+          "a fresh roti is ~30–35% water (see check_it_yourself)",
+          "dusting flour ignored (adds ~1 g)"
+        ],
+        "check_it_yourself": "Weigh the dry flour for one batch (say 200 g), count the rotis and weigh them all just off the tawa, before ghee. Flour per roti = 200 ÷ count; water share = 1 − (200 × 0.89) ÷ total roti weight. Update estimated_dry_flour_g with your number.",
+        "range_kcal": [
+          110,
+          135
+        ]
+      },
+      "source": "Atta: Aashirvaad Shudh Chakki label (BigBasket). Besan: Tata Sampann label. Soya flour: FirstClub pack label (486 kcal, 36.2 g P, 23 g fat, 36 g carbs, 10.1 g fibre). Ghee: 99.7% fat.",
+      "confidence": "medium",
+      "notes": "Your soya flour is full-fat, so it adds fat as well as protein: about 1.5 g of each roti's fat comes from it.",
+      "ingredient_id": "roti"
+    }
+  ]
+}
