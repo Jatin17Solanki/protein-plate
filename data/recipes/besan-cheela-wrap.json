@@ -1,0 +1,192 @@
+{
+  "id": "besan-cheela-wrap",
+  "title": "Besan Cheela Wrap",
+  "source": {
+    "url": "https://www.instagram.com/reel/DgH6-uwo7ia/",
+    "platform": "instagram",
+    "creator": "fit.khurana",
+    "creator_url": "https://www.instagram.com/fit.khurana/",
+    "ref": "batches/instinct-B005.txt#11"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "besan",
+    "cheese",
+    "roti"
+  ],
+  "tags": [
+    "wrap_roll_taco",
+    "chilla_pancake_omelette",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (servings not stated)",
+    "protein_g": 37,
+    "kcal": 470
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "besan (gram flour)",
+      "ingredient_id": "besan",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "30g besan"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water, as needed"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, to taste"
+    },
+    {
+      "item": "red chilli powder",
+      "ingredient_id": "red_chilli_powder",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Red chilli powder, to taste"
+    },
+    {
+      "item": "black pepper",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Black pepper, to taste"
+    },
+    {
+      "item": "cumin powder (jeera)",
+      "ingredient_id": "cumin_powder",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Jeera powder, to taste"
+    },
+    {
+      "item": "spinach, chopped",
+      "ingredient_id": "spinach",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Chopped spinach"
+    },
+    {
+      "item": "roti or tortilla",
+      "ingredient_id": "roti",
+      "qty": 1,
+      "unit": "piece",
+      "type": "grain",
+      "as_written": "1 roti or tortilla"
+    },
+    {
+      "item": "lettuce leaves",
+      "ingredient_id": "lettuce",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lettuce leaves"
+    },
+    {
+      "item": "cheese slice",
+      "ingredient_id": "cheese",
+      "qty": 1,
+      "unit": "slice",
+      "type": "dairy",
+      "as_written": "1 cheese slice"
+    },
+    {
+      "item": "tomato slices",
+      "ingredient_id": "tomato",
+      "qty": 2,
+      "unit": "slice",
+      "type": "produce",
+      "as_written": "2 tomato slices"
+    },
+    {
+      "item": "high-protein low-fat paneer, crumbled",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 80,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "80g high-protein, low-fat paneer, crumbled"
+    },
+    {
+      "item": "chilli oil",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "green chutney or sauce, to serve",
+      "ingredient_id": "green_chutney",
+      "qty": null,
+      "unit": null,
+      "type": "sauce",
+      "optional": true,
+      "as_written": "Sauce or chutney, for serving (optional)"
+    }
+  ],
+  "steps": [
+    "Mix besan, salt, red chilli powder, black pepper, jeera powder and water to make a smooth, flowing batter slightly thinner than dosa batter.",
+    "Pour the batter onto a hot tawa and spread it into a thin cheela. Sprinkle chopped spinach on top while its wet.",
+    "Place a roti or tortilla over the spinach after it slightly cooks, pressing gently. Let it cook, then flip and lightly toast the roti side without making it too crispy.",
+    "Flip again so the roti side faces up. Add lettuce, a cheese slice, tomato slices and crumbled high-protein paneer mixed with chilli oil.",
+    "Make one cut from the bottom edge towards the centre, creating a quarter-fold opening. Fold the wrap section by section as shown in the video.",
+    "Cut the folded wrap in half and enjoy with your favourite sauce or chutney!"
+  ],
+  "assumptions": [
+    "Creator also states ~7.8 g fibre.",
+    "The list makes one wrap (1 roti, 1 cheese slice), but the creator doesn’t say the numbers are per wrap.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Amount of spinach"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amount of spinach"
+    }
+  ]
+}

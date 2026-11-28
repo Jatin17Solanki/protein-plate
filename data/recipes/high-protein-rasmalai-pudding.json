@@ -1,0 +1,132 @@
+{
+  "id": "high-protein-rasmalai-pudding",
+  "title": "High Protein Rasmalai Pudding",
+  "source": {
+    "url": "https://www.youtube.com/shorts/Q0p2ZuEuHNE",
+    "platform": "youtube",
+    "creator": "Ritika Phulwade",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#8"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "dessert"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 14,
+    "kcal": 155,
+    "carbs_g": 14,
+    "fat_g": 5,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (½ recipe; makes 2), approx.; fat ~5–6 g",
+    "protein_g": 14,
+    "kcal": 155,
+    "carbs_g": 14,
+    "fat_g": 5
+  },
+  "protein_working": [],
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "high-protein Greek yogurt",
+      "ingredient_id": "greek_yogurt",
+      "qty": 200,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "200g high-protein Greek yogurt"
+    },
+    {
+      "item": "makhana (fox nuts)",
+      "ingredient_id": "makhana",
+      "qty": 15,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "15g makhana (fox nuts)"
+    },
+    {
+      "item": "almonds",
+      "ingredient_id": "almonds",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "10g almonds"
+    },
+    {
+      "item": "honey",
+      "ingredient_id": "honey",
+      "qty": 5,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "5g honey"
+    },
+    {
+      "item": "milk",
+      "ingredient_id": "milk",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "1–2 tbsp milk"
+    },
+    {
+      "item": "saffron strands",
+      "ingredient_id": "saffron",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "A few strands of saffron"
+    },
+    {
+      "item": "cardamom powder",
+      "ingredient_id": "green_cardamom",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp cardamom powder"
+    },
+    {
+      "item": "pistachios, chopped (garnish)",
+      "ingredient_id": "pistachios",
+      "qty": 5,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "5g chopped pistachios for garnish"
+    }
+  ],
+  "steps": [
+    "Boil the almonds for 5–8 minutes, peel and let them cool.",
+    "Dry-roast the makhana and grind into a fine powder.",
+    "Soak saffron in warm milk for a few minutes.",
+    "Add Greek yogurt, almonds, makhana powder, honey, saffron milk and cardamom to a blender.",
+    "Blend everything until smooth and creamy.",
+    "Divide into two bowls and refrigerate for 30–45 minutes.",
+    "Garnish with chopped pistachios and saffron. Serve chilled!"
+  ],
+  "assumptions": [
+    "The creator says it takes 5 minutes to prepare, plus chilling time.",
+    "Macros are approximate and depend on the Greek yogurt brand, per the creator.",
+    "Meal types are our guess."
+  ],
+  "missing": [],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "No protein source reaches 35 % of the protein (CONTEXT §4), so it has no main protein."
+    }
+  ]
+}

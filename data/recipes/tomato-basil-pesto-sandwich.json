@@ -1,0 +1,58 @@
+{
+  "id": "tomato-basil-pesto-sandwich",
+  "title": "Tomato & Basil Pesto Sandwich",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeqXL2iTrEq/",
+    "platform": "instagram",
+    "creator": "chann.cooks",
+    "creator_url": "https://www.instagram.com/chann.cooks/",
+    "ref": "batches/instinct-B005.txt#13"
+  },
+  "status": "incomplete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [],
+  "supporting_proteins": [],
+  "tags": [
+    "sandwich_toast"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [],
+  "steps": [],
+  "assumptions": [
+    "From the video: halved cherry tomatoes sautéed with oil and garlic, bread spread with basil pesto, shredded cheese, the tomatoes, then pan-toasted on both sides."
+  ],
+  "missing": [
+    "Written recipe (the caption is a title only and there is no speech; the video is the recipe)"
+  ],
+  "added_at": "2026-11-28",
+  "video_only": true,
+  "flags": [
+    {
+      "code": "no_main_protein",
+      "note": "Video only, and no main protein chosen yet."
+    },
+    {
+      "code": "other",
+      "note": "The only protein is the cheese (no paneer, tofu, soya or pulses). Keep, or archive as low protein?"
+    }
+  ]
+}

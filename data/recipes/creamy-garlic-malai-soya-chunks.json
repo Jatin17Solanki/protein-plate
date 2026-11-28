@@ -1,0 +1,223 @@
+{
+  "id": "creamy-garlic-malai-soya-chunks",
+  "title": "Creamy Garlic Malai Soya Chunks",
+  "source": {
+    "url": "https://www.youtube.com/shorts/qA7PvQskCRA",
+    "platform": "youtube",
+    "creator": "Harsh Katkade Fitness",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#7"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe, approx. 350–380 kcal, 27–30 g protein, 25–30 g carbs, 13–16 g fat (servings not stated)",
+    "protein_g": 27,
+    "kcal": 350,
+    "carbs_g": 25,
+    "fat_g": 13
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "soya chunks (dry)",
+      "section": "soya chunks",
+      "ingredient_id": "soya_chunks",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Soya chunks (dry) – 50 g"
+    },
+    {
+      "item": "salt",
+      "section": "soya chunks",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "soya chunks",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "grams": 5,
+      "type": "produce",
+      "as_written": "Ginger-garlic paste – 1 tsp (5 g)"
+    },
+    {
+      "item": "Greek yogurt",
+      "section": "marinade",
+      "ingredient_id": "greek_yogurt",
+      "qty": 50,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Greek yogurt – 50 g"
+    },
+    {
+      "item": "fresh cream",
+      "section": "marinade",
+      "ingredient_id": "cream",
+      "qty": 10,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Fresh cream – 10 g"
+    },
+    {
+      "item": "cheese",
+      "section": "marinade",
+      "ingredient_id": "cheese",
+      "qty": 10,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Cheese – 10 g"
+    },
+    {
+      "item": "cornflour",
+      "section": "marinade",
+      "ingredient_id": "corn_flour",
+      "qty": 5,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Cornflour – 5 g"
+    },
+    {
+      "item": "garam masala",
+      "section": "marinade",
+      "ingredient_id": "garam_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Garam masala – 1/2 tsp"
+    },
+    {
+      "item": "black pepper",
+      "section": "marinade",
+      "ingredient_id": "black_pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – 1/2 tsp"
+    },
+    {
+      "item": "salt",
+      "section": "marinade",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "butter",
+      "section": "garlic sauce",
+      "ingredient_id": "butter",
+      "qty": 5,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Butter – 5 g"
+    },
+    {
+      "item": "garlic",
+      "section": "garlic sauce",
+      "ingredient_id": "garlic",
+      "qty": 10,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Garlic – 10 g"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "garlic sauce",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chilli flakes – 1/2 tsp"
+    },
+    {
+      "item": "cornflour",
+      "section": "garlic sauce",
+      "ingredient_id": "corn_flour",
+      "qty": 3,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Cornflour – 3 g"
+    },
+    {
+      "item": "water",
+      "section": "garlic sauce",
+      "ingredient_id": "water",
+      "qty": 50,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Water – 50 ml"
+    },
+    {
+      "item": "fresh cream",
+      "section": "garlic sauce",
+      "ingredient_id": "cream",
+      "qty": 10,
+      "unit": "g",
+      "type": "dairy",
+      "as_written": "Fresh cream – 10 g"
+    },
+    {
+      "item": "coriander",
+      "section": "garlic sauce",
+      "ingredient_id": "coriander_leaves",
+      "qty": 5,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Coriander – 5 g"
+    }
+  ],
+  "steps": [
+    "Boil soya chunks with salt and ginger-garlic paste for 5–7 minutes. Drain, rinse and squeeze out excess water.",
+    "Mix Greek yogurt, cream, cheese, cornflour, garam masala, black pepper and salt. Add boiled soya chunks and mix well.",
+    "Air-fry at 180°C for 12–15 minutes, shaking halfway.",
+    "For the sauce, sauté garlic in butter. Add chilli flakes and cornflour, mix, then add water and stir until smooth.",
+    "Add fresh cream and coriander. Mix well.",
+    "Pour the creamy garlic sauce over the air-fried soya chunks and serve."
+  ],
+  "assumptions": [
+    "Creator also states 8–10 g fibre."
+  ],
+  "missing": [],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe, approx. 350–380 kcal, 27–30 g protein, 25–30 g carbs, 13–16 g fat (servings not stated)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

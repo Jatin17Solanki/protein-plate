@@ -1,0 +1,131 @@
+{
+  "id": "soya-bolognese-pasta",
+  "title": "Soya Bolognese Pasta",
+  "source": {
+    "url": "https://www.instagram.com/reel/DeITrlkzK7I/",
+    "platform": "instagram",
+    "creator": "chef_hemang_vachani",
+    "creator_url": "https://www.instagram.com/chef_hemang_vachani/",
+    "ref": "batches/instinct-B005.txt#5"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "pasta_whole_wheat"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe, roughly 25–30 g depending on the soya and pasta brand (servings not stated)",
+    "protein_g": 25,
+    "kcal": null
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "dry soya chunks / granules",
+      "ingredient_id": "soya_chunks",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "40 g dry soya chunks/granules"
+    },
+    {
+      "item": "whole-wheat spaghetti",
+      "ingredient_id": "pasta_whole_wheat",
+      "qty": 80,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "80 g whole-wheat spaghetti"
+    },
+    {
+      "item": "ghee",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "1 tsp ghee"
+    },
+    {
+      "item": "onion, finely chopped",
+      "ingredient_id": "onion",
+      "qty": 40,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "40 g onion, finely chopped"
+    },
+    {
+      "item": "garlic, chopped",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2–3 cloves garlic, chopped"
+    },
+    {
+      "item": "tomato, chopped/crushed",
+      "ingredient_id": "tomato",
+      "qty": 100,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "100 g tomato, chopped/crushed"
+    },
+    {
+      "item": "tomato paste",
+      "ingredient_id": "tomato",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp tomato paste"
+    }
+  ],
+  "steps": [
+    "Melt the ghee in a pan.",
+    "Add the garlic, onion and spices",
+    "Add the tomato and cook down into a sauce",
+    "Add the soya chunks/granules (\"the star of the show\").",
+    "Add the cooked spaghetti and toss to combine."
+  ],
+  "assumptions": [
+    "The caption lists the ingredients only; the steps are from the creator’s voiceover and the video.",
+    "Episode 01 of the creator’s Protein Cult series. The joke line about chicken is about swapping chicken for soya; there is no chicken in the recipe.",
+    "Meal types are our guess."
+  ],
+  "missing": [
+    "Which spices, and salt",
+    "Whether the soya is soaked or boiled first"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe, roughly 25–30 g depending on the soya and pasta brand (servings not stated)\", and the caption doesn't say how many portions that is."
+    },
+    {
+      "code": "missing_details",
+      "note": "Which spices, and salt; Whether the soya is soaked or boiled first"
+    }
+  ]
+}

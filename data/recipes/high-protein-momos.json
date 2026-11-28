@@ -1,0 +1,215 @@
+{
+  "id": "high-protein-momos",
+  "title": "High-Protein Momos",
+  "source": {
+    "url": "https://www.youtube.com/shorts/5ikF3y-Pt3Q",
+    "platform": "youtube",
+    "creator": "Harsh Katkade Fitness",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#9"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "soya"
+  ],
+  "supporting_proteins": [
+    "paneer",
+    "sooji"
+  ],
+  "tags": [],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (7 momos)",
+    "protein_g": 28.5,
+    "kcal": 525,
+    "carbs_g": 72.5,
+    "fat_g": 14.5
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "semolina (suji)",
+      "section": "dough",
+      "ingredient_id": "sooji",
+      "qty": 50,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "50g Suji (Semolina)"
+    },
+    {
+      "item": "water",
+      "section": "dough",
+      "ingredient_id": "water",
+      "qty": 25,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "25–30ml Water"
+    },
+    {
+      "item": "salt",
+      "section": "dough",
+      "ingredient_id": "salt",
+      "qty": 0.125,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "⅛ tsp Salt"
+    },
+    {
+      "item": "carrot",
+      "section": "filling",
+      "ingredient_id": "carrot",
+      "qty": 25,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "25g Carrot"
+    },
+    {
+      "item": "cabbage",
+      "section": "filling",
+      "ingredient_id": "cabbage",
+      "qty": 40,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "40g Cabbage"
+    },
+    {
+      "item": "capsicum",
+      "section": "filling",
+      "ingredient_id": "capsicum",
+      "qty": 25,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "25g Capsicum"
+    },
+    {
+      "item": "onion",
+      "section": "filling",
+      "ingredient_id": "onion",
+      "qty": 25,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "25g Onion"
+    },
+    {
+      "item": "soya chunks (dry weight)",
+      "section": "filling",
+      "ingredient_id": "soya_chunks",
+      "qty": 25,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "25g Soya Chunks (dry weight)"
+    },
+    {
+      "item": "paneer",
+      "section": "filling",
+      "ingredient_id": "paneer",
+      "qty": 50,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "50g Paneer"
+    },
+    {
+      "item": "sweet corn",
+      "section": "filling",
+      "ingredient_id": "sweet_corn",
+      "qty": 15,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "15g Sweet Corn"
+    },
+    {
+      "item": "green chilli",
+      "section": "filling",
+      "ingredient_id": "green_chilli",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "½ Green Chilli"
+    },
+    {
+      "item": "oregano",
+      "section": "filling",
+      "ingredient_id": "oregano",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp Oregano"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "filling",
+      "ingredient_id": "chilli_flakes",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp Chilli Flakes"
+    },
+    {
+      "item": "black pepper",
+      "section": "filling",
+      "ingredient_id": "black_pepper",
+      "qty": 0.125,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "⅛ tsp Black Pepper"
+    },
+    {
+      "item": "salt",
+      "section": "filling",
+      "ingredient_id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "¼ tsp Salt"
+    },
+    {
+      "item": "ghee (for greasing)",
+      "section": "filling",
+      "ingredient_id": "ghee",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "dairy",
+      "as_written": "½ tsp Ghee for greasing"
+    }
+  ],
+  "steps": [
+    "Grind the suji lightly in a mixer. Add salt and water gradually to make a soft dough. Rest for 10–15 minutes.",
+    "Place the carrot, cabbage, capsicum and onion in a clean cloth and squeeze out the excess water.",
+    "Boil the soya chunks, squeeze out all the water, dry them well and grind them coarsely.",
+    "Mix the vegetables, soya chunks, paneer, sweet corn, green chilli, oregano, chilli flakes, black pepper and salt.",
+    "Roll the dough into a thin sheet and cut out small round wrappers using a round cutter or bowl.",
+    "Add the filling, fold and seal into momos.",
+    "Grease the steaming plate with ghee and place the momos on it.",
+    "Steam for 10 minutes or until cooked through.",
+    "Serve hot and enjoy!"
+  ],
+  "assumptions": [
+    "Creator also states ~9.5 g fibre for the 7 momos."
+  ],
+  "missing": [],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (7 momos)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}

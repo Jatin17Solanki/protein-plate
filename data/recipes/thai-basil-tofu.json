@@ -1,0 +1,189 @@
+{
+  "id": "thai-basil-tofu",
+  "title": "Thai Basil Tofu",
+  "source": {
+    "url": "https://www.instagram.com/reel/Df4vkKdIH-F/",
+    "platform": "instagram",
+    "creator": "prrrunch",
+    "creator_url": "https://www.instagram.com/prrrunch/",
+    "ref": "batches/instinct-B005.txt#3"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "soy_sauce"
+  ],
+  "tags": [
+    "global",
+    "quick",
+    "air_fryer_required",
+    "vegan"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "medium-firm tofu",
+      "ingredient_id": "tofu_firm",
+      "qty": 1,
+      "unit": "piece",
+      "grams": 200,
+      "type": "protein",
+      "as_written": "1 block medium firm tofu"
+    },
+    {
+      "item": "light soy sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp light soy sauce"
+    },
+    {
+      "item": "corn starch / corn flour",
+      "ingredient_id": "corn_flour",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "corn starch/flour (based on what it’s called where you are)"
+    },
+    {
+      "item": "ginger paste",
+      "section": "sauce",
+      "ingredient_id": "ginger",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "1 tbsp ginger paste"
+    },
+    {
+      "item": "garlic",
+      "section": "sauce",
+      "ingredient_id": "garlic",
+      "qty": 2,
+      "unit": "clove",
+      "type": "produce",
+      "as_written": "2 cloves garlic"
+    },
+    {
+      "item": "light soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "2 tbsp light soy sauce"
+    },
+    {
+      "item": "dark soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1/2 tbsp dark soy sauce"
+    },
+    {
+      "item": "vegetarian oyster sauce",
+      "section": "sauce",
+      "ingredient_id": "vegetarian_oyster_sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp vegetarian oyster sauce"
+    },
+    {
+      "item": "sugar (or sweetener)",
+      "section": "sauce",
+      "ingredient_id": "sugar",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "pantry",
+      "as_written": "1 tbsp sugar (or sweetener of your choice)"
+    },
+    {
+      "item": "chilli crisp",
+      "section": "sauce",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp chili crisp"
+    },
+    {
+      "item": "water",
+      "section": "sauce",
+      "ingredient_id": "water",
+      "qty": 0.333,
+      "unit": "cup",
+      "type": "pantry",
+      "as_written": "1/3 cup water"
+    },
+    {
+      "item": "bird's eye red chilli",
+      "section": "sauce",
+      "ingredient_id": "fresh_red_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "1 birds eye red chilli (add according to spice tolerance)"
+    },
+    {
+      "item": "Thai basil leaves",
+      "ingredient_id": "basil",
+      "qty": 8,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "8-10 thai basil leaves"
+    }
+  ],
+  "steps": [
+    "Tear the tofu into chunks and marinate in the light soy sauce, then coat completely in corn starch/flour.",
+    "Air fry the chunks at 200°C for 15 minutes.",
+    "While the tofu crisps, make the sauce: grated ginger and garlic, light and dark soy sauce, vegetarian oyster sauce, sugar and chili crisp",
+    "When about 6 minutes remain on the tofu, heat the sauce until it thickens, then add the chopped chilli, the crispy air-fried tofu and a generous amount of Thai basil."
+  ],
+  "assumptions": [
+    "The caption lists the ingredients only; the steps are the creator’s words from the video.",
+    "The creator calls it a 20 min recipe.",
+    "A sweetener of your choice can replace the sugar, per the caption.",
+    "The creator says regular basil works instead of Thai basil.",
+    "Meal types are our guess.",
+    "Quick is our estimate."
+  ],
+  "missing": [
+    "Weight of the tofu block",
+    "Amount of corn starch/flour"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Weight of the tofu block; Amount of corn starch/flour"
+    }
+  ]
+}

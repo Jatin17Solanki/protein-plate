@@ -1,0 +1,131 @@
+{
+  "id": "dill-moong-balls",
+  "title": "Dill and Moong Balls",
+  "source": {
+    "url": "https://www.youtube.com/shorts/_N1IQC_ibSs",
+    "platform": "youtube",
+    "creator": "Chef Vinny Shukla",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#6"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast",
+      "snack"
+    ],
+    "stated_by_user": [
+      "breakfast",
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "vegan"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "protein",
+      "as_written": "Moong Dal - 1/2 cup"
+    },
+    {
+      "item": "onions, chopped",
+      "ingredient_id": "onion",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Onion chopped - 2"
+    },
+    {
+      "item": "grated coconut",
+      "ingredient_id": "coconut",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Grated coconut - 1/4 cup"
+    },
+    {
+      "item": "green chillies, chopped",
+      "ingredient_id": "green_chilli",
+      "qty": 6,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Green chillies - 6 chopped"
+    },
+    {
+      "item": "dill leaves, chopped",
+      "ingredient_id": "dill",
+      "qty": 1,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Chopped Dill leaves - 1 cup"
+    },
+    {
+      "item": "asafoetida (hing)",
+      "ingredient_id": "hing",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Asafoetida - 1/2 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt"
+    }
+  ],
+  "steps": [
+    "Wash and soak the moong dal for an hour and grind it in the mixer jar not too coarse.",
+    "To this add all the other ingredients, mix it well, make balls and steam it.",
+    "Serve this with green chutney and have it as a breakfast or an evening snack.",
+    "But, don’t worry if it’s not available for you. You can just add lots of coriander."
+  ],
+  "assumptions": [
+    "The amounts and method come from the creator's pinned comment.",
+    "Oil free: the balls are steamed.",
+    "The voiceover also names grated ginger and bay leaves, which the written recipe leaves out, and does not mention the dill; the written recipe is used.",
+    "Commenters know the dish as nucchina unde from Karnataka."
+  ],
+  "missing": [
+    "Steaming time",
+    "Amount of salt"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Steaming time; Amount of salt"
+    },
+    {
+      "code": "source_conflict",
+      "note": "The voiceover adds grated ginger and bay leaves and skips the dill; the written recipe (pinned comment) has dill and no ginger or bay leaves."
+    }
+  ]
+}

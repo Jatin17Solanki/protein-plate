@@ -1,0 +1,145 @@
+{
+  "id": "oats-masoor-moong-dosa",
+  "title": "Oats Masoor Moong Dosa",
+  "source": {
+    "url": "https://www.youtube.com/shorts/OFxzShGEcaI",
+    "platform": "youtube",
+    "creator": "Harsh Katkade Fitness",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#10"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "breakfast"
+    ],
+    "stated_by_user": [
+      "breakfast"
+    ]
+  },
+  "main_proteins": [
+    "pulses"
+  ],
+  "supporting_proteins": [
+    "oats"
+  ],
+  "tags": [
+    "chilla_pancake_omelette",
+    "classic",
+    "vegan"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "whole recipe (3 dosas)",
+    "protein_g": 24,
+    "kcal": 450,
+    "carbs_g": 78,
+    "fat_g": 7
+  },
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "oats",
+      "ingredient_id": "oats",
+      "qty": 40,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Oats - 40 g"
+    },
+    {
+      "item": "masoor dal",
+      "ingredient_id": "masoor_dal",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Masoor Dal - 40 g"
+    },
+    {
+      "item": "yellow moong dal",
+      "ingredient_id": "moong_dal_yellow",
+      "qty": 40,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Moong Dal - 40 g"
+    },
+    {
+      "item": "beetroot",
+      "ingredient_id": "beetroot",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Beetroot - 50 g"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger-Garlic Paste - 1 tsp"
+    },
+    {
+      "item": "green chillies",
+      "ingredient_id": "green_chilli",
+      "qty": 2,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Green Chilli - 2-3"
+    },
+    {
+      "item": "cumin seeds",
+      "ingredient_id": "cumin_seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cumin Seeds - 1/2 tsp"
+    },
+    {
+      "item": "salt",
+      "ingredient_id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Salt - 1/2 tsp"
+    },
+    {
+      "item": "water",
+      "ingredient_id": "water",
+      "qty": 160,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Water - 160-180 ml"
+    }
+  ],
+  "steps": [
+    "Soak moong dal and masoor dal in water for 20 minutes.",
+    "Add the soaked dals, oats, beetroot, ginger-garlic paste, green chilli, cumin seeds and salt to a blender.",
+    "Add water gradually and blend until you get a smooth batter.",
+    "Heat a non-stick pan and lightly sprinkle some water.",
+    "Pour the batter and spread it evenly into a round dosa.",
+    "Cook on both sides for about 2 minutes each, until crispy.",
+    "Serve hot and enjoy!"
+  ],
+  "assumptions": [
+    "Creator also states ~15 g fibre for the 3 dosas.",
+    "No fermentation: the batter is blended and used straight away."
+  ],
+  "missing": [],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "macros_basis_unclear",
+      "note": "The creator's numbers are \"whole recipe (3 dosas)\", and the caption doesn't say how many portions that is."
+    }
+  ]
+}
