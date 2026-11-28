@@ -1,0 +1,268 @@
+{
+  "id": "crispy-tofu-nuggets-mint-dip",
+  "title": "Crispy Tofu Nuggets with Mint Hung Curd Dip",
+  "source": {
+    "url": "https://www.youtube.com/shorts/ZXMiHF9USpY",
+    "platform": "youtube",
+    "creator": "Harsh Katkade Fitness",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#12"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "tofu"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "firm tofu",
+      "section": "nuggets",
+      "ingredient_id": "tofu_firm",
+      "qty": 200,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Firm Tofu – 200 grams"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "nuggets",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger-Garlic Paste – 1 tsp"
+    },
+    {
+      "item": "red chilli powder",
+      "section": "nuggets",
+      "ingredient_id": "red_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Red Chili Powder – ½ tsp"
+    },
+    {
+      "item": "black pepper",
+      "section": "nuggets",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black Pepper – ¼ tsp"
+    },
+    {
+      "item": "salt",
+      "section": "nuggets",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    },
+    {
+      "item": "soy sauce",
+      "section": "nuggets",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Soy Sauce – 1 tsp"
+    },
+    {
+      "item": "cornflour",
+      "section": "nuggets",
+      "ingredient_id": "corn_flour",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "Cornflour – 1 cup"
+    },
+    {
+      "item": "maida",
+      "section": "nuggets",
+      "ingredient_id": "maida",
+      "qty": 1,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "maida - 1 cup"
+    },
+    {
+      "item": "all-purpose flour",
+      "section": "nuggets",
+      "ingredient_id": "maida",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "grain",
+      "as_written": "All-purpose Flour – 2 tbsp"
+    },
+    {
+      "item": "water (for batter)",
+      "section": "nuggets",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Water – a little (for batter)"
+    },
+    {
+      "item": "breadcrumbs",
+      "section": "nuggets",
+      "ingredient_id": "bread",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "grain",
+      "as_written": "Breadcrumbs – ¼ cup"
+    },
+    {
+      "item": "oil spray",
+      "section": "nuggets",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Spray tofu nuggets with oil"
+    },
+    {
+      "item": "hung curd",
+      "section": "mint hung curd dip",
+      "ingredient_id": "greek_yogurt",
+      "qty": 0.5,
+      "unit": "cup",
+      "type": "dairy",
+      "as_written": "Hung Curd – ½ cup"
+    },
+    {
+      "item": "mint leaves",
+      "section": "mint hung curd dip",
+      "ingredient_id": "mint",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Mint leaves – ¼ cup"
+    },
+    {
+      "item": "coriander",
+      "section": "mint hung curd dip",
+      "ingredient_id": "coriander_leaves",
+      "qty": 0.25,
+      "unit": "cup",
+      "type": "produce",
+      "as_written": "Coriander – ¼ cup"
+    },
+    {
+      "item": "green chilli",
+      "section": "mint hung curd dip",
+      "ingredient_id": "green_chilli",
+      "qty": 1,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Green Chili – 1"
+    },
+    {
+      "item": "lemon juice",
+      "section": "mint hung curd dip",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon Juice – 1 tsp"
+    },
+    {
+      "item": "black salt",
+      "section": "mint hung curd dip",
+      "ingredient_id": "black_salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black Salt – ¼ tsp"
+    },
+    {
+      "item": "cumin powder",
+      "section": "mint hung curd dip",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Cumin Powder – ¼ tsp"
+    },
+    {
+      "item": "salt",
+      "section": "mint hung curd dip",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt – to taste"
+    }
+  ],
+  "steps": [
+    "Cut tofu into 1–1.5 inch cubes.",
+    "Press out excess water with paper towels.",
+    "Mix tofu with ginger-garlic paste, red chili powder, black pepper, salt, and soy sauce.",
+    "Let it marinate for 15–20 minutes.",
+    "Mix all-purpose flour and cornflour.",
+    "Add water to make a thick batter.",
+    "Add a pinch of salt.",
+    "Mix grinned breadcrumbs",
+    "Dip each tofu piece in batter → coat with crispy mixture.",
+    "Press lightly for coating to stick.",
+    "Preheat air fryer to 180°C for 5 minutes.",
+    "Spray tofu nuggets with oil and place in air fryer basket.",
+    "Air fry at 180°C for 15–18 minutes, flipping halfway.",
+    "Cook until nuggets are golden and crispy.",
+    "Blend all ingredients into a smooth paste.",
+    "Refrigerate for 15–20 minutes.",
+    "This dip is high-protein, digestion-friendly, and pairs well with tofu nuggets.",
+    "Serve crispy nuggets hot with mint hung curd dip.",
+    "Garnish with lemon slice, coriander, onion, and salad."
+  ],
+  "assumptions": [
+    "The creator calls them chicken nuggets but not chicken: there is no chicken in the recipe.",
+    "\"Mix grinned breadcrumbs\" is the creator’s own wording."
+  ],
+  "missing": [
+    "Amount of oil spray"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amount of oil spray"
+    },
+    {
+      "code": "source_conflict",
+      "note": "Maida is listed twice: \"maida - 1 cup\" and \"All-purpose Flour – 2 tbsp\" (maida is all-purpose flour); the batter step names only all-purpose flour and cornflour. 1 cup cornflour also looks large."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "korean-paneer-popcorn",
+  "title": "Korean Paneer Popcorn",
+  "source": {
+    "url": "https://www.instagram.com/reel/Dc5sGQRzQmB/",
+    "platform": "instagram",
+    "creator": "vipuleatsclean",
+    "creator_url": "https://www.instagram.com/vipuleatsclean/",
+    "ref": "batches/instinct-B005.txt#2"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "snack",
+      "lunch",
+      "dinner"
+    ],
+    "stated_by_user": [
+      "snack"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [],
+  "tags": [
+    "kebab_tikki_cutlet",
+    "global",
+    "air_fryer_required"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "low-fat paneer",
+      "section": "paneer",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 130,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "130g low-fat paneer"
+    },
+    {
+      "item": "salt",
+      "section": "paneer",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt & pepper"
+    },
+    {
+      "item": "black pepper",
+      "section": "paneer",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt & pepper"
+    },
+    {
+      "item": "soy sauce",
+      "section": "paneer",
+      "ingredient_id": "soy_sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp soy sauce"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "paneer",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "1 tsp ginger garlic paste"
+    },
+    {
+      "item": "all-purpose flour",
+      "section": "paneer",
+      "ingredient_id": "maida",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "grain",
+      "as_written": "1 tsp flour"
+    },
+    {
+      "item": "all-purpose flour (slurry)",
+      "section": "coating",
+      "ingredient_id": "maida",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Slurry (flour + water)"
+    },
+    {
+      "item": "water (slurry)",
+      "section": "coating",
+      "ingredient_id": "water",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "Slurry (flour + water)"
+    },
+    {
+      "item": "crushed cornflakes",
+      "section": "coating",
+      "ingredient_id": "cornflakes",
+      "qty": null,
+      "unit": null,
+      "type": "grain",
+      "as_written": "Crushed cornflakes"
+    },
+    {
+      "item": "oil spray",
+      "section": "coating",
+      "ingredient_id": "oil",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "as_written": "light oil spray"
+    },
+    {
+      "item": "gochujang paste",
+      "section": "sauce",
+      "ingredient_id": "gochujang",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "1 tbsp gochujang paste"
+    },
+    {
+      "item": "chilli oil",
+      "section": "sauce",
+      "ingredient_id": "chilli_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "1 tsp chilli oil"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Little honey (optional)"
+    },
+    {
+      "item": "lemon juice",
+      "section": "sauce",
+      "ingredient_id": "lemon",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Lemon juice"
+    },
+    {
+      "item": "spring onions",
+      "section": "sauce",
+      "ingredient_id": "spring_onion",
+      "qty": null,
+      "unit": null,
+      "type": "produce",
+      "as_written": "Spring onions"
+    },
+    {
+      "item": "sesame seeds",
+      "section": "sauce",
+      "ingredient_id": "sesame_seeds",
+      "qty": null,
+      "unit": null,
+      "type": "pantry",
+      "optional": true,
+      "as_written": "Sesame seeds (optional)"
+    }
+  ],
+  "steps": [
+    "Marinate paneer: Add salt, pepper, soy sauce, ginger garlic paste and 1 tsp flour to paneer. Mix well.",
+    "Coat: Dip the paneer in slurry, then coat with crushed cornflakes.",
+    "Cook: Air fry at 200°C for 5-7minutes with a light oil spray until crispy.",
+    "Make sauce: Mix gochujang paste, chilli oil, a little honey (optional), lemon juice and spring onions.",
+    "Toss & serve: Coat the crispy paneer in the sauce and serve with rice and broccoli for a complete meal.",
+    "Pair this up with rice and some vegetables"
+  ],
+  "assumptions": [
+    "'Flour' read as all-purpose flour.",
+    "Lunch and dinner are our guess (the note says snack or main)."
+  ],
+  "missing": [
+    "Amounts for the salt and pepper, slurry, cornflakes, lemon juice and spring onions"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "no_macros",
+      "note": "The creator gives no macros."
+    },
+    {
+      "code": "missing_details",
+      "note": "Amounts for the salt and pepper, slurry, cornflakes, lemon juice and spring onions"
+    }
+  ]
+}

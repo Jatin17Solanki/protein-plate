@@ -1,0 +1,430 @@
+{
+  "id": "paneer-marinades-5-ways",
+  "title": "Paneer Marinades (5 Ways)",
+  "source": {
+    "url": "https://www.instagram.com/p/Df6huNijSw7/",
+    "platform": "instagram",
+    "creator": "natashaagandhi",
+    "creator_url": "https://www.instagram.com/natashaagandhi/",
+    "ref": "batches/instinct-B005.txt#4"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [],
+    "stated_by_user": []
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "greek_yogurt"
+  ],
+  "tags": [
+    "sauce_dip",
+    "global",
+    "add_on"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": null,
+    "kcal": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": null,
+  "protein_working": [],
+  "servings": null,
+  "ingredients": [
+    {
+      "item": "high-protein paneer (per marinade)",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 250,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Marination for 250 g paneer"
+    },
+    {
+      "item": "gochujang",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "gochujang",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Gochujang – 1 tbsp"
+    },
+    {
+      "item": "melted ghee",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "ghee",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Melted ghee – 1 tbsp"
+    },
+    {
+      "item": "ghee roast masala",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "ghee_roast_masala",
+      "qty": 1.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Ghee roast masala – 1½ tsp"
+    },
+    {
+      "item": "hung curd",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "greek_yogurt",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Hung curd – 1 tbsp"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger-garlic paste – 1 tsp"
+    },
+    {
+      "item": "lemon juice",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon juice – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "section": "01 gochujang ghee roast",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt – as needed"
+    },
+    {
+      "item": "thick BBQ sauce",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "bbq_sauce",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Thick BBQ sauce – 1½ tbsp"
+    },
+    {
+      "item": "pineapple juice",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "pineapple_juice",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Pineapple juice – 1 tbsp"
+    },
+    {
+      "item": "roasted cumin powder",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Roasted cumin powder – ½ tsp"
+    },
+    {
+      "item": "chaat masala",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "chaat_masala",
+      "qty": 0.75,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chaat masala – ¾ tsp"
+    },
+    {
+      "item": "Kashmiri chilli powder",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "kashmiri_chilli_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Kashmiri chilli powder – ½ tsp"
+    },
+    {
+      "item": "lime juice",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lime juice – 1 tsp"
+    },
+    {
+      "item": "neutral oil",
+      "section": "02 pineapple chaat bbq",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Neutral oil – 1 tsp"
+    },
+    {
+      "item": "hung curd",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Hung curd – 2 tbsp"
+    },
+    {
+      "item": "vegetarian Caesar dressing",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "caesar_dressing",
+      "qty": 1,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Vegetarian Caesar dressing – 1 tbsp"
+    },
+    {
+      "item": "mild kasundi",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "kasundi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Mild kasundi – 1 tsp"
+    },
+    {
+      "item": "chole masala",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "chana_masala",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Chole masala – ½ tsp"
+    },
+    {
+      "item": "garlic paste",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "garlic",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Garlic paste – ½ tsp"
+    },
+    {
+      "item": "lemon juice",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon juice – ½ tsp"
+    },
+    {
+      "item": "black pepper",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – ¼ tsp"
+    },
+    {
+      "item": "neutral oil",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Neutral oil – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "section": "03 chole caesar kasundi",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt – as needed"
+    },
+    {
+      "item": "hung curd",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Hung curd – 2 tbsp"
+    },
+    {
+      "item": "thick salsa verde",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "salsa_verde",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "sauce",
+      "as_written": "Thick salsa verde – 1½ tbsp"
+    },
+    {
+      "item": "ginger-garlic paste",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "ginger_garlic_paste",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Ginger-garlic paste – ½ tsp"
+    },
+    {
+      "item": "roasted cumin powder",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "cumin_powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Roasted cumin powder – ½ tsp"
+    },
+    {
+      "item": "lemon zest",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "produce",
+      "as_written": "Lemon zest – ½ tsp"
+    },
+    {
+      "item": "olive oil",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "olive_oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Olive oil – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "section": "04 salsa verde tikka",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt – as needed"
+    },
+    {
+      "item": "hung curd",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "greek_yogurt",
+      "qty": 2,
+      "unit": "tbsp",
+      "type": "dairy",
+      "as_written": "Hung curd – 2 tbsp"
+    },
+    {
+      "item": "caramelised onion paste",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "onion",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "type": "produce",
+      "as_written": "Caramelised onion paste – 1½ tbsp"
+    },
+    {
+      "item": "mild kasundi",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "kasundi",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Mild kasundi – 1 tsp"
+    },
+    {
+      "item": "Dijon mustard",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "dijon_mustard",
+      "qty": 0.5,
+      "unit": "tsp",
+      "type": "sauce",
+      "as_written": "Dijon mustard – ½ tsp"
+    },
+    {
+      "item": "turmeric",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "turmeric",
+      "qty": 1,
+      "unit": "pinch",
+      "type": "spice",
+      "as_written": "Turmeric – a small pinch"
+    },
+    {
+      "item": "black pepper",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "black_pepper",
+      "qty": 0.25,
+      "unit": "tsp",
+      "type": "spice",
+      "as_written": "Black pepper – ¼ tsp"
+    },
+    {
+      "item": "neutral oil",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "type": "pantry",
+      "as_written": "Neutral oil – 1 tsp"
+    },
+    {
+      "item": "salt",
+      "section": "05 french onion kasundi",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": null,
+      "type": "spice",
+      "as_written": "Salt – as needed"
+    }
+  ],
+  "steps": [
+    "Seoul Gochujang × Ghee Roast, with Curry Leaves, Cashews & Chilli Oil.",
+    "Cook It: Grill, air-fry, pan-sear or add to a coconut-based gravy.",
+    "Gochujang Ghee Roast Rice Bowl — Sesame rice, grilled paneer, smashed cucumber, pickled carrots and spring onions.",
+    "Ghee Roast Roomali Wrap — Roomali roti filled with paneer, cabbage slaw, pickled onions and lime yoghurt.",
+    "Bombay Pineapple Chaat × BBQ, with Charred Pineapple & Red Onion.",
+    "Cook It: Grill, air-fry or pan-sear over moderate heat.",
+    "BBQ Paneer Burrito — Paneer, coriander rice, black beans, sautéed peppers, lettuce and sour cream in a toasted tortilla.",
+    "Chaat BBQ Paneer Skewers — Paneer skewered with capsicum and onion, grilled and served with mint yoghurt.",
+    "Chole Caesar × Kolkata Kasundi, with Crispy Chickpeas & Cracked Pepper.",
+    "Cook It: Pan-sear, grill or air-fry until lightly golden.",
+    "Paneer Caesar Crunch Salad — Romaine, cucumber, crispy chickpeas and grilled paneer with Caesar dressing and crushed croutons.",
+    "Kasundi Paneer Baguette — A crusty baguette filled with sliced paneer, lettuce, tomato, cucumber, pickled beetroot and kasundi mayo.",
+    "Salsa Verde × Amritsari Tikka, with Green Chilli & Toasted Pumpkin Seeds.",
+    "Cook It: Grill, air-fry, pan-sear or crumble and sauté as keema.",
+    "Green Tikka Paneer Quesadilla — Chopped paneer, sautéed onions and melting cheese in a crisp tortilla, served with lime yoghurt.",
+    "Green Paneer Keema Pav — Crumbled paneer sautéed with onions and peppers, finished with salsa verde and stuffed into butter-toasted pav.",
+    "Parisian French Onion × Kasundi, with Crispy Onions & Chives.",
+    "Cook It: Pan-sear, grill, air-fry or add to a creamy mushroom gravy.",
+    "French Onion Paneer Puff Pockets — Puff pastry filled with cooked paneer, sautéed spinach and cheese, baked until golden.",
+    "Creamy Mustard Paneer & Mushroom Gravy — Paneer in a garlic-mushroom cream gravy with kasundi and black pepper, served with garlic toast."
+  ],
+  "assumptions": [
+    "Five marinades, numbered 01/05 to 05/05 on the slides (02/05, 03/05 and 04/05 in between); each is for 250 g paneer.",
+    "The caption names a high-protein paneer brand, and one slide is a brand quote that also mentions their regular paneer for creamier tikkas and rich gravies; no paid-partnership label is visible.",
+    "The \"Make It Into\" ideas are serving suggestions from the slides, kept as steps.",
+    "A marinade, so no meal type."
+  ],
+  "missing": [
+    "Marinating time, and cooking time and temperature"
+  ],
+  "added_at": "2026-11-28",
+  "flags": [
+    {
+      "code": "missing_details",
+      "note": "Marinating time, and cooking time and temperature"
+    }
+  ]
+}

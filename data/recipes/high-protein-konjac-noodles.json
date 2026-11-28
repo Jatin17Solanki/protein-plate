@@ -1,0 +1,202 @@
+{
+  "id": "high-protein-konjac-noodles",
+  "title": "High-Protein Konjac Noodles",
+  "source": {
+    "url": "https://www.youtube.com/shorts/oSRXcEvyU3I",
+    "platform": "youtube",
+    "creator": "Harsh Katkade Fitness",
+    "creator_url": null,
+    "ref": "batches/instinct-B005.txt#14"
+  },
+  "status": "complete",
+  "meal_types": {
+    "values": [
+      "lunch"
+    ],
+    "stated_by_user": [
+      "lunch"
+    ]
+  },
+  "main_proteins": [
+    "paneer"
+  ],
+  "supporting_proteins": [
+    "soya_chunks"
+  ],
+  "tags": [
+    "pasta_noodles",
+    "global",
+    "quick"
+  ],
+  "dish_group": null,
+  "variant_label": null,
+  "per_portion": {
+    "protein_g": 35,
+    "kcal": 430,
+    "carbs_g": 28,
+    "fat_g": 22,
+    "fibre_g": null,
+    "is_estimate": false
+  },
+  "stated_macros": {
+    "basis": "per serving (makes 1), approx.",
+    "protein_g": 35,
+    "kcal": 430,
+    "carbs_g": 28,
+    "fat_g": 22
+  },
+  "protein_working": [],
+  "servings": 1,
+  "ingredients": [
+    {
+      "item": "konjac noodles",
+      "section": "noodles",
+      "ingredient_id": "shirataki",
+      "qty": 200,
+      "unit": "g",
+      "type": "grain",
+      "as_written": "Konjac Noodles – 200 g"
+    },
+    {
+      "item": "low-fat paneer",
+      "section": "noodles",
+      "ingredient_id": "paneer_low_fat",
+      "qty": 100,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Low-Fat Paneer – 100 g"
+    },
+    {
+      "item": "soya chunks (dry), soaked & squeezed",
+      "section": "noodles",
+      "ingredient_id": "soya_chunks",
+      "qty": 30,
+      "unit": "g",
+      "type": "protein",
+      "as_written": "Soya Chunks (Dry) – 30 g (soaked & squeezed)"
+    },
+    {
+      "item": "red cabbage",
+      "section": "noodles",
+      "ingredient_id": "cabbage",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Red Cabbage – 50 g"
+    },
+    {
+      "item": "carrot",
+      "section": "noodles",
+      "ingredient_id": "carrot",
+      "qty": 50,
+      "unit": "g",
+      "type": "produce",
+      "as_written": "Carrot – 50 g"
+    },
+    {
+      "item": "olive oil",
+      "section": "noodles",
+      "ingredient_id": "olive_oil",
+      "qty": 5,
+      "unit": "ml",
+      "type": "pantry",
+      "as_written": "Olive Oil – 5 ml"
+    },
+    {
+      "item": "honey",
+      "section": "sauce",
+      "ingredient_id": "honey",
+      "qty": 10,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Honey – 10 g"
+    },
+    {
+      "item": "peanut butter",
+      "section": "sauce",
+      "ingredient_id": "peanut_butter",
+      "qty": 15,
+      "unit": "g",
+      "type": "pantry",
+      "as_written": "Peanut Butter – 15 g"
+    },
+    {
+      "item": "red chilli sauce",
+      "section": "sauce",
+      "ingredient_id": "chilli_sauce",
+      "qty": 10,
+      "unit": "g",
+      "type": "sauce",
+      "as_written": "Red Chilli Sauce – 10 g"
+    },
+    {
+      "item": "Schezwan chutney",
+      "section": "sauce",
+      "ingredient_id": "schezwan_chutney",
+      "qty": 10,
+      "unit": "g",
+      "type": "sauce",
+      "as_written": "Schezwan Chutney – 10 g"
+    },
+    {
+      "item": "soy sauce",
+      "section": "sauce",
+      "ingredient_id": "soy_sauce",
+      "qty": 10,
+      "unit": "ml",
+      "type": "sauce",
+      "as_written": "Soy Sauce – 10 ml"
+    },
+    {
+      "item": "lemon juice",
+      "section": "sauce",
+      "ingredient_id": "lemon",
+      "qty": 0.5,
+      "unit": "piece",
+      "type": "produce",
+      "as_written": "Juice of ½ Lemon"
+    },
+    {
+      "item": "salt",
+      "section": "sauce",
+      "ingredient_id": "salt",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, Black Pepper & Chilli Flakes – To taste"
+    },
+    {
+      "item": "black pepper",
+      "section": "sauce",
+      "ingredient_id": "black_pepper",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, Black Pepper & Chilli Flakes – To taste"
+    },
+    {
+      "item": "chilli flakes",
+      "section": "sauce",
+      "ingredient_id": "chilli_flakes",
+      "qty": null,
+      "unit": "to_taste",
+      "type": "spice",
+      "as_written": "Salt, Black Pepper & Chilli Flakes – To taste"
+    }
+  ],
+  "steps": [
+    "Heat 5 ml olive oil and sauté the red cabbage and carrot for 3–4 minutes. Set aside.",
+    "Mix honey, peanut butter, red chilli sauce, Schezwan chutney, soy sauce, lemon juice and seasonings to prepare the sauce.",
+    "Blend 100 g low-fat paneer with 30 g soaked soya chunks into a coarse crumble. Cook it in a non-stick pan for 4–5 minutes with a little salt, black pepper and chilli flakes.",
+    "Soak 200 g konjac noodles in water for 2–3 minutes, rinse well and drain completely.",
+    "Combine the noodles, sautéed vegetables, protein crumble and sauce. Toss well and serve."
+  ],
+  "assumptions": [
+    "Creator also states 11 g fibre.",
+    "The creator calls it an office lunch.",
+    "Quick is our estimate."
+  ],
+  "missing": [],
+  "added_at": "2026-11-28",
+  "flags": []
+}
